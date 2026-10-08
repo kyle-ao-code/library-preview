@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T17:05:18+08:00",
+ "generated_at": "2026-10-08T17:11:23+08:00",
  "window_days": 60,
  "discord_ok": true,
  "discord_problem": null,
@@ -267,7 +267,7 @@
      "channel_id": "1208476333089497189"
     }
    ],
-   "title_zh": "下次网络升级起，部署方活跃结果合约上限从 100 提至 200",
+   "title_zh": "下次升级起部署方活跃结果合约（预测市场）上限从 100 提至 200",
    "testnet_only": false,
    "flags": [],
    "title_en": "Based on builder feedback, on the next network upgrade"
@@ -631,7 +631,7 @@
      "channel_id": "1208476333089497189"
     }
    ],
-   "title_zh": "下次网络升级起，结果合约最小下单金额从 $10 降至 $1",
+   "title_zh": "下次升级起结果合约（预测市场）最小下单金额从 $10 降至 $1",
    "testnet_only": false,
    "flags": [],
    "title_en": "On the next network upgrade, based on user feedback"

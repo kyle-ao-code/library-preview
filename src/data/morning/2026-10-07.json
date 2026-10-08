@@ -1,15 +1,17 @@
 {
  "schema": "hl-morning/v1",
  "date": "2026-10-07",
- "updated_at": "2026-10-07T15:26:13+08:00",
+ "updated_at": null,
+ "updated_at_raw": null,
  "window": {
   "start": "2026-10-06T08:10:00+08:00",
   "end": "2026-10-07T08:10:00+08:00"
  },
+ "tracking": [],
  "items": [
   {
-   "title": "FT 报道新加坡监管身份：Labs 认总部在新加坡，MAS 说不在它的管辖范围",
-   "summary": "这件事没有新的执法动作，但把「谁来管 Hyperliquid」摆上了台面，而且正好赶在 Jeff 演讲前。",
+   "title": "FT：Labs 确认总部注册在新加坡，MAS 称不归它管",
+   "summary": "Labs 回应称 Hyperliquid 未受监管、从未说过持有 MAS 许可；这件事目前没有新的执法动作。",
    "sources": [
     {
      "name": "FT",
@@ -25,15 +27,16 @@
     }
    ],
    "flags": [],
-   "ref": {
-    "view": 1,
-    "source_field": "代表链接"
-   }
+   "title_width": 23
   },
   {
-   "title": "AF 回到平时节奏，额外买盘已经结束，媒体还在报「首笔 1458 万」",
-   "summary": "昨天判断「首笔 AQAv2 基本花完」，今天的数据继续支持这个判断。下一笔要等约 11 月初。",
+   "title": "援助基金回到平时买入节奏，额外买盘已结束",
+   "summary": "本窗援助基金只买约 1.44 万枚 HYPE，USDC 余额剩约 6,663 美元；媒体还在报首笔 1458 万。",
    "sources": [
+    {
+     "name": "swolecharts",
+     "url": "https://swolecharts.com/hyperliquid/assistance-fund"
+    },
     {
      "name": "Odaily",
      "url": "https://www.odaily.news/zh-CN/newsflash/522781"
@@ -41,21 +44,14 @@
     {
      "name": "Bitcoin.com",
      "url": "https://news.bitcoin.com/defi/hyperliquid-brings-24-7-perps-bloomberg-hype-eyes-fresh-high/"
-    },
-    {
-     "name": "swolecharts",
-     "url": "https://swolecharts.com/hyperliquid/assistance-fund"
     }
    ],
    "flags": [],
-   "ref": {
-    "view": 2,
-    "source_field": "代表链接"
-   }
+   "title_width": 20
   },
   {
-   "title": "375 万枚团队份额今天可以转账，接下来看它去哪",
-   "summary": "今天是 OTC 安排第一次能被链上检验的日子。窗内还没人报道这批币动了。",
+   "title": "375 万枚解除质押后今天可以转账",
+   "summary": "这批币将分给团队成员，按 Labs 说法属于场外交易、不在公开市场卖；窗内还没有链上转账报道。",
    "sources": [
     {
      "name": "FinanceFeeds",
@@ -67,52 +63,11 @@
     }
    ],
    "flags": [],
-   "ref": {
-    "view": 3,
-    "source_field": "代表链接"
-   }
+   "title_width": 15
   },
   {
-   "title": "盘面降温，大户整体偏空，最大的空头可能是对冲盘",
-   "summary": "价格回落、成交缩三成、OI 不动，像是在等今天的会。大户偏空的数据要打折看。",
-   "sources": [
-    {
-     "name": "ChainCatcher",
-     "url": "https://www.chaincatcher.com/article/2294298"
-    },
-    {
-     "name": "Bitcoin.com",
-     "url": "https://news.bitcoin.com/crypto-news/linked-hyperliquid-giants-take-aim-bitcoin-ether-1-58-billion-crypto-shorts/"
-    },
-    {
-     "name": "Arkham",
-     "url": "https://info.arkm.com/research/abraxas-capitals-massive-short"
-    }
-   ],
-   "flags": [],
-   "ref": {
-    "view": 4,
-    "source_field": "代表链接"
-   }
-  },
-  {
-   "title": "资金面信号方向不一：ETF 小幅流出，个别大户和 Multicoin 还在拿",
-   "summary": "这几条都是单点样本，凑不出「机构在进场」或「机构在撤」的结论。",
-   "sources": [
-    {
-     "name": "Odaily",
-     "url": "https://www.odaily.news/zh-CN/newsflash/522632"
-    }
-   ],
-   "flags": [],
-   "ref": {
-    "view": 5,
-    "source_field": "代表链接"
-   }
-  },
-  {
-   "title": "今天 11 点 Jeff 上主舞台，明天还有一场机构闭门；众议院、币安和官方渠道都没变化",
-   "summary": "今天最可能出一手口径的就是 Jeff 这场对谈，监管、375 万的买方和 AQAv2 都可能被问到。",
+   "title": "Jeff 今天 11 点上 TOKEN2049 主舞台",
+   "summary": "明天还有一场机构闭门场；众议院 10/13 答复期限、币安公告和官方渠道本窗都没有变化。",
    "sources": [
     {
      "name": "TOKEN2049",
@@ -128,43 +83,22 @@
     }
    ],
    "flags": [],
-   "ref": {
-    "view": 6,
-    "source_field": "代表链接"
-   }
+   "title_width": 17
   }
  ],
  "disclaimer": "AI 整理，非投资建议",
  "provenance": {
-  "generator": "build_morning.py 过渡数据（从 daily-final.md 转出）",
-  "file": "/workspace/hl-daily-2026-10-07/daily-final.md"
+  "generator": "情报台 site.json",
+  "file": "/workspace/hl-daily-2026-10-07/site.json"
  },
  "_report": {
   "skipped": [],
-  "long_titles": [
+  "long_titles": [],
+  "problems": [
    {
-    "num": 1,
-    "length": 39,
-    "title": "FT 报道新加坡监管身份：Labs 认总部在新加坡，MAS 说不在它的管辖范围"
-   },
-   {
-    "num": 2,
-    "length": 35,
-    "title": "AF 回到平时节奏，额外买盘已经结束，媒体还在报「首笔 1458 万」"
-   },
-   {
-    "num": 5,
-    "length": 38,
-    "title": "资金面信号方向不一：ETF 小幅流出，个别大户和 Multicoin 还在拿"
-   },
-   {
-    "num": 6,
-    "length": 44,
-    "title": "今天 11 点 Jeff 上主舞台，明天还有一场机构闭门；众议院、币安和官方渠道都没变化"
+    "level": "info",
+    "msg": "往期没有 updated_at，只显示日期"
    }
-  ],
-  "no_summary": [],
-  "no_sources": [],
-  "problems": []
+  ]
  }
 }

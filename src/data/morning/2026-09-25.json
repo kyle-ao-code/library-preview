@@ -2,14 +2,16 @@
  "schema": "hl-morning/v1",
  "date": "2026-09-25",
  "updated_at": null,
+ "updated_at_raw": null,
  "window": {
   "start": "2026-09-24T08:09:00+08:00",
   "end": "2026-09-25T08:09:00+08:00"
  },
+ "tracking": [],
  "items": [
   {
-   "title": "币安现货上线 HYPE（Seed Tag），提现约在 09-25 11:00 UTC",
-   "summary": "本窗最硬的一手是币安 CMS 公告；HL 官号本窗无对应原帖。",
+   "title": "币安现货上线 HYPE（Seed Tag）",
+   "summary": "提现预计 9/25 19:00（北京时间）开放；Hyperliquid 官方账号本窗没有对应原帖。",
    "sources": [
     {
      "name": "Binance",
@@ -25,33 +27,11 @@
     }
    ],
    "flags": [],
-   "ref": {
-    "view": 1,
-    "source_field": "依据"
-   }
+   "title_width": 15
   },
   {
-   "title": "上线后价格回到约 $90–$92；「卖出兑现」叙事升温但证据不全",
-   "summary": "上新与即时涨价脱钩；本拍 mark 低于昨拍，媒体主写回落。",
-   "sources": [
-    {
-     "name": "The Crypto Times",
-     "url": "https://www.cryptotimes.io/2026/09/24/hype-price-slips-below-90-after-binance-opens-spot-trading/"
-    },
-    {
-     "name": "Altcoin Buzz",
-     "url": "https://www.altcoinbuzz.io/hype-drops-binance-listing-whale-transfers"
-    }
-   ],
-   "flags": [],
-   "ref": {
-    "view": 2,
-    "source_field": "依据"
-   }
-  },
-  {
-   "title": "DoubleZero 光纤行情上线；Docs peering 列表窗内交叉列入",
-   "summary": "做市/量化侧基础设施有一条可核的媒体+文档交叉。",
+   "title": "DoubleZero 上线 Hyperliquid 专线光纤行情",
+   "summary": "DoubleZero 为 Hyperliquid 交易者提供专线光纤行情，Docs 的非验证节点页面也已列入。",
    "sources": [
     {
      "name": "Cointelegraph",
@@ -63,118 +43,52 @@
     }
    ],
    "flags": [],
-   "ref": {
-    "view": 3,
-    "source_field": "依据"
-   }
+   "title_width": 20
   },
   {
-   "title": "Paragon 上线 $2Y/$30Y 美债收益率永续；Nest epoch43 回购并发奖",
-   "summary": "HIP-3 / 生态产品继续用「TradFi 收益与回购发奖」讲故事，均非 HL 官号背书。",
+   "title": "Paragon 上线美债收益率永续合约",
+   "summary": "品种是 2 年和 30 年期美债收益率；Nest 完成 Epoch 43 回购并发奖。都是项目方自述。",
    "sources": [
     {
-     "name": "tradeparagon",
+     "name": "Paragon",
      "url": "https://x.com/tradeparagon/status/2103126961874928066"
     },
     {
-     "name": "NestExchange",
+     "name": "Nest",
      "url": "https://x.com/NestExchange/status/2103120246697504899"
-    },
-    {
-     "name": "BounceTech",
-     "url": "https://x.com/BounceTech/status/2103241284890550386"
     }
    ],
    "flags": [
     "项目自述"
    ],
-   "ref": {
-    "view": 4,
-    "source_field": "依据"
-   }
+   "title_width": 15
   },
   {
-   "title": "HyperliquidPC：CFTC 口径下 mandatory records 可留公链",
-   "summary": "监管叙事本窗有一条可点原帖；另有一则评论信报道落在窗边。",
+   "title": "HPC：mandatory records 可留在公链上",
+   "summary": "HPC 称 CFTC 允许这类记录留在公链、不必另存链下副本；这是政策方的说法，不是最终规则文本。",
    "sources": [
     {
      "name": "HyperliquidPC",
      "url": "https://x.com/HyperliquidPC/status/2103239348804293099"
-    },
-    {
-     "name": "Odaily",
-     "url": "https://www.odaily.news/zh-CN/newsflash/520206"
     }
    ],
    "flags": [],
-   "ref": {
-    "view": 5,
-    "source_field": "依据"
-   }
-  },
-  {
-   "title": "OI 多口径续：昨官宣 $18B 仍被引，本拍 API≈$12.83B",
-   "summary": "口径冲突没有因上线新闻消失；本窗无新的官方 OI 里程碑。",
-   "sources": [
-    {
-     "name": "HyperliquidX",
-     "url": "https://x.com/HyperliquidX/status/2102643437896110439"
-    }
-   ],
-   "flags": [],
-   "ref": {
-    "view": 6,
-    "source_field": "依据"
-   }
+   "title_width": 18
   }
  ],
  "disclaimer": "AI 整理，非投资建议",
  "provenance": {
-  "generator": "build_morning.py 过渡数据（从 daily-final.md 转出）",
-  "file": "/workspace/hl-daily-2026-09-25/daily-final.md"
+  "generator": "情报台 site.json",
+  "file": "/workspace/hl-daily-2026-09-25/site.json"
  },
  "_report": {
-  "skipped": [
+  "skipped": [],
+  "long_titles": [],
+  "problems": [
    {
-    "num": 7,
-    "title": "NEAR Spot 仍无 Strict List 官站 day-N；销毁主稿在窗外",
-    "reason": "不确定标记：依据「待验证」"
+    "level": "info",
+    "msg": "往期没有 updated_at，只显示日期"
    }
-  ],
-  "long_titles": [
-   {
-    "num": 1,
-    "length": 42,
-    "title": "币安现货上线 HYPE（Seed Tag），提现约在 09-25 11:00 UTC"
-   },
-   {
-    "num": 2,
-    "length": 32,
-    "title": "上线后价格回到约 $90–$92；「卖出兑现」叙事升温但证据不全"
-   },
-   {
-    "num": 3,
-    "length": 39,
-    "title": "DoubleZero 光纤行情上线；Docs peering 列表窗内交叉列入"
-   },
-   {
-    "num": 4,
-    "length": 46,
-    "title": "Paragon 上线 $2Y/$30Y 美债收益率永续；Nest epoch43 回购并发奖"
-   },
-   {
-    "num": 5,
-    "length": 45,
-    "title": "HyperliquidPC：CFTC 口径下 mandatory records 可留公链"
-   },
-   {
-    "num": 6,
-    "length": 35,
-    "title": "OI 多口径续：昨官宣 $18B 仍被引，本拍 API≈$12.83B"
-   }
-  ],
-  "no_summary": [],
-  "no_sources": [],
-  "problems": []
+  ]
  }
 }

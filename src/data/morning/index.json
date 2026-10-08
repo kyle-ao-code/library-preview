@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T14:55:13+08:00",
+ "generated_at": "2026-10-08T17:10:31+08:00",
  "latest": "2026-10-08",
  "dates": [
   "2026-10-08",
@@ -25,12 +25,23 @@
  "items": [
   {
    "date": "2026-10-08",
-   "origin": "过渡数据",
-   "problems": [],
+   "origin": "site.json",
+   "problems": [
+    {
+     "level": "item",
+     "item": 6,
+     "title": "MAS 无新动作，Chervinsky 称交易所将上公链",
+     "kind": "status",
+     "msg": "疑似「暂无新进展」的状态条目：应移到顶层 tracking（短名），不占编号；这次照常显示"
+    }
+   ],
    "updated_at": "2026-10-08T08:25:42+08:00",
-   "items": 4,
-   "skipped": 2,
-   "long_titles": 3,
+   "items": 6,
+   "tracking": [],
+   "status_suspects": 1,
+   "flags": 1,
+   "skipped": 0,
+   "long_titles": 0,
    "parsed": {
     "format": "v3-md-links",
     "today_paragraphs": 3,
@@ -42,12 +53,20 @@
   },
   {
    "date": "2026-10-07",
-   "origin": "过渡数据",
-   "problems": [],
-   "updated_at": "2026-10-07T15:26:13+08:00",
-   "items": 6,
+   "origin": "site.json",
+   "problems": [
+    {
+     "level": "info",
+     "msg": "往期没有 updated_at，只显示日期"
+    }
+   ],
+   "updated_at": null,
+   "items": 4,
+   "tracking": [],
+   "status_suspects": 0,
+   "flags": 0,
    "skipped": 0,
-   "long_titles": 4,
+   "long_titles": 0,
    "parsed": {
     "format": "v3-md-links",
     "today_paragraphs": 3,
@@ -59,12 +78,20 @@
   },
   {
    "date": "2026-10-06",
-   "origin": "过渡数据",
-   "problems": [],
+   "origin": "site.json",
+   "problems": [
+    {
+     "level": "info",
+     "msg": "往期没有 updated_at，只显示日期"
+    }
+   ],
    "updated_at": null,
    "items": 6,
-   "skipped": 1,
-   "long_titles": 6,
+   "tracking": [],
+   "status_suspects": 0,
+   "flags": 0,
+   "skipped": 0,
+   "long_titles": 0,
    "parsed": {
     "format": "v3-md-links",
     "today_paragraphs": 2,
@@ -76,12 +103,20 @@
   },
   {
    "date": "2026-10-05",
-   "origin": "过渡数据",
-   "problems": [],
+   "origin": "site.json",
+   "problems": [
+    {
+     "level": "info",
+     "msg": "往期没有 updated_at，只显示日期"
+    }
+   ],
    "updated_at": null,
    "items": 4,
-   "skipped": 2,
-   "long_titles": 4,
+   "tracking": [],
+   "status_suspects": 0,
+   "flags": 1,
+   "skipped": 0,
+   "long_titles": 0,
    "parsed": {
     "format": "v3-md-links",
     "today_paragraphs": 2,
@@ -93,12 +128,27 @@
   },
   {
    "date": "2026-10-04",
-   "origin": "过渡数据",
-   "problems": [],
+   "origin": "site.json",
+   "problems": [
+    {
+     "level": "info",
+     "msg": "往期没有 updated_at，只显示日期"
+    },
+    {
+     "level": "item",
+     "item": 2,
+     "title": "众议院答复期限仍是 10/13，币安提现无新公告",
+     "kind": "status",
+     "msg": "疑似「暂无新进展」的状态条目：应移到顶层 tracking（短名），不占编号；这次照常显示"
+    }
+   ],
    "updated_at": null,
    "items": 2,
-   "skipped": 4,
-   "long_titles": 2,
+   "tracking": [],
+   "status_suspects": 1,
+   "flags": 1,
+   "skipped": 0,
+   "long_titles": 0,
    "parsed": {
     "format": "v2-list-fields",
     "today_paragraphs": 1,
@@ -110,12 +160,27 @@
   },
   {
    "date": "2026-10-03",
-   "origin": "过渡数据",
-   "problems": [],
+   "origin": "site.json",
+   "problems": [
+    {
+     "level": "info",
+     "msg": "往期没有 updated_at，只显示日期"
+    },
+    {
+     "level": "item",
+     "item": 3,
+     "title": "众议院答复期限仍是 10/13，币安提现无新公告",
+     "kind": "status",
+     "msg": "疑似「暂无新进展」的状态条目：应移到顶层 tracking（短名），不占编号；这次照常显示"
+    }
+   ],
    "updated_at": null,
    "items": 3,
-   "skipped": 3,
-   "long_titles": 3,
+   "tracking": [],
+   "status_suspects": 1,
+   "flags": 2,
+   "skipped": 0,
+   "long_titles": 0,
    "parsed": {
     "format": "v2-list-fields",
     "today_paragraphs": 1,
@@ -127,12 +192,27 @@
   },
   {
    "date": "2026-10-02",
-   "origin": "过渡数据",
-   "problems": [],
+   "origin": "site.json",
+   "problems": [
+    {
+     "level": "info",
+     "msg": "往期没有 updated_at，只显示日期"
+    },
+    {
+     "level": "item",
+     "item": 4,
+     "title": "众议院答复期限仍是 10/13，币安提现无新公告",
+     "kind": "status",
+     "msg": "疑似「暂无新进展」的状态条目：应移到顶层 tracking（短名），不占编号；这次照常显示"
+    }
+   ],
    "updated_at": null,
    "items": 4,
-   "skipped": 2,
-   "long_titles": 4,
+   "tracking": [],
+   "status_suspects": 1,
+   "flags": 2,
+   "skipped": 0,
+   "long_titles": 0,
    "parsed": {
     "format": "v2-list-fields",
     "today_paragraphs": 1,
@@ -144,12 +224,20 @@
   },
   {
    "date": "2026-10-01",
-   "origin": "过渡数据",
-   "problems": [],
+   "origin": "site.json",
+   "problems": [
+    {
+     "level": "info",
+     "msg": "往期没有 updated_at，只显示日期"
+    }
+   ],
    "updated_at": null,
    "items": 3,
-   "skipped": 3,
-   "long_titles": 3,
+   "tracking": [],
+   "status_suspects": 0,
+   "flags": 1,
+   "skipped": 0,
+   "long_titles": 0,
    "parsed": {
     "format": "v2-list-fields",
     "today_paragraphs": 1,
@@ -161,12 +249,20 @@
   },
   {
    "date": "2026-09-30",
-   "origin": "过渡数据",
-   "problems": [],
+   "origin": "site.json",
+   "problems": [
+    {
+     "level": "info",
+     "msg": "往期没有 updated_at，只显示日期"
+    }
+   ],
    "updated_at": null,
-   "items": 7,
+   "items": 3,
+   "tracking": [],
+   "status_suspects": 0,
+   "flags": 1,
    "skipped": 0,
-   "long_titles": 7,
+   "long_titles": 0,
    "parsed": {
     "format": "v2-list-fields",
     "today_paragraphs": 1,
@@ -178,12 +274,20 @@
   },
   {
    "date": "2026-09-29",
-   "origin": "过渡数据",
-   "problems": [],
+   "origin": "site.json",
+   "problems": [
+    {
+     "level": "info",
+     "msg": "往期没有 updated_at，只显示日期"
+    }
+   ],
    "updated_at": null,
-   "items": 5,
-   "skipped": 2,
-   "long_titles": 5,
+   "items": 2,
+   "tracking": [],
+   "status_suspects": 0,
+   "flags": 1,
+   "skipped": 0,
+   "long_titles": 0,
    "parsed": {
     "format": "v2-list-fields",
     "today_paragraphs": 1,
@@ -195,12 +299,20 @@
   },
   {
    "date": "2026-09-28",
-   "origin": "过渡数据",
-   "problems": [],
+   "origin": "site.json",
+   "problems": [
+    {
+     "level": "info",
+     "msg": "往期没有 updated_at，只显示日期"
+    }
+   ],
    "updated_at": null,
-   "items": 4,
-   "skipped": 2,
-   "long_titles": 4,
+   "items": 2,
+   "tracking": [],
+   "status_suspects": 0,
+   "flags": 1,
+   "skipped": 0,
+   "long_titles": 0,
    "parsed": {
     "format": "v2-list-fields",
     "today_paragraphs": 1,
@@ -212,12 +324,20 @@
   },
   {
    "date": "2026-09-27",
-   "origin": "过渡数据",
-   "problems": [],
+   "origin": "site.json",
+   "problems": [
+    {
+     "level": "info",
+     "msg": "往期没有 updated_at，只显示日期"
+    }
+   ],
    "updated_at": null,
-   "items": 5,
-   "skipped": 2,
-   "long_titles": 5,
+   "items": 2,
+   "tracking": [],
+   "status_suspects": 0,
+   "flags": 1,
+   "skipped": 0,
+   "long_titles": 0,
    "parsed": {
     "format": "v2-list-fields",
     "today_paragraphs": 1,
@@ -229,12 +349,20 @@
   },
   {
    "date": "2026-09-26",
-   "origin": "过渡数据",
-   "problems": [],
+   "origin": "site.json",
+   "problems": [
+    {
+     "level": "info",
+     "msg": "往期没有 updated_at，只显示日期"
+    }
+   ],
    "updated_at": null,
-   "items": 5,
-   "skipped": 2,
-   "long_titles": 5,
+   "items": 4,
+   "tracking": [],
+   "status_suspects": 0,
+   "flags": 2,
+   "skipped": 0,
+   "long_titles": 0,
    "parsed": {
     "format": "v2-list-fields",
     "today_paragraphs": 1,
@@ -246,12 +374,20 @@
   },
   {
    "date": "2026-09-25",
-   "origin": "过渡数据",
-   "problems": [],
+   "origin": "site.json",
+   "problems": [
+    {
+     "level": "info",
+     "msg": "往期没有 updated_at，只显示日期"
+    }
+   ],
    "updated_at": null,
-   "items": 6,
-   "skipped": 1,
-   "long_titles": 6,
+   "items": 4,
+   "tracking": [],
+   "status_suspects": 0,
+   "flags": 1,
+   "skipped": 0,
+   "long_titles": 0,
    "parsed": {
     "format": "v2-list-fields",
     "today_paragraphs": 1,
@@ -263,12 +399,20 @@
   },
   {
    "date": "2026-09-24",
-   "origin": "过渡数据",
-   "problems": [],
+   "origin": "site.json",
+   "problems": [
+    {
+     "level": "info",
+     "msg": "往期没有 updated_at，只显示日期"
+    }
+   ],
    "updated_at": null,
-   "items": 5,
-   "skipped": 1,
-   "long_titles": 2,
+   "items": 3,
+   "tracking": [],
+   "status_suspects": 0,
+   "flags": 2,
+   "skipped": 0,
+   "long_titles": 0,
    "parsed": {
     "format": "v2-list-fields",
     "today_paragraphs": 1,
@@ -280,12 +424,27 @@
   },
   {
    "date": "2026-09-23",
-   "origin": "过渡数据",
-   "problems": [],
+   "origin": "site.json",
+   "problems": [
+    {
+     "level": "info",
+     "msg": "往期没有 updated_at，只显示日期"
+    },
+    {
+     "level": "item",
+     "item": 1,
+     "title": "官方三个 X 账号本窗没有产品公告",
+     "kind": "status",
+     "msg": "疑似「暂无新进展」的状态条目：应移到顶层 tracking（短名），不占编号；这次照常显示"
+    }
+   ],
    "updated_at": null,
-   "items": 4,
-   "skipped": 3,
-   "long_titles": 1,
+   "items": 2,
+   "tracking": [],
+   "status_suspects": 1,
+   "flags": 1,
+   "skipped": 0,
+   "long_titles": 0,
    "parsed": {
     "format": "v2-list-fields",
     "today_paragraphs": 1,
@@ -297,12 +456,20 @@
   },
   {
    "date": "2026-09-22",
-   "origin": "过渡数据",
-   "problems": [],
+   "origin": "site.json",
+   "problems": [
+    {
+     "level": "info",
+     "msg": "往期没有 updated_at，只显示日期"
+    }
+   ],
    "updated_at": null,
    "items": 2,
-   "skipped": 4,
-   "long_titles": 1,
+   "tracking": [],
+   "status_suspects": 0,
+   "flags": 1,
+   "skipped": 0,
+   "long_titles": 0,
    "parsed": {
     "format": "v2-list-fields",
     "today_paragraphs": 1,
@@ -314,12 +481,20 @@
   },
   {
    "date": "2026-09-21",
-   "origin": "过渡数据",
-   "problems": [],
+   "origin": "site.json",
+   "problems": [
+    {
+     "level": "info",
+     "msg": "往期没有 updated_at，只显示日期"
+    }
+   ],
    "updated_at": null,
-   "items": 3,
-   "skipped": 4,
-   "long_titles": 2,
+   "items": 2,
+   "tracking": [],
+   "status_suspects": 0,
+   "flags": 0,
+   "skipped": 0,
+   "long_titles": 0,
    "parsed": {
     "format": "v1-paragraph-fields",
     "today_paragraphs": 1,

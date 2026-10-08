@@ -2,92 +2,65 @@
  "schema": "hl-morning/v1",
  "date": "2026-10-04",
  "updated_at": null,
+ "updated_at_raw": null,
  "window": {
   "start": "2026-10-03T08:07:00+08:00",
   "end": "2026-10-04T08:07:00+08:00"
  },
+ "tracking": [],
  "items": [
   {
-   "title": "Ascend 上线 Discord，发 $20k Elysium grants，团队赴 TOKEN2049 新加坡约见（一手）",
-   "summary": "生态产品侧本窗有项目方一手。权重次于 AQAv2 口径差与 Strategies 叙事，但构成可核的产品 continuum。",
+   "title": "Ascend 上线 Discord 并发放 grants",
+   "summary": "项目方原帖宣布发 2 万美元 Elysium grants，团队同时赴 TOKEN2049 新加坡约见。",
    "sources": [
     {
-     "name": "AscendLaunch",
+     "name": "Ascend",
      "url": "https://x.com/AscendLaunch/status/2106189953210454331"
-    },
-    {
-     "name": "hypurrdash",
-     "url": "https://x.com/hypurrdash/status/2106341818917089788"
-    },
-    {
-     "name": "kylewmi",
-     "url": "https://x.com/kylewmi/status/2106535017186750705"
     }
    ],
-   "flags": [],
-   "ref": {
-    "view": 3,
-    "source_field": "依据"
-   }
+   "flags": [
+    "项目自述"
+   ],
+   "title_width": 17
   },
   {
-   "title": "非正式 dayNtl 约 $1.94B↓约 76.22% 与 OI 约 $12.82B↑约 1.09% 同窗，勿写成单一因果；正式里程碑无",
-   "summary": "量能相对昨高位大幅回落，未平仓名义微升，HYPE 近平。两边各自可核到拍点对照，禁止用回落否定仓位，也禁止用 OI 微升否定量能回落。",
+   "title": "众议院答复期限仍是 10/13，币安提现无新公告",
+   "summary": "监管和币安提现两条线本窗都没有新进展，官方三个 X 账号也没有新帖。",
    "sources": [
     {
-     "name": "Hyperliquid",
-     "url": "https://api.hyperliquid.xyz/info"
+     "name": "House Oversight",
+     "url": "https://oversight.house.gov/release/comer-continues-investigation-into-insider-trading-on-online-prediction-market-platforms/"
+    },
+    {
+     "name": "Binance",
+     "url": "https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d"
     }
    ],
    "flags": [],
-   "ref": {
-    "view": 5,
-    "source_field": "依据"
-   }
+   "title_width": 21,
+   "status_suspect": true
   }
  ],
  "disclaimer": "AI 整理，非投资建议",
  "provenance": {
-  "generator": "build_morning.py 过渡数据（从 daily-final.md 转出）",
-  "file": "/workspace/hl-daily-2026-10-04/daily-final.md"
+  "generator": "情报台 site.json",
+  "file": "/workspace/hl-daily-2026-10-04/site.json"
  },
  "_report": {
-  "skipped": [
+  "skipped": [],
+  "long_titles": [],
+  "problems": [
    {
-    "num": 1,
-    "title": "AQAv2≈$14.58M 已付协议侧：CryptoBriefing 写仍待转入 AF，HypedLaunches 写已划入 AF，口径差待核；AF 尚未部署买入；非正式 dayNtl 约 $1.94B↓约 76.22%，OI 约 $12.82B↑约 1.09%",
-    "reason": "不确定标记：依据「待验证」"
+    "level": "info",
+    "msg": "往期没有 updated_at，只显示日期"
    },
    {
-    "num": 2,
-    "title": "媒体称 Hyperliquid Strategies 再买入约 190 万枚 HYPE / ~$167M，持仓叙事约 3700 万枚（待验证）",
-    "reason": "不确定标记：依据「待验证」、风险/反证「未证实」、标题「待验证」"
-   },
-   {
-    "num": 4,
-    "title": "Tate 向币安存入约 20,950 HYPE；约 387k HYPE 自 Kinetiq 转未知钱包；二手称未来 7 日解质押约 5.88M、最大日约 10/7（转入≠已卖）",
-    "reason": "不确定标记：依据「待验证」"
-   },
-   {
-    "num": 6,
-    "title": "众议院调查弱续写，答复仍 10-13；币安提现仍无「已开放」新 CMS；S 三官号静默；拒绝 Season 3/10/5 传闻与二手 Builder Codes、日费当正式里程碑",
-    "reason": "不确定标记：结论「传闻」、为什么「传闻」、依据「传闻」、风险/反证「传闻」、置信度「传闻」、标题「传闻」"
+    "level": "item",
+    "item": 2,
+    "title": "众议院答复期限仍是 10/13，币安提现无新公告",
+    "kind": "status",
+    "msg": "疑似「暂无新进展」的状态条目：应移到顶层 tracking（短名），不占编号；这次照常显示"
    }
-  ],
-  "long_titles": [
-   {
-    "num": 3,
-    "length": 63,
-    "title": "Ascend 上线 Discord，发 $20k Elysium grants，团队赴 TOKEN2049 新加坡约见（一手）"
-   },
-   {
-    "num": 5,
-    "length": 69,
-    "title": "非正式 dayNtl 约 $1.94B↓约 76.22% 与 OI 约 $12.82B↑约 1.09% 同窗，勿写成单一因果；正式里程碑无"
-   }
-  ],
-  "no_summary": [],
-  "no_sources": [],
-  "problems": []
+  ]
  }
 }

@@ -2,182 +2,57 @@
  "schema": "hl-morning/v1",
  "date": "2026-09-27",
  "updated_at": null,
+ "updated_at_raw": null,
  "window": {
   "start": "2026-09-26T08:15:00+08:00",
   "end": "2026-09-27T08:15:00+08:00"
  },
+ "tracking": [],
  "items": [
   {
-   "title": "币安 HYPE 提现预计时点已过，本窗仍无「已开放」新 CMS",
-   "summary": "提现时点仍停在 CMS「预计」口径；本窗没有新的开放确认公告。中文有机帖开始把上线后回落与永续份额虹吸并读。",
+   "title": "币安 HYPE 提现已过预计时间，仍无开放公告",
+   "summary": "提现时点还停在币安公告里的「预计」口径，本窗没有新的开放确认。",
    "sources": [
     {
      "name": "Binance",
      "url": "https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d"
-    },
-    {
-     "name": "Bitcoinist",
-     "url": "https://bitcoinist.com/binance-lists-hyperliquid-hype-for-spot-trading/"
-    },
-    {
-     "name": "Maddere7",
-     "url": "https://x.com/Maddere7/status/2103996268213305392"
     }
    ],
    "flags": [],
-   "ref": {
-    "view": 1,
-    "source_field": "依据"
-   }
+   "title_width": 20
   },
   {
-   "title": "非正式 dayNtl 约 $2.98B（↓约 58%），OI 约 $13.00B 微降；勿与媒体多口径混读",
-   "summary": "本拍日名义成交较昨拍回落约 58%，未平仓兴趣大致持平微降；热度读法要标非正式，且不能拿媒体 OI 直接对照。",
+   "title": "Share 上线 Nations League 预测盘",
+   "summary": "Nest 将出席 TOKEN2049；本窗生态消息以预测盘和线下活动为主，都是项目方原帖。",
    "sources": [
     {
-     "name": "nbtc",
-     "url": "https://news.nbtc.finance/hyperliquid-open-interest-tops-14-7-billion-highest-since-october-2025/"
-    },
-    {
-     "name": "ChainCatcher",
-     "url": "https://www.chaincatcher.com/en/article/2292365"
-    }
-   ],
-   "flags": [],
-   "ref": {
-    "view": 2,
-    "source_field": "依据"
-   }
-  },
-  {
-   "title": "销毁媒体口径续写；hl.eco 失败；HyperSwap 纠偏 DeFiLlama 回购估算",
-   "summary": "销毁与回购本窗仍无正式 live；媒体在续写累计/24h 数字，同时有项目方质疑看板估算方法。",
-   "sources": [
-    {
-     "name": "Odaily",
-     "url": "https://www.odaily.news/zh-CN/newsflash/520555"
-    },
-    {
-     "name": "TechFlow",
-     "url": "https://techflowpost.com/newsletter/137895"
-    },
-    {
-     "name": "TokenPost",
-     "url": "https://www.tokenpost.com/news/investing/24462"
-    },
-    {
-     "name": "HypedLaunches",
-     "url": "https://x.com/HypedLaunches/status/2103920667632513167"
-    },
-    {
-     "name": "HyperSwapX",
-     "url": "https://x.com/HyperSwapX/status/2103978759443316995"
-    }
-   ],
-   "flags": [],
-   "ref": {
-    "view": 5,
-    "source_field": "依据"
-   }
-  },
-  {
-   "title": "Share 上线英西 Nations League 盘；Nest 出席 TOKEN2049；生态轻量，S 层静默",
-   "summary": "生态产品本窗以预测盘与线下活动为主，密度低于昨窗的 Nest 发奖 / Bounce 上币 / Outcome 15min 集群。",
-   "sources": [
-    {
-     "name": "sharexyz",
+     "name": "Share",
      "url": "https://x.com/sharexyz/status/2103869530782998857"
     },
     {
-     "name": "NestExchange",
+     "name": "Nest",
      "url": "https://x.com/NestExchange/status/2103840353912562032"
-    },
-    {
-     "name": "Outcomexyz",
-     "url": "https://x.com/Outcomexyz/status/2103837390234423713"
     }
    ],
-   "flags": [],
-   "ref": {
-    "view": 6,
-    "source_field": "依据"
-   }
-  },
-  {
-   "title": "NEAR Strict List 仍无官站 day-N；中文讨论 S3 时间表",
-   "summary": "NEAR 入口与 S3 激励时间表本窗仍无正式闭环；中文有「S3 可能拖到 27/28」的单帖强判断，样本薄。",
-   "sources": [
-    {
-     "name": "Odaily",
-     "url": "https://www.odaily.news/zh-CN/newsflash/520538"
-    },
-    {
-     "name": "BitInsider",
-     "url": "https://bitinsider.io/articles/near-reclaims-5-as-bitwise-etf-clears-key-regulatory-hurdle"
-    },
-    {
-     "name": "ChainCatcher",
-     "url": "https://www.chaincatcher.com/article/2291702"
-    },
-    {
-     "name": "GuHype",
-     "url": "https://x.com/GuHype/status/2103926206760693864"
-    }
+   "flags": [
+    "项目自述"
    ],
-   "flags": [],
-   "ref": {
-    "view": 7,
-    "source_field": "依据"
-   }
+   "title_width": 16
   }
  ],
  "disclaimer": "AI 整理，非投资建议",
  "provenance": {
-  "generator": "build_morning.py 过渡数据（从 daily-final.md 转出）",
-  "file": "/workspace/hl-daily-2026-09-27/daily-final.md"
+  "generator": "情报台 site.json",
+  "file": "/workspace/hl-daily-2026-09-27/site.json"
  },
  "_report": {
-  "skipped": [
+  "skipped": [],
+  "long_titles": [],
+  "problems": [
    {
-    "num": 3,
-    "title": "ETF：SoSoValue 美东 09-25 HYPG 净流入约 $324 万；HypedLaunches +$8.24M 待核",
-    "reason": "不确定标记：依据「待验证」"
-   },
-   {
-    "num": 4,
-    "title": "链上提取簇：0xbe51 多所约 $39.2M；三地址自 HL 约 $19.4M",
-    "reason": "不确定标记：依据「待验证」"
+    "level": "info",
+    "msg": "往期没有 updated_at，只显示日期"
    }
-  ],
-  "long_titles": [
-   {
-    "num": 1,
-    "length": 31,
-    "title": "币安 HYPE 提现预计时点已过，本窗仍无「已开放」新 CMS"
-   },
-   {
-    "num": 2,
-    "length": 53,
-    "title": "非正式 dayNtl 约 $2.98B（↓约 58%），OI 约 $13.00B 微降；勿与媒体多口径混读"
-   },
-   {
-    "num": 5,
-    "length": 46,
-    "title": "销毁媒体口径续写；hl.eco 失败；HyperSwap 纠偏 DeFiLlama 回购估算"
-   },
-   {
-    "num": 6,
-    "length": 56,
-    "title": "Share 上线英西 Nations League 盘；Nest 出席 TOKEN2049；生态轻量，S 层静默"
-   },
-   {
-    "num": 7,
-    "length": 39,
-    "title": "NEAR Strict List 仍无官站 day-N；中文讨论 S3 时间表"
-   }
-  ],
-  "no_summary": [],
-  "no_sources": [],
-  "problems": []
+  ]
  }
 }

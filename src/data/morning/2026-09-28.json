@@ -2,134 +2,53 @@
  "schema": "hl-morning/v1",
  "date": "2026-09-28",
  "updated_at": null,
+ "updated_at_raw": null,
  "window": {
   "start": "2026-09-27T08:16:00+08:00",
   "end": "2026-09-28T08:16:00+08:00"
  },
+ "tracking": [],
  "items": [
   {
-   "title": "币安 HYPE 提现预计时点已过多日，本窗仍无「已开放」新 CMS",
-   "summary": "提现时点仍停在 CMS「预计」口径；本窗没有新的开放确认公告。",
+   "title": "币安 HYPE 提现已过预计时间，仍无开放公告",
+   "summary": "提现时点还停在币安公告里的「预计」口径，本窗没有新的开放确认。",
    "sources": [
     {
      "name": "Binance",
      "url": "https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d"
-    },
-    {
-     "name": "Bitcoinist",
-     "url": "https://bitcoinist.com/binance-lists-hyperliquid-hype-for-spot-trading/"
     }
    ],
    "flags": [],
-   "ref": {
-    "view": 2,
-    "source_field": "依据"
-   }
+   "title_width": 20
   },
   {
-   "title": "非正式 dayNtl 约 $4.08B（↑约 37%），OI 约 $13.13B 微升；勿与媒体市佔/巨鲸混读",
-   "summary": "本拍日名义成交较昨拍回升约 37%，未平仓兴趣微升；热度读法要标非正式，且不能拿媒体市佔或巨鲸持仓直接对照。",
+   "title": "Share 上线 NFL 预测盘",
+   "summary": "项目方原帖宣布；同窗其余几条生态消息只有二手转述，没有采用。",
    "sources": [
     {
-     "name": "Odaily",
-     "url": "https://www.odaily.news/zh-CN/newsflash/520678"
-    },
-    {
-     "name": "ChainCatcher",
-     "url": "https://www.chaincatcher.com/article/2292534"
-    }
-   ],
-   "flags": [],
-   "ref": {
-    "view": 3,
-    "source_field": "依据"
-   }
-  },
-  {
-   "title": "Share 上线 NFL 盘；Pear / TradeXYZ / Coinbase Morpho 等生态二手簇",
-   "summary": "生态产品本窗一手以 Share NFL 预测盘为主；其余多条经 HypedLaunches 二手转述，项目方原帖或 CMS 交叉不足。",
-   "sources": [
-    {
-     "name": "sharexyz",
+     "name": "Share",
      "url": "https://x.com/sharexyz/status/2104262221031256517"
-    },
-    {
-     "name": "HypedLaunches",
-     "url": "https://x.com/HypedLaunches/status/2104329534200000912"
     }
    ],
-   "flags": [],
-   "ref": {
-    "view": 4,
-    "source_field": "依据"
-   }
-  },
-  {
-   "title": "销毁/回购二手续写；hl.eco 失败；ETF 本窗无新 SoSoValue 日度",
-   "summary": "销毁与回购本窗仍无正式 live；仅有第三方 tracker 口径，ETF 也没有新的日度净流入一手。",
-   "sources": [
-    {
-     "name": "HypedLaunches",
-     "url": "https://x.com/HypedLaunches/status/2104272055877165268"
-    },
-    {
-     "name": "mkTRQE0jBPxXACO",
-     "url": "https://x.com/mkTRQE0jBPxXACO/status/2104277821925556464"
-    },
-    {
-     "name": "ChainCatcher",
-     "url": "https://www.chaincatcher.com/article/2292366"
-    }
+   "flags": [
+    "项目自述"
    ],
-   "flags": [],
-   "ref": {
-    "view": 6,
-    "source_field": "依据"
-   }
+   "title_width": 11
   }
  ],
  "disclaimer": "AI 整理，非投资建议",
  "provenance": {
-  "generator": "build_morning.py 过渡数据（从 daily-final.md 转出）",
-  "file": "/workspace/hl-daily-2026-09-28/daily-final.md"
+  "generator": "情报台 site.json",
+  "file": "/workspace/hl-daily-2026-09-28/site.json"
  },
  "_report": {
-  "skipped": [
+  "skipped": [],
+  "long_titles": [],
+  "problems": [
    {
-    "num": 1,
-    "title": "下次升级叙事：费率上限 4%→0.5%/小时，HIP-4 部署上限上调",
-    "reason": "不确定标记：依据「待验证」"
-   },
-   {
-    "num": 5,
-    "title": "NEAR：mk4 浮盈媒体续写；Strict List 仍无官站 day-N；OI/spot 成交回升",
-    "reason": "不确定标记：风险/反证「未证实」"
+    "level": "info",
+    "msg": "往期没有 updated_at，只显示日期"
    }
-  ],
-  "long_titles": [
-   {
-    "num": 2,
-    "length": 33,
-    "title": "币安 HYPE 提现预计时点已过多日，本窗仍无「已开放」新 CMS"
-   },
-   {
-    "num": 3,
-    "length": 55,
-    "title": "非正式 dayNtl 约 $4.08B（↑约 37%），OI 约 $13.13B 微升；勿与媒体市佔/巨鲸混读"
-   },
-   {
-    "num": 4,
-    "length": 55,
-    "title": "Share 上线 NFL 盘；Pear / TradeXYZ / Coinbase Morpho 等生态二手簇"
-   },
-   {
-    "num": 6,
-    "length": 41,
-    "title": "销毁/回购二手续写；hl.eco 失败；ETF 本窗无新 SoSoValue 日度"
-   }
-  ],
-  "no_summary": [],
-  "no_sources": [],
-  "problems": []
+  ]
  }
 }

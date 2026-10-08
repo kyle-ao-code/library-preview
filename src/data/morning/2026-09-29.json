@@ -2,60 +2,38 @@
  "schema": "hl-morning/v1",
  "date": "2026-09-29",
  "updated_at": null,
+ "updated_at_raw": null,
  "window": {
   "start": "2026-09-28T08:09:00+08:00",
   "end": "2026-09-29T08:09:00+08:00"
  },
+ "tracking": [],
  "items": [
   {
-   "title": "非正式 dayNtl 约 $7.77B（↑约 90%），OI 约 $12.48B 回落；勿与媒体巨鲸/空头混读",
-   "summary": "本拍日名义成交较昨拍接近翻倍，未平仓兴趣与 HYPE 价格同步回落。热度读法要标非正式，且不能拿媒体巨鲸持仓或 Wintermute 空头直接对照。",
+   "title": "Share 上线 NFL 预测盘",
+   "summary": "Nest 进入 Epoch 44，Liquid 上 pre-IPO 永续合约，Bounce 开 Week 2/3 竞赛空投；都是项目方原帖。",
    "sources": [
     {
-     "name": "ChainCatcher",
-     "url": "https://www.chaincatcher.com/article/2292588"
-    }
-   ],
-   "flags": [],
-   "ref": {
-    "view": 1,
-    "source_field": "依据"
-   }
-  },
-  {
-   "title": "生态产品日：Nest Epoch44、Liquid pre-IPO、Share NFL、Bounce Week2/3",
-   "summary": "本窗生态一手以项目方原帖为主，覆盖锁仓与 pre-IPO 永续，也有体育预测盘和竞赛空投；S 官号与官站无对应公告。",
-   "sources": [
-    {
-     "name": "NestExchange",
-     "url": "https://x.com/NestExchange/status/2104629712353939543"
-    },
-    {
-     "name": "liquidtrading",
-     "url": "https://x.com/liquidtrading/status/2104645988120166611"
-    },
-    {
-     "name": "sharexyz",
+     "name": "Share",
      "url": "https://x.com/sharexyz/status/2104671234437116287"
     },
     {
-     "name": "BounceTech",
-     "url": "https://x.com/BounceTech/status/2104566443081654418"
+     "name": "Nest",
+     "url": "https://x.com/NestExchange/status/2104629712353939543"
     },
     {
-     "name": "Kinetiq_xyz",
-     "url": "https://x.com/Kinetiq_xyz/status/2104619792778797213"
+     "name": "Liquid",
+     "url": "https://x.com/liquidtrading/status/2104645988120166611"
     }
    ],
-   "flags": [],
-   "ref": {
-    "view": 2,
-    "source_field": "依据"
-   }
+   "flags": [
+    "项目自述"
+   ],
+   "title_width": 11
   },
   {
-   "title": "币安 HYPE 提现预计时点已过多日，本窗仍无「已开放」新 CMS",
-   "summary": "提现时点仍停在 CMS「预计」口径；本窗没有新的开放确认公告。",
+   "title": "币安 HYPE 提现已过预计时间，仍无开放公告",
+   "summary": "提现时点还停在币安公告里的「预计」口径，本窗没有新的开放确认。",
    "sources": [
     {
      "name": "Binance",
@@ -63,101 +41,22 @@
     }
    ],
    "flags": [],
-   "ref": {
-    "view": 3,
-    "source_field": "依据"
-   }
-  },
-  {
-   "title": "中文注意力转移：CZ×HL 竞争与 UNI/HYPE 销毁；昨日费率/HIP-4 消退",
-   "summary": "过滤后的中文有机帖，主线换成 CZ 谈 Hyperliquid 竞争、Seanzhao UNI vs HYPE 销毁长文；昨日费率上限与 HIP-4 扩容热议本窗基本消退。",
-   "sources": [
-    {
-     "name": "david1989_zhu",
-     "url": "https://x.com/david1989_zhu/status/2104680022611308724"
-    },
-    {
-     "name": "Seanzhao1105",
-     "url": "https://x.com/Seanzhao1105/status/2104581184550547724"
-    },
-    {
-     "name": "cloudi66",
-     "url": "https://x.com/cloudi66/status/2104688233460490649"
-    },
-    {
-     "name": "Odaily",
-     "url": "https://www.odaily.news/zh-CN/newsflash/520692"
-    }
-   ],
-   "flags": [],
-   "ref": {
-    "view": 4,
-    "source_field": "依据"
-   }
-  },
-  {
-   "title": "NEAR：OI 与 mark 回落，dayNtl 升；Strict List 仍无官站 day-N",
-   "summary": "NEAR 入口故事本窗仍无正式闭环；非正式数字显示 perp OI 与 mark 回落，日名义成交上升。",
-   "sources": [
-    {
-     "name": "NestExchange",
-     "url": "https://x.com/NestExchange/status/2104629712353939543"
-    }
-   ],
-   "flags": [],
-   "ref": {
-    "view": 7,
-    "source_field": "依据"
-   }
+   "title_width": 20
   }
  ],
  "disclaimer": "AI 整理，非投资建议",
  "provenance": {
-  "generator": "build_morning.py 过渡数据（从 daily-final.md 转出）",
-  "file": "/workspace/hl-daily-2026-09-29/daily-final.md"
+  "generator": "情报台 site.json",
+  "file": "/workspace/hl-daily-2026-09-29/site.json"
  },
  "_report": {
-  "skipped": [
+  "skipped": [],
+  "long_titles": [],
+  "problems": [
    {
-    "num": 5,
-    "title": "Wintermute 空头、ZEC 限价卖、Coinglass 巨鲸（待验证，勿与 API 混读）",
-    "reason": "不确定标记：依据「待验证」、标题「待验证」"
-   },
-   {
-    "num": 6,
-    "title": "优先费媒体约 $111 万；S 静默；正式里程碑无",
-    "reason": "不确定标记：依据「待验证」"
+    "level": "info",
+    "msg": "往期没有 updated_at，只显示日期"
    }
-  ],
-  "long_titles": [
-   {
-    "num": 1,
-    "length": 55,
-    "title": "非正式 dayNtl 约 $7.77B（↑约 90%），OI 约 $12.48B 回落；勿与媒体巨鲸/空头混读"
-   },
-   {
-    "num": 2,
-    "length": 58,
-    "title": "生态产品日：Nest Epoch44、Liquid pre-IPO、Share NFL、Bounce Week2/3"
-   },
-   {
-    "num": 3,
-    "length": 33,
-    "title": "币安 HYPE 提现预计时点已过多日，本窗仍无「已开放」新 CMS"
-   },
-   {
-    "num": 4,
-    "length": 43,
-    "title": "中文注意力转移：CZ×HL 竞争与 UNI/HYPE 销毁；昨日费率/HIP-4 消退"
-   },
-   {
-    "num": 7,
-    "length": 49,
-    "title": "NEAR：OI 与 mark 回落，dayNtl 升；Strict List 仍无官站 day-N"
-   }
-  ],
-  "no_summary": [],
-  "no_sources": [],
-  "problems": []
+  ]
  }
 }

@@ -55,6 +55,7 @@ const href = (d: string) => `${base}morning/${d}/`;
           </div>
         </div>
         <div class="panel"><MorningList items={issue.items} /></div>
+        {issue.tracking?.length > 0 && <p class="tracking">持续跟踪，暂无新进展：{issue.tracking.join('、')}</p>}
         <div class="pager">
           {older ? <a href={href(older)}>← {md(older)}</a> : <span></span>}
           {newer ? <a href={href(newer)}>{md(newer)} →</a> : <span>下一期明早 8:45 前更新</span>}

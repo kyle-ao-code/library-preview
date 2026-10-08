@@ -2,52 +2,34 @@
  "schema": "hl-morning/v1",
  "date": "2026-10-02",
  "updated_at": null,
+ "updated_at_raw": null,
  "window": {
   "start": "2026-10-01T08:16:00+08:00",
   "end": "2026-10-02T08:16:00+08:00"
  },
+ "tracking": [],
  "items": [
   {
-   "title": "Kinetiq 最终 kPoints 已分发：可按 $0.26/KNTQ 认购 5000 万枚，窗 10 天；Ascend 澄清长期对齐并称净收入 50% 购 kinetiq:native",
-   "summary": "本窗最抢注意力的一手来自 Kinetiq 积分兑现与 Ascend 对齐澄清。认购价、额度与窗口写在项目方原帖里；公平性质疑仍属中文薄样本。",
+   "title": "Kinetiq 发放最终 kPoints，开放认购",
+   "summary": "按项目方原帖，可认购 5000 万枚 KNTQ，窗口 10 天；Ascend 澄清会和 Kinetiq 长期对齐。",
    "sources": [
     {
-     "name": "Kinetiq_xyz",
+     "name": "Kinetiq",
      "url": "https://x.com/Kinetiq_xyz/status/2105629210048078216"
     },
     {
-     "name": "AscendLaunch",
+     "name": "Ascend",
      "url": "https://x.com/AscendLaunch/status/2105751119037391125"
-    },
-    {
-     "name": "GuHype",
-     "url": "https://x.com/GuHype/status/2105770180689420754"
     }
    ],
-   "flags": [],
-   "ref": {
-    "view": 1,
-    "source_field": "依据"
-   }
-  },
-  {
-   "title": "非正式 OI 约 $12.53B、dayNtl 约 $5.63B、HYPE≈87.78 同降；正式里程碑仍无",
-   "summary": "相对昨拍，未平仓、日名义成交与 HYPE 价格一并转降。这是非正式 API 拍点对照，不是正式里程碑。",
-   "sources": [
-    {
-     "name": "Hyperliquid",
-     "url": "https://hyperliquid.xyz"
-    }
+   "flags": [
+    "项目自述"
    ],
-   "flags": [],
-   "ref": {
-    "view": 2,
-    "source_field": "依据"
-   }
+   "title_width": 17
   },
   {
-   "title": "HPC 向欧盟提交 MiCA 反馈：主张链上永续归入 MiFID II（一手博客+PDF）",
-   "summary": "政策侧本窗有可核一手。Hyperliquid Policy Center 称此为首次美国境外政策呈递，主张按经济实质将永续归入 MiFID II，勿机械套用 CFD 散户限制。咨询反馈不等于已获欧盟分类。",
+   "title": "HPC 提交 MiCA 反馈：永续应归 MiFID II",
+   "summary": "这是 HPC 首次在美国以外提交政策意见；咨询反馈不等于欧盟已经作出分类。",
    "sources": [
     {
      "name": "Hyperliquid Policy Center",
@@ -60,21 +42,28 @@
     {
      "name": "Odaily",
      "url": "https://www.odaily.news/zh-CN/newsflash/521907"
-    },
-    {
-     "name": "House Oversight",
-     "url": "https://oversight.house.gov/release/comer-continues-investigation-into-insider-trading-on-online-prediction-market-platforms/"
     }
    ],
    "flags": [],
-   "ref": {
-    "view": 3,
-    "source_field": "依据"
-   }
+   "title_width": 19
   },
   {
-   "title": "众议院调查弱续写，答复仍 10-13；币安提现仍无「已开放」新 CMS；S 三官号本窗静默",
-   "summary": "监管美线本窗无新公函。币安提现时点仍停在「预计」口径。S 层三官号无新帖。",
+   "title": "Copper 上线 Hyperliquid 永续合约机构交易界面",
+   "summary": "机构入口多了一条公关一手消息，机构实际接入量还没有数据。",
+   "sources": [
+    {
+     "name": "PR Newswire",
+     "url": "https://www.prnewswire.com/news-releases/copper-launches-hyperliquid-trading-interface-302896102.html"
+    }
+   ],
+   "flags": [
+    "项目自述"
+   ],
+   "title_width": 22
+  },
+  {
+   "title": "众议院答复期限仍是 10/13，币安提现无新公告",
+   "summary": "监管线本窗没有新公函，币安提现时点仍停在「预计」口径，官方三个 X 账号也没有新帖。",
    "sources": [
     {
      "name": "House Oversight",
@@ -86,54 +75,30 @@
     }
    ],
    "flags": [],
-   "ref": {
-    "view": 6,
-    "source_field": "依据"
-   }
+   "title_width": 21,
+   "status_suspect": true
   }
  ],
  "disclaimer": "AI 整理，非投资建议",
  "provenance": {
-  "generator": "build_morning.py 过渡数据（从 daily-final.md 转出）",
-  "file": "/workspace/hl-daily-2026-10-02/daily-final.md"
+  "generator": "情报台 site.json",
+  "file": "/workspace/hl-daily-2026-10-02/site.json"
  },
  "_report": {
-  "skipped": [
+  "skipped": [],
+  "long_titles": [],
+  "problems": [
    {
-    "num": 4,
-    "title": "Copper 宣布上线 HL 永续机构交易界面；媒体续写 Labs 约 3.75M HYPE 链上赎回、常转 Flowdesk（待验证）",
-    "reason": "不确定标记：结论「待验证」、依据「待验证」、标题「待验证」"
+    "level": "info",
+    "msg": "往期没有 updated_at，只显示日期"
    },
    {
-    "num": 5,
-    "title": "Nest 发 Q3 报告并开 Epoch 45、推 KNTQ LP→NEST；BVIV 媒体再传播但 universe 仍无名；Onchain Lens 称 24h 销毁约 2.02 万 HYPE（待验证）",
-    "reason": "不确定标记：为什么「待验证」、依据「待验证」、标题「待验证」"
+    "level": "item",
+    "item": 4,
+    "title": "众议院答复期限仍是 10/13，币安提现无新公告",
+    "kind": "status",
+    "msg": "疑似「暂无新进展」的状态条目：应移到顶层 tracking（短名），不占编号；这次照常显示"
    }
-  ],
-  "long_titles": [
-   {
-    "num": 1,
-    "length": 94,
-    "title": "Kinetiq 最终 kPoints 已分发：可按 $0.26/KNTQ 认购 5000 万枚，窗 10 天；Ascend 澄清长期对齐并称净收入 50% 购 kinetiq:native"
-   },
-   {
-    "num": 2,
-    "length": 54,
-    "title": "非正式 OI 约 $12.53B、dayNtl 约 $5.63B、HYPE≈87.78 同降；正式里程碑仍无"
-   },
-   {
-    "num": 3,
-    "length": 45,
-    "title": "HPC 向欧盟提交 MiCA 反馈：主张链上永续归入 MiFID II（一手博客+PDF）"
-   },
-   {
-    "num": 6,
-    "length": 45,
-    "title": "众议院调查弱续写，答复仍 10-13；币安提现仍无「已开放」新 CMS；S 三官号本窗静默"
-   }
-  ],
-  "no_summary": [],
-  "no_sources": [],
-  "problems": []
+  ]
  }
 }

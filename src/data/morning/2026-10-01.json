@@ -2,29 +2,36 @@
  "schema": "hl-morning/v1",
  "date": "2026-10-01",
  "updated_at": null,
+ "updated_at_raw": null,
  "window": {
   "start": "2026-09-30T08:14:00+08:00",
   "end": "2026-10-01T08:14:00+08:00"
  },
+ "tracking": [],
  "items": [
   {
-   "title": "非正式 OI 约 $12.76B、dayNtl 约 $7.06B、HYPE≈90.35 同升；正式里程碑仍无",
-   "summary": "相对昨拍，未平仓、日名义成交与 HYPE 价格一并转升。这是非正式 API 拍点对照，不是正式里程碑。",
+   "title": "375 万枚 HYPE 今天解除质押，10/7 分给团队",
+   "summary": "Hyperliquid Labs 在官方 Discord 说明，这批币属于和机构的场外交易，不在公开市场卖。",
    "sources": [
     {
-     "name": "Hyperliquid",
-     "url": "https://hyperliquid.xyz"
+     "name": "Wu Blockchain",
+     "url": "https://x.com/wublockchain12/status/2105325895749861759"
+    },
+    {
+     "name": "Odaily",
+     "url": "https://www.odaily.news/zh-CN/newsflash/521688"
+    },
+    {
+     "name": "BeInCrypto",
+     "url": "https://beincrypto.com/hyperliquid-token-unlock-320-million-price-impact/"
     }
    ],
    "flags": [],
-   "ref": {
-    "view": 2,
-    "source_field": "依据"
-   }
+   "title_width": 21
   },
   {
-   "title": "官号宣布新加坡 10/5 community event 已超额；Jeff Yan 称自托管与透明度重于 24h 交易",
-   "summary": "S 层本窗唯一一手是线下活动名额已满。联创在 KBW 的媒体采访里，把差异化落在自托管与系统透明度上。",
+   "title": "新加坡 10/5 社区活动报名已满，Jeff 谈自托管",
+   "summary": "Jeff Yan 对 The Block 说，Hyperliquid 的差异化在自托管和透明度，不是 24 小时交易。",
    "sources": [
     {
      "name": "HyperliquidX",
@@ -37,92 +44,43 @@
     {
      "name": "ChainCatcher",
      "url": "https://www.chaincatcher.com/article/2293294"
-    },
-    {
-     "name": "kylewmi",
-     "url": "https://x.com/kylewmi/status/2105251947184071012"
     }
    ],
    "flags": [],
-   "ref": {
-    "view": 3,
-    "source_field": "依据"
-   }
+   "title_width": 22
   },
   {
-   "title": "Outcome 自报预测 OI 约 93%、AQAV2 买回倒计时 4 天；Ascend 回购改 50/50；Nest Vault 累计 $1.22m",
-   "summary": "产品侧本窗仍有项目方一手，覆盖预测市场占比、买回倒计时、回购比例调整与 Vault 累计分发；S 官号无对应产品公告。",
+   "title": "Ascend 回购改为 HYPE、KNTQ 各半",
+   "summary": "原先是 90% HYPE、10% KNTQ；Nest 称 HYPE Engine Vault 累计分发 122 万美元。",
    "sources": [
     {
-     "name": "Outcomexyz",
-     "url": "https://x.com/Outcomexyz/status/2105332835791917282"
-    },
-    {
-     "name": "AscendLaunch",
+     "name": "Ascend",
      "url": "https://x.com/AscendLaunch/status/2105334639556788596"
     },
     {
-     "name": "NestExchange",
+     "name": "Nest",
      "url": "https://x.com/NestExchange/status/2105322983954760092"
-    },
-    {
-     "name": "sharexyz",
-     "url": "https://x.com/sharexyz/status/2105324178786439438"
-    },
-    {
-     "name": "ElysiumEco",
-     "url": "https://x.com/ElysiumEco/status/2105257316014518431"
     }
    ],
-   "flags": [],
-   "ref": {
-    "view": 5,
-    "source_field": "依据"
-   }
+   "flags": [
+    "项目自述"
+   ],
+   "title_width": 16
   }
  ],
  "disclaimer": "AI 整理，非投资建议",
  "provenance": {
-  "generator": "build_morning.py 过渡数据（从 daily-final.md 转出）",
-  "file": "/workspace/hl-daily-2026-10-01/daily-final.md"
+  "generator": "情报台 site.json",
+  "file": "/workspace/hl-daily-2026-10-01/site.json"
  },
  "_report": {
-  "skipped": [
+  "skipped": [],
+  "long_titles": [],
+  "problems": [
    {
-    "num": 1,
-    "title": "媒体转述 Labs/联创 Discord：约 3.75M HYPE 解质押、约 10/7 分团队，称 OTC 不入公开盘（待验证）",
-    "reason": "不确定标记：结论「待验证」、依据「待验证」、标题「待验证」"
-   },
-   {
-    "num": 4,
-    "title": "BVIV 有 GlobeNewswire 公关稿，API universe 仍不见同名资产",
-    "reason": "不确定标记：依据「待验证」"
-   },
-   {
-    "num": 6,
-    "title": "Multicoin 再向 Coinbase Prime 存入约 9.24 万 HYPE（转入≠已卖）；众议院调查弱续写，答复仍 10-13；币安提现仍无「已开放」新 CMS",
-    "reason": "不确定标记：依据「待验证」"
+    "level": "info",
+    "msg": "往期没有 updated_at，只显示日期"
    }
-  ],
-  "long_titles": [
-   {
-    "num": 2,
-    "length": 54,
-    "title": "非正式 OI 约 $12.76B、dayNtl 约 $7.06B、HYPE≈90.35 同升；正式里程碑仍无"
-   },
-   {
-    "num": 3,
-    "length": 59,
-    "title": "官号宣布新加坡 10/5 community event 已超额；Jeff Yan 称自托管与透明度重于 24h 交易"
-   },
-   {
-    "num": 5,
-    "length": 75,
-    "title": "Outcome 自报预测 OI 约 93%、AQAV2 买回倒计时 4 天；Ascend 回购改 50/50；Nest Vault 累计 $1.22m"
-   }
-  ],
-  "no_summary": [],
-  "no_sources": [],
-  "problems": []
+  ]
  }
 }

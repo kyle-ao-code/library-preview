@@ -177,6 +177,8 @@ a.art:hover{transform:var(--lift-hover);box-shadow:var(--shadow-card-hover)}
 .dpage .it{scroll-margin-top:84px}
 .dpage .it:target{background:linear-gradient(90deg,rgba(254,243,199,.7),rgba(254,243,199,0));margin:0 -22px;padding-left:22px;padding-right:22px}
 .flag{font-size:11px;font-weight:650;color:#B45309;background:#FEF3C7;border-radius:4px;padding:1px 6px;margin-left:6px;vertical-align:2px;white-space:nowrap}
+.flag.grey{color:#555;background:#F0F0EE} /* 晨报「媒体转述」 */
+.tracking{margin:12px 2px 0;font-size:13px;color:var(--c-text-2)} /* 晨报详情页底部「持续跟踪，暂无新进展」，首页不显示 */
 .p-ft{margin-top:auto;padding:12px 22px;border-top:1px solid var(--c-divider);font-size:12px;color:var(--c-text-3);display:flex;justify-content:space-between;gap:12px}
 .p-ft a{color:var(--c-text-2)}
 .ann{list-style:none;margin:0;padding:4px 0}

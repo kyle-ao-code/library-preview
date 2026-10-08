@@ -2,6 +2,7 @@
 // 晨报条目列表（首页双栏区和晨报详情页共用）：编号、标题（可带提醒标签）、一句话说明、出处
 // 首页：compact（标题最多两行）、maxSources=3，多出来的合成「+N」，点了跳详情页的这一条（detailHref + #iNN）
 // 详情页：每条带锚点 id="iNN"，出处全部显示
+// 提醒标签：项目自述 黄色、媒体转述 灰色（每条最多一个，build_morning.py 已检查）
 const { items = [], limit = Infinity, maxSources = Infinity, detailHref = null, compact = false } = Astro.props;
 const shown = items.slice(0, limit);
 const nn = (i: number) => String(i + 1).padStart(2, '0');
@@ -14,7 +15,7 @@ const nn = (i: number) => String(i + 1).padStart(2, '0');
       return (
         <li class="it" id={detailHref ? undefined : `i${nn(i)}`}>
           <span class="n">{nn(i)}</span>
-          <h4 title={compact ? it.title : undefined}>{it.title}{(it.flags || []).map((f: string) => <span class="flag">{f}</span>)}</h4>
+          <h4 title={compact ? it.title : undefined}>{it.title}{(it.flags || []).map((f: string) => <span class:list={['flag', { grey: f === '媒体转述' }]}>{f}</span>)}</h4>
           {it.summary && <p>{it.summary}</p>}
           {srcs.length > 0 && (
             <div class="src">

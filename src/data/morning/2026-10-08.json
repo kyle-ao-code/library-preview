@@ -2,93 +2,94 @@
  "schema": "hl-morning/v1",
  "date": "2026-10-08",
  "updated_at": "2026-10-08T08:25:42+08:00",
+ "updated_at_raw": "2026-10-08T08:25:42+08:00",
  "window": {
   "start": "2026-10-07T08:09:00+08:00",
   "end": "2026-10-08T08:09:00+08:00"
  },
+ "tracking": [],
  "items": [
   {
-   "title": "Jeff 的演讲重点在 HIP-3 和 HIP-4，「HL 要出期权」是误读",
-   "summary": "Jeff 给出的是方向，期权留给生态在 HIP-4 上做，没有官方产品和时间表。",
+   "title": "375 万枚完成解除质押，一半分到 5 个场外买方钱包",
+   "summary": "Hyperliquid Labs 的 375 万枚 HYPE 10/7 晚完成解除质押，187.5 万枚已分到 5 个场外买方钱包，各 37.5 万枚。",
    "sources": [
     {
-     "name": "Cointelegraph",
-     "url": "https://x.com/Cointelegraph/status/2107716908518867272"
+     "name": "Onchain Lens",
+     "url": "https://x.com/OnchainLens/status/2107875426492391599"
     },
+    {
+     "name": "EmberCN",
+     "url": "https://x.com/EmberCN/status/2107859974449987712"
+    },
+    {
+     "name": "Odaily",
+     "url": "https://www.odaily.news/zh-CN/newsflash/523042"
+    }
+   ],
+   "flags": [],
+   "title_width": 24
+  },
+  {
+   "title": "Jeff 重点讲 HIP-3/4，「Hyperliquid 出期权」是误读",
+   "summary": "期权要由开发者在 HIP-4 上做，Hyperliquid 自己没给产品和上线时间。",
+   "sources": [
     {
      "name": "SkewTrade",
      "url": "https://x.com/SkewTrade/status/2107872284392173914"
     },
     {
-     "name": "TheBlockCo",
+     "name": "The Block",
      "url": "https://x.com/TheBlockCo/status/2107680469722804517"
     },
     {
-     "name": "KuCoin",
-     "url": "https://www.kucoin.com/news/flash/jeff-yan-hip-3-accounts-for-51-of-hyperliquid-s-volume-platform-targets-open-financial-infrastructure"
-    },
-    {
-     "name": "Blockworks",
-     "url": "https://blockworks.com/podcast/empire/bc375300-c276-11f1-925c-cbee0c7ea3ff"
+     "name": "Cointelegraph",
+     "url": "https://x.com/Cointelegraph/status/2107716908518867272"
     }
    ],
    "flags": [],
-   "ref": {
-    "view": 2,
-    "source_field": "代表链接"
-   }
+   "title_width": 25
   },
   {
-   "title": "生态马上开始抢 HIP-4 的位置：预测市场先上，期权说下周",
-   "summary": "Jeff 一讲完，至少三个项目宣布了 HIP-4 相关进展，大多是项目自述。",
+   "title": "Jeff 讲完，至少三个项目宣布 HIP-4 相关进展",
+   "summary": "Share iOS 版和 Liquid 宣布上线预测市场，Hypercall 预告 HIP-4 上线；都是项目自述。",
    "sources": [
     {
      "name": "Scott_eth",
      "url": "https://x.com/Scott_eth/status/2107851212175605955"
     },
     {
-     "name": "SynapseProtocol",
+     "name": "Synapse",
      "url": "https://x.com/SynapseProtocol/status/2107824416034046146"
     },
     {
-     "name": "liquidtrading",
+     "name": "Liquid",
      "url": "https://x.com/liquidtrading/status/2107862113045639238"
     }
    ],
    "flags": [
     "项目自述"
    ],
-   "ref": {
-    "view": 3,
-    "source_field": "代表链接"
-   }
+   "title_width": 21
   },
   {
-   "title": "BTC 闪崩里，Hyperliquid 成了「抢跑空单」的发生地",
-   "summary": "这轮下跌由 BTC 带动，Hyperliquid 主要是被讨论的交易场所。抢跑空单是否涉及内幕，目前只有时间上的巧合。",
+   "title": "BTC 闪崩，Hyperliquid 成「抢跑空单」讨论地",
+   "summary": "下跌由 BTC 带动，全网多单清算约 5.5 亿美元；跌前有 4 个新钱包在 Hyperliquid 开 40 倍 BTC 空单。",
    "sources": [
     {
-     "name": "lookonchain",
+     "name": "Lookonchain",
      "url": "https://x.com/lookonchain/status/2107665774571856060"
     },
     {
      "name": "Cointelegraph",
      "url": "https://cointelegraph.com/markets/crypto-liquidations-hit-550m-as-bitcoin-price-dips-below-84k"
-    },
-    {
-     "name": "EmberCN",
-     "url": "https://x.com/EmberCN/status/2107761006218797562"
     }
    ],
    "flags": [],
-   "ref": {
-    "view": 4,
-    "source_field": "代表链接"
-   }
+   "title_width": 21
   },
   {
-   "title": "AF 跟着成交回升，USDC 余额在重新攒起来",
-   "summary": "AF 每天买多少由当天手续费决定，波动越大买得越多，昨天回到 2 万枚以上。",
+   "title": "援助基金买入随成交回升，回到每天 2 万枚以上",
+   "summary": "援助基金每天买多少 HYPE 由当天手续费决定，成交放大后买入回升，USDC 余额也在重新攒起来。",
    "sources": [
     {
      "name": "nahnah64",
@@ -100,49 +101,46 @@
     }
    ],
    "flags": [],
-   "ref": {
-    "view": 5,
-    "source_field": "代表链接"
-   }
+   "title_width": 22
+  },
+  {
+   "title": "MAS 无新动作，Chervinsky 称交易所将上公链",
+   "summary": "HPC 的 Jake Chervinsky 说十年内所有交易所都得用公链基础设施；众议院 10/13 期限照旧。",
+   "sources": [
+    {
+     "name": "The Block",
+     "url": "https://x.com/TheBlockCo/status/2107751641592324289"
+    },
+    {
+     "name": "Blockhead",
+     "url": "https://www.blockhead.co/2026/10/07/hyperliquid-confirms-singapore-registration-as-mas-says-exchange-falls-outside-its-jurisdiction/"
+    },
+    {
+     "name": "House Oversight",
+     "url": "https://oversight.house.gov/wp-content/uploads/2026/09/Hyperliquid-Letter-9.29.26.pdf"
+    }
+   ],
+   "flags": [],
+   "title_width": 21,
+   "status_suspect": true
   }
  ],
  "disclaimer": "AI 整理，非投资建议",
  "provenance": {
-  "generator": "build_morning.py 过渡数据（从 daily-final.md 转出）",
-  "file": "/workspace/hl-daily-2026-10-08/daily-final.md"
+  "generator": "情报台 site.json",
+  "file": "/workspace/hl-daily-2026-10-08/site.json"
  },
  "_report": {
-  "skipped": [
+  "skipped": [],
+  "long_titles": [],
+  "problems": [
    {
-    "num": 1,
-    "title": "375 万枚已赎回，一半分到 5 个钱包，接下来盯这 5 个地址和另一半",
-    "reason": "不确定标记：为什么「推测」"
-   },
-   {
-    "num": 6,
-    "title": "监管话题从新闻变成争论；HPC 的 Chervinsky 喊「十年内所有交易所都上公链」",
-    "reason": "不确定标记：依据「待验证」"
+    "level": "item",
+    "item": 6,
+    "title": "MAS 无新动作，Chervinsky 称交易所将上公链",
+    "kind": "status",
+    "msg": "疑似「暂无新进展」的状态条目：应移到顶层 tracking（短名），不占编号；这次照常显示"
    }
-  ],
-  "long_titles": [
-   {
-    "num": 2,
-    "length": 38,
-    "title": "Jeff 的演讲重点在 HIP-3 和 HIP-4，「HL 要出期权」是误读"
-   },
-   {
-    "num": 3,
-    "length": 30,
-    "title": "生态马上开始抢 HIP-4 的位置：预测市场先上，期权说下周"
-   },
-   {
-    "num": 4,
-    "length": 32,
-    "title": "BTC 闪崩里，Hyperliquid 成了「抢跑空单」的发生地"
-   }
-  ],
-  "no_summary": [],
-  "no_sources": [],
-  "problems": []
+  ]
  }
 }

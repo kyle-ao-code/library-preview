@@ -2,37 +2,32 @@
  "schema": "hl-morning/v1",
  "date": "2026-10-05",
  "updated_at": null,
+ "updated_at_raw": null,
  "window": {
   "start": "2026-10-04T08:14:00+08:00",
   "end": "2026-10-05T08:14:00+08:00"
  },
+ "tracking": [],
  "items": [
   {
-   "title": "OI 份额 11.8% 创新高，30 天收入却被 Pump.fun 反超；这两个数要放在一起看",
-   "summary": "仓位规模还在涨，收入没有同步领先。两个数字都是二手，单看哪一个都会读偏。",
+   "title": "AQAv2 首笔 1458 万 USDC 已付到协议侧",
+   "summary": "是否已转进援助基金、什么时候开始买入，本窗还没有可核的链上证据。",
    "sources": [
     {
-     "name": "BlockBeats",
-     "url": "https://en.theblockbeats.news/flash/370236"
+     "name": "The Token Press",
+     "url": "https://www.thetokenpress.com/article/hyperliquid-records-first-14-58m-usdc-reserve-yield-payment-c7a495c4"
     },
     {
-     "name": "Odaily",
-     "url": "https://www.odaily.news/zh-CN/newsflash/522418"
-    },
-    {
-     "name": "adbytes",
-     "url": "https://www.adbytes.media/blog/hyperliquids-reported-118-perpetuals-oi-share-lacks-verifiable-data"
+     "name": "TechFlow",
+     "url": "https://www.techflowpost.com/newsletter/138780"
     }
    ],
    "flags": [],
-   "ref": {
-    "view": 3,
-    "source_field": "代表链接"
-   }
+   "title_width": 18
   },
   {
-   "title": "读取优先费：25 个用户付了 530 万美元，前两名占 81.6%，费用按 Docs 规则销毁",
-   "summary": "这是一条新的、小额但持续的 HYPE 销毁来源，目前几乎只有少数做市商在用。",
+   "title": "priority fees 成 HYPE 新销毁来源",
+   "summary": "按 Docs 规则，priority fees 会被销毁；金额小但持续，目前几乎只有少数做市商在用。",
    "sources": [
     {
      "name": "Hyperliquid Docs",
@@ -44,14 +39,11 @@
     }
    ],
    "flags": [],
-   "ref": {
-    "view": 4,
-    "source_field": "代表链接"
-   }
+   "title_width": 16
   },
   {
-   "title": "生态侧在继续搭：HyperLink 融资 250 万美元，trade.xyz 交易笔数破 2 亿",
-   "summary": "本窗生态里有两条具体动作，权重低于上面四条。",
+   "title": "HyperLink 融资 250 万美元",
+   "summary": "trade.xyz 交易笔数破 2 亿；两条都是项目方自己报的数字。",
    "sources": [
     {
      "name": "TechFlow",
@@ -62,15 +54,14 @@
      "url": "https://www.odaily.news/zh-CN/newsflash/522431"
     }
    ],
-   "flags": [],
-   "ref": {
-    "view": 5,
-    "source_field": "代表链接"
-   }
+   "flags": [
+    "项目自述"
+   ],
+   "title_width": 13
   },
   {
-   "title": "今天新加坡官方活动开场，本周看 Jeff 10/7 讲什么；众议院 10/13、币安提现都没变",
-   "summary": "本周最可能出一手消息的场合是新加坡。本窗 S 层没采到（X 失败），官网、Docs 和基金会站都没有窗内新公告。",
+   "title": "新加坡社区活动今天开场，Jeff 10/7 上台",
+   "summary": "官网、Docs 和基金会站本窗没有新公告；众议院 10/13 答复期限和币安提现都没变。",
    "sources": [
     {
      "name": "TOKEN2049",
@@ -86,54 +77,22 @@
     }
    ],
    "flags": [],
-   "ref": {
-    "view": 6,
-    "source_field": "代表链接"
-   }
+   "title_width": 19
   }
  ],
  "disclaimer": "AI 整理，非投资建议",
  "provenance": {
-  "generator": "build_morning.py 过渡数据（从 daily-final.md 转出）",
-  "file": "/workspace/hl-daily-2026-10-05/daily-final.md"
+  "generator": "情报台 site.json",
+  "file": "/workspace/hl-daily-2026-10-05/site.json"
  },
  "_report": {
-  "skipped": [
+  "skipped": [],
+  "long_titles": [],
+  "problems": [
    {
-    "num": 1,
-    "title": "AQAv2 首笔 1458 万 USDC 已到账；有没有进 AF、什么时候开始买，还没有可核证据",
-    "reason": "不确定标记：依据「待验证」"
-   },
-   {
-    "num": 2,
-    "title": "约 375 万枚 HYPE 本周解锁：日期有 10/6 和 10/7 两种说法，团队说走场外",
-    "reason": "不确定标记：依据「待验证」"
+    "level": "info",
+    "msg": "往期没有 updated_at，只显示日期"
    }
-  ],
-  "long_titles": [
-   {
-    "num": 3,
-    "length": 47,
-    "title": "OI 份额 11.8% 创新高，30 天收入却被 Pump.fun 反超；这两个数要放在一起看"
-   },
-   {
-    "num": 4,
-    "length": 47,
-    "title": "读取优先费：25 个用户付了 530 万美元，前两名占 81.6%，费用按 Docs 规则销毁"
-   },
-   {
-    "num": 5,
-    "length": 48,
-    "title": "生态侧在继续搭：HyperLink 融资 250 万美元，trade.xyz 交易笔数破 2 亿"
-   },
-   {
-    "num": 6,
-    "length": 47,
-    "title": "今天新加坡官方活动开场，本周看 Jeff 10/7 讲什么；众议院 10/13、币安提现都没变"
-   }
-  ],
-  "no_summary": [],
-  "no_sources": [],
-  "problems": []
+  ]
  }
 }
