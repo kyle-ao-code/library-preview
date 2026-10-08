@@ -21,7 +21,7 @@ const allTopics: { name: string; slug: string }[] = (featured as any).topics || 
 const slugOf = Object.fromEntries(allTopics.map((t) => [t.name, t.slug]));
 const topics = allTopics.map((t) => ({ ...t, n: items.filter((x: any) => x.topic === t.name).length })).filter((t) => t.n > 0);
 const stats = { items: items.length, topics: topics.length, updated: (featured as any).generated_at };
-const sections = home.sections as any[];
+const sections = (home.sections as any[]).filter((s) => !s.previewOnly || __PREVIEW__); // 占位/草稿版块只在预览构建出现
 const links = sections.filter((s) => s.nav && s.id).map((s) => ({ label: s.nav, href: `#${s.id}` }));
 const propsFor = (s: any) => ({ section: s, items, topics, slugOf, stats, links });
 ---
