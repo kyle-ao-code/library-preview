@@ -7,7 +7,11 @@
   "start": "2026-10-04T08:14:00+08:00",
   "end": "2026-10-05T08:14:00+08:00"
  },
- "tracking": [],
+ "tracking": [
+  "众议院期限",
+  "币安提现",
+  "官方公告"
+ ],
  "items": [
   {
    "title": "AQAv2 首笔 1458 万 USDC 已付到协议侧",
@@ -22,7 +26,9 @@
      "url": "https://www.techflowpost.com/newsletter/138780"
     }
    ],
-   "flags": [],
+   "flags": [
+    "媒体转述"
+   ],
    "title_width": 18
   },
   {
@@ -61,19 +67,11 @@
   },
   {
    "title": "新加坡社区活动今天开场，Jeff 10/7 上台",
-   "summary": "官网、Docs 和基金会站本窗没有新公告；众议院 10/13 答复期限和币安提现都没变。",
+   "summary": "TOKEN2049 议程显示，Jeff Yan 和 Hart Lambur 10/7 11:00 在 OKX 主舞台对谈，10/8 还有一场机构场。",
    "sources": [
     {
      "name": "TOKEN2049",
      "url": "https://token2049.com/singapore/agenda"
-    },
-    {
-     "name": "House Oversight",
-     "url": "https://oversight.house.gov/wp-content/uploads/2026/09/Hyperliquid-Letter-9.29.26.pdf"
-    },
-    {
-     "name": "Binance",
-     "url": "https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d"
     }
    ],
    "flags": [],

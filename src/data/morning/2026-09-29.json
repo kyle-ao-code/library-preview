@@ -7,10 +7,12 @@
   "start": "2026-09-28T08:09:00+08:00",
   "end": "2026-09-29T08:09:00+08:00"
  },
- "tracking": [],
+ "tracking": [
+  "币安提现"
+ ],
  "items": [
   {
-   "title": "Share 上线 NFL 预测盘",
+   "title": "Share 上线 NFL 结果合约（预测市场）",
    "summary": "Nest 进入 Epoch 44，Liquid 上 pre-IPO 永续合约，Bounce 开 Week 2/3 竞赛空投；都是项目方原帖。",
    "sources": [
     {
@@ -29,19 +31,7 @@
    "flags": [
     "项目自述"
    ],
-   "title_width": 11
-  },
-  {
-   "title": "币安 HYPE 提现已过预计时间，仍无开放公告",
-   "summary": "提现时点还停在币安公告里的「预计」口径，本窗没有新的开放确认。",
-   "sources": [
-    {
-     "name": "Binance",
-     "url": "https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d"
-    }
-   ],
-   "flags": [],
-   "title_width": 20
+   "title_width": 18
   }
  ],
  "disclaimer": "AI 整理，非投资建议",

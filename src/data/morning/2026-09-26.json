@@ -7,28 +7,10 @@
   "start": "2026-09-25T08:10:00+08:00",
   "end": "2026-09-26T08:10:00+08:00"
  },
- "tracking": [],
+ "tracking": [
+  "币安提现"
+ ],
  "items": [
-  {
-   "title": "币安 HYPE 提现预计 9/25 开放，本窗无确认公告",
-   "summary": "提现时点还停在币安公告里的「预计」口径，本窗没有新的开放确认。",
-   "sources": [
-    {
-     "name": "Binance",
-     "url": "https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d"
-    },
-    {
-     "name": "Blockonomi",
-     "url": "https://blockonomi.com/hyperliquid-hype-begins-binance-spot-trading-as-major-whale-accumulates-tokens/"
-    },
-    {
-     "name": "ABMedia",
-     "url": "https://abmedia.io/binance-listing-hyperliquid-hype"
-    }
-   ],
-   "flags": [],
-   "title_width": 22
-  },
   {
    "title": "Gemini 质押的 HYPE 将委托给 Kinetiq",
    "summary": "Kinetiq 原帖宣布 Gemini 上质押的 HYPE 会委托给 Kinetiq 验证者，实际迁移规模还要看数据。",

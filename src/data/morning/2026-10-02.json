@@ -7,7 +7,11 @@
   "start": "2026-10-01T08:16:00+08:00",
   "end": "2026-10-02T08:16:00+08:00"
  },
- "tracking": [],
+ "tracking": [
+  "众议院期限",
+  "币安提现",
+  "官方公告"
+ ],
  "items": [
   {
    "title": "Kinetiq 发放最终 kPoints，开放认购",
@@ -60,23 +64,6 @@
     "项目自述"
    ],
    "title_width": 22
-  },
-  {
-   "title": "众议院答复期限仍是 10/13，币安提现无新公告",
-   "summary": "监管线本窗没有新公函，币安提现时点仍停在「预计」口径，官方三个 X 账号也没有新帖。",
-   "sources": [
-    {
-     "name": "House Oversight",
-     "url": "https://oversight.house.gov/release/comer-continues-investigation-into-insider-trading-on-online-prediction-market-platforms/"
-    },
-    {
-     "name": "Binance",
-     "url": "https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d"
-    }
-   ],
-   "flags": [],
-   "title_width": 21,
-   "status_suspect": true
   }
  ],
  "disclaimer": "AI 整理，非投资建议",
@@ -91,13 +78,6 @@
    {
     "level": "info",
     "msg": "往期没有 updated_at，只显示日期"
-   },
-   {
-    "level": "item",
-    "item": 4,
-    "title": "众议院答复期限仍是 10/13，币安提现无新公告",
-    "kind": "status",
-    "msg": "疑似「暂无新进展」的状态条目：应移到顶层 tracking（短名），不占编号；这次照常显示"
    }
   ]
  }

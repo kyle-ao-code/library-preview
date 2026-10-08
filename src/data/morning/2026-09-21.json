@@ -7,24 +7,10 @@
   "start": "2026-09-20T08:13:00+08:00",
   "end": "2026-09-21T08:13:00+08:00"
  },
- "tracking": [],
+ "tracking": [
+  "官方公告"
+ ],
  "items": [
-  {
-   "title": "官方本窗静默，手动借贷复盘占据版面",
-   "summary": "官方三个 X 账号和官网本窗没有新公告，中文媒体在复述手动借贷的机制和风险，容易被误读成新的官方更新。",
-   "sources": [
-    {
-     "name": "TechFlow",
-     "url": "https://www.techflowpost.com/zh-TW/article/34099"
-    },
-    {
-     "name": "TokenPost",
-     "url": "https://tw.tokenpost.com/news/blockchain/47286"
-    }
-   ],
-   "flags": [],
-   "title_width": 17
-  },
   {
    "title": "手动借贷仍无官方新余额，2.69 亿是 9/18 数字",
    "summary": "唯一有官方出处的借入合计仍是 9/18 当天约 2.69 亿美元，官网没有给出新的余额。",

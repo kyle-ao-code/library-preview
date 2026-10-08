@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T17:10:31+08:00",
+ "generated_at": "2026-10-08T17:18:57+08:00",
  "latest": "2026-10-08",
  "dates": [
   "2026-10-08",
@@ -26,20 +26,15 @@
   {
    "date": "2026-10-08",
    "origin": "site.json",
-   "problems": [
-    {
-     "level": "item",
-     "item": 6,
-     "title": "MAS 无新动作，Chervinsky 称交易所将上公链",
-     "kind": "status",
-     "msg": "疑似「暂无新进展」的状态条目：应移到顶层 tracking（短名），不占编号；这次照常显示"
-    }
-   ],
+   "problems": [],
    "updated_at": "2026-10-08T08:25:42+08:00",
    "items": 6,
-   "tracking": [],
-   "status_suspects": 1,
-   "flags": 1,
+   "tracking": [
+    "众议院期限",
+    "MAS 后续"
+   ],
+   "status_suspects": 0,
+   "flags": 3,
    "skipped": 0,
    "long_titles": 0,
    "parsed": {
@@ -62,9 +57,13 @@
    ],
    "updated_at": null,
    "items": 4,
-   "tracking": [],
+   "tracking": [
+    "众议院期限",
+    "币安提现",
+    "官方公告"
+   ],
    "status_suspects": 0,
-   "flags": 0,
+   "flags": 2,
    "skipped": 0,
    "long_titles": 0,
    "parsed": {
@@ -87,9 +86,13 @@
    ],
    "updated_at": null,
    "items": 6,
-   "tracking": [],
+   "tracking": [
+    "众议院期限",
+    "币安提现",
+    "官方公告"
+   ],
    "status_suspects": 0,
-   "flags": 0,
+   "flags": 3,
    "skipped": 0,
    "long_titles": 0,
    "parsed": {
@@ -112,9 +115,13 @@
    ],
    "updated_at": null,
    "items": 4,
-   "tracking": [],
+   "tracking": [
+    "众议院期限",
+    "币安提现",
+    "官方公告"
+   ],
    "status_suspects": 0,
-   "flags": 1,
+   "flags": 2,
    "skipped": 0,
    "long_titles": 0,
    "parsed": {
@@ -133,19 +140,16 @@
     {
      "level": "info",
      "msg": "往期没有 updated_at，只显示日期"
-    },
-    {
-     "level": "item",
-     "item": 2,
-     "title": "众议院答复期限仍是 10/13，币安提现无新公告",
-     "kind": "status",
-     "msg": "疑似「暂无新进展」的状态条目：应移到顶层 tracking（短名），不占编号；这次照常显示"
     }
    ],
    "updated_at": null,
-   "items": 2,
-   "tracking": [],
-   "status_suspects": 1,
+   "items": 1,
+   "tracking": [
+    "众议院期限",
+    "币安提现",
+    "官方公告"
+   ],
+   "status_suspects": 0,
    "flags": 1,
    "skipped": 0,
    "long_titles": 0,
@@ -165,19 +169,16 @@
     {
      "level": "info",
      "msg": "往期没有 updated_at，只显示日期"
-    },
-    {
-     "level": "item",
-     "item": 3,
-     "title": "众议院答复期限仍是 10/13，币安提现无新公告",
-     "kind": "status",
-     "msg": "疑似「暂无新进展」的状态条目：应移到顶层 tracking（短名），不占编号；这次照常显示"
     }
    ],
    "updated_at": null,
-   "items": 3,
-   "tracking": [],
-   "status_suspects": 1,
+   "items": 2,
+   "tracking": [
+    "众议院期限",
+    "币安提现",
+    "官方公告"
+   ],
+   "status_suspects": 0,
    "flags": 2,
    "skipped": 0,
    "long_titles": 0,
@@ -197,19 +198,16 @@
     {
      "level": "info",
      "msg": "往期没有 updated_at，只显示日期"
-    },
-    {
-     "level": "item",
-     "item": 4,
-     "title": "众议院答复期限仍是 10/13，币安提现无新公告",
-     "kind": "status",
-     "msg": "疑似「暂无新进展」的状态条目：应移到顶层 tracking（短名），不占编号；这次照常显示"
     }
    ],
    "updated_at": null,
-   "items": 4,
-   "tracking": [],
-   "status_suspects": 1,
+   "items": 3,
+   "tracking": [
+    "众议院期限",
+    "币安提现",
+    "官方公告"
+   ],
+   "status_suspects": 0,
    "flags": 2,
    "skipped": 0,
    "long_titles": 0,
@@ -235,7 +233,7 @@
    "items": 3,
    "tracking": [],
    "status_suspects": 0,
-   "flags": 1,
+   "flags": 2,
    "skipped": 0,
    "long_titles": 0,
    "parsed": {
@@ -257,8 +255,10 @@
     }
    ],
    "updated_at": null,
-   "items": 3,
-   "tracking": [],
+   "items": 2,
+   "tracking": [
+    "币安提现"
+   ],
    "status_suspects": 0,
    "flags": 1,
    "skipped": 0,
@@ -282,8 +282,10 @@
     }
    ],
    "updated_at": null,
-   "items": 2,
-   "tracking": [],
+   "items": 1,
+   "tracking": [
+    "币安提现"
+   ],
    "status_suspects": 0,
    "flags": 1,
    "skipped": 0,
@@ -307,8 +309,10 @@
     }
    ],
    "updated_at": null,
-   "items": 2,
-   "tracking": [],
+   "items": 1,
+   "tracking": [
+    "币安提现"
+   ],
    "status_suspects": 0,
    "flags": 1,
    "skipped": 0,
@@ -332,8 +336,10 @@
     }
    ],
    "updated_at": null,
-   "items": 2,
-   "tracking": [],
+   "items": 1,
+   "tracking": [
+    "币安提现"
+   ],
    "status_suspects": 0,
    "flags": 1,
    "skipped": 0,
@@ -357,8 +363,10 @@
     }
    ],
    "updated_at": null,
-   "items": 4,
-   "tracking": [],
+   "items": 3,
+   "tracking": [
+    "币安提现"
+   ],
    "status_suspects": 0,
    "flags": 2,
    "skipped": 0,
@@ -429,19 +437,14 @@
     {
      "level": "info",
      "msg": "往期没有 updated_at，只显示日期"
-    },
-    {
-     "level": "item",
-     "item": 1,
-     "title": "官方三个 X 账号本窗没有产品公告",
-     "kind": "status",
-     "msg": "疑似「暂无新进展」的状态条目：应移到顶层 tracking（短名），不占编号；这次照常显示"
     }
    ],
    "updated_at": null,
-   "items": 2,
-   "tracking": [],
-   "status_suspects": 1,
+   "items": 1,
+   "tracking": [
+    "官方公告"
+   ],
+   "status_suspects": 0,
    "flags": 1,
    "skipped": 0,
    "long_titles": 0,
@@ -489,8 +492,10 @@
     }
    ],
    "updated_at": null,
-   "items": 2,
-   "tracking": [],
+   "items": 1,
+   "tracking": [
+    "官方公告"
+   ],
    "status_suspects": 0,
    "flags": 0,
    "skipped": 0,

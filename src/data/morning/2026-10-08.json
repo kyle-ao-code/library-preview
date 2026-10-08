@@ -7,7 +7,10 @@
   "start": "2026-10-07T08:09:00+08:00",
   "end": "2026-10-08T08:09:00+08:00"
  },
- "tracking": [],
+ "tracking": [
+  "众议院期限",
+  "MAS 后续"
+ ],
  "items": [
   {
    "title": "375 万枚完成解除质押，一半分到 5 个场外买方钱包",
@@ -46,12 +49,14 @@
      "url": "https://x.com/Cointelegraph/status/2107716908518867272"
     }
    ],
-   "flags": [],
+   "flags": [
+    "媒体转述"
+   ],
    "title_width": 25
   },
   {
    "title": "Jeff 讲完，至少三个项目宣布 HIP-4 相关进展",
-   "summary": "Share iOS 版和 Liquid 宣布上线预测市场，Hypercall 预告 HIP-4 上线；都是项目自述。",
+   "summary": "Share iOS 版和 Liquid 宣布上线结果合约（预测市场），Hypercall 预告 HIP-4 上线；都是项目自述。",
    "sources": [
     {
      "name": "Scott_eth",
@@ -104,25 +109,18 @@
    "title_width": 22
   },
   {
-   "title": "MAS 无新动作，Chervinsky 称交易所将上公链",
-   "summary": "HPC 的 Jake Chervinsky 说十年内所有交易所都得用公链基础设施；众议院 10/13 期限照旧。",
+   "title": "HPC 的 Chervinsky 称交易所将上公链",
+   "summary": "HPC CEO Jake Chervinsky 在 DAS 对 The Block 说，十年内包括 CME、ICE 在内的所有交易所都得用公链基础设施。",
    "sources": [
     {
      "name": "The Block",
      "url": "https://x.com/TheBlockCo/status/2107751641592324289"
-    },
-    {
-     "name": "Blockhead",
-     "url": "https://www.blockhead.co/2026/10/07/hyperliquid-confirms-singapore-registration-as-mas-says-exchange-falls-outside-its-jurisdiction/"
-    },
-    {
-     "name": "House Oversight",
-     "url": "https://oversight.house.gov/wp-content/uploads/2026/09/Hyperliquid-Letter-9.29.26.pdf"
     }
    ],
-   "flags": [],
-   "title_width": 21,
-   "status_suspect": true
+   "flags": [
+    "媒体转述"
+   ],
+   "title_width": 17
   }
  ],
  "disclaimer": "AI 整理，非投资建议",
@@ -133,14 +131,6 @@
  "_report": {
   "skipped": [],
   "long_titles": [],
-  "problems": [
-   {
-    "level": "item",
-    "item": 6,
-    "title": "MAS 无新动作，Chervinsky 称交易所将上公链",
-    "kind": "status",
-    "msg": "疑似「暂无新进展」的状态条目：应移到顶层 tracking（短名），不占编号；这次照常显示"
-   }
-  ]
+  "problems": []
  }
 }

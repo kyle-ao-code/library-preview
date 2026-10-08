@@ -7,7 +7,11 @@
   "start": "2026-10-06T08:10:00+08:00",
   "end": "2026-10-07T08:10:00+08:00"
  },
- "tracking": [],
+ "tracking": [
+  "众议院期限",
+  "币安提现",
+  "官方公告"
+ ],
  "items": [
   {
    "title": "FT：Labs 确认总部注册在新加坡，MAS 称不归它管",
@@ -26,7 +30,9 @@
      "url": "https://www.odaily.news/zh-CN/newsflash/522846"
     }
    ],
-   "flags": [],
+   "flags": [
+    "媒体转述"
+   ],
    "title_width": 23
   },
   {
@@ -62,24 +68,18 @@
      "url": "https://www.gate.com/news/detail/HYPE/hyperliquid-labs-unstakes-375m-hype-for-329m-institutional-otc-sale-24704208"
     }
    ],
-   "flags": [],
+   "flags": [
+    "媒体转述"
+   ],
    "title_width": 15
   },
   {
    "title": "Jeff 今天 11 点上 TOKEN2049 主舞台",
-   "summary": "明天还有一场机构闭门场；众议院 10/13 答复期限、币安公告和官方渠道本窗都没有变化。",
+   "summary": "Jeff Yan 和 Hart Lambur 在 OKX 主舞台对谈；明天还有一场 TOKEN2049 机构闭门场。",
    "sources": [
     {
      "name": "TOKEN2049",
      "url": "https://www.token2049.com/singapore/agenda"
-    },
-    {
-     "name": "Telegram",
-     "url": "https://t.me/s/hyperliquid_announcements"
-    },
-    {
-     "name": "House Oversight",
-     "url": "https://oversight.house.gov/wp-content/uploads/2026/09/Hyperliquid-Letter-9.29.26.pdf"
     }
    ],
    "flags": [],

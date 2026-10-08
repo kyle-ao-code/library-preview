@@ -7,7 +7,11 @@
   "start": "2026-10-05T08:16:00+08:00",
   "end": "2026-10-06T08:16:00+08:00"
  },
- "tracking": [],
+ "tracking": [
+  "众议院期限",
+  "币安提现",
+  "官方公告"
+ ],
  "items": [
   {
    "title": "援助基金两天买入约 19 万枚 HYPE，USDC 见底",
@@ -66,7 +70,9 @@
      "url": "https://bbx.com/zh-Hans/news-detail/3111680"
     }
    ],
-   "flags": [],
+   "flags": [
+    "媒体转述"
+   ],
    "title_width": 20
   },
   {
@@ -82,7 +88,9 @@
      "url": "https://x.com/HYPERDailyTK/status/2107017951681335633"
     }
    ],
-   "flags": [],
+   "flags": [
+    "媒体转述"
+   ],
    "title_width": 20
   },
   {
@@ -98,24 +106,18 @@
      "url": "https://cryptonews.net/news/altcoins/33541056/"
     }
    ],
-   "flags": [],
+   "flags": [
+    "项目自述"
+   ],
    "title_width": 18
   },
   {
    "title": "今天有机构论坛和黑客松，Jeff 明天上主舞台",
-   "summary": "官方 Telegram 公告频道和 GitBook 本窗没有新公告；众议院 10/13 答复期限和币安公告都没变。",
+   "summary": "Hyperliquid Forum 机构场和 Hype Global 黑客松由第三方主办；Jeff Yan 和 Hart Lambur 10/7 11:00 在 OKX 主舞台对谈。",
    "sources": [
     {
      "name": "TOKEN2049",
      "url": "https://token2049.com/singapore/agenda"
-    },
-    {
-     "name": "Telegram",
-     "url": "https://t.me/s/hyperliquid_announcements"
-    },
-    {
-     "name": "House Oversight",
-     "url": "https://oversight.house.gov/wp-content/uploads/2026/09/Hyperliquid-Letter-9.29.26.pdf"
     }
    ],
    "flags": [],
