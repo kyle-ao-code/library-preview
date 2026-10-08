@@ -55,8 +55,8 @@
    "title_width": 25
   },
   {
-   "title": "Jeff 讲完，至少三个项目宣布 HIP-4 相关进展",
-   "summary": "Share iOS 版和 Liquid 宣布上线结果合约（预测市场），Hypercall 预告 HIP-4 上线；都是项目自述。",
+   "title": "Jeff 讲完，三个项目宣布预测市场相关进展",
+   "summary": "Share iOS 版上线 Hyperliquid 预测市场，Liquid 宣布上线预测市场，Hypercall 预告 HIP-4 上线；都是项目自述。",
    "sources": [
     {
      "name": "Scott_eth",
@@ -74,7 +74,7 @@
    "flags": [
     "项目自述"
    ],
-   "title_width": 21
+   "title_width": 20
   },
   {
    "title": "BTC 闪崩，Hyperliquid 成「抢跑空单」讨论地",
