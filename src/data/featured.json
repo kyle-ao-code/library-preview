@@ -1,5 +1,35 @@
 {
- "generated_at": "2026-10-08T13:47:03.315723+08:00",
+ "generated_at": "2026-10-08T14:18:28.114364+08:00",
+ "topics": [
+  {
+   "name": "HIP-3",
+   "slug": "hip-3"
+  },
+  {
+   "name": "HIP-4 / 预测市场",
+   "slug": "hip-4"
+  },
+  {
+   "name": "HyperEVM",
+   "slug": "hyperevm"
+  },
+  {
+   "name": "监管与合规",
+   "slug": "regulation"
+  },
+  {
+   "name": "代币与经济模型",
+   "slug": "tokenomics"
+  },
+  {
+   "name": "Jeff 与团队",
+   "slug": "team"
+  },
+  {
+   "name": "生态与 Builder",
+   "slug": "ecosystem"
+  }
+ ],
  "items": [
   {
    "id": "2105251947184071012",
@@ -33,7 +63,10 @@
      "alt": ""
     }
    ],
-   "thread_count": 0
+   "thread_count": 0,
+   "topic": "Jeff 与团队",
+   "editor_note": null,
+   "is_new": false
   },
   {
    "id": "2104765780361703584",
@@ -59,7 +92,10 @@
      "alt": ""
     }
    ],
-   "thread_count": 0
+   "thread_count": 0,
+   "topic": "HIP-3",
+   "editor_note": null,
+   "is_new": false
   },
   {
    "id": "2103043603996311602",
@@ -93,7 +129,10 @@
      "alt": ""
     }
    ],
-   "thread_count": 0
+   "thread_count": 0,
+   "topic": "Jeff 与团队",
+   "editor_note": "文中为访谈转述，以原访谈为准",
+   "is_new": false
   },
   {
    "id": "2102958883304321508",
@@ -111,7 +150,10 @@
      "alt": ""
     }
    ],
-   "thread_count": 0
+   "thread_count": 0,
+   "topic": "Jeff 与团队",
+   "editor_note": "文中为访谈转述，以原访谈为准",
+   "is_new": false
   },
   {
    "id": "2098403858498367799",
@@ -152,7 +194,10 @@
      "alt": ""
     }
    ],
-   "thread_count": 0
+   "thread_count": 0,
+   "topic": "HIP-3",
+   "editor_note": null,
+   "is_new": false
   },
   {
    "id": "2091200957648633940",
@@ -178,7 +223,10 @@
      "alt": ""
     }
    ],
-   "thread_count": 0
+   "thread_count": 0,
+   "topic": "HIP-3",
+   "editor_note": null,
+   "is_new": false
   },
   {
    "id": "2091098398703435928",
@@ -188,7 +236,10 @@
    "is_quote": false,
    "quoted": null,
    "media": [],
-   "thread_count": 0
+   "thread_count": 0,
+   "topic": "生态与 Builder",
+   "editor_note": null,
+   "is_new": false
   },
   {
    "id": "2087474185769816209",
@@ -206,7 +257,39 @@
      "alt": ""
     }
    ],
-   "thread_count": 0
+   "thread_count": 0,
+   "topic": "生态与 Builder",
+   "editor_note": null,
+   "is_new": false
+  },
+  {
+   "id": "2086720903161991416",
+   "url": "https://x.com/kylewmi/status/2086720903161991416",
+   "created_at": "2026-08-10T15:46:47+08:00",
+   "text": "东东对近段时间「HLP 收益 ~0%」解释得很清楚。\n\n这样我想起当初研究 @HyperliquidX 为什么不会“坏账”，顺着其中的清算机制可以很清晰地理解 HLP 的作用，以及未来还需不需要 HLP。\n\nHL 的三层清算机制：\n订单薄清算 → HLP 接管 → ADL\n\nHLP 的主要利润是靠接管原生 crypto perp 的清算，从中赚保证金+价差。\n\n现在 HLP 收益跌至 0 了，说明清算在订单薄环节就已经能消化了。HLP 介入频率降低本身，就已经说明了订单薄本身就够厚，外部做市商已经把深度做起来了。\n\n那么这里也引出了一个新问题…\n\nHLP 成功完成了早期流动性冷启动的任务，现在做市商生态也很强大了，是不是就可以考虑撤了 HLP 呢？\n\n其实这件事得分开来看——\n\n我们乐见 HLP 在主动提供流动性上被边缘化，但在风险架构设计上，HLP 作为清算兜底的第二环，但是很有保留的必要。\n\n直接拿掉 HLP 这层缓冲，订单薄扛不住后直接 ADL，对用户体验和平台口碑都是伤害。\n\n现在 HLP 收益降低后，大家也可能会考虑将钱赎回放到机会成本更高的地方。因此清算三层机制调和后的结果是，做市商深度起来后，HLP 的规模就会缩水。\n\n有意思的是，HLP 的机制决定了它的收益在长期看是正期望的。所以未来一旦做市商出局，粗暴的推演是：HLP 会开始频繁接管，因此收益就会升高，经济效益也会决定了 HLP 规模会再次增大。",
+   "is_quote": true,
+   "quoted": {
+    "id": "2086629465191534611",
+    "url": "https://x.com/dongdongRobin/status/2086629465191534611",
+    "author_name": "东东弗斯 (hype/瘋人院長)^👺",
+    "author_handle": "dongdongRobin",
+    "created_at": "2026-08-10T09:43:26+08:00",
+    "text": "聊聊 @HyperliquidX HLP 收益 “归零” ——\n\n这是完成了早期流动性 “鸡生蛋” 的历史使命\nJeff 所言 \"No paid market makers\"\n\n[图➊] HLP 收益 “归零” 主要原因：\n\n1️⃣ 补贴下降：早期近半平台手续费都补贴 HLP 但现在已经降至 1% 而 99% 用于回购销毁 $HYPE\n\n2️⃣ HLP 完全不参与 HIP-3 的做市和清算 —— Hyperliquid 股票、大宗这些 RWA 交易量不断攀升，但 @tradexyz 海力士插针事件后，很多人才知道这不并为 HLP 带来收入\n\n事件回顾：\nhttps://x.com/dongdongRobin/status/2082016817330200964?s=20\n\n[图➋] HLP 全平台做市占比接近 “归零”\n\n看 @stalequant 追踪的 HLP Share，2023 年 HLP 的 OI & Volume 份额一度接近 80%-100%，绝对主导市场流动性 —— 2026 的现在已经贴地板了\n\n早期 HLP share 居高是因为外部做市商严重不足、市场质量差 —— 现在 HLP 走向「边缘化」是市场成熟的表现\n\n-\n\nHLP 源头，其实是 Jeff 在 Hyperliquid 前身 Chameleon Trading 验证过 (赚得盆满钵满) 的做市策略\n\n23 年通过 HLP 用社区存款提供了初始订单簿深度和清算兜底，让平台在没有大量外部 mm 情况下也能冷启动并快速增长\n\n「\n\n我更多的思考\n\n[图➌] Jeff 对协议 “民主性” 的重要性有很清晰、一贯的立场，几次在采访里将 Hyperliquid 的起源状态和比特币 $BTC 的原始精神做对应\n\n—— HLP 是这个理念落地及其关键的一环\n\n我作为 120% 坚定的 Bitcoin Holder 觉得这非常重要和珍贵，有机会也展开聊聊 (挖坑)\n\n」\n\n但我也有问题\n大家也可以一起思考：\n\n你觉得 HLP 需要针对 HIP-3 时代做一次升级吗？你觉得官方上交易对策略是否太保守？(meme小币很少&杠杠低) 然后是为了保护金库吗？",
+    "media": []
+   },
+   "media": [
+    {
+     "type": "photo",
+     "src": "media/3_2086720894412718083.jpg",
+     "w": 1200,
+     "h": 755,
+     "alt": ""
+    }
+   ],
+   "thread_count": 0,
+   "topic": "代币与经济模型",
+   "editor_note": "HLP 收益部分已过期",
+   "is_new": true
   },
   {
    "id": "2083525123190182030",
@@ -232,7 +315,10 @@
      "alt": ""
     }
    ],
-   "thread_count": 0
+   "thread_count": 0,
+   "topic": "HyperEVM",
+   "editor_note": null,
+   "is_new": false
   },
   {
    "id": "2081378246449635398",
@@ -250,7 +336,10 @@
     "media": []
    },
    "media": [],
-   "thread_count": 0
+   "thread_count": 0,
+   "topic": "HIP-3",
+   "editor_note": null,
+   "is_new": false
   },
   {
    "id": "2077230513656590664",
@@ -284,7 +373,403 @@
      "alt": ""
     }
    ],
-   "thread_count": 0
+   "thread_count": 0,
+   "topic": "监管与合规",
+   "editor_note": null,
+   "is_new": false
+  },
+  {
+   "id": "2074137672776572936",
+   "url": "https://x.com/kylewmi/status/2074137672776572936",
+   "created_at": "2026-07-06T22:25:31+08:00",
+   "text": "看 Jeff 的来时路，Hyperliquid 的诞生有种水到渠成的感觉。\n\n- 2017 年加入 HRT (高频量化交易公司)\n\n- 2018 年创立 Deaux (预测市场，Binance Labs 孵化)\n\n- 2019 年创立 Chameleon Trading (加密量化交易公司)\n\n- 2022 年启动 Hyperliquid Labs\n\n- 2023 年上线 Hyperliquid",
+   "is_quote": false,
+   "quoted": null,
+   "media": [],
+   "thread_count": 0,
+   "topic": "Jeff 与团队",
+   "editor_note": null,
+   "is_new": true
+  },
+  {
+   "id": "2073635894654103757",
+   "url": "https://x.com/kylewmi/status/2073635894654103757",
+   "created_at": "2026-07-05T13:11:38+08:00",
+   "text": "Hyperliquid 这个底层设计，主动牺牲巨量交易量，但让内行直呼贴心。\n\n人称“减速带”：Cancel-First 机制。\n\nHyperliquid 每个区块的交易执行排序中，是设定好了优先级的：Cancels 取消订单 > Post-Only 订单 > GTC/IOC taker 订单。\n\n在市场波动时，做市商取消订单会被优先处理，不会被激进的 taker 订单吃掉。这大幅压制了做市商之间的 toxic flow (有毒成交)，而这类流量在 CEX 平台往往占相当比例。\n\n因此，对做市商来说，在 HL 可以更放心地挂更深的流动性，这就带来了更大挂单量 + 更紧的价差。最终收益的还有普通用户，交易时流动性更深更稳定了，即使是大单的滑点也更小。\n\n这机制后来也被多家 perp DEX 借鉴。在产品哲学层面，相当于 Hyperliquid 把「保护真正提供流动性的做市商」和「让普通用户拿到更好价格」放在了比「最大化短期成交量和手续费」更高的优先级。\n\nJeff 自己在文章也讲道：Hyperliquid 不靠付费做市商、不靠 VC 钱、不追求虚高数据。\n\n上梁正了，下梁也就不容易歪。这种长期主义刻在底层架构里，自然也会感染到整个生态与社区。",
+   "is_quote": false,
+   "quoted": null,
+   "media": [
+    {
+     "type": "photo",
+     "src": "media/3_2073624300574363648.jpg",
+     "w": 1676,
+     "h": 1200,
+     "alt": ""
+    }
+   ],
+   "thread_count": 2,
+   "topic": "生态与 Builder",
+   "editor_note": null,
+   "is_new": true
+  },
+  {
+   "id": "2071829575504703610",
+   "url": "https://x.com/kylewmi/status/2071829575504703610",
+   "created_at": "2026-06-30T13:33:58+08:00",
+   "text": "细想了下，Hyperliquid 算是集合了现存几乎所有被验证过、且最赚钱的生意。\n\n- CEX\n- Layer1\n- HIP-3 全球资产 perp\n- HIP-4 预测市场\n- Circle USDC 储备收益\n\n重点是，Hyperliquid 可以很自洽地跟你共享荣华富贵，买他的 $HYPE",
+   "is_quote": false,
+   "quoted": null,
+   "media": [],
+   "thread_count": 0,
+   "topic": "代币与经济模型",
+   "editor_note": null,
+   "is_new": true
+  },
+  {
+   "id": "2070413489848336419",
+   "url": "https://x.com/kylewmi/status/2070413489848336419",
+   "created_at": "2026-06-26T15:46:57+08:00",
+   "text": "貌似很少看到有人将 Hyperliquid 跟 AI 联系起来。\n\n实际上，Jeff 已经看得很远：\nHyperliquid 是为 AI 时代准备金融基础设施。\n\n他们相信，未来的价值转移将主要是机器驱动的，而传统的遗留金融系统无法与可编程的代码无缝对接。\n\n因此，必须在 AI 达到逃逸速度之前，建立一个可编程、无许可且人类拥有股份的金融系统，否则人类将被排除在未来的经济架构之外。\n\nHyperliquid $HYPE",
+   "is_quote": false,
+   "quoted": null,
+   "media": [],
+   "thread_count": 0,
+   "topic": "Jeff 与团队",
+   "editor_note": "当时的判断；文中为访谈转述，以原访谈为准",
+   "is_new": true
+  },
+  {
+   "id": "2070056698346430752",
+   "url": "https://x.com/kylewmi/status/2070056698346430752",
+   "created_at": "2026-06-25T16:09:11+08:00",
+   "text": "HyperEVM 有机会成长为最硬的 EVM 生态。\n\n因为 HyperEVM 可以直接接入 HyperCore，互联互通。这里面的组合性玩法被充分开发出来后，迁移成本会非常高，也会具备其他 EVM 链没有的粘度。\n\n类似英伟达的 CUDA，来了你就别想走了，大家一起开开心心做大做强。",
+   "is_quote": false,
+   "quoted": null,
+   "media": [],
+   "thread_count": 0,
+   "topic": "HyperEVM",
+   "editor_note": null,
+   "is_new": true
+  },
+  {
+   "id": "2068970047071240242",
+   "url": "https://x.com/kylewmi/status/2068970047071240242",
+   "created_at": "2026-06-22T16:11:13+08:00",
+   "text": "Jeff 歪头讲道：\n\n不是加密行业不奖励真正的好产品，而是很多人根本没有好好去构建。\n\n我不是在自夸，但真的很难想象 Hyperliquid 作为协议不会捕获大量价值。\n\n它几乎是目前加密行业里唯二被证明能长期创造价值的赛道结合：交易所 + L1。\n\n目前还没有人成功地把这两者以可组合的方式融合在一起，而我认为这会产生乘数效应，而非简单的加法。",
+   "is_quote": false,
+   "quoted": null,
+   "media": [
+    {
+     "type": "photo",
+     "src": "media/3_2068968706013896704.jpg",
+     "w": 1920,
+     "h": 1080,
+     "alt": ""
+    }
+   ],
+   "thread_count": 0,
+   "topic": "Jeff 与团队",
+   "editor_note": "文中为访谈转述，以原访谈为准",
+   "is_new": true
+  },
+  {
+   "id": "2068630542879211962",
+   "url": "https://x.com/kylewmi/status/2068630542879211962",
+   "created_at": "2026-06-21T17:42:09+08:00",
+   "text": "《Jeff 聊长期主义：我们不是来榨取散户的》\n\n🔵 主持人 (Kevin Follonier)：\n\nHyperliquid 团队完全不收取交易手续费，也不从任何交易活动中获利。项目全程自筹资金，所有收入都用于指数级销毁，至今已把超过几万美元 (当时) 全部返还给社区。\n\n其他项目很可能就把这些钱私吞了。你为什么要这么做？\n\n🟢 Jeff：\n\n这和大家普遍认知完全相反。Hyperliquid 不是慈善，但也不是传统意义上的生意。\n\n其实没那么革命性，但在 DeFi 里确实是首例。它有点像当年的亚马逊——杰夫·贝佐斯十几年都不分红，把所有利润都投入增长，追求收入和市场份额的最大化。Hyperliquid 也是同样的长期主义思维。\n\n更重要的是，加密行业实在太榨取了，从上到下几乎就是一台从散户身上吸血的机器。我们想用行动发出一个声明：这里不是这样。\n\n🔵 主持人 (Kevin Follonier)：\n\n能举例说说资金是怎么被榨取的吗？以及为什么加密的初心是去中心化，最后却走到这一步？\n\n🟢 Jeff：\n\n最早是2017年的ICO：项目方炒作概念，卖代币给自己手里的大量筹码，然后砸盘跑路，非常赤裸裸。\n\n后来演变成VC模式，更隐蔽：先低价给VC和KOL拿筹码，再在中心化交易所高价卖给散户，最后还是砸盘走人。表面上没人违法，但本质上非常不道德，既毁了行业信誉，也让监管更有理由把整个行业打成骗子泥潭。\n\n为什么会走到今天？因为加密的“自由”和“可编程性”是一把双刃剑。它能打破不必要的金融壁垒，真正革新金融体系；但同时也让诈骗变得极其容易，特别容易伤害那些信息不对称的参与者。\n\n我们选择把 Hyperliquid 做成现在这个“社区优先”、反传统的方式——反 VC、反特殊利益集团（虽然我们不是反对做市商本身），就是希望把用户真正放在第一位。做市商也只是“大用户”，没有任何特权阶级。大家都是用户，在协议上以点对点的方式自由交易，这才是加密货币最初的愿景。\n\n我认为这种叙事打动了很多人，尤其是那些被其他项目用常规套路伤透心的人。说到底，我们和其他认真做事的人没什么不同，就是想打造一个能长期创造真实价值的项目。\n\n$HYPE",
+   "is_quote": false,
+   "quoted": null,
+   "media": [
+    {
+     "type": "photo",
+     "src": "media/3_2068627768712339456.jpg",
+     "w": 1920,
+     "h": 1080,
+     "alt": ""
+    }
+   ],
+   "thread_count": 0,
+   "topic": "Jeff 与团队",
+   "editor_note": "文中为访谈转述，以原访谈为准",
+   "is_new": true
+  },
+  {
+   "id": "2066800899025158586",
+   "url": "https://x.com/kylewmi/status/2066800899025158586",
+   "created_at": "2026-06-16T16:31:48+08:00",
+   "text": "我勒个去 @HyperliquidR 是不是天天看我的推，别再教大家怎么评估 Hyperliquid 价值了。\n\n甚至还提出 Outstanding Token Supply (OST) 这个概念帮助大家理解…\n\n和我的判断方式基本吻合，评估 HL 不能看 $HYPE 10 亿总供应量，即 FDV 指标无效；也不能单纯看已解锁的流通量。\n\nOST 是最准确的方式，看「已发行+已明确承诺 (固定时间表)」的代币总量。也就是——当前流通量 + 团队分配部分 (含 vesting/lockup 部分)",
+   "is_quote": true,
+   "quoted": {
+    "id": "2066506931649355959",
+    "url": "https://x.com/HyperliquidR/status/2066506931649355959",
+    "author_name": "Hyperliquid Research Collective (HRC)",
+    "author_handle": "HyperliquidR",
+    "created_at": "2026-06-15T21:03:41+08:00",
+    "text": "http://x.com/i/article/2066491723279159297",
+    "media": []
+   },
+   "media": [],
+   "thread_count": 0,
+   "topic": "代币与经济模型",
+   "editor_note": null,
+   "is_new": true
+  },
+  {
+   "id": "2066548087397728363",
+   "url": "https://x.com/kylewmi/status/2066548087397728363",
+   "created_at": "2026-06-15T23:47:13+08:00",
+   "text": "CFTC 主席 (Mike Selig) 在 Bankless 播客这段说辞，已经是明牌利好 Hyperliquid。\n\n美国正在积极推动 Perps Onshore (永续合约回归本土)，通过即将出台的清晰法案，彻底告别“执法式监管”，转向清晰规则 + 自认证机制，主动欢迎 @HyperliquidX 这类 Crypto-native 平台入场。\n\nMike Selig 对 Hyperliquid 还挺肯定：\n\n- 全天候永续合约正在重塑美国市场，远胜传统限时交易，应把流动性吸引回本土而非推向海外。\n\n- 智能合约能自动完成保证金、清算、风险控制等合规流程，大幅提升效率与透明度\n\n- HL 的 ADL 机制属于“非常规设计”，既非好亦非坏，监管持开放评估态度。\n\n加密衍生品的春天来了，Hyperliquid 是第一梯队尖兵...\n https://x.com/_stevenhl/status/2066521630000685221/video/1",
+   "is_quote": false,
+   "quoted": null,
+   "media": [
+    {
+     "type": "video",
+     "src": "media/13_2066521458017517568.jpg",
+     "w": 1206,
+     "h": 726,
+     "alt": ""
+    }
+   ],
+   "thread_count": 0,
+   "topic": "监管与合规",
+   "editor_note": "监管进展以最新情况为准",
+   "is_new": true
+  },
+  {
+   "id": "2066465374535872943",
+   "url": "https://x.com/kylewmi/status/2066465374535872943",
+   "created_at": "2026-06-15T18:18:33+08:00",
+   "text": "对于 $SPCX 这些新上线的资产，Hyperliquid 的 OI 份额已经升至第二了 (Tradexyz: 27.1%)。\n\n这里有两大趋势预测：\n\n1) 新上线的pre-IPO类永续合约，HL会逐渐缩短与CEX的差距，并占据Top2位置 (未来会Top1)。\n\n2) HL凭借链上更高的中立性、透明度和一致性，正在崛起为全球pre-IPO价格发现的首选平台。",
+   "is_quote": false,
+   "quoted": null,
+   "media": [
+    {
+     "type": "photo",
+     "src": "media/3_2066460311637610496.jpg",
+     "w": 1550,
+     "h": 866,
+     "alt": ""
+    }
+   ],
+   "thread_count": 0,
+   "topic": "HIP-3",
+   "editor_note": "文中数据为 2026 年 6 月时的情况",
+   "is_new": true
+  },
+  {
+   "id": "2065029245831872939",
+   "url": "https://x.com/kylewmi/status/2065029245831872939",
+   "created_at": "2026-06-11T19:11:53+08:00",
+   "text": "Coinbase 和 Hyperliquid 是现在远看最像的组合，只是近看五官各不同。\n\n主力收入都是交易手续费，CB 重现货，HL 重 Prep。\n\n都有 EVM 生态。Base 挺成熟了，但对 $COIN 价值捕获差；HyperEVM 刚起步，但对 $HYPE 价值捕获强。\n\n都拿 Circle 的钱 (USDC储备收益)，CB 100%，HL 90%。\n\n你更爱谁🤔？",
+   "is_quote": false,
+   "quoted": null,
+   "media": [],
+   "thread_count": 0,
+   "topic": "生态与 Builder",
+   "editor_note": null,
+   "is_new": true
+  },
+  {
+   "id": "2064911222936584627",
+   "url": "https://x.com/kylewmi/status/2064911222936584627",
+   "created_at": "2026-06-11T11:22:54+08:00",
+   "text": "Hyperliquid 的 USDC 规模有机会逼近 Ethereum 现水平吗？\n\nEthereum L1 稳定币总市值 157.6B，其中 USDT (~80B) 是大头，USDC (～48.6B) 占 31%。\n\nUSDC 已是 Hyperliquid 协议对齐度最高的稳定币，目前市值约 6B，已经占总份额的 95%。可以说，USDC 就约等于 Hyperliquid 稳定币的全部了。\n\n先以 Coinbase 为锚，其 2026 Q1 持有 USDC 约 19B。如果我们相信监管是越来越宽松，无国界的 HL 在 USDC 体量上迟早会超过 CB；面对现在的 Ethereum 还有 8 倍增长空间，有待 HIP-3/4、HyperEVM 爆发增长。\n\nAQAv2 这么一签，说明 Circle 比我们还敢发挥想象力。",
+   "is_quote": false,
+   "quoted": null,
+   "media": [
+    {
+     "type": "photo",
+     "src": "media/3_2064901592466554881.jpg",
+     "w": 2714,
+     "h": 1312,
+     "alt": ""
+    }
+   ],
+   "thread_count": 0,
+   "topic": "代币与经济模型",
+   "editor_note": "文中数据为 2026 年 6 月时的情况",
+   "is_new": true
+  },
+  {
+   "id": "2064611908443893876",
+   "url": "https://x.com/kylewmi/status/2064611908443893876",
+   "created_at": "2026-06-10T15:33:32+08:00",
+   "text": "昨天 HL 的独立政策游说组织 @HyperliquidPC 联合加密风投 Paradigm，向美国财政部公开提交了一封评论信。\n\n核心立场：对稳定币法案 (GENIUS Act) 大体支持，但希望收紧某些条款，以免误伤 DeFi 和公链基础设施。\n\n主要是财政部属下负责制裁的 OFAC 管得严了点，要求稳定币发行方连链上的下游交易也得负责。这...链上的事怎么管得了。\n\n这些细则要是不改，发行出来的合规稳定币，谁还敢往 DeFi 上放?",
+   "is_quote": true,
+   "quoted": {
+    "id": "2064371403290222841",
+    "url": "https://x.com/HyperliquidPC/status/2064371403290222841",
+    "author_name": "Hyperliquid Policy Center",
+    "author_handle": "HyperliquidPC",
+    "created_at": "2026-06-09T23:37:51+08:00",
+    "text": "Today we filed a comment with @paradigm on @USTreasury's proposed rule for stablecoin issuers.\n\nU.S.-regulated stablecoins power billions of dollars in daily trading, lending, and settlement.\n\nOur comment offers recommendations to preserve their critical role in onchain markets.",
+    "media": []
+   },
+   "media": [],
+   "thread_count": 0,
+   "topic": "监管与合规",
+   "editor_note": "监管进展以最新情况为准",
+   "is_new": true
+  },
+  {
+   "id": "2064567091773198642",
+   "url": "https://x.com/kylewmi/status/2064567091773198642",
+   "created_at": "2026-06-10T12:35:27+08:00",
+   "text": "Builder Codes 算是 Hyperliquid 面对其他平台的返佣机制，任何应用、前端、钱包、机器人等都可以接入，从中收取一些手续费。\n\n成为 Builder 能有多赚钱？\n\n看看排行榜 (过去 30 天)， 第一的 Phantom 已经赚了 156 万美金，MetaMask 第二赚了 83 万美金。怪不得过去一周，Nansen、Near 都在马不停蹄地接入。\n\n现在总共有 618 个应用通过 Builder Codes 接入。Hyperliquid 这分发渠道都自成网络了，让大家都有口饭吃！",
+   "is_quote": true,
+   "quoted": {
+    "id": "2064561349645176875",
+    "url": "https://x.com/HyperEVM_CN/status/2064561349645176875",
+    "author_name": "Hyper EVM中文站",
+    "author_handle": "HyperEVM_CN",
+    "created_at": "2026-06-10T12:12:38+08:00",
+    "text": "Hyperliquid Discord 周报显示，多支新团队接入 HyperEVM / HyperCore。\n\n- Nansen 通过 builder codes 集成 Hyperliquid perps\n- Rhea 集成 Hyperliquid perps\n- TrueNorth 作为 agent-focused trading platform 使用 Hyperliquid 启动。\n- Near Protocol 也通过 builder codes 集成 Hyperliquid perps\n\nhttps://discord.com/channels/1029781241702129716/1030197017655394447/1513928762398347396",
+    "media": []
+   },
+   "media": [
+    {
+     "type": "photo",
+     "src": "media/3_2064564563631362048.jpg",
+     "w": 3080,
+     "h": 892,
+     "alt": ""
+    }
+   ],
+   "thread_count": 0,
+   "topic": "生态与 Builder",
+   "editor_note": "文中数据为 2026 年 6 月时的情况",
+   "is_new": true
+  },
+  {
+   "id": "2064519152828903747",
+   "url": "https://x.com/kylewmi/status/2064519152828903747",
+   "created_at": "2026-06-10T09:24:57+08:00",
+   "text": "终于弄清了大家为什么因为 SPCX 合约价格的事骂起来了…\n\nTradeXYZ 推出 $SPCX 的起始价是 $150，背后估的是 1.78 万亿市值和 11.87 亿股，写在了文档。\n\n当初很多用户是基于这个预设的市值与股数来下注的。后来 SpaceX 发布了官方 IPO 的数据：$135/股，市值/股数和当初 TradeXYZ 文档里写的都不一样，很多用户以为 TradeXYZ 会 rebase (股本调整)，这样能与自己初始下注预期能对齐。\n\n然而今天 TradeXYZ 的官方公告也说得很清楚了：\n\n1. 之前文档提供的市值与股数只是教育例子，用来帮助大家估价，不是固定预设的数据。（文档例子已删，避免混淆）\n\n2. TradeXYZ 平台不会做 rebase 调整，IPOP 合约从头到尾都是基于“每股预期价格”的永续合约。\n\n3. IPO 后会切换正常外部 Oracle 定价，趋向公开交易价。\n\n怎么说呢…这场争议感觉双方都有理。\n\nTradeXYZ 坚持“一直都是在赌单价”的立场没毛病，只是一开始文档给出的预设市值和股数，成了很多人下注的标尺了。只能说规则还需要更明确点，那些因为模糊亏了钱的用户是肯定不爽的了。",
+   "is_quote": true,
+   "quoted": {
+    "id": "2064467412489994699",
+    "url": "https://x.com/tradexyz/status/2064467412489994699",
+    "author_name": "trade.xyz",
+    "author_handle": "tradexyz",
+    "created_at": "2026-06-10T05:59:21+08:00",
+    "text": "A note on the SPCX pre-IPO (IPOP) contract:\nTradeXYZ IPOP contracts are price-based perpetual contracts that track the market-implied expected price of one share of Class A or common stock. Neither share count nor market cap are an input to the market specification, oracle methodology, or conversion treatment.\n\nOur documentation had previously featured educational examples showing how a user might derive their own fair price in a scenario where they started with a view on both market cap and share count. Although these examples were included for context, we received feedback that they caused confusion, so we have removed them from the documentation.\n\nTradeXYZ does not use, publish, or rely on a share-count or market-cap denominator for SPCX or any other XYZ market. When SpaceX completes their IPO and sufficient external market data becomes available, SPCX is expected to transition to standard external oracle pricing, and the contract is expected to converge toward the public trading price.",
+    "media": []
+   },
+   "media": [],
+   "thread_count": 0,
+   "topic": "HIP-3",
+   "editor_note": null,
+   "is_new": true
+  },
+  {
+   "id": "2064296217308434562",
+   "url": "https://x.com/kylewmi/status/2064296217308434562",
+   "created_at": "2026-06-09T18:39:05+08:00",
+   "text": "如果今天你在Crypto创业获得大成功，项目每天能收入150-400万美金，月入5500万美金。\n\n覆盖完成本后，你会选择将其中50%利润回购代币回馈社区吗？90%利润回购呢？\n\n用凡夫俗子的意淫来换位思考，才更懂今天Hyperliquid的含金量：99%利润回购且销毁代币。\n\nHL最终能成功的先决条件，就是做伟大的事。",
+   "is_quote": false,
+   "quoted": null,
+   "media": [],
+   "thread_count": 0,
+   "topic": "代币与经济模型",
+   "editor_note": "文中数据为 2026 年 6 月时的情况",
+   "is_new": true
+  },
+  {
+   "id": "2064249395701592270",
+   "url": "https://x.com/kylewmi/status/2064249395701592270",
+   "created_at": "2026-06-09T15:33:02+08:00",
+   "text": "投资 $HYPE ——\n只需要掌握一些简单的算术题。\n\n每增加 100 万美金协议收入，\nAF 回购资金增加 99 万美金。\n\n每增加 100 万枚 USDC 进入 HL，\nAF 回购资金每年增加 3.6 万美金。",
+   "is_quote": false,
+   "quoted": null,
+   "media": [],
+   "thread_count": 0,
+   "topic": "代币与经济模型",
+   "editor_note": "文中数据为 2026 年 6 月时的情况",
+   "is_new": true
+  },
+  {
+   "id": "2063989044799754576",
+   "url": "https://x.com/kylewmi/status/2063989044799754576",
+   "created_at": "2026-06-08T22:18:29+08:00",
+   "text": "Hyperliquid $HYPE 回购规模将大幅提升！\n\nAQAv2 正式落地，等于 Hyperliquid 局部接管了 Circle/Coinbase 的稳定币储备收益业务——协议可直接拿走 HL 生态内 USDC 约 90% 的净储备收益，全部流入 AF 用于回购。\n\n当前 HL 生态 USDC 约 60-65 亿美元，按现有收益率估算每年贡献约 1.9 亿美元、每天约 52 万美元回购资金。\n\n叠加近期 (过去30天) 日均约 183 万美元的协议收入回购，总回购规模约增加 28.5%。\n\n更重要的是，USDC 规模与 HL 市场份额还会持续扩张，回购引擎只会越来越猛。狠狠通缩起来吧！",
+   "is_quote": true,
+   "quoted": {
+    "id": "2063973364117414207",
+    "url": "https://x.com/coinbase/status/2063973364117414207",
+    "author_name": "Coinbase 🛡️",
+    "author_handle": "coinbase",
+    "created_at": "2026-06-08T21:16:11+08:00",
+    "text": "Coinbase is now the official deployer of @HyperliquidX's USDC treasury wallet.\n\nWe will be activating AQAv2 from the two addresses below:\n\n0x4E5319dEb1072B01439EE674db5C321d11fd96F8\n\n0xc20699185c15D0a2fD65779BB5d69f5b0B113c00",
+    "media": []
+   },
+   "media": [],
+   "thread_count": 0,
+   "topic": "代币与经济模型",
+   "editor_note": "文中数据为 2026 年 6 月时的情况",
+   "is_new": true
+  },
+  {
+   "id": "2063833817899540705",
+   "url": "https://x.com/kylewmi/status/2063833817899540705",
+   "created_at": "2026-06-08T12:01:41+08:00",
+   "text": "评估 $HYPE 不该把价格当作首要依据——这一点与 HYPE 财库公司 CEO David Schamis 有点不谋而合。\n\n像 Arthur Hayes 这种喊出 150 美金目标价的行为，更多的是为了锚定市场预期，从而影响交易行为。\n\n玩长期游戏，应该看规模、市值、业务数据，这才是判断 Hyperliquid 价值更准确的标尺。价格之所以相对失真，是因为你很难预判代币未来的通缩率。\n\n但有一点可以确定：只要市场规模持续增长，同时维持通缩，HYPE 的价格只会以更快的加速度攀升。",
+   "is_quote": false,
+   "quoted": null,
+   "media": [
+    {
+     "type": "photo",
+     "src": "media/3_2063830594761662464.jpg",
+     "w": 3072,
+     "h": 1782,
+     "alt": ""
+    }
+   ],
+   "thread_count": 0,
+   "topic": "代币与经济模型",
+   "editor_note": null,
+   "is_new": true
+  },
+  {
+   "id": "2062755463629045919",
+   "url": "https://x.com/kylewmi/status/2062755463629045919",
+   "created_at": "2026-06-05T12:36:41+08:00",
+   "text": "HyperLiquid 又开辟了一条全新的 $HYPE 燃烧路径：Priority Fees。\n\n今年 4 月 13 日 Priority Fees 机制刚上线，至今才 53 天，每周收入就屡创新高。目前累计已产生 88 万美元收入，燃烧了 1.6 万枚 HYPE。\n\n推荐看东东 @dongdongRobin 这篇文章，讲得很清楚。高频交易 (HFT) 团队想跑得快，就得公开竞价付 Priority Fees，向协议买专属通道，这笔“后门费”就全部用来燃烧 HYPE。\n\n想看懂下面的图，先抓住 Priority Fee 的两个核心切入点：\n- Gossip Priority：信息优先 (Read)\n- Order Priority：执行优先 (Write)\n\n这样一来，这些 HFT 团队在 HyperLiquid 就专心做策略即可，不需要拼硬件了。\n\n最后还是得感叹下 Jeff 和 HL 团队。真正“科班”出身的交易员，才能把产品做到极致。HyperLiquid 把里面的套利空间、后门费、小油水全部收归协议，没有留给任何小团队独享，而是全部以回购销毁的方式返还给社区。",
+   "is_quote": true,
+   "quoted": {
+    "id": "2045722249806987654",
+    "url": "https://x.com/dongdongRobin/status/2045722249806987654",
+    "author_name": "东东弗斯 (hype/瘋人院長)^👺",
+    "author_handle": "dongdongRobin",
+    "created_at": "2026-04-19T12:32:46+08:00",
+    "text": "http://x.com/i/article/2045701698602307584",
+    "media": []
+   },
+   "media": [
+    {
+     "type": "photo",
+     "src": "media/3_2062746779221934080.jpg",
+     "w": 1262,
+     "h": 838,
+     "alt": ""
+    }
+   ],
+   "thread_count": 0,
+   "topic": "代币与经济模型",
+   "editor_note": "文中数据为 2026 年 6 月时的情况",
+   "is_new": true
+  },
+  {
+   "id": "2059181185973276990",
+   "url": "https://x.com/kylewmi/status/2059181185973276990",
+   "created_at": "2026-05-26T15:53:47+08:00",
+   "text": "2026 是 Hyperliquid 元年，\n大家似乎找到明灯了。\n\n1. CEX 有资源有生态，就冲 permissionless (spot+hip-3永续+hip-4预测) 市场模式。\n\n2. DEX 有资源，要破圈就设计 50%+ 协议收入回购代币来销毁。\n\n3. DEX 没资源，有实力有野心就试试 HyperEVM 生态。",
+   "is_quote": false,
+   "quoted": null,
+   "media": [],
+   "thread_count": 0,
+   "topic": "生态与 Builder",
+   "editor_note": null,
+   "is_new": true
   }
  ]
 }

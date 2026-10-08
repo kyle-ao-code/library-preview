@@ -1,22 +1,27 @@
 ---
 // 卡片 v2：只放主帖；引用推收成底部一行；配图贴边 16:9 只放第一张
+// 图书馆：底部左边第一项是主题；编者注（editor_note）放正文下面；预览构建时 is_new 显示「新」角标
 import { fmtDate, richText } from '../lib';
 import site from '../site.json';
-const { item, hidden = false } = Astro.props;
-const base = import.meta.env.BASE_URL;
+const { item, hidden = false, topicSlug = '' } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/'); // BASE 不带结尾斜杠时补上
 const isThread = item.thread_count > 1;
 const media = item.media || [];
 const first = media[0];
 const q = item.quoted;
+const showNew = __PREVIEW__ && item.is_new;
 ---
-<article class="card" data-hidden={hidden ? '' : undefined}>
+<article class="card" data-hidden={hidden ? '' : undefined} data-topic={topicSlug || undefined}>
   <header class="ch">
     <span class="av sm" style={`background-image:url(${base}avatar.png)`} aria-hidden="true"></span>
     <div>
       <div class="nm">{site.author}</div>
       <div class="mt">@{site.handle} · {fmtDate(item.created_at)}</div>
     </div>
-    <span class="badge">★ 精选</span>
+    <span class="badges">
+      <span class="badge">★ 精选</span>
+      {showNew && <span class="badge-new">新</span>}
+    </span>
   </header>
   {first && (
     <a class="media" href={first.type === 'photo' ? `${base}${first.src}` : item.url} target="_blank" rel="noopener">
@@ -27,12 +32,15 @@ const q = item.quoted;
   )}
   <div class={`txt clamp${first ? '' : ' big'}`} set:html={richText(item.text)} />
   <button class={`expand${first ? '' : ' big'}`} type="button" hidden>展开全文</button>
+  {item.editor_note && <p class={`note-ed${first ? '' : ' big'}`}><b>编者注</b>{item.editor_note}</p>}
   <footer class="cf">
     <span class="cfl">
+      {item.topic && <span class="ctopic">{item.topic}</span>}
+      {item.topic && (isThread || q) && <span class="dot">·</span>}
       {isThread && <span>Thread · 共 {item.thread_count} 条</span>}
       {isThread && q && <span class="dot">·</span>}
       {q && <a class="qref" href={q.url} target="_blank" rel="noopener">引用 <b>{q.author_handle ? `@${q.author_handle}` : '一条推文'}</b></a>}
     </span>
-    <a href={item.url} target="_blank" rel="noopener">在 X 查看 ↗</a>
+    <a class="cfr" href={item.url} target="_blank" rel="noopener">在 X 查看 ↗</a>
   </footer>
 </article>

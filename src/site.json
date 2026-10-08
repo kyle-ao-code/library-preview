@@ -4,5 +4,7 @@
   "handle": "kylewmi",
   "bio": "👨‍🍳开大火做饭中...",
   "disclaimer": "个人整理的社区站，非 Hyperliquid 官方",
-  "featuredPageSize": 10
+  "featuredPageSize": 10,
+  "sectionTitle": "馆藏",
+  "sectionSub": "Kyle 写过的 Hyperliquid 帖子，按主题归档，方便回来翻"
 }

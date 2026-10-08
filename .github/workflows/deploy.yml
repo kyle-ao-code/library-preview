@@ -1,4 +1,6 @@
 name: Deploy to GitHub Pages
+# 同一份工作流两边通用：正式站仓库 kyle-ao-code.github.io 用 BASE=/；
+# 其他仓库（预览站 library-preview）用 BASE=/<仓库名>，并打开 PREVIEW=1
 on:
   push:
     branches: [main]
@@ -18,7 +20,8 @@ jobs:
       - uses: withastro/action@v3
         env:
           SITE: https://kyle-ao-code.github.io
-          BASE: /
+          BASE: ${{ github.event.repository.name == 'kyle-ao-code.github.io' && '/' || format('/{0}', github.event.repository.name) }}
+          PREVIEW: ${{ github.event.repository.name == 'kyle-ao-code.github.io' && '0' || '1' }}
   deploy:
     needs: build
     runs-on: ubuntu-latest
