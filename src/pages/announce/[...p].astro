@@ -35,7 +35,7 @@ const bodyOf = (a: any) => {
       {A.items.map((a: any) => (
         <li class="panel acard" id={a.id.replace(':', '-')}>
           <div class="meta">{a.sources.map((s: any) => <span class:list={['an-ch', { x: s.type === 'x' }]}>{s.type === 'x' ? s.account : s.channel}</span>)}<span>{bjDateTime(a.created_at)}</span></div>
-          <h3 title={a.title_en}>{a.title_zh || a.title_en}</h3>
+          <h3 title={a.title_en}>{a.title_zh || a.title_en}{(a.flags || []).map((f: string) => <span class="flag">{f}</span>)}</h3>
           <div class="abody" set:html={renderAnnounce(bodyOf(a))} />
           <div class="origs">
             <a class="orig" href={a.url} target="_blank" rel="noopener">{a.sources[0].type === 'x' ? '在 X 查看原帖 ↗' : '在 Discord 查看原文 ↗'}</a>

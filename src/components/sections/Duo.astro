@@ -38,7 +38,7 @@ const foot = types.has('discord') && types.has('x') ? A.footBoth : types.has('di
                 {a.sources.map((s: any) => <span class:list={['an-ch', { x: s.type === 'x' }]}>{chLabel(s)}</span>)}<span>{md(a.date)}</span>
                 {a.excerpt && <a class="full" href={`${base}announce/#${a.id.replace(':', '-')}`}>{a.long ? '看全文 →' : '详情 →'}</a>}
               </div>
-              <a class:list={['t', { en: !a.title_zh }]} href={a.url} target="_blank" rel="noopener" title={a.title_en}>{a.title_zh || a.title_en}</a>
+              <a class:list={['t', { en: !a.title_zh }]} href={a.url} target="_blank" rel="noopener" title={a.title_en}>{a.title_zh || a.title_en}{(a.flags || []).map((f: string) => <span class="flag">{f}</span>)}</a>
               {a.excerpt && <p class="ex">{a.excerpt}</p>}
             </li>
           ))}

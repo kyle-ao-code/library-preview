@@ -77,7 +77,7 @@ const tot = morning.items.reduce((a: any, x: any) => ({ items: a.items + x.items
       {announcements.items.map((a: any) => (
         <li class="dd-ann">
           <div class="muted">{a.created_at.slice(0, 16).replace('T', ' ')} 北京时间 · {a.sources.map((s: any) => `${s.type} ${s.account || s.channel}`).join(' + ')} · {a.kind}{a.long ? ' · 长文' : ''} · <a href={a.url} target="_blank" rel="noopener">原文</a>{a.mirror_url && <a href={a.mirror_url} target="_blank" rel="noopener">Kyle 服务器里的转发</a>}</div>
-          <b>{a.title_zh || '（待译）'}</b> <span class="muted">← {a.title_en}</span>{a.excerpt && <div class="muted">摘要：{a.excerpt.slice(0, 160)}{a.excerpt.length > 160 ? '…' : ''}</div>}
+          <b>{a.title_zh || '（待译）'}</b>{(a.flags || []).map((f: string) => <span class="flag">{f}</span>)} <span class="muted">← {a.title_en}</span>{a.excerpt && <div class="muted">摘要：{a.excerpt.slice(0, 160)}{a.excerpt.length > 160 ? '…' : ''}</div>}
           <details><summary>完整原文</summary><pre>{a.text}</pre></details>
         </li>
       ))}
