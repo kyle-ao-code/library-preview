@@ -1,5 +1,5 @@
 ---
-// 版块 7 · 双栏区：左晨报（最新一期前 N 条）+ 右官宣（最近 N 条）。数据：data/morning/*.json、data/announce.json
+// 版块 7 · 双栏区：左晨报（最新一期前 N 条）+ 右「Hyperliquid 官方消息」（内部仍叫 announce/官宣，最近 N 条）。数据：data/morning/*.json、data/announce.json
 // 官宣：Discord 和 X 混排（新→旧），同一条两边都有时一行两个标签；标题用中文译文（translations.json），没译的先显示英文原句；悬停看英文原句
 import MorningList from '../MorningList.astro';
 import { morning, morningIssues, announcements, md, weekday, hm } from '../../data';
@@ -28,7 +28,6 @@ const foot = types.has('discord') && types.has('x') ? A.footBoth : types.has('di
       <div class="panel" id="announce">
         <div class="p-hd">
           <h2>{A.title}</h2>
-          {announcements.translations?.ok > 0 && <span class="p-note">{A.aiNote}</span>}
           <a class="more" href={`${base}announce/`}>{A.more}</a>
         </div>
         <ul class="ann">
@@ -41,7 +40,8 @@ const foot = types.has('discord') && types.has('x') ? A.footBoth : types.has('di
             </li>
           ))}
         </ul>
-        <div class="p-ft"><span>{foot}</span></div>
+        {/* 来源和「AI 翻译，以原文为准」合成一行页脚（产品设计 10/8）；放不下时在「·」处换行，不拆短语 */}
+        <div class="p-ft"><span><span class="nw">{foot}</span>{announcements.translations?.ok > 0 && <> · <span class="nw">{A.aiNote}</span></>}</span></div>
       </div>
     </div>
   </div>

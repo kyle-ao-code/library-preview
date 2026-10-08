@@ -12,7 +12,7 @@ const tot = morning.items.reduce((a: any, x: any) => ({ items: a.items + x.items
 <Base title="数据自检 · 预览" noindex>
   <main class="wrap devdata">
     <h1>数据自检</h1>
-    <p class="muted">只在预览站。晨报生成于 {morning.generated_at}，官宣生成于 {announcements.generated_at}。</p>
+    <p class="muted">只在预览站。晨报生成于 {morning.generated_at}，官方消息生成于 {announcements.generated_at}。</p>
 
     <h2>晨报 · {morning.items.length} 期（缺文件：{morning.missing.length ? morning.missing.join('、') : '无'}）</h2>
     <p class="muted">每期数据来源：用 site.json {morning.items.filter((x: any) => x.origin === 'site.json').length} 期，过渡数据 {morning.items.filter((x: any) => x.origin !== 'site.json').length} 期（其中 site.json 有误回退 {morning.items.filter((x: any) => x.origin.includes('有误')).length} 期）。网站条目共 {tot.items} 条；因不确定标记去掉 {tot.skipped} 条；标题超 28 字 {tot.long} 条（没截断，按 textwidth.py 宽度算）；site.json 问题 {tot.issues} 个，其中疑似「暂无新进展」状态条目 {tot.status} 条（应移到 tracking）。往期没有 updated_at 是约定，只显示日期，不算问题。</p>
@@ -50,7 +50,7 @@ const tot = morning.items.reduce((a: any, x: any) => ({ items: a.items + x.items
       );
     })}
 
-    <h2>官宣 · {announcements.items.length} 行 · Discord + X 混排</h2>
+    <h2>Hyperliquid 官方消息 · {announcements.items.length} 行 · Discord + X 混排</h2>
     <p class="muted">
       Discord：<span class:list={['org', { ok: announcements.discord_ok, bad: !announcements.discord_ok }]}>{announcements.discord_ok ? `正常（${announcements.discord.stats.kept} 条）` : `这次没有：${announcements.discord_problem}`}</span>
       · X：{announcements.x.stats.reduce((n: number, s: any) => n + (s.kept || 0), 0)} 条（{announcements.x.accounts.join('、')}，原创{announcements.x.keep.quoted ? '+引用' : ''}，不含回复和转推）

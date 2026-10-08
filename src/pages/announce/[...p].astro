@@ -1,5 +1,5 @@
 ---
-// 官宣列表页 /announce/：全部官宣、全文。新模块，先只在预览构建生成（正式构建 getStaticPaths 返回空）
+// 「Hyperliquid 官方消息」列表页 /announce/（URL 不变；内部仍叫 announce/官宣）：全部条目、全文。新模块，先只在预览构建生成（正式构建 getStaticPaths 返回空）
 import Base from '../../layouts/Base.astro';
 import SiteNav from '../../components/sections/SiteNav.astro';
 import SiteFooter from '../../components/sections/SiteFooter.astro';
@@ -20,12 +20,12 @@ const bodyOf = (a: any) => {
   return !a.title_zh && first === a.title_en ? lines.slice(i + 1).join('\n').replace(/^\s*\n/, '') : a.text;  // 有中文标题时英文原文整段照录
 };
 ---
-<Base title={`官宣 · ${site.name}`}>
+<Base title={`Hyperliquid 官方消息 · ${site.name}`}>
   <SiteNav links={navLinks(base)} active="announce" />
   <main class="wrap apage">
     <div class="art-hd">
-      <div class="kick">官宣 · 共 {A.items.length} 条</div>
-      <h1>Hyperliquid 官宣</h1>
+      <div class="kick">官方消息 · 共 {A.items.length} 条</div>
+      <h1>Hyperliquid 官方消息</h1>
       <div class="disc">
         <span>来源：{srcLine} · 时间为北京时间</span>
         <span><b>标题为 AI 翻译，以原文为准</b> · 下面是英文原文</span>
