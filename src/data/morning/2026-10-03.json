@@ -12,7 +12,7 @@
    "summary": "相对昨窗 $0.26/KNTQ 认购条款首发，本窗主线换成领取速度与沟通补救。领取率数字来自当事人原帖，非官方审计。",
    "sources": [
     {
-     "name": "@0xOmnia",
+     "name": "0xOmnia",
      "url": "https://x.com/0xOmnia/status/2106154682846445772"
     }
    ],
@@ -27,15 +27,15 @@
    "summary": "生态产品侧本窗仍有项目方一手。权重次于 AQAv2 预期与量能回升，但构成可核的产品 continuum。",
    "sources": [
     {
-     "name": "@NestExchange",
+     "name": "NestExchange",
      "url": "https://x.com/NestExchange/status/2106154159309304122"
     },
     {
-     "name": "@legendtrade",
+     "name": "legendtrade",
      "url": "https://x.com/legendtrade/status/2105983374339059786"
     },
     {
-     "name": "@entropyIO",
+     "name": "entropyIO",
      "url": "https://x.com/entropyIO/status/2106063671361434054"
     }
    ],
@@ -50,7 +50,7 @@
    "summary": "清算叙事与量能回升同窗出现。两边各自可核到叙事或拍点，但禁止用清算解释全部回升，也禁止用回升否定清算。",
    "sources": [
     {
-     "name": "@HyperTracker",
+     "name": "HyperTracker",
      "url": "https://x.com/HyperTracker/status/2106096150281339150"
     }
    ],
@@ -102,6 +102,7 @@
    }
   ],
   "no_summary": [],
-  "no_sources": []
+  "no_sources": [],
+  "problems": []
  }
 }

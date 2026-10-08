@@ -12,15 +12,15 @@
    "summary": "仓位规模还在涨，收入没有同步领先。两个数字都是二手，单看哪一个都会读偏。",
    "sources": [
     {
-     "name": "BlockBeats 份额快讯",
+     "name": "BlockBeats",
      "url": "https://en.theblockbeats.news/flash/370236"
     },
     {
-     "name": "Odaily 收入对比",
+     "name": "Odaily",
      "url": "https://www.odaily.news/zh-CN/newsflash/522418"
     },
     {
-     "name": "Adbytes 质疑稿",
+     "name": "adbytes",
      "url": "https://www.adbytes.media/blog/hyperliquids-reported-118-perpetuals-oi-share-lacks-verifiable-data"
     }
    ],
@@ -35,11 +35,11 @@
    "summary": "这是一条新的、小额但持续的 HYPE 销毁来源，目前几乎只有少数做市商在用。",
    "sources": [
     {
-     "name": "Docs 优先费说明",
+     "name": "Hyperliquid Docs",
      "url": "https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/priority-fees"
     },
     {
-     "name": "Odaily 快讯",
+     "name": "Odaily",
      "url": "https://www.odaily.news/zh-CN/newsflash/522450"
     }
    ],
@@ -54,11 +54,11 @@
    "summary": "本窗生态里有两条具体动作，权重低于上面四条。",
    "sources": [
     {
-     "name": "深潮 TechFlow HyperLink 快讯",
+     "name": "TechFlow",
      "url": "https://www.techflowpost.com/en-US/newsletter/138817"
     },
     {
-     "name": "Odaily trade.xyz 快讯",
+     "name": "Odaily",
      "url": "https://www.odaily.news/zh-CN/newsflash/522431"
     }
    ],
@@ -73,15 +73,15 @@
    "summary": "本周最可能出一手消息的场合是新加坡。本窗 S 层没采到（X 失败），官网、Docs 和基金会站都没有窗内新公告。",
    "sources": [
     {
-     "name": "TOKEN2049 议程",
+     "name": "TOKEN2049",
      "url": "https://token2049.com/singapore/agenda"
     },
     {
-     "name": "众议院公函 PDF",
+     "name": "House Oversight",
      "url": "https://oversight.house.gov/wp-content/uploads/2026/09/Hyperliquid-Letter-9.29.26.pdf"
     },
     {
-     "name": "币安 HYPE 上线公告",
+     "name": "Binance",
      "url": "https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d"
     }
    ],
@@ -133,6 +133,7 @@
    }
   ],
   "no_summary": [],
-  "no_sources": []
+  "no_sources": [],
+  "problems": []
  }
 }

@@ -12,15 +12,15 @@
    "summary": null,
    "sources": [
     {
-     "name": "hyperliquid.xyz",
+     "name": "Hyperliquid",
      "url": "https://hyperliquid.xyz"
     },
     {
-     "name": "techflowpost.com",
+     "name": "TechFlow",
      "url": "https://www.techflowpost.com/zh-TW/article/34099"
     },
     {
-     "name": "tokenpost.com",
+     "name": "TokenPost",
      "url": "https://tw.tokenpost.com/news/blockchain/47286"
     }
    ],
@@ -35,15 +35,15 @@
    "summary": null,
    "sources": [
     {
-     "name": "@HypedLaunches",
+     "name": "HypedLaunches",
      "url": "https://x.com/HypedLaunches/status/2101782628424900899"
     },
     {
-     "name": "@Gabby0o0",
+     "name": "Gabby0o0",
      "url": "https://x.com/Gabby0o0/status/2101824645682913299"
     },
     {
-     "name": "coingabbar.com",
+     "name": "CoinGabbar",
      "url": "https://www.coingabbar.com/en/hyperliquid-news-today-hype-burn-open-interest-record"
     }
    ],
@@ -58,16 +58,12 @@
    "summary": null,
    "sources": [
     {
-     "name": "@NestExchange",
+     "name": "NestExchange",
      "url": "https://x.com/NestExchange/status/2101671790749585533"
     },
     {
-     "name": "@HypedLaunches",
+     "name": "HypedLaunches",
      "url": "https://x.com/HypedLaunches/status/2101782976887726249"
-    },
-    {
-     "name": "@HypedLaunches",
-     "url": "https://x.com/HypedLaunches/status/2101783195138371856"
     }
    ],
    "flags": [
@@ -124,6 +120,7 @@
    3,
    5
   ],
-  "no_sources": []
+  "no_sources": [],
+  "problems": []
  }
 }

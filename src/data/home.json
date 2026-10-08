@@ -6,7 +6,8 @@
     },
     {
       "type": "hero",
-      "followLabel": "在 X 关注 @kylewmi ↗"
+      "followLabel": "在 X 关注 @kylewmi ↗",
+      "updatedLabel": "馆藏更新于"
     },
     {
       "type": "duo",
@@ -25,7 +26,8 @@
         "show": 3,
         "more": "往期 →",
         "foot": "AI 整理，非投资建议 · 每条附出处",
-        "full": "看完整晨报 →"
+        "full": "看完整晨报 →",
+        "maxSources": 3
       },
       "announce": {
         "title": "官宣",

@@ -12,15 +12,15 @@
    "summary": "昨天还在争「钱进没进 AF」，今天可以往前走一步。AF 从 10/4 起明显放量，现在账上几乎没有 USDC 了。",
    "sources": [
     {
-     "name": "Odaily 转 Onchain Lens",
+     "name": "Odaily",
      "url": "https://www.odaily.news/zh-CN/newsflash/522529"
     },
     {
-     "name": "swolecharts AF 日买入表",
+     "name": "swolecharts",
      "url": "https://swolecharts.com/hyperliquid/assistance-fund"
     },
     {
-     "name": "TheTokenPress 首笔核对稿",
+     "name": "The Token Press",
      "url": "https://www.thetokenpress.com/article/hyperliquid-records-first-14-58m-usdc-reserve-yield-payment-c7a495c4"
     }
    ],
@@ -35,11 +35,11 @@
    "summary": "中文快讯普遍用「销毁」这个词，读的时候要换成「AF 买入、计为非流通」。",
    "sources": [
     {
-     "name": "深潮 TechFlow 快讯",
+     "name": "TechFlow",
      "url": "https://techflowpost.com/newsletter/138839"
     },
     {
-     "name": "PANews 英文稿",
+     "name": "PANews",
      "url": "https://www.panews.io/articles/01a109db-c69e-76cf-94ba-945e5c909a05"
     }
    ],
@@ -54,15 +54,15 @@
    "summary": "短期不会直接压到订单簿上，真正要看的是 10/7 之后这批币往哪走。",
    "sources": [
     {
-     "name": "BeInCrypto 解锁稿",
+     "name": "BeInCrypto",
      "url": "https://beincrypto.com/hyperliquid-token-unlock-320-million-price-impact/"
     },
     {
-     "name": "unlocks.app 周报",
+     "name": "Unlocks",
      "url": "https://insights.unlocks.app/weekly-unlock-digest-oct-5-oct-11-2026-hypes-team-payout-goes-otc/"
     },
     {
-     "name": "BBX 中文快讯",
+     "name": "bbx",
      "url": "https://bbx.com/zh-Hans/news-detail/3111680"
     }
    ],
@@ -77,11 +77,11 @@
    "summary": "这是可见度上的进展，和交易接入、监管准入无关。",
    "sources": [
     {
-     "name": "crypto.news 报道",
+     "name": "crypto.news",
      "url": "https://crypto.news/hyperliquid-perpetual-prices-land-on-bloomberg-terminal/"
     },
     {
-     "name": "Hyperliquid Daily 原帖",
+     "name": "HYPERDailyTK",
      "url": "https://x.com/HYPERDailyTK/status/2107017951681335633"
     }
    ],
@@ -96,12 +96,8 @@
    "summary": "价格和仓位都在往上走，和 AF 放量同一时段，但不能直接说是 AF 买上去的。",
    "sources": [
     {
-     "name": "Odaily 大户多空比",
+     "name": "Odaily",
      "url": "https://www.odaily.news/zh-CN/newsflash/522514"
-    },
-    {
-     "name": "Odaily SMARTESTMONEY 快讯",
-     "url": "https://www.odaily.news/zh-CN/newsflash/522526"
     }
    ],
    "flags": [],
@@ -115,15 +111,15 @@
    "summary": "最可能出一手消息的是 10/7 上午 Jeff Yan 和 Hart Lambur 的对谈。官方渠道本窗没有新公告。",
    "sources": [
     {
-     "name": "Hyperliquid 官方 TG 公告频道",
+     "name": "Telegram",
      "url": "https://t.me/s/hyperliquid_announcements"
     },
     {
-     "name": "TOKEN2049 议程",
+     "name": "TOKEN2049",
      "url": "https://token2049.com/singapore/agenda"
     },
     {
-     "name": "众议院公函 PDF",
+     "name": "House Oversight",
      "url": "https://oversight.house.gov/wp-content/uploads/2026/09/Hyperliquid-Letter-9.29.26.pdf"
     }
    ],
@@ -180,6 +176,7 @@
    }
   ],
   "no_summary": [],
-  "no_sources": []
+  "no_sources": [],
+  "problems": []
  }
 }

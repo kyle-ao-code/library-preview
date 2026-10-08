@@ -12,12 +12,8 @@
    "summary": "本拍日名义成交较昨拍接近翻倍，未平仓兴趣与 HYPE 价格同步回落。热度读法要标非正式，且不能拿媒体巨鲸持仓或 Wintermute 空头直接对照。",
    "sources": [
     {
-     "name": "chaincatcher.com",
+     "name": "ChainCatcher",
      "url": "https://www.chaincatcher.com/article/2292588"
-    },
-    {
-     "name": "chaincatcher.com",
-     "url": "https://www.chaincatcher.com/article/2292707"
     }
    ],
    "flags": [],
@@ -31,23 +27,23 @@
    "summary": "本窗生态一手以项目方原帖为主，覆盖锁仓与 pre-IPO 永续，也有体育预测盘和竞赛空投；S 官号与官站无对应公告。",
    "sources": [
     {
-     "name": "@NestExchange",
+     "name": "NestExchange",
      "url": "https://x.com/NestExchange/status/2104629712353939543"
     },
     {
-     "name": "@liquidtrading",
+     "name": "liquidtrading",
      "url": "https://x.com/liquidtrading/status/2104645988120166611"
     },
     {
-     "name": "@sharexyz",
+     "name": "sharexyz",
      "url": "https://x.com/sharexyz/status/2104671234437116287"
     },
     {
-     "name": "@BounceTech",
+     "name": "BounceTech",
      "url": "https://x.com/BounceTech/status/2104566443081654418"
     },
     {
-     "name": "@Kinetiq_xyz",
+     "name": "Kinetiq_xyz",
      "url": "https://x.com/Kinetiq_xyz/status/2104619792778797213"
     }
    ],
@@ -62,12 +58,8 @@
    "summary": "提现时点仍停在 CMS「预计」口径；本窗没有新的开放确认公告。",
    "sources": [
     {
-     "name": "binance.com",
+     "name": "Binance",
      "url": "https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d"
-    },
-    {
-     "name": "binance.com",
-     "url": "https://www.binance.com/en/support/announcement/detail/1718842b00ee41479c763ef27b6312f0"
     }
    ],
    "flags": [],
@@ -81,19 +73,19 @@
    "summary": "过滤后的中文有机帖，主线换成 CZ 谈 Hyperliquid 竞争、Seanzhao UNI vs HYPE 销毁长文；昨日费率上限与 HIP-4 扩容热议本窗基本消退。",
    "sources": [
     {
-     "name": "@david1989_zhu",
+     "name": "david1989_zhu",
      "url": "https://x.com/david1989_zhu/status/2104680022611308724"
     },
     {
-     "name": "@Seanzhao1105",
+     "name": "Seanzhao1105",
      "url": "https://x.com/Seanzhao1105/status/2104581184550547724"
     },
     {
-     "name": "@cloudi66",
+     "name": "cloudi66",
      "url": "https://x.com/cloudi66/status/2104688233460490649"
     },
     {
-     "name": "odaily.news",
+     "name": "Odaily",
      "url": "https://www.odaily.news/zh-CN/newsflash/520692"
     }
    ],
@@ -108,7 +100,7 @@
    "summary": "NEAR 入口故事本窗仍无正式闭环；非正式数字显示 perp OI 与 mark 回落，日名义成交上升。",
    "sources": [
     {
-     "name": "@NestExchange",
+     "name": "NestExchange",
      "url": "https://x.com/NestExchange/status/2104629712353939543"
     }
    ],
@@ -165,6 +157,7 @@
    }
   ],
   "no_summary": [],
-  "no_sources": []
+  "no_sources": [],
+  "problems": []
  }
 }

@@ -12,19 +12,15 @@
    "summary": "提现时点仍停在 CMS「预计」口径；本窗没有新的开放确认公告。中文有机帖开始把上线后回落与永续份额虹吸并读。",
    "sources": [
     {
-     "name": "binance.com",
+     "name": "Binance",
      "url": "https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d"
     },
     {
-     "name": "binance.com",
-     "url": "https://www.binance.com/en/support/announcement/detail/1718842b00ee41479c763ef27b6312f0"
-    },
-    {
-     "name": "bitcoinist.com",
+     "name": "Bitcoinist",
      "url": "https://bitcoinist.com/binance-lists-hyperliquid-hype-for-spot-trading/"
     },
     {
-     "name": "@Maddere7",
+     "name": "Maddere7",
      "url": "https://x.com/Maddere7/status/2103996268213305392"
     }
    ],
@@ -39,11 +35,11 @@
    "summary": "本拍日名义成交较昨拍回落约 58%，未平仓兴趣大致持平微降；热度读法要标非正式，且不能拿媒体 OI 直接对照。",
    "sources": [
     {
-     "name": "nbtc.finance",
+     "name": "nbtc",
      "url": "https://news.nbtc.finance/hyperliquid-open-interest-tops-14-7-billion-highest-since-october-2025/"
     },
     {
-     "name": "chaincatcher.com",
+     "name": "ChainCatcher",
      "url": "https://www.chaincatcher.com/en/article/2292365"
     }
    ],
@@ -58,23 +54,23 @@
    "summary": "销毁与回购本窗仍无正式 live；媒体在续写累计/24h 数字，同时有项目方质疑看板估算方法。",
    "sources": [
     {
-     "name": "odaily.news",
+     "name": "Odaily",
      "url": "https://www.odaily.news/zh-CN/newsflash/520555"
     },
     {
-     "name": "techflowpost.com",
+     "name": "TechFlow",
      "url": "https://techflowpost.com/newsletter/137895"
     },
     {
-     "name": "tokenpost.com",
+     "name": "TokenPost",
      "url": "https://www.tokenpost.com/news/investing/24462"
     },
     {
-     "name": "@HypedLaunches",
+     "name": "HypedLaunches",
      "url": "https://x.com/HypedLaunches/status/2103920667632513167"
     },
     {
-     "name": "@HyperSwapX",
+     "name": "HyperSwapX",
      "url": "https://x.com/HyperSwapX/status/2103978759443316995"
     }
    ],
@@ -89,15 +85,15 @@
    "summary": "生态产品本窗以预测盘与线下活动为主，密度低于昨窗的 Nest 发奖 / Bounce 上币 / Outcome 15min 集群。",
    "sources": [
     {
-     "name": "@sharexyz",
+     "name": "sharexyz",
      "url": "https://x.com/sharexyz/status/2103869530782998857"
     },
     {
-     "name": "@NestExchange",
+     "name": "NestExchange",
      "url": "https://x.com/NestExchange/status/2103840353912562032"
     },
     {
-     "name": "@Outcomexyz",
+     "name": "Outcomexyz",
      "url": "https://x.com/Outcomexyz/status/2103837390234423713"
     }
    ],
@@ -112,19 +108,19 @@
    "summary": "NEAR 入口与 S3 激励时间表本窗仍无正式闭环；中文有「S3 可能拖到 27/28」的单帖强判断，样本薄。",
    "sources": [
     {
-     "name": "odaily.news",
+     "name": "Odaily",
      "url": "https://www.odaily.news/zh-CN/newsflash/520538"
     },
     {
-     "name": "bitinsider.io",
+     "name": "BitInsider",
      "url": "https://bitinsider.io/articles/near-reclaims-5-as-bitwise-etf-clears-key-regulatory-hurdle"
     },
     {
-     "name": "chaincatcher.com",
+     "name": "ChainCatcher",
      "url": "https://www.chaincatcher.com/article/2291702"
     },
     {
-     "name": "@GuHype",
+     "name": "GuHype",
      "url": "https://x.com/GuHype/status/2103926206760693864"
     }
    ],
@@ -181,6 +177,7 @@
    }
   ],
   "no_summary": [],
-  "no_sources": []
+  "no_sources": [],
+  "problems": []
  }
 }

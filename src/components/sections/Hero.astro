@@ -14,7 +14,7 @@ const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
       <div class="stats">
         <span><b>{stats.items}</b>条馆藏</span>
         <span><b>{stats.topics}</b>个主题</span>
-        {stats.updated && <span>最近更新 {fmtDate(stats.updated)}</span>}
+        {stats.updated && <span>{section.updatedLabel || '馆藏更新于'} {fmtDate(stats.updated)}</span>}
       </div>
     </div>
     <a class="btn primary hero-btn" href={`https://x.com/${site.handle}`} target="_blank" rel="noopener">{section.followLabel || `在 X 关注 @${site.handle} ↗`}</a>

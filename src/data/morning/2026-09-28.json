@@ -12,15 +12,11 @@
    "summary": "提现时点仍停在 CMS「预计」口径；本窗没有新的开放确认公告。",
    "sources": [
     {
-     "name": "binance.com",
+     "name": "Binance",
      "url": "https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d"
     },
     {
-     "name": "binance.com",
-     "url": "https://www.binance.com/en/support/announcement/detail/1718842b00ee41479c763ef27b6312f0"
-    },
-    {
-     "name": "bitcoinist.com",
+     "name": "Bitcoinist",
      "url": "https://bitcoinist.com/binance-lists-hyperliquid-hype-for-spot-trading/"
     }
    ],
@@ -35,11 +31,11 @@
    "summary": "本拍日名义成交较昨拍回升约 37%，未平仓兴趣微升；热度读法要标非正式，且不能拿媒体市佔或巨鲸持仓直接对照。",
    "sources": [
     {
-     "name": "odaily.news",
+     "name": "Odaily",
      "url": "https://www.odaily.news/zh-CN/newsflash/520678"
     },
     {
-     "name": "chaincatcher.com",
+     "name": "ChainCatcher",
      "url": "https://www.chaincatcher.com/article/2292534"
     }
    ],
@@ -54,24 +50,12 @@
    "summary": "生态产品本窗一手以 Share NFL 预测盘为主；其余多条经 HypedLaunches 二手转述，项目方原帖或 CMS 交叉不足。",
    "sources": [
     {
-     "name": "@sharexyz",
+     "name": "sharexyz",
      "url": "https://x.com/sharexyz/status/2104262221031256517"
     },
     {
-     "name": "@HypedLaunches",
+     "name": "HypedLaunches",
      "url": "https://x.com/HypedLaunches/status/2104329534200000912"
-    },
-    {
-     "name": "@HypedLaunches",
-     "url": "https://x.com/HypedLaunches/status/2104271138675397040"
-    },
-    {
-     "name": "@HypedLaunches",
-     "url": "https://x.com/HypedLaunches/status/2104210749732094168"
-    },
-    {
-     "name": "@HypedLaunches",
-     "url": "https://x.com/HypedLaunches/status/2104196488561651853"
     }
    ],
    "flags": [],
@@ -85,15 +69,15 @@
    "summary": "销毁与回购本窗仍无正式 live；仅有第三方 tracker 口径，ETF 也没有新的日度净流入一手。",
    "sources": [
     {
-     "name": "@HypedLaunches",
+     "name": "HypedLaunches",
      "url": "https://x.com/HypedLaunches/status/2104272055877165268"
     },
     {
-     "name": "@mkTRQE0jBPxXACO",
+     "name": "mkTRQE0jBPxXACO",
      "url": "https://x.com/mkTRQE0jBPxXACO/status/2104277821925556464"
     },
     {
-     "name": "chaincatcher.com",
+     "name": "ChainCatcher",
      "url": "https://www.chaincatcher.com/article/2292366"
     }
    ],
@@ -145,6 +129,7 @@
    }
   ],
   "no_summary": [],
-  "no_sources": []
+  "no_sources": [],
+  "problems": []
  }
 }

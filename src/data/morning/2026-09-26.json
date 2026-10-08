@@ -12,15 +12,15 @@
    "summary": "提现时点仍停在 CMS「预计」口径；本窗没有新的开放确认公告。",
    "sources": [
     {
-     "name": "binance.com",
+     "name": "Binance",
      "url": "https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d"
     },
     {
-     "name": "blockonomi.com",
+     "name": "Blockonomi",
      "url": "https://blockonomi.com/hyperliquid-hype-begins-binance-spot-trading-as-major-whale-accumulates-tokens/"
     },
     {
-     "name": "abmedia.io",
+     "name": "ABMedia",
      "url": "https://abmedia.io/binance-listing-hyperliquid-hype"
     }
    ],
@@ -35,7 +35,7 @@
    "summary": "质押份额迁移叙事有一条可核原帖，挂 HyperliquidX 语境，但落地规模待数据。",
    "sources": [
     {
-     "name": "@Kinetiq_xyz",
+     "name": "Kinetiq_xyz",
      "url": "https://x.com/Kinetiq_xyz/status/2103601890361843911"
     }
    ],
@@ -50,23 +50,23 @@
    "summary": "生态产品自述密集，均非 HL 官号背书；Outcome 的 HL 累交/$5.5T 等大数须单独降级。",
    "sources": [
     {
-     "name": "@NestExchange",
+     "name": "NestExchange",
      "url": "https://x.com/NestExchange/status/2103561248734351432"
     },
     {
-     "name": "@BounceTech",
+     "name": "BounceTech",
      "url": "https://x.com/BounceTech/status/2103480299891876249"
     },
     {
-     "name": "@Outcomexyz",
+     "name": "Outcomexyz",
      "url": "https://x.com/Outcomexyz/status/2103467501183201515"
     },
     {
-     "name": "@liquidtrading",
+     "name": "liquidtrading",
      "url": "https://x.com/liquidtrading/status/2103509695818351093"
     },
     {
-     "name": "@legendtrade",
+     "name": "legendtrade",
      "url": "https://x.com/legendtrade/status/2103536043773571583"
     }
    ],
@@ -83,11 +83,11 @@
    "summary": "监管叙事本窗有一条可点的媒体+政策站交叉；主张协议开发者不应视为金融中介。",
    "sources": [
     {
-     "name": "odaily.news",
+     "name": "Odaily",
      "url": "https://www.odaily.news/zh-CN/newsflash/520206"
     },
     {
-     "name": "hyperliquidpolicy.org",
+     "name": "Hyperliquid Policy Center",
      "url": "https://hyperliquidpolicy.org/blog/hpc-and-phantom-ask-the-cftc-to-make-room-for-onchain-market-infrastructure"
     }
    ],
@@ -102,24 +102,20 @@
    "summary": "口径冲突未解；NEAR 入口与销毁 live 本窗仍无正式闭环。",
    "sources": [
     {
-     "name": "@HyperliquidX",
+     "name": "HyperliquidX",
      "url": "https://x.com/HyperliquidX/status/2102643437896110439"
     },
     {
-     "name": "tokenpost.com",
+     "name": "TokenPost",
      "url": "https://www.tokenpost.com/news/investing/24060"
     },
     {
-     "name": "@HypedLaunches",
+     "name": "HypedLaunches",
      "url": "https://x.com/HypedLaunches/status/2103566142954443252"
     },
     {
-     "name": "chaincatcher.com",
+     "name": "ChainCatcher",
      "url": "https://www.chaincatcher.com/article/2291702"
-    },
-    {
-     "name": "@HypedLaunches",
-     "url": "https://x.com/HypedLaunches/status/2103571384236478816"
     }
    ],
    "flags": [],
@@ -175,6 +171,7 @@
    }
   ],
   "no_summary": [],
-  "no_sources": []
+  "no_sources": [],
+  "problems": []
  }
 }

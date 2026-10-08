@@ -20,7 +20,7 @@ const chLabel = (s: any) => (s.type === 'x' ? s.account : s.channel);
           {latest?.updated_at && <span class="live">{hm(latest.updated_at)} 更新</span>}
           <a class="more" href={`${base}morning/`}>{M.more}</a>
         </div>
-        {latest ? <MorningList items={latest.items} limit={M.show || 3} /> : <p class="items-empty">还没有晨报。</p>}
+        {latest ? <MorningList items={latest.items} limit={M.show || 3} maxSources={M.maxSources || 3} detailHref={`${base}morning/${latest.date}/`} compact /> : <p class="items-empty">还没有晨报。</p>}
         <div class="p-ft"><span>{M.foot}</span><a href={latest ? `${base}morning/${latest.date}/` : `${base}morning/`}>{M.full}</a></div>
       </div>
       <div class="panel" id="announce">

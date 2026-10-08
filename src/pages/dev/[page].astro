@@ -15,12 +15,12 @@ const tot = morning.items.reduce((a: any, x: any) => ({ items: a.items + x.items
     <p class="muted">只在预览站。晨报生成于 {morning.generated_at}，官宣生成于 {announcements.generated_at}。</p>
 
     <h2>晨报 · {morning.items.length} 期（缺文件：{morning.missing.length ? morning.missing.join('、') : '无'}）</h2>
-    <p class="muted">网站条目共 {tot.items} 条；因不确定标记去掉 {tot.skipped} 条；标题超 28 字 {tot.long} 条（没截断）。</p>
+    <p class="muted">每期数据来源：用 site.json {morning.items.filter((x: any) => x.origin === 'site.json').length} 期，过渡数据 {morning.items.filter((x: any) => x.origin !== 'site.json').length} 期（其中 site.json 有误回退 {morning.items.filter((x: any) => x.origin.includes('有误')).length} 期）。网站条目共 {tot.items} 条；因不确定标记去掉 {tot.skipped} 条；标题超 28 字 {tot.long} 条（没截断）。</p>
     <table>
       <thead><tr><th>日期</th><th>期</th><th>来源</th><th>格式</th><th>今天怎么看</th><th>观点</th><th>带标记</th><th>上站</th><th>超 28 字</th><th>更新时间</th><th>警告</th></tr></thead>
       <tbody>
         {morning.items.map((x: any) => (
-          <tr><td><a href={`#m-${x.date}`}>{x.date}</a></td><td>{x.issue_no}</td><td>{x.origin}</td><td>{x.parsed?.format}</td><td>{x.parsed?.today_paragraphs} 段</td><td>{x.parsed?.views}</td><td>{x.parsed?.uncertain_views}</td><td>{x.items}</td><td>{x.long_titles}</td><td>{x.updated_at?.slice(5, 16).replace('T', ' ') || '—'}</td><td>{x.parsed?.warnings?.length ? x.parsed.warnings.join('；') : ''}</td></tr>
+          <tr><td><a href={`#m-${x.date}`}>{x.date}</a></td><td>{x.issue_no}</td><td><span class:list={['org', { ok: x.origin === 'site.json', bad: x.origin.includes('有误') }]}>{x.origin}</span></td><td>{x.parsed?.format}</td><td>{x.parsed?.today_paragraphs} 段</td><td>{x.parsed?.views}</td><td>{x.parsed?.uncertain_views}</td><td>{x.items}</td><td>{x.long_titles}</td><td>{x.updated_at?.slice(5, 16).replace('T', ' ') || '—'}</td><td>{x.parsed?.warnings?.length ? x.parsed.warnings.join('；') : ''}</td></tr>
         ))}
       </tbody>
     </table>
@@ -29,7 +29,7 @@ const tot = morning.items.reduce((a: any, x: any) => ({ items: a.items + x.items
       const s = morningIssues[d], p = parsed[d], r = s._report || {};
       return (
         <section id={`m-${d}`} class="dd-issue">
-          <h3>{d} · {p?.title}</h3>
+          <h3>{d} · {p?.title} <span class:list={['org', { ok: morning.items.find((y: any) => y.date === d)?.origin === 'site.json', bad: morning.items.find((y: any) => y.date === d)?.origin.includes('有误') }]}>{morning.items.find((y: any) => y.date === d)?.origin}</span></h3>
           <p class="muted">窗口：{s.window ? `${s.window.start} → ${s.window.end}` : '—'}</p>
           {p && <details><summary>今天怎么看（{p.today.length} 段）</summary>{p.today.map((t: string) => <p>{t}</p>)}</details>}
           <ol>
@@ -42,6 +42,7 @@ const tot = morning.items.reduce((a: any, x: any) => ({ items: a.items + x.items
               </li>
             ))}
           </ol>
+          {r.problems?.length > 0 && <ul class="problems">{r.problems.map((q: any) => <li>site.json 问题 [{q.level}{q.item ? ` 条目 ${q.item}` : ''}] {q.msg}</li>)}</ul>}
           {r.skipped?.length > 0 && <ul class="skipped">{r.skipped.map((x: any) => <li>没放：观点 {x.num}「{x.title}」—— {x.reason}</li>)}</ul>}
         </section>
       );
@@ -79,5 +80,9 @@ const tot = morning.items.reduce((a: any, x: any) => ({ items: a.items + x.items
   .devdata .bad { color: #C2410C; }
   .devdata .skipped { color: var(--c-text-3); font-size: 12.5px; padding-left: 18px; }
   .devdata pre { white-space: pre-wrap; font: inherit; background: #fff; padding: 8px; border-radius: 8px; }
+  .devdata .org { font-size: 11px; font-weight: 650; border-radius: 4px; padding: 1px 6px; background: #F0F0EE; color: #333; }
+  .devdata .org.ok { background: #E8F7F3; color: #072722; }
+  .devdata .org.bad { background: #FEE2E2; color: #991B1B; }
+  .devdata .problems { color: #991B1B; font-size: 12.5px; padding-left: 18px; }
   .devdata .dd-issue { border-top: 1px solid var(--c-divider); margin-top: 16px; }
 </style>

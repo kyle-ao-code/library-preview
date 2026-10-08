@@ -12,23 +12,23 @@
    "summary": "Jeff 给出的是方向，期权留给生态在 HIP-4 上做，没有官方产品和时间表。",
    "sources": [
     {
-     "name": "Cointelegraph 期权引语",
+     "name": "Cointelegraph",
      "url": "https://x.com/Cointelegraph/status/2107716908518867272"
     },
     {
-     "name": "SkewTrade 原话",
+     "name": "SkewTrade",
      "url": "https://x.com/SkewTrade/status/2107872284392173914"
     },
     {
-     "name": "The Block 演讲帖",
+     "name": "TheBlockCo",
      "url": "https://x.com/TheBlockCo/status/2107680469722804517"
     },
     {
-     "name": "KuCoin 转 Foresight：HIP-3 占 51%",
+     "name": "KuCoin",
      "url": "https://www.kucoin.com/news/flash/jeff-yan-hip-3-accounts-for-51-of-hyperliquid-s-volume-platform-targets-open-financial-infrastructure"
     },
     {
-     "name": "Empire 播客",
+     "name": "Blockworks",
      "url": "https://blockworks.com/podcast/empire/bc375300-c276-11f1-925c-cbee0c7ea3ff"
     }
    ],
@@ -43,15 +43,15 @@
    "summary": "Jeff 一讲完，至少三个项目宣布了 HIP-4 相关进展，大多是项目自述。",
    "sources": [
     {
-     "name": "Share 上线帖（Scott_eth）",
+     "name": "Scott_eth",
      "url": "https://x.com/Scott_eth/status/2107851212175605955"
     },
     {
-     "name": "Hypercall 预告",
+     "name": "SynapseProtocol",
      "url": "https://x.com/SynapseProtocol/status/2107824416034046146"
     },
     {
-     "name": "Liquid 预测市场",
+     "name": "liquidtrading",
      "url": "https://x.com/liquidtrading/status/2107862113045639238"
     }
    ],
@@ -68,15 +68,15 @@
    "summary": "这轮下跌由 BTC 带动，Hyperliquid 主要是被讨论的交易场所。抢跑空单是否涉及内幕，目前只有时间上的巧合。",
    "sources": [
     {
-     "name": "Lookonchain 原帖",
+     "name": "lookonchain",
      "url": "https://x.com/lookonchain/status/2107665774571856060"
     },
     {
-     "name": "Cointelegraph 行情稿",
+     "name": "Cointelegraph",
      "url": "https://cointelegraph.com/markets/crypto-liquidations-hit-550m-as-bitcoin-price-dips-below-84k"
     },
     {
-     "name": "EmberCN 巨鲸多单",
+     "name": "EmberCN",
      "url": "https://x.com/EmberCN/status/2107761006218797562"
     }
    ],
@@ -91,11 +91,11 @@
    "summary": "AF 每天买多少由当天手续费决定，波动越大买得越多，昨天回到 2 万枚以上。",
    "sources": [
     {
-     "name": "nahnah64 AF 日统计",
+     "name": "nahnah64",
      "url": "https://x.com/nahnah64/status/2107768266131468550"
     },
     {
-     "name": "swolecharts AF 页",
+     "name": "swolecharts",
      "url": "https://swolecharts.com/hyperliquid/assistance-fund"
     }
    ],
@@ -142,6 +142,7 @@
    }
   ],
   "no_summary": [],
-  "no_sources": []
+  "no_sources": [],
+  "problems": []
  }
 }

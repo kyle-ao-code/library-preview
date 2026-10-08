@@ -12,15 +12,11 @@
    "summary": "本窗最硬的产品进展来自 S 层：永续市场可用追踪止损。",
    "sources": [
     {
-     "name": "@HyperliquidX",
+     "name": "HyperliquidX",
      "url": "https://x.com/HyperliquidX/status/2101913891681055056"
     },
     {
-     "name": "@HyperliquidX",
-     "url": "https://x.com/HyperliquidX/status/2101913893744660739"
-    },
-    {
-     "name": "hyperliquid.gitbook.io",
+     "name": "Hyperliquid Docs",
      "url": "https://hyperliquid.gitbook.io/hyperliquid-docs/trading/order-types"
     }
    ],
@@ -35,12 +31,8 @@
    "summary": "Nest 窗内主叙事是 TVL 创新高，并强调费用回流与 HYPE Engine Vault。",
    "sources": [
     {
-     "name": "@NestExchange",
+     "name": "NestExchange",
      "url": "https://x.com/NestExchange/status/2102163583110946952"
-    },
-    {
-     "name": "@NestExchange",
-     "url": "https://x.com/NestExchange/status/2102047818726686936"
     }
    ],
    "flags": [],
@@ -86,6 +78,7 @@
    }
   ],
   "no_summary": [],
-  "no_sources": []
+  "no_sources": [],
+  "problems": []
  }
 }

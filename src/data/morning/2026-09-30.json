@@ -12,27 +12,23 @@
    "summary": "本窗监管主信号来自 House Oversight 一手材料。委员会要求 HL Labs 在 2026-10-13 前答复身份验证与异常交易相关材料；这是扩大调查范围，不是有罪认定。",
    "sources": [
     {
-     "name": "oversight.house.gov",
+     "name": "House Oversight",
      "url": "https://oversight.house.gov/release/comer-continues-investigation-into-insider-trading-on-online-prediction-market-platforms/"
     },
     {
-     "name": "oversight.house.gov",
-     "url": "https://oversight.house.gov/wp-content/uploads/2026/09/Hyperliquid-Letter-9.29.26.pdf"
-    },
-    {
-     "name": "cnbc.com",
+     "name": "CNBC",
      "url": "https://www.cnbc.com/2026/09/29/comer-house-prediction-market-insider-trading.html"
     },
     {
-     "name": "theblock.co",
+     "name": "The Block",
      "url": "https://www.theblock.co/news/regulation/2026-09-29-comer-presses-crypto-com-hyperliquid-predictit-identity-checks-suspicious-trades-417192"
     },
     {
-     "name": "odaily.news",
+     "name": "Odaily",
      "url": "https://www.odaily.news/zh-CN/newsflash/521332"
     },
     {
-     "name": "@wublockchain12",
+     "name": "wublockchain12",
      "url": "https://x.com/wublockchain12/status/2104939847945523543"
     }
    ],
@@ -47,11 +43,11 @@
    "summary": "相对昨拍，日名义成交从尖峰回落，未平仓兴趣微升，HYPE 续软。媒体「总 OI≈$180 亿」与 API 自加总不是同一口径，不能对表。",
    "sources": [
     {
-     "name": "odaily.news",
+     "name": "Odaily",
      "url": "https://www.odaily.news/zh-CN/newsflash/521201"
     },
     {
-     "name": "hyperliquid.xyz",
+     "name": "Hyperliquid",
      "url": "https://hyperliquid.xyz"
     }
    ],
@@ -66,15 +62,11 @@
    "summary": "预测市场侧本窗有产品成交自报，也有 SEC FAQ 叙事升温；FAQ 叙事与众议院调查同窗并存，不能读成「监管已放行」。",
    "sources": [
     {
-     "name": "@Outcomexyz",
+     "name": "Outcomexyz",
      "url": "https://x.com/Outcomexyz/status/2104994687530742152"
     },
     {
-     "name": "@Outcomexyz",
-     "url": "https://x.com/Outcomexyz/status/2104979271232188881"
-    },
-    {
-     "name": "@sharexyz",
+     "name": "sharexyz",
      "url": "https://x.com/sharexyz/status/2104943630456590481"
     }
    ],
@@ -89,32 +81,28 @@
    "summary": "本窗生态一手仍以项目方原帖为主，覆盖波动率合约与社交终端成交，也有钱包接入、Vault 奖励和 pre-IPO 永续；S 官号与官站无对应公告。$BVIV 在同次 meta universe 未见同名资产，交叉未闭环。",
    "sources": [
     {
-     "name": "@Kinetiq_xyz",
+     "name": "Kinetiq_xyz",
      "url": "https://x.com/Kinetiq_xyz/status/2104904880611840499"
     },
     {
-     "name": "@legendtrade",
+     "name": "legendtrade",
      "url": "https://x.com/legendtrade/status/2105040189345415209"
     },
     {
-     "name": "@entropyIO",
+     "name": "entropyIO",
      "url": "https://x.com/entropyIO/status/2104992584968146964"
     },
     {
-     "name": "@NestExchange",
+     "name": "NestExchange",
      "url": "https://x.com/NestExchange/status/2104932868023861251"
     },
     {
-     "name": "@liquidtrading",
+     "name": "liquidtrading",
      "url": "https://x.com/liquidtrading/status/2104919786631139829"
     },
     {
-     "name": "odaily.news",
+     "name": "Odaily",
      "url": "https://www.odaily.news/zh-CN/newsflash/521294"
-    },
-    {
-     "name": "odaily.news",
-     "url": "https://www.odaily.news/zh-CN/post/5213190"
     }
    ],
    "flags": [],
@@ -128,23 +116,23 @@
    "summary": "过滤后的中文有机帖，主线换成远山「46 天回购复盘」与 SEC FAQ / 众议院调查同框；昨日 CZ 谈 HL 竞争与 UNI vs HYPE 销毁热议本窗基本消退，费率上限与 HIP-4 扩容亦然。",
    "sources": [
     {
-     "name": "@Yuanshan0626",
+     "name": "Yuanshan0626",
      "url": "https://x.com/Yuanshan0626/status/2104961102887157951"
     },
     {
-     "name": "@0xMaxs",
+     "name": "0xMaxs",
      "url": "https://x.com/0xMaxs/status/2105087307221246203"
     },
     {
-     "name": "@david1989_zhu",
+     "name": "david1989_zhu",
      "url": "https://x.com/david1989_zhu/status/2104903920682467659"
     },
     {
-     "name": "@wublockchain12",
+     "name": "wublockchain12",
      "url": "https://x.com/wublockchain12/status/2104939847945523543"
     },
     {
-     "name": "@Outcomexyz",
+     "name": "Outcomexyz",
      "url": "https://x.com/Outcomexyz/status/2104994687530742152"
     }
    ],
@@ -159,12 +147,8 @@
    "summary": "提现时点仍停在 CMS「预计」口径；本窗没有新的开放确认公告。",
    "sources": [
     {
-     "name": "binance.com",
+     "name": "Binance",
      "url": "https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d"
-    },
-    {
-     "name": "binance.com",
-     "url": "https://www.binance.com/en/support/announcement/detail/1718842b00ee41479c763ef27b6312f0"
     }
    ],
    "flags": [],
@@ -178,7 +162,7 @@
    "summary": "NEAR 入口故事本窗仍无正式闭环；非正式数字显示 perp OI 与日名义回落，mark 小升。S 三官号与 Docs 窗内静默，无正式里程碑。",
    "sources": [
     {
-     "name": "hyperliquid.xyz",
+     "name": "Hyperliquid",
      "url": "https://hyperliquid.xyz"
     }
    ],
@@ -234,6 +218,7 @@
    }
   ],
   "no_summary": [],
-  "no_sources": []
+  "no_sources": [],
+  "problems": []
  }
 }

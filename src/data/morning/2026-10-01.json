@@ -12,7 +12,7 @@
    "summary": "相对昨拍，未平仓、日名义成交与 HYPE 价格一并转升。这是非正式 API 拍点对照，不是正式里程碑。",
    "sources": [
     {
-     "name": "hyperliquid.xyz",
+     "name": "Hyperliquid",
      "url": "https://hyperliquid.xyz"
     }
    ],
@@ -27,19 +27,19 @@
    "summary": "S 层本窗唯一一手是线下活动名额已满。联创在 KBW 的媒体采访里，把差异化落在自托管与系统透明度上。",
    "sources": [
     {
-     "name": "@HyperliquidX",
+     "name": "HyperliquidX",
      "url": "https://x.com/HyperliquidX/status/2105177404394381496"
     },
     {
-     "name": "theblock.co",
+     "name": "The Block",
      "url": "https://www.theblock.co/news/defi/2026-09-30-hyperliquid-co-founder-jeff-yan-24-hour-clock-not-onchain-finances-true-differentiator-417286"
     },
     {
-     "name": "chaincatcher.com",
+     "name": "ChainCatcher",
      "url": "https://www.chaincatcher.com/article/2293294"
     },
     {
-     "name": "@kylewmi",
+     "name": "kylewmi",
      "url": "https://x.com/kylewmi/status/2105251947184071012"
     }
    ],
@@ -54,27 +54,23 @@
    "summary": "产品侧本窗仍有项目方一手，覆盖预测市场占比、买回倒计时、回购比例调整与 Vault 累计分发；S 官号无对应产品公告。",
    "sources": [
     {
-     "name": "@Outcomexyz",
+     "name": "Outcomexyz",
      "url": "https://x.com/Outcomexyz/status/2105332835791917282"
     },
     {
-     "name": "@Outcomexyz",
-     "url": "https://x.com/Outcomexyz/status/2105330109347717279"
-    },
-    {
-     "name": "@AscendLaunch",
+     "name": "AscendLaunch",
      "url": "https://x.com/AscendLaunch/status/2105334639556788596"
     },
     {
-     "name": "@NestExchange",
+     "name": "NestExchange",
      "url": "https://x.com/NestExchange/status/2105322983954760092"
     },
     {
-     "name": "@sharexyz",
+     "name": "sharexyz",
      "url": "https://x.com/sharexyz/status/2105324178786439438"
     },
     {
-     "name": "@ElysiumEco",
+     "name": "ElysiumEco",
      "url": "https://x.com/ElysiumEco/status/2105257316014518431"
     }
    ],
@@ -126,6 +122,7 @@
    }
   ],
   "no_summary": [],
-  "no_sources": []
+  "no_sources": [],
+  "problems": []
  }
 }

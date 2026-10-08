@@ -12,19 +12,15 @@
    "summary": "本窗最硬的一手是币安 CMS 公告；HL 官号本窗无对应原帖。",
    "sources": [
     {
-     "name": "binance.com",
+     "name": "Binance",
      "url": "https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d"
     },
     {
-     "name": "binance.com",
-     "url": "https://www.binance.com/en/support/announcement/detail/1718842b00ee41479c763ef27b6312f0"
-    },
-    {
-     "name": "chaincatcher.com",
+     "name": "ChainCatcher",
      "url": "https://www.chaincatcher.com/article/2291998"
     },
     {
-     "name": "techflowpost.com",
+     "name": "TechFlow",
      "url": "https://www.techflowpost.com/article/34240"
     }
    ],
@@ -39,11 +35,11 @@
    "summary": "上新与即时涨价脱钩；本拍 mark 低于昨拍，媒体主写回落。",
    "sources": [
     {
-     "name": "cryptotimes.io",
+     "name": "The Crypto Times",
      "url": "https://www.cryptotimes.io/2026/09/24/hype-price-slips-below-90-after-binance-opens-spot-trading/"
     },
     {
-     "name": "altcoinbuzz.io",
+     "name": "Altcoin Buzz",
      "url": "https://www.altcoinbuzz.io/hype-drops-binance-listing-whale-transfers"
     }
    ],
@@ -58,11 +54,11 @@
    "summary": "做市/量化侧基础设施有一条可核的媒体+文档交叉。",
    "sources": [
     {
-     "name": "cointelegraph.com",
+     "name": "Cointelegraph",
      "url": "https://cointelegraph.com/news/doublezero-brings-dedicated-fiber-market-data-hyperliquid-traders"
     },
     {
-     "name": "hyperliquid.gitbook.io",
+     "name": "Hyperliquid Docs",
      "url": "https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/nodes/foundation-non-validating-node-for-infra-providers"
     }
    ],
@@ -77,15 +73,15 @@
    "summary": "HIP-3 / 生态产品继续用「TradFi 收益与回购发奖」讲故事，均非 HL 官号背书。",
    "sources": [
     {
-     "name": "@tradeparagon",
+     "name": "tradeparagon",
      "url": "https://x.com/tradeparagon/status/2103126961874928066"
     },
     {
-     "name": "@NestExchange",
+     "name": "NestExchange",
      "url": "https://x.com/NestExchange/status/2103120246697504899"
     },
     {
-     "name": "@BounceTech",
+     "name": "BounceTech",
      "url": "https://x.com/BounceTech/status/2103241284890550386"
     }
    ],
@@ -102,11 +98,11 @@
    "summary": "监管叙事本窗有一条可点原帖；另有一则评论信报道落在窗边。",
    "sources": [
     {
-     "name": "@HyperliquidPC",
+     "name": "HyperliquidPC",
      "url": "https://x.com/HyperliquidPC/status/2103239348804293099"
     },
     {
-     "name": "odaily.news",
+     "name": "Odaily",
      "url": "https://www.odaily.news/zh-CN/newsflash/520206"
     }
    ],
@@ -121,7 +117,7 @@
    "summary": "口径冲突没有因上线新闻消失；本窗无新的官方 OI 里程碑。",
    "sources": [
     {
-     "name": "@HyperliquidX",
+     "name": "HyperliquidX",
      "url": "https://x.com/HyperliquidX/status/2102643437896110439"
     }
    ],
@@ -178,6 +174,7 @@
    }
   ],
   "no_summary": [],
-  "no_sources": []
+  "no_sources": [],
+  "problems": []
  }
 }

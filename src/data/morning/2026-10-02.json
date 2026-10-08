@@ -12,15 +12,15 @@
    "summary": "本窗最抢注意力的一手来自 Kinetiq 积分兑现与 Ascend 对齐澄清。认购价、额度与窗口写在项目方原帖里；公平性质疑仍属中文薄样本。",
    "sources": [
     {
-     "name": "@Kinetiq_xyz",
+     "name": "Kinetiq_xyz",
      "url": "https://x.com/Kinetiq_xyz/status/2105629210048078216"
     },
     {
-     "name": "@AscendLaunch",
+     "name": "AscendLaunch",
      "url": "https://x.com/AscendLaunch/status/2105751119037391125"
     },
     {
-     "name": "@GuHype",
+     "name": "GuHype",
      "url": "https://x.com/GuHype/status/2105770180689420754"
     }
    ],
@@ -35,7 +35,7 @@
    "summary": "相对昨拍，未平仓、日名义成交与 HYPE 价格一并转降。这是非正式 API 拍点对照，不是正式里程碑。",
    "sources": [
     {
-     "name": "hyperliquid.xyz",
+     "name": "Hyperliquid",
      "url": "https://hyperliquid.xyz"
     }
    ],
@@ -50,23 +50,19 @@
    "summary": "政策侧本窗有可核一手。Hyperliquid Policy Center 称此为首次美国境外政策呈递，主张按经济实质将永续归入 MiFID II，勿机械套用 CFD 散户限制。咨询反馈不等于已获欧盟分类。",
    "sources": [
     {
-     "name": "hyperliquidpolicy.org",
+     "name": "Hyperliquid Policy Center",
      "url": "https://hyperliquidpolicy.org/blog/hpc-urges-the-european-commission-to-build-on-the-eu%E2%80%99s-existing-rules-for-onchain-markets"
     },
     {
-     "name": "hyperliquidpolicy.org",
-     "url": "https://hyperliquidpolicy.org/micaresponse/2026-09-30_hpc_mica_review_consultation_response.pdf"
-    },
-    {
-     "name": "theblock.co",
+     "name": "The Block",
      "url": "https://www.theblock.co/news/regulation/2026-10-01-hyperliquid-circle-mica-review-417452"
     },
     {
-     "name": "odaily.news",
+     "name": "Odaily",
      "url": "https://www.odaily.news/zh-CN/newsflash/521907"
     },
     {
-     "name": "oversight.house.gov",
+     "name": "House Oversight",
      "url": "https://oversight.house.gov/release/comer-continues-investigation-into-insider-trading-on-online-prediction-market-platforms/"
     }
    ],
@@ -81,15 +77,11 @@
    "summary": "监管美线本窗无新公函。币安提现时点仍停在「预计」口径。S 层三官号无新帖。",
    "sources": [
     {
-     "name": "oversight.house.gov",
+     "name": "House Oversight",
      "url": "https://oversight.house.gov/release/comer-continues-investigation-into-insider-trading-on-online-prediction-market-platforms/"
     },
     {
-     "name": "oversight.house.gov",
-     "url": "https://oversight.house.gov/wp-content/uploads/2026/09/Hyperliquid-Letter-9.29.26.pdf"
-    },
-    {
-     "name": "binance.com",
+     "name": "Binance",
      "url": "https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d"
     }
    ],
@@ -141,6 +133,7 @@
    }
   ],
   "no_summary": [],
-  "no_sources": []
+  "no_sources": [],
+  "problems": []
  }
 }

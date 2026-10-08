@@ -12,11 +12,11 @@
    "summary": "本窗没有新的 S 层产品官宣；可核进展主要来自生态方与媒体二传。",
    "sources": [
     {
-     "name": "hyperliquid.xyz",
+     "name": "Hyperliquid",
      "url": "https://hyperliquid.xyz"
     },
     {
-     "name": "@NestExchange",
+     "name": "NestExchange",
      "url": "https://x.com/NestExchange/status/2102469617931161781"
     }
    ],
@@ -31,7 +31,7 @@
    "summary": "本窗最醒目的公开数字落在价格新高一带；新功能官宣缺席。",
    "sources": [
     {
-     "name": "techflowpost.com",
+     "name": "TechFlow",
      "url": "https://www.techflowpost.com/newsletter/137382"
     }
    ],
@@ -46,15 +46,15 @@
    "summary": "生态产品在自己讲增长故事，且有一条 L2 测试网新闻可核到项目方传播。",
    "sources": [
     {
-     "name": "@NestExchange",
+     "name": "NestExchange",
      "url": "https://x.com/NestExchange/status/2102469617931161781"
     },
     {
-     "name": "@Enter_Elysium",
+     "name": "Enter_Elysium",
      "url": "https://x.com/Enter_Elysium/status/2102505535056818359"
     },
     {
-     "name": "chaincatcher.com",
+     "name": "ChainCatcher",
      "url": "https://www.chaincatcher.com/article/2291553"
     }
    ],
@@ -71,7 +71,7 @@
    "summary": "本窗依旧不能用单一数字写「OI/成交额纪录」。拍点对比只作非正式观察。",
    "sources": [
     {
-     "name": "gate.com",
+     "name": "Gate",
      "url": "https://www.gate.com/id/news/detail/hype-falls-to-9340-on-hyperliquid-open-interest-reaches-2034b-24469365"
     }
    ],
@@ -113,6 +113,7 @@
    }
   ],
   "no_summary": [],
-  "no_sources": []
+  "no_sources": [],
+  "problems": []
  }
 }

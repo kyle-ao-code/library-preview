@@ -12,15 +12,15 @@
    "summary": "生态产品侧本窗有项目方一手。权重次于 AQAv2 口径差与 Strategies 叙事，但构成可核的产品 continuum。",
    "sources": [
     {
-     "name": "@AscendLaunch",
+     "name": "AscendLaunch",
      "url": "https://x.com/AscendLaunch/status/2106189953210454331"
     },
     {
-     "name": "@hypurrdash",
+     "name": "hypurrdash",
      "url": "https://x.com/hypurrdash/status/2106341818917089788"
     },
     {
-     "name": "@kylewmi",
+     "name": "kylewmi",
      "url": "https://x.com/kylewmi/status/2106535017186750705"
     }
    ],
@@ -35,12 +35,8 @@
    "summary": "量能相对昨高位大幅回落，未平仓名义微升，HYPE 近平。两边各自可核到拍点对照，禁止用回落否定仓位，也禁止用 OI 微升否定量能回落。",
    "sources": [
     {
-     "name": "api.hyperliquid.xyz",
+     "name": "Hyperliquid",
      "url": "https://api.hyperliquid.xyz/info"
-    },
-    {
-     "name": "hyperliquid.xyz",
-     "url": "https://hyperliquid.xyz"
     }
    ],
    "flags": [],
@@ -91,6 +87,7 @@
    }
   ],
   "no_summary": [],
-  "no_sources": []
+  "no_sources": [],
+  "problems": []
  }
 }

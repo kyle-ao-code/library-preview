@@ -12,15 +12,11 @@
    "summary": "本窗最硬的一手是 S 层数据官宣。本窗没有新的功能上线官宣。",
    "sources": [
     {
-     "name": "@HyperliquidX",
+     "name": "HyperliquidX",
      "url": "https://x.com/HyperliquidX/status/2102643437896110439"
     },
     {
-     "name": "@HyperliquidX",
-     "url": "https://x.com/HyperliquidX/status/2102643440446271884"
-    },
-    {
-     "name": "panewslab.com",
+     "name": "PANews",
      "url": "https://www.panewslab.com/zh/articles/01a0ccff-d852-71a9-ba51-c1288162c101"
     }
    ],
@@ -35,7 +31,7 @@
    "summary": "有了官宣之后，还要分清字段，不能只记一个整数。",
    "sources": [
     {
-     "name": "ambcrypto.com",
+     "name": "AMBCrypto",
      "url": "https://ambcrypto.com/hyperliquid-market-liquidity-hits-8-8b-as-revenue-surges-4x-can-hype-cross-100/"
     }
    ],
@@ -50,11 +46,11 @@
    "summary": "Spot 上新本窗可核到 NEAR Protocol 宣布；@HyperliquidX 本窗没有对应原帖。",
    "sources": [
     {
-     "name": "techflowpost.com",
+     "name": "TechFlow",
      "url": "https://www.techflowpost.com/newsletter/137431"
     },
     {
-     "name": "chaincatcher.com",
+     "name": "ChainCatcher",
      "url": "https://www.chaincatcher.com/article/2291702"
     }
    ],
@@ -69,11 +65,11 @@
    "summary": "生态产品在讲「传统资产上链交易」故事，且有可点原帖。",
    "sources": [
     {
-     "name": "@liquidtrading",
+     "name": "liquidtrading",
      "url": "https://x.com/liquidtrading/status/2102803725446168858"
     },
     {
-     "name": "@NestExchange",
+     "name": "NestExchange",
      "url": "https://x.com/NestExchange/status/2102812740767072318"
     }
    ],
@@ -90,15 +86,15 @@
    "summary": "L2 与预测市场仍在刷存在感；同时出现「HL 不会一直无敌」的外部评论转述。",
    "sources": [
     {
-     "name": "@Enter_Elysium",
+     "name": "Enter_Elysium",
      "url": "https://x.com/Enter_Elysium/status/2102802155443015949"
     },
     {
-     "name": "@Outcomexyz",
+     "name": "Outcomexyz",
      "url": "https://x.com/Outcomexyz/status/2102741071365353710"
     },
     {
-     "name": "@HypedLaunches",
+     "name": "HypedLaunches",
      "url": "https://x.com/HypedLaunches/status/2102859768893157865"
     }
    ],
@@ -135,6 +131,7 @@
    }
   ],
   "no_summary": [],
-  "no_sources": []
+  "no_sources": [],
+  "problems": []
  }
 }

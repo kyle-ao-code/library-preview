@@ -1,20 +1,30 @@
 ---
 // 晨报条目列表（首页双栏区和晨报详情页共用）：编号、标题（可带提醒标签）、一句话说明、出处
-const { items = [], limit = Infinity } = Astro.props;
+// 首页：compact（标题最多两行）、maxSources=3，多出来的合成「+N」，点了跳详情页的这一条（detailHref + #iNN）
+// 详情页：每条带锚点 id="iNN"，出处全部显示
+const { items = [], limit = Infinity, maxSources = Infinity, detailHref = null, compact = false } = Astro.props;
 const shown = items.slice(0, limit);
+const nn = (i: number) => String(i + 1).padStart(2, '0');
 ---
 {shown.length ? (
-  <ul class="items">
-    {shown.map((it: any, i: number) => (
-      <li class="it">
-        <span class="n">{String(i + 1).padStart(2, '0')}</span>
-        <h4>{it.title}{(it.flags || []).map((f: string) => <span class="flag">{f}</span>)}</h4>
-        {it.summary && <p>{it.summary}</p>}
-        {it.sources?.length > 0 && (
-          <div class="src">{it.sources.map((s: any) => <a href={s.url} target="_blank" rel="noopener">{s.name} ↗</a>)}</div>
-        )}
-      </li>
-    ))}
+  <ul class:list={['items', { compact }]}>
+    {shown.map((it: any, i: number) => {
+      const srcs = it.sources || [];
+      const more = srcs.length - maxSources;
+      return (
+        <li class="it" id={detailHref ? undefined : `i${nn(i)}`}>
+          <span class="n">{nn(i)}</span>
+          <h4 title={compact ? it.title : undefined}>{it.title}{(it.flags || []).map((f: string) => <span class="flag">{f}</span>)}</h4>
+          {it.summary && <p>{it.summary}</p>}
+          {srcs.length > 0 && (
+            <div class="src">
+              {srcs.slice(0, maxSources).map((s: any) => <a href={s.url} target="_blank" rel="noopener">{s.name} ↗</a>)}
+              {more > 0 && <a class="src-more" href={`${detailHref}#i${nn(i)}`} title={`另外 ${more} 个出处，在详情页看全部`}>+{more}</a>}
+            </div>
+          )}
+        </li>
+      );
+    })}
   </ul>
 ) : (
   <p class="items-empty">这一期没有可上站的条目（标了待验证、传闻等的条目不上站）。</p>
