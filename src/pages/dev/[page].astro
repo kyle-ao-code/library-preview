@@ -48,16 +48,36 @@ const tot = morning.items.reduce((a: any, x: any) => ({ items: a.items + x.items
       );
     })}
 
-    <h2>官宣 · {announcements.items.length} 条（近 {announcements.window_days} 天）</h2>
-    <table>
-      <thead><tr><th>账号</th><th>抓到</th><th>保留</th><th>去掉（回复/转推）</th></tr></thead>
-      <tbody>{announcements.stats.map((s: any) => <tr><td>{s.account || s.channel}</td><td>{s.fetched ?? '—'}</td><td>{s.kept ?? 0}</td><td>{s.dropped ? `${s.dropped.reply} / ${s.dropped.retweet}` : s.status}</td></tr>)}</tbody>
-    </table>
+    <h2>官宣 · {announcements.items.length} 行 · Discord + X 混排</h2>
+    <p class="muted">
+      Discord：<span class:list={['org', { ok: announcements.discord_ok, bad: !announcements.discord_ok }]}>{announcements.discord_ok ? `正常（${announcements.discord.stats.kept} 条）` : `这次没有：${announcements.discord_problem}`}</span>
+      · X：{announcements.x.stats.reduce((n: number, s: any) => n + (s.kept || 0), 0)} 条（{announcements.x.accounts.join('、')}，原创{announcements.x.keep.quoted ? '+引用' : ''}，不含回复和转推）
+      · 合并成一行：{announcements.counts.merged} 对 · 只有 Discord {announcements.counts.discord_only} 行 · 只有 X {announcements.counts.x_only} 行
+      · 中文标题：已译 {announcements.translations.ok}，待译 {announcements.translations.pending}
+    </p>
+    {announcements.translations.warnings?.length > 0 && <ul class="problems">{announcements.translations.warnings.map((w: string) => <li>{w}</li>)}</ul>}
+    <p class="muted">合并的对：{announcements.merged_pairs.length ? announcements.merged_pairs.map((p: any) => `${p.d} ⇄ ${p.x}（相差 ${p.hours} 小时，Jaccard ${p.jaccard}，包含度 ${p.containment}）`).join('；') : '无'}。像但没合并的：{announcements.near_misses.length ? announcements.near_misses.map((p: any) => `${p.d} / ${p.x}（Jaccard ${p.jaccard}，包含度 ${p.containment}）`).join('；') : '无'}</p>
+    {announcements.discord.stats?.fetched_at && (
+      <table>
+        <thead><tr><th>Discord 抓取时间</th><th>页数</th><th>消息</th><th>保留</th><th>按频道</th><th>去掉（按原因）</th></tr></thead>
+        <tbody><tr>
+          <td>{announcements.discord.stats.fetched_at}</td><td>{announcements.discord.stats.pages}</td><td>{announcements.discord.stats.messages}</td><td>{announcements.discord.stats.kept}</td>
+          <td>{Object.entries(announcements.discord.stats.kept_by_channel).map(([k, v]) => <div>{k}：{v}</div>)}</td>
+          <td>{Object.entries(announcements.discord.stats.dropped).map(([k, v]) => <div>{k}：{v}</div>)}</td>
+        </tr></tbody>
+      </table>
+    )}
+    {announcements.x.stats && (
+      <table>
+        <thead><tr><th>X 账号</th><th>抓到</th><th>保留</th><th>去掉（回复/转推）</th></tr></thead>
+        <tbody>{announcements.x.stats.map((s: any) => <tr><td>{s.source}</td><td>{s.fetched ?? '—'}</td><td>{s.kept ?? 0}</td><td>{s.dropped ? `${s.dropped.reply} / ${s.dropped.retweet}${s.out_of_window ? `（另有 ${s.out_of_window} 条超出 ${announcements.window_days} 天）` : ''}` : s.status}</td></tr>)}</tbody>
+      </table>
+    )}
     <ol>
       {announcements.items.map((a: any) => (
         <li class="dd-ann">
-          <div class="muted">{a.date} · {a.source.type} {a.source.account || a.source.channel} · {a.kind} · <a href={a.url} target="_blank" rel="noopener">原文</a></div>
-          <b>{a.title}</b>
+          <div class="muted">{a.created_at.slice(0, 16).replace('T', ' ')} 北京时间 · {a.sources.map((s: any) => `${s.type} ${s.account || s.channel}`).join(' + ')} · {a.kind}{a.long ? ' · 长文' : ''} · <a href={a.url} target="_blank" rel="noopener">原文</a>{a.mirror_url && <a href={a.mirror_url} target="_blank" rel="noopener">Kyle 服务器里的转发</a>}</div>
+          <b>{a.title_zh || '（待译）'}</b> <span class="muted">← {a.title_en}</span>{a.excerpt && <div class="muted">摘要：{a.excerpt.slice(0, 160)}{a.excerpt.length > 160 ? '…' : ''}</div>}
           <details><summary>完整原文</summary><pre>{a.text}</pre></details>
         </li>
       ))}

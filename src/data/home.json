@@ -32,8 +32,11 @@
       "announce": {
         "title": "官宣",
         "show": 5,
-        "foot": "来源：HL 官方 X 与 Discord 公告频道",
-        "footXOnly": "来源：HL 官方 X"
+        "footXOnly": "来源：HL 官方 X",
+        "more": "全部 →",
+        "footDiscord": "来源：Hyperliquid Discord 公告频道",
+        "aiNote": "AI 翻译，以原文为准",
+        "footBoth": "来源：Hyperliquid Discord 公告频道、官方 X"
       },
       "previewOnly": true
     },

@@ -1,41 +1,181 @@
 {
- "generated_at": "2026-10-08T14:55:25+08:00",
- "window_days": 30,
- "sources": [
-  {
-   "type": "x",
-   "handle": "HyperliquidX",
-   "name": "Hyperliquid",
-   "role": "协议官号"
-  },
-  {
-   "type": "x",
-   "handle": "HyperFND",
-   "name": "Hyper Foundation",
-   "role": "基金会"
-  }
- ],
- "stats": [
-  {
-   "account": "HyperliquidX",
-   "fetched": 9,
-   "kept": 5,
+ "generated_at": "2026-10-08T16:54:58+08:00",
+ "window_days": 60,
+ "discord_ok": true,
+ "discord_problem": null,
+ "discord": {
+  "channel": "关注项目通知栏",
+  "keep_channels": [
+   "#announcements",
+   "#api-announcements"
+  ],
+  "stats": {
+   "fetched_at": "2026-10-08T16:48:23+08:00",
+   "pages": 2,
+   "messages": 172,
+   "kept": 24,
+   "kept_by_channel": {
+    "#announcements": 9,
+    "#api-announcements": 15
+   },
    "dropped": {
-    "reply": 4,
-    "retweet": 0
-   }
-  },
-  {
-   "account": "HyperFND",
-   "fetched": 0,
-   "kept": 0,
-   "dropped": {
-    "reply": 0,
-    "retweet": 0
+    "没有 message_reference（Kyle、hl监听等本地消息）": 47,
+    "转自其他服务器（其他项目）": 99,
+    "HL 服务器的其他频道": 0,
+    "频道关注系统消息（没有 message_id）": 2,
+    "重复（同一消息或同一原帖）": 0,
+    "超出 60 天": 0
    }
   }
- ],
+ },
+ "x": {
+  "accounts": [
+   "@HyperliquidX",
+   "@HyperFND"
+  ],
+  "stats": [
+   {
+    "source": "@HyperliquidX",
+    "files": [
+     "timeline_HyperliquidX.json",
+     "timeline_HyperliquidX_backfill.json"
+    ],
+    "fetched": 11,
+    "kept": 6,
+    "dropped": {
+     "reply": 5,
+     "retweet": 0,
+     "quote（config 不收）": 0
+    },
+    "out_of_window": 0
+   },
+   {
+    "source": "@HyperFND",
+    "files": [
+     "timeline_HyperFND.json",
+     "timeline_HyperFND_backfill.json"
+    ],
+    "fetched": 0,
+    "kept": 0,
+    "dropped": {
+     "reply": 0,
+     "retweet": 0,
+     "quote（config 不收）": 0
+    },
+    "out_of_window": 0
+   }
+  ],
+  "keep": {
+   "original": true,
+   "quoted": true,
+   "retweet": false,
+   "reply": false
+  }
+ },
+ "merged_pairs": [],
+ "near_misses": [],
+ "translations": {
+  "ok": 30,
+  "pending": 0,
+  "warnings": []
+ },
+ "counts": {
+  "rows": 30,
+  "discord_only": 24,
+  "x_only": 6,
+  "merged": 0
+ },
  "items": [
+  {
+   "id": "discord:1557316816261611580",
+   "date": "2026-10-07",
+   "created_at": "2026-10-07T16:42:40+08:00",
+   "source": {
+    "type": "discord",
+    "channel": "#api-announcements",
+    "channel_raw": "#🔩︱api-announcements",
+    "guild_id": "1029781241702129716",
+    "channel_id": "1208476333089497189"
+   },
+   "kind": "crosspost",
+   "title": "For node operators running hl-visor: It is important to update to the latest version within the next week.",
+   "excerpt": "After that, there will be a breaking change where hl-visor will no longer be compatible with future versions of hl-node.",
+   "text": "For node operators running hl-visor: It is important to update to the latest version within the next week. After that, there will be a breaking change where hl-visor will no longer be compatible with future versions of hl-node.",
+   "long": false,
+   "url": "https://discord.com/channels/1029781241702129716/1208476333089497189/1557312192846503939",
+   "mirror_url": "https://discord.com/channels/940761060430975026/943393131783655483/1557316816261611580",
+   "sources": [
+    {
+     "type": "discord",
+     "channel": "#api-announcements",
+     "channel_raw": "#🔩︱api-announcements",
+     "guild_id": "1029781241702129716",
+     "channel_id": "1208476333089497189"
+    }
+   ],
+   "title_zh": "运行 hl-visor 的节点运营方需在一周内升级到最新版本",
+   "title_en": "For node operators running hl-visor: It is important to update to the latest version within the next week."
+  },
+  {
+   "id": "discord:1556592608577331213",
+   "date": "2026-10-05",
+   "created_at": "2026-10-05T16:59:06+08:00",
+   "source": {
+    "type": "discord",
+    "channel": "#announcements",
+    "channel_raw": "#📢︱announcements",
+    "guild_id": "1029781241702129716",
+    "channel_id": "1030197017655394447"
+   },
+   "kind": "crosspost",
+   "title": "Weekly Update",
+   "excerpt": "New Teams on HyperEVM & HyperCore + Bloomberg Terminal added support for Hyperliquid: https://x.com/M_McDonough/status/2104942705671381420, https://x.com/M_McDonough/status/2106918759470678056 + Copper integrated Hyperliquid trading via their interface and APIs: https://x.com/CopperHQ/status/2105644856328523798 + Paxos Crypto Brokerage added support for HYPE: https://x.com/Paxos/status/2105660180675563948 + Ult app integrated Hyperliquid perps via builder codes: https://x.com/UltApp/status/2103821456853680474 Community Highlights from Seoul: KBW + Thank you to HypurrCorea, Hyperliquid KR, and Tenet for hosting a full day of events last Monday: https://x.com/tenetvc/status/2105176421576605995 + JUN summarized Jeff's panel at KBW moderated by Joony: https://x.com/KORypto_JUN/status/2105134183089942706 Community Highlights for Singapore: Token2049 + Padel x Mingle with global community leads took place on Sunday. Thank you to all the community members spreading the word in their hometowns and local languages. These grassroots initiatives are a big part of what makes Hyperliquid special + See you at the HL Community Event at 6:30pm! Other events organized by the community in Singapore during Token2049 week include but are not limited to: + Tuesday, Oct 6 from 12-4pm: Kinetiq x DoubleZero networking event: https://luma.com/k9exlya9 + Wednesday, Oct 7 from 11-11:35am: Jeff will be speaking in a fireside moderated by Hart (Across) at Token2049 + Wednesday, Oct 7 from 1:30-2pm: Jeff will be speaking in a fireside moderated by Shaunda at Blockworks DAS + Wednesday, Oct 7 from 3-7pm: Event.HL by HyperBeat & other teams: https://luma.com/3qsc5ehs + Wednesday, Oct 7 from 6:30-9:30pm: Cocktails by Flowdesk & Paragon: https://luma.com/1pxmqodt + Thursday, Oct 8 from 11-4pm: HypurrCo Gathers: https://luma.com/mmrfj0pz",
+   "text": "Weekly Update\n\n**New Teams on HyperEVM & HyperCore**\n+ Bloomberg Terminal added support for Hyperliquid: https://x.com/M_McDonough/status/2104942705671381420, https://x.com/M_McDonough/status/2106918759470678056\n+ Copper integrated Hyperliquid trading via their interface and APIs: https://x.com/CopperHQ/status/2105644856328523798\n+ Paxos Crypto Brokerage added support for HYPE: https://x.com/Paxos/status/2105660180675563948\n+ Ult app integrated Hyperliquid perps via builder codes: https://x.com/UltApp/status/2103821456853680474\n\n**Community Highlights from Seoul: KBW**\n+ Thank you to HypurrCorea, Hyperliquid KR, and Tenet for hosting a full day of events last Monday: https://x.com/tenetvc/status/2105176421576605995\n+ JUN summarized Jeff's panel at KBW moderated by Joony: https://x.com/KORypto_JUN/status/2105134183089942706\n\n**Community Highlights for Singapore: Token2049**\n+ Padel x Mingle with global community leads took place on Sunday. Thank you to all the community members spreading the word in their hometowns and local languages. These grassroots initiatives are a big part of what makes Hyperliquid special <:hypurrbusy:1356347791043072112>  \n+ See you at the HL Community Event at 6:30pm! <:hypurrsit:1231446343516422275> \nOther events organized by the community in Singapore during Token2049 week include but are not limited to:\n+ Tuesday, Oct 6 from 12-4pm: Kinetiq x DoubleZero networking event: https://luma.com/k9exlya9 \n+ Wednesday, Oct 7 from 11-11:35am: Jeff will be speaking in a fireside moderated by Hart (Across) at Token2049\n+ Wednesday, Oct 7 from 1:30-2pm: Jeff will be speaking in a fireside moderated by Shaunda at Blockworks DAS \n+ Wednesday, Oct 7 from 3-7pm: Event.HL by HyperBeat & other teams: https://luma.com/3qsc5ehs\n+ Wednesday, Oct 7 from 6:30-9:30pm: Cocktails by Flowdesk & Paragon: https://luma.com/1pxmqodt\n+ Thursday, Oct 8 from 11-4pm: HypurrCo Gathers: https://luma.com/mmrfj0pz",
+   "long": true,
+   "url": "https://discord.com/channels/1029781241702129716/1030197017655394447/1556591555614212106",
+   "mirror_url": "https://discord.com/channels/940761060430975026/943393131783655483/1556592608577331213",
+   "sources": [
+    {
+     "type": "discord",
+     "channel": "#announcements",
+     "channel_raw": "#📢︱announcements",
+     "guild_id": "1029781241702129716",
+     "channel_id": "1030197017655394447"
+    }
+   ],
+   "title_zh": "周报：Bloomberg Terminal 已支持 Hyperliquid",
+   "title_en": "Weekly Update"
+  },
+  {
+   "id": "discord:1554875991766073407",
+   "date": "2026-09-30",
+   "created_at": "2026-09-30T23:19:08+08:00",
+   "source": {
+    "type": "discord",
+    "channel": "#announcements",
+    "channel_raw": "#📢︱announcements",
+    "guild_id": "1029781241702129716",
+    "channel_id": "1030197017655394447"
+   },
+   "kind": "crosspost",
+   "title": "3.75M tokens from Hyperliquid Labs will be unstaked today to be distributed to team members on October 7.",
+   "excerpt": "These tokens are part of an OTC transaction with an institution and are not being sold on the open market.",
+   "text": "3.75M tokens from Hyperliquid Labs will be unstaked today to be distributed to team members on October 7. These tokens are part of an OTC transaction with an institution and are not being sold on the open market.",
+   "long": false,
+   "url": "https://discord.com/channels/1029781241702129716/1030197017655394447/1554875254864609311",
+   "mirror_url": "https://discord.com/channels/940761060430975026/943393131783655483/1554875991766073407",
+   "sources": [
+    {
+     "type": "discord",
+     "channel": "#announcements",
+     "channel_raw": "#📢︱announcements",
+     "guild_id": "1029781241702129716",
+     "channel_id": "1030197017655394447"
+    }
+   ],
+   "title_zh": "Hyperliquid Labs 3.75M 枚代币解除质押，10月7日分发给团队",
+   "title_en": "3.75M tokens from Hyperliquid Labs will be unstaked today to be distributed to team members on October 7."
+  },
   {
    "id": "x:2105177404394381496",
    "date": "2026-09-30",
@@ -47,8 +187,138 @@
    },
    "kind": "original",
    "title": "The Hyperliquid community event will take place on the evening of October 5 in Singapore",
+   "excerpt": "This is a chance to spend time with the builders and users who've shaped the ecosystem The event is oversubscribed; you will only be able to attend if your RSVP was accepted. If your RSVP was accepted but you're no longer able to attend, please cancel your RSVP to make space for others",
    "text": "The Hyperliquid community event will take place on the evening of October 5 in Singapore: https://luma.com/HL2026Community\n\nThis is a chance to spend time with the builders and users who've shaped the ecosystem\n\nThe event is oversubscribed; you will only be able to attend if your RSVP was accepted. If your RSVP was accepted but you're no longer able to attend, please cancel your RSVP to make space for others",
-   "url": "https://x.com/HyperliquidX/status/2105177404394381496"
+   "url": "https://x.com/HyperliquidX/status/2105177404394381496",
+   "sources": [
+    {
+     "type": "x",
+     "account": "@HyperliquidX",
+     "name": "Hyperliquid"
+    }
+   ],
+   "title_zh": "Hyperliquid 社区活动将于10月5日晚在新加坡举行",
+   "title_en": "The Hyperliquid community event will take place on the evening of October 5 in Singapore"
+  },
+  {
+   "id": "discord:1554046790712557570",
+   "date": "2026-09-28",
+   "created_at": "2026-09-28T16:23:52+08:00",
+   "source": {
+    "type": "discord",
+    "channel": "#announcements",
+    "channel_raw": "#📢︱announcements",
+    "guild_id": "1029781241702129716",
+    "channel_id": "1030197017655394447"
+   },
+   "kind": "crosspost",
+   "title": "Weekly Update",
+   "excerpt": "Trading + Open interest reached an ATH of $18B on Hyperliquid New Teams on HyperEVM & HyperCore + DoubleZero Edge now supports Hyperliquid data feeds: https://x.com/doublezero/status/2103122298253492244 + Near Protocol deployed NEAR spot on HyperCore: https://x.com/NEARProtocol/status/2102469065822593316 Community Highlights + Jeff is speaking at KBW on Wednesday, Sep 30 from 11-11:20am There will be many events organized by the community in Singapore during Token2049 week, including but not limited to: + Monday, Oct 5 from 6:30-10pm: Hyper Foundation community event: https://luma.com/HL2026Community + Tuesday, Oct 6 from 12-4pm: Kinetiq x DoubleZero networking event: https://luma.com/k9exlya9 + Wednesday, Oct 7 from 11-11:35am: Jeff will be speaking at Token2049 + Wednesday, Oct 7 from 3-7pm: Event.HL by HyperBeat & other teams: https://luma.com/3qsc5ehs + Thursday, Oct 8 from 11-4pm: HypurrCo Gathers: https://luma.com/mmrfj0pz",
+   "text": "Weekly Update\n\n**Trading**\n+ Open interest reached an ATH of $18B on Hyperliquid\n\n**New Teams on HyperEVM & HyperCore**\n+ DoubleZero Edge now supports Hyperliquid data feeds:\nhttps://x.com/doublezero/status/2103122298253492244\n+ Near Protocol deployed NEAR spot on HyperCore: https://x.com/NEARProtocol/status/2102469065822593316\n\n**Community Highlights**\n+ Jeff is speaking at KBW on Wednesday, Sep 30 from 11-11:20am\nThere will be many events organized by the community in Singapore during Token2049 week, including but not limited to:  \n+ Monday, Oct 5 from 6:30-10pm: Hyper Foundation community event: https://luma.com/HL2026Community\n+ Tuesday, Oct 6 from 12-4pm: Kinetiq x DoubleZero networking event: https://luma.com/k9exlya9 \n+ Wednesday, Oct 7 from 11-11:35am: Jeff will be speaking at Token2049\n+ Wednesday, Oct 7 from 3-7pm: Event.HL by HyperBeat & other teams: https://luma.com/3qsc5ehs\n+ Thursday, Oct 8 from 11-4pm: HypurrCo Gathers: https://luma.com/mmrfj0pz",
+   "long": true,
+   "url": "https://discord.com/channels/1029781241702129716/1030197017655394447/1554045971321847858",
+   "mirror_url": "https://discord.com/channels/940761060430975026/943393131783655483/1554046790712557570",
+   "sources": [
+    {
+     "type": "discord",
+     "channel": "#announcements",
+     "channel_raw": "#📢︱announcements",
+     "guild_id": "1029781241702129716",
+     "channel_id": "1030197017655394447"
+    }
+   ],
+   "title_zh": "周报：Hyperliquid 未平仓量创 $18B 历史新高",
+   "title_en": "Weekly Update"
+  },
+  {
+   "id": "discord:1553706235335802982",
+   "date": "2026-09-27",
+   "created_at": "2026-09-27T14:39:38+08:00",
+   "source": {
+    "type": "discord",
+    "channel": "#api-announcements",
+    "channel_raw": "#🔩︱api-announcements",
+    "guild_id": "1029781241702129716",
+    "channel_id": "1208476333089497189"
+   },
+   "kind": "crosspost",
+   "title": "Based on builder feedback, on the next network upgrade",
+   "excerpt": "The maximum number of active HIP-4 outcomes per deployer will increase from 100 to 200, and the maximum number of daily deployed outcomes per deployer will increase from 500 to 1000",
+   "text": "Based on builder feedback, on the next network upgrade: The maximum number of active HIP-4 outcomes per deployer will increase from 100 to 200, and the maximum number of daily deployed outcomes per deployer will increase from 500 to 1000",
+   "long": false,
+   "url": "https://discord.com/channels/1029781241702129716/1208476333089497189/1553657353851641899",
+   "mirror_url": "https://discord.com/channels/940761060430975026/943393131783655483/1553706235335802982",
+   "sources": [
+    {
+     "type": "discord",
+     "channel": "#api-announcements",
+     "channel_raw": "#🔩︱api-announcements",
+     "guild_id": "1029781241702129716",
+     "channel_id": "1208476333089497189"
+    }
+   ],
+   "title_zh": "下次网络升级起，部署方活跃结果合约上限从 100 提至 200",
+   "title_en": "Based on builder feedback, on the next network upgrade"
+  },
+  {
+   "id": "discord:1553706208282546250",
+   "date": "2026-09-26",
+   "created_at": "2026-09-26T23:55:51+08:00",
+   "source": {
+    "type": "discord",
+    "channel": "#api-announcements",
+    "channel_raw": "#🔩︱api-announcements",
+    "guild_id": "1029781241702129716",
+    "channel_id": "1208476333089497189"
+   },
+   "kind": "crosspost",
+   "title": "Based on user feedback, on the next network upgrade, funding rate will be capped at 0.5% per hour instead of 4% per hour.",
+   "excerpt": "Note that this cap is rarely ever hit in practice.",
+   "text": "Based on user feedback, on the next network upgrade, funding rate will be capped at 0.5% per hour instead of 4% per hour. Note that this cap is rarely ever hit in practice.",
+   "long": false,
+   "url": "https://discord.com/channels/1029781241702129716/1208476333089497189/1553434942447558791",
+   "mirror_url": "https://discord.com/channels/940761060430975026/943393131783655483/1553706208282546250",
+   "sources": [
+    {
+     "type": "discord",
+     "channel": "#api-announcements",
+     "channel_raw": "#🔩︱api-announcements",
+     "guild_id": "1029781241702129716",
+     "channel_id": "1208476333089497189"
+    }
+   ],
+   "title_zh": "下次网络升级起，资金费率上限从每小时 4% 降至 0.5%",
+   "title_en": "Based on user feedback, on the next network upgrade, funding rate will be capped at 0.5% per hour instead of 4% per hour."
+  },
+  {
+   "id": "discord:1552637271897804883",
+   "date": "2026-09-24",
+   "created_at": "2026-09-24T17:42:14+08:00",
+   "source": {
+    "type": "discord",
+    "channel": "#api-announcements",
+    "channel_raw": "#🔩︱api-announcements",
+    "guild_id": "1029781241702129716",
+    "channel_id": "1208476333089497189"
+   },
+   "kind": "crosspost",
+   "title": "Testnet-only: Based on builder feedback, HIP-3* oracle updates now only require spot oracle prices, with mark prices computed onchain.",
+   "excerpt": "Other minor improvements are documented here: https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/hip-3-deployer-actions",
+   "text": "Testnet-only: Based on builder feedback, HIP-3* oracle updates now only require spot oracle prices, with mark prices computed onchain. Other minor improvements are documented here: https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/hip-3-deployer-actions",
+   "long": false,
+   "url": "https://discord.com/channels/1029781241702129716/1208476333089497189/1552616141334257705",
+   "mirror_url": "https://discord.com/channels/940761060430975026/943393131783655483/1552637271897804883",
+   "sources": [
+    {
+     "type": "discord",
+     "channel": "#api-announcements",
+     "channel_raw": "#🔩︱api-announcements",
+     "guild_id": "1029781241702129716",
+     "channel_id": "1208476333089497189"
+    }
+   ],
+   "title_zh": "仅测试网：HIP-3* 预言机更新只需现货预言机价格",
+   "title_en": "Testnet-only: Based on builder feedback, HIP-3* oracle updates now only require spot oracle prices, with mark prices computed onchain."
   },
   {
    "id": "x:2102643437896110439",
@@ -61,8 +331,48 @@
    },
    "kind": "original",
    "title": "Open interest reached an all-time high of $18B on Hyperliquid",
+   "excerpt": "",
    "text": "Open interest reached an all-time high of $18B on Hyperliquid",
-   "url": "https://x.com/HyperliquidX/status/2102643437896110439"
+   "url": "https://x.com/HyperliquidX/status/2102643437896110439",
+   "sources": [
+    {
+     "type": "x",
+     "account": "@HyperliquidX",
+     "name": "Hyperliquid"
+    }
+   ],
+   "title_zh": "Hyperliquid 未平仓量创 $18B 历史新高",
+   "title_en": "Open interest reached an all-time high of $18B on Hyperliquid"
+  },
+  {
+   "id": "discord:1551851277166579785",
+   "date": "2026-09-22",
+   "created_at": "2026-09-22T14:58:37+08:00",
+   "source": {
+    "type": "discord",
+    "channel": "#announcements",
+    "channel_raw": "#📢︱announcements",
+    "guild_id": "1029781241702129716",
+    "channel_id": "1030197017655394447"
+   },
+   "kind": "crosspost",
+   "title": "Weekly Update",
+   "excerpt": "Product & Tech + Trailing stops are now available for perp markets. See the Support Docs for more: https://hyperliquid.gitbook.io/hyperliquid-docs/support/faq/trailing-stops New Teams on HyperEVM & HyperCore + 1inch deployed on HyperEVM: https://x.com/1inch/status/2098051597364334669 + BitGo's self-custody wallet added support for HyperCore: https://x.com/BitGo/status/2098044479878074500 Community Highlights + The French community is organizing a meet-up in Paris on Sep 23: https://x.com/HyperliquidFR/status/2099465233018294519 + HypurrCorea is organizing a day of events on Sep 28 in Seoul a) Institution-focused seminar from 2-5:30pm: https://luma.com/eei081l4 b) Community dinner & mingle from 6:30-10pm: https://luma.com/5ltxvfi7 + HypurrCo designed Hypurr NFT cards: https://x.com/hypurr_co/status/2099502182542524809",
+   "text": "Weekly Update \n\n**Product & Tech **\n+ Trailing stops are now available for perp markets. See the Support Docs for more: https://hyperliquid.gitbook.io/hyperliquid-docs/support/faq/trailing-stops\n\n**New Teams on HyperEVM & HyperCore**\n+ 1inch deployed on HyperEVM: https://x.com/1inch/status/2098051597364334669\n+ BitGo's self-custody wallet added support for HyperCore: https://x.com/BitGo/status/2098044479878074500 \n\n**Community Highlights**\n+ The French community is organizing a meet-up in Paris on Sep 23: https://x.com/HyperliquidFR/status/2099465233018294519\n+ HypurrCorea is organizing a day of events on Sep 28 in Seoul\na) Institution-focused seminar from 2-5:30pm: https://luma.com/eei081l4 \nb) Community dinner & mingle from 6:30-10pm: https://luma.com/5ltxvfi7\n+ HypurrCo designed Hypurr NFT cards: https://x.com/hypurr_co/status/2099502182542524809",
+   "long": true,
+   "url": "https://discord.com/channels/1029781241702129716/1030197017655394447/1551850190368018544",
+   "mirror_url": "https://discord.com/channels/940761060430975026/943393131783655483/1551851277166579785",
+   "sources": [
+    {
+     "type": "discord",
+     "channel": "#announcements",
+     "channel_raw": "#📢︱announcements",
+     "guild_id": "1029781241702129716",
+     "channel_id": "1030197017655394447"
+    }
+   ],
+   "title_zh": "周报：永续合约已支持追踪止损",
+   "title_en": "Weekly Update"
   },
   {
    "id": "x:2101913891681055056",
@@ -75,8 +385,48 @@
    },
    "kind": "original",
    "title": "Trailing stops are now available for perp markets.",
+   "excerpt": "A trailing stop's trigger price follows the mark price as it moves in favor of the position. When the mark price retraces from its best level by the selected distance or percentage, it triggers a market order. For long positions, the trigger price follows the highest mark price reached since activation; for short positions, it follows the lowest. An optional activation price determines when tracking begins. Without one, tracking begins immediately at the current mark price.",
    "text": "Trailing stops are now available for perp markets.\n\nA trailing stop's trigger price follows the mark price as it moves in favor of the position. When the mark price retraces from its best level by the selected distance or percentage, it triggers a market order. For long positions, the trigger price follows the highest mark price reached since activation; for short positions, it follows the lowest. An optional activation price determines when tracking begins. Without one, tracking begins immediately at the current mark price.",
-   "url": "https://x.com/HyperliquidX/status/2101913891681055056"
+   "url": "https://x.com/HyperliquidX/status/2101913891681055056",
+   "sources": [
+    {
+     "type": "x",
+     "account": "@HyperliquidX",
+     "name": "Hyperliquid"
+    }
+   ],
+   "title_zh": "永续合约已支持追踪止损",
+   "title_en": "Trailing stops are now available for perp markets."
+  },
+  {
+   "id": "discord:1550457555191472169",
+   "date": "2026-09-18",
+   "created_at": "2026-09-18T18:41:49+08:00",
+   "source": {
+    "type": "discord",
+    "channel": "#api-announcements",
+    "channel_raw": "#🔩︱api-announcements",
+    "guild_id": "1029781241702129716",
+    "channel_id": "1208476333089497189"
+   },
+   "kind": "crosspost",
+   "title": "Testnet-only: Based on builder feedback, HIP-3* now supports per-user reduce-only flags set by deployers.",
+   "excerpt": "See https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/hip-3-deployer-actions for details. The testnet HIP-3* approval state has also been cleared for each venue as part of this implementation change. Testnet deployers can re-approve users to resume usage.",
+   "text": "Testnet-only: Based on builder feedback, HIP-3* now supports per-user reduce-only flags set by deployers. See https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/hip-3-deployer-actions for details.\n\nThe testnet HIP-3* approval state has also been cleared for each venue as part of this implementation change. Testnet deployers can re-approve users to resume usage.",
+   "long": true,
+   "url": "https://discord.com/channels/1029781241702129716/1208476333089497189/1550456809964437506",
+   "mirror_url": "https://discord.com/channels/940761060430975026/943393131783655483/1550457555191472169",
+   "sources": [
+    {
+     "type": "discord",
+     "channel": "#api-announcements",
+     "channel_raw": "#🔩︱api-announcements",
+     "guild_id": "1029781241702129716",
+     "channel_id": "1208476333089497189"
+    }
+   ],
+   "title_zh": "仅测试网：HIP-3* 支持部署方按用户设置只减仓标记",
+   "title_en": "Testnet-only: Based on builder feedback, HIP-3* now supports per-user reduce-only flags set by deployers."
   },
   {
    "id": "x:2100838194317312446",
@@ -89,8 +439,48 @@
    },
    "kind": "original",
    "title": "Manual borrows are live on Hyperliquid",
+   "excerpt": "Portfolio margin and manual borrows use the same underlying HyperCore infrastructure, with $269M in assets borrowed today. Users can supply HYPE and BTC as collateral to borrow quote assets (USDC and USDT). Borrowed quote assets pay interest, and supplied quote assets earn interest, with rates set by utilization.",
    "text": "Manual borrows are live on Hyperliquid\nPortfolio margin and manual borrows use the same underlying HyperCore infrastructure, with $269M in assets borrowed today.\n\nUsers can supply HYPE and BTC as collateral to borrow quote assets (USDC and USDT). Borrowed quote assets pay interest, and supplied quote assets earn interest, with rates set by utilization.",
-   "url": "https://x.com/HyperliquidX/status/2100838194317312446"
+   "url": "https://x.com/HyperliquidX/status/2100838194317312446",
+   "sources": [
+    {
+     "type": "x",
+     "account": "@HyperliquidX",
+     "name": "Hyperliquid"
+    }
+   ],
+   "title_zh": "Hyperliquid 手动借贷已上线",
+   "title_en": "Manual borrows are live on Hyperliquid"
+  },
+  {
+   "id": "discord:1550457555631865941",
+   "date": "2026-09-11",
+   "created_at": "2026-09-11T17:57:22+08:00",
+   "source": {
+    "type": "discord",
+    "channel": "#api-announcements",
+    "channel_raw": "#🔩︱api-announcements",
+    "guild_id": "1029781241702129716",
+    "channel_id": "1208476333089497189"
+   },
+   "kind": "crosspost",
+   "title": "On the next network upgrade, funding clamps will be configurable by HIP-3 deployers.",
+   "excerpt": "See https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/hip-3-deployer-actions for details.",
+   "text": "On the next network upgrade, funding clamps will be configurable by HIP-3 deployers. See https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/hip-3-deployer-actions for details.",
+   "long": false,
+   "url": "https://discord.com/channels/1029781241702129716/1208476333089497189/1547908910051237918",
+   "mirror_url": "https://discord.com/channels/940761060430975026/943393131783655483/1550457555631865941",
+   "sources": [
+    {
+     "type": "discord",
+     "channel": "#api-announcements",
+     "channel_raw": "#🔩︱api-announcements",
+     "guild_id": "1029781241702129716",
+     "channel_id": "1208476333089497189"
+    }
+   ],
+   "title_zh": "下次网络升级起，HIP-3 部署方可配置资金费率限幅",
+   "title_en": "On the next network upgrade, funding clamps will be configurable by HIP-3 deployers."
   },
   {
    "id": "x:2097356045886824715",
@@ -103,8 +493,462 @@
    },
    "kind": "original",
    "title": "By community request, $USELESS perps have been listed with up to 3x leverage.",
+   "excerpt": "",
    "text": "By community request, $USELESS perps have been listed with up to 3x leverage.",
-   "url": "https://x.com/HyperliquidX/status/2097356045886824715"
+   "url": "https://x.com/HyperliquidX/status/2097356045886824715",
+   "sources": [
+    {
+     "type": "x",
+     "account": "@HyperliquidX",
+     "name": "Hyperliquid"
+    }
+   ],
+   "title_zh": "应社区要求上线 $USELESS 永续合约，最高 3x 杠杆",
+   "title_en": "By community request, $USELESS perps have been listed with up to 3x leverage."
+  },
+  {
+   "id": "discord:1546714157548839014",
+   "date": "2026-09-08",
+   "created_at": "2026-09-08T10:45:58+08:00",
+   "source": {
+    "type": "discord",
+    "channel": "#announcements",
+    "channel_raw": "#📢︱announcements",
+    "guild_id": "1029781241702129716",
+    "channel_id": "1030197017655394447"
+   },
+   "kind": "crosspost",
+   "title": "Weekly Update",
+   "excerpt": "Product & Tech + Manual borrowing on HyperCore is live on mainnet. As a reminder, HyperEVM smart contracts can access HyperCore borrow/lend functionality from CoreWriter and read precompiles. + HIP-3* spec was shared. See https://discord.com/channels/1029781241702129716/1208476333089497189/1545005139260080128 for details New Teams on HyperEVM & HyperCore + Chainalysis added support for HyperEVM: https://x.com/chainalysis/status/2095568202663092401 Community Highlights + New Hypurr stickers were added to TG and Discord",
+   "text": "Weekly Update \n\n**Product & Tech** \n+ Manual borrowing on HyperCore is live on mainnet. As a reminder, HyperEVM smart contracts can access HyperCore borrow/lend functionality from CoreWriter and read precompiles.\n+ HIP-3* spec was shared. See https://discord.com/channels/1029781241702129716/1208476333089497189/1545005139260080128 for details\n\n**New Teams on HyperEVM & HyperCore**\n+ Chainalysis added support for HyperEVM: https://x.com/chainalysis/status/2095568202663092401\n\n**Community Highlights**\n+ New Hypurr stickers were added to TG and Discord <:hypurrwarmdrink:1544078300169773136> <:hypurrpray:1544077690372497458>",
+   "long": true,
+   "url": "https://discord.com/channels/1029781241702129716/1030197017655394447/1546713180162490458",
+   "mirror_url": "https://discord.com/channels/940761060430975026/943393131783655483/1546714157548839014",
+   "sources": [
+    {
+     "type": "discord",
+     "channel": "#announcements",
+     "channel_raw": "#📢︱announcements",
+     "guild_id": "1029781241702129716",
+     "channel_id": "1030197017655394447"
+    }
+   ],
+   "title_zh": "周报：HyperCore 手动借贷已在主网上线",
+   "title_en": "Weekly Update"
+  },
+  {
+   "id": "discord:1545765083836059768",
+   "date": "2026-09-05",
+   "created_at": "2026-09-05T19:55:10+08:00",
+   "source": {
+    "type": "discord",
+    "channel": "#api-announcements",
+    "channel_raw": "#🔩︱api-announcements",
+    "guild_id": "1029781241702129716",
+    "channel_id": "1208476333089497189"
+   },
+   "kind": "crosspost",
+   "title": "Manual borrowing on HyperCore is live on mainnet.",
+   "excerpt": "As a reminder, HyperEVM smart contracts can access HyperCore borrow/lend functionality from CoreWriter and read precompiles.",
+   "text": "Manual borrowing on HyperCore is live on mainnet. As a reminder, HyperEVM smart contracts can access HyperCore borrow/lend functionality from CoreWriter and read precompiles.",
+   "long": false,
+   "url": "https://discord.com/channels/1029781241702129716/1208476333089497189/1545764227451453592",
+   "mirror_url": "https://discord.com/channels/940761060430975026/943393131783655483/1545765083836059768",
+   "sources": [
+    {
+     "type": "discord",
+     "channel": "#api-announcements",
+     "channel_raw": "#🔩︱api-announcements",
+     "guild_id": "1029781241702129716",
+     "channel_id": "1208476333089497189"
+    }
+   ],
+   "title_zh": "HyperCore 手动借贷已在主网上线",
+   "title_en": "Manual borrowing on HyperCore is live on mainnet."
+  },
+  {
+   "id": "discord:1545458211254042705",
+   "date": "2026-09-04",
+   "created_at": "2026-09-04T20:59:24+08:00",
+   "source": {
+    "type": "discord",
+    "channel": "#api-announcements",
+    "channel_raw": "#🔩︱api-announcements",
+    "guild_id": "1029781241702129716",
+    "channel_id": "1208476333089497189"
+   },
+   "kind": "crosspost",
+   "title": "On the next network upgrade, based on user feedback",
+   "excerpt": "1. The minimum order notional for outcome orders will be reduced from $10 to $1. 2. Deployers will be able to query their remaining limits using the `outcomeDeployerLimits` info request. See https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/info-endpoint/spot for more details.",
+   "text": "On the next network upgrade, based on user feedback:\n1. The minimum order notional for outcome orders will be reduced from $10 to $1.  \n2. Deployers will be able to query their remaining limits using the `outcomeDeployerLimits` info request. See https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/info-endpoint/spot for more details.",
+   "long": true,
+   "url": "https://discord.com/channels/1029781241702129716/1208476333089497189/1545418002399236188",
+   "mirror_url": "https://discord.com/channels/940761060430975026/943393131783655483/1545458211254042705",
+   "sources": [
+    {
+     "type": "discord",
+     "channel": "#api-announcements",
+     "channel_raw": "#🔩︱api-announcements",
+     "guild_id": "1029781241702129716",
+     "channel_id": "1208476333089497189"
+    }
+   ],
+   "title_zh": "下次网络升级起，结果合约最小下单金额从 $10 降至 $1",
+   "title_en": "On the next network upgrade, based on user feedback"
+  },
+  {
+   "id": "discord:1545005543498715210",
+   "date": "2026-09-03",
+   "created_at": "2026-09-03T17:38:50+08:00",
+   "source": {
+    "type": "discord",
+    "channel": "#api-announcements",
+    "channel_raw": "#🔩︱api-announcements",
+    "guild_id": "1029781241702129716",
+    "channel_id": "1208476333089497189"
+   },
+   "kind": "crosspost",
+   "title": "In a future network upgrade, HIP-3 will support optional deployer configuration for permissioned markets.",
+   "excerpt": "This set of additional deployer functionality will collectively be called `HIP-3*`. At its core, HIP-3* activation involves an onchain allowlist managed by the deployer or its sub-deployers. This functionality is strictly additive to HIP-3, and its use is optional and up to the deployer. Existing markets remain unchanged. The initial release for HIP-3* is currently available on testnet. The specifications on testnet are preliminary and subject to change based on feedback. See https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/hip-3-deployer-actions for more details. As always, Hyperliquid is a neutral infrastructure layer with the goal of supporting large parts of the financial system. HIP-3* is designed to give deployers additional functionality to operate deployments consistent with requirements applicable to them. Like with HIP-3, HIP-3* deployers are independent operators. Deployers use Hyperliquid as the onchain infrastructure layer for their own markets, while retaining control and responsibility over their deployment.",
+   "text": "In a future network upgrade, HIP-3 will support optional deployer configuration for permissioned markets. This set of additional deployer functionality will collectively be called `HIP-3*`. At its core, HIP-3* activation involves an onchain allowlist managed by the deployer or its sub-deployers. This functionality is strictly additive to HIP-3, and its use is optional and up to the deployer. Existing markets remain unchanged.\n\nThe initial release for HIP-3* is currently available on testnet. The specifications on testnet are preliminary and subject to change based on feedback. See https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/hip-3-deployer-actions for more details.\n\nAs always, Hyperliquid is a neutral infrastructure layer with the goal of supporting large parts of the financial system. HIP-3* is designed to give deployers additional functionality to operate deployments consistent with requirements applicable to them. Like with HIP-3, HIP-3* deployers are independent operators. Deployers use Hyperliquid as the onchain infrastructure layer for their own markets, while retaining control and responsibility over their deployment.",
+   "long": true,
+   "url": "https://discord.com/channels/1029781241702129716/1208476333089497189/1545005139260080128",
+   "mirror_url": "https://discord.com/channels/940761060430975026/943393131783655483/1545005543498715210",
+   "sources": [
+    {
+     "type": "discord",
+     "channel": "#api-announcements",
+     "channel_raw": "#🔩︱api-announcements",
+     "guild_id": "1029781241702129716",
+     "channel_id": "1208476333089497189"
+    }
+   ],
+   "title_zh": "HIP-3 将在未来网络升级中支持部署方配置许可制市场",
+   "title_en": "In a future network upgrade, HIP-3 will support optional deployer configuration for permissioned markets."
+  },
+  {
+   "id": "discord:1543934413060972651",
+   "date": "2026-08-31",
+   "created_at": "2026-08-31T18:42:13+08:00",
+   "source": {
+    "type": "discord",
+    "channel": "#announcements",
+    "channel_raw": "#📢︱announcements",
+    "guild_id": "1029781241702129716",
+    "channel_id": "1030197017655394447"
+   },
+   "kind": "crosspost",
+   "title": "Weekly Update",
+   "excerpt": "Product & Tech + HIP-4 permissionless deployments were enabled on mainnet Trading + PONS perps were listed; VINE perps were delisted + HyENA's HIP-3 dex is sunsetting. See information on market wind-down here: https://docs.hyena.trade/ New Teams on HyperEVM & HyperCore + Pumpfun added support for HyperEVM: https://x.com/Pumpfun/status/2092613331299291421 Community Highlights + Bloomberg wrote about Trade[XYZ]'s markets: https://www.bloomberg.com/news/articles/2026-08-24/the-500-billion-experiment-to-build-24-7-markets-on-blockchain + The Hyperliquid community event will take place on the evening of October 5 in Singapore. Please register here: https://luma.com/HL2026Community",
+   "text": "Weekly Update \n\n**Product & Tech**\n+ HIP-4 permissionless deployments were enabled on mainnet\n\n**Trading**\n+ PONS perps were listed; VINE perps were delisted\n+ HyENA's HIP-3 dex is sunsetting. See information on market wind-down here: https://docs.hyena.trade/\n\n**New Teams on HyperEVM & HyperCore**\n+ Pumpfun added support for HyperEVM: https://x.com/Pumpfun/status/2092613331299291421\n\n**Community Highlights**\n+ Bloomberg wrote about Trade[XYZ]'s markets: https://www.bloomberg.com/news/articles/2026-08-24/the-500-billion-experiment-to-build-24-7-markets-on-blockchain\n+ The Hyperliquid community event will take place on the evening of October 5 in Singapore. Please register here: https://luma.com/HL2026Community",
+   "long": true,
+   "url": "https://discord.com/channels/1029781241702129716/1030197017655394447/1543933926861447178",
+   "mirror_url": "https://discord.com/channels/940761060430975026/943393131783655483/1543934413060972651",
+   "sources": [
+    {
+     "type": "discord",
+     "channel": "#announcements",
+     "channel_raw": "#📢︱announcements",
+     "guild_id": "1029781241702129716",
+     "channel_id": "1030197017655394447"
+    }
+   ],
+   "title_zh": "周报：HIP-4 无许可部署已在主网开放",
+   "title_en": "Weekly Update"
+  },
+  {
+   "id": "x:2094272869731832151",
+   "date": "2026-08-31",
+   "created_at": "2026-08-31T11:55:36+08:00",
+   "source": {
+    "type": "x",
+    "account": "@HyperliquidX",
+    "name": "Hyperliquid"
+   },
+   "kind": "original",
+   "title": "By community request, $PONS perps have been listed with up to 3x leverage.",
+   "excerpt": "",
+   "text": "By community request, $PONS perps have been listed with up to 3x leverage.",
+   "url": "https://x.com/HyperliquidX/status/2094272869731832151",
+   "sources": [
+    {
+     "type": "x",
+     "account": "@HyperliquidX",
+     "name": "Hyperliquid"
+    }
+   ],
+   "title_zh": "应社区要求上线 $PONS 永续合约，最高 3x 杠杆",
+   "title_en": "By community request, $PONS perps have been listed with up to 3x leverage."
+  },
+  {
+   "id": "discord:1543596397343940629",
+   "date": "2026-08-30",
+   "created_at": "2026-08-30T20:18:00+08:00",
+   "source": {
+    "type": "discord",
+    "channel": "#announcements",
+    "channel_raw": "#📢︱announcements",
+    "guild_id": "1029781241702129716",
+    "channel_id": "1030197017655394447"
+   },
+   "kind": "crosspost",
+   "title": "433k tokens from Hyperliquid Labs will be unstaked today to be distributed to team members on September 6.",
+   "excerpt": "",
+   "text": "433k tokens from Hyperliquid Labs will be unstaked today to be distributed to team members on September 6.",
+   "long": false,
+   "url": "https://discord.com/channels/1029781241702129716/1030197017655394447/1543595644810170409",
+   "mirror_url": "https://discord.com/channels/940761060430975026/943393131783655483/1543596397343940629",
+   "sources": [
+    {
+     "type": "discord",
+     "channel": "#announcements",
+     "channel_raw": "#📢︱announcements",
+     "guild_id": "1029781241702129716",
+     "channel_id": "1030197017655394447"
+    }
+   ],
+   "title_zh": "Hyperliquid Labs 433k 枚代币解除质押，9月6日分发给团队",
+   "title_en": "433k tokens from Hyperliquid Labs will be unstaked today to be distributed to team members on September 6."
+  },
+  {
+   "id": "discord:1542937051312160921",
+   "date": "2026-08-29",
+   "created_at": "2026-08-29T00:38:24+08:00",
+   "source": {
+    "type": "discord",
+    "channel": "#api-announcements",
+    "channel_raw": "#🔩︱api-announcements",
+    "guild_id": "1029781241702129716",
+    "channel_id": "1208476333089497189"
+   },
+   "kind": "crosspost",
+   "title": "HIP-4 permissionless deployments will be enabled on the next network upgrade.",
+   "excerpt": "Templates will become available over time through validator vote.",
+   "text": "HIP-4 permissionless deployments will be enabled on the next network upgrade. Templates will become available over time through validator vote.",
+   "long": false,
+   "url": "https://discord.com/channels/1029781241702129716/1208476333089497189/1542936400989659317",
+   "mirror_url": "https://discord.com/channels/940761060430975026/943393131783655483/1542937051312160921",
+   "sources": [
+    {
+     "type": "discord",
+     "channel": "#api-announcements",
+     "channel_raw": "#🔩︱api-announcements",
+     "guild_id": "1029781241702129716",
+     "channel_id": "1208476333089497189"
+    }
+   ],
+   "title_zh": "下次网络升级起开放 HIP-4 无许可部署",
+   "title_en": "HIP-4 permissionless deployments will be enabled on the next network upgrade."
+  },
+  {
+   "id": "discord:1542539798781239420",
+   "date": "2026-08-27",
+   "created_at": "2026-08-27T19:22:56+08:00",
+   "source": {
+    "type": "discord",
+    "channel": "#api-announcements",
+    "channel_raw": "#🔩︱api-announcements",
+    "guild_id": "1029781241702129716",
+    "channel_id": "1208476333089497189"
+   },
+   "kind": "crosspost",
+   "title": "The following updates to the testnet HIP-4 implementation are live, based on builder feedback.",
+   "excerpt": "See https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/hip-4-deployer-actions for details. 1. The `outcomeDeploy` action now has a top-level `venue` field, which is more consistent with the HIP-3 deploy action. This required field is a breaking change on the testnet-only spec. 2. Builder codes can be applied to buy orders for outcome trades, charged in the quote token. These builder fees are charged by the protocol on a best-effort basis. Builder interfaces may validate sufficient quote token balance when computing the maximum order size. There are no changes to spot or perp builder codes. 3. Outcome template metadata going forward include `semanticRestriction` as a field which broadly define the intended semantics of the instantiated market. Markets which contradict their template's semantic restriction are considered malformed and slashable by validators.",
+   "text": "The following updates to the testnet HIP-4 implementation are live, based on builder feedback. See https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/hip-4-deployer-actions for details.\n\n1. The `outcomeDeploy` action now has a top-level `venue` field, which is more consistent with the HIP-3 deploy action. This required field is a breaking change on the testnet-only spec.\n2. Builder codes can be applied to buy orders for outcome trades, charged in the quote token. These builder fees are charged by the protocol on a best-effort basis. Builder interfaces may validate sufficient quote token balance when computing the maximum order size. There are no changes to spot or perp builder codes. \n3. Outcome template metadata going forward include `semanticRestriction` as a field which broadly define the intended semantics of the instantiated market. Markets which contradict their template's semantic restriction are considered malformed and slashable by validators.",
+   "long": true,
+   "url": "https://discord.com/channels/1029781241702129716/1208476333089497189/1542494625179242566",
+   "mirror_url": "https://discord.com/channels/940761060430975026/943393131783655483/1542539798781239420",
+   "sources": [
+    {
+     "type": "discord",
+     "channel": "#api-announcements",
+     "channel_raw": "#🔩︱api-announcements",
+     "guild_id": "1029781241702129716",
+     "channel_id": "1208476333089497189"
+    }
+   ],
+   "title_zh": "测试网 HIP-4 更新：outcomeDeploy 新增必填顶层 venue 字段",
+   "title_en": "The following updates to the testnet HIP-4 implementation are live, based on builder feedback."
+  },
+  {
+   "id": "discord:1542098510797869080",
+   "date": "2026-08-26",
+   "created_at": "2026-08-26T17:05:30+08:00",
+   "source": {
+    "type": "discord",
+    "channel": "#api-announcements",
+    "channel_raw": "#🔩︱api-announcements",
+    "guild_id": "1029781241702129716",
+    "channel_id": "1208476333089497189"
+   },
+   "kind": "crosspost",
+   "title": "Manual borrowing on HyperCore is live on testnet.",
+   "excerpt": "As a reminder, all borrowing on mainnet is currently restricted to portfolio margin. HyperEVM smart contracts can already access HyperCore borrow/lend functionality from CoreWriter and read precompiles.",
+   "text": "Manual borrowing on HyperCore is live on testnet. As a reminder, all borrowing on mainnet is currently restricted to portfolio margin. HyperEVM smart contracts can already access HyperCore borrow/lend functionality from CoreWriter and read precompiles.",
+   "long": false,
+   "url": "https://discord.com/channels/1029781241702129716/1208476333089497189/1542097651439378463",
+   "mirror_url": "https://discord.com/channels/940761060430975026/943393131783655483/1542098510797869080",
+   "sources": [
+    {
+     "type": "discord",
+     "channel": "#api-announcements",
+     "channel_raw": "#🔩︱api-announcements",
+     "guild_id": "1029781241702129716",
+     "channel_id": "1208476333089497189"
+    }
+   ],
+   "title_zh": "HyperCore 手动借贷已在测试网上线",
+   "title_en": "Manual borrowing on HyperCore is live on testnet."
+  },
+  {
+   "id": "discord:1541826912995901591",
+   "date": "2026-08-25",
+   "created_at": "2026-08-25T19:31:40+08:00",
+   "source": {
+    "type": "discord",
+    "channel": "#api-announcements",
+    "channel_raw": "#🔩︱api-announcements",
+    "guild_id": "1029781241702129716",
+    "channel_id": "1208476333089497189"
+   },
+   "kind": "crosspost",
+   "title": "The following updates to the testnet HIP-4 implementation are live, based on builder feedback.",
+   "excerpt": "See https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/hip-4-deployer-actions for details. 1. Sub-deployer permissions allow the deployer to delegate specific permissions to different addresses, similar to HIP-3. 2. The outcome deployment action has been moved from `spotDeploy` to a separate top-level action. This is a breaking change, as occasionally happens with testnet-only specs. 3. The spot balances precompile supports outcomes. See L1Read.sol at https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/hyperevm/interacting-with-hypercore",
+   "text": "The following updates to the testnet HIP-4 implementation are live, based on builder feedback. See https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/hip-4-deployer-actions for details.\n\n1. Sub-deployer permissions allow the deployer to delegate specific permissions to different addresses, similar to HIP-3.\n2. The outcome deployment action has been moved from `spotDeploy` to a separate top-level action. This is a breaking change, as occasionally happens with testnet-only specs. \n3. The spot balances precompile supports outcomes. See L1Read.sol at https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/hyperevm/interacting-with-hypercore",
+   "long": true,
+   "url": "https://discord.com/channels/1029781241702129716/1208476333089497189/1541772044528521347",
+   "mirror_url": "https://discord.com/channels/940761060430975026/943393131783655483/1541826912995901591",
+   "sources": [
+    {
+     "type": "discord",
+     "channel": "#api-announcements",
+     "channel_raw": "#🔩︱api-announcements",
+     "guild_id": "1029781241702129716",
+     "channel_id": "1208476333089497189"
+    }
+   ],
+   "title_zh": "测试网 HIP-4 更新：支持子部署方权限",
+   "title_en": "The following updates to the testnet HIP-4 implementation are live, based on builder feedback."
+  },
+  {
+   "id": "discord:1541388024028332056",
+   "date": "2026-08-24",
+   "created_at": "2026-08-24T18:00:07+08:00",
+   "source": {
+    "type": "discord",
+    "channel": "#announcements",
+    "channel_raw": "#📢︱announcements",
+    "guild_id": "1029781241702129716",
+    "channel_id": "1030197017655394447"
+   },
+   "kind": "crosspost",
+   "title": "Weekly Update",
+   "excerpt": "Product & Tech + HIP-1 spot annotations and deployer labels are now supported. For details, see: https://discord.com/channels/1029781241702129716/1208476333089497189/1541349012748111923 + HIP-4 templates on testnet are pending builder feedback: https://discord.com/channels/1029781241702129716/1208476333089497189/1539313282186350653 + See Docs re: infra providers' peering services that builders can connect to: https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/nodes/foundation-non-validating-node-for-infra-providers Trading + Validators will vote on whether to delist VINE around 08/26 17:30 based on stalequant's methodology. If validators vote to delist an asset, the perps will settle to the 1 hour time weighted spot oracle price before the scheduled delisting voting time, and open orders will be canceled. Close any positions beforehand to avoid automatic settlement. After settlement, no new orders will be accepted. New Teams on HyperEVM & HyperCore + Base app integrated Hyperliquid perps via builder codes: https://x.com/baseapp/status/2090122188074491951 + Trezor added support for HyperEVM: https://x.com/Trezor/status/2090813911217946848 Community Highlights + POTUS mentioned Hyperliquid in a recent press conference: https://www.bloomberg.com/news/articles/2026-08-19/trump-opens-door-to-hyperliquid-as-us-pulls-crypto-trade-onshore",
+   "text": "Weekly Update \n\n**Product & Tech**\n+ HIP-1 spot annotations and deployer labels are now supported. For details, see:\nhttps://discord.com/channels/1029781241702129716/1208476333089497189/1541349012748111923\n+ HIP-4 templates on testnet are pending builder feedback: https://discord.com/channels/1029781241702129716/1208476333089497189/1539313282186350653\n+ See Docs re: infra providers' peering services that builders can connect to: https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/nodes/foundation-non-validating-node-for-infra-providers\n\n**Trading**\n+ Validators will vote on whether to delist VINE around <t:1787736600:f> based on stalequant's methodology. If validators vote to delist an asset, the perps will settle to the 1 hour time weighted spot oracle price before the scheduled delisting voting time, and open orders will be canceled. Close any positions beforehand to avoid automatic settlement. After settlement, no new orders will be accepted.\n\n**New Teams on HyperEVM & HyperCore**\n+ Base app integrated Hyperliquid perps via builder codes: https://x.com/baseapp/status/2090122188074491951\n+ Trezor added support for HyperEVM:\nhttps://x.com/Trezor/status/2090813911217946848\n\n**Community Highlights**\n+ POTUS mentioned Hyperliquid in a recent press conference: https://www.bloomberg.com/news/articles/2026-08-19/trump-opens-door-to-hyperliquid-as-us-pulls-crypto-trade-onshore",
+   "long": true,
+   "url": "https://discord.com/channels/1029781241702129716/1030197017655394447/1541386618324127744",
+   "mirror_url": "https://discord.com/channels/940761060430975026/943393131783655483/1541388024028332056",
+   "sources": [
+    {
+     "type": "discord",
+     "channel": "#announcements",
+     "channel_raw": "#📢︱announcements",
+     "guild_id": "1029781241702129716",
+     "channel_id": "1030197017655394447"
+    }
+   ],
+   "title_zh": "周报：已支持 HIP-1 现货标注和部署方标签",
+   "title_en": "Weekly Update"
+  },
+  {
+   "id": "discord:1541349354995064843",
+   "date": "2026-08-24",
+   "created_at": "2026-08-24T15:30:41+08:00",
+   "source": {
+    "type": "discord",
+    "channel": "#api-announcements",
+    "channel_raw": "#🔩︱api-announcements",
+    "guild_id": "1029781241702129716",
+    "channel_id": "1208476333089497189"
+   },
+   "kind": "crosspost",
+   "title": "Spot annotations and deployer labels are now supported through `setTokenAnnotation` and `setDeployerLabel` variants of the action.",
+   "excerpt": "Annotations are analogous to HIP-3 annotations. Deployer labels are analogous to HIP-3 DEX names. These onchain attributes can be used by interfaces to display additional information for assets. See https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/deploying-hip-1-and-hip-2-assets for details.",
+   "text": "Spot annotations and deployer labels are now supported through `setTokenAnnotation` and `setDeployerLabel` variants of the action. Annotations are analogous to HIP-3 annotations. Deployer labels are analogous to HIP-3 DEX names. These onchain attributes can be used by interfaces to display additional information for assets. See https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/deploying-hip-1-and-hip-2-assets for details.",
+   "long": true,
+   "url": "https://discord.com/channels/1029781241702129716/1208476333089497189/1541349012748111923",
+   "mirror_url": "https://discord.com/channels/940761060430975026/943393131783655483/1541349354995064843",
+   "sources": [
+    {
+     "type": "discord",
+     "channel": "#api-announcements",
+     "channel_raw": "#🔩︱api-announcements",
+     "guild_id": "1029781241702129716",
+     "channel_id": "1208476333089497189"
+    }
+   ],
+   "title_zh": "现货标注和部署方标签可通过 setTokenAnnotation 等设置",
+   "title_en": "Spot annotations and deployer labels are now supported through `setTokenAnnotation` and `setDeployerLabel` variants of the action."
+  },
+  {
+   "id": "discord:1539466118824071168",
+   "date": "2026-08-19",
+   "created_at": "2026-08-19T00:41:25+08:00",
+   "source": {
+    "type": "discord",
+    "channel": "#api-announcements",
+    "channel_raw": "#🔩︱api-announcements",
+    "guild_id": "1029781241702129716",
+    "channel_id": "1208476333089497189"
+   },
+   "kind": "crosspost",
+   "title": "Request for feedback on HIP-4 templates: The latest testnet templates can be found onchain, or queried via API via `curl -X POST --header \"Content-Type: application/json\" --data '{ \"type\": \"outcomeTemplates\"}'",
+   "excerpt": "The latest template in each family is available for validator review and vote to be included as a mainnet template. The template families are indexed by an increasing sequence of integer suffixes. For example, `binaryPrice4` is the latest in the `binaryPrice` family. Once feedback is collected, validators will review and vote onchain to initialize the templates for deployer use. The instantiation of all templates will still be gated on HIP-4 itself being enabled on mainnet.",
+   "text": "Request for feedback on HIP-4 templates: The latest testnet templates can be found onchain, or queried via API via `curl -X POST --header \"Content-Type: application/json\" --data '{ \"type\": \"outcomeTemplates\"}' https://api.hyperliquid-testnet.xyz/info`. The latest template in each family is available for validator review and vote to be included as a mainnet template. The template families are indexed by an increasing sequence of integer suffixes. For example, `binaryPrice4` is the latest in the `binaryPrice` family.\n\nOnce feedback is collected, validators will review and vote onchain to initialize the templates for deployer use. The instantiation of all templates will still be gated on HIP-4 itself being enabled on mainnet.",
+   "long": true,
+   "url": "https://discord.com/channels/1029781241702129716/1208476333089497189/1539313282186350653",
+   "mirror_url": "https://discord.com/channels/940761060430975026/943393131783655483/1539466118824071168",
+   "sources": [
+    {
+     "type": "discord",
+     "channel": "#api-announcements",
+     "channel_raw": "#🔩︱api-announcements",
+     "guild_id": "1029781241702129716",
+     "channel_id": "1208476333089497189"
+    }
+   ],
+   "title_zh": "征集 HIP-4 测试网模板反馈",
+   "title_en": "Request for feedback on HIP-4 templates: The latest testnet templates can be found onchain, or queried via API via `curl -X POST --header \"Content-Type: application/json\" --data '{ \"type\": \"outcomeTemplates\"}'"
+  },
+  {
+   "id": "discord:1538786801219670028",
+   "date": "2026-08-17",
+   "created_at": "2026-08-17T13:46:50+08:00",
+   "source": {
+    "type": "discord",
+    "channel": "#announcements",
+    "channel_raw": "#📢︱announcements",
+    "guild_id": "1029781241702129716",
+    "channel_id": "1030197017655394447"
+   },
+   "kind": "crosspost",
+   "title": "Product & Tech",
+   "excerpt": "+ Based on feedback, the HIP-1 spec will be extended. Existing deployers and teams interested in HIP-1 deployment are encouraged to share further feedback. For details, see https://discord.com/channels/1029781241702129716/1208476333089497189/1537009027278438410 + Based on feedback, additional features for HIP-4 have been implemented. For details, see https://discord.com/channels/1029781241702129716/1030197017655394447/1537756805461966848 + Hyper Foundation's non-validating node is open to high-quality infrastructure providers as a reliable peer. For details, see https://discord.com/channels/1029781241702129716/1208476333089497189/1537045719813328907 Trading + HIP-3 markets reached a new ATH of $4.3B in open interest New Teams on the HyperEVM & HyperCore + Buoy Finance deployed a vault system for trading on HyperCore via HyperEVM custom vaults: https://x.com/BuoyFinance/status/2087948034206208083",
+   "text": "**Product & Tech**\n+ Based on feedback, the HIP-1 spec will be extended. Existing deployers and teams interested in HIP-1 deployment are encouraged to share further feedback. For details, see https://discord.com/channels/1029781241702129716/1208476333089497189/1537009027278438410\n+ Based on feedback, additional features for HIP-4 have been implemented. For details, see https://discord.com/channels/1029781241702129716/1030197017655394447/1537756805461966848\n+ Hyper Foundation's non-validating node is open to high-quality infrastructure providers as a reliable peer. For details, see https://discord.com/channels/1029781241702129716/1208476333089497189/1537045719813328907\n\n**Trading**\n+ HIP-3 markets reached a new ATH of $4.3B in open interest\n\n**New Teams on the HyperEVM & HyperCore**\n+ Buoy Finance deployed a vault system for trading on HyperCore via HyperEVM custom vaults: https://x.com/BuoyFinance/status/2087948034206208083",
+   "long": true,
+   "url": "https://discord.com/channels/1029781241702129716/1030197017655394447/1538786163878264852",
+   "mirror_url": "https://discord.com/channels/940761060430975026/943393131783655483/1538786801219670028",
+   "sources": [
+    {
+     "type": "discord",
+     "channel": "#announcements",
+     "channel_raw": "#📢︱announcements",
+     "guild_id": "1029781241702129716",
+     "channel_id": "1030197017655394447"
+    }
+   ],
+   "title_zh": "产品与技术：HIP-1 规范将按反馈扩展",
+   "title_en": "Product & Tech"
   }
  ]
 }
