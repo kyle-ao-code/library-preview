@@ -1,0 +1,11 @@
+{
+  "_note": "长文区数据。字段：title 标题、url 链接（null 表示还没有，卡片不可点）、date 日期（ISO，可为 null）、cover 封面（public/ 下的相对路径，null 时用深墨绿渐变）、summary 摘要、topic 主题、minutes 阅读分钟数（可选）、sample 是否示例。现在三条都是占位示例。",
+  "items": [
+    { "sample": true, "title": "示例长文标题：这里放长文标题，最多两行，超出部分省略", "url": null, "date": null, "cover": null,
+      "summary": "示例摘要：这里放导语，取正文前两行，帮读者判断要不要点开。", "topic": "示例主题", "minutes": 8 },
+    { "sample": true, "title": "示例长文标题：没有配图时，封面用深墨绿渐变加标题", "url": null, "date": null, "cover": null,
+      "summary": "示例摘要：这里放导语，取正文前两行，帮读者判断要不要点开。", "topic": "示例主题", "minutes": 6 },
+    { "sample": true, "title": "示例长文标题：第三张占位卡片，正式内容上架后替换", "url": null, "date": null, "cover": null,
+      "summary": "示例摘要：这里放导语，取正文前两行，帮读者判断要不要点开。", "topic": "示例主题", "minutes": 5 }
+  ]
+}

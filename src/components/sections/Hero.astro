@@ -1,0 +1,22 @@
+---
+// 版块 2 · 封面区：logo、馆名、简介、馆藏数字（从数据算）、「在 X 关注」
+import site from '../../site.json';
+import { fmtDate } from '../../lib';
+const { section, stats } = Astro.props; // stats: {items, topics, updated}
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+---
+<header class="hero" data-section="hero">
+  <div class="wrap hero-in">
+    <img class="tile hero-tile" src={`${base}logo-tile-dark.svg`} alt={site.name} width="88" height="88" />
+    <div class="hero-copy">
+      <h1>{site.name}</h1>
+      <p class="bio">{site.bio}</p>
+      <div class="stats">
+        <span><b>{stats.items}</b>条馆藏</span>
+        <span><b>{stats.topics}</b>个主题</span>
+        {stats.updated && <span>最近更新 {fmtDate(stats.updated)}</span>}
+      </div>
+    </div>
+    <a class="btn primary hero-btn" href={`https://x.com/${site.handle}`} target="_blank" rel="noopener">{section.followLabel || `在 X 关注 @${site.handle} ↗`}</a>
+  </div>
+</header>

@@ -10,6 +10,8 @@ const media = item.media || [];
 const first = media[0];
 const q = item.quoted;
 const showNew = __PREVIEW__ && item.is_new;
+// 配图按原比例显示，限制在 4:5（最高）到 16:9（最宽）之间；超出才裁，从顶部保留（CSS object-position: top）
+const ratio = (m: any) => (m?.w && m?.h ? Math.min(16 / 9, Math.max(4 / 5, m.w / m.h)) : 16 / 9);
 ---
 <article class="card" data-hidden={hidden ? '' : undefined} data-topic={topicSlug || undefined}>
   <header class="ch">
@@ -24,7 +26,7 @@ const showNew = __PREVIEW__ && item.is_new;
     </span>
   </header>
   {first && (
-    <a class="media" href={first.type === 'photo' ? `${base}${first.src}` : item.url} target="_blank" rel="noopener">
+    <a class="media" style={`--ar:${ratio(first).toFixed(4)}`} href={first.type === 'photo' ? `${base}${first.src}` : item.url} target="_blank" rel="noopener">
       <img src={`${base}${first.src}`} alt={first.alt || ''} loading="lazy" />
       {first.type !== 'photo' && <span class="play">▶</span>}
       {media.length > 1 && <span class="more-n">+{media.length - 1}</span>}

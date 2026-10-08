@@ -1,0 +1,18 @@
+---
+// 版块 5 · 图文说明区：「关于本馆」+ 收录标准，文案在 home.json 里
+const { section } = Astro.props;
+---
+<section class="sec" id={section.id} data-section="about">
+  <div class="wrap">
+    <div class="sec-hd"><h2>{section.title}</h2>{section.draftLabel && <span class="pill draft">{section.draftLabel}</span>}</div>
+    <div class="about">
+      <p class="about-body">{section.body}</p>
+      {section.list?.length > 0 && (
+        <div>
+          {section.listTitle && <h3 class="about-h3">{section.listTitle}</h3>}
+          <ul>{section.list.map((li: string) => <li>{li}</li>)}</ul>
+        </div>
+      )}
+    </div>
+  </div>
+</section>

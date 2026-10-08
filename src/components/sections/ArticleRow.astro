@@ -1,0 +1,40 @@
+---
+// 版块 4 · 横排长文区：桌面一行 3 张，手机横向滑动；没有封面图时用深墨绿渐变 + 标题
+import articles from '../../data/articles.json';
+import { fmtDate } from '../../lib';
+const { section } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+const items = articles.items as any[];
+const anySample = items.some((a) => a.sample);
+---
+<section class="sec" id={section.id} data-section="articles">
+  <div class="wrap">
+    <div class="sec-hd">
+      <h2>{section.title}</h2>
+      {anySample && <span class="pill">{section.sampleLabel || '示例'}</span>}
+      {section.sub && <span class="sub">{section.sub}</span>}
+      {section.more && <a class="more" href={section.more}>全部长文 →</a>}
+    </div>
+    <div class="row">
+      {items.map((a) => {
+        const Tag = a.url ? 'a' : 'div';
+        const meta = [a.date && fmtDate(a.date), a.minutes && `约 ${a.minutes} 分钟`, a.url && '在 X 阅读 ↗'].filter(Boolean).join(' · ');
+        return (
+          <Tag class={`art${a.sample ? ' sample' : ''}`} href={a.url || undefined} target={a.url ? '_blank' : undefined} rel={a.url ? 'noopener' : undefined}>
+            {a.cover ? (
+              <div class="cover"><img src={`${base}${a.cover}`} alt="" loading="lazy" /></div>
+            ) : (
+              <div class="cover plain"><span class="cover-kick">长文</span><span class="cover-title">{a.title}</span></div>
+            )}
+            <div class="bd">
+              <div class="kick">{[a.sample && '示例', a.topic].filter(Boolean).join(' · ')}</div>
+              {a.cover && <h3>{a.title}</h3>}
+              <p class="ex">{a.summary}</p>
+              {meta && <div class="mt2">{meta}</div>}
+            </div>
+          </Tag>
+        );
+      })}
+    </div>
+  </div>
+</section>

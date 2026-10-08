@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T14:18:28.114364+08:00",
+ "generated_at": "2026-10-08T14:24:06.945110+08:00",
  "topics": [
   {
    "name": "HIP-3",
@@ -151,7 +151,7 @@
     }
    ],
    "thread_count": 0,
-   "topic": "Jeff 与团队",
+   "topic": "代币与经济模型",
    "editor_note": "文中为访谈转述，以原访谈为准",
    "is_new": false
   },
@@ -565,7 +565,7 @@
    "quoted": null,
    "media": [],
    "thread_count": 0,
-   "topic": "生态与 Builder",
+   "topic": "代币与经济模型",
    "editor_note": null,
    "is_new": true
   },

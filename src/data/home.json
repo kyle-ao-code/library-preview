@@ -1,0 +1,25 @@
+{
+  "_note": "首页由版块拼成：sections 的顺序就是页面顺序。type 对应 src/components/sections/ 里的组件（见 index.astro 的 SECTIONS 表）。带 nav 的版块会出现在顶栏链接里，链接到 #id。",
+  "sections": [
+    { "type": "nav" },
+    { "type": "hero", "followLabel": "在 X 关注 @kylewmi ↗" },
+    { "type": "grid", "id": "featured", "nav": "馆藏", "title": "馆藏", "pageSize": 12 },
+    {
+      "type": "articles", "id": "articles", "nav": "长文", "title": "长文",
+      "sub": "读完要 5 分钟以上的深度整理", "sampleLabel": "示例", "more": null
+    },
+    {
+      "type": "about", "id": "about", "nav": "关于本馆", "title": "关于本馆", "draftLabel": "草稿，待 Kyle 定",
+      "body": "这里收的是我在 X 上写过、到今天还值得一读的 Hyperliquid 内容。每条都是原帖，一字不改，有时效性的地方加编者注说明。这是我个人整理的社区站，不是 Hyperliquid 官方，也不构成投资建议。",
+      "listTitle": "收录标准",
+      "list": [
+        "只收以 Hyperliquid 为主题的原创帖，一个 Thread 算一条。",
+        "收讲机制、讲逻辑、能反复翻看的内容，不收行情、价格和目标价。",
+        "过期的事件不收，后来被推翻的观点也不收。",
+        "带当时数据或转述别人原话的帖子，加编者注说明，原文照旧不改。",
+        "每一条都由我本人看过才上架。"
+      ]
+    },
+    { "type": "footer" }
+  ]
+}

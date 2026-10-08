@@ -1,0 +1,12 @@
+---
+// 版块 6 · 页脚：社区站声明（第一行，居中 12px，c-text-2），下面 8px 是版权
+import site from '../../site.json';
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+---
+<footer class="foot" data-section="footer">
+  <div class="wrap">
+    <img class="tile foot-tile" src={`${base}logo-tile-dark.svg`} alt="" width="28" height="28" />
+    <p class="disclaimer">{site.disclaimer}</p>
+    <p class="cp">© {new Date().getFullYear()} <a href={`https://x.com/${site.handle}`} target="_blank" rel="noopener">@{site.handle}</a></p>
+  </div>
+</footer>

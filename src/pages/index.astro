@@ -1,18 +1,29 @@
 ---
+// 首页 v2：整页由 src/data/home.json 的 sections 拼成。加新版块 = 在 components/sections/ 写组件 + 在 SECTIONS 注册 + 在 home.json 加一项
 import '../styles/tokens.css';
 import '../styles/site.css';
-import TweetCard from '../components/TweetCard.astro';
 import site from '../site.json';
+import home from '../data/home.json';
 import featured from '../data/featured.json';
-const items = [...featured.items].sort((a, b) => b.created_at.localeCompare(a.created_at));
+import SiteNav from '../components/sections/SiteNav.astro';
+import Hero from '../components/sections/Hero.astro';
+import CardGrid from '../components/sections/CardGrid.astro';
+import ArticleRow from '../components/sections/ArticleRow.astro';
+import About from '../components/sections/About.astro';
+import SiteFooter from '../components/sections/SiteFooter.astro';
+const SECTIONS: Record<string, any> = { nav: SiteNav, hero: Hero, grid: CardGrid, articles: ArticleRow, about: About, footer: SiteFooter };
+
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/'); // BASE 不带结尾斜杠时补上
-const xUrl = `https://x.com/${site.handle}`;
-const size = site.featuredPageSize;
 const ogImage = new URL(`${base}icon-512.png`, Astro.site).href;
-// 主题筛选：按 featured.json 里的 topics 顺序，只列有帖子的主题
+const items = [...featured.items].sort((a: any, b: any) => b.created_at.localeCompare(a.created_at));
+// 主题：按 featured.json 的 topics 顺序，只保留有帖子的
 const allTopics: { name: string; slug: string }[] = (featured as any).topics || [];
 const slugOf = Object.fromEntries(allTopics.map((t) => [t.name, t.slug]));
 const topics = allTopics.map((t) => ({ ...t, n: items.filter((x: any) => x.topic === t.name).length })).filter((t) => t.n > 0);
+const stats = { items: items.length, topics: topics.length, updated: (featured as any).generated_at };
+const sections = home.sections as any[];
+const links = sections.filter((s) => s.nav && s.id).map((s) => ({ label: s.nav, href: `#${s.id}` }));
+const propsFor = (s: any) => ({ section: s, items, topics, slugOf, stats, links });
 ---
 <!doctype html>
 <html lang="zh-CN">
@@ -35,97 +46,9 @@ const topics = allTopics.map((t) => ({ ...t, n: items.filter((x: any) => x.topic
 </head>
 <body>
   {__PREVIEW__ && <div class="preview-bar">预览版，待 Kyle 审核</div>}
-  <nav class="nav wrap">
-    <a class="logo" href={base}><img class="logo-mark" src={`${base}logo-tile-dark.svg`} alt="" width="32" height="32" /><span>{site.name}</span></a>
-    <div class="navr">
-      <a class="on" href="#featured">{site.sectionTitle}</a>
-      <a class="iconbtn" href={xUrl} target="_blank" rel="noopener" aria-label="X 主页">𝕏</a>
-    </div>
-  </nav>
-  <main class="wrap">
-    <section class="hero">
-      <img class="av" src={`${base}logo-tile-dark.svg`} alt={site.name} width="96" height="96" />
-      <div class="hcopy">
-        <h1 class="hname">{site.name}</h1>
-        <div class="handle">@{site.handle}</div>
-        <p class="bio">{site.bio}</p>
-        <a class="btn primary" href={xUrl} target="_blank" rel="noopener">𝕏 在 X 关注</a>
-      </div>
-    </section>
-
-    <!-- 模块：馆藏。以后新模块按同样的 section.module 往下插 -->
-    <section class="module" id="featured">
-      <div class="sechead">
-        <div><h2 class="h2">{site.sectionTitle}</h2><p class="sub">{site.sectionSub}</p></div>
-        {items.length > 0 && <span class="count">共 <span id="count">{items.length}</span> 条</span>}
-      </div>
-      {topics.length > 0 && (
-        <div class="chips" role="tablist" aria-label="按主题筛选">
-          <button class="chip on" type="button" data-topic="" aria-pressed="true">全部 <span class="n">{items.length}</span></button>
-          {topics.map((t) => <button class="chip" type="button" data-topic={t.slug} aria-pressed="false">{t.name} <span class="n">{t.n}</span></button>)}
-        </div>
-      )}
-      {items.length === 0 ? (
-        <div class="empty">
-          <div class="star">★</div>
-          <div class="et">第一批精选正在挑选中</div>
-          <p class="sub">在这之前，可以先去 X 看看我最近在聊什么。</p>
-          <a class="btn primary" href={xUrl} target="_blank" rel="noopener">去 X 看 @{site.handle} ↗</a>
-        </div>
-      ) : (
-        <>
-          <div class="grid">
-            {items.map((item: any, i) => <TweetCard item={item} hidden={i >= size} topicSlug={slugOf[item.topic] || ''} />)}
-          </div>
-          {items.length > size && <div class="more"><button class="btn" id="more" type="button" data-size={size}>加载更多</button></div>}
-        </>
-      )}
-    </section>
-  </main>
-  <footer class="foot wrap">
-    <p class="disclaimer">{site.disclaimer}</p>
-    <div class="footrow">
-      <span>© {new Date().getFullYear()} {site.name}</span>
-      <a href={xUrl} target="_blank" rel="noopener">𝕏 @{site.handle}</a>
-    </div>
-  </footer>
-  <script>
-    // 超过 8 行折叠，显示「展开全文」
-    document.querySelectorAll<HTMLElement>('.card').forEach((card) => {
-      const txt = card.querySelector<HTMLElement>('.txt.clamp');
-      const btn = card.querySelector<HTMLButtonElement>('.expand');
-      if (!txt || !btn) return;
-      const check = () => { if (txt.classList.contains('clamp')) btn.hidden = txt.scrollHeight <= txt.clientHeight + 2; };
-      check(); new ResizeObserver(check).observe(txt);
-      btn.addEventListener('click', () => { txt.classList.remove('clamp'); btn.hidden = true; });
-    });
-    // 主题筛选 + 加载更多（纯前端）：先按主题过滤，再按每页 size 条显示；网址带 ?topic=slug 方便分享
-    const cards = [...document.querySelectorAll<HTMLElement>('.grid > .card')];
-    const chips = [...document.querySelectorAll<HTMLButtonElement>('.chip')];
-    const more = document.getElementById('more');
-    const moreBox = more?.parentElement;
-    const countEl = document.getElementById('count');
-    const size = Number(more?.dataset.size || 10);
-    let topic = new URLSearchParams(location.search).get('topic') || '';
-    if (topic && !chips.some((c) => c.dataset.topic === topic)) topic = '';
-    let shown = size;
-    const render = () => {
-      const matched = cards.filter((c) => !topic || c.dataset.topic === topic);
-      cards.forEach((c) => c.setAttribute('data-hidden', ''));
-      matched.slice(0, shown).forEach((c) => c.removeAttribute('data-hidden'));
-      if (moreBox) moreBox.hidden = matched.length <= shown;
-      if (countEl) countEl.textContent = String(matched.length);
-      chips.forEach((c) => { const on = (c.dataset.topic || '') === topic; c.classList.toggle('on', on); c.setAttribute('aria-pressed', String(on)); });
-    };
-    chips.forEach((c) => c.addEventListener('click', () => {
-      topic = c.dataset.topic || ''; shown = size;
-      const u = new URL(location.href);
-      if (topic) u.searchParams.set('topic', topic); else u.searchParams.delete('topic');
-      history.replaceState(null, '', u);
-      render();
-    }));
-    more?.addEventListener('click', () => { shown += size; render(); });
-    render();
-  </script>
+  {sections.map((s) => {
+    const C = SECTIONS[s.type];
+    return C ? <C {...propsFor(s)} /> : null;
+  })}
 </body>
 </html>

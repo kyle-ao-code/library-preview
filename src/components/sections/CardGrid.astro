@@ -1,0 +1,99 @@
+---
+// 版块 3 · 卡片网格区：主题筛选（?topic=）+ 瀑布流卡片 + 「再看 N 条」
+// 没有 JS 时是普通两栏网格；有 JS 时 .grid 加 .masonry，每张卡片放进当前最矮的一栏
+import TweetCard from '../TweetCard.astro';
+const { section, items, topics, slugOf } = Astro.props;
+const size = section.pageSize || 12;
+---
+<section class="sec" id={section.id} data-section="grid">
+  <div class="wrap">
+    <div class="sec-hd">
+      <h2>{section.title}</h2>
+      <span class="sub">共 <span id="count">{items.length}</span> 条</span>
+    </div>
+    {topics.length > 0 && (
+      <div class="chips" aria-label="按主题筛选">
+        <button class="chip on" type="button" data-topic="" aria-pressed="true">全部 <span class="n">{items.length}</span></button>
+        {topics.map((t: any) => <button class="chip" type="button" data-topic={t.slug} aria-pressed="false">{t.name} <span class="n">{t.n}</span></button>)}
+      </div>
+    )}
+    <div class="grid" id="grid">
+      {items.map((item: any, i: number) => <TweetCard item={item} hidden={i >= size} topicSlug={slugOf[item.topic] || ''} />)}
+    </div>
+    <noscript><style>.grid > .card[data-hidden]{display:block}.loadmore{display:none}</style></noscript>
+    {items.length > size && <div class="loadmore"><button class="btn ghost" id="more" type="button" data-size={size}>再看 {size} 条</button></div>}
+  </div>
+</section>
+<script>
+  const grid = document.getElementById('grid');
+  if (grid) {
+    const cards = [...grid.querySelectorAll<HTMLElement>(':scope > .card')];
+    const chips = [...document.querySelectorAll<HTMLButtonElement>('.chip')];
+    const more = document.getElementById('more');
+    const moreBox = more?.parentElement;
+    const countEl = document.getElementById('count');
+    const size = Number(more?.dataset.size || 12);
+
+    // —— 瀑布流：按时间顺序逐张放进当前最矮的一栏（并列时取最左），DOM 顺序不变 ——
+    grid.classList.add('masonry');
+    let queued = false;
+    const layout = () => {
+      queued = false;
+      const cs = getComputedStyle(grid);
+      const cols = Math.max(1, parseInt(cs.getPropertyValue('--cols')) || 2);
+      const gap = parseFloat(cs.getPropertyValue('--grid-gap')) || 24;
+      const w = (grid.clientWidth - gap * (cols - 1)) / cols;
+      const vis = cards.filter((c) => !c.hasAttribute('data-hidden'));
+      vis.forEach((c) => (c.style.width = `${w}px`));
+      const h = new Array(cols).fill(0);
+      vis.forEach((c) => {
+        let k = 0;
+        for (let i = 1; i < cols; i++) if (h[i] < h[k] - 0.5) k = i;
+        c.style.left = `${k * (w + gap)}px`;
+        c.style.top = `${h[k]}px`;
+        h[k] += c.offsetHeight + gap;
+      });
+      grid.style.height = `${Math.max(0, Math.max(...h) - gap)}px`;
+    };
+    const relayout = () => { if (!queued) { queued = true; requestAnimationFrame(layout); } };
+    const ro = new ResizeObserver(relayout);       // 窗口变宽变窄、卡片变高（展开全文、图片加载、字体加载）
+    ro.observe(grid);
+    cards.forEach((c) => ro.observe(c));
+    grid.querySelectorAll('img').forEach((img) => img.addEventListener('load', relayout));
+    window.addEventListener('resize', relayout);
+    document.fonts?.ready.then(relayout);
+
+    // —— 超过行数折叠，「展开全文」——
+    cards.forEach((card) => {
+      const txt = card.querySelector<HTMLElement>('.txt.clamp');
+      const btn = card.querySelector<HTMLButtonElement>('.expand');
+      if (!txt || !btn) return;
+      const check = () => { if (txt.classList.contains('clamp')) btn.hidden = txt.scrollHeight <= txt.clientHeight + 2; };
+      check(); new ResizeObserver(check).observe(txt);
+      btn.addEventListener('click', () => { txt.classList.remove('clamp'); btn.hidden = true; relayout(); });
+    });
+
+    // —— 主题筛选 + 再看 N 条：网址带 ?topic=slug ——
+    let topic = new URLSearchParams(location.search).get('topic') || '';
+    if (topic && !chips.some((c) => c.dataset.topic === topic)) topic = '';
+    let shown = size;
+    const render = () => {
+      const matched = cards.filter((c) => !topic || c.dataset.topic === topic);
+      cards.forEach((c) => c.setAttribute('data-hidden', ''));
+      matched.slice(0, shown).forEach((c) => c.removeAttribute('data-hidden'));
+      if (moreBox) moreBox.hidden = matched.length <= shown;
+      if (countEl) countEl.textContent = String(matched.length);
+      chips.forEach((c) => { const on = (c.dataset.topic || '') === topic; c.classList.toggle('on', on); c.setAttribute('aria-pressed', String(on)); });
+      layout();
+    };
+    chips.forEach((c) => c.addEventListener('click', () => {
+      topic = c.dataset.topic || ''; shown = size;
+      const u = new URL(location.href);
+      if (topic) u.searchParams.set('topic', topic); else u.searchParams.delete('topic');
+      history.replaceState(null, '', u);
+      render();
+    }));
+    more?.addEventListener('click', () => { shown += size; render(); });
+    render();
+  }
+</script>

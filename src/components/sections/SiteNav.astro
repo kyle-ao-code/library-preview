@@ -1,0 +1,15 @@
+---
+// 版块 1 · 顶栏：滚动时固定在顶部；手机上只留 logo 和馆名
+import site from '../../site.json';
+const { links = [] } = Astro.props; // [{label, href}]，由 index.astro 按带 nav 的版块生成
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+---
+<nav class="nav" data-section="nav">
+  <div class="wrap nav-in">
+    <a class="brand" href={base}><img class="tile" src={`${base}logo-tile-dark.svg`} alt="" width="30" height="30" /><span class="nm">{site.name}</span></a>
+    <div class="links">
+      {links.map((l: any, i: number) => <a class={i === 0 ? 'on' : undefined} href={l.href}>{l.label}</a>)}
+      <a href={`https://x.com/${site.handle}`} target="_blank" rel="noopener">X ↗</a>
+    </div>
+  </div>
+</nav>
