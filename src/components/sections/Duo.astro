@@ -1,0 +1,40 @@
+---
+// 版块 7 · 双栏区：左晨报（最新一期前 N 条）+ 右官宣（最近 N 条）。数据：data/morning/*.json、data/announce.json
+import MorningList from '../MorningList.astro';
+import { morning, morningIssues, announcements, md, weekday, hm } from '../../data';
+const { section } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+const M = section.morning, A = section.announce;
+const latest = morning.latest ? morningIssues[morning.latest] : null;
+const ann = announcements.items.slice(0, A.show || 5);
+const hasDiscord = announcements.sources.some((s: any) => s.type === 'discord');
+const chLabel = (s: any) => (s.type === 'x' ? s.account : s.channel);
+---
+<section class="sec sec-duo" data-section="duo">
+  <div class="wrap">
+    <div class="duo">
+      <div class="panel" id="morning">
+        <div class="p-hd">
+          <h2>{M.title}</h2>
+          {latest && <span class="date">{md(latest.date)} {weekday(latest.date)}</span>}
+          {latest?.updated_at && <span class="live">{hm(latest.updated_at)} 更新</span>}
+          <a class="more" href={`${base}morning/`}>{M.more}</a>
+        </div>
+        {latest ? <MorningList items={latest.items} limit={M.show || 3} /> : <p class="items-empty">还没有晨报。</p>}
+        <div class="p-ft"><span>{M.foot}</span><a href={latest ? `${base}morning/${latest.date}/` : `${base}morning/`}>{M.full}</a></div>
+      </div>
+      <div class="panel" id="announce">
+        <div class="p-hd"><h2>{A.title}</h2></div>
+        <ul class="ann">
+          {ann.map((a: any) => (
+            <li class="an">
+              <div class="meta"><span class:list={['an-ch', { x: a.source.type === 'x' }]}>{chLabel(a.source)}</span><span>{md(a.date)}</span></div>
+              <a class="t" href={a.url} target="_blank" rel="noopener" title={a.text}>{a.title}</a>
+            </li>
+          ))}
+        </ul>
+        <div class="p-ft"><span>{hasDiscord ? A.foot : A.footXOnly}</span></div>
+      </div>
+    </div>
+  </div>
+</section>

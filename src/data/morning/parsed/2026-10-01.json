@@ -1,0 +1,409 @@
+{
+ "date": "2026-10-01",
+ "title": "过去24h Hyperliquid 情报日报（2026-10-01）",
+ "window": {
+  "raw": "窗：Asia/Shanghai 2026-09-30 08:14 → 2026-10-01 08:14",
+  "start": "2026-09-30 08:14",
+  "end": "2026-10-01 08:14",
+  "tz": "Asia/Shanghai"
+ },
+ "notes": [],
+ "today": [
+  "本窗最大的新叙事是解锁与 OTC。多家媒体与中文账号转述联创在官方 Discord 的说法：约 3.75M HYPE 解质押，计划约 10/7 分给团队，并称经 OTC 售予单一机构、不经公开盘口。Discord 一手本采集不可采，S 官站亦无交叉，一律标待验证，禁止升正式里程碑。数字侧由昨跌转升：非正式 OI 约 $12.76B（↑约 2.11%），dayNtl 约 $7.06B（↑约 5.86%），HYPE mark≈90.347（↑约 5.28%），HYPE 单币 OI 约 $1.92B（↑约 9.02%）。S 官号本窗唯一一手是新加坡 10/5 community event 已超额。Jeff Yan 在韩国区块链周接受 The Block 采访，强调自托管与透明度重于 24h 交易。BVIV 有 GlobeNewswire 公关稿，同次 API universe 仍不见同名资产。Outcome 自报占预测市场 OI 约 93%，并称 AQAV2 买回倒计时仅剩四天；Ascend 把回购比例从 90/10 改为 50/50 HYPE/KNTQ。众议院调查本窗无新公函，答复期限仍 10-13。币安提现仍无「已开放」新 CMS。正式里程碑空。"
+ ],
+ "views": [
+  {
+   "num": 1,
+   "title": "媒体转述 Labs/联创 Discord：约 3.75M HYPE 解质押、约 10/7 分团队，称 OTC 不入公开盘（待验证）",
+   "conclusion": "本窗最抢注意力的新信号来自解锁/OTC 转述。口径指向约 3.75M HYPE 解质押与约 10/7 团队分配，并声称 OTC 售予单一机构、不经公开盘口。Discord 一手不可采，S 无交叉，只能标待验证。",
+   "why": "Odaily、ChainCatcher、BlockBeats、BeInCrypto 等多家媒体转述联创 iliensinc 在官方 Discord 的说明；媒体金额口径约 $329M / $3.2 亿。买方、价格与锁仓未披露。吴说等中文账号同步复述，现场出现「3.75M」与「3.2亿」混读。本采集 Discord widget 不可用，无法核读 DC 原文；官站、Docs、foundation 本窗无对应公告。禁止写成「已确认无冲击」或正式里程碑。",
+   "basis": "C/A 待验证 — https://x.com/wublockchain12/status/2105325895749861759 ；https://www.odaily.news/zh-CN/newsflash/521688 ；https://www.chaincatcher.com/article/2293316 ；https://en.theblockbeats.news/flash/369817 ；https://beincrypto.com/hyperliquid-token-unlock-320-million-price-impact/",
+   "risk": "若链上公开盘出现同源抛压，或 DC 原文口径不同，叙事会翻转。金额单位勿与枚数混用。禁止买卖建议。",
+   "confidence": "高（「上述媒体与中文转述窗内存在」）；低（「OTC 不入公开盘是否成立，及精确金额」）。",
+   "links": [
+    {
+     "text": "C/A 待验证",
+     "url": "https://x.com/wublockchain12/status/2105325895749861759",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://www.odaily.news/zh-CN/newsflash/521688",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://www.chaincatcher.com/article/2293316",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://en.theblockbeats.news/flash/369817",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://beincrypto.com/hyperliquid-token-unlock-320-million-price-impact/",
+     "field": "依据"
+    }
+   ],
+   "uncertain": true,
+   "markers": [
+    "待验证"
+   ],
+   "markers_by_field": {
+    "结论": [
+     "待验证"
+    ],
+    "依据": [
+     "待验证"
+    ],
+    "标题": [
+     "待验证"
+    ]
+   },
+   "basis_layers": [
+    "A",
+    "C"
+   ],
+   "fields": {
+    "结论": "本窗最抢注意力的新信号来自解锁/OTC 转述。口径指向约 3.75M HYPE 解质押与约 10/7 团队分配，并声称 OTC 售予单一机构、不经公开盘口。Discord 一手不可采，S 无交叉，只能标待验证。",
+    "为什么": "Odaily、ChainCatcher、BlockBeats、BeInCrypto 等多家媒体转述联创 iliensinc 在官方 Discord 的说明；媒体金额口径约 $329M / $3.2 亿。买方、价格与锁仓未披露。吴说等中文账号同步复述，现场出现「3.75M」与「3.2亿」混读。本采集 Discord widget 不可用，无法核读 DC 原文；官站、Docs、foundation 本窗无对应公告。禁止写成「已确认无冲击」或正式里程碑。",
+    "依据": "C/A 待验证 — https://x.com/wublockchain12/status/2105325895749861759 ；https://www.odaily.news/zh-CN/newsflash/521688 ；https://www.chaincatcher.com/article/2293316 ；https://en.theblockbeats.news/flash/369817 ；https://beincrypto.com/hyperliquid-token-unlock-320-million-price-impact/",
+    "风险/反证": "若链上公开盘出现同源抛压，或 DC 原文口径不同，叙事会翻转。金额单位勿与枚数混用。禁止买卖建议。",
+    "置信度": "高（「上述媒体与中文转述窗内存在」）；低（「OTC 不入公开盘是否成立，及精确金额」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：本窗最抢注意力的新信号来自解锁/OTC 转述。口径指向约 3.75M HYPE 解质押与约 10/7 团队分配，并声称 OTC 售予单一机构、不经公开盘口。Discord 一手不可采，S 无交叉，只能标待验证。\n- **为什么**：Odaily、ChainCatcher、BlockBeats、BeInCrypto 等多家媒体转述联创 iliensinc 在官方 Discord 的说明；媒体金额口径约 $329M / $3.2 亿。买方、价格与锁仓未披露。吴说等中文账号同步复述，现场出现「3.75M」与「3.2亿」混读。本采集 Discord widget 不可用，无法核读 DC 原文；官站、Docs、foundation 本窗无对应公告。禁止写成「已确认无冲击」或正式里程碑。\n- **依据**：C/A 待验证 — https://x.com/wublockchain12/status/2105325895749861759 ；https://www.odaily.news/zh-CN/newsflash/521688 ；https://www.chaincatcher.com/article/2293316 ；https://en.theblockbeats.news/flash/369817 ；https://beincrypto.com/hyperliquid-token-unlock-320-million-price-impact/\n- **风险/反证**：若链上公开盘出现同源抛压，或 DC 原文口径不同，叙事会翻转。金额单位勿与枚数混用。禁止买卖建议。\n- **置信度**：高（「上述媒体与中文转述窗内存在」）；低（「OTC 不入公开盘是否成立，及精确金额」）。"
+  },
+  {
+   "num": 2,
+   "title": "非正式 OI 约 $12.76B、dayNtl 约 $7.06B、HYPE≈90.35 同升；正式里程碑仍无",
+   "conclusion": "相对昨拍，未平仓、日名义成交与 HYPE 价格一并转升。这是非正式 API 拍点对照，不是正式里程碑。",
+   "why": "info API 自加总（拍点 UTC 2026-10-01T00:14:37Z）：OI≈$12.76B（较昨≈$12.50B，↑约 2.11%），dayNtl≈$7.06B（较昨≈$6.67B，↑约 5.86%）。HYPE mark≈90.347（↑约 5.28%），HYPE 单币 OI≈$1.92B（↑约 9.02%）。资产数 234。前端 24H 仍见 7.2B（疑占位）。NEAR perp OI≈$339.1M、mark≈5.2864；ONEAR dayNtl≈$6.7M（↓约 18%）。正式里程碑本窗无。升势与解锁叙事同窗，单点拍点禁止写成因果。",
+   "basis": "非正式 API（见同目录 info_api_raw_summary.json）；前端 https://hyperliquid.xyz",
+   "risk": "单日拍点差可能含波动；连续塌量或 OI 同步大跌会改写「由跌转升」读感。禁止写成「创纪录」或买卖建议。",
+   "confidence": "高（「本拍相对昨拍的方向与量级」）；低（「升势是否由解锁/OTC 叙事驱动」）。",
+   "links": [
+    {
+     "text": "前端",
+     "url": "https://hyperliquid.xyz",
+     "field": "依据"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [],
+   "fields": {
+    "结论": "相对昨拍，未平仓、日名义成交与 HYPE 价格一并转升。这是非正式 API 拍点对照，不是正式里程碑。",
+    "为什么": "info API 自加总（拍点 UTC 2026-10-01T00:14:37Z）：OI≈$12.76B（较昨≈$12.50B，↑约 2.11%），dayNtl≈$7.06B（较昨≈$6.67B，↑约 5.86%）。HYPE mark≈90.347（↑约 5.28%），HYPE 单币 OI≈$1.92B（↑约 9.02%）。资产数 234。前端 24H 仍见 7.2B（疑占位）。NEAR perp OI≈$339.1M、mark≈5.2864；ONEAR dayNtl≈$6.7M（↓约 18%）。正式里程碑本窗无。升势与解锁叙事同窗，单点拍点禁止写成因果。",
+    "依据": "非正式 API（见同目录 info_api_raw_summary.json）；前端 https://hyperliquid.xyz",
+    "风险/反证": "单日拍点差可能含波动；连续塌量或 OI 同步大跌会改写「由跌转升」读感。禁止写成「创纪录」或买卖建议。",
+    "置信度": "高（「本拍相对昨拍的方向与量级」）；低（「升势是否由解锁/OTC 叙事驱动」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：相对昨拍，未平仓、日名义成交与 HYPE 价格一并转升。这是非正式 API 拍点对照，不是正式里程碑。\n- **为什么**：info API 自加总（拍点 UTC 2026-10-01T00:14:37Z）：OI≈$12.76B（较昨≈$12.50B，↑约 2.11%），dayNtl≈$7.06B（较昨≈$6.67B，↑约 5.86%）。HYPE mark≈90.347（↑约 5.28%），HYPE 单币 OI≈$1.92B（↑约 9.02%）。资产数 234。前端 24H 仍见 7.2B（疑占位）。NEAR perp OI≈$339.1M、mark≈5.2864；ONEAR dayNtl≈$6.7M（↓约 18%）。正式里程碑本窗无。升势与解锁叙事同窗，单点拍点禁止写成因果。\n- **依据**：非正式 API（见同目录 info_api_raw_summary.json）；前端 https://hyperliquid.xyz\n- **风险/反证**：单日拍点差可能含波动；连续塌量或 OI 同步大跌会改写「由跌转升」读感。禁止写成「创纪录」或买卖建议。\n- **置信度**：高（「本拍相对昨拍的方向与量级」）；低（「升势是否由解锁/OTC 叙事驱动」）。"
+  },
+  {
+   "num": 3,
+   "title": "官号宣布新加坡 10/5 community event 已超额；Jeff Yan 称自托管与透明度重于 24h 交易",
+   "conclusion": "S 层本窗唯一一手是线下活动名额已满。联创在 KBW 的媒体采访里，把差异化落在自托管与系统透明度上。",
+   "why": "@HyperliquidX 宣布新加坡 10/5 Hyperliquid community event，RSVP 已超额，仅 RSVP 可入。The Block 2026-09-30 发稿：Jeff Yan 在韩国区块链周称，全天候交易不是与传统交易所的本质区别；自托管与透明度才是，并提及私募/Pre-IPO 等无连续公开价资产需求。ChainCatcher 有中文转述；kylewmi 整理访谈要点。chameleon_jeff 与 HyperFND 本窗静默；采访本身非 S 层产品公告。",
+   "basis": "S 事实 — https://x.com/HyperliquidX/status/2105177404394381496 ；A 媒体 — https://www.theblock.co/news/defi/2026-09-30-hyperliquid-co-founder-jeff-yan-24-hour-clock-not-onchain-finances-true-differentiator-417286 ；https://www.chaincatcher.com/article/2293294 ；https://x.com/kylewmi/status/2105251947184071012",
+   "risk": "活动超额不等于产品发布；采访措辞经媒体转述，非官站原文。禁止外推成正式战略白皮书。",
+   "confidence": "高（「官号原帖与 The Block 稿窗内存在」）；低（「采访口径对产品路线的约束力」）。",
+   "links": [
+    {
+     "text": "S 事实",
+     "url": "https://x.com/HyperliquidX/status/2105177404394381496",
+     "field": "依据"
+    },
+    {
+     "text": "A 媒体",
+     "url": "https://www.theblock.co/news/defi/2026-09-30-hyperliquid-co-founder-jeff-yan-24-hour-clock-not-onchain-finances-true-differentiator-417286",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://www.chaincatcher.com/article/2293294",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://x.com/kylewmi/status/2105251947184071012",
+     "field": "依据"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [
+    "A",
+    "S"
+   ],
+   "fields": {
+    "结论": "S 层本窗唯一一手是线下活动名额已满。联创在 KBW 的媒体采访里，把差异化落在自托管与系统透明度上。",
+    "为什么": "@HyperliquidX 宣布新加坡 10/5 Hyperliquid community event，RSVP 已超额，仅 RSVP 可入。The Block 2026-09-30 发稿：Jeff Yan 在韩国区块链周称，全天候交易不是与传统交易所的本质区别；自托管与透明度才是，并提及私募/Pre-IPO 等无连续公开价资产需求。ChainCatcher 有中文转述；kylewmi 整理访谈要点。chameleon_jeff 与 HyperFND 本窗静默；采访本身非 S 层产品公告。",
+    "依据": "S 事实 — https://x.com/HyperliquidX/status/2105177404394381496 ；A 媒体 — https://www.theblock.co/news/defi/2026-09-30-hyperliquid-co-founder-jeff-yan-24-hour-clock-not-onchain-finances-true-differentiator-417286 ；https://www.chaincatcher.com/article/2293294 ；https://x.com/kylewmi/status/2105251947184071012",
+    "风险/反证": "活动超额不等于产品发布；采访措辞经媒体转述，非官站原文。禁止外推成正式战略白皮书。",
+    "置信度": "高（「官号原帖与 The Block 稿窗内存在」）；低（「采访口径对产品路线的约束力」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：S 层本窗唯一一手是线下活动名额已满。联创在 KBW 的媒体采访里，把差异化落在自托管与系统透明度上。\n- **为什么**：@HyperliquidX 宣布新加坡 10/5 Hyperliquid community event，RSVP 已超额，仅 RSVP 可入。The Block 2026-09-30 发稿：Jeff Yan 在韩国区块链周称，全天候交易不是与传统交易所的本质区别；自托管与透明度才是，并提及私募/Pre-IPO 等无连续公开价资产需求。ChainCatcher 有中文转述；kylewmi 整理访谈要点。chameleon_jeff 与 HyperFND 本窗静默；采访本身非 S 层产品公告。\n- **依据**：S 事实 — https://x.com/HyperliquidX/status/2105177404394381496 ；A 媒体 — https://www.theblock.co/news/defi/2026-09-30-hyperliquid-co-founder-jeff-yan-24-hour-clock-not-onchain-finances-true-differentiator-417286 ；https://www.chaincatcher.com/article/2293294 ；https://x.com/kylewmi/status/2105251947184071012\n- **风险/反证**：活动超额不等于产品发布；采访措辞经媒体转述，非官站原文。禁止外推成正式战略白皮书。\n- **置信度**：高（「官号原帖与 The Block 稿窗内存在」）；低（「采访口径对产品路线的约束力」）。"
+  },
+  {
+   "num": 4,
+   "title": "BVIV 有 GlobeNewswire 公关稿，API universe 仍不见同名资产",
+   "conclusion": "波动率永续的公关一手已从昨日媒体口径升格为 GlobeNewswire 稿，但同次主 meta universe 仍无名，交叉未闭环。",
+   "why": "2026-09-30 GlobeNewswire 称 Markets.xyz（Kinetiq）与 Perps.inc、Volmex 在 Hyperliquid HIP-3 上共部署 BVIV（Bitcoin Volmex Implied Volatility Index）永续，SEDA 作预言机，并称可在 markets.xyz 与 hyperliquid.xyz 交易。同次 `metaAndAssetCtxs` universe（234）未见 `BVIV` / `xyz:BVIV`。S/Docs 窗内 lastmod 无交叉。昨日 Odaily「BVIV 5x」为媒体口径；本窗以公关稿为准，仍勿写成官站已公告或主 meta 已可交易。",
+   "basis": "A 公关/待验证 — https://www.globenewswire.com/news-release/2026/09/30/3372002/0/en/bviv-is-now-live-on-markets-xyz-bringing-bitcoin-s-crypto-vix-onchain-in-partnership-with-perps-inc-and-volmex-finance.html",
+   "risk": "HIP-3/builder 可能另口径；universe 无名前勿进「已上线主市场」表述。kPoints 10/1 分发本窗无 S/官站确认，待核。",
+   "confidence": "高（「公关稿窗内存在，且 universe 未见同名」）；低（「主 meta 可交易性与成交活跃度」）。",
+   "links": [
+    {
+     "text": "A 公关/待验证",
+     "url": "https://www.globenewswire.com/news-release/2026/09/30/3372002/0/en/bviv-is-now-live-on-markets-xyz-bringing-bitcoin-s-crypto-vix-onchain-in-partnership-with-perps-inc-and-volmex-finance.html",
+     "field": "依据"
+    }
+   ],
+   "uncertain": true,
+   "markers": [
+    "待验证"
+   ],
+   "markers_by_field": {
+    "依据": [
+     "待验证"
+    ]
+   },
+   "basis_layers": [
+    "A"
+   ],
+   "fields": {
+    "结论": "波动率永续的公关一手已从昨日媒体口径升格为 GlobeNewswire 稿，但同次主 meta universe 仍无名，交叉未闭环。",
+    "为什么": "2026-09-30 GlobeNewswire 称 Markets.xyz（Kinetiq）与 Perps.inc、Volmex 在 Hyperliquid HIP-3 上共部署 BVIV（Bitcoin Volmex Implied Volatility Index）永续，SEDA 作预言机，并称可在 markets.xyz 与 hyperliquid.xyz 交易。同次 `metaAndAssetCtxs` universe（234）未见 `BVIV` / `xyz:BVIV`。S/Docs 窗内 lastmod 无交叉。昨日 Odaily「BVIV 5x」为媒体口径；本窗以公关稿为准，仍勿写成官站已公告或主 meta 已可交易。",
+    "依据": "A 公关/待验证 — https://www.globenewswire.com/news-release/2026/09/30/3372002/0/en/bviv-is-now-live-on-markets-xyz-bringing-bitcoin-s-crypto-vix-onchain-in-partnership-with-perps-inc-and-volmex-finance.html",
+    "风险/反证": "HIP-3/builder 可能另口径；universe 无名前勿进「已上线主市场」表述。kPoints 10/1 分发本窗无 S/官站确认，待核。",
+    "置信度": "高（「公关稿窗内存在，且 universe 未见同名」）；低（「主 meta 可交易性与成交活跃度」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：波动率永续的公关一手已从昨日媒体口径升格为 GlobeNewswire 稿，但同次主 meta universe 仍无名，交叉未闭环。\n- **为什么**：2026-09-30 GlobeNewswire 称 Markets.xyz（Kinetiq）与 Perps.inc、Volmex 在 Hyperliquid HIP-3 上共部署 BVIV（Bitcoin Volmex Implied Volatility Index）永续，SEDA 作预言机，并称可在 markets.xyz 与 hyperliquid.xyz 交易。同次 `metaAndAssetCtxs` universe（234）未见 `BVIV` / `xyz:BVIV`。S/Docs 窗内 lastmod 无交叉。昨日 Odaily「BVIV 5x」为媒体口径；本窗以公关稿为准，仍勿写成官站已公告或主 meta 已可交易。\n- **依据**：A 公关/待验证 — https://www.globenewswire.com/news-release/2026/09/30/3372002/0/en/bviv-is-now-live-on-markets-xyz-bringing-bitcoin-s-crypto-vix-onchain-in-partnership-with-perps-inc-and-volmex-finance.html\n- **风险/反证**：HIP-3/builder 可能另口径；universe 无名前勿进「已上线主市场」表述。kPoints 10/1 分发本窗无 S/官站确认，待核。\n- **置信度**：高（「公关稿窗内存在，且 universe 未见同名」）；低（「主 meta 可交易性与成交活跃度」）。"
+  },
+  {
+   "num": 5,
+   "title": "Outcome 自报预测 OI 约 93%、AQAV2 买回倒计时 4 天；Ascend 回购改 50/50；Nest Vault 累计 $1.22m",
+   "conclusion": "产品侧本窗仍有项目方一手，覆盖预测市场占比、买回倒计时、回购比例调整与 Vault 累计分发；S 官号无对应产品公告。",
+   "why": "@Outcomexyz 自称占 HL 预测市场 OI 约 93%，并称距 AQAV2 首次买回打入 HYPE 订单簿「仅剩四天」（引用旧通告约 $20M）。@AscendLaunch 把回购从 90% HYPE / 10% KNTQ 改为 50% / 50%，Kinetiq 与 Elysium 有 RT。@NestExchange 称 HYPE Engine Vault 10 个月累计向存户分发 $1.22m HYPE。@sharexyz 称 HIP-4 订单可跨 Outcome / tradexyz / Skew 等多部署者订单簿拆单寻价。@ElysiumEco 发测试网一周数字回顾。昨日 Outcome SEC FAQ、Share HIP-4 $100M、Legend $1B、Entropy×Trust Wallet 本窗无同等一手重复。",
+   "basis": "A 事实/叙事 — https://x.com/Outcomexyz/status/2105332835791917282 ；https://x.com/Outcomexyz/status/2105330109347717279 ；https://x.com/AscendLaunch/status/2105334639556788596 ；https://x.com/NestExchange/status/2105322983954760092 ；https://x.com/sharexyz/status/2105324178786439438 ；https://x.com/ElysiumEco/status/2105257316014518431",
+   "risk": "OI 占比与累计金额为项目方自报；AQAV2「四天」引用旧通告，本窗无 S/官站买回确认。禁止写成协议层用户增长已验证。",
+   "confidence": "高（「上述项目方原帖窗内存在」）；低（「AQAV2 按时落地与任一产品持续吸量」）。",
+   "links": [
+    {
+     "text": "A 事实/叙事",
+     "url": "https://x.com/Outcomexyz/status/2105332835791917282",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://x.com/Outcomexyz/status/2105330109347717279",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://x.com/AscendLaunch/status/2105334639556788596",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://x.com/NestExchange/status/2105322983954760092",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://x.com/sharexyz/status/2105324178786439438",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://x.com/ElysiumEco/status/2105257316014518431",
+     "field": "依据"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [
+    "A"
+   ],
+   "fields": {
+    "结论": "产品侧本窗仍有项目方一手，覆盖预测市场占比、买回倒计时、回购比例调整与 Vault 累计分发；S 官号无对应产品公告。",
+    "为什么": "@Outcomexyz 自称占 HL 预测市场 OI 约 93%，并称距 AQAV2 首次买回打入 HYPE 订单簿「仅剩四天」（引用旧通告约 $20M）。@AscendLaunch 把回购从 90% HYPE / 10% KNTQ 改为 50% / 50%，Kinetiq 与 Elysium 有 RT。@NestExchange 称 HYPE Engine Vault 10 个月累计向存户分发 $1.22m HYPE。@sharexyz 称 HIP-4 订单可跨 Outcome / tradexyz / Skew 等多部署者订单簿拆单寻价。@ElysiumEco 发测试网一周数字回顾。昨日 Outcome SEC FAQ、Share HIP-4 $100M、Legend $1B、Entropy×Trust Wallet 本窗无同等一手重复。",
+    "依据": "A 事实/叙事 — https://x.com/Outcomexyz/status/2105332835791917282 ；https://x.com/Outcomexyz/status/2105330109347717279 ；https://x.com/AscendLaunch/status/2105334639556788596 ；https://x.com/NestExchange/status/2105322983954760092 ；https://x.com/sharexyz/status/2105324178786439438 ；https://x.com/ElysiumEco/status/2105257316014518431",
+    "风险/反证": "OI 占比与累计金额为项目方自报；AQAV2「四天」引用旧通告，本窗无 S/官站买回确认。禁止写成协议层用户增长已验证。",
+    "置信度": "高（「上述项目方原帖窗内存在」）；低（「AQAV2 按时落地与任一产品持续吸量」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：产品侧本窗仍有项目方一手，覆盖预测市场占比、买回倒计时、回购比例调整与 Vault 累计分发；S 官号无对应产品公告。\n- **为什么**：@Outcomexyz 自称占 HL 预测市场 OI 约 93%，并称距 AQAV2 首次买回打入 HYPE 订单簿「仅剩四天」（引用旧通告约 $20M）。@AscendLaunch 把回购从 90% HYPE / 10% KNTQ 改为 50% / 50%，Kinetiq 与 Elysium 有 RT。@NestExchange 称 HYPE Engine Vault 10 个月累计向存户分发 $1.22m HYPE。@sharexyz 称 HIP-4 订单可跨 Outcome / tradexyz / Skew 等多部署者订单簿拆单寻价。@ElysiumEco 发测试网一周数字回顾。昨日 Outcome SEC FAQ、Share HIP-4 $100M、Legend $1B、Entropy×Trust Wallet 本窗无同等一手重复。\n- **依据**：A 事实/叙事 — https://x.com/Outcomexyz/status/2105332835791917282 ；https://x.com/Outcomexyz/status/2105330109347717279 ；https://x.com/AscendLaunch/status/2105334639556788596 ；https://x.com/NestExchange/status/2105322983954760092 ；https://x.com/sharexyz/status/2105324178786439438 ；https://x.com/ElysiumEco/status/2105257316014518431\n- **风险/反证**：OI 占比与累计金额为项目方自报；AQAV2「四天」引用旧通告，本窗无 S/官站买回确认。禁止写成协议层用户增长已验证。\n- **置信度**：高（「上述项目方原帖窗内存在」）；低（「AQAV2 按时落地与任一产品持续吸量」）。"
+  },
+  {
+   "num": 6,
+   "title": "Multicoin 再向 Coinbase Prime 存入约 9.24 万 HYPE（转入≠已卖）；众议院调查弱续写，答复仍 10-13；币安提现仍无「已开放」新 CMS",
+   "conclusion": "链上监测显示又一笔 HYPE 转入 Coinbase Prime，媒体标「疑似出售」，转入本身不等于已卖出。监管线本窗无新公函，答复期限未变。币安提现时点仍停在「预计」口径。",
+   "why": "Odaily / ChainCatcher / TokenPost 据 Onchain Lens 称约 92,400 HYPE（媒体约 $834 万）转入 Coinbase Prime。众议院监督委员会一手仍为 2026-09-29 新闻稿与公函，本窗 oversight 搜索无新日期材料；回复期限仍 2026-10-13，委员会未认定有罪；中文有弱续写。Binance catalog48 本窗未见「Withdrawals are now open / 提现已开放」新帖；上线帖仍写提现预计 2026-09-25 11:00 UTC。",
+   "basis": "A 待验证 — https://www.odaily.news/zh-CN/newsflash/521735 ；https://www.chaincatcher.com/article/2293354 ；弱续写一手 https://oversight.house.gov/release/comer-continues-investigation-into-insider-trading-on-online-prediction-market-platforms/ ；https://oversight.house.gov/wp-content/uploads/2026/09/Hyperliquid-Letter-9.29.26.pdf ；CMS https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d",
+   "risk": "Multicoin 后续可核卖出或长期滞留都会改写叙事；Labs 若公开回应公函亦然。提现页实态未在本采集直接核到。禁止买卖建议。",
+   "confidence": "高（「转入报道、无新公函、无新开放 CMS 这三件事实」）；低（「已卖出、调查叙事演化、提现已实际开放」）。",
+   "links": [
+    {
+     "text": "A 待验证",
+     "url": "https://www.odaily.news/zh-CN/newsflash/521735",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://www.chaincatcher.com/article/2293354",
+     "field": "依据"
+    },
+    {
+     "text": "弱续写一手",
+     "url": "https://oversight.house.gov/release/comer-continues-investigation-into-insider-trading-on-online-prediction-market-platforms/",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://oversight.house.gov/wp-content/uploads/2026/09/Hyperliquid-Letter-9.29.26.pdf",
+     "field": "依据"
+    },
+    {
+     "text": "CMS",
+     "url": "https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d",
+     "field": "依据"
+    }
+   ],
+   "uncertain": true,
+   "markers": [
+    "待验证"
+   ],
+   "markers_by_field": {
+    "依据": [
+     "待验证"
+    ]
+   },
+   "basis_layers": [
+    "A"
+   ],
+   "fields": {
+    "结论": "链上监测显示又一笔 HYPE 转入 Coinbase Prime，媒体标「疑似出售」，转入本身不等于已卖出。监管线本窗无新公函，答复期限未变。币安提现时点仍停在「预计」口径。",
+    "为什么": "Odaily / ChainCatcher / TokenPost 据 Onchain Lens 称约 92,400 HYPE（媒体约 $834 万）转入 Coinbase Prime。众议院监督委员会一手仍为 2026-09-29 新闻稿与公函，本窗 oversight 搜索无新日期材料；回复期限仍 2026-10-13，委员会未认定有罪；中文有弱续写。Binance catalog48 本窗未见「Withdrawals are now open / 提现已开放」新帖；上线帖仍写提现预计 2026-09-25 11:00 UTC。",
+    "依据": "A 待验证 — https://www.odaily.news/zh-CN/newsflash/521735 ；https://www.chaincatcher.com/article/2293354 ；弱续写一手 https://oversight.house.gov/release/comer-continues-investigation-into-insider-trading-on-online-prediction-market-platforms/ ；https://oversight.house.gov/wp-content/uploads/2026/09/Hyperliquid-Letter-9.29.26.pdf ；CMS https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d",
+    "风险/反证": "Multicoin 后续可核卖出或长期滞留都会改写叙事；Labs 若公开回应公函亦然。提现页实态未在本采集直接核到。禁止买卖建议。",
+    "置信度": "高（「转入报道、无新公函、无新开放 CMS 这三件事实」）；低（「已卖出、调查叙事演化、提现已实际开放」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：链上监测显示又一笔 HYPE 转入 Coinbase Prime，媒体标「疑似出售」，转入本身不等于已卖出。监管线本窗无新公函，答复期限未变。币安提现时点仍停在「预计」口径。\n- **为什么**：Odaily / ChainCatcher / TokenPost 据 Onchain Lens 称约 92,400 HYPE（媒体约 $834 万）转入 Coinbase Prime。众议院监督委员会一手仍为 2026-09-29 新闻稿与公函，本窗 oversight 搜索无新日期材料；回复期限仍 2026-10-13，委员会未认定有罪；中文有弱续写。Binance catalog48 本窗未见「Withdrawals are now open / 提现已开放」新帖；上线帖仍写提现预计 2026-09-25 11:00 UTC。\n- **依据**：A 待验证 — https://www.odaily.news/zh-CN/newsflash/521735 ；https://www.chaincatcher.com/article/2293354 ；弱续写一手 https://oversight.house.gov/release/comer-continues-investigation-into-insider-trading-on-online-prediction-market-platforms/ ；https://oversight.house.gov/wp-content/uploads/2026/09/Hyperliquid-Letter-9.29.26.pdf ；CMS https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d\n- **风险/反证**：Multicoin 后续可核卖出或长期滞留都会改写叙事；Labs 若公开回应公函亦然。提现页实态未在本采集直接核到。禁止买卖建议。\n- **置信度**：高（「转入报道、无新公函、无新开放 CMS 这三件事实」）；低（「已卖出、调查叙事演化、提现已实际开放」）。"
+  }
+ ],
+ "sections": [
+  {
+   "title": "今天怎么看",
+   "subsections": [],
+   "body_md": "本窗最大的新叙事是解锁与 OTC。多家媒体与中文账号转述联创在官方 Discord 的说法：约 3.75M HYPE 解质押，计划约 10/7 分给团队，并称经 OTC 售予单一机构、不经公开盘口。Discord 一手本采集不可采，S 官站亦无交叉，一律标待验证，禁止升正式里程碑。数字侧由昨跌转升：非正式 OI 约 $12.76B（↑约 2.11%），dayNtl 约 $7.06B（↑约 5.86%），HYPE mark≈90.347（↑约 5.28%），HYPE 单币 OI 约 $1.92B（↑约 9.02%）。S 官号本窗唯一一手是新加坡 10/5 community event 已超额。Jeff Yan 在韩国区块链周接受 The Block 采访，强调自托管与透明度重于 24h 交易。BVIV 有 GlobeNewswire 公关稿，同次 API universe 仍不见同名资产。Outcome 自报占预测市场 OI 约 93%，并称 AQAV2 买回倒计时仅剩四天；Ascend 把回购比例从 90/10 改为 50/50 HYPE/KNTQ。众议院调查本窗无新公函，答复期限仍 10-13。币安提现仍无「已开放」新 CMS。正式里程碑空。"
+  },
+  {
+   "title": "观点",
+   "subsections": [
+    {
+     "title": "1. 媒体转述 Labs/联创 Discord：约 3.75M HYPE 解质押、约 10/7 分团队，称 OTC 不入公开盘（待验证）",
+     "body_md": "- **结论**：本窗最抢注意力的新信号来自解锁/OTC 转述。口径指向约 3.75M HYPE 解质押与约 10/7 团队分配，并声称 OTC 售予单一机构、不经公开盘口。Discord 一手不可采，S 无交叉，只能标待验证。\n- **为什么**：Odaily、ChainCatcher、BlockBeats、BeInCrypto 等多家媒体转述联创 iliensinc 在官方 Discord 的说明；媒体金额口径约 $329M / $3.2 亿。买方、价格与锁仓未披露。吴说等中文账号同步复述，现场出现「3.75M」与「3.2亿」混读。本采集 Discord widget 不可用，无法核读 DC 原文；官站、Docs、foundation 本窗无对应公告。禁止写成「已确认无冲击」或正式里程碑。\n- **依据**：C/A 待验证 — https://x.com/wublockchain12/status/2105325895749861759 ；https://www.odaily.news/zh-CN/newsflash/521688 ；https://www.chaincatcher.com/article/2293316 ；https://en.theblockbeats.news/flash/369817 ；https://beincrypto.com/hyperliquid-token-unlock-320-million-price-impact/\n- **风险/反证**：若链上公开盘出现同源抛压，或 DC 原文口径不同，叙事会翻转。金额单位勿与枚数混用。禁止买卖建议。\n- **置信度**：高（「上述媒体与中文转述窗内存在」）；低（「OTC 不入公开盘是否成立，及精确金额」）。"
+    },
+    {
+     "title": "2. 非正式 OI 约 $12.76B、dayNtl 约 $7.06B、HYPE≈90.35 同升；正式里程碑仍无",
+     "body_md": "- **结论**：相对昨拍，未平仓、日名义成交与 HYPE 价格一并转升。这是非正式 API 拍点对照，不是正式里程碑。\n- **为什么**：info API 自加总（拍点 UTC 2026-10-01T00:14:37Z）：OI≈$12.76B（较昨≈$12.50B，↑约 2.11%），dayNtl≈$7.06B（较昨≈$6.67B，↑约 5.86%）。HYPE mark≈90.347（↑约 5.28%），HYPE 单币 OI≈$1.92B（↑约 9.02%）。资产数 234。前端 24H 仍见 7.2B（疑占位）。NEAR perp OI≈$339.1M、mark≈5.2864；ONEAR dayNtl≈$6.7M（↓约 18%）。正式里程碑本窗无。升势与解锁叙事同窗，单点拍点禁止写成因果。\n- **依据**：非正式 API（见同目录 info_api_raw_summary.json）；前端 https://hyperliquid.xyz\n- **风险/反证**：单日拍点差可能含波动；连续塌量或 OI 同步大跌会改写「由跌转升」读感。禁止写成「创纪录」或买卖建议。\n- **置信度**：高（「本拍相对昨拍的方向与量级」）；低（「升势是否由解锁/OTC 叙事驱动」）。"
+    },
+    {
+     "title": "3. 官号宣布新加坡 10/5 community event 已超额；Jeff Yan 称自托管与透明度重于 24h 交易",
+     "body_md": "- **结论**：S 层本窗唯一一手是线下活动名额已满。联创在 KBW 的媒体采访里，把差异化落在自托管与系统透明度上。\n- **为什么**：@HyperliquidX 宣布新加坡 10/5 Hyperliquid community event，RSVP 已超额，仅 RSVP 可入。The Block 2026-09-30 发稿：Jeff Yan 在韩国区块链周称，全天候交易不是与传统交易所的本质区别；自托管与透明度才是，并提及私募/Pre-IPO 等无连续公开价资产需求。ChainCatcher 有中文转述；kylewmi 整理访谈要点。chameleon_jeff 与 HyperFND 本窗静默；采访本身非 S 层产品公告。\n- **依据**：S 事实 — https://x.com/HyperliquidX/status/2105177404394381496 ；A 媒体 — https://www.theblock.co/news/defi/2026-09-30-hyperliquid-co-founder-jeff-yan-24-hour-clock-not-onchain-finances-true-differentiator-417286 ；https://www.chaincatcher.com/article/2293294 ；https://x.com/kylewmi/status/2105251947184071012\n- **风险/反证**：活动超额不等于产品发布；采访措辞经媒体转述，非官站原文。禁止外推成正式战略白皮书。\n- **置信度**：高（「官号原帖与 The Block 稿窗内存在」）；低（「采访口径对产品路线的约束力」）。"
+    },
+    {
+     "title": "4. BVIV 有 GlobeNewswire 公关稿，API universe 仍不见同名资产",
+     "body_md": "- **结论**：波动率永续的公关一手已从昨日媒体口径升格为 GlobeNewswire 稿，但同次主 meta universe 仍无名，交叉未闭环。\n- **为什么**：2026-09-30 GlobeNewswire 称 Markets.xyz（Kinetiq）与 Perps.inc、Volmex 在 Hyperliquid HIP-3 上共部署 BVIV（Bitcoin Volmex Implied Volatility Index）永续，SEDA 作预言机，并称可在 markets.xyz 与 hyperliquid.xyz 交易。同次 `metaAndAssetCtxs` universe（234）未见 `BVIV` / `xyz:BVIV`。S/Docs 窗内 lastmod 无交叉。昨日 Odaily「BVIV 5x」为媒体口径；本窗以公关稿为准，仍勿写成官站已公告或主 meta 已可交易。\n- **依据**：A 公关/待验证 — https://www.globenewswire.com/news-release/2026/09/30/3372002/0/en/bviv-is-now-live-on-markets-xyz-bringing-bitcoin-s-crypto-vix-onchain-in-partnership-with-perps-inc-and-volmex-finance.html\n- **风险/反证**：HIP-3/builder 可能另口径；universe 无名前勿进「已上线主市场」表述。kPoints 10/1 分发本窗无 S/官站确认，待核。\n- **置信度**：高（「公关稿窗内存在，且 universe 未见同名」）；低（「主 meta 可交易性与成交活跃度」）。"
+    },
+    {
+     "title": "5. Outcome 自报预测 OI 约 93%、AQAV2 买回倒计时 4 天；Ascend 回购改 50/50；Nest Vault 累计 $1.22m",
+     "body_md": "- **结论**：产品侧本窗仍有项目方一手，覆盖预测市场占比、买回倒计时、回购比例调整与 Vault 累计分发；S 官号无对应产品公告。\n- **为什么**：@Outcomexyz 自称占 HL 预测市场 OI 约 93%，并称距 AQAV2 首次买回打入 HYPE 订单簿「仅剩四天」（引用旧通告约 $20M）。@AscendLaunch 把回购从 90% HYPE / 10% KNTQ 改为 50% / 50%，Kinetiq 与 Elysium 有 RT。@NestExchange 称 HYPE Engine Vault 10 个月累计向存户分发 $1.22m HYPE。@sharexyz 称 HIP-4 订单可跨 Outcome / tradexyz / Skew 等多部署者订单簿拆单寻价。@ElysiumEco 发测试网一周数字回顾。昨日 Outcome SEC FAQ、Share HIP-4 $100M、Legend $1B、Entropy×Trust Wallet 本窗无同等一手重复。\n- **依据**：A 事实/叙事 — https://x.com/Outcomexyz/status/2105332835791917282 ；https://x.com/Outcomexyz/status/2105330109347717279 ；https://x.com/AscendLaunch/status/2105334639556788596 ；https://x.com/NestExchange/status/2105322983954760092 ；https://x.com/sharexyz/status/2105324178786439438 ；https://x.com/ElysiumEco/status/2105257316014518431\n- **风险/反证**：OI 占比与累计金额为项目方自报；AQAV2「四天」引用旧通告，本窗无 S/官站买回确认。禁止写成协议层用户增长已验证。\n- **置信度**：高（「上述项目方原帖窗内存在」）；低（「AQAV2 按时落地与任一产品持续吸量」）。"
+    },
+    {
+     "title": "6. Multicoin 再向 Coinbase Prime 存入约 9.24 万 HYPE（转入≠已卖）；众议院调查弱续写，答复仍 10-13；币安提现仍无「已开放」新 CMS",
+     "body_md": "- **结论**：链上监测显示又一笔 HYPE 转入 Coinbase Prime，媒体标「疑似出售」，转入本身不等于已卖出。监管线本窗无新公函，答复期限未变。币安提现时点仍停在「预计」口径。\n- **为什么**：Odaily / ChainCatcher / TokenPost 据 Onchain Lens 称约 92,400 HYPE（媒体约 $834 万）转入 Coinbase Prime。众议院监督委员会一手仍为 2026-09-29 新闻稿与公函，本窗 oversight 搜索无新日期材料；回复期限仍 2026-10-13，委员会未认定有罪；中文有弱续写。Binance catalog48 本窗未见「Withdrawals are now open / 提现已开放」新帖；上线帖仍写提现预计 2026-09-25 11:00 UTC。\n- **依据**：A 待验证 — https://www.odaily.news/zh-CN/newsflash/521735 ；https://www.chaincatcher.com/article/2293354 ；弱续写一手 https://oversight.house.gov/release/comer-continues-investigation-into-insider-trading-on-online-prediction-market-platforms/ ；https://oversight.house.gov/wp-content/uploads/2026/09/Hyperliquid-Letter-9.29.26.pdf ；CMS https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d\n- **风险/反证**：Multicoin 后续可核卖出或长期滞留都会改写叙事；Labs 若公开回应公函亦然。提现页实态未在本采集直接核到。禁止买卖建议。\n- **置信度**：高（「转入报道、无新公函、无新开放 CMS 这三件事实」）；低（「已卖出、调查叙事演化、提现已实际开放」）。"
+    }
+   ],
+   "body_md": ""
+  },
+  {
+   "title": "社区共鸣点",
+   "subsections": [
+    {
+     "title": "可核情绪线索",
+     "body_md": "1. **最希望核清：解锁/OTC 一手口径，以及 10/7 后是否真不入公开盘**  \n   - **证据**：吴说转 Discord 后多账号复述；Odaily/ChainCatcher/BlockBeats/BeInCrypto 同主题；金额出现「3.75M」与「$3.2亿」混读。Discord 一手本窗不可采。  \n   - **推断**（非编造情绪）：读者要的是可核 DC 原文与链上地址，未核「3.2亿甩货」不能当事实。样本薄。  \n   - **层级**：C（弱）+ A 媒体  \n   - **代表链接**：https://x.com/wublockchain12/status/2105325895749861759 ；https://www.odaily.news/zh-CN/newsflash/521688\n\n2. **监管函弱续写 vs 解锁叙事，谁占注意力**  \n   - **证据**：众议院一手仍停在 09-29 公函，答复 10-13；中文有 adtopay 等续写。同窗解锁/OTC 转述互动更密。S 三官号无回应调查帖。  \n   - **推断**：解锁线暂时压过监管续写，但 10-13 前监管线未消失。样本不足。  \n   - **层级**：C（弱）+ S/A 一手与媒体  \n   - **代表链接**：https://x.com/adtopay/status/2105405826538389751 ；https://oversight.house.gov/release/comer-continues-investigation-into-insider-trading-on-online-prediction-market-platforms/\n\n3. **产品侧想要可验证的「接下来会发生什么」：AQAV2 倒计时、新加坡 10/5、Ascend↔Kinetiq 回购比例**  \n   - **证据**：Outcome AQAV2「仅剩四天」、官号新加坡活动已超额、Ascend 50/50 与 Nest Vault $1.22m 原帖；中文有 Renzo/Papertrade 用法讨论，有机深度仍少。  \n   - **推断**：注意力从参数升级口号转向可验证日程与产品动作，但中文有效帖仍薄。样本不足。  \n   - **层级**：A 项目方/S + C 弱  \n   - **代表链接**：https://x.com/Outcomexyz/status/2105330109347717279 ；https://x.com/HyperliquidX/status/2105177404394381496 ；https://x.com/AscendLaunch/status/2105334639556788596\n\n4. **Hayes「最好 DEX≠最好投资」二次传播，样本偏薄**  \n   - **证据**：吴说转 9/12 访谈旧料；同窗另有「越来越平庸」、ICE 买走解锁等薄传闻。  \n   - **推断**：估值怀疑论在解锁窗口被再次翻出，未形成可核主线。**有效中文 X 样本不足。**  \n   - **层级**：C（极弱）  \n   - **代表链接**：https://x.com/wublockchain12/status/2105447604180156678  \n   - **样本说明**：跟单与 lifestyle-hype bot、流水简报禁止当情绪。"
+    }
+   ],
+   "body_md": "总判断：中文 X 首查约 50 条，污染中等。英文用户名生活方式 bot 把 slang「hype」混入「免费合约跟单社区」模板，liquid247xyz 流水简报仍刷。过滤后再取约 50 条，有机可用点集中在解锁 375 万 HYPE / OTC 不公开卖的复述（金额口径有「3.75M」与「3.2亿」混乱），也覆盖众议院调查弱续写、Arthur Hayes「最好的 DEX 未必是最赚钱的投资」旧访谈二次传播、KBW jeff 访谈整理，以及 Renzo Basis / Papertrade。昨日远山「46 天回购复盘」本窗基本消退。**样本仍偏薄**，禁止写成全社区共识。中文媒体注意力在解锁/OTC、Jeff Yan KBW、BVIV 公关稿与 Multicoin 转入。相对昨日「回购还有效吗」与「SEC FAQ 和众议院两线怎么读」，本窗有效帖更常碰到「解锁/OTC 一手在哪、10/7 后真不入公开盘吗」。"
+  },
+  {
+   "title": "少数派",
+   "subsections": [],
+   "body_md": "- **解锁「已确认 OTC 不入公开盘且无冲击」**：媒体转述外推。Discord 一手不可采、链上地址未核前不抬成事实。\n- **BVIV 已在主 meta 可交易**：公关稿有，同次 universe 未见同名；HIP-3/builder 另口径待核前不进「已上线主市场」。\n- **Multicoin 已卖出约 9.24 万 HYPE**：转入 Coinbase Prime ≠ 已卖出；链上监测二手。\n- **公函等于「已被认定内幕」**：一手仍是索取材料、扩大调查，未认定有罪；本窗无新公函。\n- **前端 7.2B 反映真实 24H 量**：与 API dayNtl≈$7.06B 量级接近，但前端展示长期疑占位，勿单独当量能证据。\n- **DefiLlama 收入榜首 / ICE 买走解锁将主导短线**：HypedLaunches 等二手。缺一手日历与地址前不进主观点。"
+  },
+  {
+   "title": "附录 · Phase1 素材摘要",
+   "subsections": [],
+   "body_md": "见同目录 `phase1-merged.md`（事件簇 / 主题分布 / 冲突草稿 / 待验证假设 / 关键数字 / 分层计数 / 失败源）。\n\n**本拍非正式**（UTC 2026-10-01T00:14:37Z / CST 08:14:37，234 资产）：OI≈$12.76B；dayNtl≈$7.06B；HYPE mark≈90.347；HYPE OI≈$1.92B；前端 7.2B 疑占位；NEAR perp OI≈$339.1M；ONEAR dayNtl≈$6.7M；universe 未见 BVIV；正式里程碑无。\n\n**采集失败摘要**：Discord widget 不可采（解锁/OTC 无法一手核 DC）；hl.eco Turnstile（销毁不采信）；docs.hyperliquid.xyz DNS（改用 gitbook）；FOCUS list 假阴性；info API perp 429×2（重试后 200）；GlobeNewswire curl size=0（已用 WebFetch）；中文 lifestyle-hype bot / 跟单污染；ECO/C/C+ 未翻页；B 跳过；HyperFND / chameleon_jeff 窗内静默。**未用旧快照。** X 花费约 $0.79。窗外：昨日 Nest 500 HYPE / Outcome SEC FAQ·WTIOIL / Share HIP-4 $100M / Legend $1B / Entropy×Trust Wallet / Liquid Oura / 远山回购本窗无同等一手重复；众议院一手仍 09-29，答复 10-13。"
+  }
+ ],
+ "source": {
+  "type": "hl-intel-daily",
+  "label": "HL 情报台日报",
+  "file": "/workspace/hl-daily-2026-10-01/daily-final.md",
+  "file_mtime": "2026-10-07T15:24:46+08:00"
+ },
+ "parse": {
+  "format": "v2-list-fields",
+  "warnings": []
+ }
+}

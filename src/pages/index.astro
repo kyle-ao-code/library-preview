@@ -1,54 +1,29 @@
 ---
-// 首页 v2：整页由 src/data/home.json 的 sections 拼成。加新版块 = 在 components/sections/ 写组件 + 在 SECTIONS 注册 + 在 home.json 加一项
-import '../styles/tokens.css';
-import '../styles/site.css';
-import site from '../site.json';
-import home from '../data/home.json';
+// 首页：整页由 src/data/home.json 的 sections 拼成。加新版块 = 在 components/sections/ 写组件 + 在 SECTIONS 注册 + 在 home.json 加一项
+import Base from '../layouts/Base.astro';
 import featured from '../data/featured.json';
+import { sections, navLinks } from '../data';
 import SiteNav from '../components/sections/SiteNav.astro';
 import Hero from '../components/sections/Hero.astro';
+import Duo from '../components/sections/Duo.astro';
 import CardGrid from '../components/sections/CardGrid.astro';
 import ArticleRow from '../components/sections/ArticleRow.astro';
 import About from '../components/sections/About.astro';
 import SiteFooter from '../components/sections/SiteFooter.astro';
-const SECTIONS: Record<string, any> = { nav: SiteNav, hero: Hero, grid: CardGrid, articles: ArticleRow, about: About, footer: SiteFooter };
+const SECTIONS: Record<string, any> = { nav: SiteNav, hero: Hero, duo: Duo, grid: CardGrid, articles: ArticleRow, about: About, footer: SiteFooter };
 
-const base = import.meta.env.BASE_URL.replace(/\/?$/, '/'); // BASE 不带结尾斜杠时补上
-const ogImage = new URL(`${base}icon-512.png`, Astro.site).href;
 const items = [...featured.items].sort((a: any, b: any) => b.created_at.localeCompare(a.created_at));
 // 主题：按 featured.json 的 topics 顺序，只保留有帖子的
 const allTopics: { name: string; slug: string }[] = (featured as any).topics || [];
 const slugOf = Object.fromEntries(allTopics.map((t) => [t.name, t.slug]));
 const topics = allTopics.map((t) => ({ ...t, n: items.filter((x: any) => x.topic === t.name).length })).filter((t) => t.n > 0);
 const stats = { items: items.length, topics: topics.length, updated: (featured as any).generated_at };
-const sections = (home.sections as any[]).filter((s) => !s.previewOnly || __PREVIEW__); // 占位/草稿版块只在预览构建出现
-const links = sections.filter((s) => s.nav && s.id).map((s) => ({ label: s.nav, href: `#${s.id}` }));
+const links = navLinks('');
 const propsFor = (s: any) => ({ section: s, items, topics, slugOf, stats, links });
 ---
-<!doctype html>
-<html lang="zh-CN">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>{site.name}</title>
-  <meta name="description" content={`${site.name} · ${site.disclaimer}`} />
-  <link rel="icon" href={`${base}favicon.svg`} type="image/svg+xml" />
-  <link rel="icon" href={`${base}favicon-32.png`} sizes="32x32" type="image/png" />
-  <link rel="icon" href={`${base}favicon-16.png`} sizes="16x16" type="image/png" />
-  <link rel="apple-touch-icon" href={`${base}apple-touch-icon.png`} />
-  <meta property="og:type" content="website" />
-  <meta property="og:site_name" content={site.name} />
-  <meta property="og:title" content={site.name} />
-  <meta property="og:description" content={site.bio} />
-  <meta property="og:image" content={ogImage} />
-  <meta name="twitter:card" content="summary" />
-  {__PREVIEW__ && <meta name="robots" content="noindex" />}
-</head>
-<body>
-  {__PREVIEW__ && <div class="preview-bar">预览版，待 Kyle 审核</div>}
+<Base>
   {sections.map((s) => {
     const C = SECTIONS[s.type];
     return C ? <C {...propsFor(s)} /> : null;
   })}
-</body>
-</html>
+</Base>

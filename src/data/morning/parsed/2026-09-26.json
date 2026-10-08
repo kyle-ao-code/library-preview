@@ -1,0 +1,427 @@
+{
+ "date": "2026-09-26",
+ "title": "过去24h Hyperliquid 情报日报（2026-09-26）",
+ "window": {
+  "raw": "窗：Asia/Shanghai 2026-09-25 08:10 → 2026-09-26 08:10",
+  "start": "2026-09-25 08:10",
+  "end": "2026-09-26 08:10",
+  "tz": "Asia/Shanghai"
+ },
+ "notes": [],
+ "today": [
+  "本窗主戏仍是币安现货上线后的余波。提现预计 09-25 11:00 UTC 开启，本窗没有新的「已开放」CMS；价格侧非正式 mark≈92.31，与昨拍大致持平。媒体继续写 Strategies/0x6436 大额续买，以及 SoSoValue 口径下 Bitwise BHYP 单日净流入约 $477 万。协议侧有一条可核一手。Kinetiq 称 Gemini 上质押的全部 HYPE 将委托给其验证者。生态自述密集，Nest 预告下周再发 500 HYPE，Bounce 上线 $ENA 杠杆代币，Outcome 上线 $HYPE 15 分钟涨跌盘。监管上，HyperliquidPC×Phantom 向 CFTC 提交评论信落入窗初。三官号与官站静默，正式里程碑仍空。OI 非正式自加总约 $13.15B 微升，dayNtl 约 $7.11B 下行；NEAR Strict List 仍无官站 day-N。"
+ ],
+ "views": [
+  {
+   "num": 1,
+   "title": "币安 HYPE 提现预计 09-25 11:00 UTC，本窗无「已开放」新 CMS",
+   "conclusion": "提现时点仍停在 CMS「预计」口径；本窗没有新的开放确认公告。",
+   "why": "昨窗 CMS 写明现货已于 09-24 11:00 UTC 上线三对，提现预计次日 11:00 UTC。本窗检索未见新的「提现已开放」CMS；Blockonomi 与 ABMedia、ChainCatcher 等续写上线与后续买卖叙事。HL 三官号本窗静默，协议方无对应原帖。",
+   "basis": "A 事实（一手 CMS）— https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d ；媒体续写 https://blockonomi.com/hyperliquid-hype-begins-binance-spot-trading-as-major-whale-accumulates-tokens/ ；https://abmedia.io/binance-listing-hyperliquid-hype",
+   "risk": "提现页实态未在本采集直接核到；若开放后抛压放大，或延误未开，都会改写「入口扩容」的短期读感。禁止写成买卖建议。",
+   "confidence": "高（「CMS 仍写预计、本窗无新开放 CMS」）；中（「提现已在预计时点实际开放且无二次冲击」）。",
+   "links": [
+    {
+     "text": "A 事实（一手 CMS）",
+     "url": "https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d",
+     "field": "依据"
+    },
+    {
+     "text": "媒体续写",
+     "url": "https://blockonomi.com/hyperliquid-hype-begins-binance-spot-trading-as-major-whale-accumulates-tokens/",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://abmedia.io/binance-listing-hyperliquid-hype",
+     "field": "依据"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [
+    "A"
+   ],
+   "fields": {
+    "结论": "提现时点仍停在 CMS「预计」口径；本窗没有新的开放确认公告。",
+    "为什么": "昨窗 CMS 写明现货已于 09-24 11:00 UTC 上线三对，提现预计次日 11:00 UTC。本窗检索未见新的「提现已开放」CMS；Blockonomi 与 ABMedia、ChainCatcher 等续写上线与后续买卖叙事。HL 三官号本窗静默，协议方无对应原帖。",
+    "依据": "A 事实（一手 CMS）— https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d ；媒体续写 https://blockonomi.com/hyperliquid-hype-begins-binance-spot-trading-as-major-whale-accumulates-tokens/ ；https://abmedia.io/binance-listing-hyperliquid-hype",
+    "风险/反证": "提现页实态未在本采集直接核到；若开放后抛压放大，或延误未开，都会改写「入口扩容」的短期读感。禁止写成买卖建议。",
+    "置信度": "高（「CMS 仍写预计、本窗无新开放 CMS」）；中（「提现已在预计时点实际开放且无二次冲击」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：提现时点仍停在 CMS「预计」口径；本窗没有新的开放确认公告。\n- **为什么**：昨窗 CMS 写明现货已于 09-24 11:00 UTC 上线三对，提现预计次日 11:00 UTC。本窗检索未见新的「提现已开放」CMS；Blockonomi 与 ABMedia、ChainCatcher 等续写上线与后续买卖叙事。HL 三官号本窗静默，协议方无对应原帖。\n- **依据**：A 事实（一手 CMS）— https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d ；媒体续写 https://blockonomi.com/hyperliquid-hype-begins-binance-spot-trading-as-major-whale-accumulates-tokens/ ；https://abmedia.io/binance-listing-hyperliquid-hype\n- **风险/反证**：提现页实态未在本采集直接核到；若开放后抛压放大，或延误未开，都会改写「入口扩容」的短期读感。禁止写成买卖建议。\n- **置信度**：高（「CMS 仍写预计、本窗无新开放 CMS」）；中（「提现已在预计时点实际开放且无二次冲击」）。"
+  },
+  {
+   "num": 2,
+   "title": "Strategies/0x6436 续买被媒体放大；Multicoin「卖出」仍未证实",
+   "conclusion": "本窗买入叙事强于卖出叙事，但持仓与近月数字多为媒体口径，链上后续流向待核。",
+   "why": "Odaily、TechFlow 等转述 Lookonchain：约 16 小时内增持约 49.42 万 HYPE（约 $45.8M）。近月与持仓总量为媒体口径，勿当正式里程碑。Multicoin→Coinbase Prime 转入主在窗外，窗内续写仍**未确认卖出**；另有解押可动时间线的媒体说法。",
+   "basis": "A 叙事/待验证 — https://www.odaily.news/zh-CN/newsflash/520226 ；https://www.techflowpost.com/en-US/newsletter/137726 ；窗内续写 https://cryptonews.net/news/altcoins/33494204/",
+   "risk": "媒体持仓口径可能夸大；转入托管≠卖出。后续净流若翻向，会快速改写「续买压过上线分发」假设。",
+   "confidence": "中（「窗内有续买媒体簇」）；低（「近月/总持仓精确值」）；低（「巨鲸已在卖」）。",
+   "links": [
+    {
+     "text": "A 叙事/待验证",
+     "url": "https://www.odaily.news/zh-CN/newsflash/520226",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://www.techflowpost.com/en-US/newsletter/137726",
+     "field": "依据"
+    },
+    {
+     "text": "窗内续写",
+     "url": "https://cryptonews.net/news/altcoins/33494204/",
+     "field": "依据"
+    }
+   ],
+   "uncertain": true,
+   "markers": [
+    "待验证",
+    "未证实"
+   ],
+   "markers_by_field": {
+    "依据": [
+     "待验证"
+    ],
+    "标题": [
+     "未证实"
+    ]
+   },
+   "basis_layers": [
+    "A"
+   ],
+   "fields": {
+    "结论": "本窗买入叙事强于卖出叙事，但持仓与近月数字多为媒体口径，链上后续流向待核。",
+    "为什么": "Odaily、TechFlow 等转述 Lookonchain：约 16 小时内增持约 49.42 万 HYPE（约 $45.8M）。近月与持仓总量为媒体口径，勿当正式里程碑。Multicoin→Coinbase Prime 转入主在窗外，窗内续写仍**未确认卖出**；另有解押可动时间线的媒体说法。",
+    "依据": "A 叙事/待验证 — https://www.odaily.news/zh-CN/newsflash/520226 ；https://www.techflowpost.com/en-US/newsletter/137726 ；窗内续写 https://cryptonews.net/news/altcoins/33494204/",
+    "风险/反证": "媒体持仓口径可能夸大；转入托管≠卖出。后续净流若翻向，会快速改写「续买压过上线分发」假设。",
+    "置信度": "中（「窗内有续买媒体簇」）；低（「近月/总持仓精确值」）；低（「巨鲸已在卖」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：本窗买入叙事强于卖出叙事，但持仓与近月数字多为媒体口径，链上后续流向待核。\n- **为什么**：Odaily、TechFlow 等转述 Lookonchain：约 16 小时内增持约 49.42 万 HYPE（约 $45.8M）。近月与持仓总量为媒体口径，勿当正式里程碑。Multicoin→Coinbase Prime 转入主在窗外，窗内续写仍**未确认卖出**；另有解押可动时间线的媒体说法。\n- **依据**：A 叙事/待验证 — https://www.odaily.news/zh-CN/newsflash/520226 ；https://www.techflowpost.com/en-US/newsletter/137726 ；窗内续写 https://cryptonews.net/news/altcoins/33494204/\n- **风险/反证**：媒体持仓口径可能夸大；转入托管≠卖出。后续净流若翻向，会快速改写「续买压过上线分发」假设。\n- **置信度**：中（「窗内有续买媒体簇」）；低（「近月/总持仓精确值」）；低（「巨鲸已在卖」）。"
+  },
+  {
+   "num": 3,
+   "title": "SoSoValue：Bitwise BHYP 美东 09-24 单日净流入约 $477.49 万",
+   "conclusion": "现货 ETF 流入是本窗一条可点的第三方数据转述，不是 HL 官号背书。",
+   "why": "Odaily 转 SoSoValue，称美东 09-24 Bitwise BHYP 净流入约 $477.49 万。时间落在窗初。与币安现货上线同周出现，媒体常并读为「入口+产品化」余波，但本台只记转述事实。",
+   "basis": "A 待验证 — https://www.odaily.news/zh-CN/newsflash/520215",
+   "risk": "单日净流入可逆；SoSoValue 口径需与发行人披露交叉。不能据此写买卖建议。",
+   "confidence": "中（「Odaily←SoSoValue 转述存在」）；低（「流入趋势可持续」）。",
+   "links": [
+    {
+     "text": "A 待验证",
+     "url": "https://www.odaily.news/zh-CN/newsflash/520215",
+     "field": "依据"
+    }
+   ],
+   "uncertain": true,
+   "markers": [
+    "待验证"
+   ],
+   "markers_by_field": {
+    "依据": [
+     "待验证"
+    ]
+   },
+   "basis_layers": [
+    "A"
+   ],
+   "fields": {
+    "结论": "现货 ETF 流入是本窗一条可点的第三方数据转述，不是 HL 官号背书。",
+    "为什么": "Odaily 转 SoSoValue，称美东 09-24 Bitwise BHYP 净流入约 $477.49 万。时间落在窗初。与币安现货上线同周出现，媒体常并读为「入口+产品化」余波，但本台只记转述事实。",
+    "依据": "A 待验证 — https://www.odaily.news/zh-CN/newsflash/520215",
+    "风险/反证": "单日净流入可逆；SoSoValue 口径需与发行人披露交叉。不能据此写买卖建议。",
+    "置信度": "中（「Odaily←SoSoValue 转述存在」）；低（「流入趋势可持续」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：现货 ETF 流入是本窗一条可点的第三方数据转述，不是 HL 官号背书。\n- **为什么**：Odaily 转 SoSoValue，称美东 09-24 Bitwise BHYP 净流入约 $477.49 万。时间落在窗初。与币安现货上线同周出现，媒体常并读为「入口+产品化」余波，但本台只记转述事实。\n- **依据**：A 待验证 — https://www.odaily.news/zh-CN/newsflash/520215\n- **风险/反证**：单日净流入可逆；SoSoValue 口径需与发行人披露交叉。不能据此写买卖建议。\n- **置信度**：中（「Odaily←SoSoValue 转述存在」）；低（「流入趋势可持续」）。"
+  },
+  {
+   "num": 4,
+   "title": "Kinetiq×Gemini：Gemini 上质押的全部 HYPE 将委托给 Kinetiq 验证者",
+   "conclusion": "质押份额迁移叙事有一条可核原帖，挂 HyperliquidX 语境，但落地规模待数据。",
+   "why": "@Kinetiq_xyz 宣布 Gemini 平台上质押的全部 HYPE 将委托给 Kinetiq 验证者。这是托管方与验证者之间的委托安排，不是新的链上产品功能官宣。本窗 S 层三官号无原帖背书。",
+   "basis": "A 事实 — https://x.com/Kinetiq_xyz/status/2103601890361843911",
+   "risk": "宣布≠份额已全部迁移；需验证者委托数据才能升格「可见迁移」。",
+   "confidence": "高（「原帖窗内存在」）；低（「质押份额已实质迁移」）。",
+   "links": [
+    {
+     "text": "A 事实",
+     "url": "https://x.com/Kinetiq_xyz/status/2103601890361843911",
+     "field": "依据"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [
+    "A"
+   ],
+   "fields": {
+    "结论": "质押份额迁移叙事有一条可核原帖，挂 HyperliquidX 语境，但落地规模待数据。",
+    "为什么": "@Kinetiq_xyz 宣布 Gemini 平台上质押的全部 HYPE 将委托给 Kinetiq 验证者。这是托管方与验证者之间的委托安排，不是新的链上产品功能官宣。本窗 S 层三官号无原帖背书。",
+    "依据": "A 事实 — https://x.com/Kinetiq_xyz/status/2103601890361843911",
+    "风险/反证": "宣布≠份额已全部迁移；需验证者委托数据才能升格「可见迁移」。",
+    "置信度": "高（「原帖窗内存在」）；低（「质押份额已实质迁移」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：质押份额迁移叙事有一条可核原帖，挂 HyperliquidX 语境，但落地规模待数据。\n- **为什么**：@Kinetiq_xyz 宣布 Gemini 平台上质押的全部 HYPE 将委托给 Kinetiq 验证者。这是托管方与验证者之间的委托安排，不是新的链上产品功能官宣。本窗 S 层三官号无原帖背书。\n- **依据**：A 事实 — https://x.com/Kinetiq_xyz/status/2103601890361843911\n- **风险/反证**：宣布≠份额已全部迁移；需验证者委托数据才能升格「可见迁移」。\n- **置信度**：高（「原帖窗内存在」）；低（「质押份额已实质迁移」）。"
+  },
+  {
+   "num": 5,
+   "title": "Nest 预告下周再发 500 HYPE；Bounce 上线 ENA 杠杆代币；Outcome 上线 HYPE 15 分钟盘",
+   "conclusion": "生态产品自述密集，均非 HL 官号背书；Outcome 的 HL 累交/$5.5T 等大数须单独降级。",
+   "why": "NestExchange 称下周再向 HYPE Engine Vault 的 NEST 锁仓户分发 500 HYPE，并称 veNEST 存入创 ATH（约 32% 总供给回购复利口径）。BounceTech 上线 $ENA 杠杆代币（5x）。Outcomexyz 上线 $HYPE 每 15 分钟涨跌盘，自称 permissionless 约 29 日累交破 $50M；另称 HL 累交破 $5.5T、HIP-4≈$458M，后两项本窗无正式里程碑交叉，**不得升格**。Liquid 称 Oura 预计下周敲钟、隐含价较拟 IPO 溢价约 21%；Legend 自报 App Store 覆盖 100+ 国家。",
+   "basis": "A 事实自述 — https://x.com/NestExchange/status/2103561248734351432 ；https://x.com/BounceTech/status/2103480299891876249 ；https://x.com/Outcomexyz/status/2103467501183201515 ；https://x.com/liquidtrading/status/2103509695818351093 ；https://x.com/legendtrade/status/2103536043773571583",
+   "risk": "项目自报成交、回购与覆盖面口径可变；大数缺官方交叉时只能当自述。",
+   "confidence": "中（「各项目窗内自述存在」）；低（「Outcome HL $5.5T / HIP-4 口径」）；低（「规模可持续」）。",
+   "links": [
+    {
+     "text": "A 事实自述",
+     "url": "https://x.com/NestExchange/status/2103561248734351432",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://x.com/BounceTech/status/2103480299891876249",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://x.com/Outcomexyz/status/2103467501183201515",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://x.com/liquidtrading/status/2103509695818351093",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://x.com/legendtrade/status/2103536043773571583",
+     "field": "依据"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [
+    "A"
+   ],
+   "fields": {
+    "结论": "生态产品自述密集，均非 HL 官号背书；Outcome 的 HL 累交/$5.5T 等大数须单独降级。",
+    "为什么": "NestExchange 称下周再向 HYPE Engine Vault 的 NEST 锁仓户分发 500 HYPE，并称 veNEST 存入创 ATH（约 32% 总供给回购复利口径）。BounceTech 上线 $ENA 杠杆代币（5x）。Outcomexyz 上线 $HYPE 每 15 分钟涨跌盘，自称 permissionless 约 29 日累交破 $50M；另称 HL 累交破 $5.5T、HIP-4≈$458M，后两项本窗无正式里程碑交叉，**不得升格**。Liquid 称 Oura 预计下周敲钟、隐含价较拟 IPO 溢价约 21%；Legend 自报 App Store 覆盖 100+ 国家。",
+    "依据": "A 事实自述 — https://x.com/NestExchange/status/2103561248734351432 ；https://x.com/BounceTech/status/2103480299891876249 ；https://x.com/Outcomexyz/status/2103467501183201515 ；https://x.com/liquidtrading/status/2103509695818351093 ；https://x.com/legendtrade/status/2103536043773571583",
+    "风险/反证": "项目自报成交、回购与覆盖面口径可变；大数缺官方交叉时只能当自述。",
+    "置信度": "中（「各项目窗内自述存在」）；低（「Outcome HL $5.5T / HIP-4 口径」）；低（「规模可持续」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：生态产品自述密集，均非 HL 官号背书；Outcome 的 HL 累交/$5.5T 等大数须单独降级。\n- **为什么**：NestExchange 称下周再向 HYPE Engine Vault 的 NEST 锁仓户分发 500 HYPE，并称 veNEST 存入创 ATH（约 32% 总供给回购复利口径）。BounceTech 上线 $ENA 杠杆代币（5x）。Outcomexyz 上线 $HYPE 每 15 分钟涨跌盘，自称 permissionless 约 29 日累交破 $50M；另称 HL 累交破 $5.5T、HIP-4≈$458M，后两项本窗无正式里程碑交叉，**不得升格**。Liquid 称 Oura 预计下周敲钟、隐含价较拟 IPO 溢价约 21%；Legend 自报 App Store 覆盖 100+ 国家。\n- **依据**：A 事实自述 — https://x.com/NestExchange/status/2103561248734351432 ；https://x.com/BounceTech/status/2103480299891876249 ；https://x.com/Outcomexyz/status/2103467501183201515 ；https://x.com/liquidtrading/status/2103509695818351093 ；https://x.com/legendtrade/status/2103536043773571583\n- **风险/反证**：项目自报成交、回购与覆盖面口径可变；大数缺官方交叉时只能当自述。\n- **置信度**：中（「各项目窗内自述存在」）；低（「Outcome HL $5.5T / HIP-4 口径」）；低（「规模可持续」）。"
+  },
+  {
+   "num": 6,
+   "title": "HyperliquidPC×Phantom 向 CFTC 提交评论信（窗初落入）",
+   "conclusion": "监管叙事本窗有一条可点的媒体+政策站交叉；主张协议开发者不应视为金融中介。",
+   "why": "Odaily 09-25 08:11 CST（窗起 08:10，落入窗初）报道 HyperliquidPC 与 Phantom 向 CFTC 提交评论信。政策站原文主张为链上市场基础设施留空间，协议开发者≠金融中介。@HyperliquidPC 本窗静默，信文以政策站/媒体为准。",
+   "basis": "A 事实/叙事 — https://www.odaily.news/zh-CN/newsflash/520206 ；https://hyperliquidpolicy.org/blog/hpc-and-phantom-ask-the-cftc-to-make-room-for-onchain-market-infrastructure",
+   "risk": "评论信≠最终规则文本；政策站立场不能写成「监管已定调」。",
+   "confidence": "高（「稿与政策站交叉存在且落在窗内」）；低（「监管走向已定」）。",
+   "links": [
+    {
+     "text": "A 事实/叙事",
+     "url": "https://www.odaily.news/zh-CN/newsflash/520206",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://hyperliquidpolicy.org/blog/hpc-and-phantom-ask-the-cftc-to-make-room-for-onchain-market-infrastructure",
+     "field": "依据"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [
+    "A"
+   ],
+   "fields": {
+    "结论": "监管叙事本窗有一条可点的媒体+政策站交叉；主张协议开发者不应视为金融中介。",
+    "为什么": "Odaily 09-25 08:11 CST（窗起 08:10，落入窗初）报道 HyperliquidPC 与 Phantom 向 CFTC 提交评论信。政策站原文主张为链上市场基础设施留空间，协议开发者≠金融中介。@HyperliquidPC 本窗静默，信文以政策站/媒体为准。",
+    "依据": "A 事实/叙事 — https://www.odaily.news/zh-CN/newsflash/520206 ；https://hyperliquidpolicy.org/blog/hpc-and-phantom-ask-the-cftc-to-make-room-for-onchain-market-infrastructure",
+    "风险/反证": "评论信≠最终规则文本；政策站立场不能写成「监管已定调」。",
+    "置信度": "高（「稿与政策站交叉存在且落在窗内」）；低（「监管走向已定」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：监管叙事本窗有一条可点的媒体+政策站交叉；主张协议开发者不应视为金融中介。\n- **为什么**：Odaily 09-25 08:11 CST（窗起 08:10，落入窗初）报道 HyperliquidPC 与 Phantom 向 CFTC 提交评论信。政策站原文主张为链上市场基础设施留空间，协议开发者≠金融中介。@HyperliquidPC 本窗静默，信文以政策站/媒体为准。\n- **依据**：A 事实/叙事 — https://www.odaily.news/zh-CN/newsflash/520206 ；https://hyperliquidpolicy.org/blog/hpc-and-phantom-ask-the-cftc-to-make-room-for-onchain-market-infrastructure\n- **风险/反证**：评论信≠最终规则文本；政策站立场不能写成「监管已定调」。\n- **置信度**：高（「稿与政策站交叉存在且落在窗内」）；低（「监管走向已定」）。"
+  },
+  {
+   "num": 7,
+   "title": "OI 非正式约 $13.15B 微升、dayNtl 约 $7.11B 下行；NEAR Strict List 仍无官站 day-N",
+   "conclusion": "口径冲突未解；NEAR 入口与销毁 live 本窗仍无正式闭环。",
+   "why": "昨窗官宣 OI ATH $18B（双边）继续被引用。本拍 info API 对 234 个永续自加总 OI≈$13.15B（↑约 2.5%），dayNtl≈$7.11B（↓约 17%）。HYPE mark≈92.31，大致持平；HYPE 单币 OI≈$1.89B。前端 24H 仍 7.2B（疑占位）。TokenPost 另写全球永续 OI 市佔约 11.3%（非官站）。NEAR：perp OI≈$403M，ONEAR dayNtl≈$4.19M（升）；X 二手称已进 Strict List，官站/官号仍无 day-N。销毁：HypedLaunches 称累计约 47.49M HYPE、近 24h 约 $2.70M，hl.eco 不可采，**勿当正式里程碑**；昨窗外 $3.26M 勿当今日。",
+   "basis": "非正式 API；冲突续引昨 S https://x.com/HyperliquidX/status/2102643437896110439 ；TokenPost https://www.tokenpost.com/news/investing/24060 ；NEAR 二手 https://x.com/HypedLaunches/status/2103566142954443252 ；对照 https://www.chaincatcher.com/article/2291702 ；销毁二手 https://x.com/HypedLaunches/status/2103571384236478816",
+   "risk": "禁止把拍点差写成「OI 蒸发」或「成交崩了」；双边与第三方单边不可直接比。Strict List 拖延会削弱「已部署」观感。",
+   "confidence": "高（「多口径并存，且本窗无正式 OI/销毁里程碑与 Strict List 官站 day-N」）；低（「哪一口径最接近某类真值」）；低（「销毁 live 趋势」）。",
+   "links": [
+    {
+     "text": "冲突续引昨 S",
+     "url": "https://x.com/HyperliquidX/status/2102643437896110439",
+     "field": "依据"
+    },
+    {
+     "text": "TokenPost",
+     "url": "https://www.tokenpost.com/news/investing/24060",
+     "field": "依据"
+    },
+    {
+     "text": "NEAR 二手",
+     "url": "https://x.com/HypedLaunches/status/2103566142954443252",
+     "field": "依据"
+    },
+    {
+     "text": "对照",
+     "url": "https://www.chaincatcher.com/article/2291702",
+     "field": "依据"
+    },
+    {
+     "text": "销毁二手",
+     "url": "https://x.com/HypedLaunches/status/2103571384236478816",
+     "field": "依据"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [
+    "S"
+   ],
+   "fields": {
+    "结论": "口径冲突未解；NEAR 入口与销毁 live 本窗仍无正式闭环。",
+    "为什么": "昨窗官宣 OI ATH $18B（双边）继续被引用。本拍 info API 对 234 个永续自加总 OI≈$13.15B（↑约 2.5%），dayNtl≈$7.11B（↓约 17%）。HYPE mark≈92.31，大致持平；HYPE 单币 OI≈$1.89B。前端 24H 仍 7.2B（疑占位）。TokenPost 另写全球永续 OI 市佔约 11.3%（非官站）。NEAR：perp OI≈$403M，ONEAR dayNtl≈$4.19M（升）；X 二手称已进 Strict List，官站/官号仍无 day-N。销毁：HypedLaunches 称累计约 47.49M HYPE、近 24h 约 $2.70M，hl.eco 不可采，**勿当正式里程碑**；昨窗外 $3.26M 勿当今日。",
+    "依据": "非正式 API；冲突续引昨 S https://x.com/HyperliquidX/status/2102643437896110439 ；TokenPost https://www.tokenpost.com/news/investing/24060 ；NEAR 二手 https://x.com/HypedLaunches/status/2103566142954443252 ；对照 https://www.chaincatcher.com/article/2291702 ；销毁二手 https://x.com/HypedLaunches/status/2103571384236478816",
+    "风险/反证": "禁止把拍点差写成「OI 蒸发」或「成交崩了」；双边与第三方单边不可直接比。Strict List 拖延会削弱「已部署」观感。",
+    "置信度": "高（「多口径并存，且本窗无正式 OI/销毁里程碑与 Strict List 官站 day-N」）；低（「哪一口径最接近某类真值」）；低（「销毁 live 趋势」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：口径冲突未解；NEAR 入口与销毁 live 本窗仍无正式闭环。\n- **为什么**：昨窗官宣 OI ATH $18B（双边）继续被引用。本拍 info API 对 234 个永续自加总 OI≈$13.15B（↑约 2.5%），dayNtl≈$7.11B（↓约 17%）。HYPE mark≈92.31，大致持平；HYPE 单币 OI≈$1.89B。前端 24H 仍 7.2B（疑占位）。TokenPost 另写全球永续 OI 市佔约 11.3%（非官站）。NEAR：perp OI≈$403M，ONEAR dayNtl≈$4.19M（升）；X 二手称已进 Strict List，官站/官号仍无 day-N。销毁：HypedLaunches 称累计约 47.49M HYPE、近 24h 约 $2.70M，hl.eco 不可采，**勿当正式里程碑**；昨窗外 $3.26M 勿当今日。\n- **依据**：非正式 API；冲突续引昨 S https://x.com/HyperliquidX/status/2102643437896110439 ；TokenPost https://www.tokenpost.com/news/investing/24060 ；NEAR 二手 https://x.com/HypedLaunches/status/2103566142954443252 ；对照 https://www.chaincatcher.com/article/2291702 ；销毁二手 https://x.com/HypedLaunches/status/2103571384236478816\n- **风险/反证**：禁止把拍点差写成「OI 蒸发」或「成交崩了」；双边与第三方单边不可直接比。Strict List 拖延会削弱「已部署」观感。\n- **置信度**：高（「多口径并存，且本窗无正式 OI/销毁里程碑与 Strict List 官站 day-N」）；低（「哪一口径最接近某类真值」）；低（「销毁 live 趋势」）。"
+  }
+ ],
+ "sections": [
+  {
+   "title": "今天怎么看",
+   "subsections": [],
+   "body_md": "本窗主戏仍是币安现货上线后的余波。提现预计 09-25 11:00 UTC 开启，本窗没有新的「已开放」CMS；价格侧非正式 mark≈92.31，与昨拍大致持平。媒体继续写 Strategies/0x6436 大额续买，以及 SoSoValue 口径下 Bitwise BHYP 单日净流入约 $477 万。协议侧有一条可核一手。Kinetiq 称 Gemini 上质押的全部 HYPE 将委托给其验证者。生态自述密集，Nest 预告下周再发 500 HYPE，Bounce 上线 $ENA 杠杆代币，Outcome 上线 $HYPE 15 分钟涨跌盘。监管上，HyperliquidPC×Phantom 向 CFTC 提交评论信落入窗初。三官号与官站静默，正式里程碑仍空。OI 非正式自加总约 $13.15B 微升，dayNtl 约 $7.11B 下行；NEAR Strict List 仍无官站 day-N。"
+  },
+  {
+   "title": "观点",
+   "subsections": [
+    {
+     "title": "1. 币安 HYPE 提现预计 09-25 11:00 UTC，本窗无「已开放」新 CMS",
+     "body_md": "- **结论**：提现时点仍停在 CMS「预计」口径；本窗没有新的开放确认公告。\n- **为什么**：昨窗 CMS 写明现货已于 09-24 11:00 UTC 上线三对，提现预计次日 11:00 UTC。本窗检索未见新的「提现已开放」CMS；Blockonomi 与 ABMedia、ChainCatcher 等续写上线与后续买卖叙事。HL 三官号本窗静默，协议方无对应原帖。\n- **依据**：A 事实（一手 CMS）— https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d ；媒体续写 https://blockonomi.com/hyperliquid-hype-begins-binance-spot-trading-as-major-whale-accumulates-tokens/ ；https://abmedia.io/binance-listing-hyperliquid-hype\n- **风险/反证**：提现页实态未在本采集直接核到；若开放后抛压放大，或延误未开，都会改写「入口扩容」的短期读感。禁止写成买卖建议。\n- **置信度**：高（「CMS 仍写预计、本窗无新开放 CMS」）；中（「提现已在预计时点实际开放且无二次冲击」）。"
+    },
+    {
+     "title": "2. Strategies/0x6436 续买被媒体放大；Multicoin「卖出」仍未证实",
+     "body_md": "- **结论**：本窗买入叙事强于卖出叙事，但持仓与近月数字多为媒体口径，链上后续流向待核。\n- **为什么**：Odaily、TechFlow 等转述 Lookonchain：约 16 小时内增持约 49.42 万 HYPE（约 $45.8M）。近月与持仓总量为媒体口径，勿当正式里程碑。Multicoin→Coinbase Prime 转入主在窗外，窗内续写仍**未确认卖出**；另有解押可动时间线的媒体说法。\n- **依据**：A 叙事/待验证 — https://www.odaily.news/zh-CN/newsflash/520226 ；https://www.techflowpost.com/en-US/newsletter/137726 ；窗内续写 https://cryptonews.net/news/altcoins/33494204/\n- **风险/反证**：媒体持仓口径可能夸大；转入托管≠卖出。后续净流若翻向，会快速改写「续买压过上线分发」假设。\n- **置信度**：中（「窗内有续买媒体簇」）；低（「近月/总持仓精确值」）；低（「巨鲸已在卖」）。"
+    },
+    {
+     "title": "3. SoSoValue：Bitwise BHYP 美东 09-24 单日净流入约 $477.49 万",
+     "body_md": "- **结论**：现货 ETF 流入是本窗一条可点的第三方数据转述，不是 HL 官号背书。\n- **为什么**：Odaily 转 SoSoValue，称美东 09-24 Bitwise BHYP 净流入约 $477.49 万。时间落在窗初。与币安现货上线同周出现，媒体常并读为「入口+产品化」余波，但本台只记转述事实。\n- **依据**：A 待验证 — https://www.odaily.news/zh-CN/newsflash/520215\n- **风险/反证**：单日净流入可逆；SoSoValue 口径需与发行人披露交叉。不能据此写买卖建议。\n- **置信度**：中（「Odaily←SoSoValue 转述存在」）；低（「流入趋势可持续」）。"
+    },
+    {
+     "title": "4. Kinetiq×Gemini：Gemini 上质押的全部 HYPE 将委托给 Kinetiq 验证者",
+     "body_md": "- **结论**：质押份额迁移叙事有一条可核原帖，挂 HyperliquidX 语境，但落地规模待数据。\n- **为什么**：@Kinetiq_xyz 宣布 Gemini 平台上质押的全部 HYPE 将委托给 Kinetiq 验证者。这是托管方与验证者之间的委托安排，不是新的链上产品功能官宣。本窗 S 层三官号无原帖背书。\n- **依据**：A 事实 — https://x.com/Kinetiq_xyz/status/2103601890361843911\n- **风险/反证**：宣布≠份额已全部迁移；需验证者委托数据才能升格「可见迁移」。\n- **置信度**：高（「原帖窗内存在」）；低（「质押份额已实质迁移」）。"
+    },
+    {
+     "title": "5. Nest 预告下周再发 500 HYPE；Bounce 上线 ENA 杠杆代币；Outcome 上线 HYPE 15 分钟盘",
+     "body_md": "- **结论**：生态产品自述密集，均非 HL 官号背书；Outcome 的 HL 累交/$5.5T 等大数须单独降级。\n- **为什么**：NestExchange 称下周再向 HYPE Engine Vault 的 NEST 锁仓户分发 500 HYPE，并称 veNEST 存入创 ATH（约 32% 总供给回购复利口径）。BounceTech 上线 $ENA 杠杆代币（5x）。Outcomexyz 上线 $HYPE 每 15 分钟涨跌盘，自称 permissionless 约 29 日累交破 $50M；另称 HL 累交破 $5.5T、HIP-4≈$458M，后两项本窗无正式里程碑交叉，**不得升格**。Liquid 称 Oura 预计下周敲钟、隐含价较拟 IPO 溢价约 21%；Legend 自报 App Store 覆盖 100+ 国家。\n- **依据**：A 事实自述 — https://x.com/NestExchange/status/2103561248734351432 ；https://x.com/BounceTech/status/2103480299891876249 ；https://x.com/Outcomexyz/status/2103467501183201515 ；https://x.com/liquidtrading/status/2103509695818351093 ；https://x.com/legendtrade/status/2103536043773571583\n- **风险/反证**：项目自报成交、回购与覆盖面口径可变；大数缺官方交叉时只能当自述。\n- **置信度**：中（「各项目窗内自述存在」）；低（「Outcome HL $5.5T / HIP-4 口径」）；低（「规模可持续」）。"
+    },
+    {
+     "title": "6. HyperliquidPC×Phantom 向 CFTC 提交评论信（窗初落入）",
+     "body_md": "- **结论**：监管叙事本窗有一条可点的媒体+政策站交叉；主张协议开发者不应视为金融中介。\n- **为什么**：Odaily 09-25 08:11 CST（窗起 08:10，落入窗初）报道 HyperliquidPC 与 Phantom 向 CFTC 提交评论信。政策站原文主张为链上市场基础设施留空间，协议开发者≠金融中介。@HyperliquidPC 本窗静默，信文以政策站/媒体为准。\n- **依据**：A 事实/叙事 — https://www.odaily.news/zh-CN/newsflash/520206 ；https://hyperliquidpolicy.org/blog/hpc-and-phantom-ask-the-cftc-to-make-room-for-onchain-market-infrastructure\n- **风险/反证**：评论信≠最终规则文本；政策站立场不能写成「监管已定调」。\n- **置信度**：高（「稿与政策站交叉存在且落在窗内」）；低（「监管走向已定」）。"
+    },
+    {
+     "title": "7. OI 非正式约 $13.15B 微升、dayNtl 约 $7.11B 下行；NEAR Strict List 仍无官站 day-N",
+     "body_md": "- **结论**：口径冲突未解；NEAR 入口与销毁 live 本窗仍无正式闭环。\n- **为什么**：昨窗官宣 OI ATH $18B（双边）继续被引用。本拍 info API 对 234 个永续自加总 OI≈$13.15B（↑约 2.5%），dayNtl≈$7.11B（↓约 17%）。HYPE mark≈92.31，大致持平；HYPE 单币 OI≈$1.89B。前端 24H 仍 7.2B（疑占位）。TokenPost 另写全球永续 OI 市佔约 11.3%（非官站）。NEAR：perp OI≈$403M，ONEAR dayNtl≈$4.19M（升）；X 二手称已进 Strict List，官站/官号仍无 day-N。销毁：HypedLaunches 称累计约 47.49M HYPE、近 24h 约 $2.70M，hl.eco 不可采，**勿当正式里程碑**；昨窗外 $3.26M 勿当今日。\n- **依据**：非正式 API；冲突续引昨 S https://x.com/HyperliquidX/status/2102643437896110439 ；TokenPost https://www.tokenpost.com/news/investing/24060 ；NEAR 二手 https://x.com/HypedLaunches/status/2103566142954443252 ；对照 https://www.chaincatcher.com/article/2291702 ；销毁二手 https://x.com/HypedLaunches/status/2103571384236478816\n- **风险/反证**：禁止把拍点差写成「OI 蒸发」或「成交崩了」；双边与第三方单边不可直接比。Strict List 拖延会削弱「已部署」观感。\n- **置信度**：高（「多口径并存，且本窗无正式 OI/销毁里程碑与 Strict List 官站 day-N」）；低（「哪一口径最接近某类真值」）；低（「销毁 live 趋势」）。"
+    }
+   ],
+   "body_md": ""
+  },
+  {
+   "title": "社区共鸣点",
+   "subsections": [
+    {
+     "title": "可核情绪线索",
+     "body_md": "1. **最希望听到：提现是否已开、Strategies 续买能否对冲「上线分发」**  \n   - **证据**：CMS 仍写提现预计；本窗无新开放 CMS；Odaily/TechFlow 写 Strategies 续买；价格 mark≈92.31 横盘。  \n   - **推断**（非编造情绪）：读者要的是提现时点与大户净流方向。  \n   - **层级**：A  \n   - **代表链接**：https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d ；https://www.odaily.news/zh-CN/newsflash/520226\n\n2. **注意力落点：Unit TVL>$1B；NEAR Strict List 二手**  \n   - **证据**：y_cryptoanalyst 称 Unit TVL 重上 $1B；HypedLaunches / 中文同步称 NEAR 进 Strict List，官站仍无 day-N。  \n   - **推断**：现货桥与列表入口仍是中文讨论的抓手，但样本薄，仪表与官站未闭环。  \n   - **层级**：C（弱）+ A 二手  \n   - **代表链接**：https://x.com/y_cryptoanalyst/status/2103487872569594058 ；https://x.com/HypedLaunches/status/2103566142954443252\n\n3. **共鸣点：BitMEX 关停对比下的合规与竞争；代理钱包用法缺口**  \n   - **证据**：Krisliu1983 写 BitMEX 关停对比币安/HL；另有帖问冷钱包签一次给 agent 在 HL 高频交易是否可行。  \n   - **推断**：安全与合规对比话术仍在；工具用法层出现具体缺口问题。样本不足，勿升主线共识。  \n   - **层级**：C（弱）  \n   - **代表链接**：https://x.com/Krisliu1983/status/2103480815111791031  \n   - **样本说明**：有效中文 X 样本不足。返佣/BTSE 同构/叙事 RT 禁止当情绪。\n\n4. **相对近几日的转移：从「上线当日冲击」到「余波谁在买、入口有没有闭环」**  \n   - **证据**：主簇换成提现时点、Strategies，以及 ETF 与 Kinetiq；Strict List 与销毁 live 仍无新一手。  \n   - **推断**：媒体议程已切到余波；社区有机帖能否跟上尚不确定。  \n   - **层级**：弱信号 + 污染说明  \n   - **代表链接**：https://www.odaily.news/zh-CN/newsflash/520215"
+    }
+   ],
+   "body_md": "总判断：中文 X 首查约 25 条污染重（返佣跟单与 BTSE 巨鲸同构刷屏、叙事 RT）。过滤后再取约 25 条，有机略好但**样本仍偏薄**，禁止写成「全社区共识」。中文媒体注意力集中在币安上线余波与 Strategies 续买，以及 ETF 流入、CFTC 评论信。相对昨日「提现是否准时 / 谁在卖」，本窗有效中文帖更常碰到 Unit TVL 回升是否可信、NEAR Strict List 二手说法，还有上线后回落与 OI 口径，以及代理钱包/冷签一次后高频交易的用法缺口。信息缺口仍在提现页实态与 Strict List 官站，还有销毁 live、OI 口径对照和 Unit TVL 仪表。"
+  },
+  {
+   "title": "少数派",
+   "subsections": [],
+   "body_md": "- **dayNtl 从昨拍约 $8.58B 落到约 $7.11B**：上线余波日名义成交拍点再下，少数看法会读成「热度未跟上入口叙事」。缺连续官方序列，本台不抬成结论。\n- **Outcome 自称 HL 累交 $5.5T / HIP-4≈$458M**：若无官方交叉，只是自述刷屏；若后续被官号或正式里程碑接住，会改写 HIP-4 热度读感。目前不得升格。\n- **Unit TVL>$1B**：若 Unit/桥仪表可核，会成中文现货桥主叙事；若对不上，则只是单帖。样本薄，待核。"
+  },
+  {
+   "title": "附录 · Phase1 素材摘要",
+   "subsections": [],
+   "body_md": "见同目录 `phase1-merged.md`（事件簇 / 主题分布 / 冲突草稿 / 待验证假设 / 关键数字 / 分层计数 / 失败源）。\n\n**本拍非正式**（UTC 2026-09-26T00:14:10Z / CST 08:14:10，234 资产）：OI≈$13.15B；dayNtl≈$7.11B；HYPE mark≈92.31；HYPE OI≈$1.89B；前端 7.2B 疑占位；NEAR perp OI≈$403M；ONEAR dayNtl≈$4.19M；正式里程碑无。\n\n**采集失败摘要**：S 三官号静默；hl.eco Turnstile；Discord CF；foresight 567；docs.hyperliquid.xyz DNS（改用 gitbook）；FOCUS list 假阴性；中文 X 污染重；info API 首拉 429（重试成功）；ECO/Nest 未翻页；B 跳过。**未用旧快照。** X 花费约 $0.59。窗外：DoubleZero（09-24）；销毁 $3.26M 主稿；OI $18B 既有官宣续引。"
+  }
+ ],
+ "source": {
+  "type": "hl-intel-daily",
+  "label": "HL 情报台日报",
+  "file": "/workspace/hl-daily-2026-09-26/daily-final.md",
+  "file_mtime": "2026-10-07T15:25:31+08:00"
+ },
+ "parse": {
+  "format": "v2-list-fields",
+  "warnings": []
+ }
+}

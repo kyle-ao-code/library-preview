@@ -1,0 +1,140 @@
+{
+ "schema": "hl-morning/v1",
+ "date": "2026-09-24",
+ "updated_at": null,
+ "window": {
+  "start": "2026-09-23T08:25:00+08:00",
+  "end": "2026-09-24T08:25:00+08:00"
+ },
+ "items": [
+  {
+   "title": "官宣 OI 创纪录 $18B，并自带「双边」脚注",
+   "summary": "本窗最硬的一手是 S 层数据官宣。本窗没有新的功能上线官宣。",
+   "sources": [
+    {
+     "name": "@HyperliquidX",
+     "url": "https://x.com/HyperliquidX/status/2102643437896110439"
+    },
+    {
+     "name": "@HyperliquidX",
+     "url": "https://x.com/HyperliquidX/status/2102643440446271884"
+    },
+    {
+     "name": "panewslab.com",
+     "url": "https://www.panewslab.com/zh/articles/01a0ccff-d852-71a9-ba51-c1288162c101"
+    }
+   ],
+   "flags": [],
+   "ref": {
+    "view": 1,
+    "source_field": "依据"
+   }
+  },
+  {
+   "title": "OI 仍是四套数字并排，官方数字没有结束争论",
+   "summary": "有了官宣之后，还要分清字段，不能只记一个整数。",
+   "sources": [
+    {
+     "name": "ambcrypto.com",
+     "url": "https://ambcrypto.com/hyperliquid-market-liquidity-hits-8-8b-as-revenue-surges-4x-can-hype-cross-100/"
+    }
+   ],
+   "flags": [],
+   "ref": {
+    "view": 2,
+    "source_field": "依据"
+   }
+  },
+  {
+   "title": "NEAR 现货已部署：昨日「待核」升格为项目方事实",
+   "summary": "Spot 上新本窗可核到 NEAR Protocol 宣布；@HyperliquidX 本窗没有对应原帖。",
+   "sources": [
+    {
+     "name": "techflowpost.com",
+     "url": "https://www.techflowpost.com/newsletter/137431"
+    },
+    {
+     "name": "chaincatcher.com",
+     "url": "https://www.chaincatcher.com/article/2291702"
+    }
+   ],
+   "flags": [],
+   "ref": {
+    "view": 3,
+    "source_field": "依据"
+   }
+  },
+  {
+   "title": "Liquid 上 $OURA Pre-IPO 永续；Nest 代币化股票自报过 $375k TVL",
+   "summary": "生态产品在讲「传统资产上链交易」故事，且有可点原帖。",
+   "sources": [
+    {
+     "name": "@liquidtrading",
+     "url": "https://x.com/liquidtrading/status/2102803725446168858"
+    },
+    {
+     "name": "@NestExchange",
+     "url": "https://x.com/NestExchange/status/2102812740767072318"
+    }
+   ],
+   "flags": [
+    "项目自述"
+   ],
+   "ref": {
+    "view": 5,
+    "source_field": "依据"
+   }
+  },
+  {
+   "title": "Elysium / Outcome 叙事续热；竞争警示开始进 ECO 时间线",
+   "summary": "L2 与预测市场仍在刷存在感；同时出现「HL 不会一直无敌」的外部评论转述。",
+   "sources": [
+    {
+     "name": "@Enter_Elysium",
+     "url": "https://x.com/Enter_Elysium/status/2102802155443015949"
+    },
+    {
+     "name": "@Outcomexyz",
+     "url": "https://x.com/Outcomexyz/status/2102741071365353710"
+    },
+    {
+     "name": "@HypedLaunches",
+     "url": "https://x.com/HypedLaunches/status/2102859768893157865"
+    }
+   ],
+   "flags": [],
+   "ref": {
+    "view": 6,
+    "source_field": "依据"
+   }
+  }
+ ],
+ "disclaimer": "AI 整理，非投资建议",
+ "provenance": {
+  "generator": "build_morning.py 过渡数据（从 daily-final.md 转出）",
+  "file": "/workspace/hl-daily-2026-09-24/daily-final.md"
+ },
+ "_report": {
+  "skipped": [
+   {
+    "num": 4,
+    "title": "HYPE 从约 $97 回到约 $94；销毁媒体数字同步下台阶",
+    "reason": "不确定标记：依据「待验证」"
+   }
+  ],
+  "long_titles": [
+   {
+    "num": 5,
+    "length": 49,
+    "title": "Liquid 上 $OURA Pre-IPO 永续；Nest 代币化股票自报过 $375k TVL"
+   },
+   {
+    "num": 6,
+    "length": 38,
+    "title": "Elysium / Outcome 叙事续热；竞争警示开始进 ECO 时间线"
+   }
+  ],
+  "no_summary": [],
+  "no_sources": []
+ }
+}

@@ -1,0 +1,389 @@
+{
+ "date": "2026-10-03",
+ "title": "过去24h Hyperliquid 情报日报（2026-10-03）",
+ "window": {
+  "raw": "窗：Asia/Shanghai 2026-10-02 08:14 → 2026-10-03 08:14",
+  "start": "2026-10-02 08:14",
+  "end": "2026-10-03 08:14",
+  "tz": "Asia/Shanghai"
+ },
+ "notes": [],
+ "today": [
+  "本窗媒体与社区最抢注意力的，是预计 10 月 3 日首笔 AQAv2 储备收益约 $14.5M 流入 Assistance Fund，用于回购 HYPE。口径来自 HL HUB 等社区与 Odaily / TechFlow / PANews / Chaincatcher 转述，非 S 层官站一手；金额为估计，到账与是否即时回购都待链上核验。数字侧由昨降转升：非正式 OI 约 $12.68B（↑约 1.17%），dayNtl 约 $8.15B（↑约 44.80%），HYPE mark≈89.587（↑约 2.06%），HYPE 单币 OI 约 $1.82B（↑约 0.63%）。Kinetiq claim 从认购条款推进到执行。0xOmnia 自责沟通「本可更好」，并称一日内 >41% 已领（Kinetiq 转发）。链上监测出现新钱包从 Coinbase Prime 提取约 19.8 万枚 HYPE / ~$17.2M，媒体写仍持有，提取不等于已卖。Nest 报 Epoch 44 锁仓净增并开 Epoch 45 奖 400 HYPE；Legend 与 Entropy 则分别上线 Chart Notes、发放 affiliate badges。HyperTracker 称周五一小时内多头清算超 $55m，与量能回升同窗，勿写成单一因果。众议院调查本窗无新公函，答复期限仍 10-13。币安提现仍无「已开放」新 CMS。S 三官号静默。正式里程碑空。解锁买方加回购「明天开始」属二手传闻，非官宣。中文 X 有机可用约 3 条，样本严重不足。"
+ ],
+ "views": [
+  {
+   "num": 1,
+   "title": "媒体称预计 10/3 首笔 AQAv2 约 $14.5M 入 Assistance Fund 回购 HYPE（待验证）；非正式 dayNtl 约 $8.15B↑约 44.80%，OI 与 HYPE 同升",
+   "conclusion": "本窗最热的新媒体信号是 AQAv2 首笔储备收益分配预期。与非正式量能回升同窗，但前者非官站一手，后者是拍点对照，都不是正式里程碑。",
+   "why": "Odaily / TechFlow / PANews / Chaincatcher 窗内转述社区口径，预计 10 月 3 日收到首笔 AQAv2 分配，USDC 储备被动收益约 1450 万美元流入 Assistance Fund，用于回购（并常写销毁）HYPE。机制背景常写，稳定币部署者约 90% 储备收益分给协议，结算周期约 30 天，周期结束后第 8 天转入 AF；正式计提自 8/26，故称首次支付落在 10/3。info API 自加总（拍点 UTC 2026-10-03T00:16:05Z / CST 08:16:05）：OI≈$12.68B（较昨≈$12.53B，↑约 1.17%），dayNtl≈$8.15B（较昨≈$5.63B，↑约 44.80%），HYPE mark≈89.587（↑约 2.06%），HYPE 单币 OI≈$1.82B（↑约 0.63%）。资产数 234。前端 24H 仍见 7.2B（疑占位）。正式里程碑本窗无。S 三官号与官站/Docs/foundation 无对应一手。",
+   "basis": "A 媒体/待验证 — https://www.odaily.news/zh-CN/newsflash/522097 ；https://www.techflowpost.com/en-US/newsletter/138620 ；https://www.panews.io/articles/01a0fbca-5d3a-704b-be5a-7e03a9970470 ；非正式 API（见同目录 info_api_raw_summary.json）；前端 https://hyperliquid.xyz",
+   "risk": "到账延迟或金额偏离，或到账后无即时回购，都会改写「首笔已落地」读感。单日拍点差可能含波动。禁止把媒体预期写成已确认入账，禁止买卖建议。",
+   "confidence": "中（「上述媒体稿窗内存在」）；低（「$14.5M 是否按时到账 AF 并即时回购」）；高（「本拍相对昨拍的方向与量级」）。",
+   "links": [
+    {
+     "text": "A 媒体/待验证",
+     "url": "https://www.odaily.news/zh-CN/newsflash/522097",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://www.techflowpost.com/en-US/newsletter/138620",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://www.panews.io/articles/01a0fbca-5d3a-704b-be5a-7e03a9970470",
+     "field": "依据"
+    },
+    {
+     "text": "前端",
+     "url": "https://hyperliquid.xyz",
+     "field": "依据"
+    }
+   ],
+   "uncertain": true,
+   "markers": [
+    "待验证"
+   ],
+   "markers_by_field": {
+    "依据": [
+     "待验证"
+    ],
+    "标题": [
+     "待验证"
+    ]
+   },
+   "basis_layers": [
+    "A"
+   ],
+   "fields": {
+    "结论": "本窗最热的新媒体信号是 AQAv2 首笔储备收益分配预期。与非正式量能回升同窗，但前者非官站一手，后者是拍点对照，都不是正式里程碑。",
+    "为什么": "Odaily / TechFlow / PANews / Chaincatcher 窗内转述社区口径，预计 10 月 3 日收到首笔 AQAv2 分配，USDC 储备被动收益约 1450 万美元流入 Assistance Fund，用于回购（并常写销毁）HYPE。机制背景常写，稳定币部署者约 90% 储备收益分给协议，结算周期约 30 天，周期结束后第 8 天转入 AF；正式计提自 8/26，故称首次支付落在 10/3。info API 自加总（拍点 UTC 2026-10-03T00:16:05Z / CST 08:16:05）：OI≈$12.68B（较昨≈$12.53B，↑约 1.17%），dayNtl≈$8.15B（较昨≈$5.63B，↑约 44.80%），HYPE mark≈89.587（↑约 2.06%），HYPE 单币 OI≈$1.82B（↑约 0.63%）。资产数 234。前端 24H 仍见 7.2B（疑占位）。正式里程碑本窗无。S 三官号与官站/Docs/foundation 无对应一手。",
+    "依据": "A 媒体/待验证 — https://www.odaily.news/zh-CN/newsflash/522097 ；https://www.techflowpost.com/en-US/newsletter/138620 ；https://www.panews.io/articles/01a0fbca-5d3a-704b-be5a-7e03a9970470 ；非正式 API（见同目录 info_api_raw_summary.json）；前端 https://hyperliquid.xyz",
+    "风险/反证": "到账延迟或金额偏离，或到账后无即时回购，都会改写「首笔已落地」读感。单日拍点差可能含波动。禁止把媒体预期写成已确认入账，禁止买卖建议。",
+    "置信度": "中（「上述媒体稿窗内存在」）；低（「$14.5M 是否按时到账 AF 并即时回购」）；高（「本拍相对昨拍的方向与量级」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：本窗最热的新媒体信号是 AQAv2 首笔储备收益分配预期。与非正式量能回升同窗，但前者非官站一手，后者是拍点对照，都不是正式里程碑。\n- **为什么**：Odaily / TechFlow / PANews / Chaincatcher 窗内转述社区口径，预计 10 月 3 日收到首笔 AQAv2 分配，USDC 储备被动收益约 1450 万美元流入 Assistance Fund，用于回购（并常写销毁）HYPE。机制背景常写，稳定币部署者约 90% 储备收益分给协议，结算周期约 30 天，周期结束后第 8 天转入 AF；正式计提自 8/26，故称首次支付落在 10/3。info API 自加总（拍点 UTC 2026-10-03T00:16:05Z / CST 08:16:05）：OI≈$12.68B（较昨≈$12.53B，↑约 1.17%），dayNtl≈$8.15B（较昨≈$5.63B，↑约 44.80%），HYPE mark≈89.587（↑约 2.06%），HYPE 单币 OI≈$1.82B（↑约 0.63%）。资产数 234。前端 24H 仍见 7.2B（疑占位）。正式里程碑本窗无。S 三官号与官站/Docs/foundation 无对应一手。\n- **依据**：A 媒体/待验证 — https://www.odaily.news/zh-CN/newsflash/522097 ；https://www.techflowpost.com/en-US/newsletter/138620 ；https://www.panews.io/articles/01a0fbca-5d3a-704b-be5a-7e03a9970470 ；非正式 API（见同目录 info_api_raw_summary.json）；前端 https://hyperliquid.xyz\n- **风险/反证**：到账延迟或金额偏离，或到账后无即时回购，都会改写「首笔已落地」读感。单日拍点差可能含波动。禁止把媒体预期写成已确认入账，禁止买卖建议。\n- **置信度**：中（「上述媒体稿窗内存在」）；低（「$14.5M 是否按时到账 AF 并即时回购」）；高（「本拍相对昨拍的方向与量级」）。"
+  },
+  {
+   "num": 2,
+   "title": "Kinetiq claim 推进：0xOmnia 自责沟通「本可更好」，称一日内 >41% 已领（Kinetiq 转发）",
+   "conclusion": "相对昨窗 $0.26/KNTQ 认购条款首发，本窗主线换成领取速度与沟通补救。领取率数字来自当事人原帖，非官方审计。",
+   "why": "@0xOmnia 发帖称认领沟通「本可更好」，并称分配一日内 >41% 已领（fully unlocked, no vest）；@Kinetiq_xyz 转发该帖，互动相对高。Kinetiq / Elysium 有回「km」。昨窗 Ascend 对齐澄清与中文「付费空投」争议本窗无同等一手或有机续写。S 三官号无对应产品公告。",
+   "basis": "A 事实 — https://x.com/0xOmnia/status/2106154682846445772",
+   "risk": "领取率未做链上交叉前，勿写成全部分配已过半。沟通自责不等于条款变更。禁止买卖建议。",
+   "confidence": "高（「原帖与 Kinetiq 转发窗内存在」）；低（「>41% 是否代表全部分配进度，及中文侧是否仍有公平性质疑」）。",
+   "links": [
+    {
+     "text": "A 事实",
+     "url": "https://x.com/0xOmnia/status/2106154682846445772",
+     "field": "依据"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [
+    "A"
+   ],
+   "fields": {
+    "结论": "相对昨窗 $0.26/KNTQ 认购条款首发，本窗主线换成领取速度与沟通补救。领取率数字来自当事人原帖，非官方审计。",
+    "为什么": "@0xOmnia 发帖称认领沟通「本可更好」，并称分配一日内 >41% 已领（fully unlocked, no vest）；@Kinetiq_xyz 转发该帖，互动相对高。Kinetiq / Elysium 有回「km」。昨窗 Ascend 对齐澄清与中文「付费空投」争议本窗无同等一手或有机续写。S 三官号无对应产品公告。",
+    "依据": "A 事实 — https://x.com/0xOmnia/status/2106154682846445772",
+    "风险/反证": "领取率未做链上交叉前，勿写成全部分配已过半。沟通自责不等于条款变更。禁止买卖建议。",
+    "置信度": "高（「原帖与 Kinetiq 转发窗内存在」）；低（「>41% 是否代表全部分配进度，及中文侧是否仍有公平性质疑」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：相对昨窗 $0.26/KNTQ 认购条款首发，本窗主线换成领取速度与沟通补救。领取率数字来自当事人原帖，非官方审计。\n- **为什么**：@0xOmnia 发帖称认领沟通「本可更好」，并称分配一日内 >41% 已领（fully unlocked, no vest）；@Kinetiq_xyz 转发该帖，互动相对高。Kinetiq / Elysium 有回「km」。昨窗 Ascend 对齐澄清与中文「付费空投」争议本窗无同等一手或有机续写。S 三官号无对应产品公告。\n- **依据**：A 事实 — https://x.com/0xOmnia/status/2106154682846445772\n- **风险/反证**：领取率未做链上交叉前，勿写成全部分配已过半。沟通自责不等于条款变更。禁止买卖建议。\n- **置信度**：高（「原帖与 Kinetiq 转发窗内存在」）；低（「>41% 是否代表全部分配进度，及中文侧是否仍有公平性质疑」）。"
+  },
+  {
+   "num": 3,
+   "title": "新钱包自 Coinbase Prime 提取约 19.8 万枚 HYPE / ~$17.2M（提取≠已卖）；Labs 赎回叙事本窗消退",
+   "conclusion": "链上注意力切到「新地址从机构端提取」。媒体写钱包仍持有。与此前 Labs≈3.75M 赎回/Flowdesk、Multicoin→Coinbase Prime 为不同地址叙事，勿混。",
+   "why": "Odaily / BBX / TokenPost / Chaincatcher 等转述 Onchain Lens，称新创建钱包从 Coinbase Prime 累计买入并提取约 198,290 HYPE（媒体约 $17.22M–$17.29M），钱包仍持有。HypedLaunches 有二手转发。Labs≈3.75M 赎回/~10/7→Flowdesk 主簇仍在昨窗，本窗未见同口径新头条强推进。S 层无交叉。",
+   "basis": "A 媒体/待验证 — https://www.odaily.news/zh-CN/newsflash/522224 ；https://bbx.com/zh-Hans/news-detail/3114951 ；https://www.tokenpost.com/news/investing/26477",
+   "risk": "若公开盘出现同源抛压，叙事会翻成「砸盘」；若持续持有，「提取=抛售」读感难立。禁止写成已卖。禁止买卖建议。",
+   "confidence": "中（「上述媒体转述窗内存在」）；低（「后续处置与意图」）。",
+   "links": [
+    {
+     "text": "A 媒体/待验证",
+     "url": "https://www.odaily.news/zh-CN/newsflash/522224",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://bbx.com/zh-Hans/news-detail/3114951",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://www.tokenpost.com/news/investing/26477",
+     "field": "依据"
+    }
+   ],
+   "uncertain": true,
+   "markers": [
+    "待验证"
+   ],
+   "markers_by_field": {
+    "依据": [
+     "待验证"
+    ]
+   },
+   "basis_layers": [
+    "A"
+   ],
+   "fields": {
+    "结论": "链上注意力切到「新地址从机构端提取」。媒体写钱包仍持有。与此前 Labs≈3.75M 赎回/Flowdesk、Multicoin→Coinbase Prime 为不同地址叙事，勿混。",
+    "为什么": "Odaily / BBX / TokenPost / Chaincatcher 等转述 Onchain Lens，称新创建钱包从 Coinbase Prime 累计买入并提取约 198,290 HYPE（媒体约 $17.22M–$17.29M），钱包仍持有。HypedLaunches 有二手转发。Labs≈3.75M 赎回/~10/7→Flowdesk 主簇仍在昨窗，本窗未见同口径新头条强推进。S 层无交叉。",
+    "依据": "A 媒体/待验证 — https://www.odaily.news/zh-CN/newsflash/522224 ；https://bbx.com/zh-Hans/news-detail/3114951 ；https://www.tokenpost.com/news/investing/26477",
+    "风险/反证": "若公开盘出现同源抛压，叙事会翻成「砸盘」；若持续持有，「提取=抛售」读感难立。禁止写成已卖。禁止买卖建议。",
+    "置信度": "中（「上述媒体转述窗内存在」）；低（「后续处置与意图」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：链上注意力切到「新地址从机构端提取」。媒体写钱包仍持有。与此前 Labs≈3.75M 赎回/Flowdesk、Multicoin→Coinbase Prime 为不同地址叙事，勿混。\n- **为什么**：Odaily / BBX / TokenPost / Chaincatcher 等转述 Onchain Lens，称新创建钱包从 Coinbase Prime 累计买入并提取约 198,290 HYPE（媒体约 $17.22M–$17.29M），钱包仍持有。HypedLaunches 有二手转发。Labs≈3.75M 赎回/~10/7→Flowdesk 主簇仍在昨窗，本窗未见同口径新头条强推进。S 层无交叉。\n- **依据**：A 媒体/待验证 — https://www.odaily.news/zh-CN/newsflash/522224 ；https://bbx.com/zh-Hans/news-detail/3114951 ；https://www.tokenpost.com/news/investing/26477\n- **风险/反证**：若公开盘出现同源抛压，叙事会翻成「砸盘」；若持续持有，「提取=抛售」读感难立。禁止写成已卖。禁止买卖建议。\n- **置信度**：中（「上述媒体转述窗内存在」）；低（「后续处置与意图」）。"
+  },
+  {
+   "num": 4,
+   "title": "Nest 报 Epoch 44 锁仓净增并开 Epoch 45 奖 400 HYPE；Legend 上线 Chart Notes；Entropy 发 affiliate badges",
+   "conclusion": "生态产品侧本窗仍有项目方一手。权重次于 AQAv2 预期与量能回升，但构成可核的产品 continuum。",
+   "why": "@NestExchange 称 Epoch 44 收官锁仓净增超 500 万 NEST、veNEST 分 100% 协议收入；Epoch 45 新锁 NEST 再奖 400 HYPE（HYPE Engine Vault）。@legendtrade 上线 Chart Notes（仓位旁注上下文、看他人想法）。@entropyIO 发放首批 affiliate badges，面向发帖/拆新闻账号。昨 Nest Q3 报告首发本窗无同等重复，今日推进到 Epoch 收官数字与新奖励。",
+   "basis": "A 事实 — https://x.com/NestExchange/status/2106154159309304122 ；https://x.com/legendtrade/status/2105983374339059786 ；https://x.com/entropyIO/status/2106063671361434054",
+   "risk": "Nest 锁仓净增数字以项目方自报为准，缺独立 TVL 交叉前勿升正式里程碑。产品更新不等于协议层数据里程碑。",
+   "confidence": "高（「三方原帖窗内存在」）；低（「对协议层里程碑与锁仓可持续性的影响」）。",
+   "links": [
+    {
+     "text": "A 事实",
+     "url": "https://x.com/NestExchange/status/2106154159309304122",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://x.com/legendtrade/status/2105983374339059786",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://x.com/entropyIO/status/2106063671361434054",
+     "field": "依据"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [
+    "A"
+   ],
+   "fields": {
+    "结论": "生态产品侧本窗仍有项目方一手。权重次于 AQAv2 预期与量能回升，但构成可核的产品 continuum。",
+    "为什么": "@NestExchange 称 Epoch 44 收官锁仓净增超 500 万 NEST、veNEST 分 100% 协议收入；Epoch 45 新锁 NEST 再奖 400 HYPE（HYPE Engine Vault）。@legendtrade 上线 Chart Notes（仓位旁注上下文、看他人想法）。@entropyIO 发放首批 affiliate badges，面向发帖/拆新闻账号。昨 Nest Q3 报告首发本窗无同等重复，今日推进到 Epoch 收官数字与新奖励。",
+    "依据": "A 事实 — https://x.com/NestExchange/status/2106154159309304122 ；https://x.com/legendtrade/status/2105983374339059786 ；https://x.com/entropyIO/status/2106063671361434054",
+    "风险/反证": "Nest 锁仓净增数字以项目方自报为准，缺独立 TVL 交叉前勿升正式里程碑。产品更新不等于协议层数据里程碑。",
+    "置信度": "高（「三方原帖窗内存在」）；低（「对协议层里程碑与锁仓可持续性的影响」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：生态产品侧本窗仍有项目方一手。权重次于 AQAv2 预期与量能回升，但构成可核的产品 continuum。\n- **为什么**：@NestExchange 称 Epoch 44 收官锁仓净增超 500 万 NEST、veNEST 分 100% 协议收入；Epoch 45 新锁 NEST 再奖 400 HYPE（HYPE Engine Vault）。@legendtrade 上线 Chart Notes（仓位旁注上下文、看他人想法）。@entropyIO 发放首批 affiliate badges，面向发帖/拆新闻账号。昨 Nest Q3 报告首发本窗无同等重复，今日推进到 Epoch 收官数字与新奖励。\n- **依据**：A 事实 — https://x.com/NestExchange/status/2106154159309304122 ；https://x.com/legendtrade/status/2105983374339059786 ；https://x.com/entropyIO/status/2106063671361434054\n- **风险/反证**：Nest 锁仓净增数字以项目方自报为准，缺独立 TVL 交叉前勿升正式里程碑。产品更新不等于协议层数据里程碑。\n- **置信度**：高（「三方原帖窗内存在」）；低（「对协议层里程碑与锁仓可持续性的影响」）。"
+  },
+  {
+   "num": 5,
+   "title": "HyperTracker 称周五一小时内多头清算超 $55m；同窗非正式 OI、dayNtl 与 HYPE 均升，勿写成单一因果",
+   "conclusion": "清算叙事与量能回升同窗出现。两边各自可核到叙事或拍点，但禁止用清算解释全部回升，也禁止用回升否定清算。",
+   "why": "@HyperTracker 称周五一小时内 HL 多头清算超 $55m，单笔最大 BTC long ≈$3.49m。同窗非正式 dayNtl↑约 44.80%，OI↑约 1.17%，HYPE↑约 2.06%。更稳妥的读法是波动换手同窗。「清算打穿」或「全面回暖」二选一都过满。",
+   "basis": "A 叙事 — https://x.com/HyperTracker/status/2106096150281339150 ；非正式 API（见 info_api_raw_summary.json）",
+   "risk": "清算口径为监测账号叙事，非官方审计。连续拍点再降或清算扩大，都会改写读感。禁止买卖建议。",
+   "confidence": "中（「HyperTracker 帖与本拍数字各自存在」）；低（「清算与量能回升的因果」）。",
+   "links": [
+    {
+     "text": "A 叙事",
+     "url": "https://x.com/HyperTracker/status/2106096150281339150",
+     "field": "依据"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [
+    "A"
+   ],
+   "fields": {
+    "结论": "清算叙事与量能回升同窗出现。两边各自可核到叙事或拍点，但禁止用清算解释全部回升，也禁止用回升否定清算。",
+    "为什么": "@HyperTracker 称周五一小时内 HL 多头清算超 $55m，单笔最大 BTC long ≈$3.49m。同窗非正式 dayNtl↑约 44.80%，OI↑约 1.17%，HYPE↑约 2.06%。更稳妥的读法是波动换手同窗。「清算打穿」或「全面回暖」二选一都过满。",
+    "依据": "A 叙事 — https://x.com/HyperTracker/status/2106096150281339150 ；非正式 API（见 info_api_raw_summary.json）",
+    "风险/反证": "清算口径为监测账号叙事，非官方审计。连续拍点再降或清算扩大，都会改写读感。禁止买卖建议。",
+    "置信度": "中（「HyperTracker 帖与本拍数字各自存在」）；低（「清算与量能回升的因果」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：清算叙事与量能回升同窗出现。两边各自可核到叙事或拍点，但禁止用清算解释全部回升，也禁止用回升否定清算。\n- **为什么**：@HyperTracker 称周五一小时内 HL 多头清算超 $55m，单笔最大 BTC long ≈$3.49m。同窗非正式 dayNtl↑约 44.80%，OI↑约 1.17%，HYPE↑约 2.06%。更稳妥的读法是波动换手同窗。「清算打穿」或「全面回暖」二选一都过满。\n- **依据**：A 叙事 — https://x.com/HyperTracker/status/2106096150281339150 ；非正式 API（见 info_api_raw_summary.json）\n- **风险/反证**：清算口径为监测账号叙事，非官方审计。连续拍点再降或清算扩大，都会改写读感。禁止买卖建议。\n- **置信度**：中（「HyperTracker 帖与本拍数字各自存在」）；低（「清算与量能回升的因果」）。"
+  },
+  {
+   "num": 6,
+   "title": "众议院调查弱续写，答复仍 10-13；币安提现仍无「已开放」新 CMS；S 三官号静默；拒绝「解锁买方+回购明天开始」传闻当事实",
+   "conclusion": "监管美线与 CEX 提现入口本窗无新闭环。S 层三官号无新帖。二手传闻「10 月最大解锁已有买方、回购明天开始」非官宣，不进事实层。",
+   "why": "众议院监督委员会一手仍为 2026-09-29 新闻稿与公函，本窗 oversight 搜索无新日期材料；回复期限仍 2026-10-13，委员会未认定有罪。Binance catalog 本窗未见「Withdrawals are now open / 提现已开放」新帖；上线帖仍写提现预计 2026-09-25 11:00 UTC。@HyperliquidX / @chameleon_jeff / @HyperFND 窗内均为真零。HypedLaunches 转发 AltcoinView 称解锁已有买方、回购「明天开始」，非官宣，标传闻。",
+   "basis": "弱续写一手 — https://oversight.house.gov/release/comer-continues-investigation-into-insider-trading-on-online-prediction-market-platforms/ ；https://oversight.house.gov/wp-content/uploads/2026/09/Hyperliquid-Letter-9.29.26.pdf ；CMS — https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d ；传闻 — https://x.com/HypedLaunches/status/2106077467245260917",
+   "risk": "Labs 若公开回应公函，或提现页显示已开，叙事会改写。传闻若后续获官宣或链上交叉，再升格评估。提现页实态未在本采集直接核到。禁止买卖建议。",
+   "confidence": "高（「无新公函、无新开放 CMS，以及 S 三官号静默与该帖为非官宣传闻这四件」）；低（「调查叙事演化、提现是否已实际开放，以及传闻是否落地」）。",
+   "links": [
+    {
+     "text": "弱续写一手",
+     "url": "https://oversight.house.gov/release/comer-continues-investigation-into-insider-trading-on-online-prediction-market-platforms/",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://oversight.house.gov/wp-content/uploads/2026/09/Hyperliquid-Letter-9.29.26.pdf",
+     "field": "依据"
+    },
+    {
+     "text": "CMS",
+     "url": "https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d",
+     "field": "依据"
+    },
+    {
+     "text": "传闻",
+     "url": "https://x.com/HypedLaunches/status/2106077467245260917",
+     "field": "依据"
+    }
+   ],
+   "uncertain": true,
+   "markers": [
+    "传闻"
+   ],
+   "markers_by_field": {
+    "结论": [
+     "传闻"
+    ],
+    "为什么": [
+     "传闻"
+    ],
+    "依据": [
+     "传闻"
+    ],
+    "风险/反证": [
+     "传闻"
+    ],
+    "置信度": [
+     "传闻"
+    ],
+    "标题": [
+     "传闻"
+    ]
+   },
+   "basis_layers": [],
+   "fields": {
+    "结论": "监管美线与 CEX 提现入口本窗无新闭环。S 层三官号无新帖。二手传闻「10 月最大解锁已有买方、回购明天开始」非官宣，不进事实层。",
+    "为什么": "众议院监督委员会一手仍为 2026-09-29 新闻稿与公函，本窗 oversight 搜索无新日期材料；回复期限仍 2026-10-13，委员会未认定有罪。Binance catalog 本窗未见「Withdrawals are now open / 提现已开放」新帖；上线帖仍写提现预计 2026-09-25 11:00 UTC。@HyperliquidX / @chameleon_jeff / @HyperFND 窗内均为真零。HypedLaunches 转发 AltcoinView 称解锁已有买方、回购「明天开始」，非官宣，标传闻。",
+    "依据": "弱续写一手 — https://oversight.house.gov/release/comer-continues-investigation-into-insider-trading-on-online-prediction-market-platforms/ ；https://oversight.house.gov/wp-content/uploads/2026/09/Hyperliquid-Letter-9.29.26.pdf ；CMS — https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d ；传闻 — https://x.com/HypedLaunches/status/2106077467245260917",
+    "风险/反证": "Labs 若公开回应公函，或提现页显示已开，叙事会改写。传闻若后续获官宣或链上交叉，再升格评估。提现页实态未在本采集直接核到。禁止买卖建议。",
+    "置信度": "高（「无新公函、无新开放 CMS，以及 S 三官号静默与该帖为非官宣传闻这四件」）；低（「调查叙事演化、提现是否已实际开放，以及传闻是否落地」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：监管美线与 CEX 提现入口本窗无新闭环。S 层三官号无新帖。二手传闻「10 月最大解锁已有买方、回购明天开始」非官宣，不进事实层。\n- **为什么**：众议院监督委员会一手仍为 2026-09-29 新闻稿与公函，本窗 oversight 搜索无新日期材料；回复期限仍 2026-10-13，委员会未认定有罪。Binance catalog 本窗未见「Withdrawals are now open / 提现已开放」新帖；上线帖仍写提现预计 2026-09-25 11:00 UTC。@HyperliquidX / @chameleon_jeff / @HyperFND 窗内均为真零。HypedLaunches 转发 AltcoinView 称解锁已有买方、回购「明天开始」，非官宣，标传闻。\n- **依据**：弱续写一手 — https://oversight.house.gov/release/comer-continues-investigation-into-insider-trading-on-online-prediction-market-platforms/ ；https://oversight.house.gov/wp-content/uploads/2026/09/Hyperliquid-Letter-9.29.26.pdf ；CMS — https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d ；传闻 — https://x.com/HypedLaunches/status/2106077467245260917\n- **风险/反证**：Labs 若公开回应公函，或提现页显示已开，叙事会改写。传闻若后续获官宣或链上交叉，再升格评估。提现页实态未在本采集直接核到。禁止买卖建议。\n- **置信度**：高（「无新公函、无新开放 CMS，以及 S 三官号静默与该帖为非官宣传闻这四件」）；低（「调查叙事演化、提现是否已实际开放，以及传闻是否落地」）。"
+  }
+ ],
+ "sections": [
+  {
+   "title": "今天怎么看",
+   "subsections": [],
+   "body_md": "本窗媒体与社区最抢注意力的，是预计 10 月 3 日首笔 AQAv2 储备收益约 $14.5M 流入 Assistance Fund，用于回购 HYPE。口径来自 HL HUB 等社区与 Odaily / TechFlow / PANews / Chaincatcher 转述，非 S 层官站一手；金额为估计，到账与是否即时回购都待链上核验。数字侧由昨降转升：非正式 OI 约 $12.68B（↑约 1.17%），dayNtl 约 $8.15B（↑约 44.80%），HYPE mark≈89.587（↑约 2.06%），HYPE 单币 OI 约 $1.82B（↑约 0.63%）。Kinetiq claim 从认购条款推进到执行。0xOmnia 自责沟通「本可更好」，并称一日内 >41% 已领（Kinetiq 转发）。链上监测出现新钱包从 Coinbase Prime 提取约 19.8 万枚 HYPE / ~$17.2M，媒体写仍持有，提取不等于已卖。Nest 报 Epoch 44 锁仓净增并开 Epoch 45 奖 400 HYPE；Legend 与 Entropy 则分别上线 Chart Notes、发放 affiliate badges。HyperTracker 称周五一小时内多头清算超 $55m，与量能回升同窗，勿写成单一因果。众议院调查本窗无新公函，答复期限仍 10-13。币安提现仍无「已开放」新 CMS。S 三官号静默。正式里程碑空。解锁买方加回购「明天开始」属二手传闻，非官宣。中文 X 有机可用约 3 条，样本严重不足。"
+  },
+  {
+   "title": "观点",
+   "subsections": [
+    {
+     "title": "1. 媒体称预计 10/3 首笔 AQAv2 约 $14.5M 入 Assistance Fund 回购 HYPE（待验证）；非正式 dayNtl 约 $8.15B↑约 44.80%，OI 与 HYPE 同升",
+     "body_md": "- **结论**：本窗最热的新媒体信号是 AQAv2 首笔储备收益分配预期。与非正式量能回升同窗，但前者非官站一手，后者是拍点对照，都不是正式里程碑。\n- **为什么**：Odaily / TechFlow / PANews / Chaincatcher 窗内转述社区口径，预计 10 月 3 日收到首笔 AQAv2 分配，USDC 储备被动收益约 1450 万美元流入 Assistance Fund，用于回购（并常写销毁）HYPE。机制背景常写，稳定币部署者约 90% 储备收益分给协议，结算周期约 30 天，周期结束后第 8 天转入 AF；正式计提自 8/26，故称首次支付落在 10/3。info API 自加总（拍点 UTC 2026-10-03T00:16:05Z / CST 08:16:05）：OI≈$12.68B（较昨≈$12.53B，↑约 1.17%），dayNtl≈$8.15B（较昨≈$5.63B，↑约 44.80%），HYPE mark≈89.587（↑约 2.06%），HYPE 单币 OI≈$1.82B（↑约 0.63%）。资产数 234。前端 24H 仍见 7.2B（疑占位）。正式里程碑本窗无。S 三官号与官站/Docs/foundation 无对应一手。\n- **依据**：A 媒体/待验证 — https://www.odaily.news/zh-CN/newsflash/522097 ；https://www.techflowpost.com/en-US/newsletter/138620 ；https://www.panews.io/articles/01a0fbca-5d3a-704b-be5a-7e03a9970470 ；非正式 API（见同目录 info_api_raw_summary.json）；前端 https://hyperliquid.xyz\n- **风险/反证**：到账延迟或金额偏离，或到账后无即时回购，都会改写「首笔已落地」读感。单日拍点差可能含波动。禁止把媒体预期写成已确认入账，禁止买卖建议。\n- **置信度**：中（「上述媒体稿窗内存在」）；低（「$14.5M 是否按时到账 AF 并即时回购」）；高（「本拍相对昨拍的方向与量级」）。"
+    },
+    {
+     "title": "2. Kinetiq claim 推进：0xOmnia 自责沟通「本可更好」，称一日内 >41% 已领（Kinetiq 转发）",
+     "body_md": "- **结论**：相对昨窗 $0.26/KNTQ 认购条款首发，本窗主线换成领取速度与沟通补救。领取率数字来自当事人原帖，非官方审计。\n- **为什么**：@0xOmnia 发帖称认领沟通「本可更好」，并称分配一日内 >41% 已领（fully unlocked, no vest）；@Kinetiq_xyz 转发该帖，互动相对高。Kinetiq / Elysium 有回「km」。昨窗 Ascend 对齐澄清与中文「付费空投」争议本窗无同等一手或有机续写。S 三官号无对应产品公告。\n- **依据**：A 事实 — https://x.com/0xOmnia/status/2106154682846445772\n- **风险/反证**：领取率未做链上交叉前，勿写成全部分配已过半。沟通自责不等于条款变更。禁止买卖建议。\n- **置信度**：高（「原帖与 Kinetiq 转发窗内存在」）；低（「>41% 是否代表全部分配进度，及中文侧是否仍有公平性质疑」）。"
+    },
+    {
+     "title": "3. 新钱包自 Coinbase Prime 提取约 19.8 万枚 HYPE / ~$17.2M（提取≠已卖）；Labs 赎回叙事本窗消退",
+     "body_md": "- **结论**：链上注意力切到「新地址从机构端提取」。媒体写钱包仍持有。与此前 Labs≈3.75M 赎回/Flowdesk、Multicoin→Coinbase Prime 为不同地址叙事，勿混。\n- **为什么**：Odaily / BBX / TokenPost / Chaincatcher 等转述 Onchain Lens，称新创建钱包从 Coinbase Prime 累计买入并提取约 198,290 HYPE（媒体约 $17.22M–$17.29M），钱包仍持有。HypedLaunches 有二手转发。Labs≈3.75M 赎回/~10/7→Flowdesk 主簇仍在昨窗，本窗未见同口径新头条强推进。S 层无交叉。\n- **依据**：A 媒体/待验证 — https://www.odaily.news/zh-CN/newsflash/522224 ；https://bbx.com/zh-Hans/news-detail/3114951 ；https://www.tokenpost.com/news/investing/26477\n- **风险/反证**：若公开盘出现同源抛压，叙事会翻成「砸盘」；若持续持有，「提取=抛售」读感难立。禁止写成已卖。禁止买卖建议。\n- **置信度**：中（「上述媒体转述窗内存在」）；低（「后续处置与意图」）。"
+    },
+    {
+     "title": "4. Nest 报 Epoch 44 锁仓净增并开 Epoch 45 奖 400 HYPE；Legend 上线 Chart Notes；Entropy 发 affiliate badges",
+     "body_md": "- **结论**：生态产品侧本窗仍有项目方一手。权重次于 AQAv2 预期与量能回升，但构成可核的产品 continuum。\n- **为什么**：@NestExchange 称 Epoch 44 收官锁仓净增超 500 万 NEST、veNEST 分 100% 协议收入；Epoch 45 新锁 NEST 再奖 400 HYPE（HYPE Engine Vault）。@legendtrade 上线 Chart Notes（仓位旁注上下文、看他人想法）。@entropyIO 发放首批 affiliate badges，面向发帖/拆新闻账号。昨 Nest Q3 报告首发本窗无同等重复，今日推进到 Epoch 收官数字与新奖励。\n- **依据**：A 事实 — https://x.com/NestExchange/status/2106154159309304122 ；https://x.com/legendtrade/status/2105983374339059786 ；https://x.com/entropyIO/status/2106063671361434054\n- **风险/反证**：Nest 锁仓净增数字以项目方自报为准，缺独立 TVL 交叉前勿升正式里程碑。产品更新不等于协议层数据里程碑。\n- **置信度**：高（「三方原帖窗内存在」）；低（「对协议层里程碑与锁仓可持续性的影响」）。"
+    },
+    {
+     "title": "5. HyperTracker 称周五一小时内多头清算超 $55m；同窗非正式 OI、dayNtl 与 HYPE 均升，勿写成单一因果",
+     "body_md": "- **结论**：清算叙事与量能回升同窗出现。两边各自可核到叙事或拍点，但禁止用清算解释全部回升，也禁止用回升否定清算。\n- **为什么**：@HyperTracker 称周五一小时内 HL 多头清算超 $55m，单笔最大 BTC long ≈$3.49m。同窗非正式 dayNtl↑约 44.80%，OI↑约 1.17%，HYPE↑约 2.06%。更稳妥的读法是波动换手同窗。「清算打穿」或「全面回暖」二选一都过满。\n- **依据**：A 叙事 — https://x.com/HyperTracker/status/2106096150281339150 ；非正式 API（见 info_api_raw_summary.json）\n- **风险/反证**：清算口径为监测账号叙事，非官方审计。连续拍点再降或清算扩大，都会改写读感。禁止买卖建议。\n- **置信度**：中（「HyperTracker 帖与本拍数字各自存在」）；低（「清算与量能回升的因果」）。"
+    },
+    {
+     "title": "6. 众议院调查弱续写，答复仍 10-13；币安提现仍无「已开放」新 CMS；S 三官号静默；拒绝「解锁买方+回购明天开始」传闻当事实",
+     "body_md": "- **结论**：监管美线与 CEX 提现入口本窗无新闭环。S 层三官号无新帖。二手传闻「10 月最大解锁已有买方、回购明天开始」非官宣，不进事实层。\n- **为什么**：众议院监督委员会一手仍为 2026-09-29 新闻稿与公函，本窗 oversight 搜索无新日期材料；回复期限仍 2026-10-13，委员会未认定有罪。Binance catalog 本窗未见「Withdrawals are now open / 提现已开放」新帖；上线帖仍写提现预计 2026-09-25 11:00 UTC。@HyperliquidX / @chameleon_jeff / @HyperFND 窗内均为真零。HypedLaunches 转发 AltcoinView 称解锁已有买方、回购「明天开始」，非官宣，标传闻。\n- **依据**：弱续写一手 — https://oversight.house.gov/release/comer-continues-investigation-into-insider-trading-on-online-prediction-market-platforms/ ；https://oversight.house.gov/wp-content/uploads/2026/09/Hyperliquid-Letter-9.29.26.pdf ；CMS — https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d ；传闻 — https://x.com/HypedLaunches/status/2106077467245260917\n- **风险/反证**：Labs 若公开回应公函，或提现页显示已开，叙事会改写。传闻若后续获官宣或链上交叉，再升格评估。提现页实态未在本采集直接核到。禁止买卖建议。\n- **置信度**：高（「无新公函、无新开放 CMS，以及 S 三官号静默与该帖为非官宣传闻这四件」）；低（「调查叙事演化、提现是否已实际开放，以及传闻是否落地」）。"
+    }
+   ],
+   "body_md": ""
+  },
+  {
+   "title": "社区共鸣点",
+   "subsections": [
+    {
+     "title": "可核情绪线索",
+     "body_md": "1. **英文侧 claim 沟通与领取速度是今日主情绪源；中文侧尚未形成可计量讨论**  \n   - **证据**：0xOmnia 自责+领取率帖获 Kinetiq 转发，互动相对高；中文过滤后有机约 3，未见对该帖的同等有机续写。  \n   - **推断**（非编造情绪）：读者若关心 claim，更可能先碰到英文项目方帖；中文侧核清欲本窗证据不足。**样本严重不足。**  \n   - **层级**：A 项目方 + C（极弱/近空）  \n   - **代表链接**：https://x.com/0xOmnia/status/2106154682846445772\n\n2. **注意力被币安产品与成人 spam 淹没；勿把「解锁」命中当 HYPE 解锁社区焦虑**  \n   - **证据**：C 层首查大量成人短剧模板命中「解锁」；币安链/bStocks 噪声高；解锁买方传闻仅英文二手。  \n   - **推断**：关键词命中严重污染，不能当社区在讨论 HYPE 解锁。样本不足。  \n   - **层级**：C（污染）  \n   - **代表链接**：暂无稳定有机链接（污染为主）；传闻对照 https://x.com/HypedLaunches/status/2106077467245260917\n\n3. **竞争叙事（Variational 资金效率）仅零星出现，证据不足**  \n   - **证据**：vistword 等回复串对比 Variational vs HL 资金效率；另有 hyperliquid:native 历史走势类比、吴说转 Tom Lee DAT 举例。  \n   - **推断**：竞争/估值讨论出现，但条数过少，不足证伪任何「社区主流看法」。**有效中文 X 样本严重不足。**  \n   - **层级**：C（极弱）  \n   - **代表链接**：https://x.com/vistword/status/2106173982873620741  \n   - **样本说明**：成人短剧 bot、币安链复读与 BTSE 模板禁止当情绪。"
+    }
+   ],
+   "body_md": "总判断：中文 X 首查约 50 条，污染极重。AI 成人短剧模板大量命中「解锁」，币安链/bStocks/币安人生占据注意力，BTSE 与返佣跟单模板仍在。过滤后 HL 相关有机可用约 **3** 条，**样本严重不足**，禁止写成全社区共识，也禁止用英文 claim/AQAv2/清算帖冒充中文共鸣。三条有机大致落在 Variational 资金效率 vs HL（回复串），也有 hyperliquid:native 历史回撤/反弹类比（价格叙事），以及吴说转 Tom Lee DAT 买入以 HYPE 为例（非 HL 社区自发）。昨日 KNTQ「付费空投」/公平性主线本窗**未见同等有机续写**。中文媒体侧覆盖了 AQAv2 分配预期与 CB Prime 新钱包提取，也有销毁再传播，但媒体转述不等于社区有机讨论。本窗有效中文帖几乎碰不到可计量的「最想听什么」主线。"
+  },
+  {
+   "title": "少数派",
+   "subsections": [],
+   "body_md": "- **AQAv2「已确认 $14.5M 入账 AF 并即时回购」**：媒体/社区预期外推。链上到账与回购未核前不抬成事实。\n- **Omnia「>41%」等于官方审计领取率**：当事人原帖自报，非链上审计结论。\n- **CB Prime 提取 = 已卖/砸盘**：媒体写钱包仍持有；提取≠已卖。\n- **「解锁已有买方、回购明天开始」已是官宣**：HypedLaunches/AltcoinView 二手传闻，非官宣。\n- **OI 达币安 0.27× / Dune RWA「perp=HL」 / Wormhole 多链 HYPE 已是正式里程碑**：HypedLaunches 二手，无一手交叉前不进正式。\n- **Onchain Lens 销毁 ~$1.8M 已是正式里程碑**：再传播二手，hl.eco 不可采。\n- **前端 7.2B 反映真实 24H 量**：与 API dayNtl≈$8.15B 量级接近，但前端展示长期疑占位，勿单独当量能证据。\n- **中文社区已形成 AQAv2/claim/清算共识**：有机约 3，样本严重不足；勿用英文帖冒充。\n- **BVIV 已在主 meta 可交易**：同次 universe 未见同名；本窗无新强头条。"
+  },
+  {
+   "title": "附录 · Phase1 素材摘要",
+   "subsections": [],
+   "body_md": "见同目录 `phase1-merged.md`（事件簇 / 主题分布 / 冲突草稿 / 待验证假设 / 关键数字 / 分层计数 / 失败源）。\n\n**本拍非正式**（UTC 2026-10-03T00:16:05Z / CST 08:16:05，234 资产）：OI≈$12.68B；dayNtl≈$8.15B；HYPE mark≈89.587；HYPE OI≈$1.82B；前端 7.2B 疑占位；NEAR perp OI≈$329.8M；ONEAR dayNtl≈$7.5M；universe 未见 BVIV；正式里程碑无。\n\n**采集失败摘要**：Discord widget 不可采；hl.eco Turnstile（销毁不采信）；hyperliquid.xyz/blog、/announcements 403；Docs sitemap 本窗 lastmod=0；CryptoBriefing Wormhole 403；FOCUS list 假阴性；中文成人 spam / 币安噪声 / BTSE 污染极重（有机约 3）；ECO/C/C+/liquid/Kinetiq 未翻页；entropy 补采跳过；B 跳过；S 三官号窗内静默；info API perp+spot 首轮 200。**未用旧快照。** X 花费约 $0.61。窗外：昨日 Kinetiq $0.26 认购条款首发 / Ascend 对齐 / Nest Q3 首发 / HPC MiCA→MiFID II / Copper 机构界面 / Labs≈3.75M→Flowdesk / 中文 KNTQ 付费空投本窗无同等一手重复；众议院一手仍 09-29，答复 10-13。"
+  }
+ ],
+ "source": {
+  "type": "hl-intel-daily",
+  "label": "HL 情报台日报",
+  "file": "/workspace/hl-daily-2026-10-03/daily-final.md",
+  "file_mtime": "2026-10-07T15:25:50+08:00"
+ },
+ "parse": {
+  "format": "v2-list-fields",
+  "warnings": []
+ }
+}

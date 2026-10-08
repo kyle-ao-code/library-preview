@@ -1,0 +1,107 @@
+{
+ "schema": "hl-morning/v1",
+ "date": "2026-10-03",
+ "updated_at": null,
+ "window": {
+  "start": "2026-10-02T08:14:00+08:00",
+  "end": "2026-10-03T08:14:00+08:00"
+ },
+ "items": [
+  {
+   "title": "Kinetiq claim 推进：0xOmnia 自责沟通「本可更好」，称一日内 >41% 已领（Kinetiq 转发）",
+   "summary": "相对昨窗 $0.26/KNTQ 认购条款首发，本窗主线换成领取速度与沟通补救。领取率数字来自当事人原帖，非官方审计。",
+   "sources": [
+    {
+     "name": "@0xOmnia",
+     "url": "https://x.com/0xOmnia/status/2106154682846445772"
+    }
+   ],
+   "flags": [],
+   "ref": {
+    "view": 2,
+    "source_field": "依据"
+   }
+  },
+  {
+   "title": "Nest 报 Epoch 44 锁仓净增并开 Epoch 45 奖 400 HYPE；Legend 上线 Chart Notes；Entropy 发 affiliate badges",
+   "summary": "生态产品侧本窗仍有项目方一手。权重次于 AQAv2 预期与量能回升，但构成可核的产品 continuum。",
+   "sources": [
+    {
+     "name": "@NestExchange",
+     "url": "https://x.com/NestExchange/status/2106154159309304122"
+    },
+    {
+     "name": "@legendtrade",
+     "url": "https://x.com/legendtrade/status/2105983374339059786"
+    },
+    {
+     "name": "@entropyIO",
+     "url": "https://x.com/entropyIO/status/2106063671361434054"
+    }
+   ],
+   "flags": [],
+   "ref": {
+    "view": 4,
+    "source_field": "依据"
+   }
+  },
+  {
+   "title": "HyperTracker 称周五一小时内多头清算超 $55m；同窗非正式 OI、dayNtl 与 HYPE 均升，勿写成单一因果",
+   "summary": "清算叙事与量能回升同窗出现。两边各自可核到叙事或拍点，但禁止用清算解释全部回升，也禁止用回升否定清算。",
+   "sources": [
+    {
+     "name": "@HyperTracker",
+     "url": "https://x.com/HyperTracker/status/2106096150281339150"
+    }
+   ],
+   "flags": [],
+   "ref": {
+    "view": 5,
+    "source_field": "依据"
+   }
+  }
+ ],
+ "disclaimer": "AI 整理，非投资建议",
+ "provenance": {
+  "generator": "build_morning.py 过渡数据（从 daily-final.md 转出）",
+  "file": "/workspace/hl-daily-2026-10-03/daily-final.md"
+ },
+ "_report": {
+  "skipped": [
+   {
+    "num": 1,
+    "title": "媒体称预计 10/3 首笔 AQAv2 约 $14.5M 入 Assistance Fund 回购 HYPE（待验证）；非正式 dayNtl 约 $8.15B↑约 44.80%，OI 与 HYPE 同升",
+    "reason": "不确定标记：依据「待验证」、标题「待验证」"
+   },
+   {
+    "num": 3,
+    "title": "新钱包自 Coinbase Prime 提取约 19.8 万枚 HYPE / ~$17.2M（提取≠已卖）；Labs 赎回叙事本窗消退",
+    "reason": "不确定标记：依据「待验证」"
+   },
+   {
+    "num": 6,
+    "title": "众议院调查弱续写，答复仍 10-13；币安提现仍无「已开放」新 CMS；S 三官号静默；拒绝「解锁买方+回购明天开始」传闻当事实",
+    "reason": "不确定标记：结论「传闻」、为什么「传闻」、依据「传闻」、风险/反证「传闻」、置信度「传闻」、标题「传闻」"
+   }
+  ],
+  "long_titles": [
+   {
+    "num": 2,
+    "length": 60,
+    "title": "Kinetiq claim 推进：0xOmnia 自责沟通「本可更好」，称一日内 >41% 已领（Kinetiq 转发）"
+   },
+   {
+    "num": 4,
+    "length": 91,
+    "title": "Nest 报 Epoch 44 锁仓净增并开 Epoch 45 奖 400 HYPE；Legend 上线 Chart Notes；Entropy 发 affiliate badges"
+   },
+   {
+    "num": 5,
+    "length": 64,
+    "title": "HyperTracker 称周五一小时内多头清算超 $55m；同窗非正式 OI、dayNtl 与 HYPE 均升，勿写成单一因果"
+   }
+  ],
+  "no_summary": [],
+  "no_sources": []
+ }
+}

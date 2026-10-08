@@ -1,0 +1,428 @@
+{
+ "date": "2026-10-04",
+ "title": "过去24h Hyperliquid 情报日报（2026-10-04）",
+ "window": {
+  "raw": "窗：Asia/Shanghai 2026-10-03 08:07 → 2026-10-04 08:07",
+  "start": "2026-10-03 08:07",
+  "end": "2026-10-04 08:07",
+  "tz": "Asia/Shanghai"
+ },
+ "notes": [],
+ "today": [
+  "本窗最抢注意力的，是 AQAv2 首笔储备收益约 $14.58M 推进到「协议侧已付」。CryptoBriefing 与 TechFlow 写截至 10/3 仍待转入 Assistance Fund；X 侧 HypedLaunches 与中文 RT 则写成已划入 AF/利息地址，并称 AF 尚未部署买入。同笔金额、路径表述不一致，须标矛盾待核，勿二选一当已证实。转入前不应当作已执行回购或销毁。数字侧：非正式 OI 约 $12.82B（↑约 1.09%），dayNtl 约 $1.94B（↓约 76.22%，相对昨高位大回落），HYPE mark≈89.475（↓约 0.13%），HYPE 单币 OI 约 $1.82B（↑约 0.23%）。OI 微升与 dayNtl 大回落同窗，勿写成单一因果。媒体称 Hyperliquid Strategies 再买入约 190 万枚 HYPE / ~$167M，持仓叙事约 3700 万枚，二手待核。Ascend 一手上线 Discord，并发 $20k Elysium grants，团队赴 TOKEN2049 新加坡约见。链上监测出现 Tate 向币安存入约 20,950 HYPE，也有约 387k HYPE 自 Kinetiq 转未知钱包；另有未来 7 日解质押约 5.88M、最大日约 10/7 的二手叙事。存入与转入都不等于已卖。Hyperdash 称下周新加坡展位；kylewmi 放出 TOKEN2049 四天六场 HL 相关活动清单。众议院调查本窗无新公函，答复期限仍 10-13。币安提现仍无「已开放」新 CMS。S 三官号静默。正式里程碑空。Season 3 / 10/5 线索与 Builder Codes、日费二手一律不作正式里程碑。中文 X 有机可用约 6–9 条，样本仍不足。"
+ ],
+ "views": [
+  {
+   "num": 1,
+   "title": "AQAv2≈$14.58M 已付协议侧：CryptoBriefing 写仍待转入 AF，HypedLaunches 写已划入 AF，口径差待核；AF 尚未部署买入；非正式 dayNtl 约 $1.94B↓约 76.22%，OI 约 $12.82B↑约 1.09%",
+   "conclusion": "昨日「预计 10/3 入账」推进到「协议侧已付」。媒体与 X 二手对是否已入 AF 表述冲突。AF 侧称尚未部署买入。非正式量能相对昨高位大幅回落，OI 微升。都不是正式里程碑。",
+   "why": "CryptoBriefing（Oct. 3, 2026）与 TechFlow 中文长文称，AQAv2 首笔储备收益约 1458 万美元 USDC 已落地协议侧，截至 10/3 仍待转入 Assistance Fund；转入前不应当作已执行回购/销毁。机制背景常写约 90% 储备净收益→AF，收益自 8/26 计提。HypedLaunches 同窗写成约 $14.58M 已划入 AF/利息地址，并写 AF 尚未部署买入；中文 RT 写成 14,580,777.21 USDC 已划入系统利息地址 0x5000。两套口径指向同笔金额，路径不一致，禁止二选一当已证实。info API 自加总（拍点 UTC 2026-10-04T00:11:42Z / CST 08:11:42）：OI≈$12.82B（较昨≈$12.68B，↑约 1.09%），dayNtl≈$1.94B（较昨≈$8.15B，↓约 76.22%），HYPE mark≈89.475（↓约 0.13%），HYPE 单币 OI≈$1.82B（↑约 0.23%）。资产数 234。前端 24H 仍见 7.2B（疑占位，与本拍 dayNtl 量级背离加大）。正式里程碑本窗无。S 三官号与官站/Docs/foundation 无对应一手（Docs 仅窗内节点技术文档 lastmod，非产品里程碑）。",
+   "basis": "A 媒体/待验证 — https://cryptobriefing.com/hyperliquid-usdc-yield-hype-buybacks-2/ ；https://www.techflowpost.com/article/34363 ；A/C 二手口径差 — https://x.com/HypedLaunches/status/2106372747391607046 ；https://x.com/ilovedoge11/status/2106487025608343761 ；非正式 API（见同目录 info_api_raw_summary.json）；前端 https://hyperliquid.xyz",
+   "risk": "若链上证实仅停利息地址未入 AF，或入 AF 后长期无买盘，「首笔已落地」读感会降温。若 HypedLaunches「已划入 AF」被证伪，口径差本身成为核清主线。单日拍点差可能含波动。禁止把媒体/二手写成已确认回购销毁，禁止买卖建议。",
+   "confidence": "中（「上述媒体稿与二手帖窗内存在，且路径表述冲突」）；低（「$14.58M 是否已入 AF、以及后续是否部署买入」）；高（「本拍相对昨拍的方向与量级」）。",
+   "links": [
+    {
+     "text": "A 媒体/待验证",
+     "url": "https://cryptobriefing.com/hyperliquid-usdc-yield-hype-buybacks-2/",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://www.techflowpost.com/article/34363",
+     "field": "依据"
+    },
+    {
+     "text": "A/C 二手口径差",
+     "url": "https://x.com/HypedLaunches/status/2106372747391607046",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://x.com/ilovedoge11/status/2106487025608343761",
+     "field": "依据"
+    },
+    {
+     "text": "前端",
+     "url": "https://hyperliquid.xyz",
+     "field": "依据"
+    }
+   ],
+   "uncertain": true,
+   "markers": [
+    "待验证"
+   ],
+   "markers_by_field": {
+    "依据": [
+     "待验证"
+    ]
+   },
+   "basis_layers": [
+    "A",
+    "C"
+   ],
+   "fields": {
+    "结论": "昨日「预计 10/3 入账」推进到「协议侧已付」。媒体与 X 二手对是否已入 AF 表述冲突。AF 侧称尚未部署买入。非正式量能相对昨高位大幅回落，OI 微升。都不是正式里程碑。",
+    "为什么": "CryptoBriefing（Oct. 3, 2026）与 TechFlow 中文长文称，AQAv2 首笔储备收益约 1458 万美元 USDC 已落地协议侧，截至 10/3 仍待转入 Assistance Fund；转入前不应当作已执行回购/销毁。机制背景常写约 90% 储备净收益→AF，收益自 8/26 计提。HypedLaunches 同窗写成约 $14.58M 已划入 AF/利息地址，并写 AF 尚未部署买入；中文 RT 写成 14,580,777.21 USDC 已划入系统利息地址 0x5000。两套口径指向同笔金额，路径不一致，禁止二选一当已证实。info API 自加总（拍点 UTC 2026-10-04T00:11:42Z / CST 08:11:42）：OI≈$12.82B（较昨≈$12.68B，↑约 1.09%），dayNtl≈$1.94B（较昨≈$8.15B，↓约 76.22%），HYPE mark≈89.475（↓约 0.13%），HYPE 单币 OI≈$1.82B（↑约 0.23%）。资产数 234。前端 24H 仍见 7.2B（疑占位，与本拍 dayNtl 量级背离加大）。正式里程碑本窗无。S 三官号与官站/Docs/foundation 无对应一手（Docs 仅窗内节点技术文档 lastmod，非产品里程碑）。",
+    "依据": "A 媒体/待验证 — https://cryptobriefing.com/hyperliquid-usdc-yield-hype-buybacks-2/ ；https://www.techflowpost.com/article/34363 ；A/C 二手口径差 — https://x.com/HypedLaunches/status/2106372747391607046 ；https://x.com/ilovedoge11/status/2106487025608343761 ；非正式 API（见同目录 info_api_raw_summary.json）；前端 https://hyperliquid.xyz",
+    "风险/反证": "若链上证实仅停利息地址未入 AF，或入 AF 后长期无买盘，「首笔已落地」读感会降温。若 HypedLaunches「已划入 AF」被证伪，口径差本身成为核清主线。单日拍点差可能含波动。禁止把媒体/二手写成已确认回购销毁，禁止买卖建议。",
+    "置信度": "中（「上述媒体稿与二手帖窗内存在，且路径表述冲突」）；低（「$14.58M 是否已入 AF、以及后续是否部署买入」）；高（「本拍相对昨拍的方向与量级」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：昨日「预计 10/3 入账」推进到「协议侧已付」。媒体与 X 二手对是否已入 AF 表述冲突。AF 侧称尚未部署买入。非正式量能相对昨高位大幅回落，OI 微升。都不是正式里程碑。\n- **为什么**：CryptoBriefing（Oct. 3, 2026）与 TechFlow 中文长文称，AQAv2 首笔储备收益约 1458 万美元 USDC 已落地协议侧，截至 10/3 仍待转入 Assistance Fund；转入前不应当作已执行回购/销毁。机制背景常写约 90% 储备净收益→AF，收益自 8/26 计提。HypedLaunches 同窗写成约 $14.58M 已划入 AF/利息地址，并写 AF 尚未部署买入；中文 RT 写成 14,580,777.21 USDC 已划入系统利息地址 0x5000。两套口径指向同笔金额，路径不一致，禁止二选一当已证实。info API 自加总（拍点 UTC 2026-10-04T00:11:42Z / CST 08:11:42）：OI≈$12.82B（较昨≈$12.68B，↑约 1.09%），dayNtl≈$1.94B（较昨≈$8.15B，↓约 76.22%），HYPE mark≈89.475（↓约 0.13%），HYPE 单币 OI≈$1.82B（↑约 0.23%）。资产数 234。前端 24H 仍见 7.2B（疑占位，与本拍 dayNtl 量级背离加大）。正式里程碑本窗无。S 三官号与官站/Docs/foundation 无对应一手（Docs 仅窗内节点技术文档 lastmod，非产品里程碑）。\n- **依据**：A 媒体/待验证 — https://cryptobriefing.com/hyperliquid-usdc-yield-hype-buybacks-2/ ；https://www.techflowpost.com/article/34363 ；A/C 二手口径差 — https://x.com/HypedLaunches/status/2106372747391607046 ；https://x.com/ilovedoge11/status/2106487025608343761 ；非正式 API（见同目录 info_api_raw_summary.json）；前端 https://hyperliquid.xyz\n- **风险/反证**：若链上证实仅停利息地址未入 AF，或入 AF 后长期无买盘，「首笔已落地」读感会降温。若 HypedLaunches「已划入 AF」被证伪，口径差本身成为核清主线。单日拍点差可能含波动。禁止把媒体/二手写成已确认回购销毁，禁止买卖建议。\n- **置信度**：中（「上述媒体稿与二手帖窗内存在，且路径表述冲突」）；低（「$14.58M 是否已入 AF、以及后续是否部署买入」）；高（「本拍相对昨拍的方向与量级」）。"
+  },
+  {
+   "num": 2,
+   "title": "媒体称 Hyperliquid Strategies 再买入约 190 万枚 HYPE / ~$167M，持仓叙事约 3700 万枚（待验证）",
+   "conclusion": "本窗第二条抢注意力的媒体信号是纳斯达克上市 HYPE 财库公司加仓。数字来自二手快讯，S 层无交叉，买入来源与成交路径待核。",
+   "why": "Odaily / TechFlow / PANews Lab / TokenPost 等窗内快讯称，Hyperliquid Strategies 再次买入约 190 万枚 HYPE（媒体约 1.672 亿美元），持仓约 3700 万枚（约 32.618 亿美元），另持现金约 2.926 亿美元。HypedLaunches 有二手转发。与 AQAv2→AF 叙事分轨，勿混写成「协议回购」。S 三官号无对应公告。",
+   "basis": "A 媒体/待验证 — https://www.odaily.news/zh-CN/newsflash/522348 ；https://techflowpost.com/newsletter/138747 ；https://www.panewslab.com/zh/articles/01a10203-95d0-757b-a2a0-7b9ce4844880",
+   "risk": "若后续无财报或链上交叉，权重应下调。持仓 3700 万是否同口径、是否含 OTC，均未证实。禁止买卖建议。",
+   "confidence": "中（「上述媒体稿窗内存在」）；低（「买入金额、持仓口径与成交路径」）。",
+   "links": [
+    {
+     "text": "A 媒体/待验证",
+     "url": "https://www.odaily.news/zh-CN/newsflash/522348",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://techflowpost.com/newsletter/138747",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://www.panewslab.com/zh/articles/01a10203-95d0-757b-a2a0-7b9ce4844880",
+     "field": "依据"
+    }
+   ],
+   "uncertain": true,
+   "markers": [
+    "待验证",
+    "未证实"
+   ],
+   "markers_by_field": {
+    "依据": [
+     "待验证"
+    ],
+    "风险/反证": [
+     "未证实"
+    ],
+    "标题": [
+     "待验证"
+    ]
+   },
+   "basis_layers": [
+    "A"
+   ],
+   "fields": {
+    "结论": "本窗第二条抢注意力的媒体信号是纳斯达克上市 HYPE 财库公司加仓。数字来自二手快讯，S 层无交叉，买入来源与成交路径待核。",
+    "为什么": "Odaily / TechFlow / PANews Lab / TokenPost 等窗内快讯称，Hyperliquid Strategies 再次买入约 190 万枚 HYPE（媒体约 1.672 亿美元），持仓约 3700 万枚（约 32.618 亿美元），另持现金约 2.926 亿美元。HypedLaunches 有二手转发。与 AQAv2→AF 叙事分轨，勿混写成「协议回购」。S 三官号无对应公告。",
+    "依据": "A 媒体/待验证 — https://www.odaily.news/zh-CN/newsflash/522348 ；https://techflowpost.com/newsletter/138747 ；https://www.panewslab.com/zh/articles/01a10203-95d0-757b-a2a0-7b9ce4844880",
+    "风险/反证": "若后续无财报或链上交叉，权重应下调。持仓 3700 万是否同口径、是否含 OTC，均未证实。禁止买卖建议。",
+    "置信度": "中（「上述媒体稿窗内存在」）；低（「买入金额、持仓口径与成交路径」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：本窗第二条抢注意力的媒体信号是纳斯达克上市 HYPE 财库公司加仓。数字来自二手快讯，S 层无交叉，买入来源与成交路径待核。\n- **为什么**：Odaily / TechFlow / PANews Lab / TokenPost 等窗内快讯称，Hyperliquid Strategies 再次买入约 190 万枚 HYPE（媒体约 1.672 亿美元），持仓约 3700 万枚（约 32.618 亿美元），另持现金约 2.926 亿美元。HypedLaunches 有二手转发。与 AQAv2→AF 叙事分轨，勿混写成「协议回购」。S 三官号无对应公告。\n- **依据**：A 媒体/待验证 — https://www.odaily.news/zh-CN/newsflash/522348 ；https://techflowpost.com/newsletter/138747 ；https://www.panewslab.com/zh/articles/01a10203-95d0-757b-a2a0-7b9ce4844880\n- **风险/反证**：若后续无财报或链上交叉，权重应下调。持仓 3700 万是否同口径、是否含 OTC，均未证实。禁止买卖建议。\n- **置信度**：中（「上述媒体稿窗内存在」）；低（「买入金额、持仓口径与成交路径」）。"
+  },
+  {
+   "num": 3,
+   "title": "Ascend 上线 Discord，发 $20k Elysium grants，团队赴 TOKEN2049 新加坡约见（一手）",
+   "conclusion": "生态产品侧本窗有项目方一手。权重次于 AQAv2 口径差与 Strategies 叙事，但构成可核的产品 continuum。",
+   "why": "@AscendLaunch 称 Discord 上线；给建设 Elysium 者发 $20,000 grants（Builder 竞赛 $17,500 等）；团队赴 TOKEN2049 新加坡约见 builder、投资者与 $HYPE 持有人。昨窗 Ascend 真零，今日推进到 Discord+grants+行程。同窗 Hyperdash 称下周新加坡、周一 Hyperliquid 活动设展位；kylewmi 放出 10/5–10/8 四天六场 HL 相关活动清单，构成新加坡周背景，但与 Ascend 一手分列。",
+   "basis": "A 事实 — https://x.com/AscendLaunch/status/2106189953210454331 ；背景 — https://x.com/hypurrdash/status/2106341818917089788 ；https://x.com/kylewmi/status/2106535017186750705",
+   "risk": "grants 金额与发放进度以项目方自报为准，缺独立交叉前勿升正式里程碑。产品更新不等于协议层数据里程碑。",
+   "confidence": "高（「Ascend 原帖窗内存在」）；低（「对协议层里程碑与 grants 落地进度的影响」）。",
+   "links": [
+    {
+     "text": "A 事实",
+     "url": "https://x.com/AscendLaunch/status/2106189953210454331",
+     "field": "依据"
+    },
+    {
+     "text": "背景",
+     "url": "https://x.com/hypurrdash/status/2106341818917089788",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://x.com/kylewmi/status/2106535017186750705",
+     "field": "依据"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [
+    "A"
+   ],
+   "fields": {
+    "结论": "生态产品侧本窗有项目方一手。权重次于 AQAv2 口径差与 Strategies 叙事，但构成可核的产品 continuum。",
+    "为什么": "@AscendLaunch 称 Discord 上线；给建设 Elysium 者发 $20,000 grants（Builder 竞赛 $17,500 等）；团队赴 TOKEN2049 新加坡约见 builder、投资者与 $HYPE 持有人。昨窗 Ascend 真零，今日推进到 Discord+grants+行程。同窗 Hyperdash 称下周新加坡、周一 Hyperliquid 活动设展位；kylewmi 放出 10/5–10/8 四天六场 HL 相关活动清单，构成新加坡周背景，但与 Ascend 一手分列。",
+    "依据": "A 事实 — https://x.com/AscendLaunch/status/2106189953210454331 ；背景 — https://x.com/hypurrdash/status/2106341818917089788 ；https://x.com/kylewmi/status/2106535017186750705",
+    "风险/反证": "grants 金额与发放进度以项目方自报为准，缺独立交叉前勿升正式里程碑。产品更新不等于协议层数据里程碑。",
+    "置信度": "高（「Ascend 原帖窗内存在」）；低（「对协议层里程碑与 grants 落地进度的影响」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：生态产品侧本窗有项目方一手。权重次于 AQAv2 口径差与 Strategies 叙事，但构成可核的产品 continuum。\n- **为什么**：@AscendLaunch 称 Discord 上线；给建设 Elysium 者发 $20,000 grants（Builder 竞赛 $17,500 等）；团队赴 TOKEN2049 新加坡约见 builder、投资者与 $HYPE 持有人。昨窗 Ascend 真零，今日推进到 Discord+grants+行程。同窗 Hyperdash 称下周新加坡、周一 Hyperliquid 活动设展位；kylewmi 放出 10/5–10/8 四天六场 HL 相关活动清单，构成新加坡周背景，但与 Ascend 一手分列。\n- **依据**：A 事实 — https://x.com/AscendLaunch/status/2106189953210454331 ；背景 — https://x.com/hypurrdash/status/2106341818917089788 ；https://x.com/kylewmi/status/2106535017186750705\n- **风险/反证**：grants 金额与发放进度以项目方自报为准，缺独立交叉前勿升正式里程碑。产品更新不等于协议层数据里程碑。\n- **置信度**：高（「Ascend 原帖窗内存在」）；低（「对协议层里程碑与 grants 落地进度的影响」）。"
+  },
+  {
+   "num": 4,
+   "title": "Tate 向币安存入约 20,950 HYPE；约 387k HYPE 自 Kinetiq 转未知钱包；二手称未来 7 日解质押约 5.88M、最大日约 10/7（转入≠已卖）",
+   "conclusion": "链上注意力切到多轨「潜在供给」监测。存入交易所与转出协议都不等于已卖。解质押波为二手叙事，非官宣。",
+   "why": "Odaily / Chaincatcher / Lookonchain 称地址向币安存入约 20,950 HYPE（约 187 万美元），并称仍持有约 63,550 HYPE。Odaily / TechFlow 转述 Whale Alert，约 387,005 HYPE（媒体约 341.5 万美元）从 Kinetiq 转出至未知钱包。HypedLaunches 另发未来 7 日解质押约 5.88M HYPE、最大日约 10/7 的二手叙事，与更早窗 Labs≈3.75M 赎回/~10/7 相关但本窗未见强新官宣。三轨勿与 AF 回购混写。S 层无交叉。",
+   "basis": "A 媒体/待验证 — https://www.odaily.news/zh-CN/newsflash/522296 ；https://www.odaily.news/zh-CN/newsflash/522347 ；http://lookonchain.com/feeds/75253 ；解质押二手 — https://x.com/HypedLaunches/status/2106385030478021096",
+   "risk": "若公开盘出现同源抛压，叙事会翻成「砸盘」；若持续持有或走 OTC，「转入=抛售」读感难立。解质押数字未做官站交叉前勿升正式。禁止写成已卖。禁止买卖建议。",
+   "confidence": "中（「上述媒体/监测转述窗内存在」）；低（「后续处置、意图，以及解质押波是否按二手日程落地」）。",
+   "links": [
+    {
+     "text": "A 媒体/待验证",
+     "url": "https://www.odaily.news/zh-CN/newsflash/522296",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://www.odaily.news/zh-CN/newsflash/522347",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "http://lookonchain.com/feeds/75253",
+     "field": "依据"
+    },
+    {
+     "text": "解质押二手",
+     "url": "https://x.com/HypedLaunches/status/2106385030478021096",
+     "field": "依据"
+    }
+   ],
+   "uncertain": true,
+   "markers": [
+    "待验证"
+   ],
+   "markers_by_field": {
+    "依据": [
+     "待验证"
+    ]
+   },
+   "basis_layers": [
+    "A"
+   ],
+   "fields": {
+    "结论": "链上注意力切到多轨「潜在供给」监测。存入交易所与转出协议都不等于已卖。解质押波为二手叙事，非官宣。",
+    "为什么": "Odaily / Chaincatcher / Lookonchain 称地址向币安存入约 20,950 HYPE（约 187 万美元），并称仍持有约 63,550 HYPE。Odaily / TechFlow 转述 Whale Alert，约 387,005 HYPE（媒体约 341.5 万美元）从 Kinetiq 转出至未知钱包。HypedLaunches 另发未来 7 日解质押约 5.88M HYPE、最大日约 10/7 的二手叙事，与更早窗 Labs≈3.75M 赎回/~10/7 相关但本窗未见强新官宣。三轨勿与 AF 回购混写。S 层无交叉。",
+    "依据": "A 媒体/待验证 — https://www.odaily.news/zh-CN/newsflash/522296 ；https://www.odaily.news/zh-CN/newsflash/522347 ；http://lookonchain.com/feeds/75253 ；解质押二手 — https://x.com/HypedLaunches/status/2106385030478021096",
+    "风险/反证": "若公开盘出现同源抛压，叙事会翻成「砸盘」；若持续持有或走 OTC，「转入=抛售」读感难立。解质押数字未做官站交叉前勿升正式。禁止写成已卖。禁止买卖建议。",
+    "置信度": "中（「上述媒体/监测转述窗内存在」）；低（「后续处置、意图，以及解质押波是否按二手日程落地」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：链上注意力切到多轨「潜在供给」监测。存入交易所与转出协议都不等于已卖。解质押波为二手叙事，非官宣。\n- **为什么**：Odaily / Chaincatcher / Lookonchain 称地址向币安存入约 20,950 HYPE（约 187 万美元），并称仍持有约 63,550 HYPE。Odaily / TechFlow 转述 Whale Alert，约 387,005 HYPE（媒体约 341.5 万美元）从 Kinetiq 转出至未知钱包。HypedLaunches 另发未来 7 日解质押约 5.88M HYPE、最大日约 10/7 的二手叙事，与更早窗 Labs≈3.75M 赎回/~10/7 相关但本窗未见强新官宣。三轨勿与 AF 回购混写。S 层无交叉。\n- **依据**：A 媒体/待验证 — https://www.odaily.news/zh-CN/newsflash/522296 ；https://www.odaily.news/zh-CN/newsflash/522347 ；http://lookonchain.com/feeds/75253 ；解质押二手 — https://x.com/HypedLaunches/status/2106385030478021096\n- **风险/反证**：若公开盘出现同源抛压，叙事会翻成「砸盘」；若持续持有或走 OTC，「转入=抛售」读感难立。解质押数字未做官站交叉前勿升正式。禁止写成已卖。禁止买卖建议。\n- **置信度**：中（「上述媒体/监测转述窗内存在」）；低（「后续处置、意图，以及解质押波是否按二手日程落地」）。"
+  },
+  {
+   "num": 5,
+   "title": "非正式 dayNtl 约 $1.94B↓约 76.22% 与 OI 约 $12.82B↑约 1.09% 同窗，勿写成单一因果；正式里程碑无",
+   "conclusion": "量能相对昨高位大幅回落，未平仓名义微升，HYPE 近平。两边各自可核到拍点对照，禁止用回落否定仓位，也禁止用 OI 微升否定量能回落。",
+   "why": "拍点 UTC 2026-10-04T00:11:42Z：dayNtl 自昨≈$8.15B 落到≈$1.94B（↓约 76.22%），OI 自≈$12.68B 到≈$12.82B（↑约 1.09%），HYPE 89.587→89.475（↓约 0.13%），HYPE_OI≈$1.82B（↑约 0.23%）。前端仍展示 7.2B，与 API dayNtl 量级背离加大，前端疑占位。NEAR perp dayNtl 亦大降（≈$74.7M，↓约 66.45%），OI 微升。更稳妥的读法是相对昨高位的拍点波动/均值回归。「量能崩盘」或「仓位全面回暖」二选一都过满。正式里程碑本窗无。",
+   "basis": "非正式 API — https://api.hyperliquid.xyz/info （摘要见同目录 info_api_raw_summary.json）；前端 https://hyperliquid.xyz",
+   "risk": "连续拍点再降或再升，都会改写读感。禁止把非正式拍点差写成正式里程碑。禁止买卖建议。",
+   "confidence": "高（「本拍相对昨拍的方向与量级」）；低（「dayNtl 回落与 OI 微升的因果」）。",
+   "links": [
+    {
+     "text": "非正式 API",
+     "url": "https://api.hyperliquid.xyz/info",
+     "field": "依据"
+    },
+    {
+     "text": "前端",
+     "url": "https://hyperliquid.xyz",
+     "field": "依据"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [],
+   "fields": {
+    "结论": "量能相对昨高位大幅回落，未平仓名义微升，HYPE 近平。两边各自可核到拍点对照，禁止用回落否定仓位，也禁止用 OI 微升否定量能回落。",
+    "为什么": "拍点 UTC 2026-10-04T00:11:42Z：dayNtl 自昨≈$8.15B 落到≈$1.94B（↓约 76.22%），OI 自≈$12.68B 到≈$12.82B（↑约 1.09%），HYPE 89.587→89.475（↓约 0.13%），HYPE_OI≈$1.82B（↑约 0.23%）。前端仍展示 7.2B，与 API dayNtl 量级背离加大，前端疑占位。NEAR perp dayNtl 亦大降（≈$74.7M，↓约 66.45%），OI 微升。更稳妥的读法是相对昨高位的拍点波动/均值回归。「量能崩盘」或「仓位全面回暖」二选一都过满。正式里程碑本窗无。",
+    "依据": "非正式 API — https://api.hyperliquid.xyz/info （摘要见同目录 info_api_raw_summary.json）；前端 https://hyperliquid.xyz",
+    "风险/反证": "连续拍点再降或再升，都会改写读感。禁止把非正式拍点差写成正式里程碑。禁止买卖建议。",
+    "置信度": "高（「本拍相对昨拍的方向与量级」）；低（「dayNtl 回落与 OI 微升的因果」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：量能相对昨高位大幅回落，未平仓名义微升，HYPE 近平。两边各自可核到拍点对照，禁止用回落否定仓位，也禁止用 OI 微升否定量能回落。\n- **为什么**：拍点 UTC 2026-10-04T00:11:42Z：dayNtl 自昨≈$8.15B 落到≈$1.94B（↓约 76.22%），OI 自≈$12.68B 到≈$12.82B（↑约 1.09%），HYPE 89.587→89.475（↓约 0.13%），HYPE_OI≈$1.82B（↑约 0.23%）。前端仍展示 7.2B，与 API dayNtl 量级背离加大，前端疑占位。NEAR perp dayNtl 亦大降（≈$74.7M，↓约 66.45%），OI 微升。更稳妥的读法是相对昨高位的拍点波动/均值回归。「量能崩盘」或「仓位全面回暖」二选一都过满。正式里程碑本窗无。\n- **依据**：非正式 API — https://api.hyperliquid.xyz/info （摘要见同目录 info_api_raw_summary.json）；前端 https://hyperliquid.xyz\n- **风险/反证**：连续拍点再降或再升，都会改写读感。禁止把非正式拍点差写成正式里程碑。禁止买卖建议。\n- **置信度**：高（「本拍相对昨拍的方向与量级」）；低（「dayNtl 回落与 OI 微升的因果」）。"
+  },
+  {
+   "num": 6,
+   "title": "众议院调查弱续写，答复仍 10-13；币安提现仍无「已开放」新 CMS；S 三官号静默；拒绝 Season 3/10/5 传闻与二手 Builder Codes、日费当正式里程碑",
+   "conclusion": "监管美线与 CEX 提现入口本窗无新闭环。S 层三官号无新帖。Season 模式 + 10/5 或给 Season 3 线索属二手传闻，非官宣。Builder Codes 营收与日费对比属二手，不进正式。",
+   "why": "众议院监督委员会一手仍为 2026-09-29 新闻稿与公函，本窗 oversight 搜索无新日期材料；回复期限仍 2026-10-13，委员会未认定有罪。Binance catalog 本窗未见「Withdrawals are now open / 提现已开放」新帖；上线帖仍写提现预计 2026-09-25 11:00 UTC。@HyperliquidX / @chameleon_jeff / @HyperFND 窗内均为真零。HypedLaunches 发 Season 模式 + 10/5 或给 Season 3 线索，标传闻。同账号 Builder Codes ≈$8.67M、日费 ≈$3.4M 超 Uniswap v4 等二手，无一手交叉前禁止当正式里程碑。",
+   "basis": "弱续写一手 — https://oversight.house.gov/release/comer-continues-investigation-into-insider-trading-on-online-prediction-market-platforms/ ；https://oversight.house.gov/wp-content/uploads/2026/09/Hyperliquid-Letter-9.29.26.pdf ；CMS — https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d ；传闻 — https://x.com/HypedLaunches/status/2106380615696167056 ；二手费率 — https://x.com/HypedLaunches/status/2106467241864671369",
+   "risk": "Labs 若公开回应公函，或提现页显示已开，叙事会改写。传闻若后续获官宣，再升格评估。提现页实态未在本采集直接核到。禁止买卖建议。",
+   "confidence": "高（「无新公函、无新开放 CMS，以及 S 三官号静默与 Season3 帖为非官宣传闻这四件」）；低（「调查叙事演化与提现是否已实际开放，以及传闻是否落地」）。",
+   "links": [
+    {
+     "text": "弱续写一手",
+     "url": "https://oversight.house.gov/release/comer-continues-investigation-into-insider-trading-on-online-prediction-market-platforms/",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://oversight.house.gov/wp-content/uploads/2026/09/Hyperliquid-Letter-9.29.26.pdf",
+     "field": "依据"
+    },
+    {
+     "text": "CMS",
+     "url": "https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d",
+     "field": "依据"
+    },
+    {
+     "text": "传闻",
+     "url": "https://x.com/HypedLaunches/status/2106380615696167056",
+     "field": "依据"
+    },
+    {
+     "text": "二手费率",
+     "url": "https://x.com/HypedLaunches/status/2106467241864671369",
+     "field": "依据"
+    }
+   ],
+   "uncertain": true,
+   "markers": [
+    "传闻"
+   ],
+   "markers_by_field": {
+    "结论": [
+     "传闻"
+    ],
+    "为什么": [
+     "传闻"
+    ],
+    "依据": [
+     "传闻"
+    ],
+    "风险/反证": [
+     "传闻"
+    ],
+    "置信度": [
+     "传闻"
+    ],
+    "标题": [
+     "传闻"
+    ]
+   },
+   "basis_layers": [],
+   "fields": {
+    "结论": "监管美线与 CEX 提现入口本窗无新闭环。S 层三官号无新帖。Season 模式 + 10/5 或给 Season 3 线索属二手传闻，非官宣。Builder Codes 营收与日费对比属二手，不进正式。",
+    "为什么": "众议院监督委员会一手仍为 2026-09-29 新闻稿与公函，本窗 oversight 搜索无新日期材料；回复期限仍 2026-10-13，委员会未认定有罪。Binance catalog 本窗未见「Withdrawals are now open / 提现已开放」新帖；上线帖仍写提现预计 2026-09-25 11:00 UTC。@HyperliquidX / @chameleon_jeff / @HyperFND 窗内均为真零。HypedLaunches 发 Season 模式 + 10/5 或给 Season 3 线索，标传闻。同账号 Builder Codes ≈$8.67M、日费 ≈$3.4M 超 Uniswap v4 等二手，无一手交叉前禁止当正式里程碑。",
+    "依据": "弱续写一手 — https://oversight.house.gov/release/comer-continues-investigation-into-insider-trading-on-online-prediction-market-platforms/ ；https://oversight.house.gov/wp-content/uploads/2026/09/Hyperliquid-Letter-9.29.26.pdf ；CMS — https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d ；传闻 — https://x.com/HypedLaunches/status/2106380615696167056 ；二手费率 — https://x.com/HypedLaunches/status/2106467241864671369",
+    "风险/反证": "Labs 若公开回应公函，或提现页显示已开，叙事会改写。传闻若后续获官宣，再升格评估。提现页实态未在本采集直接核到。禁止买卖建议。",
+    "置信度": "高（「无新公函、无新开放 CMS，以及 S 三官号静默与 Season3 帖为非官宣传闻这四件」）；低（「调查叙事演化与提现是否已实际开放，以及传闻是否落地」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：监管美线与 CEX 提现入口本窗无新闭环。S 层三官号无新帖。Season 模式 + 10/5 或给 Season 3 线索属二手传闻，非官宣。Builder Codes 营收与日费对比属二手，不进正式。\n- **为什么**：众议院监督委员会一手仍为 2026-09-29 新闻稿与公函，本窗 oversight 搜索无新日期材料；回复期限仍 2026-10-13，委员会未认定有罪。Binance catalog 本窗未见「Withdrawals are now open / 提现已开放」新帖；上线帖仍写提现预计 2026-09-25 11:00 UTC。@HyperliquidX / @chameleon_jeff / @HyperFND 窗内均为真零。HypedLaunches 发 Season 模式 + 10/5 或给 Season 3 线索，标传闻。同账号 Builder Codes ≈$8.67M、日费 ≈$3.4M 超 Uniswap v4 等二手，无一手交叉前禁止当正式里程碑。\n- **依据**：弱续写一手 — https://oversight.house.gov/release/comer-continues-investigation-into-insider-trading-on-online-prediction-market-platforms/ ；https://oversight.house.gov/wp-content/uploads/2026/09/Hyperliquid-Letter-9.29.26.pdf ；CMS — https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d ；传闻 — https://x.com/HypedLaunches/status/2106380615696167056 ；二手费率 — https://x.com/HypedLaunches/status/2106467241864671369\n- **风险/反证**：Labs 若公开回应公函，或提现页显示已开，叙事会改写。传闻若后续获官宣，再升格评估。提现页实态未在本采集直接核到。禁止买卖建议。\n- **置信度**：高（「无新公函、无新开放 CMS，以及 S 三官号静默与 Season3 帖为非官宣传闻这四件」）；低（「调查叙事演化与提现是否已实际开放，以及传闻是否落地」）。"
+  }
+ ],
+ "sections": [
+  {
+   "title": "今天怎么看",
+   "subsections": [],
+   "body_md": "本窗最抢注意力的，是 AQAv2 首笔储备收益约 $14.58M 推进到「协议侧已付」。CryptoBriefing 与 TechFlow 写截至 10/3 仍待转入 Assistance Fund；X 侧 HypedLaunches 与中文 RT 则写成已划入 AF/利息地址，并称 AF 尚未部署买入。同笔金额、路径表述不一致，须标矛盾待核，勿二选一当已证实。转入前不应当作已执行回购或销毁。数字侧：非正式 OI 约 $12.82B（↑约 1.09%），dayNtl 约 $1.94B（↓约 76.22%，相对昨高位大回落），HYPE mark≈89.475（↓约 0.13%），HYPE 单币 OI 约 $1.82B（↑约 0.23%）。OI 微升与 dayNtl 大回落同窗，勿写成单一因果。媒体称 Hyperliquid Strategies 再买入约 190 万枚 HYPE / ~$167M，持仓叙事约 3700 万枚，二手待核。Ascend 一手上线 Discord，并发 $20k Elysium grants，团队赴 TOKEN2049 新加坡约见。链上监测出现 Tate 向币安存入约 20,950 HYPE，也有约 387k HYPE 自 Kinetiq 转未知钱包；另有未来 7 日解质押约 5.88M、最大日约 10/7 的二手叙事。存入与转入都不等于已卖。Hyperdash 称下周新加坡展位；kylewmi 放出 TOKEN2049 四天六场 HL 相关活动清单。众议院调查本窗无新公函，答复期限仍 10-13。币安提现仍无「已开放」新 CMS。S 三官号静默。正式里程碑空。Season 3 / 10/5 线索与 Builder Codes、日费二手一律不作正式里程碑。中文 X 有机可用约 6–9 条，样本仍不足。"
+  },
+  {
+   "title": "观点",
+   "subsections": [
+    {
+     "title": "1. AQAv2≈$14.58M 已付协议侧：CryptoBriefing 写仍待转入 AF，HypedLaunches 写已划入 AF，口径差待核；AF 尚未部署买入；非正式 dayNtl 约 $1.94B↓约 76.22%，OI 约 $12.82B↑约 1.09%",
+     "body_md": "- **结论**：昨日「预计 10/3 入账」推进到「协议侧已付」。媒体与 X 二手对是否已入 AF 表述冲突。AF 侧称尚未部署买入。非正式量能相对昨高位大幅回落，OI 微升。都不是正式里程碑。\n- **为什么**：CryptoBriefing（Oct. 3, 2026）与 TechFlow 中文长文称，AQAv2 首笔储备收益约 1458 万美元 USDC 已落地协议侧，截至 10/3 仍待转入 Assistance Fund；转入前不应当作已执行回购/销毁。机制背景常写约 90% 储备净收益→AF，收益自 8/26 计提。HypedLaunches 同窗写成约 $14.58M 已划入 AF/利息地址，并写 AF 尚未部署买入；中文 RT 写成 14,580,777.21 USDC 已划入系统利息地址 0x5000。两套口径指向同笔金额，路径不一致，禁止二选一当已证实。info API 自加总（拍点 UTC 2026-10-04T00:11:42Z / CST 08:11:42）：OI≈$12.82B（较昨≈$12.68B，↑约 1.09%），dayNtl≈$1.94B（较昨≈$8.15B，↓约 76.22%），HYPE mark≈89.475（↓约 0.13%），HYPE 单币 OI≈$1.82B（↑约 0.23%）。资产数 234。前端 24H 仍见 7.2B（疑占位，与本拍 dayNtl 量级背离加大）。正式里程碑本窗无。S 三官号与官站/Docs/foundation 无对应一手（Docs 仅窗内节点技术文档 lastmod，非产品里程碑）。\n- **依据**：A 媒体/待验证 — https://cryptobriefing.com/hyperliquid-usdc-yield-hype-buybacks-2/ ；https://www.techflowpost.com/article/34363 ；A/C 二手口径差 — https://x.com/HypedLaunches/status/2106372747391607046 ；https://x.com/ilovedoge11/status/2106487025608343761 ；非正式 API（见同目录 info_api_raw_summary.json）；前端 https://hyperliquid.xyz\n- **风险/反证**：若链上证实仅停利息地址未入 AF，或入 AF 后长期无买盘，「首笔已落地」读感会降温。若 HypedLaunches「已划入 AF」被证伪，口径差本身成为核清主线。单日拍点差可能含波动。禁止把媒体/二手写成已确认回购销毁，禁止买卖建议。\n- **置信度**：中（「上述媒体稿与二手帖窗内存在，且路径表述冲突」）；低（「$14.58M 是否已入 AF、以及后续是否部署买入」）；高（「本拍相对昨拍的方向与量级」）。"
+    },
+    {
+     "title": "2. 媒体称 Hyperliquid Strategies 再买入约 190 万枚 HYPE / ~$167M，持仓叙事约 3700 万枚（待验证）",
+     "body_md": "- **结论**：本窗第二条抢注意力的媒体信号是纳斯达克上市 HYPE 财库公司加仓。数字来自二手快讯，S 层无交叉，买入来源与成交路径待核。\n- **为什么**：Odaily / TechFlow / PANews Lab / TokenPost 等窗内快讯称，Hyperliquid Strategies 再次买入约 190 万枚 HYPE（媒体约 1.672 亿美元），持仓约 3700 万枚（约 32.618 亿美元），另持现金约 2.926 亿美元。HypedLaunches 有二手转发。与 AQAv2→AF 叙事分轨，勿混写成「协议回购」。S 三官号无对应公告。\n- **依据**：A 媒体/待验证 — https://www.odaily.news/zh-CN/newsflash/522348 ；https://techflowpost.com/newsletter/138747 ；https://www.panewslab.com/zh/articles/01a10203-95d0-757b-a2a0-7b9ce4844880\n- **风险/反证**：若后续无财报或链上交叉，权重应下调。持仓 3700 万是否同口径、是否含 OTC，均未证实。禁止买卖建议。\n- **置信度**：中（「上述媒体稿窗内存在」）；低（「买入金额、持仓口径与成交路径」）。"
+    },
+    {
+     "title": "3. Ascend 上线 Discord，发 $20k Elysium grants，团队赴 TOKEN2049 新加坡约见（一手）",
+     "body_md": "- **结论**：生态产品侧本窗有项目方一手。权重次于 AQAv2 口径差与 Strategies 叙事，但构成可核的产品 continuum。\n- **为什么**：@AscendLaunch 称 Discord 上线；给建设 Elysium 者发 $20,000 grants（Builder 竞赛 $17,500 等）；团队赴 TOKEN2049 新加坡约见 builder、投资者与 $HYPE 持有人。昨窗 Ascend 真零，今日推进到 Discord+grants+行程。同窗 Hyperdash 称下周新加坡、周一 Hyperliquid 活动设展位；kylewmi 放出 10/5–10/8 四天六场 HL 相关活动清单，构成新加坡周背景，但与 Ascend 一手分列。\n- **依据**：A 事实 — https://x.com/AscendLaunch/status/2106189953210454331 ；背景 — https://x.com/hypurrdash/status/2106341818917089788 ；https://x.com/kylewmi/status/2106535017186750705\n- **风险/反证**：grants 金额与发放进度以项目方自报为准，缺独立交叉前勿升正式里程碑。产品更新不等于协议层数据里程碑。\n- **置信度**：高（「Ascend 原帖窗内存在」）；低（「对协议层里程碑与 grants 落地进度的影响」）。"
+    },
+    {
+     "title": "4. Tate 向币安存入约 20,950 HYPE；约 387k HYPE 自 Kinetiq 转未知钱包；二手称未来 7 日解质押约 5.88M、最大日约 10/7（转入≠已卖）",
+     "body_md": "- **结论**：链上注意力切到多轨「潜在供给」监测。存入交易所与转出协议都不等于已卖。解质押波为二手叙事，非官宣。\n- **为什么**：Odaily / Chaincatcher / Lookonchain 称地址向币安存入约 20,950 HYPE（约 187 万美元），并称仍持有约 63,550 HYPE。Odaily / TechFlow 转述 Whale Alert，约 387,005 HYPE（媒体约 341.5 万美元）从 Kinetiq 转出至未知钱包。HypedLaunches 另发未来 7 日解质押约 5.88M HYPE、最大日约 10/7 的二手叙事，与更早窗 Labs≈3.75M 赎回/~10/7 相关但本窗未见强新官宣。三轨勿与 AF 回购混写。S 层无交叉。\n- **依据**：A 媒体/待验证 — https://www.odaily.news/zh-CN/newsflash/522296 ；https://www.odaily.news/zh-CN/newsflash/522347 ；http://lookonchain.com/feeds/75253 ；解质押二手 — https://x.com/HypedLaunches/status/2106385030478021096\n- **风险/反证**：若公开盘出现同源抛压，叙事会翻成「砸盘」；若持续持有或走 OTC，「转入=抛售」读感难立。解质押数字未做官站交叉前勿升正式。禁止写成已卖。禁止买卖建议。\n- **置信度**：中（「上述媒体/监测转述窗内存在」）；低（「后续处置、意图，以及解质押波是否按二手日程落地」）。"
+    },
+    {
+     "title": "5. 非正式 dayNtl 约 $1.94B↓约 76.22% 与 OI 约 $12.82B↑约 1.09% 同窗，勿写成单一因果；正式里程碑无",
+     "body_md": "- **结论**：量能相对昨高位大幅回落，未平仓名义微升，HYPE 近平。两边各自可核到拍点对照，禁止用回落否定仓位，也禁止用 OI 微升否定量能回落。\n- **为什么**：拍点 UTC 2026-10-04T00:11:42Z：dayNtl 自昨≈$8.15B 落到≈$1.94B（↓约 76.22%），OI 自≈$12.68B 到≈$12.82B（↑约 1.09%），HYPE 89.587→89.475（↓约 0.13%），HYPE_OI≈$1.82B（↑约 0.23%）。前端仍展示 7.2B，与 API dayNtl 量级背离加大，前端疑占位。NEAR perp dayNtl 亦大降（≈$74.7M，↓约 66.45%），OI 微升。更稳妥的读法是相对昨高位的拍点波动/均值回归。「量能崩盘」或「仓位全面回暖」二选一都过满。正式里程碑本窗无。\n- **依据**：非正式 API — https://api.hyperliquid.xyz/info （摘要见同目录 info_api_raw_summary.json）；前端 https://hyperliquid.xyz\n- **风险/反证**：连续拍点再降或再升，都会改写读感。禁止把非正式拍点差写成正式里程碑。禁止买卖建议。\n- **置信度**：高（「本拍相对昨拍的方向与量级」）；低（「dayNtl 回落与 OI 微升的因果」）。"
+    },
+    {
+     "title": "6. 众议院调查弱续写，答复仍 10-13；币安提现仍无「已开放」新 CMS；S 三官号静默；拒绝 Season 3/10/5 传闻与二手 Builder Codes、日费当正式里程碑",
+     "body_md": "- **结论**：监管美线与 CEX 提现入口本窗无新闭环。S 层三官号无新帖。Season 模式 + 10/5 或给 Season 3 线索属二手传闻，非官宣。Builder Codes 营收与日费对比属二手，不进正式。\n- **为什么**：众议院监督委员会一手仍为 2026-09-29 新闻稿与公函，本窗 oversight 搜索无新日期材料；回复期限仍 2026-10-13，委员会未认定有罪。Binance catalog 本窗未见「Withdrawals are now open / 提现已开放」新帖；上线帖仍写提现预计 2026-09-25 11:00 UTC。@HyperliquidX / @chameleon_jeff / @HyperFND 窗内均为真零。HypedLaunches 发 Season 模式 + 10/5 或给 Season 3 线索，标传闻。同账号 Builder Codes ≈$8.67M、日费 ≈$3.4M 超 Uniswap v4 等二手，无一手交叉前禁止当正式里程碑。\n- **依据**：弱续写一手 — https://oversight.house.gov/release/comer-continues-investigation-into-insider-trading-on-online-prediction-market-platforms/ ；https://oversight.house.gov/wp-content/uploads/2026/09/Hyperliquid-Letter-9.29.26.pdf ；CMS — https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d ；传闻 — https://x.com/HypedLaunches/status/2106380615696167056 ；二手费率 — https://x.com/HypedLaunches/status/2106467241864671369\n- **风险/反证**：Labs 若公开回应公函，或提现页显示已开，叙事会改写。传闻若后续获官宣，再升格评估。提现页实态未在本采集直接核到。禁止买卖建议。\n- **置信度**：高（「无新公函、无新开放 CMS，以及 S 三官号静默与 Season3 帖为非官宣传闻这四件」）；低（「调查叙事演化与提现是否已实际开放，以及传闻是否落地」）。"
+    }
+   ],
+   "body_md": ""
+  },
+  {
+   "title": "社区共鸣点",
+   "subsections": [
+    {
+     "title": "可核情绪线索",
+     "body_md": "1. **注意力转向 AQAv2 首笔是否真划转、AF 何时买；勿把二手金额当已销毁**  \n   - **证据**：中文 RT 写成 14,580,777.21 USDC 已划入系统利息地址；同窗 CryptoBriefing 写仍待转入 AF；HypedLaunches 写 AF 尚未部署买入。有机条数有限，但 AQAv2 数字是本窗中文侧最清晰的可核主题之一。  \n   - **推断**（非编造情绪）：读者若关心「大销毁/回购」，更可能先碰到金额已出、路径未闭环的表述；核清欲指向利息地址→AF→买盘时序。**样本仍不足。**  \n   - **层级**：C + A 媒体对照  \n   - **代表链接**：https://x.com/ilovedoge11/status/2106487025608343761 ；对照 https://cryptobriefing.com/hyperliquid-usdc-yield-hype-buybacks-2/\n\n2. **新加坡 TOKEN2049 行程是中文侧可核清单**  \n   - **证据**：kylewmi 放出 10/5–10/8 四天六场 HL 相关活动清单（含官方社区与机构论坛、Jeff 对谈等）；同窗 Hyperdash/Ascend 亦指向新加坡。  \n   - **推断**：中文侧对「去哪听一手」有清单需求；行程帖可核，不等于现场情绪已形成。样本不足。  \n   - **层级**：C 事实  \n   - **代表链接**：https://x.com/kylewmi/status/2106535017186750705\n\n3. **名人钱包与加仓转述出现，但条数薄，不足支撑「砸盘/看多」主流读法**  \n   - **证据**：中文有 Tate 存币安/「卖出」转述、麻吉加仓 HYPE 转述；英文/媒体侧另有 Kinetiq 转出与解质押波。有机条数少。  \n   - **推断**：供给与仓位八卦有传播，但样本不足以写成社区主情绪。转入≠已卖。样本不足。  \n   - **层级**：C（薄）  \n   - **代表链接**：https://x.com/BuchmannMaxime/status/2106518032788939085 ；https://x.com/Dragonhau66/status/2106523297525465169\n\n4. **污染源提醒：勿把 lifestyle hype bot、返佣模板，以及华为 Ascend 与奶茶 nest 误匹配当社区情绪**  \n   - **证据**：C 层首查大量 lifestyle「hype」slang bot 与 hyperliquid 返佣模板；华为 Ascend 误匹配、无锡 nest 奶茶误匹配也在。  \n   - **推断**：关键词命中严重污染，不能当社区在讨论 HYPE 或 Ascend 生态。样本不足。  \n   - **层级**：C（污染）  \n   - **代表链接**：暂无稳定有机链接（污染为主）；有机对照以 TOKEN2049 / AQAv2 RT 为准"
+    }
+   ],
+   "body_md": "总判断：中文 X 首查约 50 条，污染重。lifestyle 模板把英文 slang「hype」塞进「好好生活」话术，hyperliquid 返佣同构刷屏，华为 Ascend 芯片与无锡 nest 奶茶误匹配仍在。过滤后 HL 相关有机可用约 **6–9** 条（核心约 6），**样本仍不足**，禁止写成全社区共识，也禁止用英文 HypedLaunches / Ascend 一手帖冒充中文共鸣。有机大致落在 TOKEN2049 行程清单与 AQAv2≈1458 万 USDC 划转 RT。其余零星可见麻吉 HYPE 加仓转述与 Tate「卖出」转述；Boros×HL 资金费率套利、Ostium「杀手」补偿旁及，以及 MiCA×Circle×HL 弱旁及也有出现。昨日 claim 沟通/Nest/清算主线本窗**未见同等有机续写**。中文媒体侧覆盖了 AQAv2 待转 AF 与 Strategies 增持，也有 Kinetiq 转出与 Tate 存币安；媒体转述不等于社区有机讨论。Ascend grants 在英文侧有一手高曝光，中文侧**尚未形成对等讨论**。"
+  },
+  {
+   "title": "少数派",
+   "subsections": [],
+   "body_md": "- **AQAv2「已确认 $14.58M 入 AF 并已回购/销毁」**：媒体写仍待转入 AF；X 二手写已划入但 AF 尚未部署买入；路径未闭环前不抬成事实。\n- **HypedLaunches「已划入 AF」已是最终事实**：与 CryptoBriefing「仍待转入 AF」冲突，须待链上核清。\n- **Strategies 3700 万持仓 / 190 万加仓已是正式披露**：二手媒体快讯，S 无交叉。\n- **Tate 存币安 / Kinetiq 转出 = 已卖砸盘**：存入与转入 ≠ 已卖；媒体写 Tate 仍持有部分。\n- **解质押约 5.88M、最大日约 10/7 已是官宣**：HypedLaunches 二手，非官宣。\n- **Season 3 / 10/5 线索已官宣**：二手传闻，非官宣。\n- **Builder Codes 营收 / 日费超 Uniswap / OI 比 CEX 已是正式里程碑**：HypedLaunches 二手，无一手交叉前不进正式。\n- **前端 7.2B 反映真实 24H 量**：与 API dayNtl≈$1.94B 量级背离加大，前端疑占位，勿单独当量能证据。\n- **中文社区已形成 AQAv2/Strategies/解锁共识**：有机约 6–9，样本仍不足；勿用英文帖冒充。\n- **BVIV 已在主 meta 可交易**：同次 universe 未见同名；本窗无新强头条。\n- **SoSoValue ETF 净流入 ≈$3.37M 已是协议层信号**：二手聚合弱快讯，与本拍 API 勿混。"
+  },
+  {
+   "title": "附录 · Phase1 素材摘要",
+   "subsections": [],
+   "body_md": "见同目录 `phase1-merged.md`（事件簇 / 主题分布 / 冲突草稿 / 待验证假设 / 关键数字 / 分层计数 / 失败源）。\n\n**本拍非正式**（UTC 2026-10-04T00:11:42Z / CST 08:11:42，234 资产）：OI≈$12.82B；dayNtl≈$1.94B；HYPE mark≈89.475；HYPE OI≈$1.82B；前端 7.2B 疑占位；NEAR perp OI≈$334.6M；ONEAR dayNtl≈$2.64M；universe 未见 BVIV；正式里程碑无。\n\n**采集失败摘要**：Discord widget 不可采；hl.eco Turnstile（销毁不采信）；hyperliquid.xyz/blog、/announcements 403；docs.hyperliquid.xyz DNS 失败（gitbook sitemap 成功，窗内 1 条节点技术文档 lastmod，非产品里程碑）；CryptoBriefing 普通 curl 曾 403；FOCUS list 假阴性；中文 lifestyle hype / 返佣 / 华为 Ascend / nest 奶茶污染重（有机约 6–9）；ECO/C/liquid/share/Ascend 未翻页；C+ API credits 不足改本地过滤（非旧快照）；B 跳过；S 三官号窗内静默；info API 首轮 429、重试 200。**未用旧快照。** X 花费约 $0.51（超顶约 $0.06）。窗外：昨 AQAv2「预计 10/3」预期 / 0xOmnia claim / Nest Epoch44/45 / Legend Chart Notes / Entropy badges / HyperTracker $55m 清算 / CB Prime≈198k 提取 / 解锁买方+回购「明天」传闻本窗无同等一手重复；众议院一手仍 09-29，答复 10-13；Labs≈3.75M 赎回/~10/7 本窗未见强新推进。"
+  }
+ ],
+ "source": {
+  "type": "hl-intel-daily",
+  "label": "HL 情报台日报",
+  "file": "/workspace/hl-daily-2026-10-04/daily-final.md",
+  "file_mtime": "2026-10-07T15:26:02+08:00"
+ },
+ "parse": {
+  "format": "v2-list-fields",
+  "warnings": []
+ }
+}

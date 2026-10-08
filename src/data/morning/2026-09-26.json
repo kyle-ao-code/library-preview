@@ -1,0 +1,180 @@
+{
+ "schema": "hl-morning/v1",
+ "date": "2026-09-26",
+ "updated_at": null,
+ "window": {
+  "start": "2026-09-25T08:10:00+08:00",
+  "end": "2026-09-26T08:10:00+08:00"
+ },
+ "items": [
+  {
+   "title": "币安 HYPE 提现预计 09-25 11:00 UTC，本窗无「已开放」新 CMS",
+   "summary": "提现时点仍停在 CMS「预计」口径；本窗没有新的开放确认公告。",
+   "sources": [
+    {
+     "name": "binance.com",
+     "url": "https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d"
+    },
+    {
+     "name": "blockonomi.com",
+     "url": "https://blockonomi.com/hyperliquid-hype-begins-binance-spot-trading-as-major-whale-accumulates-tokens/"
+    },
+    {
+     "name": "abmedia.io",
+     "url": "https://abmedia.io/binance-listing-hyperliquid-hype"
+    }
+   ],
+   "flags": [],
+   "ref": {
+    "view": 1,
+    "source_field": "依据"
+   }
+  },
+  {
+   "title": "Kinetiq×Gemini：Gemini 上质押的全部 HYPE 将委托给 Kinetiq 验证者",
+   "summary": "质押份额迁移叙事有一条可核原帖，挂 HyperliquidX 语境，但落地规模待数据。",
+   "sources": [
+    {
+     "name": "@Kinetiq_xyz",
+     "url": "https://x.com/Kinetiq_xyz/status/2103601890361843911"
+    }
+   ],
+   "flags": [],
+   "ref": {
+    "view": 4,
+    "source_field": "依据"
+   }
+  },
+  {
+   "title": "Nest 预告下周再发 500 HYPE；Bounce 上线 ENA 杠杆代币；Outcome 上线 HYPE 15 分钟盘",
+   "summary": "生态产品自述密集，均非 HL 官号背书；Outcome 的 HL 累交/$5.5T 等大数须单独降级。",
+   "sources": [
+    {
+     "name": "@NestExchange",
+     "url": "https://x.com/NestExchange/status/2103561248734351432"
+    },
+    {
+     "name": "@BounceTech",
+     "url": "https://x.com/BounceTech/status/2103480299891876249"
+    },
+    {
+     "name": "@Outcomexyz",
+     "url": "https://x.com/Outcomexyz/status/2103467501183201515"
+    },
+    {
+     "name": "@liquidtrading",
+     "url": "https://x.com/liquidtrading/status/2103509695818351093"
+    },
+    {
+     "name": "@legendtrade",
+     "url": "https://x.com/legendtrade/status/2103536043773571583"
+    }
+   ],
+   "flags": [
+    "项目自述"
+   ],
+   "ref": {
+    "view": 5,
+    "source_field": "依据"
+   }
+  },
+  {
+   "title": "HyperliquidPC×Phantom 向 CFTC 提交评论信（窗初落入）",
+   "summary": "监管叙事本窗有一条可点的媒体+政策站交叉；主张协议开发者不应视为金融中介。",
+   "sources": [
+    {
+     "name": "odaily.news",
+     "url": "https://www.odaily.news/zh-CN/newsflash/520206"
+    },
+    {
+     "name": "hyperliquidpolicy.org",
+     "url": "https://hyperliquidpolicy.org/blog/hpc-and-phantom-ask-the-cftc-to-make-room-for-onchain-market-infrastructure"
+    }
+   ],
+   "flags": [],
+   "ref": {
+    "view": 6,
+    "source_field": "依据"
+   }
+  },
+  {
+   "title": "OI 非正式约 $13.15B 微升、dayNtl 约 $7.11B 下行；NEAR Strict List 仍无官站 day-N",
+   "summary": "口径冲突未解；NEAR 入口与销毁 live 本窗仍无正式闭环。",
+   "sources": [
+    {
+     "name": "@HyperliquidX",
+     "url": "https://x.com/HyperliquidX/status/2102643437896110439"
+    },
+    {
+     "name": "tokenpost.com",
+     "url": "https://www.tokenpost.com/news/investing/24060"
+    },
+    {
+     "name": "@HypedLaunches",
+     "url": "https://x.com/HypedLaunches/status/2103566142954443252"
+    },
+    {
+     "name": "chaincatcher.com",
+     "url": "https://www.chaincatcher.com/article/2291702"
+    },
+    {
+     "name": "@HypedLaunches",
+     "url": "https://x.com/HypedLaunches/status/2103571384236478816"
+    }
+   ],
+   "flags": [],
+   "ref": {
+    "view": 7,
+    "source_field": "依据"
+   }
+  }
+ ],
+ "disclaimer": "AI 整理，非投资建议",
+ "provenance": {
+  "generator": "build_morning.py 过渡数据（从 daily-final.md 转出）",
+  "file": "/workspace/hl-daily-2026-09-26/daily-final.md"
+ },
+ "_report": {
+  "skipped": [
+   {
+    "num": 2,
+    "title": "Strategies/0x6436 续买被媒体放大；Multicoin「卖出」仍未证实",
+    "reason": "不确定标记：依据「待验证」、标题「未证实」"
+   },
+   {
+    "num": 3,
+    "title": "SoSoValue：Bitwise BHYP 美东 09-24 单日净流入约 $477.49 万",
+    "reason": "不确定标记：依据「待验证」"
+   }
+  ],
+  "long_titles": [
+   {
+    "num": 1,
+    "length": 42,
+    "title": "币安 HYPE 提现预计 09-25 11:00 UTC，本窗无「已开放」新 CMS"
+   },
+   {
+    "num": 4,
+    "length": 50,
+    "title": "Kinetiq×Gemini：Gemini 上质押的全部 HYPE 将委托给 Kinetiq 验证者"
+   },
+   {
+    "num": 5,
+    "length": 62,
+    "title": "Nest 预告下周再发 500 HYPE；Bounce 上线 ENA 杠杆代币；Outcome 上线 HYPE 15 分钟盘"
+   },
+   {
+    "num": 6,
+    "length": 40,
+    "title": "HyperliquidPC×Phantom 向 CFTC 提交评论信（窗初落入）"
+   },
+   {
+    "num": 7,
+    "length": 65,
+    "title": "OI 非正式约 $13.15B 微升、dayNtl 约 $7.11B 下行；NEAR Strict List 仍无官站 day-N"
+   }
+  ],
+  "no_summary": [],
+  "no_sources": []
+ }
+}

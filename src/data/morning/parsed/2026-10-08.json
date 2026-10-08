@@ -1,0 +1,405 @@
+{
+ "date": "2026-10-08",
+ "title": "过去24h Hyperliquid 情报日报（2026-10-08）",
+ "window": {
+  "raw": "窗口：Asia/Shanghai 2026-10-07 08:09 → 2026-10-08 08:09。成稿已过 qu-ai-wei。",
+  "start": "2026-10-07 08:09",
+  "end": "2026-10-08 08:09",
+  "tz": "Asia/Shanghai"
+ },
+ "notes": [
+  "本期 X 层恢复了。改用 Grok Bot 自带的免费 X 公开读取，S 层三个官号、ECO List 和中文 X 讨论都采到了；FOCUS List 仍返回 0，已按账号逐个抽检。官方 TG 公告频道、GitBook 和官网窗内都没有新内容。正式里程碑无。未用旧快照。"
+ ],
+ "today": [
+  "375 万枚团队份额昨晚 11 点多（北京时间）完成赎回，一半已经分到 5 个场外买方钱包，每个 37.5 万枚。到窗口结束，这批币没有出现在公开盘口，买方是谁还没确认。",
+  "Jeff Yan 在 TOKEN2049 和 Blockworks 的 DAS 大会上连讲两场，主线是 HIP-3 和期权。他说 7 月 HIP-3 市场一度占到全站成交约 51%。很多标题写成「Hyperliquid 下一个产品是期权」，按原话转述，他的意思是期权要由开发者在 HIP-4 上去做，Hyperliquid 自己没给上线时间。FT 报道的新加坡监管问题、375 万的买方和 AQAv2，现有转述里都没看到他在台上谈。",
+  "盘面跟着 BTC 闪崩走弱。BTC 一度跌到 83,560 美元，全网清算约 5.5 亿美元，多数是多单。Hyperliquid 主盘 OI 降到约 127.4 亿美元，少了 5.5%；24 小时成交约 67.8 亿美元，多了 68%；HYPE 约 88.27 美元，跌 4%。成交放大以后，AF 本窗买入也回升到约 2.41 万枚。"
+ ],
+ "views": [
+  {
+   "num": 1,
+   "title": "375 万枚已赎回，一半分到 5 个钱包，接下来盯这 5 个地址和另一半",
+   "conclusion": "团队份额按场外交易的说法在走，暂时没有砸到盘口的迹象，但买方身份和锁定期仍是空白。",
+   "why": "链上分析师余烬（EmberCN）报，HyperLabs 地址 7 天前申请解除质押的 375 万枚 HYPE 在 10/7 约 23:43（北京时间）赎回，约 3.32 亿美元。约一小时后 Onchain Lens 报，187.5 万枚已分到 5 个场外买方钱包，各 37.5 万枚，并列出钱包地址。社区有人发现这几个钱包各向同一地址转了 1 枚 HYPE，该地址又把 2 枚质押给了一个验证者，于是猜买方是 HypeStrat 或 Kraken 背后的 Payward，这些都是推测。Whale Alert 当晚报了两笔约 62.5 万枚转进未知钱包，和 375 万有没有关系没法确认。另一半 187.5 万枚窗内没看到去向。",
+   "basis": "A 链上监测号（X 原帖）＋ A 媒体转述；买方猜测属 C。",
+   "risk": "我没有自己核这 5 个地址的余额和后续转账。买方没公开锁定期，到账后随时可以转进交易所。",
+   "confidence": "高（赎回和分发）；低（买方是谁、会不会卖）。",
+   "links": [
+    {
+     "text": "Onchain Lens 分发帖",
+     "url": "https://x.com/OnchainLens/status/2107875426492391599",
+     "field": "代表链接"
+    },
+    {
+     "text": "Onchain Lens 地址列表",
+     "url": "https://x.com/OnchainLens/status/2107875430338543967",
+     "field": "代表链接"
+    },
+    {
+     "text": "EmberCN 赎回帖",
+     "url": "https://x.com/EmberCN/status/2107859974449987712",
+     "field": "代表链接"
+    },
+    {
+     "text": "Odaily 中文快讯",
+     "url": "https://www.odaily.news/zh-CN/newsflash/523042",
+     "field": "代表链接"
+    }
+   ],
+   "uncertain": true,
+   "markers": [
+    "推测"
+   ],
+   "markers_by_field": {
+    "为什么": [
+     "推测"
+    ]
+   },
+   "basis_layers": [
+    "A"
+   ],
+   "fields": {
+    "结论": "团队份额按场外交易的说法在走，暂时没有砸到盘口的迹象，但买方身份和锁定期仍是空白。",
+    "为什么": "链上分析师余烬（EmberCN）报，HyperLabs 地址 7 天前申请解除质押的 375 万枚 HYPE 在 10/7 约 23:43（北京时间）赎回，约 3.32 亿美元。约一小时后 Onchain Lens 报，187.5 万枚已分到 5 个场外买方钱包，各 37.5 万枚，并列出钱包地址。社区有人发现这几个钱包各向同一地址转了 1 枚 HYPE，该地址又把 2 枚质押给了一个验证者，于是猜买方是 HypeStrat 或 Kraken 背后的 Payward，这些都是推测。Whale Alert 当晚报了两笔约 62.5 万枚转进未知钱包，和 375 万有没有关系没法确认。另一半 187.5 万枚窗内没看到去向。",
+    "依据": "A 链上监测号（X 原帖）＋ A 媒体转述；买方猜测属 C。",
+    "代表链接": "[Onchain Lens 分发帖](https://x.com/OnchainLens/status/2107875426492391599)；[Onchain Lens 地址列表](https://x.com/OnchainLens/status/2107875430338543967)；[EmberCN 赎回帖](https://x.com/EmberCN/status/2107859974449987712)；[Odaily 中文快讯](https://www.odaily.news/zh-CN/newsflash/523042)",
+    "风险": "我没有自己核这 5 个地址的余额和后续转账。买方没公开锁定期，到账后随时可以转进交易所。",
+    "置信度": "高（赎回和分发）；低（买方是谁、会不会卖）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "代表链接",
+    "风险",
+    "置信度"
+   ],
+   "body_md": "- **结论**：团队份额按场外交易的说法在走，暂时没有砸到盘口的迹象，但买方身份和锁定期仍是空白。\n- **为什么**：链上分析师余烬（EmberCN）报，HyperLabs 地址 7 天前申请解除质押的 375 万枚 HYPE 在 10/7 约 23:43（北京时间）赎回，约 3.32 亿美元。约一小时后 Onchain Lens 报，187.5 万枚已分到 5 个场外买方钱包，各 37.5 万枚，并列出钱包地址。社区有人发现这几个钱包各向同一地址转了 1 枚 HYPE，该地址又把 2 枚质押给了一个验证者，于是猜买方是 HypeStrat 或 Kraken 背后的 Payward，这些都是推测。Whale Alert 当晚报了两笔约 62.5 万枚转进未知钱包，和 375 万有没有关系没法确认。另一半 187.5 万枚窗内没看到去向。\n- **依据**：A 链上监测号（X 原帖）＋ A 媒体转述；买方猜测属 C。\n- **代表链接**：[Onchain Lens 分发帖](https://x.com/OnchainLens/status/2107875426492391599)；[Onchain Lens 地址列表](https://x.com/OnchainLens/status/2107875430338543967)；[EmberCN 赎回帖](https://x.com/EmberCN/status/2107859974449987712)；[Odaily 中文快讯](https://www.odaily.news/zh-CN/newsflash/523042)\n- **风险**：我没有自己核这 5 个地址的余额和后续转账。买方没公开锁定期，到账后随时可以转进交易所。\n- **置信度**：高（赎回和分发）；低（买方是谁、会不会卖）。"
+  },
+  {
+   "num": 2,
+   "title": "Jeff 的演讲重点在 HIP-3 和 HIP-4，「HL 要出期权」是误读",
+   "conclusion": "Jeff 给出的是方向，期权留给生态在 HIP-4 上做，没有官方产品和时间表。",
+   "why": "据 Foresight News 现场稿和 KuCoin 转载，Jeff 在 TOKEN2049 主舞台（对谈 Hart Lambur）说 7 月 HIP-3 市场一度约占成交 51%，原油和 Pre-IPO 股票是主要用例；The Block 引他的话「No one is trying to compete with the internet」，把 Hyperliquid 定位成大家共用的基础设施。下午 DAS 场上他说期权是「obvious next piece」，可以和现货、永续在同一订单簿上对冲。SkewTrade 引的原话是 HIP-4「is waiting for someone to come and really execute on the implementation」。@momilio 和中文号 @GuHype 都指出这句话的主语是开发者。晚上 Blockworks 的 Empire 播客也上线了，聊的是期权和机构接入。",
+   "basis": "A 媒体与现场转述（多源一致）；本窗官方渠道没发文字稿。",
+   "risk": "主舞台完整视频没找到官方上传，引语来自转述。51% 是 7 月某个时点的峰值，第三方今天的读数在 27%–35% 之间。",
+   "confidence": "高（讲了 HIP-3 和期权方向）；中（具体措辞）。",
+   "links": [
+    {
+     "text": "Cointelegraph 期权引语",
+     "url": "https://x.com/Cointelegraph/status/2107716908518867272",
+     "field": "代表链接"
+    },
+    {
+     "text": "SkewTrade 原话",
+     "url": "https://x.com/SkewTrade/status/2107872284392173914",
+     "field": "代表链接"
+    },
+    {
+     "text": "The Block 演讲帖",
+     "url": "https://x.com/TheBlockCo/status/2107680469722804517",
+     "field": "代表链接"
+    },
+    {
+     "text": "KuCoin 转 Foresight：HIP-3 占 51%",
+     "url": "https://www.kucoin.com/news/flash/jeff-yan-hip-3-accounts-for-51-of-hyperliquid-s-volume-platform-targets-open-financial-infrastructure",
+     "field": "代表链接"
+    },
+    {
+     "text": "Empire 播客",
+     "url": "https://blockworks.com/podcast/empire/bc375300-c276-11f1-925c-cbee0c7ea3ff",
+     "field": "代表链接"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [
+    "A"
+   ],
+   "fields": {
+    "结论": "Jeff 给出的是方向，期权留给生态在 HIP-4 上做，没有官方产品和时间表。",
+    "为什么": "据 Foresight News 现场稿和 KuCoin 转载，Jeff 在 TOKEN2049 主舞台（对谈 Hart Lambur）说 7 月 HIP-3 市场一度约占成交 51%，原油和 Pre-IPO 股票是主要用例；The Block 引他的话「No one is trying to compete with the internet」，把 Hyperliquid 定位成大家共用的基础设施。下午 DAS 场上他说期权是「obvious next piece」，可以和现货、永续在同一订单簿上对冲。SkewTrade 引的原话是 HIP-4「is waiting for someone to come and really execute on the implementation」。@momilio 和中文号 @GuHype 都指出这句话的主语是开发者。晚上 Blockworks 的 Empire 播客也上线了，聊的是期权和机构接入。",
+    "依据": "A 媒体与现场转述（多源一致）；本窗官方渠道没发文字稿。",
+    "代表链接": "[Cointelegraph 期权引语](https://x.com/Cointelegraph/status/2107716908518867272)；[SkewTrade 原话](https://x.com/SkewTrade/status/2107872284392173914)；[The Block 演讲帖](https://x.com/TheBlockCo/status/2107680469722804517)；[KuCoin 转 Foresight：HIP-3 占 51%](https://www.kucoin.com/news/flash/jeff-yan-hip-3-accounts-for-51-of-hyperliquid-s-volume-platform-targets-open-financial-infrastructure)；[Empire 播客](https://blockworks.com/podcast/empire/bc375300-c276-11f1-925c-cbee0c7ea3ff)",
+    "风险": "主舞台完整视频没找到官方上传，引语来自转述。51% 是 7 月某个时点的峰值，第三方今天的读数在 27%–35% 之间。",
+    "置信度": "高（讲了 HIP-3 和期权方向）；中（具体措辞）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "代表链接",
+    "风险",
+    "置信度"
+   ],
+   "body_md": "- **结论**：Jeff 给出的是方向，期权留给生态在 HIP-4 上做，没有官方产品和时间表。\n- **为什么**：据 Foresight News 现场稿和 KuCoin 转载，Jeff 在 TOKEN2049 主舞台（对谈 Hart Lambur）说 7 月 HIP-3 市场一度约占成交 51%，原油和 Pre-IPO 股票是主要用例；The Block 引他的话「No one is trying to compete with the internet」，把 Hyperliquid 定位成大家共用的基础设施。下午 DAS 场上他说期权是「obvious next piece」，可以和现货、永续在同一订单簿上对冲。SkewTrade 引的原话是 HIP-4「is waiting for someone to come and really execute on the implementation」。@momilio 和中文号 @GuHype 都指出这句话的主语是开发者。晚上 Blockworks 的 Empire 播客也上线了，聊的是期权和机构接入。\n- **依据**：A 媒体与现场转述（多源一致）；本窗官方渠道没发文字稿。\n- **代表链接**：[Cointelegraph 期权引语](https://x.com/Cointelegraph/status/2107716908518867272)；[SkewTrade 原话](https://x.com/SkewTrade/status/2107872284392173914)；[The Block 演讲帖](https://x.com/TheBlockCo/status/2107680469722804517)；[KuCoin 转 Foresight：HIP-3 占 51%](https://www.kucoin.com/news/flash/jeff-yan-hip-3-accounts-for-51-of-hyperliquid-s-volume-platform-targets-open-financial-infrastructure)；[Empire 播客](https://blockworks.com/podcast/empire/bc375300-c276-11f1-925c-cbee0c7ea3ff)\n- **风险**：主舞台完整视频没找到官方上传，引语来自转述。51% 是 7 月某个时点的峰值，第三方今天的读数在 27%–35% 之间。\n- **置信度**：高（讲了 HIP-3 和期权方向）；中（具体措辞）。"
+  },
+  {
+   "num": 3,
+   "title": "生态马上开始抢 HIP-4 的位置：预测市场先上，期权说下周",
+   "conclusion": "Jeff 一讲完，至少三个项目宣布了 HIP-4 相关进展，大多是项目自述。",
+   "why": "Share 的 iOS 版上线了 Hyperliquid 预测市场，可以和 Polymarket 比价；Liquid 宣布预测市场上线，没写明是不是 HIP-4；Synapse 旗下的 Hypercall 称 HIP-4 下周在它那里上线，并支持 HIP-4 保证金。Polymarket CEO Coplan 同在 TOKEN2049，只说在研究和自身经济挂钩的链上资产，没给时间表。",
+   "basis": "B 项目方 X 帖（自述）＋ A 媒体。",
+   "risk": "两边对 Hyperliquid 预测市场收入的估算差了几个数量级，我没采信任何一个倍数。",
+   "confidence": "中（上线公告）；低（Hypercall 时间表）。",
+   "links": [
+    {
+     "text": "Share 上线帖（Scott_eth）",
+     "url": "https://x.com/Scott_eth/status/2107851212175605955",
+     "field": "代表链接"
+    },
+    {
+     "text": "Hypercall 预告",
+     "url": "https://x.com/SynapseProtocol/status/2107824416034046146",
+     "field": "代表链接"
+    },
+    {
+     "text": "Liquid 预测市场",
+     "url": "https://x.com/liquidtrading/status/2107862113045639238",
+     "field": "代表链接"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [
+    "A",
+    "B"
+   ],
+   "fields": {
+    "结论": "Jeff 一讲完，至少三个项目宣布了 HIP-4 相关进展，大多是项目自述。",
+    "为什么": "Share 的 iOS 版上线了 Hyperliquid 预测市场，可以和 Polymarket 比价；Liquid 宣布预测市场上线，没写明是不是 HIP-4；Synapse 旗下的 Hypercall 称 HIP-4 下周在它那里上线，并支持 HIP-4 保证金。Polymarket CEO Coplan 同在 TOKEN2049，只说在研究和自身经济挂钩的链上资产，没给时间表。",
+    "依据": "B 项目方 X 帖（自述）＋ A 媒体。",
+    "代表链接": "[Share 上线帖（Scott_eth）](https://x.com/Scott_eth/status/2107851212175605955)；[Hypercall 预告](https://x.com/SynapseProtocol/status/2107824416034046146)；[Liquid 预测市场](https://x.com/liquidtrading/status/2107862113045639238)",
+    "风险": "两边对 Hyperliquid 预测市场收入的估算差了几个数量级，我没采信任何一个倍数。",
+    "置信度": "中（上线公告）；低（Hypercall 时间表）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "代表链接",
+    "风险",
+    "置信度"
+   ],
+   "body_md": "- **结论**：Jeff 一讲完，至少三个项目宣布了 HIP-4 相关进展，大多是项目自述。\n- **为什么**：Share 的 iOS 版上线了 Hyperliquid 预测市场，可以和 Polymarket 比价；Liquid 宣布预测市场上线，没写明是不是 HIP-4；Synapse 旗下的 Hypercall 称 HIP-4 下周在它那里上线，并支持 HIP-4 保证金。Polymarket CEO Coplan 同在 TOKEN2049，只说在研究和自身经济挂钩的链上资产，没给时间表。\n- **依据**：B 项目方 X 帖（自述）＋ A 媒体。\n- **代表链接**：[Share 上线帖（Scott_eth）](https://x.com/Scott_eth/status/2107851212175605955)；[Hypercall 预告](https://x.com/SynapseProtocol/status/2107824416034046146)；[Liquid 预测市场](https://x.com/liquidtrading/status/2107862113045639238)\n- **风险**：两边对 Hyperliquid 预测市场收入的估算差了几个数量级，我没采信任何一个倍数。\n- **置信度**：中（上线公告）；低（Hypercall 时间表）。"
+  },
+  {
+   "num": 4,
+   "title": "BTC 闪崩里，Hyperliquid 成了「抢跑空单」的发生地",
+   "conclusion": "这轮下跌由 BTC 带动，Hyperliquid 主要是被讨论的交易场所。抢跑空单是否涉及内幕，目前只有时间上的巧合。",
+   "why": "Lookonchain 报，下跌前 4 个新建钱包往 Hyperliquid 存了 100 万 USDC，开 40 倍杠杆空 148.49 枚 BTC，约 1250 万美元，帖子问「Insiders?」，这条是全窗互动最高的 HL 相关帖。Cointelegraph 说 BTC 两小时跌 2.3%，最低 83,560 美元，CoinGlass 统计全网 24 小时多单清算约 5.5 亿美元。另一边，余烬盯到一个巨鲸或机构在 3 个地址拿着约 3.52 亿美元 BTC 和 ETH 多单，浮盈 266 万美元。info API 自加总显示，Hyperliquid 主盘 OI 从 134.8 亿美元降到 127.4 亿美元（−5.5%），成交从 40.4 亿美元升到 67.8 亿美元（+68%），HYPE 从 91.97 美元跌到 88.27 美元（−4.0%），资金费转负。",
+   "basis": "A 链上监测号＋ A 媒体＋非正式（自加总，非里程碑）。",
+   "risk": "1250 万美元的空单不足以单独打穿 BTC，因果别过度解读。各家清算总额从 5.4 亿到 26 亿美元都有，我只取「数亿美元、多单为主」。",
+   "confidence": "高（数字）；低（内幕说）。",
+   "links": [
+    {
+     "text": "Lookonchain 原帖",
+     "url": "https://x.com/lookonchain/status/2107665774571856060",
+     "field": "代表链接"
+    },
+    {
+     "text": "Cointelegraph 行情稿",
+     "url": "https://cointelegraph.com/markets/crypto-liquidations-hit-550m-as-bitcoin-price-dips-below-84k",
+     "field": "代表链接"
+    },
+    {
+     "text": "EmberCN 巨鲸多单",
+     "url": "https://x.com/EmberCN/status/2107761006218797562",
+     "field": "代表链接"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [
+    "A"
+   ],
+   "fields": {
+    "结论": "这轮下跌由 BTC 带动，Hyperliquid 主要是被讨论的交易场所。抢跑空单是否涉及内幕，目前只有时间上的巧合。",
+    "为什么": "Lookonchain 报，下跌前 4 个新建钱包往 Hyperliquid 存了 100 万 USDC，开 40 倍杠杆空 148.49 枚 BTC，约 1250 万美元，帖子问「Insiders?」，这条是全窗互动最高的 HL 相关帖。Cointelegraph 说 BTC 两小时跌 2.3%，最低 83,560 美元，CoinGlass 统计全网 24 小时多单清算约 5.5 亿美元。另一边，余烬盯到一个巨鲸或机构在 3 个地址拿着约 3.52 亿美元 BTC 和 ETH 多单，浮盈 266 万美元。info API 自加总显示，Hyperliquid 主盘 OI 从 134.8 亿美元降到 127.4 亿美元（−5.5%），成交从 40.4 亿美元升到 67.8 亿美元（+68%），HYPE 从 91.97 美元跌到 88.27 美元（−4.0%），资金费转负。",
+    "依据": "A 链上监测号＋ A 媒体＋非正式（自加总，非里程碑）。",
+    "代表链接": "[Lookonchain 原帖](https://x.com/lookonchain/status/2107665774571856060)；[Cointelegraph 行情稿](https://cointelegraph.com/markets/crypto-liquidations-hit-550m-as-bitcoin-price-dips-below-84k)；[EmberCN 巨鲸多单](https://x.com/EmberCN/status/2107761006218797562)",
+    "风险": "1250 万美元的空单不足以单独打穿 BTC，因果别过度解读。各家清算总额从 5.4 亿到 26 亿美元都有，我只取「数亿美元、多单为主」。",
+    "置信度": "高（数字）；低（内幕说）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "代表链接",
+    "风险",
+    "置信度"
+   ],
+   "body_md": "- **结论**：这轮下跌由 BTC 带动，Hyperliquid 主要是被讨论的交易场所。抢跑空单是否涉及内幕，目前只有时间上的巧合。\n- **为什么**：Lookonchain 报，下跌前 4 个新建钱包往 Hyperliquid 存了 100 万 USDC，开 40 倍杠杆空 148.49 枚 BTC，约 1250 万美元，帖子问「Insiders?」，这条是全窗互动最高的 HL 相关帖。Cointelegraph 说 BTC 两小时跌 2.3%，最低 83,560 美元，CoinGlass 统计全网 24 小时多单清算约 5.5 亿美元。另一边，余烬盯到一个巨鲸或机构在 3 个地址拿着约 3.52 亿美元 BTC 和 ETH 多单，浮盈 266 万美元。info API 自加总显示，Hyperliquid 主盘 OI 从 134.8 亿美元降到 127.4 亿美元（−5.5%），成交从 40.4 亿美元升到 67.8 亿美元（+68%），HYPE 从 91.97 美元跌到 88.27 美元（−4.0%），资金费转负。\n- **依据**：A 链上监测号＋ A 媒体＋非正式（自加总，非里程碑）。\n- **代表链接**：[Lookonchain 原帖](https://x.com/lookonchain/status/2107665774571856060)；[Cointelegraph 行情稿](https://cointelegraph.com/markets/crypto-liquidations-hit-550m-as-bitcoin-price-dips-below-84k)；[EmberCN 巨鲸多单](https://x.com/EmberCN/status/2107761006218797562)\n- **风险**：1250 万美元的空单不足以单独打穿 BTC，因果别过度解读。各家清算总额从 5.4 亿到 26 亿美元都有，我只取「数亿美元、多单为主」。\n- **置信度**：高（数字）；低（内幕说）。"
+  },
+  {
+   "num": 5,
+   "title": "AF 跟着成交回升，USDC 余额在重新攒起来",
+   "conclusion": "AF 每天买多少由当天手续费决定，波动越大买得越多，昨天回到 2 万枚以上。",
+   "why": "自采 AF 地址（0xfefe…fefe）成交，本窗买入 24,098 枚、约 215 万美元，均价约 89.4 美元；10/6 只有 14,279 枚。按小时看，10/7 UTC 2 点买了 4,152 枚，是全天最高，正好是 BTC 闪崩那一小时前后。AF 现货 USDC 从昨天的 6,663 回到 34,917，HYPE 约 4789 万枚。第三方号 nahnah64 的统计和自采口径一致。",
+   "basis": "非正式（info API 原始成交和余额，自采）＋ B 第三方。",
+   "risk": "USDC 余额是时点数，几小时内就会被花掉，别把它当趋势。",
+   "confidence": "高（买入量）；中（和闪崩的对应）。",
+   "links": [
+    {
+     "text": "nahnah64 AF 日统计",
+     "url": "https://x.com/nahnah64/status/2107768266131468550",
+     "field": "代表链接"
+    },
+    {
+     "text": "swolecharts AF 页",
+     "url": "https://swolecharts.com/hyperliquid/assistance-fund",
+     "field": "代表链接"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [
+    "B"
+   ],
+   "fields": {
+    "结论": "AF 每天买多少由当天手续费决定，波动越大买得越多，昨天回到 2 万枚以上。",
+    "为什么": "自采 AF 地址（0xfefe…fefe）成交，本窗买入 24,098 枚、约 215 万美元，均价约 89.4 美元；10/6 只有 14,279 枚。按小时看，10/7 UTC 2 点买了 4,152 枚，是全天最高，正好是 BTC 闪崩那一小时前后。AF 现货 USDC 从昨天的 6,663 回到 34,917，HYPE 约 4789 万枚。第三方号 nahnah64 的统计和自采口径一致。",
+    "依据": "非正式（info API 原始成交和余额，自采）＋ B 第三方。",
+    "代表链接": "[nahnah64 AF 日统计](https://x.com/nahnah64/status/2107768266131468550)；[swolecharts AF 页](https://swolecharts.com/hyperliquid/assistance-fund)",
+    "风险": "USDC 余额是时点数，几小时内就会被花掉，别把它当趋势。",
+    "置信度": "高（买入量）；中（和闪崩的对应）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "代表链接",
+    "风险",
+    "置信度"
+   ],
+   "body_md": "- **结论**：AF 每天买多少由当天手续费决定，波动越大买得越多，昨天回到 2 万枚以上。\n- **为什么**：自采 AF 地址（0xfefe…fefe）成交，本窗买入 24,098 枚、约 215 万美元，均价约 89.4 美元；10/6 只有 14,279 枚。按小时看，10/7 UTC 2 点买了 4,152 枚，是全天最高，正好是 BTC 闪崩那一小时前后。AF 现货 USDC 从昨天的 6,663 回到 34,917，HYPE 约 4789 万枚。第三方号 nahnah64 的统计和自采口径一致。\n- **依据**：非正式（info API 原始成交和余额，自采）＋ B 第三方。\n- **代表链接**：[nahnah64 AF 日统计](https://x.com/nahnah64/status/2107768266131468550)；[swolecharts AF 页](https://swolecharts.com/hyperliquid/assistance-fund)\n- **风险**：USDC 余额是时点数，几小时内就会被花掉，别把它当趋势。\n- **置信度**：高（买入量）；中（和闪崩的对应）。"
+  },
+  {
+   "num": 6,
+   "title": "监管话题从新闻变成争论；HPC 的 Chervinsky 喊「十年内所有交易所都上公链」",
+   "conclusion": "MAS 这件事本窗没有新动作，讨论转向它到底是护身符还是隐患。美国那边众议院 10/13 期限照旧，没有新信息。",
+   "why": "FT 稿被 Cointelegraph、Blockhead 和 crypto.news 继续转，核心事实没变。Labs 认总部在新加坡，MAS 说不知道它受任何主要司法辖区监管，Labs 说自己未受监管、从没声称拿到 MAS 许可。Blockhead 补了一个背景，新加坡从 2025 年 6 月 30 日起要求在本地只服务海外客户的币圈公司持牌，MAS 不认管辖，等于把 Labs 的注册地和交易场所分开处理。Hyperliquid 政策中心（HPC）CEO Jake Chervinsky 在 DAS 对 The Block 说，十年内包括 CME、ICE 在内的所有交易所都得用公链基础设施，他预计链上市场会在近期某个时间点进入美国监管框架。众议院监督委员会没有新公函。币安全球站没有新公告，泰国站上线 HYPE 现货的说法只看到推广帖。",
+   "basis": "A 媒体＋ A 采访帖；币安泰国站属 C 待验证。",
+   "risk": "今天的机构闭门场（Jeff 和 Chervinsky 同台）可能出新口径，但闭门内容未必外流。",
+   "confidence": "高（事实层）；低（对业务的影响）。",
+   "links": [
+    {
+     "text": "Blockhead 监管稿",
+     "url": "https://www.blockhead.co/2026/10/07/hyperliquid-confirms-singapore-registration-as-mas-says-exchange-falls-outside-its-jurisdiction/",
+     "field": "代表链接"
+    },
+    {
+     "text": "The Block 采访 Chervinsky",
+     "url": "https://x.com/TheBlockCo/status/2107751641592324289",
+     "field": "代表链接"
+    },
+    {
+     "text": "众议院公函 PDF",
+     "url": "https://oversight.house.gov/wp-content/uploads/2026/09/Hyperliquid-Letter-9.29.26.pdf",
+     "field": "代表链接"
+    }
+   ],
+   "uncertain": true,
+   "markers": [
+    "待验证"
+   ],
+   "markers_by_field": {
+    "依据": [
+     "待验证"
+    ]
+   },
+   "basis_layers": [
+    "A",
+    "C"
+   ],
+   "fields": {
+    "结论": "MAS 这件事本窗没有新动作，讨论转向它到底是护身符还是隐患。美国那边众议院 10/13 期限照旧，没有新信息。",
+    "为什么": "FT 稿被 Cointelegraph、Blockhead 和 crypto.news 继续转，核心事实没变。Labs 认总部在新加坡，MAS 说不知道它受任何主要司法辖区监管，Labs 说自己未受监管、从没声称拿到 MAS 许可。Blockhead 补了一个背景，新加坡从 2025 年 6 月 30 日起要求在本地只服务海外客户的币圈公司持牌，MAS 不认管辖，等于把 Labs 的注册地和交易场所分开处理。Hyperliquid 政策中心（HPC）CEO Jake Chervinsky 在 DAS 对 The Block 说，十年内包括 CME、ICE 在内的所有交易所都得用公链基础设施，他预计链上市场会在近期某个时间点进入美国监管框架。众议院监督委员会没有新公函。币安全球站没有新公告，泰国站上线 HYPE 现货的说法只看到推广帖。",
+    "依据": "A 媒体＋ A 采访帖；币安泰国站属 C 待验证。",
+    "代表链接": "[Blockhead 监管稿](https://www.blockhead.co/2026/10/07/hyperliquid-confirms-singapore-registration-as-mas-says-exchange-falls-outside-its-jurisdiction/)；[The Block 采访 Chervinsky](https://x.com/TheBlockCo/status/2107751641592324289)；[众议院公函 PDF](https://oversight.house.gov/wp-content/uploads/2026/09/Hyperliquid-Letter-9.29.26.pdf)",
+    "风险": "今天的机构闭门场（Jeff 和 Chervinsky 同台）可能出新口径，但闭门内容未必外流。",
+    "置信度": "高（事实层）；低（对业务的影响）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "代表链接",
+    "风险",
+    "置信度"
+   ],
+   "body_md": "- **结论**：MAS 这件事本窗没有新动作，讨论转向它到底是护身符还是隐患。美国那边众议院 10/13 期限照旧，没有新信息。\n- **为什么**：FT 稿被 Cointelegraph、Blockhead 和 crypto.news 继续转，核心事实没变。Labs 认总部在新加坡，MAS 说不知道它受任何主要司法辖区监管，Labs 说自己未受监管、从没声称拿到 MAS 许可。Blockhead 补了一个背景，新加坡从 2025 年 6 月 30 日起要求在本地只服务海外客户的币圈公司持牌，MAS 不认管辖，等于把 Labs 的注册地和交易场所分开处理。Hyperliquid 政策中心（HPC）CEO Jake Chervinsky 在 DAS 对 The Block 说，十年内包括 CME、ICE 在内的所有交易所都得用公链基础设施，他预计链上市场会在近期某个时间点进入美国监管框架。众议院监督委员会没有新公函。币安全球站没有新公告，泰国站上线 HYPE 现货的说法只看到推广帖。\n- **依据**：A 媒体＋ A 采访帖；币安泰国站属 C 待验证。\n- **代表链接**：[Blockhead 监管稿](https://www.blockhead.co/2026/10/07/hyperliquid-confirms-singapore-registration-as-mas-says-exchange-falls-outside-its-jurisdiction/)；[The Block 采访 Chervinsky](https://x.com/TheBlockCo/status/2107751641592324289)；[众议院公函 PDF](https://oversight.house.gov/wp-content/uploads/2026/09/Hyperliquid-Letter-9.29.26.pdf)\n- **风险**：今天的机构闭门场（Jeff 和 Chervinsky 同台）可能出新口径，但闭门内容未必外流。\n- **置信度**：高（事实层）；低（对业务的影响）。"
+  }
+ ],
+ "sections": [
+  {
+   "title": "今天怎么看",
+   "subsections": [],
+   "body_md": "375 万枚团队份额昨晚 11 点多（北京时间）完成赎回，一半已经分到 5 个场外买方钱包，每个 37.5 万枚。到窗口结束，这批币没有出现在公开盘口，买方是谁还没确认。\n\nJeff Yan 在 TOKEN2049 和 Blockworks 的 DAS 大会上连讲两场，主线是 HIP-3 和期权。他说 7 月 HIP-3 市场一度占到全站成交约 51%。很多标题写成「Hyperliquid 下一个产品是期权」，按原话转述，他的意思是期权要由开发者在 HIP-4 上去做，Hyperliquid 自己没给上线时间。FT 报道的新加坡监管问题、375 万的买方和 AQAv2，现有转述里都没看到他在台上谈。\n\n盘面跟着 BTC 闪崩走弱。BTC 一度跌到 83,560 美元，全网清算约 5.5 亿美元，多数是多单。Hyperliquid 主盘 OI 降到约 127.4 亿美元，少了 5.5%；24 小时成交约 67.8 亿美元，多了 68%；HYPE 约 88.27 美元，跌 4%。成交放大以后，AF 本窗买入也回升到约 2.41 万枚。"
+  },
+  {
+   "title": "观点",
+   "subsections": [
+    {
+     "title": "1. 375 万枚已赎回，一半分到 5 个钱包，接下来盯这 5 个地址和另一半",
+     "body_md": "- **结论**：团队份额按场外交易的说法在走，暂时没有砸到盘口的迹象，但买方身份和锁定期仍是空白。\n- **为什么**：链上分析师余烬（EmberCN）报，HyperLabs 地址 7 天前申请解除质押的 375 万枚 HYPE 在 10/7 约 23:43（北京时间）赎回，约 3.32 亿美元。约一小时后 Onchain Lens 报，187.5 万枚已分到 5 个场外买方钱包，各 37.5 万枚，并列出钱包地址。社区有人发现这几个钱包各向同一地址转了 1 枚 HYPE，该地址又把 2 枚质押给了一个验证者，于是猜买方是 HypeStrat 或 Kraken 背后的 Payward，这些都是推测。Whale Alert 当晚报了两笔约 62.5 万枚转进未知钱包，和 375 万有没有关系没法确认。另一半 187.5 万枚窗内没看到去向。\n- **依据**：A 链上监测号（X 原帖）＋ A 媒体转述；买方猜测属 C。\n- **代表链接**：[Onchain Lens 分发帖](https://x.com/OnchainLens/status/2107875426492391599)；[Onchain Lens 地址列表](https://x.com/OnchainLens/status/2107875430338543967)；[EmberCN 赎回帖](https://x.com/EmberCN/status/2107859974449987712)；[Odaily 中文快讯](https://www.odaily.news/zh-CN/newsflash/523042)\n- **风险**：我没有自己核这 5 个地址的余额和后续转账。买方没公开锁定期，到账后随时可以转进交易所。\n- **置信度**：高（赎回和分发）；低（买方是谁、会不会卖）。"
+    },
+    {
+     "title": "2. Jeff 的演讲重点在 HIP-3 和 HIP-4，「HL 要出期权」是误读",
+     "body_md": "- **结论**：Jeff 给出的是方向，期权留给生态在 HIP-4 上做，没有官方产品和时间表。\n- **为什么**：据 Foresight News 现场稿和 KuCoin 转载，Jeff 在 TOKEN2049 主舞台（对谈 Hart Lambur）说 7 月 HIP-3 市场一度约占成交 51%，原油和 Pre-IPO 股票是主要用例；The Block 引他的话「No one is trying to compete with the internet」，把 Hyperliquid 定位成大家共用的基础设施。下午 DAS 场上他说期权是「obvious next piece」，可以和现货、永续在同一订单簿上对冲。SkewTrade 引的原话是 HIP-4「is waiting for someone to come and really execute on the implementation」。@momilio 和中文号 @GuHype 都指出这句话的主语是开发者。晚上 Blockworks 的 Empire 播客也上线了，聊的是期权和机构接入。\n- **依据**：A 媒体与现场转述（多源一致）；本窗官方渠道没发文字稿。\n- **代表链接**：[Cointelegraph 期权引语](https://x.com/Cointelegraph/status/2107716908518867272)；[SkewTrade 原话](https://x.com/SkewTrade/status/2107872284392173914)；[The Block 演讲帖](https://x.com/TheBlockCo/status/2107680469722804517)；[KuCoin 转 Foresight：HIP-3 占 51%](https://www.kucoin.com/news/flash/jeff-yan-hip-3-accounts-for-51-of-hyperliquid-s-volume-platform-targets-open-financial-infrastructure)；[Empire 播客](https://blockworks.com/podcast/empire/bc375300-c276-11f1-925c-cbee0c7ea3ff)\n- **风险**：主舞台完整视频没找到官方上传，引语来自转述。51% 是 7 月某个时点的峰值，第三方今天的读数在 27%–35% 之间。\n- **置信度**：高（讲了 HIP-3 和期权方向）；中（具体措辞）。"
+    },
+    {
+     "title": "3. 生态马上开始抢 HIP-4 的位置：预测市场先上，期权说下周",
+     "body_md": "- **结论**：Jeff 一讲完，至少三个项目宣布了 HIP-4 相关进展，大多是项目自述。\n- **为什么**：Share 的 iOS 版上线了 Hyperliquid 预测市场，可以和 Polymarket 比价；Liquid 宣布预测市场上线，没写明是不是 HIP-4；Synapse 旗下的 Hypercall 称 HIP-4 下周在它那里上线，并支持 HIP-4 保证金。Polymarket CEO Coplan 同在 TOKEN2049，只说在研究和自身经济挂钩的链上资产，没给时间表。\n- **依据**：B 项目方 X 帖（自述）＋ A 媒体。\n- **代表链接**：[Share 上线帖（Scott_eth）](https://x.com/Scott_eth/status/2107851212175605955)；[Hypercall 预告](https://x.com/SynapseProtocol/status/2107824416034046146)；[Liquid 预测市场](https://x.com/liquidtrading/status/2107862113045639238)\n- **风险**：两边对 Hyperliquid 预测市场收入的估算差了几个数量级，我没采信任何一个倍数。\n- **置信度**：中（上线公告）；低（Hypercall 时间表）。"
+    },
+    {
+     "title": "4. BTC 闪崩里，Hyperliquid 成了「抢跑空单」的发生地",
+     "body_md": "- **结论**：这轮下跌由 BTC 带动，Hyperliquid 主要是被讨论的交易场所。抢跑空单是否涉及内幕，目前只有时间上的巧合。\n- **为什么**：Lookonchain 报，下跌前 4 个新建钱包往 Hyperliquid 存了 100 万 USDC，开 40 倍杠杆空 148.49 枚 BTC，约 1250 万美元，帖子问「Insiders?」，这条是全窗互动最高的 HL 相关帖。Cointelegraph 说 BTC 两小时跌 2.3%，最低 83,560 美元，CoinGlass 统计全网 24 小时多单清算约 5.5 亿美元。另一边，余烬盯到一个巨鲸或机构在 3 个地址拿着约 3.52 亿美元 BTC 和 ETH 多单，浮盈 266 万美元。info API 自加总显示，Hyperliquid 主盘 OI 从 134.8 亿美元降到 127.4 亿美元（−5.5%），成交从 40.4 亿美元升到 67.8 亿美元（+68%），HYPE 从 91.97 美元跌到 88.27 美元（−4.0%），资金费转负。\n- **依据**：A 链上监测号＋ A 媒体＋非正式（自加总，非里程碑）。\n- **代表链接**：[Lookonchain 原帖](https://x.com/lookonchain/status/2107665774571856060)；[Cointelegraph 行情稿](https://cointelegraph.com/markets/crypto-liquidations-hit-550m-as-bitcoin-price-dips-below-84k)；[EmberCN 巨鲸多单](https://x.com/EmberCN/status/2107761006218797562)\n- **风险**：1250 万美元的空单不足以单独打穿 BTC，因果别过度解读。各家清算总额从 5.4 亿到 26 亿美元都有，我只取「数亿美元、多单为主」。\n- **置信度**：高（数字）；低（内幕说）。"
+    },
+    {
+     "title": "5. AF 跟着成交回升，USDC 余额在重新攒起来",
+     "body_md": "- **结论**：AF 每天买多少由当天手续费决定，波动越大买得越多，昨天回到 2 万枚以上。\n- **为什么**：自采 AF 地址（0xfefe…fefe）成交，本窗买入 24,098 枚、约 215 万美元，均价约 89.4 美元；10/6 只有 14,279 枚。按小时看，10/7 UTC 2 点买了 4,152 枚，是全天最高，正好是 BTC 闪崩那一小时前后。AF 现货 USDC 从昨天的 6,663 回到 34,917，HYPE 约 4789 万枚。第三方号 nahnah64 的统计和自采口径一致。\n- **依据**：非正式（info API 原始成交和余额，自采）＋ B 第三方。\n- **代表链接**：[nahnah64 AF 日统计](https://x.com/nahnah64/status/2107768266131468550)；[swolecharts AF 页](https://swolecharts.com/hyperliquid/assistance-fund)\n- **风险**：USDC 余额是时点数，几小时内就会被花掉，别把它当趋势。\n- **置信度**：高（买入量）；中（和闪崩的对应）。"
+    },
+    {
+     "title": "6. 监管话题从新闻变成争论；HPC 的 Chervinsky 喊「十年内所有交易所都上公链」",
+     "body_md": "- **结论**：MAS 这件事本窗没有新动作，讨论转向它到底是护身符还是隐患。美国那边众议院 10/13 期限照旧，没有新信息。\n- **为什么**：FT 稿被 Cointelegraph、Blockhead 和 crypto.news 继续转，核心事实没变。Labs 认总部在新加坡，MAS 说不知道它受任何主要司法辖区监管，Labs 说自己未受监管、从没声称拿到 MAS 许可。Blockhead 补了一个背景，新加坡从 2025 年 6 月 30 日起要求在本地只服务海外客户的币圈公司持牌，MAS 不认管辖，等于把 Labs 的注册地和交易场所分开处理。Hyperliquid 政策中心（HPC）CEO Jake Chervinsky 在 DAS 对 The Block 说，十年内包括 CME、ICE 在内的所有交易所都得用公链基础设施，他预计链上市场会在近期某个时间点进入美国监管框架。众议院监督委员会没有新公函。币安全球站没有新公告，泰国站上线 HYPE 现货的说法只看到推广帖。\n- **依据**：A 媒体＋ A 采访帖；币安泰国站属 C 待验证。\n- **代表链接**：[Blockhead 监管稿](https://www.blockhead.co/2026/10/07/hyperliquid-confirms-singapore-registration-as-mas-says-exchange-falls-outside-its-jurisdiction/)；[The Block 采访 Chervinsky](https://x.com/TheBlockCo/status/2107751641592324289)；[众议院公函 PDF](https://oversight.house.gov/wp-content/uploads/2026/09/Hyperliquid-Letter-9.29.26.pdf)\n- **风险**：今天的机构闭门场（Jeff 和 Chervinsky 同台）可能出新口径，但闭门内容未必外流。\n- **置信度**：高（事实层）；低（对业务的影响）。"
+    }
+   ],
+   "body_md": ""
+  },
+  {
+   "title": "社区共鸣点",
+   "subsections": [
+    {
+     "title": "可核情绪线索",
+     "body_md": "1. **最想听到的话：解锁没砸，100 以下是便宜价**\n   - **证据**：@0xMaxs「在 100 以下买入 HYPE……总有一天你再也见不到两位数的 HYPE」（21 赞，4.1K 曝光）；@cloudi66 写「销毁是慢变量，解锁是快变量，就盯下一个动地址」。\n   - **推断**：持币的人要的是「卖压已经被消化」的确认，他们手里能用的证据只有「暂时没进盘口」。\n   - **层级**：C（中文 X，温度计）\n   - **代表链接**：[0xMaxs 原帖](https://x.com/0xMaxs/status/2107658597819908206)；[cloudi66 原帖](https://x.com/cloudi66/status/2107983187607761314)\n\n2. **焦虑点换成了「大户作妖」和抢跑空单**\n   - **证据**：@Felix_Hsu 说早上这轮下跌里币安现货没怎么砸，Hyperliquid 急卖，「妥妥的大户作妖」（108 赞，36.8K 曝光，本次中文样本最高）；@buereth 转述 4 个新钱包抢跑空单，认为「是提前拿到消息的」（14.5K 曝光）。\n   - **推断**：Hyperliquid 在中文圈的角色从「被讨论的币」多了一层「被讨论的场所」。大家想要的帮助是看懂这类链上空单能不能当信号。\n   - **层级**：C\n   - **代表链接**：[Felix_Hsu 原帖](https://x.com/Felix_Hsu/status/2107682902293303374)；[buereth 原帖](https://x.com/buereth/status/2107771308503450020)\n\n3. **MAS 一事分成两派：监管 BUG，还是离岸套利**\n   - **证据**：@_FORAB 说 FT 这篇说明 HL「卡了一个监管 BUG」（89 赞，28.9K 曝光），回复区有人反驳说这是离岸套利。\n   - **推断**：读者想知道「不在管辖范围」对普通用户有没有实际影响，目前没有人给出清楚答案。\n   - **层级**：C\n   - **代表链接**：[_FORAB 原帖](https://x.com/_FORAB/status/2107704609980682556)\n\n4. **期权的口径混乱，懂行的号在纠偏**\n   - **证据**：有中文快讯写成「下一步将大力发展期权产品」；@GuHype 则说「Jeff 的思路就是让生态在 HIP-4 实现类似期权的产品」（22 赞）。\n   - **推断**：这里有一个现成的信息缺口，就是期权到底什么时候能用、由谁来做。\n   - **层级**：A 媒体＋ C\n   - **代表链接**：[GuHype 原帖](https://x.com/GuHype/status/2107883845920162014)；[Odaily 期权快讯](https://www.odaily.news/zh-CN/newsflash/522922)"
+    }
+   ],
+   "body_md": "本期第一次拿到像样的中文 X 样本。98 条里和 HL 相关的有机讨论约 25–30 条，有实质观点的约 12–15 条，比前几天的个位数多，但高互动帖只有 4–5 条，下面的判断只当方向参考。大家最想听到的是「解锁没砸盘、HYPE 扛得住」。信息缺口集中在 375 万的买方是谁、另一半什么时候动。情绪是兴奋和焦虑同时在：Jeff 的演讲让人兴奋，BTC 闪崩和疑似抢跑空单让人焦虑。和前几天比，注意力从 AF 回购和销毁，移到了「买方是谁」「期权谁来做」和「Hyperliquid 上有没有人抢跑」。"
+  },
+  {
+   "title": "少数派",
+   "subsections": [],
+   "body_md": "- **「OTC＝永远不进市场」**：买方没公开锁定期，到账后随时能卖，今天只能说「还没卖」。\n- **「HypeStrat 或 Kraken 就是买方」**：依据是 1 枚 HYPE 的测试转账和验证者质押，链条太短。\n- **「Hyperliquid 下一个产品是期权」**：Jeff 说的是期权要靠开发者在 HIP-4 上做。\n- **「Variational 首次反超 Hyperliquid」**：只有一个越南号单源，其他几家数据都显示 HL 约是它的 2 倍。\n- **「4 个钱包内幕砸盘」**：只有时间巧合，1250 万美元空单撬不动 BTC 全市场。\n- **「OI 份额 11.9% 创新高＝资金在涌入」**：份额升是因为全市场一起降，HL 主盘 OI 本窗绝对值少了 5.5%。\n- **「MAS 不管＝免死金牌」**：没执法是事实，但机构资金未必喜欢监管空白。"
+  },
+  {
+   "title": "附录 · Phase 1 素材摘要",
+   "subsections": [],
+   "body_md": "完整素材见 `/workspace/hl-daily-2026-10-08/phase1-merged.md` 和 `phase1-x.md`，内部推演见 `phase2-internal.md`，AF 成交原始数据在 `af_fills.json`。\n\n**事件簇**：375 万赎回与场外分发；Jeff 在 TOKEN2049、DAS 和 Empire 播客的发言；HIP-4 和预测市场的生态接力（Share、Liquid、Hypercall、Outcome）；BTC 闪崩、抢跑空单与鲸鱼仓位；AF 回购回升；MAS 后续与 Chervinsky 采访；Variational 反超传闻、USDC 余额接近 Solana、OI 份额；币安泰国站传闻；生态杂项（Nest 用 Sideways 给 RWA 做 LP，Epoch 45 veNEST 收入超 14.3 万美元；Ascend 私测发邀请；Hypernova 赔付金库补回 100 万美元；Frogman 被盗 400 万美元以上待验证）。Hyperliquid Strategies 再买 190 万枚是旧闻再传播，未计入。\n\n**关键数字**：正式里程碑无。非正式（info API 10/8 00:09:47 UTC 主盘自加总，不含 HIP-3 盘）：OI 约 127.4 亿美元（10/7 134.8 亿，−5.5%）；24 小时成交约 67.8 亿美元（10/7 40.4 亿，+67.6%）；HYPE 88.274（−4.02%），HYPE OI 约 17.5 亿美元，资金费为负；HYPE/USDC 现货 24 小时成交约 6890 万美元。非正式 AF 自采：本窗买入 24,098 枚、约 215 万美元；余额 USDC 34,917、HYPE 约 4789 万枚。第三方温度计：cipher-intelligence 10/7 12:17 UTC 读数显示 HL 永续 24 小时 82.6 亿美元，其中 HIP-3 占 27%；ORTEX 称 HL 上 USDC 69.7 亿美元，距 Solana 差 5500 万美元；SoSoValue 称 HYPE 现货 ETF 10/6（美东）净流入 298.33 万美元。\n\n**采集状态**：X 三官号本窗 0 条（timeline 核过）；FOCUS List 返回 0，已抽检 16 个项目号，原创 13 条；ECO List 窗内 175 条，读了约 50 条；中文 X 98 条，有机约 25–30 条。官方 TG 公告频道最新一条仍是 10/5；GitBook 最新更新 10/3；官网和基金会站与昨天逐字节一致；HPC 博客页面没解析出来；Discord 未采。Odaily 窗内 144 条快讯，HL 相关 11 条，部分编号抓取失败。info API 一轮成功。**未用旧快照。**\n\n今天值得盯的有三件事：机构闭门场有没有内容流出，另一半 187.5 万枚的去向，以及 Hypercall 说的 HIP-4 下周上线能不能兑现。"
+  }
+ ],
+ "source": {
+  "type": "hl-intel-daily",
+  "label": "HL 情报台日报",
+  "file": "/workspace/hl-daily-2026-10-08/daily-final.md",
+  "file_mtime": "2026-10-08T08:25:42+08:00"
+ },
+ "parse": {
+  "format": "v3-md-links",
+  "warnings": []
+ }
+}

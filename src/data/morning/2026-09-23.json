@@ -1,0 +1,118 @@
+{
+ "schema": "hl-morning/v1",
+ "date": "2026-09-23",
+ "updated_at": null,
+ "window": {
+  "start": "2026-09-22T08:14:00+08:00",
+  "end": "2026-09-23T08:14:00+08:00"
+ },
+ "items": [
+  {
+   "title": "官号三连静默，产品节奏回到生态自述",
+   "summary": "本窗没有新的 S 层产品官宣；可核进展主要来自生态方与媒体二传。",
+   "sources": [
+    {
+     "name": "hyperliquid.xyz",
+     "url": "https://hyperliquid.xyz"
+    },
+    {
+     "name": "@NestExchange",
+     "url": "https://x.com/NestExchange/status/2102469617931161781"
+    }
+   ],
+   "flags": [],
+   "ref": {
+    "view": 1,
+    "source_field": "依据"
+   }
+  },
+  {
+   "title": "HYPE 站上约 $97，价格叙事重新占版面",
+   "summary": "本窗最醒目的公开数字落在价格新高一带；新功能官宣缺席。",
+   "sources": [
+    {
+     "name": "techflowpost.com",
+     "url": "https://www.techflowpost.com/newsletter/137382"
+    }
+   ],
+   "flags": [],
+   "ref": {
+    "view": 2,
+    "source_field": "依据"
+   }
+  },
+  {
+   "title": "Nest Epoch43 自报营收冲顶；Elysium 测试网开张",
+   "summary": "生态产品在自己讲增长故事，且有一条 L2 测试网新闻可核到项目方传播。",
+   "sources": [
+    {
+     "name": "@NestExchange",
+     "url": "https://x.com/NestExchange/status/2102469617931161781"
+    },
+    {
+     "name": "@Enter_Elysium",
+     "url": "https://x.com/Enter_Elysium/status/2102505535056818359"
+    },
+    {
+     "name": "chaincatcher.com",
+     "url": "https://www.chaincatcher.com/article/2291553"
+    }
+   ],
+   "flags": [
+    "项目自述"
+   ],
+   "ref": {
+    "view": 5,
+    "source_field": "依据"
+   }
+  },
+  {
+   "title": "OI 仍多口径；dayNtl 拍点低于昨系列观察值",
+   "summary": "本窗依旧不能用单一数字写「OI/成交额纪录」。拍点对比只作非正式观察。",
+   "sources": [
+    {
+     "name": "gate.com",
+     "url": "https://www.gate.com/id/news/detail/hype-falls-to-9340-on-hyperliquid-open-interest-reaches-2034b-24469365"
+    }
+   ],
+   "flags": [],
+   "ref": {
+    "view": 6,
+    "source_field": "依据"
+   }
+  }
+ ],
+ "disclaimer": "AI 整理，非投资建议",
+ "provenance": {
+  "generator": "build_morning.py 过渡数据（从 daily-final.md 转出）",
+  "file": "/workspace/hl-daily-2026-09-23/daily-final.md"
+ },
+ "_report": {
+  "skipped": [
+   {
+    "num": 3,
+    "title": "回购销毁约 $3.76M/24h：多媒同引，仍非正式",
+    "reason": "不确定标记：依据「待验证」"
+   },
+   {
+    "num": 4,
+    "title": "FalconX ≈$50M：本窗表述偏向「内部划转」",
+    "reason": "不确定标记：依据「待验证」"
+   },
+   {
+    "num": 7,
+    "title": "解锁日历与 ETF 流入同框，NEAR Spot 仍待官号",
+    "reason": "不确定标记：依据「待验证」"
+   }
+  ],
+  "long_titles": [
+   {
+    "num": 5,
+    "length": 33,
+    "title": "Nest Epoch43 自报营收冲顶；Elysium 测试网开张"
+   }
+  ],
+  "no_summary": [],
+  "no_sources": []
+ }
+}

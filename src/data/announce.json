@@ -1,0 +1,153 @@
+{
+ "generated_at": "2026-10-08T14:46:39+08:00",
+ "window_days": 30,
+ "sources": [
+  {
+   "type": "x",
+   "handle": "HyperliquidX",
+   "name": "Hyperliquid",
+   "role": "协议官号"
+  },
+  {
+   "type": "x",
+   "handle": "chameleon_jeff",
+   "name": "jeff.hl",
+   "role": "联创 Jeff"
+  },
+  {
+   "type": "x",
+   "handle": "HyperFND",
+   "name": "Hyper Foundation",
+   "role": "基金会"
+  }
+ ],
+ "stats": [
+  {
+   "account": "HyperliquidX",
+   "fetched": 9,
+   "kept": 5,
+   "dropped": {
+    "reply": 4,
+    "retweet": 0
+   }
+  },
+  {
+   "account": "chameleon_jeff",
+   "fetched": 2,
+   "kept": 2,
+   "dropped": {
+    "reply": 0,
+    "retweet": 0
+   }
+  },
+  {
+   "account": "HyperFND",
+   "fetched": 0,
+   "kept": 0,
+   "dropped": {
+    "reply": 0,
+    "retweet": 0
+   }
+  }
+ ],
+ "items": [
+  {
+   "id": "x:2107387650508505343",
+   "date": "2026-10-06",
+   "created_at": "2026-10-06T16:29:03+08:00",
+   "source": {
+    "type": "x",
+    "account": "@chameleon_jeff",
+    "name": "jeff.hl"
+   },
+   "kind": "original",
+   "title": "Thanks to everyone for coming out to yesterday's event!",
+   "text": "Thanks to everyone for coming out to yesterday's event! Huge shoutout to @Valinorae for fulfilling a grand architectural vision down to the smallest details, @jaygee_hl for the top tier execution and coordination, and @iliensinc for the tireless work behind the scenes. Also thank you @RitzCarlton #Singapore for going above and beyond and for your warm hospitality. The community and ecosystem are deeply grateful to you all for putting on the best event that I and many others have ever experienced.\n\nIt's incredible to see how far Hyperliquid has come and the momentum with which the ecosystem is growing. Looking forward to another year of building alongside the ever-growing community.",
+   "url": "https://x.com/chameleon_jeff/status/2107387650508505343"
+  },
+  {
+   "id": "x:2105177404394381496",
+   "date": "2026-09-30",
+   "created_at": "2026-09-30T14:06:20+08:00",
+   "source": {
+    "type": "x",
+    "account": "@HyperliquidX",
+    "name": "Hyperliquid"
+   },
+   "kind": "original",
+   "title": "The Hyperliquid community event will take place on the evening of October 5 in Singapore",
+   "text": "The Hyperliquid community event will take place on the evening of October 5 in Singapore: https://luma.com/HL2026Community\n\nThis is a chance to spend time with the builders and users who've shaped the ecosystem\n\nThe event is oversubscribed; you will only be able to attend if your RSVP was accepted. If your RSVP was accepted but you're no longer able to attend, please cancel your RSVP to make space for others",
+   "url": "https://x.com/HyperliquidX/status/2105177404394381496"
+  },
+  {
+   "id": "x:2102643437896110439",
+   "date": "2026-09-23",
+   "created_at": "2026-09-23T14:17:15+08:00",
+   "source": {
+    "type": "x",
+    "account": "@HyperliquidX",
+    "name": "Hyperliquid"
+   },
+   "kind": "original",
+   "title": "Open interest reached an all-time high of $18B on Hyperliquid",
+   "text": "Open interest reached an all-time high of $18B on Hyperliquid",
+   "url": "https://x.com/HyperliquidX/status/2102643437896110439"
+  },
+  {
+   "id": "x:2101913891681055056",
+   "date": "2026-09-21",
+   "created_at": "2026-09-21T13:58:18+08:00",
+   "source": {
+    "type": "x",
+    "account": "@HyperliquidX",
+    "name": "Hyperliquid"
+   },
+   "kind": "original",
+   "title": "Trailing stops are now available for perp markets.",
+   "text": "Trailing stops are now available for perp markets.\n\nA trailing stop's trigger price follows the mark price as it moves in favor of the position. When the mark price retraces from its best level by the selected distance or percentage, it triggers a market order. For long positions, the trigger price follows the highest mark price reached since activation; for short positions, it follows the lowest. An optional activation price determines when tracking begins. Without one, tracking begins immediately at the current mark price.",
+   "url": "https://x.com/HyperliquidX/status/2101913891681055056"
+  },
+  {
+   "id": "x:2100892325547504016",
+   "date": "2026-09-18",
+   "created_at": "2026-09-18T18:18:57+08:00",
+   "source": {
+    "type": "x",
+    "account": "@chameleon_jeff",
+    "name": "jeff.hl"
+   },
+   "kind": "quote",
+   "title": "Most tech giants in the 2000s built their infrastructure and product as one entangled unit.",
+   "text": "Most tech giants in the 2000s built their infrastructure and product as one entangled unit. Amazon had the foresight to separate out AWS as an API layer, of which Amazon retail was the first of many users. Today, AWS generates more profit than all of Amazon's other business lines combined.\n\nHyperliquid is built with the same philosophy. Housing all of finance requires thoughtfully designed, open financial primitives. Each primitive should obey the Unix principle of \"Do one thing and do it well.\" Talented builders then have the foundation to chain these together to create magical applications.\n\nHyperCore borrowing is an example to highlight this philosophy in action.\n\nMost other platforms implement portfolio margin by marking an account's collateral to market value with an LTV haircut, creating borrowed assets without an explicit lender. This system is simpler to implement, but misses a golden opportunity for composability.\n\nHyperliquid instead begins with a borrow/lend protocol on HyperCore. Every borrowed asset is sourced from a supplier, so risk is isolated within the borrow/lend primitive instead of platform-wide. HyperCore's portfolio margin system is implemented as an orchestration layer that composes borrow/lend, with other primitives such as perps, spot, and outcome trading.\n\nThis decomposition has several nice corollaries:\n1. Today's announcement of manual borrowing is not a new feature, but simply an extension of the underlying primitive. Borrowers on day one have access to 400M and growing of supplied liquidity.\n2. Portfolio margin users earn interest on their idle stablecoin collateral. This is not a new feature, but a natural byproduct of composing trading with lending.\n3. System safety is easier to reason about when perp and borrow/lend margining are independent.\n\nIn the same way that math theorems almost prove themselves when the right abstractions are defined, composable designs just feel right.",
+   "url": "https://x.com/chameleon_jeff/status/2100892325547504016"
+  },
+  {
+   "id": "x:2100838194317312446",
+   "date": "2026-09-18",
+   "created_at": "2026-09-18T14:43:51+08:00",
+   "source": {
+    "type": "x",
+    "account": "@HyperliquidX",
+    "name": "Hyperliquid"
+   },
+   "kind": "original",
+   "title": "Manual borrows are live on Hyperliquid",
+   "text": "Manual borrows are live on Hyperliquid\nPortfolio margin and manual borrows use the same underlying HyperCore infrastructure, with $269M in assets borrowed today.\n\nUsers can supply HYPE and BTC as collateral to borrow quote assets (USDC and USDT). Borrowed quote assets pay interest, and supplied quote assets earn interest, with rates set by utilization.",
+   "url": "https://x.com/HyperliquidX/status/2100838194317312446"
+  },
+  {
+   "id": "x:2097356045886824715",
+   "date": "2026-09-09",
+   "created_at": "2026-09-09T00:07:02+08:00",
+   "source": {
+    "type": "x",
+    "account": "@HyperliquidX",
+    "name": "Hyperliquid"
+   },
+   "kind": "original",
+   "title": "By community request, $USELESS perps have been listed with up to 3x leverage.",
+   "text": "By community request, $USELESS perps have been listed with up to 3x leverage.",
+   "url": "https://x.com/HyperliquidX/status/2097356045886824715"
+  }
+ ]
+}

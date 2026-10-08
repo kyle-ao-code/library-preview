@@ -1,0 +1,21 @@
+---
+// 晨报条目列表（首页双栏区和晨报详情页共用）：编号、标题（可带提醒标签）、一句话说明、出处
+const { items = [], limit = Infinity } = Astro.props;
+const shown = items.slice(0, limit);
+---
+{shown.length ? (
+  <ul class="items">
+    {shown.map((it: any, i: number) => (
+      <li class="it">
+        <span class="n">{String(i + 1).padStart(2, '0')}</span>
+        <h4>{it.title}{(it.flags || []).map((f: string) => <span class="flag">{f}</span>)}</h4>
+        {it.summary && <p>{it.summary}</p>}
+        {it.sources?.length > 0 && (
+          <div class="src">{it.sources.map((s: any) => <a href={s.url} target="_blank" rel="noopener">{s.name} ↗</a>)}</div>
+        )}
+      </li>
+    ))}
+  </ul>
+) : (
+  <p class="items-empty">这一期没有可上站的条目（标了待验证、传闻等的条目不上站）。</p>
+)}

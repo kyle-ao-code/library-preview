@@ -1,0 +1,33 @@
+---
+// 所有页面共用的 <head>、预览横幅；noindex 在预览构建或 noindex=true 时加
+import '../styles/tokens.css';
+import '../styles/site.css';
+import site from '../site.json';
+const { title = site.name, noindex = false } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+const ogImage = new URL(`${base}icon-512.png`, Astro.site).href;
+---
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{title}</title>
+  <meta name="description" content={`${site.name} · ${site.disclaimer}`} />
+  <link rel="icon" href={`${base}favicon.svg`} type="image/svg+xml" />
+  <link rel="icon" href={`${base}favicon-32.png`} sizes="32x32" type="image/png" />
+  <link rel="icon" href={`${base}favicon-16.png`} sizes="16x16" type="image/png" />
+  <link rel="apple-touch-icon" href={`${base}apple-touch-icon.png`} />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content={site.name} />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={site.bio} />
+  <meta property="og:image" content={ogImage} />
+  <meta name="twitter:card" content="summary" />
+  {(__PREVIEW__ || noindex) && <meta name="robots" content="noindex" />}
+</head>
+<body>
+  {__PREVIEW__ && <div class="preview-bar">预览版，待 Kyle 审核</div>}
+  <slot />
+</body>
+</html>

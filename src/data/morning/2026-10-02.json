@@ -1,0 +1,146 @@
+{
+ "schema": "hl-morning/v1",
+ "date": "2026-10-02",
+ "updated_at": null,
+ "window": {
+  "start": "2026-10-01T08:16:00+08:00",
+  "end": "2026-10-02T08:16:00+08:00"
+ },
+ "items": [
+  {
+   "title": "Kinetiq 最终 kPoints 已分发：可按 $0.26/KNTQ 认购 5000 万枚，窗 10 天；Ascend 澄清长期对齐并称净收入 50% 购 kinetiq:native",
+   "summary": "本窗最抢注意力的一手来自 Kinetiq 积分兑现与 Ascend 对齐澄清。认购价、额度与窗口写在项目方原帖里；公平性质疑仍属中文薄样本。",
+   "sources": [
+    {
+     "name": "@Kinetiq_xyz",
+     "url": "https://x.com/Kinetiq_xyz/status/2105629210048078216"
+    },
+    {
+     "name": "@AscendLaunch",
+     "url": "https://x.com/AscendLaunch/status/2105751119037391125"
+    },
+    {
+     "name": "@GuHype",
+     "url": "https://x.com/GuHype/status/2105770180689420754"
+    }
+   ],
+   "flags": [],
+   "ref": {
+    "view": 1,
+    "source_field": "依据"
+   }
+  },
+  {
+   "title": "非正式 OI 约 $12.53B、dayNtl 约 $5.63B、HYPE≈87.78 同降；正式里程碑仍无",
+   "summary": "相对昨拍，未平仓、日名义成交与 HYPE 价格一并转降。这是非正式 API 拍点对照，不是正式里程碑。",
+   "sources": [
+    {
+     "name": "hyperliquid.xyz",
+     "url": "https://hyperliquid.xyz"
+    }
+   ],
+   "flags": [],
+   "ref": {
+    "view": 2,
+    "source_field": "依据"
+   }
+  },
+  {
+   "title": "HPC 向欧盟提交 MiCA 反馈：主张链上永续归入 MiFID II（一手博客+PDF）",
+   "summary": "政策侧本窗有可核一手。Hyperliquid Policy Center 称此为首次美国境外政策呈递，主张按经济实质将永续归入 MiFID II，勿机械套用 CFD 散户限制。咨询反馈不等于已获欧盟分类。",
+   "sources": [
+    {
+     "name": "hyperliquidpolicy.org",
+     "url": "https://hyperliquidpolicy.org/blog/hpc-urges-the-european-commission-to-build-on-the-eu%E2%80%99s-existing-rules-for-onchain-markets"
+    },
+    {
+     "name": "hyperliquidpolicy.org",
+     "url": "https://hyperliquidpolicy.org/micaresponse/2026-09-30_hpc_mica_review_consultation_response.pdf"
+    },
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/regulation/2026-10-01-hyperliquid-circle-mica-review-417452"
+    },
+    {
+     "name": "odaily.news",
+     "url": "https://www.odaily.news/zh-CN/newsflash/521907"
+    },
+    {
+     "name": "oversight.house.gov",
+     "url": "https://oversight.house.gov/release/comer-continues-investigation-into-insider-trading-on-online-prediction-market-platforms/"
+    }
+   ],
+   "flags": [],
+   "ref": {
+    "view": 3,
+    "source_field": "依据"
+   }
+  },
+  {
+   "title": "众议院调查弱续写，答复仍 10-13；币安提现仍无「已开放」新 CMS；S 三官号本窗静默",
+   "summary": "监管美线本窗无新公函。币安提现时点仍停在「预计」口径。S 层三官号无新帖。",
+   "sources": [
+    {
+     "name": "oversight.house.gov",
+     "url": "https://oversight.house.gov/release/comer-continues-investigation-into-insider-trading-on-online-prediction-market-platforms/"
+    },
+    {
+     "name": "oversight.house.gov",
+     "url": "https://oversight.house.gov/wp-content/uploads/2026/09/Hyperliquid-Letter-9.29.26.pdf"
+    },
+    {
+     "name": "binance.com",
+     "url": "https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d"
+    }
+   ],
+   "flags": [],
+   "ref": {
+    "view": 6,
+    "source_field": "依据"
+   }
+  }
+ ],
+ "disclaimer": "AI 整理，非投资建议",
+ "provenance": {
+  "generator": "build_morning.py 过渡数据（从 daily-final.md 转出）",
+  "file": "/workspace/hl-daily-2026-10-02/daily-final.md"
+ },
+ "_report": {
+  "skipped": [
+   {
+    "num": 4,
+    "title": "Copper 宣布上线 HL 永续机构交易界面；媒体续写 Labs 约 3.75M HYPE 链上赎回、常转 Flowdesk（待验证）",
+    "reason": "不确定标记：结论「待验证」、依据「待验证」、标题「待验证」"
+   },
+   {
+    "num": 5,
+    "title": "Nest 发 Q3 报告并开 Epoch 45、推 KNTQ LP→NEST；BVIV 媒体再传播但 universe 仍无名；Onchain Lens 称 24h 销毁约 2.02 万 HYPE（待验证）",
+    "reason": "不确定标记：为什么「待验证」、依据「待验证」、标题「待验证」"
+   }
+  ],
+  "long_titles": [
+   {
+    "num": 1,
+    "length": 94,
+    "title": "Kinetiq 最终 kPoints 已分发：可按 $0.26/KNTQ 认购 5000 万枚，窗 10 天；Ascend 澄清长期对齐并称净收入 50% 购 kinetiq:native"
+   },
+   {
+    "num": 2,
+    "length": 54,
+    "title": "非正式 OI 约 $12.53B、dayNtl 约 $5.63B、HYPE≈87.78 同降；正式里程碑仍无"
+   },
+   {
+    "num": 3,
+    "length": 45,
+    "title": "HPC 向欧盟提交 MiCA 反馈：主张链上永续归入 MiFID II（一手博客+PDF）"
+   },
+   {
+    "num": 6,
+    "length": 45,
+    "title": "众议院调查弱续写，答复仍 10-13；币安提现仍无「已开放」新 CMS；S 三官号本窗静默"
+   }
+  ],
+  "no_summary": [],
+  "no_sources": []
+ }
+}

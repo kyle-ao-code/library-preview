@@ -1,5 +1,5 @@
 {
-  "_note": "首页由版块拼成：sections 的顺序就是页面顺序。type 对应 src/components/sections/ 里的组件（见 index.astro 的 SECTIONS 表）。带 nav 的版块会出现在顶栏链接里，链接到 #id。 previewOnly: true 的版块只在 PREVIEW=1 的构建里出现（对应顶栏链接也一起去掉）。",
+  "_note": "首页由版块拼成：sections 的顺序就是页面顺序。type 对应 src/components/sections/ 里的组件（见 index.astro 的 SECTIONS 表）。带 nav 的版块会出现在顶栏链接里，链接到 #id。 previewOnly: true 的版块只在 PREVIEW=1 的构建里出现（对应顶栏链接也一起去掉）。 enabled: false 的版块整块不出现（数据和组件留着，以后要用再打开）。navLinks 用于一个版块有多个顶栏锚点（双栏区：晨报、官宣）。",
   "sections": [
     {
       "type": "nav"
@@ -7,6 +7,33 @@
     {
       "type": "hero",
       "followLabel": "在 X 关注 @kylewmi ↗"
+    },
+    {
+      "type": "duo",
+      "navLinks": [
+        {
+          "label": "晨报",
+          "id": "morning"
+        },
+        {
+          "label": "官宣",
+          "id": "announce"
+        }
+      ],
+      "morning": {
+        "title": "晨报",
+        "show": 3,
+        "more": "往期 →",
+        "foot": "AI 整理，非投资建议 · 每条附出处",
+        "full": "看完整晨报 →"
+      },
+      "announce": {
+        "title": "官宣",
+        "show": 5,
+        "foot": "来源：HL 官方 X 与 Discord 公告频道",
+        "footXOnly": "来源：HL 官方 X"
+      },
+      "previewOnly": true
     },
     {
       "type": "grid",
@@ -23,7 +50,9 @@
       "sub": "读完要 5 分钟以上的深度整理",
       "sampleLabel": "示例",
       "more": null,
-      "previewOnly": true
+      "previewOnly": true,
+      "enabled": false,
+      "_disabled_note": "home-v3 设计稿里没有长文区，先关掉"
     },
     {
       "type": "about",

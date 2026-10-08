@@ -1,14 +1,14 @@
 ---
 // 版块 1 · 顶栏：滚动时固定在顶部；手机上只留 logo 和馆名
 import site from '../../site.json';
-const { links = [] } = Astro.props; // [{label, href}]，由 index.astro 按带 nav 的版块生成
+const { links = [], active = null } = Astro.props; // links: [{label, href, id}]，由 data.ts navLinks() 生成；active: 非首页时固定高亮的锚点 id（如晨报页传 'morning'）
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 ---
 <nav class="nav" data-section="nav">
   <div class="wrap nav-in">
     <a class="brand" href={base}><img class="tile" src={`${base}logo-tile-dark.svg`} alt="" width="30" height="30" /><span class="nm">{site.name}</span></a>
     <div class="links">
-      {links.map((l: any, i: number) => <a class={i === 0 ? 'on' : undefined} href={l.href} data-spy={l.href.slice(1)}>{l.label}</a>)}
+      {links.map((l: any, i: number) => <a class={(active ? l.id === active : i === 0) ? 'on' : undefined} href={l.href} data-spy={active ? undefined : l.id} aria-current={active && l.id === active ? 'page' : undefined}>{l.label}</a>)}
       <a href={`https://x.com/${site.handle}`} target="_blank" rel="noopener">X ↗</a>
     </div>
   </div>
@@ -19,12 +19,18 @@ const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
   const spies = [...document.querySelectorAll<HTMLAnchorElement>('.links a[data-spy]')];
   const targets = spies.map((a) => document.getElementById(a.dataset.spy || '')).filter(Boolean) as HTMLElement[];
   if (nav && targets.length) {
-    let queued = false;
+    let queued = false, pinned: string | null = null;
+    spies.forEach((a) => a.addEventListener('click', () => { pinned = a.dataset.spy || null; setTimeout(onScroll, 50); }));
+    ['wheel', 'touchstart', 'keydown'].forEach((ev) => window.addEventListener(ev, () => { pinned = null; }, { passive: true }));
     const update = () => {
       queued = false;
       const line = nav.getBoundingClientRect().bottom + window.innerHeight / 3;
-      let cur = targets[0];
-      for (const t of targets) if (t.getBoundingClientRect().top <= line) cur = t;
+      // 并排的版块（双栏区的晨报、官宣顶部一样高）只取靠前的那个
+      let cur = targets[0], curTop = -Infinity;
+      for (const t of targets) { const top = t.getBoundingClientRect().top; if (top <= line && top > curTop + 1) { cur = t; curTop = top; } }
+      // 点了并排版块里的某一个（如「官宣」），就高亮点的那个，直到用户自己滚动
+      const p = pinned && document.getElementById(pinned);
+      if (p && Math.abs(p.getBoundingClientRect().top - curTop) < 2) cur = p;
       if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2) cur = targets[targets.length - 1];
       spies.forEach((a) => { const on = a.dataset.spy === cur.id; a.classList.toggle('on', on); on ? a.setAttribute('aria-current', 'true') : a.removeAttribute('aria-current'); });
     };

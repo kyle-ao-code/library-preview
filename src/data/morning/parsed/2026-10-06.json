@@ -1,0 +1,423 @@
+{
+ "date": "2026-10-06",
+ "title": "过去24h Hyperliquid 情报日报（2026-10-06）",
+ "window": {
+  "raw": "窗口：Asia/Shanghai 2026-10-05 08:16 → 2026-10-06 08:16。成稿已过 qu-ai-wei。",
+  "start": "2026-10-05 08:16",
+  "end": "2026-10-06 08:16",
+  "tz": "Asia/Shanghai"
+ },
+ "notes": [
+  "⚠️ 本期仍是**降级版**。X 额度连续第二天是 $0，S 层三个官号、两个 X List 和中文 X 讨论都没采到。今天补上了两个替代源：Hyperliquid 官方 Telegram 公告频道（窗内 0 条）和 info API（本次第二轮恢复，OI、价格和 AF 买单都拉到了）。未用旧快照顶替。"
+ ],
+ "today": [
+  "AQAv2 首笔钱大概率已经花出去了。我直接拉了 Assistance Fund（AF）地址的成交，10/4 和 10/5（UTC）两天买入约 19 万枚 HYPE、约 1730 万美元，平时一天只有 2 万多枚；AF 账上的 USDC 现在只剩约 1.46 万美元。扣掉手续费平时会买的量，多出来的部分和 1458 万美元那笔对得上，只是利息地址转进 AF 的那一笔我没直接核到。中文媒体把这件事写成「24 小时销毁 1015 万美元」，其实是 AF 买入后计入移出流通，真正打到销毁地址的累计只有约 112 万枚。",
+  "另一头是 375 万枚团队份额：今天解除质押，10/7 分给团队，整批场外卖给一家机构，买方和价格没公开，锁定期也没说。彭博终端开始提供 Hyperliquid 部分永续的实时行情，只能看不能交易。按 info API 非正式自加总，全市场 OI 约 135 亿美元，比 10/4 高 5.3%；HYPE 约 94.47 美元，24 小时涨 4.3%。Polymarket 拿周末收入对比 HYPE 估值，CEO 预告 TOKEN2049 要讲话。正式里程碑无。"
+ ],
+ "views": [
+  {
+   "num": 1,
+   "title": "AF 两天买了约 19 万枚 HYPE，USDC 余额见底，AQAv2 首笔大概率已经用完",
+   "conclusion": "昨天还在争「钱进没进 AF」，今天可以往前走一步。AF 从 10/4 起明显放量，现在账上几乎没有 USDC 了。",
+   "why": "我用 info API 拉了 AF 地址（0xfefe…fefe）从 10/3 起的全部成交，全是买单。10/3（UTC）买 7,952 枚、约 71 万美元；10/4 买 90,783 枚、约 818 万美元，均价 90.14；10/5 买 99,513 枚、约 912 万美元，均价 91.68。放量从 10/4 中午（北京时间）开始，10/5 晚上回落到平时的节奏。作为对照，9/28–10/2 每天约 2 万–2.8 万枚、175 万–250 万美元（swolecharts 统计）。AF 现货余额是 USDC 约 14,640、HYPE 约 4785 万枚。两天花掉约 1730 万美元，扣掉每天 100 万–250 万美元的常规手续费买入，多出约 1200 万–1500 万美元，和 14,580,777.21 USDC 量级吻合。Onchain Lens 也说这轮买入「可能使用 AQAv2 收入及费用」。",
+   "basis": "非正式（info API 原始成交，自采，非里程碑）＋ A 媒体（Onchain Lens 转述）。资金来源是推断。",
+   "risk": "利息地址到 AF 的那笔转账我没有直接核到，所以「全部来自 AQAv2」仍是推断。买完以后 AF 回到每天一两百万美元的常态，下一笔 AQAv2 要等约 11 月初，短期的额外买盘已经没了。",
+   "confidence": "高（AF 放量买入、USDC 见底）；中（资金来自 AQAv2）。",
+   "links": [
+    {
+     "text": "Odaily 转 Onchain Lens",
+     "url": "https://www.odaily.news/zh-CN/newsflash/522529",
+     "field": "代表链接"
+    },
+    {
+     "text": "swolecharts AF 日买入表",
+     "url": "https://swolecharts.com/hyperliquid/assistance-fund",
+     "field": "代表链接"
+    },
+    {
+     "text": "TheTokenPress 首笔核对稿",
+     "url": "https://www.thetokenpress.com/article/hyperliquid-records-first-14-58m-usdc-reserve-yield-payment-c7a495c4",
+     "field": "代表链接"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [
+    "A"
+   ],
+   "fields": {
+    "结论": "昨天还在争「钱进没进 AF」，今天可以往前走一步。AF 从 10/4 起明显放量，现在账上几乎没有 USDC 了。",
+    "为什么": "我用 info API 拉了 AF 地址（0xfefe…fefe）从 10/3 起的全部成交，全是买单。10/3（UTC）买 7,952 枚、约 71 万美元；10/4 买 90,783 枚、约 818 万美元，均价 90.14；10/5 买 99,513 枚、约 912 万美元，均价 91.68。放量从 10/4 中午（北京时间）开始，10/5 晚上回落到平时的节奏。作为对照，9/28–10/2 每天约 2 万–2.8 万枚、175 万–250 万美元（swolecharts 统计）。AF 现货余额是 USDC 约 14,640、HYPE 约 4785 万枚。两天花掉约 1730 万美元，扣掉每天 100 万–250 万美元的常规手续费买入，多出约 1200 万–1500 万美元，和 14,580,777.21 USDC 量级吻合。Onchain Lens 也说这轮买入「可能使用 AQAv2 收入及费用」。",
+    "依据": "非正式（info API 原始成交，自采，非里程碑）＋ A 媒体（Onchain Lens 转述）。资金来源是推断。",
+    "代表链接": "[Odaily 转 Onchain Lens](https://www.odaily.news/zh-CN/newsflash/522529)；[swolecharts AF 日买入表](https://swolecharts.com/hyperliquid/assistance-fund)；[TheTokenPress 首笔核对稿](https://www.thetokenpress.com/article/hyperliquid-records-first-14-58m-usdc-reserve-yield-payment-c7a495c4)",
+    "风险": "利息地址到 AF 的那笔转账我没有直接核到，所以「全部来自 AQAv2」仍是推断。买完以后 AF 回到每天一两百万美元的常态，下一笔 AQAv2 要等约 11 月初，短期的额外买盘已经没了。",
+    "置信度": "高（AF 放量买入、USDC 见底）；中（资金来自 AQAv2）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "代表链接",
+    "风险",
+    "置信度"
+   ],
+   "body_md": "- **结论**：昨天还在争「钱进没进 AF」，今天可以往前走一步。AF 从 10/4 起明显放量，现在账上几乎没有 USDC 了。\n- **为什么**：我用 info API 拉了 AF 地址（0xfefe…fefe）从 10/3 起的全部成交，全是买单。10/3（UTC）买 7,952 枚、约 71 万美元；10/4 买 90,783 枚、约 818 万美元，均价 90.14；10/5 买 99,513 枚、约 912 万美元，均价 91.68。放量从 10/4 中午（北京时间）开始，10/5 晚上回落到平时的节奏。作为对照，9/28–10/2 每天约 2 万–2.8 万枚、175 万–250 万美元（swolecharts 统计）。AF 现货余额是 USDC 约 14,640、HYPE 约 4785 万枚。两天花掉约 1730 万美元，扣掉每天 100 万–250 万美元的常规手续费买入，多出约 1200 万–1500 万美元，和 14,580,777.21 USDC 量级吻合。Onchain Lens 也说这轮买入「可能使用 AQAv2 收入及费用」。\n- **依据**：非正式（info API 原始成交，自采，非里程碑）＋ A 媒体（Onchain Lens 转述）。资金来源是推断。\n- **代表链接**：[Odaily 转 Onchain Lens](https://www.odaily.news/zh-CN/newsflash/522529)；[swolecharts AF 日买入表](https://swolecharts.com/hyperliquid/assistance-fund)；[TheTokenPress 首笔核对稿](https://www.thetokenpress.com/article/hyperliquid-records-first-14-58m-usdc-reserve-yield-payment-c7a495c4)\n- **风险**：利息地址到 AF 的那笔转账我没有直接核到，所以「全部来自 AQAv2」仍是推断。买完以后 AF 回到每天一两百万美元的常态，下一笔 AQAv2 要等约 11 月初，短期的额外买盘已经没了。\n- **置信度**：高（AF 放量买入、USDC 见底）；中（资金来自 AQAv2）。"
+  },
+  {
+   "num": 2,
+   "title": "「24 小时销毁 1015 万美元」实为 AF 买入后计入非流通，打进销毁地址的只占很小一部分",
+   "conclusion": "中文快讯普遍用「销毁」这个词，读的时候要换成「AF 买入、计为非流通」。",
+   "why": "Onchain Lens 的原话是「买入并销毁 112,580 枚」「累计 4925 万枚被永久移出供应量」。swolecharts 按官方 API 的口径拆开算，AF 持有约 4785 万枚，计为非流通；销毁地址累计只有约 112 万枚。两者相加约 4900 万枚，和 4925 万的说法基本对得上。Onchain Lens 同条还给了 24 小时估算费用 98.9 万美元、7 日收入 985 万美元、30 日收入 5206 万美元。",
+   "basis": "A 媒体（转述）＋ B 第三方数据页（只当温度计）。",
+   "risk": "AF 持仓按规则可以通过协议操作销毁，但要单独执行，本窗没看到。30 日收入 5206 万和昨天 Odaily 写的 5434 万对不上，数据源不同。",
+   "confidence": "中。",
+   "links": [
+    {
+     "text": "深潮 TechFlow 快讯",
+     "url": "https://techflowpost.com/newsletter/138839",
+     "field": "代表链接"
+    },
+    {
+     "text": "PANews 英文稿",
+     "url": "https://www.panews.io/articles/01a109db-c69e-76cf-94ba-945e5c909a05",
+     "field": "代表链接"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [
+    "A",
+    "B"
+   ],
+   "fields": {
+    "结论": "中文快讯普遍用「销毁」这个词，读的时候要换成「AF 买入、计为非流通」。",
+    "为什么": "Onchain Lens 的原话是「买入并销毁 112,580 枚」「累计 4925 万枚被永久移出供应量」。swolecharts 按官方 API 的口径拆开算，AF 持有约 4785 万枚，计为非流通；销毁地址累计只有约 112 万枚。两者相加约 4900 万枚，和 4925 万的说法基本对得上。Onchain Lens 同条还给了 24 小时估算费用 98.9 万美元、7 日收入 985 万美元、30 日收入 5206 万美元。",
+    "依据": "A 媒体（转述）＋ B 第三方数据页（只当温度计）。",
+    "代表链接": "[深潮 TechFlow 快讯](https://techflowpost.com/newsletter/138839)；[PANews 英文稿](https://www.panews.io/articles/01a109db-c69e-76cf-94ba-945e5c909a05)",
+    "风险": "AF 持仓按规则可以通过协议操作销毁，但要单独执行，本窗没看到。30 日收入 5206 万和昨天 Odaily 写的 5434 万对不上，数据源不同。",
+    "置信度": "中。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "代表链接",
+    "风险",
+    "置信度"
+   ],
+   "body_md": "- **结论**：中文快讯普遍用「销毁」这个词，读的时候要换成「AF 买入、计为非流通」。\n- **为什么**：Onchain Lens 的原话是「买入并销毁 112,580 枚」「累计 4925 万枚被永久移出供应量」。swolecharts 按官方 API 的口径拆开算，AF 持有约 4785 万枚，计为非流通；销毁地址累计只有约 112 万枚。两者相加约 4900 万枚，和 4925 万的说法基本对得上。Onchain Lens 同条还给了 24 小时估算费用 98.9 万美元、7 日收入 985 万美元、30 日收入 5206 万美元。\n- **依据**：A 媒体（转述）＋ B 第三方数据页（只当温度计）。\n- **代表链接**：[深潮 TechFlow 快讯](https://techflowpost.com/newsletter/138839)；[PANews 英文稿](https://www.panews.io/articles/01a109db-c69e-76cf-94ba-945e5c909a05)\n- **风险**：AF 持仓按规则可以通过协议操作销毁，但要单独执行，本窗没看到。30 日收入 5206 万和昨天 Odaily 写的 5434 万对不上，数据源不同。\n- **置信度**：中。"
+  },
+  {
+   "num": 3,
+   "title": "375 万枚团队份额：今天解除质押，明天分给团队，整批场外卖给一家机构",
+   "conclusion": "短期不会直接压到订单簿上，真正要看的是 10/7 之后这批币往哪走。",
+   "why": "BeInCrypto 和 KuCoin 转述，联创 iliensinc 在 Discord 说整批 OTC 卖给单一机构；BBX 写今天解除质押、10/7 分配给团队成员。买方和价格没公开，锁定期也没说。unlocks.app 补了两个数：375 万是团队承诺领取的量，白皮书本期计划是 992 万；过去一周回购约 1181 万美元，约等于这次解锁金额的 3.5%。",
+   "basis": "A 媒体（一手在官方 Discord，本次不可采）。",
+   "risk": "到账后如果转进交易所充值地址，「场外不砸盘」就站不住。买方是谁、有没有锁定期，可能要等 TOKEN2049 前后才有人问出来。",
+   "confidence": "中（OTC 安排有多家转述）；低（后续去向）。",
+   "links": [
+    {
+     "text": "BeInCrypto 解锁稿",
+     "url": "https://beincrypto.com/hyperliquid-token-unlock-320-million-price-impact/",
+     "field": "代表链接"
+    },
+    {
+     "text": "unlocks.app 周报",
+     "url": "https://insights.unlocks.app/weekly-unlock-digest-oct-5-oct-11-2026-hypes-team-payout-goes-otc/",
+     "field": "代表链接"
+    },
+    {
+     "text": "BBX 中文快讯",
+     "url": "https://bbx.com/zh-Hans/news-detail/3111680",
+     "field": "代表链接"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [
+    "A"
+   ],
+   "fields": {
+    "结论": "短期不会直接压到订单簿上，真正要看的是 10/7 之后这批币往哪走。",
+    "为什么": "BeInCrypto 和 KuCoin 转述，联创 iliensinc 在 Discord 说整批 OTC 卖给单一机构；BBX 写今天解除质押、10/7 分配给团队成员。买方和价格没公开，锁定期也没说。unlocks.app 补了两个数：375 万是团队承诺领取的量，白皮书本期计划是 992 万；过去一周回购约 1181 万美元，约等于这次解锁金额的 3.5%。",
+    "依据": "A 媒体（一手在官方 Discord，本次不可采）。",
+    "代表链接": "[BeInCrypto 解锁稿](https://beincrypto.com/hyperliquid-token-unlock-320-million-price-impact/)；[unlocks.app 周报](https://insights.unlocks.app/weekly-unlock-digest-oct-5-oct-11-2026-hypes-team-payout-goes-otc/)；[BBX 中文快讯](https://bbx.com/zh-Hans/news-detail/3111680)",
+    "风险": "到账后如果转进交易所充值地址，「场外不砸盘」就站不住。买方是谁、有没有锁定期，可能要等 TOKEN2049 前后才有人问出来。",
+    "置信度": "中（OTC 安排有多家转述）；低（后续去向）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "代表链接",
+    "风险",
+    "置信度"
+   ],
+   "body_md": "- **结论**：短期不会直接压到订单簿上，真正要看的是 10/7 之后这批币往哪走。\n- **为什么**：BeInCrypto 和 KuCoin 转述，联创 iliensinc 在 Discord 说整批 OTC 卖给单一机构；BBX 写今天解除质押、10/7 分配给团队成员。买方和价格没公开，锁定期也没说。unlocks.app 补了两个数：375 万是团队承诺领取的量，白皮书本期计划是 992 万；过去一周回购约 1181 万美元，约等于这次解锁金额的 3.5%。\n- **依据**：A 媒体（一手在官方 Discord，本次不可采）。\n- **代表链接**：[BeInCrypto 解锁稿](https://beincrypto.com/hyperliquid-token-unlock-320-million-price-impact/)；[unlocks.app 周报](https://insights.unlocks.app/weekly-unlock-digest-oct-5-oct-11-2026-hypes-team-payout-goes-otc/)；[BBX 中文快讯](https://bbx.com/zh-Hans/news-detail/3111680)\n- **风险**：到账后如果转进交易所充值地址，「场外不砸盘」就站不住。买方是谁、有没有锁定期，可能要等 TOKEN2049 前后才有人问出来。\n- **置信度**：中（OTC 安排有多家转述）；低（后续去向）。"
+  },
+  {
+   "num": 4,
+   "title": "彭博终端能看 Hyperliquid 部分永续的实时行情，只能看，不能下单",
+   "conclusion": "这是可见度上的进展，和交易接入、监管准入无关。",
+   "why": "彭博终端输入 WSL HYPE 可以全天候看 Hyperliquid 部分永续行情，覆盖加密和股票，也有大宗商品、外汇和指数，可以和彭博自己的参考价对比，暂不支持执行。消息最早来自社区号 Hyperliquid Daily，crypto.news 和 ChainCatcher 跟进，PANews 也发了，官方渠道本窗没有发。",
+   "basis": "A 媒体（源头是社区号，非官号）。",
+   "risk": "彭博侧没有自己的公告，覆盖哪些合约也没有完整清单。",
+   "confidence": "中。",
+   "links": [
+    {
+     "text": "crypto.news 报道",
+     "url": "https://crypto.news/hyperliquid-perpetual-prices-land-on-bloomberg-terminal/",
+     "field": "代表链接"
+    },
+    {
+     "text": "Hyperliquid Daily 原帖",
+     "url": "https://x.com/HYPERDailyTK/status/2107017951681335633",
+     "field": "代表链接"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [
+    "A"
+   ],
+   "fields": {
+    "结论": "这是可见度上的进展，和交易接入、监管准入无关。",
+    "为什么": "彭博终端输入 WSL HYPE 可以全天候看 Hyperliquid 部分永续行情，覆盖加密和股票，也有大宗商品、外汇和指数，可以和彭博自己的参考价对比，暂不支持执行。消息最早来自社区号 Hyperliquid Daily，crypto.news 和 ChainCatcher 跟进，PANews 也发了，官方渠道本窗没有发。",
+    "依据": "A 媒体（源头是社区号，非官号）。",
+    "代表链接": "[crypto.news 报道](https://crypto.news/hyperliquid-perpetual-prices-land-on-bloomberg-terminal/)；[Hyperliquid Daily 原帖](https://x.com/HYPERDailyTK/status/2107017951681335633)",
+    "风险": "彭博侧没有自己的公告，覆盖哪些合约也没有完整清单。",
+    "置信度": "中。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "代表链接",
+    "风险",
+    "置信度"
+   ],
+   "body_md": "- **结论**：这是可见度上的进展，和交易接入、监管准入无关。\n- **为什么**：彭博终端输入 WSL HYPE 可以全天候看 Hyperliquid 部分永续行情，覆盖加密和股票，也有大宗商品、外汇和指数，可以和彭博自己的参考价对比，暂不支持执行。消息最早来自社区号 Hyperliquid Daily，crypto.news 和 ChainCatcher 跟进，PANews 也发了，官方渠道本窗没有发。\n- **依据**：A 媒体（源头是社区号，非官号）。\n- **代表链接**：[crypto.news 报道](https://crypto.news/hyperliquid-perpetual-prices-land-on-bloomberg-terminal/)；[Hyperliquid Daily 原帖](https://x.com/HYPERDailyTK/status/2107017951681335633)\n- **风险**：彭博侧没有自己的公告，覆盖哪些合约也没有完整清单。\n- **置信度**：中。"
+  },
+  {
+   "num": 5,
+   "title": "OI 回到 135 亿美元，HYPE 涨 4.3%；大户整体偏空，HYPE 大多单浮盈 7100 万美元",
+   "conclusion": "价格和仓位都在往上走，和 AF 放量同一时段，但不能直接说是 AF 买上去的。",
+   "why": "info API 非正式自加总（00:17 UTC），全市场 OI 约 135.0 亿美元，比 10/4 的 128.2 亿高 5.3%（10/5 那拍失败，这是两天对比）；24 小时成交约 57.7 亿美元；HYPE mark 94.466，比前一天 90.588 高 4.3%，HYPE 自己的 OI 约 19.4 亿美元。Odaily 10/5 早上的统计，账户超 300 万美元的约 200 个活跃地址里，BTC 多空比 0.62、ETH 0.65，大户偏空。SMARTESTMONEY 5 倍多 138 万枚 HYPE，价值 1.25 亿美元，浮盈约 7113 万美元。",
+   "basis": "非正式（自加总）＋ A 媒体（链上监测转述）。",
+   "risk": "本窗 AF 买入约 881 万美元，同一时段 HYPE/USDC 现货成交约 6816 万美元，AF 占了一成多，在现货里分量不小；但 HYPE 永续 24 小时成交约 5.78 亿美元，加上彭博消息和大盘，AF 对价格到底贡献多少没法单算。AF 回到常态后，如果价格随之走软，这一段才更像是被一次性买盘撑起来的。",
+   "confidence": "高（数字本身）；低（因果）。",
+   "links": [
+    {
+     "text": "Odaily 大户多空比",
+     "url": "https://www.odaily.news/zh-CN/newsflash/522514",
+     "field": "代表链接"
+    },
+    {
+     "text": "Odaily SMARTESTMONEY 快讯",
+     "url": "https://www.odaily.news/zh-CN/newsflash/522526",
+     "field": "代表链接"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [
+    "A"
+   ],
+   "fields": {
+    "结论": "价格和仓位都在往上走，和 AF 放量同一时段，但不能直接说是 AF 买上去的。",
+    "为什么": "info API 非正式自加总（00:17 UTC），全市场 OI 约 135.0 亿美元，比 10/4 的 128.2 亿高 5.3%（10/5 那拍失败，这是两天对比）；24 小时成交约 57.7 亿美元；HYPE mark 94.466，比前一天 90.588 高 4.3%，HYPE 自己的 OI 约 19.4 亿美元。Odaily 10/5 早上的统计，账户超 300 万美元的约 200 个活跃地址里，BTC 多空比 0.62、ETH 0.65，大户偏空。SMARTESTMONEY 5 倍多 138 万枚 HYPE，价值 1.25 亿美元，浮盈约 7113 万美元。",
+    "依据": "非正式（自加总）＋ A 媒体（链上监测转述）。",
+    "代表链接": "[Odaily 大户多空比](https://www.odaily.news/zh-CN/newsflash/522514)；[Odaily SMARTESTMONEY 快讯](https://www.odaily.news/zh-CN/newsflash/522526)",
+    "风险": "本窗 AF 买入约 881 万美元，同一时段 HYPE/USDC 现货成交约 6816 万美元，AF 占了一成多，在现货里分量不小；但 HYPE 永续 24 小时成交约 5.78 亿美元，加上彭博消息和大盘，AF 对价格到底贡献多少没法单算。AF 回到常态后，如果价格随之走软，这一段才更像是被一次性买盘撑起来的。",
+    "置信度": "高（数字本身）；低（因果）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "代表链接",
+    "风险",
+    "置信度"
+   ],
+   "body_md": "- **结论**：价格和仓位都在往上走，和 AF 放量同一时段，但不能直接说是 AF 买上去的。\n- **为什么**：info API 非正式自加总（00:17 UTC），全市场 OI 约 135.0 亿美元，比 10/4 的 128.2 亿高 5.3%（10/5 那拍失败，这是两天对比）；24 小时成交约 57.7 亿美元；HYPE mark 94.466，比前一天 90.588 高 4.3%，HYPE 自己的 OI 约 19.4 亿美元。Odaily 10/5 早上的统计，账户超 300 万美元的约 200 个活跃地址里，BTC 多空比 0.62、ETH 0.65，大户偏空。SMARTESTMONEY 5 倍多 138 万枚 HYPE，价值 1.25 亿美元，浮盈约 7113 万美元。\n- **依据**：非正式（自加总）＋ A 媒体（链上监测转述）。\n- **代表链接**：[Odaily 大户多空比](https://www.odaily.news/zh-CN/newsflash/522514)；[Odaily SMARTESTMONEY 快讯](https://www.odaily.news/zh-CN/newsflash/522526)\n- **风险**：本窗 AF 买入约 881 万美元，同一时段 HYPE/USDC 现货成交约 6816 万美元，AF 占了一成多，在现货里分量不小；但 HYPE 永续 24 小时成交约 5.78 亿美元，加上彭博消息和大盘，AF 对价格到底贡献多少没法单算。AF 回到常态后，如果价格随之走软，这一段才更像是被一次性买盘撑起来的。\n- **置信度**：高（数字本身）；低（因果）。"
+  },
+  {
+   "num": 6,
+   "title": "Polymarket 拿周末收入对比 HYPE 估值，CEO 预告 TOKEN2049 讲话",
+   "conclusion": "连续两天出现「别家收入比 Hyperliquid 高」的对比，昨天是 Pump.fun，今天是 Polymarket。这类比较会进入 TOKEN2049 这周的讨论。",
+   "why": "Polymarket CMO 发帖称周末收入接近 1000 万美元，Hyperliquid 是 260 万美元，并提到 HYPE 是「860 亿美元的代币」（指完全稀释估值）。CEO Shayne Coplan 引用后说会在 TOKEN2049 上「说点什么」，市场猜是 POLY 代币；Polygon 联创也跟着喊单。Polymarket 没有官宣代币。Coplan 和 Jeff Yan 都在 TOKEN2049 讲台上。",
+   "basis": "A 媒体（转述 X 帖）／传闻部分待验证。",
+   "risk": "只取一个周末做对比，口径偏挑选。POLY 目前只是猜测。",
+   "confidence": "中（对比帖存在）；低（对 HYPE 的影响）。",
+   "links": [
+    {
+     "text": "Odaily Coplan 快讯",
+     "url": "https://www.odaily.news/zh-CN/newsflash/522564",
+     "field": "代表链接"
+    },
+    {
+     "text": "protos 稿（cryptonews 转载）",
+     "url": "https://cryptonews.net/news/altcoins/33541056/",
+     "field": "代表链接"
+    }
+   ],
+   "uncertain": true,
+   "markers": [
+    "待验证",
+    "传闻"
+   ],
+   "markers_by_field": {
+    "依据": [
+     "待验证",
+     "传闻"
+    ]
+   },
+   "basis_layers": [
+    "A"
+   ],
+   "fields": {
+    "结论": "连续两天出现「别家收入比 Hyperliquid 高」的对比，昨天是 Pump.fun，今天是 Polymarket。这类比较会进入 TOKEN2049 这周的讨论。",
+    "为什么": "Polymarket CMO 发帖称周末收入接近 1000 万美元，Hyperliquid 是 260 万美元，并提到 HYPE 是「860 亿美元的代币」（指完全稀释估值）。CEO Shayne Coplan 引用后说会在 TOKEN2049 上「说点什么」，市场猜是 POLY 代币；Polygon 联创也跟着喊单。Polymarket 没有官宣代币。Coplan 和 Jeff Yan 都在 TOKEN2049 讲台上。",
+    "依据": "A 媒体（转述 X 帖）／传闻部分待验证。",
+    "代表链接": "[Odaily Coplan 快讯](https://www.odaily.news/zh-CN/newsflash/522564)；[protos 稿（cryptonews 转载）](https://cryptonews.net/news/altcoins/33541056/)",
+    "风险": "只取一个周末做对比，口径偏挑选。POLY 目前只是猜测。",
+    "置信度": "中（对比帖存在）；低（对 HYPE 的影响）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "代表链接",
+    "风险",
+    "置信度"
+   ],
+   "body_md": "- **结论**：连续两天出现「别家收入比 Hyperliquid 高」的对比，昨天是 Pump.fun，今天是 Polymarket。这类比较会进入 TOKEN2049 这周的讨论。\n- **为什么**：Polymarket CMO 发帖称周末收入接近 1000 万美元，Hyperliquid 是 260 万美元，并提到 HYPE 是「860 亿美元的代币」（指完全稀释估值）。CEO Shayne Coplan 引用后说会在 TOKEN2049 上「说点什么」，市场猜是 POLY 代币；Polygon 联创也跟着喊单。Polymarket 没有官宣代币。Coplan 和 Jeff Yan 都在 TOKEN2049 讲台上。\n- **依据**：A 媒体（转述 X 帖）／传闻部分待验证。\n- **代表链接**：[Odaily Coplan 快讯](https://www.odaily.news/zh-CN/newsflash/522564)；[protos 稿（cryptonews 转载）](https://cryptonews.net/news/altcoins/33541056/)\n- **风险**：只取一个周末做对比，口径偏挑选。POLY 目前只是猜测。\n- **置信度**：中（对比帖存在）；低（对 HYPE 的影响）。"
+  },
+  {
+   "num": 7,
+   "title": "本周日程：今天有机构论坛和黑客松，明天 Jeff 上主舞台；众议院 10/13、币安提现都没变",
+   "conclusion": "最可能出一手消息的是 10/7 上午 Jeff Yan 和 Hart Lambur 的对谈。官方渠道本窗没有新公告。",
+   "why": "官方 Telegram 公告频道最新一条还是 9/30 的新加坡社区活动通知，10/5 周一也没发每周更新；10/5 晚的社区活动本窗没看到官方回顾。今天有第三方办的 Hyperliquid Forum（机构场，限 300 人）和 Hype Global 黑客松（10/6–7）。TOKEN2049 议程里，Jeff 和 Hart Lambur 10/7 11:00 在 OKX 主舞台对谈。GitBook 窗内 0 条更新，最新是 10/3。众议院监督委员会没有新公函，答复期限仍是 10/13。币安 HYPE 最新的还是 9/24 上线和 Earn 两帖。",
+   "basis": "S 一手（TG 公告频道、GitBook）＋ A 一手页面（议程、公函、币安 CMS）。",
+   "risk": "X 官号本窗没采到，官号如果单独发了东西会漏掉。",
+   "confidence": "高（议程、公函、CMS、TG 状态）；中（「官方本窗没发新公告」，因为 X 缺）。",
+   "links": [
+    {
+     "text": "Hyperliquid 官方 TG 公告频道",
+     "url": "https://t.me/s/hyperliquid_announcements",
+     "field": "代表链接"
+    },
+    {
+     "text": "TOKEN2049 议程",
+     "url": "https://token2049.com/singapore/agenda",
+     "field": "代表链接"
+    },
+    {
+     "text": "众议院公函 PDF",
+     "url": "https://oversight.house.gov/wp-content/uploads/2026/09/Hyperliquid-Letter-9.29.26.pdf",
+     "field": "代表链接"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [
+    "A",
+    "S"
+   ],
+   "fields": {
+    "结论": "最可能出一手消息的是 10/7 上午 Jeff Yan 和 Hart Lambur 的对谈。官方渠道本窗没有新公告。",
+    "为什么": "官方 Telegram 公告频道最新一条还是 9/30 的新加坡社区活动通知，10/5 周一也没发每周更新；10/5 晚的社区活动本窗没看到官方回顾。今天有第三方办的 Hyperliquid Forum（机构场，限 300 人）和 Hype Global 黑客松（10/6–7）。TOKEN2049 议程里，Jeff 和 Hart Lambur 10/7 11:00 在 OKX 主舞台对谈。GitBook 窗内 0 条更新，最新是 10/3。众议院监督委员会没有新公函，答复期限仍是 10/13。币安 HYPE 最新的还是 9/24 上线和 Earn 两帖。",
+    "依据": "S 一手（TG 公告频道、GitBook）＋ A 一手页面（议程、公函、币安 CMS）。",
+    "代表链接": "[Hyperliquid 官方 TG 公告频道](https://t.me/s/hyperliquid_announcements)；[TOKEN2049 议程](https://token2049.com/singapore/agenda)；[众议院公函 PDF](https://oversight.house.gov/wp-content/uploads/2026/09/Hyperliquid-Letter-9.29.26.pdf)",
+    "风险": "X 官号本窗没采到，官号如果单独发了东西会漏掉。",
+    "置信度": "高（议程、公函、CMS、TG 状态）；中（「官方本窗没发新公告」，因为 X 缺）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "代表链接",
+    "风险",
+    "置信度"
+   ],
+   "body_md": "- **结论**：最可能出一手消息的是 10/7 上午 Jeff Yan 和 Hart Lambur 的对谈。官方渠道本窗没有新公告。\n- **为什么**：官方 Telegram 公告频道最新一条还是 9/30 的新加坡社区活动通知，10/5 周一也没发每周更新；10/5 晚的社区活动本窗没看到官方回顾。今天有第三方办的 Hyperliquid Forum（机构场，限 300 人）和 Hype Global 黑客松（10/6–7）。TOKEN2049 议程里，Jeff 和 Hart Lambur 10/7 11:00 在 OKX 主舞台对谈。GitBook 窗内 0 条更新，最新是 10/3。众议院监督委员会没有新公函，答复期限仍是 10/13。币安 HYPE 最新的还是 9/24 上线和 Earn 两帖。\n- **依据**：S 一手（TG 公告频道、GitBook）＋ A 一手页面（议程、公函、币安 CMS）。\n- **代表链接**：[Hyperliquid 官方 TG 公告频道](https://t.me/s/hyperliquid_announcements)；[TOKEN2049 议程](https://token2049.com/singapore/agenda)；[众议院公函 PDF](https://oversight.house.gov/wp-content/uploads/2026/09/Hyperliquid-Letter-9.29.26.pdf)\n- **风险**：X 官号本窗没采到，官号如果单独发了东西会漏掉。\n- **置信度**：高（议程、公函、CMS、TG 状态）；中（「官方本窗没发新公告」，因为 X 缺）。"
+  }
+ ],
+ "sections": [
+  {
+   "title": "今天怎么看",
+   "subsections": [],
+   "body_md": "AQAv2 首笔钱大概率已经花出去了。我直接拉了 Assistance Fund（AF）地址的成交，10/4 和 10/5（UTC）两天买入约 19 万枚 HYPE、约 1730 万美元，平时一天只有 2 万多枚；AF 账上的 USDC 现在只剩约 1.46 万美元。扣掉手续费平时会买的量，多出来的部分和 1458 万美元那笔对得上，只是利息地址转进 AF 的那一笔我没直接核到。中文媒体把这件事写成「24 小时销毁 1015 万美元」，其实是 AF 买入后计入移出流通，真正打到销毁地址的累计只有约 112 万枚。\n\n另一头是 375 万枚团队份额：今天解除质押，10/7 分给团队，整批场外卖给一家机构，买方和价格没公开，锁定期也没说。彭博终端开始提供 Hyperliquid 部分永续的实时行情，只能看不能交易。按 info API 非正式自加总，全市场 OI 约 135 亿美元，比 10/4 高 5.3%；HYPE 约 94.47 美元，24 小时涨 4.3%。Polymarket 拿周末收入对比 HYPE 估值，CEO 预告 TOKEN2049 要讲话。正式里程碑无。"
+  },
+  {
+   "title": "观点",
+   "subsections": [
+    {
+     "title": "1. AF 两天买了约 19 万枚 HYPE，USDC 余额见底，AQAv2 首笔大概率已经用完",
+     "body_md": "- **结论**：昨天还在争「钱进没进 AF」，今天可以往前走一步。AF 从 10/4 起明显放量，现在账上几乎没有 USDC 了。\n- **为什么**：我用 info API 拉了 AF 地址（0xfefe…fefe）从 10/3 起的全部成交，全是买单。10/3（UTC）买 7,952 枚、约 71 万美元；10/4 买 90,783 枚、约 818 万美元，均价 90.14；10/5 买 99,513 枚、约 912 万美元，均价 91.68。放量从 10/4 中午（北京时间）开始，10/5 晚上回落到平时的节奏。作为对照，9/28–10/2 每天约 2 万–2.8 万枚、175 万–250 万美元（swolecharts 统计）。AF 现货余额是 USDC 约 14,640、HYPE 约 4785 万枚。两天花掉约 1730 万美元，扣掉每天 100 万–250 万美元的常规手续费买入，多出约 1200 万–1500 万美元，和 14,580,777.21 USDC 量级吻合。Onchain Lens 也说这轮买入「可能使用 AQAv2 收入及费用」。\n- **依据**：非正式（info API 原始成交，自采，非里程碑）＋ A 媒体（Onchain Lens 转述）。资金来源是推断。\n- **代表链接**：[Odaily 转 Onchain Lens](https://www.odaily.news/zh-CN/newsflash/522529)；[swolecharts AF 日买入表](https://swolecharts.com/hyperliquid/assistance-fund)；[TheTokenPress 首笔核对稿](https://www.thetokenpress.com/article/hyperliquid-records-first-14-58m-usdc-reserve-yield-payment-c7a495c4)\n- **风险**：利息地址到 AF 的那笔转账我没有直接核到，所以「全部来自 AQAv2」仍是推断。买完以后 AF 回到每天一两百万美元的常态，下一笔 AQAv2 要等约 11 月初，短期的额外买盘已经没了。\n- **置信度**：高（AF 放量买入、USDC 见底）；中（资金来自 AQAv2）。"
+    },
+    {
+     "title": "2. 「24 小时销毁 1015 万美元」实为 AF 买入后计入非流通，打进销毁地址的只占很小一部分",
+     "body_md": "- **结论**：中文快讯普遍用「销毁」这个词，读的时候要换成「AF 买入、计为非流通」。\n- **为什么**：Onchain Lens 的原话是「买入并销毁 112,580 枚」「累计 4925 万枚被永久移出供应量」。swolecharts 按官方 API 的口径拆开算，AF 持有约 4785 万枚，计为非流通；销毁地址累计只有约 112 万枚。两者相加约 4900 万枚，和 4925 万的说法基本对得上。Onchain Lens 同条还给了 24 小时估算费用 98.9 万美元、7 日收入 985 万美元、30 日收入 5206 万美元。\n- **依据**：A 媒体（转述）＋ B 第三方数据页（只当温度计）。\n- **代表链接**：[深潮 TechFlow 快讯](https://techflowpost.com/newsletter/138839)；[PANews 英文稿](https://www.panews.io/articles/01a109db-c69e-76cf-94ba-945e5c909a05)\n- **风险**：AF 持仓按规则可以通过协议操作销毁，但要单独执行，本窗没看到。30 日收入 5206 万和昨天 Odaily 写的 5434 万对不上，数据源不同。\n- **置信度**：中。"
+    },
+    {
+     "title": "3. 375 万枚团队份额：今天解除质押，明天分给团队，整批场外卖给一家机构",
+     "body_md": "- **结论**：短期不会直接压到订单簿上，真正要看的是 10/7 之后这批币往哪走。\n- **为什么**：BeInCrypto 和 KuCoin 转述，联创 iliensinc 在 Discord 说整批 OTC 卖给单一机构；BBX 写今天解除质押、10/7 分配给团队成员。买方和价格没公开，锁定期也没说。unlocks.app 补了两个数：375 万是团队承诺领取的量，白皮书本期计划是 992 万；过去一周回购约 1181 万美元，约等于这次解锁金额的 3.5%。\n- **依据**：A 媒体（一手在官方 Discord，本次不可采）。\n- **代表链接**：[BeInCrypto 解锁稿](https://beincrypto.com/hyperliquid-token-unlock-320-million-price-impact/)；[unlocks.app 周报](https://insights.unlocks.app/weekly-unlock-digest-oct-5-oct-11-2026-hypes-team-payout-goes-otc/)；[BBX 中文快讯](https://bbx.com/zh-Hans/news-detail/3111680)\n- **风险**：到账后如果转进交易所充值地址，「场外不砸盘」就站不住。买方是谁、有没有锁定期，可能要等 TOKEN2049 前后才有人问出来。\n- **置信度**：中（OTC 安排有多家转述）；低（后续去向）。"
+    },
+    {
+     "title": "4. 彭博终端能看 Hyperliquid 部分永续的实时行情，只能看，不能下单",
+     "body_md": "- **结论**：这是可见度上的进展，和交易接入、监管准入无关。\n- **为什么**：彭博终端输入 WSL HYPE 可以全天候看 Hyperliquid 部分永续行情，覆盖加密和股票，也有大宗商品、外汇和指数，可以和彭博自己的参考价对比，暂不支持执行。消息最早来自社区号 Hyperliquid Daily，crypto.news 和 ChainCatcher 跟进，PANews 也发了，官方渠道本窗没有发。\n- **依据**：A 媒体（源头是社区号，非官号）。\n- **代表链接**：[crypto.news 报道](https://crypto.news/hyperliquid-perpetual-prices-land-on-bloomberg-terminal/)；[Hyperliquid Daily 原帖](https://x.com/HYPERDailyTK/status/2107017951681335633)\n- **风险**：彭博侧没有自己的公告，覆盖哪些合约也没有完整清单。\n- **置信度**：中。"
+    },
+    {
+     "title": "5. OI 回到 135 亿美元，HYPE 涨 4.3%；大户整体偏空，HYPE 大多单浮盈 7100 万美元",
+     "body_md": "- **结论**：价格和仓位都在往上走，和 AF 放量同一时段，但不能直接说是 AF 买上去的。\n- **为什么**：info API 非正式自加总（00:17 UTC），全市场 OI 约 135.0 亿美元，比 10/4 的 128.2 亿高 5.3%（10/5 那拍失败，这是两天对比）；24 小时成交约 57.7 亿美元；HYPE mark 94.466，比前一天 90.588 高 4.3%，HYPE 自己的 OI 约 19.4 亿美元。Odaily 10/5 早上的统计，账户超 300 万美元的约 200 个活跃地址里，BTC 多空比 0.62、ETH 0.65，大户偏空。SMARTESTMONEY 5 倍多 138 万枚 HYPE，价值 1.25 亿美元，浮盈约 7113 万美元。\n- **依据**：非正式（自加总）＋ A 媒体（链上监测转述）。\n- **代表链接**：[Odaily 大户多空比](https://www.odaily.news/zh-CN/newsflash/522514)；[Odaily SMARTESTMONEY 快讯](https://www.odaily.news/zh-CN/newsflash/522526)\n- **风险**：本窗 AF 买入约 881 万美元，同一时段 HYPE/USDC 现货成交约 6816 万美元，AF 占了一成多，在现货里分量不小；但 HYPE 永续 24 小时成交约 5.78 亿美元，加上彭博消息和大盘，AF 对价格到底贡献多少没法单算。AF 回到常态后，如果价格随之走软，这一段才更像是被一次性买盘撑起来的。\n- **置信度**：高（数字本身）；低（因果）。"
+    },
+    {
+     "title": "6. Polymarket 拿周末收入对比 HYPE 估值，CEO 预告 TOKEN2049 讲话",
+     "body_md": "- **结论**：连续两天出现「别家收入比 Hyperliquid 高」的对比，昨天是 Pump.fun，今天是 Polymarket。这类比较会进入 TOKEN2049 这周的讨论。\n- **为什么**：Polymarket CMO 发帖称周末收入接近 1000 万美元，Hyperliquid 是 260 万美元，并提到 HYPE 是「860 亿美元的代币」（指完全稀释估值）。CEO Shayne Coplan 引用后说会在 TOKEN2049 上「说点什么」，市场猜是 POLY 代币；Polygon 联创也跟着喊单。Polymarket 没有官宣代币。Coplan 和 Jeff Yan 都在 TOKEN2049 讲台上。\n- **依据**：A 媒体（转述 X 帖）／传闻部分待验证。\n- **代表链接**：[Odaily Coplan 快讯](https://www.odaily.news/zh-CN/newsflash/522564)；[protos 稿（cryptonews 转载）](https://cryptonews.net/news/altcoins/33541056/)\n- **风险**：只取一个周末做对比，口径偏挑选。POLY 目前只是猜测。\n- **置信度**：中（对比帖存在）；低（对 HYPE 的影响）。"
+    },
+    {
+     "title": "7. 本周日程：今天有机构论坛和黑客松，明天 Jeff 上主舞台；众议院 10/13、币安提现都没变",
+     "body_md": "- **结论**：最可能出一手消息的是 10/7 上午 Jeff Yan 和 Hart Lambur 的对谈。官方渠道本窗没有新公告。\n- **为什么**：官方 Telegram 公告频道最新一条还是 9/30 的新加坡社区活动通知，10/5 周一也没发每周更新；10/5 晚的社区活动本窗没看到官方回顾。今天有第三方办的 Hyperliquid Forum（机构场，限 300 人）和 Hype Global 黑客松（10/6–7）。TOKEN2049 议程里，Jeff 和 Hart Lambur 10/7 11:00 在 OKX 主舞台对谈。GitBook 窗内 0 条更新，最新是 10/3。众议院监督委员会没有新公函，答复期限仍是 10/13。币安 HYPE 最新的还是 9/24 上线和 Earn 两帖。\n- **依据**：S 一手（TG 公告频道、GitBook）＋ A 一手页面（议程、公函、币安 CMS）。\n- **代表链接**：[Hyperliquid 官方 TG 公告频道](https://t.me/s/hyperliquid_announcements)；[TOKEN2049 议程](https://token2049.com/singapore/agenda)；[众议院公函 PDF](https://oversight.house.gov/wp-content/uploads/2026/09/Hyperliquid-Letter-9.29.26.pdf)\n- **风险**：X 官号本窗没采到，官号如果单独发了东西会漏掉。\n- **置信度**：高（议程、公函、CMS、TG 状态）；中（「官方本窗没发新公告」，因为 X 缺）。"
+    }
+   ],
+   "body_md": ""
+  },
+  {
+   "title": "社区共鸣点",
+   "subsections": [
+    {
+     "title": "可核情绪线索",
+     "body_md": "1. **最想听到的话，可能是「回购真的开始了」**\n   - **证据**：Odaily 和 TechFlow 用「24 小时销毁 1015 万美元」做标题并带上「可能使用 AQAv2 收入」，PANews 和百亿财经也照这个口径发。\n   - **推断**：读者想要的就是 AQAv2 落地的确认。信息缺口在于「销毁」和「AF 买入」被混成一件事，没人解释这笔钱已经基本花完、下一笔要等一个月。\n   - **层级**：A 媒体（替代社区样本）\n   - **代表链接**：[Odaily 销毁快讯](https://www.odaily.news/zh-CN/newsflash/522529)\n\n2. **解锁焦虑还在，问题落在「买方是谁、锁多久」**\n   - **证据**：BlockWeeks、BBX 写「全数场外售予机构」「不在公开市场出售」；BeInCrypto 中文版把重点放在买方后续去向。\n   - **推断**：大家想要的帮助是 10/7 到账后的去向跟踪。这是推断，没有 X 原帖。\n   - **层级**：A 媒体 ＋ C（二手摘要，只当温度计）\n   - **代表链接**：[BlockWeeks 解锁快讯](https://blockweeks.com/news/325070)\n\n3. **「机构认可」类消息受欢迎：彭博终端**\n   - **证据**：ChainCatcher 稿写「标志着 Hyperliquid 正式进入机构级价格参考体系」，Odaily 和 PANews 同日也发了，MarsBit 也有。\n   - **推断**：社区愿意把「被传统金融看见」当成利好来传，容易被读成「机构能在彭博上交易」。\n   - **层级**：A 媒体\n   - **代表链接**：[ChainCatcher 彭博稿](https://www.chaincatcher.com/article/2294181)"
+    }
+   ],
+   "body_md": "**样本不足。** X 中文层连续第二天没采到，下面只用中文媒体快讯，媒体在报什么不等于社区在聊什么。从标题看，注意力从昨天的「AQAv2 到底进没进 AF」移到了「已经在买、在销毁」和「彭博」这两个偏利好的词上；解锁这边，中文稿几乎都在强调「不在公开市场出售」。我的推断是情绪偏乐观，同时还在等一个答案：375 万枚的买方会不会出货。这个转移没有 X 样本支撑。"
+  },
+  {
+   "title": "少数派",
+   "subsections": [],
+   "body_md": "- **「1015 万美元是真销毁」**：大部分是 AF 买入后计为非流通，销毁地址累计只有约 112 万枚。\n- **「AF 会继续每天买 900 万美元」**：USDC 余额已经见底，10/5 晚起回到常态。\n- **「以后每月都有 1458 万」**：只有一个样本，下一笔约 11 月初才能检验。\n- **「彭博上线＝机构可以交易 Hyperliquid」**：只有行情，不支持执行。\n- **「375 万场外＝对价格没影响」**：没有锁定期，到账后的去向才算数。\n- **「价格涨是因为销毁和彭博」**：同一时段发生，因果没核。\n- **「S 层本窗静默」**：TG 公告频道和 GitBook 确实没动，但 X 官号没采到，只能说「可见渠道没发」。"
+  },
+  {
+   "title": "附录 · Phase 1 素材摘要",
+   "subsections": [],
+   "body_md": "完整素材见 `/workspace/hl-daily-2026-10-06/phase1-merged.md`，内部推演见同目录 `phase2-internal.md`，AF 成交原始数据在 `af_fills_all.json`。\n\n**事件簇**：AF 10/4 起放量买入、USDC 见底；「销毁」口径；375 万枚 10/6 解质押、10/7 分配、OTC；彭博终端 WSL HYPE；OI 与价格；大户偏空与 SMARTESTMONEY 浮盈；Polymarket 收入对比与 POLY 猜测；HYPE 现货 ETF 上周净流入 330.60 万美元（灰度 HYPG 833.55 万）；HIP-3 DEX 总笔数破 2.5 亿；新加坡周日程；众议院与币安跟进。\n\n**关键数字**：正式里程碑无。非正式（info API 00:17 UTC 自加总）：OI 约 135.0 亿美元（10/4 128.2 亿，+5.3%）；24 小时成交约 57.7 亿美元；HYPE 94.466（+4.3%），HYPE OI 约 19.4 亿美元。非正式 AF 自采：10/3 7,952 枚／10/4 90,783 枚／10/5 99,513 枚（UTC），本窗约 96,090 枚、约 881 万美元；AF 余额 USDC 约 14,640、HYPE 约 4785 万枚。\n\n**采集状态**：X 全层未采（额度 $0，连续第二天）；info API 第二轮恢复；新增可读 S 层替代源 [官方 TG 公告频道](https://t.me/s/hyperliquid_announcements)（窗内 0 条）；GitBook 窗内 0 更新；官网、基金会站无新内容；HPC 博客最新 10/1；Discord 与 hl.eco 未采；B 关键词跳过。Odaily 窗内约 60 条快讯，HL 相关 8 条（国庆假期发稿偏少）。**未用旧快照。**\n\n如果想恢复 X 层（官号、两个 List、中文讨论），需要给 X 接口补额度，目前余额是 $0.00。"
+  }
+ ],
+ "source": {
+  "type": "hl-intel-daily",
+  "label": "HL 情报台日报",
+  "file": "/workspace/hl-daily-2026-10-06/daily-final.md",
+  "file_mtime": "2026-10-07T15:26:11+08:00"
+ },
+ "parse": {
+  "format": "v3-md-links",
+  "warnings": []
+ }
+}

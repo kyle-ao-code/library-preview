@@ -1,0 +1,423 @@
+{
+ "date": "2026-09-29",
+ "title": "过去24h Hyperliquid 情报日报（2026-09-29）",
+ "window": {
+  "raw": "窗：Asia/Shanghai 2026-09-28 08:09 → 2026-09-29 08:09",
+  "start": "2026-09-28 08:09",
+  "end": "2026-09-29 08:09",
+  "tz": "Asia/Shanghai"
+ },
+ "notes": [],
+ "today": [
+  "本窗数字侧最醒目的是「量升持仓缩」。非正式 dayNtl 从昨拍约 $4.08B 升到约 $7.77B（约 +90%），OI 却从约 $13.13B 回落到约 $12.48B（约 -5%），HYPE mark≈87.24（约 -4.7%）。生态侧是项目方产品日。Nest Epoch44 锁仓超新供给，Liquid 上线 Anthropic/OpenAI/Oura pre-IPO 永续；Share 开 NFL Eagles–Bears 盘，Bounce 结束 Week2 空投并开 Week3。币安 HYPE 提现预计时点（09-25 11:00 UTC）过去多日，本窗仍没有「提现已开放」的新 CMS。中文注意力从昨日的费率上限与 HIP-4 扩容，转到 CZ 谈 HL 竞争和 UNI vs HYPE 销毁对比；费率/HIP-4 本窗只有窗外弱续写，勿当今日主新信号。S 三官号静默，正式里程碑空。Wintermute 空头、巨鲸 ZEC 与优先费均为媒体二手，勿与 API 自加总混读。"
+ ],
+ "views": [
+  {
+   "num": 1,
+   "title": "非正式 dayNtl 约 $7.77B（↑约 90%），OI 约 $12.48B 回落；勿与媒体巨鲸/空头混读",
+   "conclusion": "本拍日名义成交较昨拍接近翻倍，未平仓兴趣与 HYPE 价格同步回落。热度读法要标非正式，且不能拿媒体巨鲸持仓或 Wintermute 空头直接对照。",
+   "why": "info API 自加总（拍点 UTC 2026-09-29T00:10:39Z）：OI≈$12.48B（较昨拍≈$13.13B，↓约 4.95%），dayNtl≈$7.77B（较昨≈$4.08B，↑约 90.40%）。HYPE mark≈87.241，HYPE 单币 OI≈$1.78B（↓约 5.52%）。前端 24H 仍见 7.2B（疑占位）。媒体另有 Coinglass 巨鲸持仓≈$93.39 亿、Wintermute 空头≈$1.26 亿，资产集合与脚注不明，**禁止与 API 自加总混用**。正式里程碑本窗无。",
+   "basis": "非正式 API（见同目录 info_api_raw_summary.json）；巨鲸 https://www.chaincatcher.com/article/2292588 ；Wintermute https://www.chaincatcher.com/article/2292707",
+   "risk": "单点拍点差可能含波动日换手，缺官方连续序列。禁止写成「成交爆发」或「全面升温」。",
+   "confidence": "高（「本拍相对昨拍的方向与量级，及多口径并存」）；低（「大升是否代表协议热度结构性回暖」）。",
+   "links": [
+    {
+     "text": "巨鲸",
+     "url": "https://www.chaincatcher.com/article/2292588",
+     "field": "依据"
+    },
+    {
+     "text": "Wintermute",
+     "url": "https://www.chaincatcher.com/article/2292707",
+     "field": "依据"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [],
+   "fields": {
+    "结论": "本拍日名义成交较昨拍接近翻倍，未平仓兴趣与 HYPE 价格同步回落。热度读法要标非正式，且不能拿媒体巨鲸持仓或 Wintermute 空头直接对照。",
+    "为什么": "info API 自加总（拍点 UTC 2026-09-29T00:10:39Z）：OI≈$12.48B（较昨拍≈$13.13B，↓约 4.95%），dayNtl≈$7.77B（较昨≈$4.08B，↑约 90.40%）。HYPE mark≈87.241，HYPE 单币 OI≈$1.78B（↓约 5.52%）。前端 24H 仍见 7.2B（疑占位）。媒体另有 Coinglass 巨鲸持仓≈$93.39 亿、Wintermute 空头≈$1.26 亿，资产集合与脚注不明，**禁止与 API 自加总混用**。正式里程碑本窗无。",
+    "依据": "非正式 API（见同目录 info_api_raw_summary.json）；巨鲸 https://www.chaincatcher.com/article/2292588 ；Wintermute https://www.chaincatcher.com/article/2292707",
+    "风险/反证": "单点拍点差可能含波动日换手，缺官方连续序列。禁止写成「成交爆发」或「全面升温」。",
+    "置信度": "高（「本拍相对昨拍的方向与量级，及多口径并存」）；低（「大升是否代表协议热度结构性回暖」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：本拍日名义成交较昨拍接近翻倍，未平仓兴趣与 HYPE 价格同步回落。热度读法要标非正式，且不能拿媒体巨鲸持仓或 Wintermute 空头直接对照。\n- **为什么**：info API 自加总（拍点 UTC 2026-09-29T00:10:39Z）：OI≈$12.48B（较昨拍≈$13.13B，↓约 4.95%），dayNtl≈$7.77B（较昨≈$4.08B，↑约 90.40%）。HYPE mark≈87.241，HYPE 单币 OI≈$1.78B（↓约 5.52%）。前端 24H 仍见 7.2B（疑占位）。媒体另有 Coinglass 巨鲸持仓≈$93.39 亿、Wintermute 空头≈$1.26 亿，资产集合与脚注不明，**禁止与 API 自加总混用**。正式里程碑本窗无。\n- **依据**：非正式 API（见同目录 info_api_raw_summary.json）；巨鲸 https://www.chaincatcher.com/article/2292588 ；Wintermute https://www.chaincatcher.com/article/2292707\n- **风险/反证**：单点拍点差可能含波动日换手，缺官方连续序列。禁止写成「成交爆发」或「全面升温」。\n- **置信度**：高（「本拍相对昨拍的方向与量级，及多口径并存」）；低（「大升是否代表协议热度结构性回暖」）。"
+  },
+  {
+   "num": 2,
+   "title": "生态产品日：Nest Epoch44、Liquid pre-IPO、Share NFL、Bounce Week2/3",
+   "conclusion": "本窗生态一手以项目方原帖为主，覆盖锁仓与 pre-IPO 永续，也有体育预测盘和竞赛空投；S 官号与官站无对应公告。",
+   "why": "@NestExchange 称 Epoch 44 锁仓已超新供给，TREAD 上 HyperEVM，NEAR/XPL 存款开放。Liquid 侧 @liquidtrading 宣布 pre-IPO 永续已上 Anthropic / OpenAI / Oura。Share 开出 NFL 周一晚 Eagles vs Bears，并做 HL/Polymarket 比价。Bounce 宣布 Week2 结束、63 账户获 USDC 空投，Week3 开赛。Kinetiq 与 Elysium 同句 quote「most egalitarian」升温。Outcome 本窗只见美债 10Y / 布伦特原油盘运营，无 HIP-4 扩容新帖。",
+   "basis": "A 事实 — https://x.com/NestExchange/status/2104629712353939543 ；https://x.com/liquidtrading/status/2104645988120166611 ；https://x.com/sharexyz/status/2104671234437116287 ；https://x.com/BounceTech/status/2104566443081654418 ；叙事 https://x.com/Kinetiq_xyz/status/2104619792778797213",
+   "risk": "项目方自报锁仓、空投账户数不等于协议层成交或用户增长；S 静默下勿写成官方产品发布。",
+   "confidence": "高（「上述项目方原帖窗内存在」）；低（「任一产品持续吸量或锁仓精确口径」）。",
+   "links": [
+    {
+     "text": "A 事实",
+     "url": "https://x.com/NestExchange/status/2104629712353939543",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://x.com/liquidtrading/status/2104645988120166611",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://x.com/sharexyz/status/2104671234437116287",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://x.com/BounceTech/status/2104566443081654418",
+     "field": "依据"
+    },
+    {
+     "text": "叙事",
+     "url": "https://x.com/Kinetiq_xyz/status/2104619792778797213",
+     "field": "依据"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [
+    "A"
+   ],
+   "fields": {
+    "结论": "本窗生态一手以项目方原帖为主，覆盖锁仓与 pre-IPO 永续，也有体育预测盘和竞赛空投；S 官号与官站无对应公告。",
+    "为什么": "@NestExchange 称 Epoch 44 锁仓已超新供给，TREAD 上 HyperEVM，NEAR/XPL 存款开放。Liquid 侧 @liquidtrading 宣布 pre-IPO 永续已上 Anthropic / OpenAI / Oura。Share 开出 NFL 周一晚 Eagles vs Bears，并做 HL/Polymarket 比价。Bounce 宣布 Week2 结束、63 账户获 USDC 空投，Week3 开赛。Kinetiq 与 Elysium 同句 quote「most egalitarian」升温。Outcome 本窗只见美债 10Y / 布伦特原油盘运营，无 HIP-4 扩容新帖。",
+    "依据": "A 事实 — https://x.com/NestExchange/status/2104629712353939543 ；https://x.com/liquidtrading/status/2104645988120166611 ；https://x.com/sharexyz/status/2104671234437116287 ；https://x.com/BounceTech/status/2104566443081654418 ；叙事 https://x.com/Kinetiq_xyz/status/2104619792778797213",
+    "风险/反证": "项目方自报锁仓、空投账户数不等于协议层成交或用户增长；S 静默下勿写成官方产品发布。",
+    "置信度": "高（「上述项目方原帖窗内存在」）；低（「任一产品持续吸量或锁仓精确口径」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：本窗生态一手以项目方原帖为主，覆盖锁仓与 pre-IPO 永续，也有体育预测盘和竞赛空投；S 官号与官站无对应公告。\n- **为什么**：@NestExchange 称 Epoch 44 锁仓已超新供给，TREAD 上 HyperEVM，NEAR/XPL 存款开放。Liquid 侧 @liquidtrading 宣布 pre-IPO 永续已上 Anthropic / OpenAI / Oura。Share 开出 NFL 周一晚 Eagles vs Bears，并做 HL/Polymarket 比价。Bounce 宣布 Week2 结束、63 账户获 USDC 空投，Week3 开赛。Kinetiq 与 Elysium 同句 quote「most egalitarian」升温。Outcome 本窗只见美债 10Y / 布伦特原油盘运营，无 HIP-4 扩容新帖。\n- **依据**：A 事实 — https://x.com/NestExchange/status/2104629712353939543 ；https://x.com/liquidtrading/status/2104645988120166611 ；https://x.com/sharexyz/status/2104671234437116287 ；https://x.com/BounceTech/status/2104566443081654418 ；叙事 https://x.com/Kinetiq_xyz/status/2104619792778797213\n- **风险/反证**：项目方自报锁仓、空投账户数不等于协议层成交或用户增长；S 静默下勿写成官方产品发布。\n- **置信度**：高（「上述项目方原帖窗内存在」）；低（「任一产品持续吸量或锁仓精确口径」）。"
+  },
+  {
+   "num": 3,
+   "title": "币安 HYPE 提现预计时点已过多日，本窗仍无「已开放」新 CMS",
+   "conclusion": "提现时点仍停在 CMS「预计」口径；本窗没有新的开放确认公告。",
+   "why": "CMS 一手（发布 09-24，窗外）写明提现预计 09-25 11:00 UTC。本窗检索 Binance catalog48，未见新的「提现已开放」帖；最新 HYPE 相关仍是上线与 Earn 两帖。HL 三官号本窗静默。",
+   "basis": "A 事实（一手 CMS）— https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d ；https://www.binance.com/en/support/announcement/detail/1718842b00ee41479c763ef27b6312f0",
+   "risk": "提现页实态未在本采集直接核到；若已静默开放或延误未开，都会改写「入口扩容」的短期读感。禁止写成买卖建议。",
+   "confidence": "高（「CMS 仍写预计、本窗无新开放 CMS」）；低（「提现已实际开放且无二次冲击」）。",
+   "links": [
+    {
+     "text": "A 事实（一手 CMS）",
+     "url": "https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://www.binance.com/en/support/announcement/detail/1718842b00ee41479c763ef27b6312f0",
+     "field": "依据"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [
+    "A"
+   ],
+   "fields": {
+    "结论": "提现时点仍停在 CMS「预计」口径；本窗没有新的开放确认公告。",
+    "为什么": "CMS 一手（发布 09-24，窗外）写明提现预计 09-25 11:00 UTC。本窗检索 Binance catalog48，未见新的「提现已开放」帖；最新 HYPE 相关仍是上线与 Earn 两帖。HL 三官号本窗静默。",
+    "依据": "A 事实（一手 CMS）— https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d ；https://www.binance.com/en/support/announcement/detail/1718842b00ee41479c763ef27b6312f0",
+    "风险/反证": "提现页实态未在本采集直接核到；若已静默开放或延误未开，都会改写「入口扩容」的短期读感。禁止写成买卖建议。",
+    "置信度": "高（「CMS 仍写预计、本窗无新开放 CMS」）；低（「提现已实际开放且无二次冲击」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：提现时点仍停在 CMS「预计」口径；本窗没有新的开放确认公告。\n- **为什么**：CMS 一手（发布 09-24，窗外）写明提现预计 09-25 11:00 UTC。本窗检索 Binance catalog48，未见新的「提现已开放」帖；最新 HYPE 相关仍是上线与 Earn 两帖。HL 三官号本窗静默。\n- **依据**：A 事实（一手 CMS）— https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d ；https://www.binance.com/en/support/announcement/detail/1718842b00ee41479c763ef27b6312f0\n- **风险/反证**：提现页实态未在本采集直接核到；若已静默开放或延误未开，都会改写「入口扩容」的短期读感。禁止写成买卖建议。\n- **置信度**：高（「CMS 仍写预计、本窗无新开放 CMS」）；低（「提现已实际开放且无二次冲击」）。"
+  },
+  {
+   "num": 4,
+   "title": "中文注意力转移：CZ×HL 竞争与 UNI/HYPE 销毁；昨日费率/HIP-4 消退",
+   "conclusion": "过滤后的中文有机帖，主线换成 CZ 谈 Hyperliquid 竞争、Seanzhao UNI vs HYPE 销毁长文；昨日费率上限与 HIP-4 扩容热议本窗基本消退。",
+   "why": "david1989_zhu 等转述/讨论 CZ 谈 HL 竞争，CEX vs DEX 叙事升温。Seanzhao1105 发 UNI vs HYPE 销毁长文（likes~140）多 RT。cloudi66 等继续写销毁/AF 回购托底。费率上限 4%→0.5%/h 与 HIP-4 上限主写 09-27（窗外）；本窗 Outcome 无 HIP-4 新帖，S/Docs lastmod 仍无交叉。样本偏薄，污染中等（跟单与 lifestyle-hype bot）。",
+   "basis": "C 叙事 — https://x.com/david1989_zhu/status/2104680022611308724 ；https://x.com/Seanzhao1105/status/2104581184550547724 ；销毁续写 https://x.com/cloudi66/status/2104688233460490649 ；窗外费率对照 https://www.odaily.news/zh-CN/newsflash/520692",
+   "risk": "中文样本仍偏薄；CZ 访谈为二手转述，非 HL 官方口径。禁止写成「社区已形成共识」。",
+   "confidence": "中（「过滤后主有机线方向」）；低（「全中文社区情绪分布」）。",
+   "links": [
+    {
+     "text": "C 叙事",
+     "url": "https://x.com/david1989_zhu/status/2104680022611308724",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://x.com/Seanzhao1105/status/2104581184550547724",
+     "field": "依据"
+    },
+    {
+     "text": "销毁续写",
+     "url": "https://x.com/cloudi66/status/2104688233460490649",
+     "field": "依据"
+    },
+    {
+     "text": "窗外费率对照",
+     "url": "https://www.odaily.news/zh-CN/newsflash/520692",
+     "field": "依据"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [
+    "C"
+   ],
+   "fields": {
+    "结论": "过滤后的中文有机帖，主线换成 CZ 谈 Hyperliquid 竞争、Seanzhao UNI vs HYPE 销毁长文；昨日费率上限与 HIP-4 扩容热议本窗基本消退。",
+    "为什么": "david1989_zhu 等转述/讨论 CZ 谈 HL 竞争，CEX vs DEX 叙事升温。Seanzhao1105 发 UNI vs HYPE 销毁长文（likes~140）多 RT。cloudi66 等继续写销毁/AF 回购托底。费率上限 4%→0.5%/h 与 HIP-4 上限主写 09-27（窗外）；本窗 Outcome 无 HIP-4 新帖，S/Docs lastmod 仍无交叉。样本偏薄，污染中等（跟单与 lifestyle-hype bot）。",
+    "依据": "C 叙事 — https://x.com/david1989_zhu/status/2104680022611308724 ；https://x.com/Seanzhao1105/status/2104581184550547724 ；销毁续写 https://x.com/cloudi66/status/2104688233460490649 ；窗外费率对照 https://www.odaily.news/zh-CN/newsflash/520692",
+    "风险/反证": "中文样本仍偏薄；CZ 访谈为二手转述，非 HL 官方口径。禁止写成「社区已形成共识」。",
+    "置信度": "中（「过滤后主有机线方向」）；低（「全中文社区情绪分布」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：过滤后的中文有机帖，主线换成 CZ 谈 Hyperliquid 竞争、Seanzhao UNI vs HYPE 销毁长文；昨日费率上限与 HIP-4 扩容热议本窗基本消退。\n- **为什么**：david1989_zhu 等转述/讨论 CZ 谈 HL 竞争，CEX vs DEX 叙事升温。Seanzhao1105 发 UNI vs HYPE 销毁长文（likes~140）多 RT。cloudi66 等继续写销毁/AF 回购托底。费率上限 4%→0.5%/h 与 HIP-4 上限主写 09-27（窗外）；本窗 Outcome 无 HIP-4 新帖，S/Docs lastmod 仍无交叉。样本偏薄，污染中等（跟单与 lifestyle-hype bot）。\n- **依据**：C 叙事 — https://x.com/david1989_zhu/status/2104680022611308724 ；https://x.com/Seanzhao1105/status/2104581184550547724 ；销毁续写 https://x.com/cloudi66/status/2104688233460490649 ；窗外费率对照 https://www.odaily.news/zh-CN/newsflash/520692\n- **风险/反证**：中文样本仍偏薄；CZ 访谈为二手转述，非 HL 官方口径。禁止写成「社区已形成共识」。\n- **置信度**：中（「过滤后主有机线方向」）；低（「全中文社区情绪分布」）。"
+  },
+  {
+   "num": 5,
+   "title": "Wintermute 空头、ZEC 限价卖、Coinglass 巨鲸（待验证，勿与 API 混读）",
+   "conclusion": "回撤叙事被多条仓位媒体强化，但均为链上监测或媒体二手，不能与非正式 API OI 直接对表。",
+   "why": "ChainCatcher←Onchain Lens 称 Wintermute 在 HL 空头约 $1.2625 亿（ETH≈$4692万 / SOL≈$1130万 / HYPE≈$1003万）。同日称 Lee Goon Wang 在 HL 限价卖出 1.5 万枚 ZEC（约 $2300 万）。Coinglass 口径巨鲸持仓约 $93.39 亿（多空比 0.88），较昨媒体约 $96.95 亿下修。中文 LuanTomaz77 等转述巨鲸出货/清算与 Wintermute 空头扩大。",
+   "basis": "A 叙事/待验证 — https://www.chaincatcher.com/article/2292707 ；https://www.chaincatcher.com/article/2292776 ；https://www.chaincatcher.com/article/2292588 ；中文 C https://x.com/LuanTomaz77/status/2104703047956111841",
+   "risk": "地址归属、拍点与名义口径均可漂移；缺一手地址交叉前勿升正式。禁止写成买卖建议。",
+   "confidence": "高（「本窗存在上述媒体转述」）；低（「任一持仓精确值与意图」）。",
+   "links": [
+    {
+     "text": "A 叙事/待验证",
+     "url": "https://www.chaincatcher.com/article/2292707",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://www.chaincatcher.com/article/2292776",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://www.chaincatcher.com/article/2292588",
+     "field": "依据"
+    },
+    {
+     "text": "中文 C",
+     "url": "https://x.com/LuanTomaz77/status/2104703047956111841",
+     "field": "依据"
+    }
+   ],
+   "uncertain": true,
+   "markers": [
+    "待验证"
+   ],
+   "markers_by_field": {
+    "依据": [
+     "待验证"
+    ],
+    "标题": [
+     "待验证"
+    ]
+   },
+   "basis_layers": [
+    "A",
+    "C"
+   ],
+   "fields": {
+    "结论": "回撤叙事被多条仓位媒体强化，但均为链上监测或媒体二手，不能与非正式 API OI 直接对表。",
+    "为什么": "ChainCatcher←Onchain Lens 称 Wintermute 在 HL 空头约 $1.2625 亿（ETH≈$4692万 / SOL≈$1130万 / HYPE≈$1003万）。同日称 Lee Goon Wang 在 HL 限价卖出 1.5 万枚 ZEC（约 $2300 万）。Coinglass 口径巨鲸持仓约 $93.39 亿（多空比 0.88），较昨媒体约 $96.95 亿下修。中文 LuanTomaz77 等转述巨鲸出货/清算与 Wintermute 空头扩大。",
+    "依据": "A 叙事/待验证 — https://www.chaincatcher.com/article/2292707 ；https://www.chaincatcher.com/article/2292776 ；https://www.chaincatcher.com/article/2292588 ；中文 C https://x.com/LuanTomaz77/status/2104703047956111841",
+    "风险/反证": "地址归属、拍点与名义口径均可漂移；缺一手地址交叉前勿升正式。禁止写成买卖建议。",
+    "置信度": "高（「本窗存在上述媒体转述」）；低（「任一持仓精确值与意图」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：回撤叙事被多条仓位媒体强化，但均为链上监测或媒体二手，不能与非正式 API OI 直接对表。\n- **为什么**：ChainCatcher←Onchain Lens 称 Wintermute 在 HL 空头约 $1.2625 亿（ETH≈$4692万 / SOL≈$1130万 / HYPE≈$1003万）。同日称 Lee Goon Wang 在 HL 限价卖出 1.5 万枚 ZEC（约 $2300 万）。Coinglass 口径巨鲸持仓约 $93.39 亿（多空比 0.88），较昨媒体约 $96.95 亿下修。中文 LuanTomaz77 等转述巨鲸出货/清算与 Wintermute 空头扩大。\n- **依据**：A 叙事/待验证 — https://www.chaincatcher.com/article/2292707 ；https://www.chaincatcher.com/article/2292776 ；https://www.chaincatcher.com/article/2292588 ；中文 C https://x.com/LuanTomaz77/status/2104703047956111841\n- **风险/反证**：地址归属、拍点与名义口径均可漂移；缺一手地址交叉前勿升正式。禁止写成买卖建议。\n- **置信度**：高（「本窗存在上述媒体转述」）；低（「任一持仓精确值与意图」）。"
+  },
+  {
+   "num": 6,
+   "title": "优先费媒体约 $111 万；S 静默；正式里程碑无",
+   "conclusion": "收入侧本窗只有 Odaily 媒体口径，没有官站或官号里程碑；S 三官号与 Docs 窗内静默。",
+   "why": "Odaily 09-28 称 Hyperliquid 本周优先费收入 111 万美元，若单列协议可排全网约第 36。官站/foundation/Docs 窗内无新公告，Docs sitemap 窗内 lastmod=0，Discord widget 不可采。hl.eco 遇 Turnstile，销毁数字不采信。HypedLaunches 另有韩国 Seminar、潜在 ~$900M unlock 与 InstinctsMKT 5x 多头等二手，均禁止当正式里程碑。",
+   "basis": "A 叙事/待验证 — https://www.odaily.news/zh-CN/newsflash/520872 ；二手对照 https://x.com/HypedLaunches/status/2104632992656183575",
+   "risk": "媒体「本周」边界与统计口径不明；~$900M unlock 无一手。不得升正式里程碑。",
+   "confidence": "高（「本窗无正式收入/销毁里程碑，且 S 静默」）；低（「优先费 $111 万精确值」）。",
+   "links": [
+    {
+     "text": "A 叙事/待验证",
+     "url": "https://www.odaily.news/zh-CN/newsflash/520872",
+     "field": "依据"
+    },
+    {
+     "text": "二手对照",
+     "url": "https://x.com/HypedLaunches/status/2104632992656183575",
+     "field": "依据"
+    }
+   ],
+   "uncertain": true,
+   "markers": [
+    "待验证"
+   ],
+   "markers_by_field": {
+    "依据": [
+     "待验证"
+    ]
+   },
+   "basis_layers": [
+    "A"
+   ],
+   "fields": {
+    "结论": "收入侧本窗只有 Odaily 媒体口径，没有官站或官号里程碑；S 三官号与 Docs 窗内静默。",
+    "为什么": "Odaily 09-28 称 Hyperliquid 本周优先费收入 111 万美元，若单列协议可排全网约第 36。官站/foundation/Docs 窗内无新公告，Docs sitemap 窗内 lastmod=0，Discord widget 不可采。hl.eco 遇 Turnstile，销毁数字不采信。HypedLaunches 另有韩国 Seminar、潜在 ~$900M unlock 与 InstinctsMKT 5x 多头等二手，均禁止当正式里程碑。",
+    "依据": "A 叙事/待验证 — https://www.odaily.news/zh-CN/newsflash/520872 ；二手对照 https://x.com/HypedLaunches/status/2104632992656183575",
+    "风险/反证": "媒体「本周」边界与统计口径不明；~$900M unlock 无一手。不得升正式里程碑。",
+    "置信度": "高（「本窗无正式收入/销毁里程碑，且 S 静默」）；低（「优先费 $111 万精确值」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：收入侧本窗只有 Odaily 媒体口径，没有官站或官号里程碑；S 三官号与 Docs 窗内静默。\n- **为什么**：Odaily 09-28 称 Hyperliquid 本周优先费收入 111 万美元，若单列协议可排全网约第 36。官站/foundation/Docs 窗内无新公告，Docs sitemap 窗内 lastmod=0，Discord widget 不可采。hl.eco 遇 Turnstile，销毁数字不采信。HypedLaunches 另有韩国 Seminar、潜在 ~$900M unlock 与 InstinctsMKT 5x 多头等二手，均禁止当正式里程碑。\n- **依据**：A 叙事/待验证 — https://www.odaily.news/zh-CN/newsflash/520872 ；二手对照 https://x.com/HypedLaunches/status/2104632992656183575\n- **风险/反证**：媒体「本周」边界与统计口径不明；~$900M unlock 无一手。不得升正式里程碑。\n- **置信度**：高（「本窗无正式收入/销毁里程碑，且 S 静默」）；低（「优先费 $111 万精确值」）。"
+  },
+  {
+   "num": 7,
+   "title": "NEAR：OI 与 mark 回落，dayNtl 升；Strict List 仍无官站 day-N",
+   "conclusion": "NEAR 入口故事本窗仍无正式闭环；非正式数字显示 perp OI 与 mark 回落，日名义成交上升。",
+   "why": "非正式 API：NEAR perp OI≈$342.9M（↓约 17%）、mark≈4.8054（↓约 10%）、dayNtl≈$414.7M（↑约 36%）；spot ONEAR dayNtl≈$7.42M。官站/官号仍无 Strict List day-N。mk4 浮盈媒体主写 09-27（窗外），勿当今日新事实。Nest 本窗开放 NEAR/XPL 存款，属项目方入口，不等于 UI Strict List。",
+   "basis": "非正式 API；Nest https://x.com/NestExchange/status/2104629712353939543",
+   "risk": "Strict List 一旦官宣入列会改写「已部署未列表」观感；OI 回落可逆。",
+   "confidence": "高（「本窗无 Strict List 官站 day-N，及 API 方向」）；低（「列表入列时点」）。",
+   "links": [
+    {
+     "text": "Nest",
+     "url": "https://x.com/NestExchange/status/2104629712353939543",
+     "field": "依据"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [],
+   "fields": {
+    "结论": "NEAR 入口故事本窗仍无正式闭环；非正式数字显示 perp OI 与 mark 回落，日名义成交上升。",
+    "为什么": "非正式 API：NEAR perp OI≈$342.9M（↓约 17%）、mark≈4.8054（↓约 10%）、dayNtl≈$414.7M（↑约 36%）；spot ONEAR dayNtl≈$7.42M。官站/官号仍无 Strict List day-N。mk4 浮盈媒体主写 09-27（窗外），勿当今日新事实。Nest 本窗开放 NEAR/XPL 存款，属项目方入口，不等于 UI Strict List。",
+    "依据": "非正式 API；Nest https://x.com/NestExchange/status/2104629712353939543",
+    "风险/反证": "Strict List 一旦官宣入列会改写「已部署未列表」观感；OI 回落可逆。",
+    "置信度": "高（「本窗无 Strict List 官站 day-N，及 API 方向」）；低（「列表入列时点」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：NEAR 入口故事本窗仍无正式闭环；非正式数字显示 perp OI 与 mark 回落，日名义成交上升。\n- **为什么**：非正式 API：NEAR perp OI≈$342.9M（↓约 17%）、mark≈4.8054（↓约 10%）、dayNtl≈$414.7M（↑约 36%）；spot ONEAR dayNtl≈$7.42M。官站/官号仍无 Strict List day-N。mk4 浮盈媒体主写 09-27（窗外），勿当今日新事实。Nest 本窗开放 NEAR/XPL 存款，属项目方入口，不等于 UI Strict List。\n- **依据**：非正式 API；Nest https://x.com/NestExchange/status/2104629712353939543\n- **风险/反证**：Strict List 一旦官宣入列会改写「已部署未列表」观感；OI 回落可逆。\n- **置信度**：高（「本窗无 Strict List 官站 day-N，及 API 方向」）；低（「列表入列时点」）。"
+  }
+ ],
+ "sections": [
+  {
+   "title": "今天怎么看",
+   "subsections": [],
+   "body_md": "本窗数字侧最醒目的是「量升持仓缩」。非正式 dayNtl 从昨拍约 $4.08B 升到约 $7.77B（约 +90%），OI 却从约 $13.13B 回落到约 $12.48B（约 -5%），HYPE mark≈87.24（约 -4.7%）。生态侧是项目方产品日。Nest Epoch44 锁仓超新供给，Liquid 上线 Anthropic/OpenAI/Oura pre-IPO 永续；Share 开 NFL Eagles–Bears 盘，Bounce 结束 Week2 空投并开 Week3。币安 HYPE 提现预计时点（09-25 11:00 UTC）过去多日，本窗仍没有「提现已开放」的新 CMS。中文注意力从昨日的费率上限与 HIP-4 扩容，转到 CZ 谈 HL 竞争和 UNI vs HYPE 销毁对比；费率/HIP-4 本窗只有窗外弱续写，勿当今日主新信号。S 三官号静默，正式里程碑空。Wintermute 空头、巨鲸 ZEC 与优先费均为媒体二手，勿与 API 自加总混读。"
+  },
+  {
+   "title": "观点",
+   "subsections": [
+    {
+     "title": "1. 非正式 dayNtl 约 $7.77B（↑约 90%），OI 约 $12.48B 回落；勿与媒体巨鲸/空头混读",
+     "body_md": "- **结论**：本拍日名义成交较昨拍接近翻倍，未平仓兴趣与 HYPE 价格同步回落。热度读法要标非正式，且不能拿媒体巨鲸持仓或 Wintermute 空头直接对照。\n- **为什么**：info API 自加总（拍点 UTC 2026-09-29T00:10:39Z）：OI≈$12.48B（较昨拍≈$13.13B，↓约 4.95%），dayNtl≈$7.77B（较昨≈$4.08B，↑约 90.40%）。HYPE mark≈87.241，HYPE 单币 OI≈$1.78B（↓约 5.52%）。前端 24H 仍见 7.2B（疑占位）。媒体另有 Coinglass 巨鲸持仓≈$93.39 亿、Wintermute 空头≈$1.26 亿，资产集合与脚注不明，**禁止与 API 自加总混用**。正式里程碑本窗无。\n- **依据**：非正式 API（见同目录 info_api_raw_summary.json）；巨鲸 https://www.chaincatcher.com/article/2292588 ；Wintermute https://www.chaincatcher.com/article/2292707\n- **风险/反证**：单点拍点差可能含波动日换手，缺官方连续序列。禁止写成「成交爆发」或「全面升温」。\n- **置信度**：高（「本拍相对昨拍的方向与量级，及多口径并存」）；低（「大升是否代表协议热度结构性回暖」）。"
+    },
+    {
+     "title": "2. 生态产品日：Nest Epoch44、Liquid pre-IPO、Share NFL、Bounce Week2/3",
+     "body_md": "- **结论**：本窗生态一手以项目方原帖为主，覆盖锁仓与 pre-IPO 永续，也有体育预测盘和竞赛空投；S 官号与官站无对应公告。\n- **为什么**：@NestExchange 称 Epoch 44 锁仓已超新供给，TREAD 上 HyperEVM，NEAR/XPL 存款开放。Liquid 侧 @liquidtrading 宣布 pre-IPO 永续已上 Anthropic / OpenAI / Oura。Share 开出 NFL 周一晚 Eagles vs Bears，并做 HL/Polymarket 比价。Bounce 宣布 Week2 结束、63 账户获 USDC 空投，Week3 开赛。Kinetiq 与 Elysium 同句 quote「most egalitarian」升温。Outcome 本窗只见美债 10Y / 布伦特原油盘运营，无 HIP-4 扩容新帖。\n- **依据**：A 事实 — https://x.com/NestExchange/status/2104629712353939543 ；https://x.com/liquidtrading/status/2104645988120166611 ；https://x.com/sharexyz/status/2104671234437116287 ；https://x.com/BounceTech/status/2104566443081654418 ；叙事 https://x.com/Kinetiq_xyz/status/2104619792778797213\n- **风险/反证**：项目方自报锁仓、空投账户数不等于协议层成交或用户增长；S 静默下勿写成官方产品发布。\n- **置信度**：高（「上述项目方原帖窗内存在」）；低（「任一产品持续吸量或锁仓精确口径」）。"
+    },
+    {
+     "title": "3. 币安 HYPE 提现预计时点已过多日，本窗仍无「已开放」新 CMS",
+     "body_md": "- **结论**：提现时点仍停在 CMS「预计」口径；本窗没有新的开放确认公告。\n- **为什么**：CMS 一手（发布 09-24，窗外）写明提现预计 09-25 11:00 UTC。本窗检索 Binance catalog48，未见新的「提现已开放」帖；最新 HYPE 相关仍是上线与 Earn 两帖。HL 三官号本窗静默。\n- **依据**：A 事实（一手 CMS）— https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d ；https://www.binance.com/en/support/announcement/detail/1718842b00ee41479c763ef27b6312f0\n- **风险/反证**：提现页实态未在本采集直接核到；若已静默开放或延误未开，都会改写「入口扩容」的短期读感。禁止写成买卖建议。\n- **置信度**：高（「CMS 仍写预计、本窗无新开放 CMS」）；低（「提现已实际开放且无二次冲击」）。"
+    },
+    {
+     "title": "4. 中文注意力转移：CZ×HL 竞争与 UNI/HYPE 销毁；昨日费率/HIP-4 消退",
+     "body_md": "- **结论**：过滤后的中文有机帖，主线换成 CZ 谈 Hyperliquid 竞争、Seanzhao UNI vs HYPE 销毁长文；昨日费率上限与 HIP-4 扩容热议本窗基本消退。\n- **为什么**：david1989_zhu 等转述/讨论 CZ 谈 HL 竞争，CEX vs DEX 叙事升温。Seanzhao1105 发 UNI vs HYPE 销毁长文（likes~140）多 RT。cloudi66 等继续写销毁/AF 回购托底。费率上限 4%→0.5%/h 与 HIP-4 上限主写 09-27（窗外）；本窗 Outcome 无 HIP-4 新帖，S/Docs lastmod 仍无交叉。样本偏薄，污染中等（跟单与 lifestyle-hype bot）。\n- **依据**：C 叙事 — https://x.com/david1989_zhu/status/2104680022611308724 ；https://x.com/Seanzhao1105/status/2104581184550547724 ；销毁续写 https://x.com/cloudi66/status/2104688233460490649 ；窗外费率对照 https://www.odaily.news/zh-CN/newsflash/520692\n- **风险/反证**：中文样本仍偏薄；CZ 访谈为二手转述，非 HL 官方口径。禁止写成「社区已形成共识」。\n- **置信度**：中（「过滤后主有机线方向」）；低（「全中文社区情绪分布」）。"
+    },
+    {
+     "title": "5. Wintermute 空头、ZEC 限价卖、Coinglass 巨鲸（待验证，勿与 API 混读）",
+     "body_md": "- **结论**：回撤叙事被多条仓位媒体强化，但均为链上监测或媒体二手，不能与非正式 API OI 直接对表。\n- **为什么**：ChainCatcher←Onchain Lens 称 Wintermute 在 HL 空头约 $1.2625 亿（ETH≈$4692万 / SOL≈$1130万 / HYPE≈$1003万）。同日称 Lee Goon Wang 在 HL 限价卖出 1.5 万枚 ZEC（约 $2300 万）。Coinglass 口径巨鲸持仓约 $93.39 亿（多空比 0.88），较昨媒体约 $96.95 亿下修。中文 LuanTomaz77 等转述巨鲸出货/清算与 Wintermute 空头扩大。\n- **依据**：A 叙事/待验证 — https://www.chaincatcher.com/article/2292707 ；https://www.chaincatcher.com/article/2292776 ；https://www.chaincatcher.com/article/2292588 ；中文 C https://x.com/LuanTomaz77/status/2104703047956111841\n- **风险/反证**：地址归属、拍点与名义口径均可漂移；缺一手地址交叉前勿升正式。禁止写成买卖建议。\n- **置信度**：高（「本窗存在上述媒体转述」）；低（「任一持仓精确值与意图」）。"
+    },
+    {
+     "title": "6. 优先费媒体约 $111 万；S 静默；正式里程碑无",
+     "body_md": "- **结论**：收入侧本窗只有 Odaily 媒体口径，没有官站或官号里程碑；S 三官号与 Docs 窗内静默。\n- **为什么**：Odaily 09-28 称 Hyperliquid 本周优先费收入 111 万美元，若单列协议可排全网约第 36。官站/foundation/Docs 窗内无新公告，Docs sitemap 窗内 lastmod=0，Discord widget 不可采。hl.eco 遇 Turnstile，销毁数字不采信。HypedLaunches 另有韩国 Seminar、潜在 ~$900M unlock 与 InstinctsMKT 5x 多头等二手，均禁止当正式里程碑。\n- **依据**：A 叙事/待验证 — https://www.odaily.news/zh-CN/newsflash/520872 ；二手对照 https://x.com/HypedLaunches/status/2104632992656183575\n- **风险/反证**：媒体「本周」边界与统计口径不明；~$900M unlock 无一手。不得升正式里程碑。\n- **置信度**：高（「本窗无正式收入/销毁里程碑，且 S 静默」）；低（「优先费 $111 万精确值」）。"
+    },
+    {
+     "title": "7. NEAR：OI 与 mark 回落，dayNtl 升；Strict List 仍无官站 day-N",
+     "body_md": "- **结论**：NEAR 入口故事本窗仍无正式闭环；非正式数字显示 perp OI 与 mark 回落，日名义成交上升。\n- **为什么**：非正式 API：NEAR perp OI≈$342.9M（↓约 17%）、mark≈4.8054（↓约 10%）、dayNtl≈$414.7M（↑约 36%）；spot ONEAR dayNtl≈$7.42M。官站/官号仍无 Strict List day-N。mk4 浮盈媒体主写 09-27（窗外），勿当今日新事实。Nest 本窗开放 NEAR/XPL 存款，属项目方入口，不等于 UI Strict List。\n- **依据**：非正式 API；Nest https://x.com/NestExchange/status/2104629712353939543\n- **风险/反证**：Strict List 一旦官宣入列会改写「已部署未列表」观感；OI 回落可逆。\n- **置信度**：高（「本窗无 Strict List 官站 day-N，及 API 方向」）；低（「列表入列时点」）。"
+    }
+   ],
+   "body_md": ""
+  },
+  {
+   "title": "社区共鸣点",
+   "subsections": [
+    {
+     "title": "可核情绪线索",
+     "body_md": "1. **最希望听到：官方对 CEX 竞争 / 产品护城河的清晰口径**  \n   - **证据**：david1989_zhu / Maddere7 / btcmagir 等转述或评论 CZ 谈 HL；本窗 S 三官号=0，无官方回应帖。  \n   - **推断**（非编造情绪）：读者要的是官方口径。单方访谈转述不够。样本薄。  \n   - **层级**：C（弱）  \n   - **代表链接**：https://x.com/david1989_zhu/status/2104680022611308724\n\n2. **销毁飞轮在回撤时是否仍可信（喊多与巨鲸焦虑并存）**  \n   - **证据**：Seanzhao UNI vs HYPE 销毁长文多 RT；cloudi66 销毁/AF 托底；LuanTomaz77 等转述巨鲸出货/清算与 Wintermute 空头。  \n   - **推断**：回撤中机制叙事与仓位焦虑同时在场，尚未分出主次。样本不足。  \n   - **层级**：C（弱）+ A 媒体  \n   - **代表链接**：https://x.com/Seanzhao1105/status/2104581184550547724 ；https://x.com/cloudi66/status/2104688233460490649 ；https://x.com/LuanTomaz77/status/2104703047956111841\n\n3. **HIP-4/费率若仍未官宣，注意力已漂移**  \n   - **证据**：费率/HIP-4 主写 09-27（窗外）；本窗 Outcome 无 HIP-4 新帖；S/Docs 仍无交叉；过滤后有机帖少见同框热议。  \n   - **推断**：参数升级期待让位给竞争与销毁话题。样本不足。  \n   - **层级**：弱信号  \n   - **代表链接**：https://www.odaily.news/zh-CN/newsflash/520692 ；https://x.com/Outcomexyz/status/2104653624416915848\n\n4. **用法层：Arcus/Entropy「刷分」疲劳与机会并存，但样本极薄**  \n   - **证据**：Angel_Lanbao 等零星提及 Arcus/Entropy 积分与 ETF 旁及。  \n   - **推断**：积分叙事未消失，也未形成可核主线。**有效中文 X 样本不足。**  \n   - **层级**：C（极弱）  \n   - **代表链接**：https://x.com/Angel_Lanbao/status/2104678755683991929  \n   - **样本说明**：跟单与 lifestyle-hype bot、流水简报禁止当情绪。"
+    }
+   ],
+   "body_md": "总判断：中文 X 首查约 50 条，污染中等，返佣/跟单模板仍在，大量英文用户名生活方式 bot 把 slang「hype」混入中文流，liquid247xyz 流水简报刷屏。过滤后再取约 50 条，有机可用点集中在 CZ 谈 HL 竞争与 Seanzhao UNI vs HYPE 销毁长文；销毁托底喊多与巨鲸出货/清算焦虑并存，也有 Arcus/Entropy 积分与 ETF 旁及的零星帖。昨日 HIP-4/费率上限热议本窗基本消退。**样本仍偏薄**，禁止写成全社区共识。中文媒体注意力在优先费与 Wintermute 空头，也覆盖巨鲸持仓下修和 ZEC 限价卖。相对昨日「参数升级何时官宣」，本窗有效帖更常碰到「CEX 竞争下护城河是什么」和「回撤时销毁飞轮还信不信」。"
+  },
+  {
+   "title": "少数派",
+   "subsections": [],
+   "body_md": "- **销毁飞轮托底仍成立**：cloudi66 等在回撤中继续喊销毁/AF 回购托底。与巨鲸出货焦虑并存，样本薄，且无官号口径。\n- **CZ×HL 竞争已被「定性」**：少数转述会把访谈读成定论。本台只认到 C 层二手，S 交叉前不抬成官方竞争定位。\n- **~$900M unlock / 机构多头敞口将主导短线**：HypedLaunches 二手。缺一手日历与地址前不进主观点。\n- **前端 7.2B 反映真实 24H 量**：与 API dayNtl≈$7.77B 接近，但前端展示长期疑占位，勿单独当量能证据。"
+  },
+  {
+   "title": "附录 · Phase1 素材摘要",
+   "subsections": [],
+   "body_md": "见同目录 `phase1-merged.md`（事件簇 / 主题分布 / 冲突草稿 / 待验证假设 / 关键数字 / 分层计数 / 失败源）。\n\n**本拍非正式**（UTC 2026-09-29T00:10:39Z / CST 08:10:39，234 资产）：OI≈$12.48B；dayNtl≈$7.77B；HYPE mark≈87.241；HYPE OI≈$1.78B；前端 7.2B 疑占位；NEAR perp OI≈$342.9M；ONEAR dayNtl≈$7.42M；正式里程碑无。\n\n**采集失败摘要**：S 三官号静默；hl.eco Turnstile（销毁不采信）；Discord widget 404；docs.hyperliquid.xyz DNS（改用 gitbook）；FOCUS list 假阴性；Enter_Elysium 1 次 429（退避后完成）；中文跟单/lifestyle-hype bot 污染；ECO/C/C+ 未翻页；B 跳过；HyperliquidPC / legendtrade 静默。**未用旧快照。** X 花费约 $0.80。窗外：费率上限 4%→0.5%/h + HIP-4 主写 09-27；OI 市佔 11.4%；NEAR mk4 浮盈；ETF 无新 SoSoValue 日度。"
+  }
+ ],
+ "source": {
+  "type": "hl-intel-daily",
+  "label": "HL 情报台日报",
+  "file": "/workspace/hl-daily-2026-09-29/daily-final.md",
+  "file_mtime": "2026-10-07T15:25:07+08:00"
+ },
+ "parse": {
+  "format": "v2-list-fields",
+  "warnings": []
+ }
+}

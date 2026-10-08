@@ -1,0 +1,91 @@
+{
+ "schema": "hl-morning/v1",
+ "date": "2026-09-22",
+ "updated_at": null,
+ "window": {
+  "start": "2026-09-21T08:26:00+08:00",
+  "end": "2026-09-22T08:26:00+08:00"
+ },
+ "items": [
+  {
+   "title": "官号确认永续 Trailing Stops 上线",
+   "summary": "本窗最硬的产品进展来自 S 层：永续市场可用追踪止损。",
+   "sources": [
+    {
+     "name": "@HyperliquidX",
+     "url": "https://x.com/HyperliquidX/status/2101913891681055056"
+    },
+    {
+     "name": "@HyperliquidX",
+     "url": "https://x.com/HyperliquidX/status/2101913893744660739"
+    },
+    {
+     "name": "hyperliquid.gitbook.io",
+     "url": "https://hyperliquid.gitbook.io/hyperliquid-docs/trading/order-types"
+    }
+   ],
+   "flags": [],
+   "ref": {
+    "view": 1,
+    "source_field": "依据"
+   }
+  },
+  {
+   "title": "Nest 自报 TVL 破 $25M ATH，费用归 veNEST",
+   "summary": "Nest 窗内主叙事是 TVL 创新高，并强调费用回流与 HYPE Engine Vault。",
+   "sources": [
+    {
+     "name": "@NestExchange",
+     "url": "https://x.com/NestExchange/status/2102163583110946952"
+    },
+    {
+     "name": "@NestExchange",
+     "url": "https://x.com/NestExchange/status/2102047818726686936"
+    }
+   ],
+   "flags": [],
+   "ref": {
+    "view": 2,
+    "source_field": "依据"
+   }
+  }
+ ],
+ "disclaimer": "AI 整理，非投资建议",
+ "provenance": {
+  "generator": "build_morning.py 过渡数据（从 daily-final.md 转出）",
+  "file": "/workspace/hl-daily-2026-09-22/daily-final.md"
+ },
+ "_report": {
+  "skipped": [
+   {
+    "num": 3,
+    "title": "FalconX / 巨鲸 HYPE：买入叙事与内部划转互相打架",
+    "reason": "不确定标记：依据「待验证」"
+   },
+   {
+    "num": 4,
+    "title": "OI 与成交额多口径：媒体 $8.1B vs API≈$13.67B vs 前端 7.2B",
+    "reason": "不确定标记：依据「待验证」"
+   },
+   {
+    "num": 5,
+    "title": "Bounce Week2 开工；Outcome 推九月 $100 HYPE 叙事",
+    "reason": "不确定标记：依据「待验证」"
+   },
+   {
+    "num": 6,
+    "title": "Manual Borrow 余波仍在刷 $269M，官站无 day-N 余额",
+    "reason": "不确定标记：依据「待验证」"
+   }
+  ],
+  "long_titles": [
+   {
+    "num": 2,
+    "length": 33,
+    "title": "Nest 自报 TVL 破 $25M ATH，费用归 veNEST"
+   }
+  ],
+  "no_summary": [],
+  "no_sources": []
+ }
+}

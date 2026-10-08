@@ -1,0 +1,181 @@
+{
+ "schema": "hl-morning/v1",
+ "date": "2026-10-07",
+ "updated_at": "2026-10-07T15:26:13+08:00",
+ "window": {
+  "start": "2026-10-06T08:10:00+08:00",
+  "end": "2026-10-07T08:10:00+08:00"
+ },
+ "items": [
+  {
+   "title": "FT 报道新加坡监管身份：Labs 认总部在新加坡，MAS 说不在它的管辖范围",
+   "summary": "这件事没有新的执法动作，但把「谁来管 Hyperliquid」摆上了台面，而且正好赶在 Jeff 演讲前。",
+   "sources": [
+    {
+     "name": "FT 原稿",
+     "url": "https://www.ft.com/content/cd851d45-596b-4745-8c28-ce7ace1d3e43"
+    },
+    {
+     "name": "BeInCrypto 解读",
+     "url": "https://beincrypto.com/hyperliquid-singapore-mas-license/"
+    },
+    {
+     "name": "Odaily 中文快讯",
+     "url": "https://www.odaily.news/zh-CN/newsflash/522846"
+    }
+   ],
+   "flags": [],
+   "ref": {
+    "view": 1,
+    "source_field": "代表链接"
+   }
+  },
+  {
+   "title": "AF 回到平时节奏，额外买盘已经结束，媒体还在报「首笔 1458 万」",
+   "summary": "昨天判断「首笔 AQAv2 基本花完」，今天的数据继续支持这个判断。下一笔要等约 11 月初。",
+   "sources": [
+    {
+     "name": "Odaily「AQAv2 首笔＋彭博」快讯",
+     "url": "https://www.odaily.news/zh-CN/newsflash/522781"
+    },
+    {
+     "name": "bitcoin.com 原稿",
+     "url": "https://news.bitcoin.com/defi/hyperliquid-brings-24-7-perps-bloomberg-hype-eyes-fresh-high/"
+    },
+    {
+     "name": "swolecharts AF 日买入表",
+     "url": "https://swolecharts.com/hyperliquid/assistance-fund"
+    }
+   ],
+   "flags": [],
+   "ref": {
+    "view": 2,
+    "source_field": "代表链接"
+   }
+  },
+  {
+   "title": "375 万枚团队份额今天可以转账，接下来看它去哪",
+   "summary": "今天是 OTC 安排第一次能被链上检验的日子。窗内还没人报道这批币动了。",
+   "sources": [
+    {
+     "name": "FinanceFeeds 解锁拆解",
+     "url": "https://financefeeds.com/hyperliquids-october-6-unlock-9-9m-hype-on-paper-3-75m-going-to-one-otc-buyer/"
+    },
+    {
+     "name": "Gate 新闻稿",
+     "url": "https://www.gate.com/news/detail/HYPE/hyperliquid-labs-unstakes-375m-hype-for-329m-institutional-otc-sale-24704208"
+    }
+   ],
+   "flags": [],
+   "ref": {
+    "view": 3,
+    "source_field": "代表链接"
+   }
+  },
+  {
+   "title": "盘面降温，大户整体偏空，最大的空头可能是对冲盘",
+   "summary": "价格回落、成交缩三成、OI 不动，像是在等今天的会。大户偏空的数据要打折看。",
+   "sources": [
+    {
+     "name": "ChainCatcher 鲸鱼持仓",
+     "url": "https://www.chaincatcher.com/article/2294298"
+    },
+    {
+     "name": "bitcoin.com Abraxas 稿",
+     "url": "https://news.bitcoin.com/crypto-news/linked-hyperliquid-giants-take-aim-bitcoin-ether-1-58-billion-crypto-shorts/"
+    },
+    {
+     "name": "Arkham 旧研究",
+     "url": "https://info.arkm.com/research/abraxas-capitals-massive-short"
+    }
+   ],
+   "flags": [],
+   "ref": {
+    "view": 4,
+    "source_field": "代表链接"
+   }
+  },
+  {
+   "title": "资金面信号方向不一：ETF 小幅流出，个别大户和 Multicoin 还在拿",
+   "summary": "这几条都是单点样本，凑不出「机构在进场」或「机构在撤」的结论。",
+   "sources": [
+    {
+     "name": "Odaily ETF 流出",
+     "url": "https://www.odaily.news/zh-CN/newsflash/522632"
+    },
+    {
+     "name": "Odaily Coinbase Prime 地址",
+     "url": "https://www.odaily.news/zh-CN/newsflash/522642"
+    },
+    {
+     "name": "Odaily Multicoin 快讯",
+     "url": "https://www.odaily.news/zh-CN/newsflash/522734"
+    }
+   ],
+   "flags": [],
+   "ref": {
+    "view": 5,
+    "source_field": "代表链接"
+   }
+  },
+  {
+   "title": "今天 11 点 Jeff 上主舞台，明天还有一场机构闭门；众议院、币安和官方渠道都没变化",
+   "summary": "今天最可能出一手口径的就是 Jeff 这场对谈，监管、375 万的买方和 AQAv2 都可能被问到。",
+   "sources": [
+    {
+     "name": "TOKEN2049 议程",
+     "url": "https://www.token2049.com/singapore/agenda"
+    },
+    {
+     "name": "TOKEN2049 Institutional",
+     "url": "https://token2049.com/singapore/institutional"
+    },
+    {
+     "name": "官方 TG 公告频道",
+     "url": "https://t.me/s/hyperliquid_announcements"
+    },
+    {
+     "name": "众议院公函 PDF",
+     "url": "https://oversight.house.gov/wp-content/uploads/2026/09/Hyperliquid-Letter-9.29.26.pdf"
+    }
+   ],
+   "flags": [],
+   "ref": {
+    "view": 6,
+    "source_field": "代表链接"
+   }
+  }
+ ],
+ "disclaimer": "AI 整理，非投资建议",
+ "provenance": {
+  "generator": "build_morning.py 过渡数据（从 daily-final.md 转出）",
+  "file": "/workspace/hl-daily-2026-10-07/daily-final.md"
+ },
+ "_report": {
+  "skipped": [],
+  "long_titles": [
+   {
+    "num": 1,
+    "length": 39,
+    "title": "FT 报道新加坡监管身份：Labs 认总部在新加坡，MAS 说不在它的管辖范围"
+   },
+   {
+    "num": 2,
+    "length": 35,
+    "title": "AF 回到平时节奏，额外买盘已经结束，媒体还在报「首笔 1458 万」"
+   },
+   {
+    "num": 5,
+    "length": 38,
+    "title": "资金面信号方向不一：ETF 小幅流出，个别大户和 Multicoin 还在拿"
+   },
+   {
+    "num": 6,
+    "length": 44,
+    "title": "今天 11 点 Jeff 上主舞台，明天还有一场机构闭门；众议院、币安和官方渠道都没变化"
+   }
+  ],
+  "no_summary": [],
+  "no_sources": []
+ }
+}

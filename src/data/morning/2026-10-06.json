@@ -1,0 +1,185 @@
+{
+ "schema": "hl-morning/v1",
+ "date": "2026-10-06",
+ "updated_at": null,
+ "window": {
+  "start": "2026-10-05T08:16:00+08:00",
+  "end": "2026-10-06T08:16:00+08:00"
+ },
+ "items": [
+  {
+   "title": "AF 两天买了约 19 万枚 HYPE，USDC 余额见底，AQAv2 首笔大概率已经用完",
+   "summary": "昨天还在争「钱进没进 AF」，今天可以往前走一步。AF 从 10/4 起明显放量，现在账上几乎没有 USDC 了。",
+   "sources": [
+    {
+     "name": "Odaily 转 Onchain Lens",
+     "url": "https://www.odaily.news/zh-CN/newsflash/522529"
+    },
+    {
+     "name": "swolecharts AF 日买入表",
+     "url": "https://swolecharts.com/hyperliquid/assistance-fund"
+    },
+    {
+     "name": "TheTokenPress 首笔核对稿",
+     "url": "https://www.thetokenpress.com/article/hyperliquid-records-first-14-58m-usdc-reserve-yield-payment-c7a495c4"
+    }
+   ],
+   "flags": [],
+   "ref": {
+    "view": 1,
+    "source_field": "代表链接"
+   }
+  },
+  {
+   "title": "「24 小时销毁 1015 万美元」实为 AF 买入后计入非流通，打进销毁地址的只占很小一部分",
+   "summary": "中文快讯普遍用「销毁」这个词，读的时候要换成「AF 买入、计为非流通」。",
+   "sources": [
+    {
+     "name": "深潮 TechFlow 快讯",
+     "url": "https://techflowpost.com/newsletter/138839"
+    },
+    {
+     "name": "PANews 英文稿",
+     "url": "https://www.panews.io/articles/01a109db-c69e-76cf-94ba-945e5c909a05"
+    }
+   ],
+   "flags": [],
+   "ref": {
+    "view": 2,
+    "source_field": "代表链接"
+   }
+  },
+  {
+   "title": "375 万枚团队份额：今天解除质押，明天分给团队，整批场外卖给一家机构",
+   "summary": "短期不会直接压到订单簿上，真正要看的是 10/7 之后这批币往哪走。",
+   "sources": [
+    {
+     "name": "BeInCrypto 解锁稿",
+     "url": "https://beincrypto.com/hyperliquid-token-unlock-320-million-price-impact/"
+    },
+    {
+     "name": "unlocks.app 周报",
+     "url": "https://insights.unlocks.app/weekly-unlock-digest-oct-5-oct-11-2026-hypes-team-payout-goes-otc/"
+    },
+    {
+     "name": "BBX 中文快讯",
+     "url": "https://bbx.com/zh-Hans/news-detail/3111680"
+    }
+   ],
+   "flags": [],
+   "ref": {
+    "view": 3,
+    "source_field": "代表链接"
+   }
+  },
+  {
+   "title": "彭博终端能看 Hyperliquid 部分永续的实时行情，只能看，不能下单",
+   "summary": "这是可见度上的进展，和交易接入、监管准入无关。",
+   "sources": [
+    {
+     "name": "crypto.news 报道",
+     "url": "https://crypto.news/hyperliquid-perpetual-prices-land-on-bloomberg-terminal/"
+    },
+    {
+     "name": "Hyperliquid Daily 原帖",
+     "url": "https://x.com/HYPERDailyTK/status/2107017951681335633"
+    }
+   ],
+   "flags": [],
+   "ref": {
+    "view": 4,
+    "source_field": "代表链接"
+   }
+  },
+  {
+   "title": "OI 回到 135 亿美元，HYPE 涨 4.3%；大户整体偏空，HYPE 大多单浮盈 7100 万美元",
+   "summary": "价格和仓位都在往上走，和 AF 放量同一时段，但不能直接说是 AF 买上去的。",
+   "sources": [
+    {
+     "name": "Odaily 大户多空比",
+     "url": "https://www.odaily.news/zh-CN/newsflash/522514"
+    },
+    {
+     "name": "Odaily SMARTESTMONEY 快讯",
+     "url": "https://www.odaily.news/zh-CN/newsflash/522526"
+    }
+   ],
+   "flags": [],
+   "ref": {
+    "view": 5,
+    "source_field": "代表链接"
+   }
+  },
+  {
+   "title": "本周日程：今天有机构论坛和黑客松，明天 Jeff 上主舞台；众议院 10/13、币安提现都没变",
+   "summary": "最可能出一手消息的是 10/7 上午 Jeff Yan 和 Hart Lambur 的对谈。官方渠道本窗没有新公告。",
+   "sources": [
+    {
+     "name": "Hyperliquid 官方 TG 公告频道",
+     "url": "https://t.me/s/hyperliquid_announcements"
+    },
+    {
+     "name": "TOKEN2049 议程",
+     "url": "https://token2049.com/singapore/agenda"
+    },
+    {
+     "name": "众议院公函 PDF",
+     "url": "https://oversight.house.gov/wp-content/uploads/2026/09/Hyperliquid-Letter-9.29.26.pdf"
+    }
+   ],
+   "flags": [],
+   "ref": {
+    "view": 7,
+    "source_field": "代表链接"
+   }
+  }
+ ],
+ "disclaimer": "AI 整理，非投资建议",
+ "provenance": {
+  "generator": "build_morning.py 过渡数据（从 daily-final.md 转出）",
+  "file": "/workspace/hl-daily-2026-10-06/daily-final.md"
+ },
+ "_report": {
+  "skipped": [
+   {
+    "num": 6,
+    "title": "Polymarket 拿周末收入对比 HYPE 估值，CEO 预告 TOKEN2049 讲话",
+    "reason": "不确定标记：依据「待验证/传闻」"
+   }
+  ],
+  "long_titles": [
+   {
+    "num": 1,
+    "length": 45,
+    "title": "AF 两天买了约 19 万枚 HYPE，USDC 余额见底，AQAv2 首笔大概率已经用完"
+   },
+   {
+    "num": 2,
+    "length": 47,
+    "title": "「24 小时销毁 1015 万美元」实为 AF 买入后计入非流通，打进销毁地址的只占很小一部分"
+   },
+   {
+    "num": 3,
+    "length": 35,
+    "title": "375 万枚团队份额：今天解除质押，明天分给团队，整批场外卖给一家机构"
+   },
+   {
+    "num": 4,
+    "length": 37,
+    "title": "彭博终端能看 Hyperliquid 部分永续的实时行情，只能看，不能下单"
+   },
+   {
+    "num": 5,
+    "length": 52,
+    "title": "OI 回到 135 亿美元，HYPE 涨 4.3%；大户整体偏空，HYPE 大多单浮盈 7100 万美元"
+   },
+   {
+    "num": 7,
+    "length": 47,
+    "title": "本周日程：今天有机构论坛和黑客松，明天 Jeff 上主舞台；众议院 10/13、币安提现都没变"
+   }
+  ],
+  "no_summary": [],
+  "no_sources": []
+ }
+}

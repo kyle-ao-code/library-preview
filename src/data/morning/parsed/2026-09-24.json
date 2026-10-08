@@ -1,0 +1,341 @@
+{
+ "date": "2026-09-24",
+ "title": "过去24h Hyperliquid 情报日报（2026-09-24）",
+ "window": {
+  "raw": "窗：Asia/Shanghai 2026-09-23 08:25 → 2026-09-24 08:25",
+  "start": "2026-09-23 08:25",
+  "end": "2026-09-24 08:25",
+  "tz": "Asia/Shanghai"
+ },
+ "notes": [],
+ "today": [
+  "官号本窗重新开口。@HyperliquidX 连发两帖，宣布未平仓合约量创纪录 $18B，并注明按多空双边加总。媒体立刻跟进，但同日非正式 info API 自加总约 $12.67B，AMBCrypto 引 DeFiLlama 约 $8.8B，前端仍显示 7.2B。口径冲突还在；这次多了一条带脚注的官方数字。现货侧，NEAR Protocol 宣布 NEAR 已部署到 Hyperliquid 现货；因审核，正式列表还要等几天，期间走专属链接。价格从昨窗约 $97 一带回到本拍 mark≈$94.14。回购销毁媒体簇写成约 $3.26M/24h，低于昨窗常引的约 $3.76M。生态上 Liquid 上了 $OURA Pre-IPO 永续，Nest 自报代币化股票 TVL 过 $375k。正式里程碑页仍没有。"
+ ],
+ "views": [
+  {
+   "num": 1,
+   "title": "官宣 OI 创纪录 $18B，并自带「双边」脚注",
+   "conclusion": "本窗最硬的一手是 S 层数据官宣。本窗没有新的功能上线官宣。",
+   "why": "@HyperliquidX 写 Open interest reached an all-time high of $18B；下一帖写 Two-sided OI is calculated as the sum of long and short positions。这说明官方读数明确按多空相加。PANews 等中文稿跟进「180 亿美元」，多数转述会丢掉脚注。",
+   "basis": "S 事实 — https://x.com/HyperliquidX/status/2102643437896110439 ；说明帖 https://x.com/HyperliquidX/status/2102643440446271884 ；A 转述 https://www.panewslab.com/zh/articles/01a0ccff-d852-71a9-ba51-c1288162c101",
+   "risk": "双边合计与第三方「单边/净敞口」口径不可直接比；把 $18B 写成「盘面真实风险敞口翻倍」会误读。",
+   "confidence": "高（「官号窗内宣布 $18B 且注明双边」）；低（「与其他仪表一一换算」）。",
+   "links": [
+    {
+     "text": "S 事实",
+     "url": "https://x.com/HyperliquidX/status/2102643437896110439",
+     "field": "依据"
+    },
+    {
+     "text": "说明帖",
+     "url": "https://x.com/HyperliquidX/status/2102643440446271884",
+     "field": "依据"
+    },
+    {
+     "text": "A 转述",
+     "url": "https://www.panewslab.com/zh/articles/01a0ccff-d852-71a9-ba51-c1288162c101",
+     "field": "依据"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [
+    "A",
+    "S"
+   ],
+   "fields": {
+    "结论": "本窗最硬的一手是 S 层数据官宣。本窗没有新的功能上线官宣。",
+    "为什么": "@HyperliquidX 写 Open interest reached an all-time high of $18B；下一帖写 Two-sided OI is calculated as the sum of long and short positions。这说明官方读数明确按多空相加。PANews 等中文稿跟进「180 亿美元」，多数转述会丢掉脚注。",
+    "依据": "S 事实 — https://x.com/HyperliquidX/status/2102643437896110439 ；说明帖 https://x.com/HyperliquidX/status/2102643440446271884 ；A 转述 https://www.panewslab.com/zh/articles/01a0ccff-d852-71a9-ba51-c1288162c101",
+    "风险/反证": "双边合计与第三方「单边/净敞口」口径不可直接比；把 $18B 写成「盘面真实风险敞口翻倍」会误读。",
+    "置信度": "高（「官号窗内宣布 $18B 且注明双边」）；低（「与其他仪表一一换算」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：本窗最硬的一手是 S 层数据官宣。本窗没有新的功能上线官宣。\n- **为什么**：@HyperliquidX 写 Open interest reached an all-time high of $18B；下一帖写 Two-sided OI is calculated as the sum of long and short positions。这说明官方读数明确按多空相加。PANews 等中文稿跟进「180 亿美元」，多数转述会丢掉脚注。\n- **依据**：S 事实 — https://x.com/HyperliquidX/status/2102643437896110439 ；说明帖 https://x.com/HyperliquidX/status/2102643440446271884 ；A 转述 https://www.panewslab.com/zh/articles/01a0ccff-d852-71a9-ba51-c1288162c101\n- **风险/反证**：双边合计与第三方「单边/净敞口」口径不可直接比；把 $18B 写成「盘面真实风险敞口翻倍」会误读。\n- **置信度**：高（「官号窗内宣布 $18B 且注明双边」）；低（「与其他仪表一一换算」）。"
+  },
+  {
+   "num": 2,
+   "title": "OI 仍是四套数字并排，官方数字没有结束争论",
+   "conclusion": "有了官宣之后，还要分清字段，不能只记一个整数。",
+   "why": "本拍 info API 对 234 个永续自加总 OI≈$12.67B、dayNtl≈$9.80B（非正式）。AMBCrypto 引 DeFiLlama 全平台流动性/OI 叙事约 $8.8B。前端 24H 仍 7.2B（疑占位）。hl.eco 本窗 Turnstile，无法用看板仲裁。",
+   "basis": "口径冲突 — 非正式 API（采集侧）；https://ambcrypto.com/hyperliquid-market-liquidity-hits-8-8b-as-revenue-surges-4x-can-hype-cross-100/ ；官宣见观点 1",
+   "risk": "资产范围、是否双边、是否含某类合约都会改读；禁止把拍点差写成「OI 一夜蒸发」。",
+   "confidence": "高（「多口径并存」）；低（「哪一口径最接近某类真值」）。",
+   "links": [
+    {
+     "text": null,
+     "url": "https://ambcrypto.com/hyperliquid-market-liquidity-hits-8-8b-as-revenue-surges-4x-can-hype-cross-100/",
+     "field": "依据"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [],
+   "fields": {
+    "结论": "有了官宣之后，还要分清字段，不能只记一个整数。",
+    "为什么": "本拍 info API 对 234 个永续自加总 OI≈$12.67B、dayNtl≈$9.80B（非正式）。AMBCrypto 引 DeFiLlama 全平台流动性/OI 叙事约 $8.8B。前端 24H 仍 7.2B（疑占位）。hl.eco 本窗 Turnstile，无法用看板仲裁。",
+    "依据": "口径冲突 — 非正式 API（采集侧）；https://ambcrypto.com/hyperliquid-market-liquidity-hits-8-8b-as-revenue-surges-4x-can-hype-cross-100/ ；官宣见观点 1",
+    "风险/反证": "资产范围、是否双边、是否含某类合约都会改读；禁止把拍点差写成「OI 一夜蒸发」。",
+    "置信度": "高（「多口径并存」）；低（「哪一口径最接近某类真值」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：有了官宣之后，还要分清字段，不能只记一个整数。\n- **为什么**：本拍 info API 对 234 个永续自加总 OI≈$12.67B、dayNtl≈$9.80B（非正式）。AMBCrypto 引 DeFiLlama 全平台流动性/OI 叙事约 $8.8B。前端 24H 仍 7.2B（疑占位）。hl.eco 本窗 Turnstile，无法用看板仲裁。\n- **依据**：口径冲突 — 非正式 API（采集侧）；https://ambcrypto.com/hyperliquid-market-liquidity-hits-8-8b-as-revenue-surges-4x-can-hype-cross-100/ ；官宣见观点 1\n- **风险/反证**：资产范围、是否双边、是否含某类合约都会改读；禁止把拍点差写成「OI 一夜蒸发」。\n- **置信度**：高（「多口径并存」）；低（「哪一口径最接近某类真值」）。"
+  },
+  {
+   "num": 3,
+   "title": "NEAR 现货已部署：昨日「待核」升格为项目方事实",
+   "conclusion": "Spot 上新本窗可核到 NEAR Protocol 宣布；@HyperliquidX 本窗没有对应原帖。",
+   "why": "TechFlow、ChainCatcher、Gate、PANews 同引：NEAR 已部署至现货；因平台审核，预计数日才进正式列表，期间用官方专属链接。本拍 spotMeta 非正式可见 ONEAR；perp NEAR 单币 OI 非正式约 $346M。昨窗 HypedLaunches 二传缺官号，今天媒体簇补上了项目方侧。",
+   "basis": "A 事实（项目方经媒体）— https://www.techflowpost.com/newsletter/137431 ；https://www.chaincatcher.com/article/2291702",
+   "risk": "Strict List 入列可能拖延；专属链接体验差会削弱「已上线」观感。$SYN Spot 仍仅 ECO 二传，勿与 NEAR 捆成一条。",
+   "confidence": "高（「NEAR Protocol 宣布已部署」）；中（「数日内进正式列表」）。",
+   "links": [
+    {
+     "text": "A 事实（项目方经媒体）",
+     "url": "https://www.techflowpost.com/newsletter/137431",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://www.chaincatcher.com/article/2291702",
+     "field": "依据"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [
+    "A"
+   ],
+   "fields": {
+    "结论": "Spot 上新本窗可核到 NEAR Protocol 宣布；@HyperliquidX 本窗没有对应原帖。",
+    "为什么": "TechFlow、ChainCatcher、Gate、PANews 同引：NEAR 已部署至现货；因平台审核，预计数日才进正式列表，期间用官方专属链接。本拍 spotMeta 非正式可见 ONEAR；perp NEAR 单币 OI 非正式约 $346M。昨窗 HypedLaunches 二传缺官号，今天媒体簇补上了项目方侧。",
+    "依据": "A 事实（项目方经媒体）— https://www.techflowpost.com/newsletter/137431 ；https://www.chaincatcher.com/article/2291702",
+    "风险/反证": "Strict List 入列可能拖延；专属链接体验差会削弱「已上线」观感。$SYN Spot 仍仅 ECO 二传，勿与 NEAR 捆成一条。",
+    "置信度": "高（「NEAR Protocol 宣布已部署」）；中（「数日内进正式列表」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：Spot 上新本窗可核到 NEAR Protocol 宣布；@HyperliquidX 本窗没有对应原帖。\n- **为什么**：TechFlow、ChainCatcher、Gate、PANews 同引：NEAR 已部署至现货；因平台审核，预计数日才进正式列表，期间用官方专属链接。本拍 spotMeta 非正式可见 ONEAR；perp NEAR 单币 OI 非正式约 $346M。昨窗 HypedLaunches 二传缺官号，今天媒体簇补上了项目方侧。\n- **依据**：A 事实（项目方经媒体）— https://www.techflowpost.com/newsletter/137431 ；https://www.chaincatcher.com/article/2291702\n- **风险/反证**：Strict List 入列可能拖延；专属链接体验差会削弱「已上线」观感。$SYN Spot 仍仅 ECO 二传，勿与 NEAR 捆成一条。\n- **置信度**：高（「NEAR Protocol 宣布已部署」）；中（「数日内进正式列表」）。"
+  },
+  {
+   "num": 4,
+   "title": "HYPE 从约 $97 回到约 $94；销毁媒体数字同步下台阶",
+   "conclusion": "价格叙事从「逼近三位数」退到整理；回购销毁二传金额也低于昨窗主引数字。",
+   "why": "本拍 mark≈94.138。Odaily/BBX 引 Onchain Lens：24h 回购销毁约 34,280 HYPE、VWAP≈$95.25、约 $326 万；累计约 4889 万枚（约最大供应 4.89%）。昨窗常引约 $3.76M 已不在本窗主轴。",
+   "basis": "非正式 API；A/B 待验证 — https://www.odaily.news/zh-CN/newsflash/519898",
+   "risk": "媒体统计窗口与地址范围可变；价格回撤会放大「热度退潮」叙事，不一定等于协议收入趋势。",
+   "confidence": "高（「本拍价格低于昨拍约 $97」）；中（「多媒同引约 $3.26M」）；低（「销毁趋势拐头」）。",
+   "links": [
+    {
+     "text": "A/B 待验证",
+     "url": "https://www.odaily.news/zh-CN/newsflash/519898",
+     "field": "依据"
+    }
+   ],
+   "uncertain": true,
+   "markers": [
+    "待验证"
+   ],
+   "markers_by_field": {
+    "依据": [
+     "待验证"
+    ]
+   },
+   "basis_layers": [
+    "A",
+    "B"
+   ],
+   "fields": {
+    "结论": "价格叙事从「逼近三位数」退到整理；回购销毁二传金额也低于昨窗主引数字。",
+    "为什么": "本拍 mark≈94.138。Odaily/BBX 引 Onchain Lens：24h 回购销毁约 34,280 HYPE、VWAP≈$95.25、约 $326 万；累计约 4889 万枚（约最大供应 4.89%）。昨窗常引约 $3.76M 已不在本窗主轴。",
+    "依据": "非正式 API；A/B 待验证 — https://www.odaily.news/zh-CN/newsflash/519898",
+    "风险/反证": "媒体统计窗口与地址范围可变；价格回撤会放大「热度退潮」叙事，不一定等于协议收入趋势。",
+    "置信度": "高（「本拍价格低于昨拍约 $97」）；中（「多媒同引约 $3.26M」）；低（「销毁趋势拐头」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：价格叙事从「逼近三位数」退到整理；回购销毁二传金额也低于昨窗主引数字。\n- **为什么**：本拍 mark≈94.138。Odaily/BBX 引 Onchain Lens：24h 回购销毁约 34,280 HYPE、VWAP≈$95.25、约 $326 万；累计约 4889 万枚（约最大供应 4.89%）。昨窗常引约 $3.76M 已不在本窗主轴。\n- **依据**：非正式 API；A/B 待验证 — https://www.odaily.news/zh-CN/newsflash/519898\n- **风险/反证**：媒体统计窗口与地址范围可变；价格回撤会放大「热度退潮」叙事，不一定等于协议收入趋势。\n- **置信度**：高（「本拍价格低于昨拍约 $97」）；中（「多媒同引约 $3.26M」）；低（「销毁趋势拐头」）。"
+  },
+  {
+   "num": 5,
+   "title": "Liquid 上 $OURA Pre-IPO 永续；Nest 代币化股票自报过 $375k TVL",
+   "conclusion": "生态产品在讲「传统资产上链交易」故事，且有可点原帖。",
+   "why": "liquidtrading 宣布 $OURA Pre-IPO perpetual，并称隐含估值约 $18B 一带。NestExchange 称 tokenized stocks TVL>$375k，另推 nest 2.0 / TOKEN2049。均非 HL 官号背书。",
+   "basis": "A 事实自述 — https://x.com/liquidtrading/status/2102803725446168858 ；https://x.com/NestExchange/status/2102812740767072318",
+   "risk": "Pre-IPO 永续定价噪声大；Nest TVL 口径与可持续性以项目面板为准。",
+   "confidence": "中（对「窗内自述存在」）；低（对估值与 TVL 可持续）。",
+   "links": [
+    {
+     "text": "A 事实自述",
+     "url": "https://x.com/liquidtrading/status/2102803725446168858",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://x.com/NestExchange/status/2102812740767072318",
+     "field": "依据"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [
+    "A"
+   ],
+   "fields": {
+    "结论": "生态产品在讲「传统资产上链交易」故事，且有可点原帖。",
+    "为什么": "liquidtrading 宣布 $OURA Pre-IPO perpetual，并称隐含估值约 $18B 一带。NestExchange 称 tokenized stocks TVL>$375k，另推 nest 2.0 / TOKEN2049。均非 HL 官号背书。",
+    "依据": "A 事实自述 — https://x.com/liquidtrading/status/2102803725446168858 ；https://x.com/NestExchange/status/2102812740767072318",
+    "风险/反证": "Pre-IPO 永续定价噪声大；Nest TVL 口径与可持续性以项目面板为准。",
+    "置信度": "中（对「窗内自述存在」）；低（对估值与 TVL 可持续）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：生态产品在讲「传统资产上链交易」故事，且有可点原帖。\n- **为什么**：liquidtrading 宣布 $OURA Pre-IPO perpetual，并称隐含估值约 $18B 一带。NestExchange 称 tokenized stocks TVL>$375k，另推 nest 2.0 / TOKEN2049。均非 HL 官号背书。\n- **依据**：A 事实自述 — https://x.com/liquidtrading/status/2102803725446168858 ；https://x.com/NestExchange/status/2102812740767072318\n- **风险/反证**：Pre-IPO 永续定价噪声大；Nest TVL 口径与可持续性以项目面板为准。\n- **置信度**：中（对「窗内自述存在」）；低（对估值与 TVL 可持续）。"
+  },
+  {
+   "num": 6,
+   "title": "Elysium / Outcome 叙事续热；竞争警示开始进 ECO 时间线",
+   "conclusion": "L2 与预测市场仍在刷存在感；同时出现「HL 不会一直无敌」的外部评论转述。",
+   "why": "Enter_Elysium RT Delphi「下一增长引擎」说法；HypedLaunches 继续二传 Launch 到 Spot 再到 HIP-3 的路径。Outcomexyz 推「Onchain CME」并刷事件盘。HypedLaunches 转述 KyleSamani 警告 HL 无敌感将蒸发。中文弱样本里已有「Elysium L2 大概率失败」玄学帖，样本不足，只作温度计。",
+   "basis": "A 叙事 — https://x.com/Enter_Elysium/status/2102802155443015949 ；https://x.com/Outcomexyz/status/2102741071365353710 ；https://x.com/HypedLaunches/status/2102859768893157865",
+   "risk": "测试网与愿景帖不等于主网进度；名人评论易被断章。",
+   "confidence": "中（「窗内传播存在」）；低（「竞争格局已变」）。",
+   "links": [
+    {
+     "text": "A 叙事",
+     "url": "https://x.com/Enter_Elysium/status/2102802155443015949",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://x.com/Outcomexyz/status/2102741071365353710",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://x.com/HypedLaunches/status/2102859768893157865",
+     "field": "依据"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [
+    "A"
+   ],
+   "fields": {
+    "结论": "L2 与预测市场仍在刷存在感；同时出现「HL 不会一直无敌」的外部评论转述。",
+    "为什么": "Enter_Elysium RT Delphi「下一增长引擎」说法；HypedLaunches 继续二传 Launch 到 Spot 再到 HIP-3 的路径。Outcomexyz 推「Onchain CME」并刷事件盘。HypedLaunches 转述 KyleSamani 警告 HL 无敌感将蒸发。中文弱样本里已有「Elysium L2 大概率失败」玄学帖，样本不足，只作温度计。",
+    "依据": "A 叙事 — https://x.com/Enter_Elysium/status/2102802155443015949 ；https://x.com/Outcomexyz/status/2102741071365353710 ；https://x.com/HypedLaunches/status/2102859768893157865",
+    "风险/反证": "测试网与愿景帖不等于主网进度；名人评论易被断章。",
+    "置信度": "中（「窗内传播存在」）；低（「竞争格局已变」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：L2 与预测市场仍在刷存在感；同时出现「HL 不会一直无敌」的外部评论转述。\n- **为什么**：Enter_Elysium RT Delphi「下一增长引擎」说法；HypedLaunches 继续二传 Launch 到 Spot 再到 HIP-3 的路径。Outcomexyz 推「Onchain CME」并刷事件盘。HypedLaunches 转述 KyleSamani 警告 HL 无敌感将蒸发。中文弱样本里已有「Elysium L2 大概率失败」玄学帖，样本不足，只作温度计。\n- **依据**：A 叙事 — https://x.com/Enter_Elysium/status/2102802155443015949 ；https://x.com/Outcomexyz/status/2102741071365353710 ；https://x.com/HypedLaunches/status/2102859768893157865\n- **风险/反证**：测试网与愿景帖不等于主网进度；名人评论易被断章。\n- **置信度**：中（「窗内传播存在」）；低（「竞争格局已变」）。"
+  }
+ ],
+ "sections": [
+  {
+   "title": "今天怎么看",
+   "subsections": [],
+   "body_md": "官号本窗重新开口。@HyperliquidX 连发两帖，宣布未平仓合约量创纪录 $18B，并注明按多空双边加总。媒体立刻跟进，但同日非正式 info API 自加总约 $12.67B，AMBCrypto 引 DeFiLlama 约 $8.8B，前端仍显示 7.2B。口径冲突还在；这次多了一条带脚注的官方数字。现货侧，NEAR Protocol 宣布 NEAR 已部署到 Hyperliquid 现货；因审核，正式列表还要等几天，期间走专属链接。价格从昨窗约 $97 一带回到本拍 mark≈$94.14。回购销毁媒体簇写成约 $3.26M/24h，低于昨窗常引的约 $3.76M。生态上 Liquid 上了 $OURA Pre-IPO 永续，Nest 自报代币化股票 TVL 过 $375k。正式里程碑页仍没有。"
+  },
+  {
+   "title": "观点",
+   "subsections": [
+    {
+     "title": "1. 官宣 OI 创纪录 $18B，并自带「双边」脚注",
+     "body_md": "- **结论**：本窗最硬的一手是 S 层数据官宣。本窗没有新的功能上线官宣。\n- **为什么**：@HyperliquidX 写 Open interest reached an all-time high of $18B；下一帖写 Two-sided OI is calculated as the sum of long and short positions。这说明官方读数明确按多空相加。PANews 等中文稿跟进「180 亿美元」，多数转述会丢掉脚注。\n- **依据**：S 事实 — https://x.com/HyperliquidX/status/2102643437896110439 ；说明帖 https://x.com/HyperliquidX/status/2102643440446271884 ；A 转述 https://www.panewslab.com/zh/articles/01a0ccff-d852-71a9-ba51-c1288162c101\n- **风险/反证**：双边合计与第三方「单边/净敞口」口径不可直接比；把 $18B 写成「盘面真实风险敞口翻倍」会误读。\n- **置信度**：高（「官号窗内宣布 $18B 且注明双边」）；低（「与其他仪表一一换算」）。"
+    },
+    {
+     "title": "2. OI 仍是四套数字并排，官方数字没有结束争论",
+     "body_md": "- **结论**：有了官宣之后，还要分清字段，不能只记一个整数。\n- **为什么**：本拍 info API 对 234 个永续自加总 OI≈$12.67B、dayNtl≈$9.80B（非正式）。AMBCrypto 引 DeFiLlama 全平台流动性/OI 叙事约 $8.8B。前端 24H 仍 7.2B（疑占位）。hl.eco 本窗 Turnstile，无法用看板仲裁。\n- **依据**：口径冲突 — 非正式 API（采集侧）；https://ambcrypto.com/hyperliquid-market-liquidity-hits-8-8b-as-revenue-surges-4x-can-hype-cross-100/ ；官宣见观点 1\n- **风险/反证**：资产范围、是否双边、是否含某类合约都会改读；禁止把拍点差写成「OI 一夜蒸发」。\n- **置信度**：高（「多口径并存」）；低（「哪一口径最接近某类真值」）。"
+    },
+    {
+     "title": "3. NEAR 现货已部署：昨日「待核」升格为项目方事实",
+     "body_md": "- **结论**：Spot 上新本窗可核到 NEAR Protocol 宣布；@HyperliquidX 本窗没有对应原帖。\n- **为什么**：TechFlow、ChainCatcher、Gate、PANews 同引：NEAR 已部署至现货；因平台审核，预计数日才进正式列表，期间用官方专属链接。本拍 spotMeta 非正式可见 ONEAR；perp NEAR 单币 OI 非正式约 $346M。昨窗 HypedLaunches 二传缺官号，今天媒体簇补上了项目方侧。\n- **依据**：A 事实（项目方经媒体）— https://www.techflowpost.com/newsletter/137431 ；https://www.chaincatcher.com/article/2291702\n- **风险/反证**：Strict List 入列可能拖延；专属链接体验差会削弱「已上线」观感。$SYN Spot 仍仅 ECO 二传，勿与 NEAR 捆成一条。\n- **置信度**：高（「NEAR Protocol 宣布已部署」）；中（「数日内进正式列表」）。"
+    },
+    {
+     "title": "4. HYPE 从约 $97 回到约 $94；销毁媒体数字同步下台阶",
+     "body_md": "- **结论**：价格叙事从「逼近三位数」退到整理；回购销毁二传金额也低于昨窗主引数字。\n- **为什么**：本拍 mark≈94.138。Odaily/BBX 引 Onchain Lens：24h 回购销毁约 34,280 HYPE、VWAP≈$95.25、约 $326 万；累计约 4889 万枚（约最大供应 4.89%）。昨窗常引约 $3.76M 已不在本窗主轴。\n- **依据**：非正式 API；A/B 待验证 — https://www.odaily.news/zh-CN/newsflash/519898\n- **风险/反证**：媒体统计窗口与地址范围可变；价格回撤会放大「热度退潮」叙事，不一定等于协议收入趋势。\n- **置信度**：高（「本拍价格低于昨拍约 $97」）；中（「多媒同引约 $3.26M」）；低（「销毁趋势拐头」）。"
+    },
+    {
+     "title": "5. Liquid 上 $OURA Pre-IPO 永续；Nest 代币化股票自报过 $375k TVL",
+     "body_md": "- **结论**：生态产品在讲「传统资产上链交易」故事，且有可点原帖。\n- **为什么**：liquidtrading 宣布 $OURA Pre-IPO perpetual，并称隐含估值约 $18B 一带。NestExchange 称 tokenized stocks TVL>$375k，另推 nest 2.0 / TOKEN2049。均非 HL 官号背书。\n- **依据**：A 事实自述 — https://x.com/liquidtrading/status/2102803725446168858 ；https://x.com/NestExchange/status/2102812740767072318\n- **风险/反证**：Pre-IPO 永续定价噪声大；Nest TVL 口径与可持续性以项目面板为准。\n- **置信度**：中（对「窗内自述存在」）；低（对估值与 TVL 可持续）。"
+    },
+    {
+     "title": "6. Elysium / Outcome 叙事续热；竞争警示开始进 ECO 时间线",
+     "body_md": "- **结论**：L2 与预测市场仍在刷存在感；同时出现「HL 不会一直无敌」的外部评论转述。\n- **为什么**：Enter_Elysium RT Delphi「下一增长引擎」说法；HypedLaunches 继续二传 Launch 到 Spot 再到 HIP-3 的路径。Outcomexyz 推「Onchain CME」并刷事件盘。HypedLaunches 转述 KyleSamani 警告 HL 无敌感将蒸发。中文弱样本里已有「Elysium L2 大概率失败」玄学帖，样本不足，只作温度计。\n- **依据**：A 叙事 — https://x.com/Enter_Elysium/status/2102802155443015949 ；https://x.com/Outcomexyz/status/2102741071365353710 ；https://x.com/HypedLaunches/status/2102859768893157865\n- **风险/反证**：测试网与愿景帖不等于主网进度；名人评论易被断章。\n- **置信度**：中（「窗内传播存在」）；低（「竞争格局已变」）。"
+    }
+   ],
+   "body_md": ""
+  },
+  {
+   "title": "社区共鸣点",
+   "subsections": [
+    {
+     "title": "可核情绪线索",
+     "body_md": "1. **最希望听到：官宣 $18B 与自己盯的仪表怎么对齐**  \n   - **证据**：官号写双边加总；PANews 等直接写「180 亿美元」；API/DeFiLlama/前端另有数字。  \n   - **推断**（非编造情绪）：读者要的是换算说明。更大的整数本身解决不了口径问题。  \n   - **层级**：S + A  \n   - **代表链接**：https://x.com/HyperliquidX/status/2102643440446271884 ；https://www.panewslab.com/zh/articles/01a0ccff-d852-71a9-ba51-c1288162c101\n\n2. **信息缺口：NEAR 已部署，但「列表里看不见」怎么用**  \n   - **证据**：多媒写明数日进 Strict List、期间专属链接。  \n   - **推断**：上新兴奋会被入口摩擦抵消；需要操作指引或入列时间。  \n   - **层级**：A  \n   - **代表链接**：https://www.techflowpost.com/newsletter/137431\n\n3. **注意力落点：回撤整理 vs 去杠杆叙事**  \n   - **证据**：HYPE≈$94；中文可用帖谈干净去杠杆 / OI 骤降；销毁日报仍在转。兴奋降温，观望与空头话术抬头，样本偏薄。  \n   - **推断**：单向狂欢证据不足；情绪分裂。  \n   - **层级**：A + C（弱）  \n   - **代表链接**：https://x.com/Mrluanluan/status/2102916327572722010 ；https://www.odaily.news/zh-CN/newsflash/519898\n\n4. **相对近几日的转移：从「谁在买 HYPE」转到「数字怎么读、现货入口在哪」**  \n   - **证据**：FalconX 本窗无新一手；主簇换成 OI 官宣、NEAR Spot、销毁下台阶。借贷模板在中文 X 仍刷，有效讨论稀。  \n   - **推断**：模板热度不等于真实关切。  \n   - **层级**：弱信号 + 污染说明  \n   - **代表链接**：https://x.com/Minghaw05/status/2102914794219282846  \n   - **样本说明**：有效中文 X 样本不足，禁止写成「全社区已转向」。"
+    }
+   ],
+   "body_md": "总判断：中文 X 抽 15 条，污染仍重（RiverdotInc 模板 + 跟单推广）。有效注意力更靠中文媒体与少量半有机帖。相对近几日「价格冲高 / FalconX 买还是搬 / 借贷狂欢」，本窗更常落在三件事：官宣 $18B 到底怎么算、NEAR 现货能不能在界面里直接点到、价格回落之后销毁和杠杆还热不热。信息缺口仍是：官方 OI 与第三方仪表对照表、Strict List 进度、借入池 day-N、hl.eco 可点销毁表。"
+  },
+  {
+   "title": "少数派",
+   "subsections": [],
+   "body_md": "- **dayNtl 从昨拍约 $7.03B 回到约 $9.80B**：价格回落时名义成交拍点抬升，少数看法会读成「换手活跃，未必等于退潮」。本台不抬成结论；缺连续官方序列。\n- **$SYN Spot 二传**：若属实，是被低估的上新；若误传，说明 ECO 噪声仍高。目前「未证实」。\n- **KyleSamani 警示**：可能只是一条被放大的外部评论；也可能是竞争叙事的早期火种。证据仍停在转述层。"
+  },
+  {
+   "title": "附录 · Phase1 素材包",
+   "subsections": [],
+   "body_md": "见同目录 `phase1-merged.md`（事件簇 / 主题分布 / 冲突草稿 / 待验证假设 / 分层计数 / API 拍点 / 失败源）。\n\n**采集失败摘要**：hl.eco Turnstile；Discord 不可采；foresight 567/DNS；FOCUS list 假阴性；中文 X 污染严重；foundation 空壳；正式里程碑无。**未用旧快照。** X 花费约 $0.34。"
+  }
+ ],
+ "source": {
+  "type": "hl-intel-daily",
+  "label": "HL 情报台日报",
+  "file": "/workspace/hl-daily-2026-09-24/daily-final.md",
+  "file_mtime": "2026-10-07T15:24:51+08:00"
+ },
+ "parse": {
+  "format": "v2-list-fields",
+  "warnings": []
+ }
+}

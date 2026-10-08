@@ -1,0 +1,78 @@
+---
+// 晨报详情页：/morning/ = 最新一期，/morning/YYYY-MM-DD/ = 往期。新模块，先只在预览构建生成（正式构建 getStaticPaths 返回空）
+import Base from '../../layouts/Base.astro';
+import SiteNav from '../../components/sections/SiteNav.astro';
+import SiteFooter from '../../components/sections/SiteFooter.astro';
+import MorningList from '../../components/MorningList.astro';
+import { morning, morningIssues, morningMeta, navLinks, md, weekday, hm, shortDT } from '../../data';
+import site from '../../site.json';
+
+export function getStaticPaths() {
+  if (!__PREVIEW__ || !morning.latest) return [];
+  return [{ params: { date: undefined }, props: { date: morning.latest } }, ...morning.dates.map((d: string) => ({ params: { date: d }, props: { date: d } }))];
+}
+const { date } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+const issue = morningIssues[date];
+const meta = morningMeta(date);
+const dates: string[] = morning.dates; // 新 → 旧
+const i = dates.indexOf(date);
+const older = dates[i + 1], newer = dates[i - 1];
+const SHOW = 6; // 侧栏先显示 6 期，其余点「更早」展开
+const groups: { label: string; ds: { d: string; idx: number }[] }[] = [];
+dates.forEach((d, idx) => {
+  const label = `${d.slice(0, 4)} 年 ${Number(d.slice(5, 7))} 月`;
+  if (!groups.length || groups[groups.length - 1].label !== label) groups.push({ label, ds: [] });
+  groups[groups.length - 1].ds.push({ d, idx });
+});
+const href = (d: string) => `${base}morning/${d}/`;
+---
+<Base title={`${md(date)} Hyperliquid 晨报 · ${site.name}`}>
+  <SiteNav links={navLinks(base)} active="morning" />
+  <main class="wrap">
+    <div class="dpage">
+      <aside class="dates" data-open={dates.indexOf(date) >= SHOW ? 'true' : undefined}>
+        {groups.map((g) => (
+          <>
+            <h5 class:list={{ older: g.ds[0].idx >= SHOW }}>{g.label}</h5>
+            {g.ds.map(({ d, idx }) => (
+              <a class:list={{ on: d === date, older: idx >= SHOW }} href={href(d)} aria-current={d === date ? 'page' : undefined}>{md(d)}<i>{weekday(d)}</i></a>
+            ))}
+          </>
+        ))}
+        {dates.length > SHOW && <button class="more-dates" type="button">更早 ↓</button>}
+      </aside>
+      <div>
+        <div class="art-hd">
+          <div class="kick">晨报 · 第 {meta.issue_no} 期</div>
+          <h1>{md(date)} Hyperliquid 晨报</h1>
+          <div class="disc">
+            <span>
+              {issue.updated_at && `${hm(issue.updated_at)} 更新 · `}
+              {issue.window && `覆盖北京时间 ${shortDT(issue.window.start)} 至 ${shortDT(issue.window.end)}`}
+            </span>
+            <span><b>{issue.disclaimer || 'AI 整理，非投资建议'}</b> · 每条附原始出处</span>
+          </div>
+        </div>
+        <div class="panel"><MorningList items={issue.items} /></div>
+        <div class="pager">
+          {older ? <a href={href(older)}>← {md(older)}</a> : <span></span>}
+          {newer ? <a href={href(newer)}>{md(newer)} →</a> : <span>下一期明早 8:45 前更新</span>}
+        </div>
+        {__PREVIEW__ && meta.origin !== 'site.json' && (
+          <p class="dev-note">过渡数据：标题是情报台日报观点的原标题，说明是「结论」，出处是「代表链接」；标了待验证、传闻等的 {meta.skipped} 条没放。情报台出 site.json 后自动换成正式数据。</p>
+        )}
+      </div>
+    </div>
+  </main>
+  <SiteFooter />
+</Base>
+<noscript><style>.dates .older{display:flex}.dates h5.older{display:block}.more-dates{display:none}</style></noscript>
+<script>
+  const aside = document.querySelector<HTMLElement>('.dates');
+  document.querySelector('.more-dates')?.addEventListener('click', (e) => {
+    aside!.dataset.open = 'true';
+    (e.currentTarget as HTMLElement).remove();
+  });
+  if (aside?.dataset.open) document.querySelector('.more-dates')?.remove();
+</script>

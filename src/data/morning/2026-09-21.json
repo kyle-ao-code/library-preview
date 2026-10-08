@@ -1,0 +1,129 @@
+{
+ "schema": "hl-morning/v1",
+ "date": "2026-09-21",
+ "updated_at": null,
+ "window": {
+  "start": "2026-09-20T08:13:00+08:00",
+  "end": "2026-09-21T08:13:00+08:00"
+ },
+ "items": [
+  {
+   "title": "官号与官网静默，借贷深度复盘在替「新进展」占版面",
+   "summary": null,
+   "sources": [
+    {
+     "name": "hyperliquid.xyz",
+     "url": "https://hyperliquid.xyz"
+    },
+    {
+     "name": "techflowpost.com",
+     "url": "https://www.techflowpost.com/zh-TW/article/34099"
+    },
+    {
+     "name": "tokenpost.com",
+     "url": "https://tw.tokenpost.com/news/blockchain/47286"
+    }
+   ],
+   "flags": [],
+   "ref": {
+    "view": 1,
+    "source_field": "依据"
+   }
+  },
+  {
+   "title": "HYPE mark≈$94.22，冲 $100 叙事在 ECO/中文喊单，缺官号背书",
+   "summary": null,
+   "sources": [
+    {
+     "name": "@HypedLaunches",
+     "url": "https://x.com/HypedLaunches/status/2101782628424900899"
+    },
+    {
+     "name": "@Gabby0o0",
+     "url": "https://x.com/Gabby0o0/status/2101824645682913299"
+    },
+    {
+     "name": "coingabbar.com",
+     "url": "https://www.coingabbar.com/en/hyperliquid-news-today-hype-burn-open-interest-record"
+    }
+   ],
+   "flags": [],
+   "ref": {
+    "view": 3,
+    "source_field": "依据"
+   }
+  },
+  {
+   "title": "Nest 报 HyperEVM 高 APR，$NEST 上涨与目标价经二传放大",
+   "summary": null,
+   "sources": [
+    {
+     "name": "@NestExchange",
+     "url": "https://x.com/NestExchange/status/2101671790749585533"
+    },
+    {
+     "name": "@HypedLaunches",
+     "url": "https://x.com/HypedLaunches/status/2101782976887726249"
+    },
+    {
+     "name": "@HypedLaunches",
+     "url": "https://x.com/HypedLaunches/status/2101783195138371856"
+    }
+   ],
+   "flags": [
+    "项目自述"
+   ],
+   "ref": {
+    "view": 5,
+    "source_field": "依据"
+   }
+  }
+ ],
+ "disclaimer": "AI 整理，非投资建议",
+ "provenance": {
+  "generator": "build_morning.py 过渡数据（从 daily-final.md 转出）",
+  "file": "/workspace/hl-daily-2026-09-21/daily-final.md"
+ },
+ "_report": {
+  "skipped": [
+   {
+    "num": 2,
+    "title": "Manual Borrow：一手仍在 9/18，$269M 被窗内复述，官站无 day-2 余额",
+    "reason": "不确定标记：依据「待验证」"
+   },
+   {
+    "num": 4,
+    "title": "OI 多口径冲突未解：媒体 $8B / 窗外 $16.36B / API≈$12.80B / 前端 7.2B",
+    "reason": "不确定标记：依据「待验证」"
+   },
+   {
+    "num": 6,
+    "title": "ECO 回购营收排行、二次空投与 PURR→赚 HYPE：待验证/传闻居多",
+    "reason": "不确定标记：依据「待验证/传闻」、标题「待验证/传闻」"
+   },
+   {
+    "num": 7,
+    "title": "鲸鱼约 $89.45 亿 L/S≈0.91、销毁≈$2.42M：第三方待核；Outcome/Liquid 窗内一手不足",
+    "reason": "不确定标记：依据「待验证」"
+   }
+  ],
+  "long_titles": [
+   {
+    "num": 3,
+    "length": 42,
+    "title": "HYPE mark≈$94.22，冲 $100 叙事在 ECO/中文喊单，缺官号背书"
+   },
+   {
+    "num": 5,
+    "length": 39,
+    "title": "Nest 报 HyperEVM 高 APR，$NEST 上涨与目标价经二传放大"
+   }
+  ],
+  "no_summary": [
+   1,
+   3,
+   5
+  ],
+  "no_sources": []
+ }
+}

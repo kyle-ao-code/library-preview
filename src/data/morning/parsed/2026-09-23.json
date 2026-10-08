@@ -1,0 +1,406 @@
+{
+ "date": "2026-09-23",
+ "title": "过去24h Hyperliquid 情报日报（2026-09-23）",
+ "window": {
+  "raw": "窗：Asia/Shanghai 2026-09-22 08:14 → 2026-09-23 08:14",
+  "start": "2026-09-22 08:14",
+  "end": "2026-09-23 08:14",
+  "tz": "Asia/Shanghai"
+ },
+ "notes": [],
+ "today": [
+  "官号本窗重新静默：@HyperliquidX、jeff、HyperFND 都是 0 帖；官站也没有新 changelog。注意力回到价格与回购数字。中文媒体写 HYPE 突破约 $97，本拍 info API 非正式 mark≈$97.492。多篇稿同引 Onchain Lens，称过去 24 小时回购销毁约 $3.76M。FalconX 主题上，本窗 TechFlow 与 Gate 明确写成「自有钱包之间」约 $50M 划转，昨日那套「约 $9.36M 买入」已落在窗外。生态侧 Nest 自报 Epoch43 营收接近 $200k；Kinetiq 的 Elysium L2 测试网在中文媒体与 ECO 同步出现。OI 仍是多口径：本拍非正式全平台 OI≈$14.24B、dayNtl≈$7.03B；前端 24H 仍显示 7.2B（疑占位）。正式里程碑页没有。"
+ ],
+ "views": [
+  {
+   "num": 1,
+   "title": "官号三连静默，产品节奏回到生态自述",
+   "conclusion": "本窗没有新的 S 层产品官宣；可核进展主要来自生态方与媒体二传。",
+   "why": "S 层三官号查询均为 0。昨日窗内的 Trailing Stops 官宣已不在本窗。FOCUS list 仍为 0（假阴性），`from:NestExchange` / `Outcomexyz` / `liquidtrading` 抽检才有货。读者若只等官号，会误判「什么都没发生」。",
+   "basis": "S 事实（未发声）— https://hyperliquid.xyz ；A 抽检代表 https://x.com/NestExchange/status/2102469617931161781",
+   "risk": "静默不等于无链上或产品动作；仅说明公开传播通道本窗无一手。",
+   "confidence": "高（「三官号窗内 0 帖」）；低（「协议侧完全无进展」）。",
+   "links": [
+    {
+     "text": "S 事实（未发声）",
+     "url": "https://hyperliquid.xyz",
+     "field": "依据"
+    },
+    {
+     "text": "A 抽检代表",
+     "url": "https://x.com/NestExchange/status/2102469617931161781",
+     "field": "依据"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [
+    "A",
+    "S"
+   ],
+   "fields": {
+    "结论": "本窗没有新的 S 层产品官宣；可核进展主要来自生态方与媒体二传。",
+    "为什么": "S 层三官号查询均为 0。昨日窗内的 Trailing Stops 官宣已不在本窗。FOCUS list 仍为 0（假阴性），`from:NestExchange` / `Outcomexyz` / `liquidtrading` 抽检才有货。读者若只等官号，会误判「什么都没发生」。",
+    "依据": "S 事实（未发声）— https://hyperliquid.xyz ；A 抽检代表 https://x.com/NestExchange/status/2102469617931161781",
+    "风险/反证": "静默不等于无链上或产品动作；仅说明公开传播通道本窗无一手。",
+    "置信度": "高（「三官号窗内 0 帖」）；低（「协议侧完全无进展」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：本窗没有新的 S 层产品官宣；可核进展主要来自生态方与媒体二传。\n- **为什么**：S 层三官号查询均为 0。昨日窗内的 Trailing Stops 官宣已不在本窗。FOCUS list 仍为 0（假阴性），`from:NestExchange` / `Outcomexyz` / `liquidtrading` 抽检才有货。读者若只等官号，会误判「什么都没发生」。\n- **依据**：S 事实（未发声）— https://hyperliquid.xyz ；A 抽检代表 https://x.com/NestExchange/status/2102469617931161781\n- **风险/反证**：静默不等于无链上或产品动作；仅说明公开传播通道本窗无一手。\n- **置信度**：高（「三官号窗内 0 帖」）；低（「协议侧完全无进展」）。"
+  },
+  {
+   "num": 2,
+   "title": "HYPE 站上约 $97，价格叙事重新占版面",
+   "conclusion": "本窗最醒目的公开数字落在价格新高一带；新功能官宣缺席。",
+   "why": "TechFlow 转 HTX 写突破 $97、报 $97.181。同次 info API 非正式 mark≈$97.492。BitInsider 稍早仍写整理在 $92–96、距 $100。中文可用 X 样本里也能看到「三位数」期待，但污染重，只能当弱温度计。",
+   "basis": "A 行情二手 — https://www.techflowpost.com/newsletter/137382 ；非正式 API 拍点（采集侧，标签：非正式）",
+   "risk": "媒体报价与 mark 时点不同；高位回撤会瞬间改叙事。禁止把二手行情写成正式里程碑。",
+   "confidence": "高（「本窗媒体与 API 同处约 $97 一带」）；低（「将稳在三位数」）。",
+   "links": [
+    {
+     "text": "A 行情二手",
+     "url": "https://www.techflowpost.com/newsletter/137382",
+     "field": "依据"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [
+    "A"
+   ],
+   "fields": {
+    "结论": "本窗最醒目的公开数字落在价格新高一带；新功能官宣缺席。",
+    "为什么": "TechFlow 转 HTX 写突破 $97、报 $97.181。同次 info API 非正式 mark≈$97.492。BitInsider 稍早仍写整理在 $92–96、距 $100。中文可用 X 样本里也能看到「三位数」期待，但污染重，只能当弱温度计。",
+    "依据": "A 行情二手 — https://www.techflowpost.com/newsletter/137382 ；非正式 API 拍点（采集侧，标签：非正式）",
+    "风险/反证": "媒体报价与 mark 时点不同；高位回撤会瞬间改叙事。禁止把二手行情写成正式里程碑。",
+    "置信度": "高（「本窗媒体与 API 同处约 $97 一带」）；低（「将稳在三位数」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：本窗最醒目的公开数字落在价格新高一带；新功能官宣缺席。\n- **为什么**：TechFlow 转 HTX 写突破 $97、报 $97.181。同次 info API 非正式 mark≈$97.492。BitInsider 稍早仍写整理在 $92–96、距 $100。中文可用 X 样本里也能看到「三位数」期待，但污染重，只能当弱温度计。\n- **依据**：A 行情二手 — https://www.techflowpost.com/newsletter/137382 ；非正式 API 拍点（采集侧，标签：非正式）\n- **风险/反证**：媒体报价与 mark 时点不同；高位回撤会瞬间改叙事。禁止把二手行情写成正式里程碑。\n- **置信度**：高（「本窗媒体与 API 同处约 $97 一带」）；低（「将稳在三位数」）。"
+  },
+  {
+   "num": 3,
+   "title": "回购销毁约 $3.76M/24h：多媒同引，仍非正式",
+   "conclusion": "销毁金额成为本窗中文稿主轴之一，但还不能当官方仪表读数。",
+   "why": "TechFlow、Gate、ChainCatcher 同引 Onchain Lens：约 39,980 HYPE、均价约 $94.18、合计约 $3.76M。hl.eco 本窗 Turnstile 失败，无法用官方看板仲裁。相对近几日「借贷 $269M 复述」，传播更爱拿 24h 销毁证明「回购仍在跑」。",
+   "basis": "A/B 待验证 — https://www.techflowpost.com/newsletter/137298 ；https://www.chaincatcher.com/article/2291501 ；https://www.gate.com/news/detail/hyperliquid-burns-376m-hype-in-24-hours-at-9418-average-price-24473731",
+   "risk": "地址范围、是否含助手账户、统计窗口都可能改读；B 层不单撑高置信。",
+   "confidence": "中（「多媒同引该数字」）；低（「精确等于链上真相」）。",
+   "links": [
+    {
+     "text": "A/B 待验证",
+     "url": "https://www.techflowpost.com/newsletter/137298",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://www.chaincatcher.com/article/2291501",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://www.gate.com/news/detail/hyperliquid-burns-376m-hype-in-24-hours-at-9418-average-price-24473731",
+     "field": "依据"
+    }
+   ],
+   "uncertain": true,
+   "markers": [
+    "待验证"
+   ],
+   "markers_by_field": {
+    "依据": [
+     "待验证"
+    ]
+   },
+   "basis_layers": [
+    "A",
+    "B"
+   ],
+   "fields": {
+    "结论": "销毁金额成为本窗中文稿主轴之一，但还不能当官方仪表读数。",
+    "为什么": "TechFlow、Gate、ChainCatcher 同引 Onchain Lens：约 39,980 HYPE、均价约 $94.18、合计约 $3.76M。hl.eco 本窗 Turnstile 失败，无法用官方看板仲裁。相对近几日「借贷 $269M 复述」，传播更爱拿 24h 销毁证明「回购仍在跑」。",
+    "依据": "A/B 待验证 — https://www.techflowpost.com/newsletter/137298 ；https://www.chaincatcher.com/article/2291501 ；https://www.gate.com/news/detail/hyperliquid-burns-376m-hype-in-24-hours-at-9418-average-price-24473731",
+    "风险/反证": "地址范围、是否含助手账户、统计窗口都可能改读；B 层不单撑高置信。",
+    "置信度": "中（「多媒同引该数字」）；低（「精确等于链上真相」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：销毁金额成为本窗中文稿主轴之一，但还不能当官方仪表读数。\n- **为什么**：TechFlow、Gate、ChainCatcher 同引 Onchain Lens：约 39,980 HYPE、均价约 $94.18、合计约 $3.76M。hl.eco 本窗 Turnstile 失败，无法用官方看板仲裁。相对近几日「借贷 $269M 复述」，传播更爱拿 24h 销毁证明「回购仍在跑」。\n- **依据**：A/B 待验证 — https://www.techflowpost.com/newsletter/137298 ；https://www.chaincatcher.com/article/2291501 ；https://www.gate.com/news/detail/hyperliquid-burns-376m-hype-in-24-hours-at-9418-average-price-24473731\n- **风险/反证**：地址范围、是否含助手账户、统计窗口都可能改读；B 层不单撑高置信。\n- **置信度**：中（「多媒同引该数字」）；低（「精确等于链上真相」）。"
+  },
+  {
+   "num": 4,
+   "title": "FalconX ≈$50M：本窗表述偏向「内部划转」",
+   "conclusion": "冲突还在，但主流中文/英文稿本窗更常写成托管钱包之间搬家。",
+   "why": "TechFlow 与 Gate 明确写 533,250 HYPE≈$50M、「自有钱包之间」。昨日「约 $9.36M 买入」稿已窗外，不能与本窗事件直接拼成「又吸又转」一条新闻。链上本窗未做独立交叉。",
+   "basis": "A/B 待验证 — https://www.techflowpost.com/newsletter/137216 ；https://www.gate.com/news/detail/falconx-transfers-533250-hype-tokens-worth-50m-between-internal-wallets-24462323",
+   "risk": "若后续地址分析显示外部对手方净买入，读法会再次翻转。",
+   "confidence": "中（「本窗媒体表述偏向内部划转」）；低（「流通盘无净变化」的链上结论）。",
+   "links": [
+    {
+     "text": "A/B 待验证",
+     "url": "https://www.techflowpost.com/newsletter/137216",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://www.gate.com/news/detail/falconx-transfers-533250-hype-tokens-worth-50m-between-internal-wallets-24462323",
+     "field": "依据"
+    }
+   ],
+   "uncertain": true,
+   "markers": [
+    "待验证"
+   ],
+   "markers_by_field": {
+    "依据": [
+     "待验证"
+    ]
+   },
+   "basis_layers": [
+    "A",
+    "B"
+   ],
+   "fields": {
+    "结论": "冲突还在，但主流中文/英文稿本窗更常写成托管钱包之间搬家。",
+    "为什么": "TechFlow 与 Gate 明确写 533,250 HYPE≈$50M、「自有钱包之间」。昨日「约 $9.36M 买入」稿已窗外，不能与本窗事件直接拼成「又吸又转」一条新闻。链上本窗未做独立交叉。",
+    "依据": "A/B 待验证 — https://www.techflowpost.com/newsletter/137216 ；https://www.gate.com/news/detail/falconx-transfers-533250-hype-tokens-worth-50m-between-internal-wallets-24462323",
+    "风险/反证": "若后续地址分析显示外部对手方净买入，读法会再次翻转。",
+    "置信度": "中（「本窗媒体表述偏向内部划转」）；低（「流通盘无净变化」的链上结论）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：冲突还在，但主流中文/英文稿本窗更常写成托管钱包之间搬家。\n- **为什么**：TechFlow 与 Gate 明确写 533,250 HYPE≈$50M、「自有钱包之间」。昨日「约 $9.36M 买入」稿已窗外，不能与本窗事件直接拼成「又吸又转」一条新闻。链上本窗未做独立交叉。\n- **依据**：A/B 待验证 — https://www.techflowpost.com/newsletter/137216 ；https://www.gate.com/news/detail/falconx-transfers-533250-hype-tokens-worth-50m-between-internal-wallets-24462323\n- **风险/反证**：若后续地址分析显示外部对手方净买入，读法会再次翻转。\n- **置信度**：中（「本窗媒体表述偏向内部划转」）；低（「流通盘无净变化」的链上结论）。"
+  },
+  {
+   "num": 5,
+   "title": "Nest Epoch43 自报营收冲顶；Elysium 测试网开张",
+   "conclusion": "生态产品在自己讲增长故事，且有一条 L2 测试网新闻可核到项目方传播。",
+   "why": "NestExchange 称 Epoch43 持有人将分享接近 $200k 营收，ECO 二传约 $183k–$192k，并谈 veNEST 锁定收缩。ChainCatcher / WEEX 与 `Enter_Elysium` 同步报 Kinetiq 的 Elysium L2 测试网：结算 HyperEVM、HYPE 作 gas。均非 HL 官号背书。",
+   "basis": "A 事实自述 — https://x.com/NestExchange/status/2102469617931161781 ；https://x.com/Enter_Elysium/status/2102505535056818359 ；https://www.chaincatcher.com/article/2291553",
+   "risk": "营收与锁定口径以 Nest 面板为准；测试网「上线」不等于主网可用性或安全审计完成。",
+   "confidence": "中（对「Nest/Elysium 窗内自述与媒体转述存在」）；低（对可持续与主网时间表）。",
+   "links": [
+    {
+     "text": "A 事实自述",
+     "url": "https://x.com/NestExchange/status/2102469617931161781",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://x.com/Enter_Elysium/status/2102505535056818359",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://www.chaincatcher.com/article/2291553",
+     "field": "依据"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [
+    "A"
+   ],
+   "fields": {
+    "结论": "生态产品在自己讲增长故事，且有一条 L2 测试网新闻可核到项目方传播。",
+    "为什么": "NestExchange 称 Epoch43 持有人将分享接近 $200k 营收，ECO 二传约 $183k–$192k，并谈 veNEST 锁定收缩。ChainCatcher / WEEX 与 `Enter_Elysium` 同步报 Kinetiq 的 Elysium L2 测试网：结算 HyperEVM、HYPE 作 gas。均非 HL 官号背书。",
+    "依据": "A 事实自述 — https://x.com/NestExchange/status/2102469617931161781 ；https://x.com/Enter_Elysium/status/2102505535056818359 ；https://www.chaincatcher.com/article/2291553",
+    "风险/反证": "营收与锁定口径以 Nest 面板为准；测试网「上线」不等于主网可用性或安全审计完成。",
+    "置信度": "中（对「Nest/Elysium 窗内自述与媒体转述存在」）；低（对可持续与主网时间表）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：生态产品在自己讲增长故事，且有一条 L2 测试网新闻可核到项目方传播。\n- **为什么**：NestExchange 称 Epoch43 持有人将分享接近 $200k 营收，ECO 二传约 $183k–$192k，并谈 veNEST 锁定收缩。ChainCatcher / WEEX 与 `Enter_Elysium` 同步报 Kinetiq 的 Elysium L2 测试网：结算 HyperEVM、HYPE 作 gas。均非 HL 官号背书。\n- **依据**：A 事实自述 — https://x.com/NestExchange/status/2102469617931161781 ；https://x.com/Enter_Elysium/status/2102505535056818359 ；https://www.chaincatcher.com/article/2291553\n- **风险/反证**：营收与锁定口径以 Nest 面板为准；测试网「上线」不等于主网可用性或安全审计完成。\n- **置信度**：中（对「Nest/Elysium 窗内自述与媒体转述存在」）；低（对可持续与主网时间表）。"
+  },
+  {
+   "num": 6,
+   "title": "OI 仍多口径；dayNtl 拍点低于昨系列观察值",
+   "conclusion": "本窗依旧不能用单一数字写「OI/成交额纪录」。拍点对比只作非正式观察。",
+   "why": "前端 24H 仍 7.2B（疑占位）。本拍 info API 对 234 个 perp 自加总 OI≈$14.24B、dayNtl≈$7.03B（相对昨系列拍点约 $10.77B 回落，可能是窗口噪声）。Gate 等写 HYPE 单币 OI≈$2.03B，与同次 API HYPE≈$2.13B 量级接近。正式里程碑无；hl.eco 不可采。",
+   "basis": "口径冲突 — https://www.gate.com/id/news/detail/hype-falls-to-9340-on-hyperliquid-open-interest-reaches-2034b-24469365 ；非正式 API（采集侧）",
+   "risk": "资产范围、mark 时点、是否含某类合约都会改读；禁止把拍点差写成「成交腰斩」。",
+   "confidence": "高（「多口径并存」）；低（「哪一口径接近真值 / dayNtl 实质降温」）。",
+   "links": [
+    {
+     "text": "口径冲突",
+     "url": "https://www.gate.com/id/news/detail/hype-falls-to-9340-on-hyperliquid-open-interest-reaches-2034b-24469365",
+     "field": "依据"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [],
+   "fields": {
+    "结论": "本窗依旧不能用单一数字写「OI/成交额纪录」。拍点对比只作非正式观察。",
+    "为什么": "前端 24H 仍 7.2B（疑占位）。本拍 info API 对 234 个 perp 自加总 OI≈$14.24B、dayNtl≈$7.03B（相对昨系列拍点约 $10.77B 回落，可能是窗口噪声）。Gate 等写 HYPE 单币 OI≈$2.03B，与同次 API HYPE≈$2.13B 量级接近。正式里程碑无；hl.eco 不可采。",
+    "依据": "口径冲突 — https://www.gate.com/id/news/detail/hype-falls-to-9340-on-hyperliquid-open-interest-reaches-2034b-24469365 ；非正式 API（采集侧）",
+    "风险/反证": "资产范围、mark 时点、是否含某类合约都会改读；禁止把拍点差写成「成交腰斩」。",
+    "置信度": "高（「多口径并存」）；低（「哪一口径接近真值 / dayNtl 实质降温」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：本窗依旧不能用单一数字写「OI/成交额纪录」。拍点对比只作非正式观察。\n- **为什么**：前端 24H 仍 7.2B（疑占位）。本拍 info API 对 234 个 perp 自加总 OI≈$14.24B、dayNtl≈$7.03B（相对昨系列拍点约 $10.77B 回落，可能是窗口噪声）。Gate 等写 HYPE 单币 OI≈$2.03B，与同次 API HYPE≈$2.13B 量级接近。正式里程碑无；hl.eco 不可采。\n- **依据**：口径冲突 — https://www.gate.com/id/news/detail/hype-falls-to-9340-on-hyperliquid-open-interest-reaches-2034b-24469365 ；非正式 API（采集侧）\n- **风险/反证**：资产范围、mark 时点、是否含某类合约都会改读；禁止把拍点差写成「成交腰斩」。\n- **置信度**：高（「多口径并存」）；低（「哪一口径接近真值 / dayNtl 实质降温」）。"
+  },
+  {
+   "num": 7,
+   "title": "解锁日历与 ETF 流入同框，NEAR Spot 仍待官号",
+   "conclusion": "近端供给叙事（9/29 解锁）和流入叙事并排出现；Spot 上新仍缺 S 层一手。",
+   "why": "ChainCatcher 转 RootData：约一周后解锁约 992 万枚、价值约 $9.19 亿。另稿写美国 HYPE 现货 ETF 单日净流入约 $2.82M、AUM 约 $5.04 亿。HypedLaunches 称 $NEAR 已上 Hyperliquid Spot，但 @HyperliquidX 窗内 0 帖，升格不了。",
+   "basis": "A/B 待验证 — https://www.chaincatcher.com/article/2291428 ；https://www.chaincatcher.com/article/2291408 ；https://x.com/HypedLaunches/status/2102485697668026648",
+   "risk": "解锁归属与实际可流通量常被媒体放大；ETF 口径需对发行方报表；NEAR 可能是误传或延迟官宣。",
+   "confidence": "低（对解锁抛压与 ETF 持续性）；低（对 NEAR Spot 已上线）。",
+   "links": [
+    {
+     "text": "A/B 待验证",
+     "url": "https://www.chaincatcher.com/article/2291428",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://www.chaincatcher.com/article/2291408",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://x.com/HypedLaunches/status/2102485697668026648",
+     "field": "依据"
+    }
+   ],
+   "uncertain": true,
+   "markers": [
+    "待验证"
+   ],
+   "markers_by_field": {
+    "依据": [
+     "待验证"
+    ]
+   },
+   "basis_layers": [
+    "A",
+    "B"
+   ],
+   "fields": {
+    "结论": "近端供给叙事（9/29 解锁）和流入叙事并排出现；Spot 上新仍缺 S 层一手。",
+    "为什么": "ChainCatcher 转 RootData：约一周后解锁约 992 万枚、价值约 $9.19 亿。另稿写美国 HYPE 现货 ETF 单日净流入约 $2.82M、AUM 约 $5.04 亿。HypedLaunches 称 $NEAR 已上 Hyperliquid Spot，但 @HyperliquidX 窗内 0 帖，升格不了。",
+    "依据": "A/B 待验证 — https://www.chaincatcher.com/article/2291428 ；https://www.chaincatcher.com/article/2291408 ；https://x.com/HypedLaunches/status/2102485697668026648",
+    "风险/反证": "解锁归属与实际可流通量常被媒体放大；ETF 口径需对发行方报表；NEAR 可能是误传或延迟官宣。",
+    "置信度": "低（对解锁抛压与 ETF 持续性）；低（对 NEAR Spot 已上线）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：近端供给叙事（9/29 解锁）和流入叙事并排出现；Spot 上新仍缺 S 层一手。\n- **为什么**：ChainCatcher 转 RootData：约一周后解锁约 992 万枚、价值约 $9.19 亿。另稿写美国 HYPE 现货 ETF 单日净流入约 $2.82M、AUM 约 $5.04 亿。HypedLaunches 称 $NEAR 已上 Hyperliquid Spot，但 @HyperliquidX 窗内 0 帖，升格不了。\n- **依据**：A/B 待验证 — https://www.chaincatcher.com/article/2291428 ；https://www.chaincatcher.com/article/2291408 ；https://x.com/HypedLaunches/status/2102485697668026648\n- **风险/反证**：解锁归属与实际可流通量常被媒体放大；ETF 口径需对发行方报表；NEAR 可能是误传或延迟官宣。\n- **置信度**：低（对解锁抛压与 ETF 持续性）；低（对 NEAR Spot 已上线）。"
+  }
+ ],
+ "sections": [
+  {
+   "title": "今天怎么看",
+   "subsections": [],
+   "body_md": "官号本窗重新静默：@HyperliquidX、jeff、HyperFND 都是 0 帖；官站也没有新 changelog。注意力回到价格与回购数字。中文媒体写 HYPE 突破约 $97，本拍 info API 非正式 mark≈$97.492。多篇稿同引 Onchain Lens，称过去 24 小时回购销毁约 $3.76M。FalconX 主题上，本窗 TechFlow 与 Gate 明确写成「自有钱包之间」约 $50M 划转，昨日那套「约 $9.36M 买入」已落在窗外。生态侧 Nest 自报 Epoch43 营收接近 $200k；Kinetiq 的 Elysium L2 测试网在中文媒体与 ECO 同步出现。OI 仍是多口径：本拍非正式全平台 OI≈$14.24B、dayNtl≈$7.03B；前端 24H 仍显示 7.2B（疑占位）。正式里程碑页没有。"
+  },
+  {
+   "title": "观点",
+   "subsections": [
+    {
+     "title": "1. 官号三连静默，产品节奏回到生态自述",
+     "body_md": "- **结论**：本窗没有新的 S 层产品官宣；可核进展主要来自生态方与媒体二传。\n- **为什么**：S 层三官号查询均为 0。昨日窗内的 Trailing Stops 官宣已不在本窗。FOCUS list 仍为 0（假阴性），`from:NestExchange` / `Outcomexyz` / `liquidtrading` 抽检才有货。读者若只等官号，会误判「什么都没发生」。\n- **依据**：S 事实（未发声）— https://hyperliquid.xyz ；A 抽检代表 https://x.com/NestExchange/status/2102469617931161781\n- **风险/反证**：静默不等于无链上或产品动作；仅说明公开传播通道本窗无一手。\n- **置信度**：高（「三官号窗内 0 帖」）；低（「协议侧完全无进展」）。"
+    },
+    {
+     "title": "2. HYPE 站上约 $97，价格叙事重新占版面",
+     "body_md": "- **结论**：本窗最醒目的公开数字落在价格新高一带；新功能官宣缺席。\n- **为什么**：TechFlow 转 HTX 写突破 $97、报 $97.181。同次 info API 非正式 mark≈$97.492。BitInsider 稍早仍写整理在 $92–96、距 $100。中文可用 X 样本里也能看到「三位数」期待，但污染重，只能当弱温度计。\n- **依据**：A 行情二手 — https://www.techflowpost.com/newsletter/137382 ；非正式 API 拍点（采集侧，标签：非正式）\n- **风险/反证**：媒体报价与 mark 时点不同；高位回撤会瞬间改叙事。禁止把二手行情写成正式里程碑。\n- **置信度**：高（「本窗媒体与 API 同处约 $97 一带」）；低（「将稳在三位数」）。"
+    },
+    {
+     "title": "3. 回购销毁约 $3.76M/24h：多媒同引，仍非正式",
+     "body_md": "- **结论**：销毁金额成为本窗中文稿主轴之一，但还不能当官方仪表读数。\n- **为什么**：TechFlow、Gate、ChainCatcher 同引 Onchain Lens：约 39,980 HYPE、均价约 $94.18、合计约 $3.76M。hl.eco 本窗 Turnstile 失败，无法用官方看板仲裁。相对近几日「借贷 $269M 复述」，传播更爱拿 24h 销毁证明「回购仍在跑」。\n- **依据**：A/B 待验证 — https://www.techflowpost.com/newsletter/137298 ；https://www.chaincatcher.com/article/2291501 ；https://www.gate.com/news/detail/hyperliquid-burns-376m-hype-in-24-hours-at-9418-average-price-24473731\n- **风险/反证**：地址范围、是否含助手账户、统计窗口都可能改读；B 层不单撑高置信。\n- **置信度**：中（「多媒同引该数字」）；低（「精确等于链上真相」）。"
+    },
+    {
+     "title": "4. FalconX ≈$50M：本窗表述偏向「内部划转」",
+     "body_md": "- **结论**：冲突还在，但主流中文/英文稿本窗更常写成托管钱包之间搬家。\n- **为什么**：TechFlow 与 Gate 明确写 533,250 HYPE≈$50M、「自有钱包之间」。昨日「约 $9.36M 买入」稿已窗外，不能与本窗事件直接拼成「又吸又转」一条新闻。链上本窗未做独立交叉。\n- **依据**：A/B 待验证 — https://www.techflowpost.com/newsletter/137216 ；https://www.gate.com/news/detail/falconx-transfers-533250-hype-tokens-worth-50m-between-internal-wallets-24462323\n- **风险/反证**：若后续地址分析显示外部对手方净买入，读法会再次翻转。\n- **置信度**：中（「本窗媒体表述偏向内部划转」）；低（「流通盘无净变化」的链上结论）。"
+    },
+    {
+     "title": "5. Nest Epoch43 自报营收冲顶；Elysium 测试网开张",
+     "body_md": "- **结论**：生态产品在自己讲增长故事，且有一条 L2 测试网新闻可核到项目方传播。\n- **为什么**：NestExchange 称 Epoch43 持有人将分享接近 $200k 营收，ECO 二传约 $183k–$192k，并谈 veNEST 锁定收缩。ChainCatcher / WEEX 与 `Enter_Elysium` 同步报 Kinetiq 的 Elysium L2 测试网：结算 HyperEVM、HYPE 作 gas。均非 HL 官号背书。\n- **依据**：A 事实自述 — https://x.com/NestExchange/status/2102469617931161781 ；https://x.com/Enter_Elysium/status/2102505535056818359 ；https://www.chaincatcher.com/article/2291553\n- **风险/反证**：营收与锁定口径以 Nest 面板为准；测试网「上线」不等于主网可用性或安全审计完成。\n- **置信度**：中（对「Nest/Elysium 窗内自述与媒体转述存在」）；低（对可持续与主网时间表）。"
+    },
+    {
+     "title": "6. OI 仍多口径；dayNtl 拍点低于昨系列观察值",
+     "body_md": "- **结论**：本窗依旧不能用单一数字写「OI/成交额纪录」。拍点对比只作非正式观察。\n- **为什么**：前端 24H 仍 7.2B（疑占位）。本拍 info API 对 234 个 perp 自加总 OI≈$14.24B、dayNtl≈$7.03B（相对昨系列拍点约 $10.77B 回落，可能是窗口噪声）。Gate 等写 HYPE 单币 OI≈$2.03B，与同次 API HYPE≈$2.13B 量级接近。正式里程碑无；hl.eco 不可采。\n- **依据**：口径冲突 — https://www.gate.com/id/news/detail/hype-falls-to-9340-on-hyperliquid-open-interest-reaches-2034b-24469365 ；非正式 API（采集侧）\n- **风险/反证**：资产范围、mark 时点、是否含某类合约都会改读；禁止把拍点差写成「成交腰斩」。\n- **置信度**：高（「多口径并存」）；低（「哪一口径接近真值 / dayNtl 实质降温」）。"
+    },
+    {
+     "title": "7. 解锁日历与 ETF 流入同框，NEAR Spot 仍待官号",
+     "body_md": "- **结论**：近端供给叙事（9/29 解锁）和流入叙事并排出现；Spot 上新仍缺 S 层一手。\n- **为什么**：ChainCatcher 转 RootData：约一周后解锁约 992 万枚、价值约 $9.19 亿。另稿写美国 HYPE 现货 ETF 单日净流入约 $2.82M、AUM 约 $5.04 亿。HypedLaunches 称 $NEAR 已上 Hyperliquid Spot，但 @HyperliquidX 窗内 0 帖，升格不了。\n- **依据**：A/B 待验证 — https://www.chaincatcher.com/article/2291428 ；https://www.chaincatcher.com/article/2291408 ；https://x.com/HypedLaunches/status/2102485697668026648\n- **风险/反证**：解锁归属与实际可流通量常被媒体放大；ETF 口径需对发行方报表；NEAR 可能是误传或延迟官宣。\n- **置信度**：低（对解锁抛压与 ETF 持续性）；低（对 NEAR Spot 已上线）。"
+    }
+   ],
+   "body_md": ""
+  },
+  {
+   "title": "社区共鸣点",
+   "subsections": [
+    {
+     "title": "可核情绪线索",
+     "body_md": "1. **最希望听到：销毁与回购有没有「官方可点的表」**  \n   - **证据**：TechFlow/Gate/ChainCatcher 同步推 $3.76M/24h；hl.eco 本窗仍不可采。  \n   - **推断**（非编造情绪）：读者要的是可核仪表；二传已经够多。  \n   - **层级**：A/B  \n   - **代表链接**：https://www.techflowpost.com/newsletter/137298\n\n2. **信息缺口：划转定性之后，还想看「还有没有新的大户净流入」**  \n   - **证据**：本窗 FalconX 稿偏向内部划转；另有 TechFlow 写两钱包质押约 $2049 万。买入叙事降温，质押/锁定叙事抬头。  \n   - **推断**：筹码话题从「谁在买」转到「谁在锁、谁在搬」。  \n   - **层级**：A/B  \n   - **代表链接**：https://www.gate.com/news/detail/falconx-transfers-533250-hype-tokens-worth-50m-between-internal-wallets-24462323 ；https://www.techflowpost.com/newsletter/137385\n\n3. **注意力落点：三位数价格期待 vs 解锁日历**  \n   - **证据**：HYPE≈$97 新高稿；hleco_cn 等弱样本谈三位数；ChainCatcher 同步推 9/29 大额解锁。兴奋与供给焦虑并排。  \n   - **推断**：情绪分裂，样本偏薄。单向狂欢证据不足。  \n   - **层级**：A + C（弱）  \n   - **代表链接**：https://www.techflowpost.com/newsletter/137382 ；https://www.chaincatcher.com/article/2291428\n\n4. **相对近几日的转移：借贷模板还在刷，有效讨论已稀**  \n   - **证据**：中文 X 仍见 Manual Borrow / 进美国拼盘模板；可用 RT 更常落在回购销毁主线。媒体主轴已是价格与销毁。  \n   - **推断**：模板热度不等于真实关切；真实关切更靠媒体簇。  \n   - **层级**：C（污染）+ 弱信号  \n   - **代表链接**：https://x.com/wpf123wpf/status/2102550545701712289  \n   - **样本说明**：有效中文 X 样本不足，禁止写成「全社区已转向」。"
+    }
+   ],
+   "body_md": "总判断：中文 X 本窗抽 15 条，**污染仍然严重**（RiverdotInc 同构模板 + 返佣跟单）。有效情绪主要依中文媒体 B/A 层与少量半有机帖，不能发明「全社区共识」。相对近几日「借贷狂欢」和 FalconX「买还是搬」撕扯，注意力已挪到价格冲高、24h 销毁金额，以及 9/29 解锁日历。信息缺口仍是：正式 OI/销毁仪表、借入池 day-N 余额、Trailing Stop 实际用法反馈。"
+  },
+  {
+   "title": "少数派",
+   "subsections": [],
+   "body_md": "- **dayNtl 从昨拍约 $10.77B 回到约 $7.03B**：可能只是拍点噪声，少数看法会把它读成「热度退潮」。本台不抬成结论；缺连续官方序列。\n- **NEAR Spot 二传**：若属实，是被低估的产品事件；若属误传，说明 ECO 二传噪声在涨。目前倾向「未证实」。\n- **解锁叙事可能被高估**：992 万枚/$9.19 亿若含长期归属或非即时流通，近端抛压故事会缩水。暂无稳定一手归属表。"
+  },
+  {
+   "title": "附录 · Phase1 素材包",
+   "subsections": [],
+   "body_md": "见同目录 `phase1-merged.md`（事件簇 / 主题分布 / 冲突草稿 / 待验证假设 / 分层计数 / API 拍点 / 失败源）。\n\n**采集失败摘要**：hl.eco Turnstile；Discord 不可采；foresight 567；marsbit 根域 TLS；FOCUS list 假阴性；中文 X 污染严重；foundation 空壳；正式里程碑无。**未用旧快照。** X 花费约 $0.31。"
+  }
+ ],
+ "source": {
+  "type": "hl-intel-daily",
+  "label": "HL 情报台日报",
+  "file": "/workspace/hl-daily-2026-09-23/daily-final.md",
+  "file_mtime": "2026-10-07T15:24:49+08:00"
+ },
+ "parse": {
+  "format": "v2-list-fields",
+  "warnings": []
+ }
+}

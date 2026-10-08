@@ -1,0 +1,147 @@
+{
+ "schema": "hl-morning/v1",
+ "date": "2026-10-08",
+ "updated_at": "2026-10-08T08:25:42+08:00",
+ "window": {
+  "start": "2026-10-07T08:09:00+08:00",
+  "end": "2026-10-08T08:09:00+08:00"
+ },
+ "items": [
+  {
+   "title": "Jeff 的演讲重点在 HIP-3 和 HIP-4，「HL 要出期权」是误读",
+   "summary": "Jeff 给出的是方向，期权留给生态在 HIP-4 上做，没有官方产品和时间表。",
+   "sources": [
+    {
+     "name": "Cointelegraph 期权引语",
+     "url": "https://x.com/Cointelegraph/status/2107716908518867272"
+    },
+    {
+     "name": "SkewTrade 原话",
+     "url": "https://x.com/SkewTrade/status/2107872284392173914"
+    },
+    {
+     "name": "The Block 演讲帖",
+     "url": "https://x.com/TheBlockCo/status/2107680469722804517"
+    },
+    {
+     "name": "KuCoin 转 Foresight：HIP-3 占 51%",
+     "url": "https://www.kucoin.com/news/flash/jeff-yan-hip-3-accounts-for-51-of-hyperliquid-s-volume-platform-targets-open-financial-infrastructure"
+    },
+    {
+     "name": "Empire 播客",
+     "url": "https://blockworks.com/podcast/empire/bc375300-c276-11f1-925c-cbee0c7ea3ff"
+    }
+   ],
+   "flags": [],
+   "ref": {
+    "view": 2,
+    "source_field": "代表链接"
+   }
+  },
+  {
+   "title": "生态马上开始抢 HIP-4 的位置：预测市场先上，期权说下周",
+   "summary": "Jeff 一讲完，至少三个项目宣布了 HIP-4 相关进展，大多是项目自述。",
+   "sources": [
+    {
+     "name": "Share 上线帖（Scott_eth）",
+     "url": "https://x.com/Scott_eth/status/2107851212175605955"
+    },
+    {
+     "name": "Hypercall 预告",
+     "url": "https://x.com/SynapseProtocol/status/2107824416034046146"
+    },
+    {
+     "name": "Liquid 预测市场",
+     "url": "https://x.com/liquidtrading/status/2107862113045639238"
+    }
+   ],
+   "flags": [
+    "项目自述"
+   ],
+   "ref": {
+    "view": 3,
+    "source_field": "代表链接"
+   }
+  },
+  {
+   "title": "BTC 闪崩里，Hyperliquid 成了「抢跑空单」的发生地",
+   "summary": "这轮下跌由 BTC 带动，Hyperliquid 主要是被讨论的交易场所。抢跑空单是否涉及内幕，目前只有时间上的巧合。",
+   "sources": [
+    {
+     "name": "Lookonchain 原帖",
+     "url": "https://x.com/lookonchain/status/2107665774571856060"
+    },
+    {
+     "name": "Cointelegraph 行情稿",
+     "url": "https://cointelegraph.com/markets/crypto-liquidations-hit-550m-as-bitcoin-price-dips-below-84k"
+    },
+    {
+     "name": "EmberCN 巨鲸多单",
+     "url": "https://x.com/EmberCN/status/2107761006218797562"
+    }
+   ],
+   "flags": [],
+   "ref": {
+    "view": 4,
+    "source_field": "代表链接"
+   }
+  },
+  {
+   "title": "AF 跟着成交回升，USDC 余额在重新攒起来",
+   "summary": "AF 每天买多少由当天手续费决定，波动越大买得越多，昨天回到 2 万枚以上。",
+   "sources": [
+    {
+     "name": "nahnah64 AF 日统计",
+     "url": "https://x.com/nahnah64/status/2107768266131468550"
+    },
+    {
+     "name": "swolecharts AF 页",
+     "url": "https://swolecharts.com/hyperliquid/assistance-fund"
+    }
+   ],
+   "flags": [],
+   "ref": {
+    "view": 5,
+    "source_field": "代表链接"
+   }
+  }
+ ],
+ "disclaimer": "AI 整理，非投资建议",
+ "provenance": {
+  "generator": "build_morning.py 过渡数据（从 daily-final.md 转出）",
+  "file": "/workspace/hl-daily-2026-10-08/daily-final.md"
+ },
+ "_report": {
+  "skipped": [
+   {
+    "num": 1,
+    "title": "375 万枚已赎回，一半分到 5 个钱包，接下来盯这 5 个地址和另一半",
+    "reason": "不确定标记：为什么「推测」"
+   },
+   {
+    "num": 6,
+    "title": "监管话题从新闻变成争论；HPC 的 Chervinsky 喊「十年内所有交易所都上公链」",
+    "reason": "不确定标记：依据「待验证」"
+   }
+  ],
+  "long_titles": [
+   {
+    "num": 2,
+    "length": 38,
+    "title": "Jeff 的演讲重点在 HIP-3 和 HIP-4，「HL 要出期权」是误读"
+   },
+   {
+    "num": 3,
+    "length": 30,
+    "title": "生态马上开始抢 HIP-4 的位置：预测市场先上，期权说下周"
+   },
+   {
+    "num": 4,
+    "length": 32,
+    "title": "BTC 闪崩里，Hyperliquid 成了「抢跑空单」的发生地"
+   }
+  ],
+  "no_summary": [],
+  "no_sources": []
+ }
+}

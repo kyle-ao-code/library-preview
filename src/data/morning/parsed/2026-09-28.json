@@ -1,0 +1,397 @@
+{
+ "date": "2026-09-28",
+ "title": "过去24h Hyperliquid 情报日报（2026-09-28）",
+ "window": {
+  "raw": "窗：Asia/Shanghai 2026-09-27 08:16 → 2026-09-28 08:16",
+  "start": "2026-09-27 08:16",
+  "end": "2026-09-28 08:16",
+  "tz": "Asia/Shanghai"
+ },
+ "notes": [],
+ "today": [
+  "本窗最大新信号是媒体与 Outcome 同口径转述的「下次升级」：资金费率上限从每小时 4% 调到 0.5%，HIP-4 单部署者活跃结果上限 100→200、每日部署 500→1000。联创 Jeff 在 Discord 的说法被多家媒体引用，但本窗 S 层三官号静默、官站与 Docs 无对应 lastmod，不能写成已生效的正式参数。币安 HYPE 提现预计时点（09-25 11:00 UTC）过去多日，本窗仍没有「提现已开放」的新 CMS。非正式拍点上，OI 约 $13.13B 微升，dayNtl 从昨拍约 $2.98B 回到约 $4.08B（约 +37%），HYPE mark≈91.52 微降。生态侧 Share 上线 NFL 盘；其余 Pear 到 TradeXYZ、Coinbase Morpho 等多条为二手。NEAR Strict List 仍无官站 day-N；正式里程碑空。"
+ ],
+ "views": [
+  {
+   "num": 1,
+   "title": "下次升级叙事：费率上限 4%→0.5%/小时，HIP-4 部署上限上调",
+   "conclusion": "本窗最大新信号是「下次网络升级」将压低资金费率上限，并抬高 HIP-4 部署容量。证据停在媒体转述与 Outcome 自报，没有 S 官号与 Docs 交叉。",
+   "why": "Odaily 与 ChainCatcher、TechFlow 与 TokenPost 均称联创 Jeff（Discord）预告：资金费率上限从每小时 4% 调至 0.5%（极少触及）；HIP-4 单部署者活跃结果上限 100→200、每日部署 500→1000。@Outcomexyz 发 BREAKING 同口径。本窗 `from:chameleon_jeff`=0，官站/foundation/Docs 窗内无 lastmod，Discord widget 不可采。中文多条与 HIP-4 同框热议，但引用的是旧线程或二手摘要。",
+   "basis": "A 叙事/待验证 — https://www.odaily.news/zh-CN/newsflash/520692 ；https://www.chaincatcher.com/article/2292520 ；https://techflowpost.com/en-US/newsletter/137947 ；https://www.tokenpost.com/news/technology/24579 ；Outcome https://x.com/Outcomexyz/status/2104207361598775632 ；中文 C https://x.com/Maddere7/status/2104197001344950323",
+   "risk": "若后续官号/Docs 参数与媒体不一致，或升级长期不到，叙事会回落。禁止写成「已生效」或买卖建议。",
+   "confidence": "高（「本窗存在媒体+Outcome 同口径转述，且 S/Docs 无交叉」）；低（「参数已写入协议并生效」）。",
+   "links": [
+    {
+     "text": "A 叙事/待验证",
+     "url": "https://www.odaily.news/zh-CN/newsflash/520692",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://www.chaincatcher.com/article/2292520",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://techflowpost.com/en-US/newsletter/137947",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://www.tokenpost.com/news/technology/24579",
+     "field": "依据"
+    },
+    {
+     "text": "Outcome",
+     "url": "https://x.com/Outcomexyz/status/2104207361598775632",
+     "field": "依据"
+    },
+    {
+     "text": "中文 C",
+     "url": "https://x.com/Maddere7/status/2104197001344950323",
+     "field": "依据"
+    }
+   ],
+   "uncertain": true,
+   "markers": [
+    "待验证"
+   ],
+   "markers_by_field": {
+    "依据": [
+     "待验证"
+    ]
+   },
+   "basis_layers": [
+    "A",
+    "C"
+   ],
+   "fields": {
+    "结论": "本窗最大新信号是「下次网络升级」将压低资金费率上限，并抬高 HIP-4 部署容量。证据停在媒体转述与 Outcome 自报，没有 S 官号与 Docs 交叉。",
+    "为什么": "Odaily 与 ChainCatcher、TechFlow 与 TokenPost 均称联创 Jeff（Discord）预告：资金费率上限从每小时 4% 调至 0.5%（极少触及）；HIP-4 单部署者活跃结果上限 100→200、每日部署 500→1000。@Outcomexyz 发 BREAKING 同口径。本窗 `from:chameleon_jeff`=0，官站/foundation/Docs 窗内无 lastmod，Discord widget 不可采。中文多条与 HIP-4 同框热议，但引用的是旧线程或二手摘要。",
+    "依据": "A 叙事/待验证 — https://www.odaily.news/zh-CN/newsflash/520692 ；https://www.chaincatcher.com/article/2292520 ；https://techflowpost.com/en-US/newsletter/137947 ；https://www.tokenpost.com/news/technology/24579 ；Outcome https://x.com/Outcomexyz/status/2104207361598775632 ；中文 C https://x.com/Maddere7/status/2104197001344950323",
+    "风险/反证": "若后续官号/Docs 参数与媒体不一致，或升级长期不到，叙事会回落。禁止写成「已生效」或买卖建议。",
+    "置信度": "高（「本窗存在媒体+Outcome 同口径转述，且 S/Docs 无交叉」）；低（「参数已写入协议并生效」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：本窗最大新信号是「下次网络升级」将压低资金费率上限，并抬高 HIP-4 部署容量。证据停在媒体转述与 Outcome 自报，没有 S 官号与 Docs 交叉。\n- **为什么**：Odaily 与 ChainCatcher、TechFlow 与 TokenPost 均称联创 Jeff（Discord）预告：资金费率上限从每小时 4% 调至 0.5%（极少触及）；HIP-4 单部署者活跃结果上限 100→200、每日部署 500→1000。@Outcomexyz 发 BREAKING 同口径。本窗 `from:chameleon_jeff`=0，官站/foundation/Docs 窗内无 lastmod，Discord widget 不可采。中文多条与 HIP-4 同框热议，但引用的是旧线程或二手摘要。\n- **依据**：A 叙事/待验证 — https://www.odaily.news/zh-CN/newsflash/520692 ；https://www.chaincatcher.com/article/2292520 ；https://techflowpost.com/en-US/newsletter/137947 ；https://www.tokenpost.com/news/technology/24579 ；Outcome https://x.com/Outcomexyz/status/2104207361598775632 ；中文 C https://x.com/Maddere7/status/2104197001344950323\n- **风险/反证**：若后续官号/Docs 参数与媒体不一致，或升级长期不到，叙事会回落。禁止写成「已生效」或买卖建议。\n- **置信度**：高（「本窗存在媒体+Outcome 同口径转述，且 S/Docs 无交叉」）；低（「参数已写入协议并生效」）。"
+  },
+  {
+   "num": 2,
+   "title": "币安 HYPE 提现预计时点已过多日，本窗仍无「已开放」新 CMS",
+   "conclusion": "提现时点仍停在 CMS「预计」口径；本窗没有新的开放确认公告。",
+   "why": "昨窗及更早 CMS 写明提现预计 09-25 11:00 UTC。本窗检索 Binance catalog48，未见新的「提现已开放」帖；Bitcoinist 更新仍写 expected。HL 三官号本窗静默。",
+   "basis": "A 事实（一手 CMS）— https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d ；https://www.binance.com/en/support/announcement/detail/1718842b00ee41479c763ef27b6312f0 ；媒体续写 https://bitcoinist.com/binance-lists-hyperliquid-hype-for-spot-trading/",
+   "risk": "提现页实态未在本采集直接核到；若已静默开放或延误未开，都会改写「入口扩容」的短期读感。禁止写成买卖建议。",
+   "confidence": "高（「CMS 仍写预计、本窗无新开放 CMS」）；低（「提现已实际开放且无二次冲击」）。",
+   "links": [
+    {
+     "text": "A 事实（一手 CMS）",
+     "url": "https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://www.binance.com/en/support/announcement/detail/1718842b00ee41479c763ef27b6312f0",
+     "field": "依据"
+    },
+    {
+     "text": "媒体续写",
+     "url": "https://bitcoinist.com/binance-lists-hyperliquid-hype-for-spot-trading/",
+     "field": "依据"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [
+    "A"
+   ],
+   "fields": {
+    "结论": "提现时点仍停在 CMS「预计」口径；本窗没有新的开放确认公告。",
+    "为什么": "昨窗及更早 CMS 写明提现预计 09-25 11:00 UTC。本窗检索 Binance catalog48，未见新的「提现已开放」帖；Bitcoinist 更新仍写 expected。HL 三官号本窗静默。",
+    "依据": "A 事实（一手 CMS）— https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d ；https://www.binance.com/en/support/announcement/detail/1718842b00ee41479c763ef27b6312f0 ；媒体续写 https://bitcoinist.com/binance-lists-hyperliquid-hype-for-spot-trading/",
+    "风险/反证": "提现页实态未在本采集直接核到；若已静默开放或延误未开，都会改写「入口扩容」的短期读感。禁止写成买卖建议。",
+    "置信度": "高（「CMS 仍写预计、本窗无新开放 CMS」）；低（「提现已实际开放且无二次冲击」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：提现时点仍停在 CMS「预计」口径；本窗没有新的开放确认公告。\n- **为什么**：昨窗及更早 CMS 写明提现预计 09-25 11:00 UTC。本窗检索 Binance catalog48，未见新的「提现已开放」帖；Bitcoinist 更新仍写 expected。HL 三官号本窗静默。\n- **依据**：A 事实（一手 CMS）— https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d ；https://www.binance.com/en/support/announcement/detail/1718842b00ee41479c763ef27b6312f0 ；媒体续写 https://bitcoinist.com/binance-lists-hyperliquid-hype-for-spot-trading/\n- **风险/反证**：提现页实态未在本采集直接核到；若已静默开放或延误未开，都会改写「入口扩容」的短期读感。禁止写成买卖建议。\n- **置信度**：高（「CMS 仍写预计、本窗无新开放 CMS」）；低（「提现已实际开放且无二次冲击」）。"
+  },
+  {
+   "num": 3,
+   "title": "非正式 dayNtl 约 $4.08B（↑约 37%），OI 约 $13.13B 微升；勿与媒体市佔/巨鲸混读",
+   "conclusion": "本拍日名义成交较昨拍回升约 37%，未平仓兴趣微升；热度读法要标非正式，且不能拿媒体市佔或巨鲸持仓直接对照。",
+   "why": "info API 自加总（拍点 UTC 2026-09-28T00:18:10Z）：OI≈$13.13B（较昨拍≈$13.00B，↑约 1.01%），dayNtl≈$4.08B（较昨≈$2.98B，↑约 36.82%）。HYPE mark≈91.519，HYPE 单币 OI≈$1.88B。前端 24H 仍见 7.2B（疑占位）。媒体另有永续 OI 市佔 11.4%、Coinglass 巨鲸持仓≈$96.95 亿，资产集合与脚注不明，**禁止与 API 自加总混用**。正式里程碑本窗无。",
+   "basis": "非正式 API（见同目录 info_api_raw_summary.json）；媒体市佔 https://www.odaily.news/zh-CN/newsflash/520678 ；巨鲸 https://www.chaincatcher.com/article/2292534",
+   "risk": "单点拍点差可能含周末过后恢复，缺官方连续序列。禁止写成「成交爆发」或「市佔已官宣」。",
+   "confidence": "高（「本拍相对昨拍的方向与量级，及多口径并存」）；低（「回升是否代表协议热度结构性回暖」）。",
+   "links": [
+    {
+     "text": "媒体市佔",
+     "url": "https://www.odaily.news/zh-CN/newsflash/520678",
+     "field": "依据"
+    },
+    {
+     "text": "巨鲸",
+     "url": "https://www.chaincatcher.com/article/2292534",
+     "field": "依据"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [],
+   "fields": {
+    "结论": "本拍日名义成交较昨拍回升约 37%，未平仓兴趣微升；热度读法要标非正式，且不能拿媒体市佔或巨鲸持仓直接对照。",
+    "为什么": "info API 自加总（拍点 UTC 2026-09-28T00:18:10Z）：OI≈$13.13B（较昨拍≈$13.00B，↑约 1.01%），dayNtl≈$4.08B（较昨≈$2.98B，↑约 36.82%）。HYPE mark≈91.519，HYPE 单币 OI≈$1.88B。前端 24H 仍见 7.2B（疑占位）。媒体另有永续 OI 市佔 11.4%、Coinglass 巨鲸持仓≈$96.95 亿，资产集合与脚注不明，**禁止与 API 自加总混用**。正式里程碑本窗无。",
+    "依据": "非正式 API（见同目录 info_api_raw_summary.json）；媒体市佔 https://www.odaily.news/zh-CN/newsflash/520678 ；巨鲸 https://www.chaincatcher.com/article/2292534",
+    "风险/反证": "单点拍点差可能含周末过后恢复，缺官方连续序列。禁止写成「成交爆发」或「市佔已官宣」。",
+    "置信度": "高（「本拍相对昨拍的方向与量级，及多口径并存」）；低（「回升是否代表协议热度结构性回暖」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：本拍日名义成交较昨拍回升约 37%，未平仓兴趣微升；热度读法要标非正式，且不能拿媒体市佔或巨鲸持仓直接对照。\n- **为什么**：info API 自加总（拍点 UTC 2026-09-28T00:18:10Z）：OI≈$13.13B（较昨拍≈$13.00B，↑约 1.01%），dayNtl≈$4.08B（较昨≈$2.98B，↑约 36.82%）。HYPE mark≈91.519，HYPE 单币 OI≈$1.88B。前端 24H 仍见 7.2B（疑占位）。媒体另有永续 OI 市佔 11.4%、Coinglass 巨鲸持仓≈$96.95 亿，资产集合与脚注不明，**禁止与 API 自加总混用**。正式里程碑本窗无。\n- **依据**：非正式 API（见同目录 info_api_raw_summary.json）；媒体市佔 https://www.odaily.news/zh-CN/newsflash/520678 ；巨鲸 https://www.chaincatcher.com/article/2292534\n- **风险/反证**：单点拍点差可能含周末过后恢复，缺官方连续序列。禁止写成「成交爆发」或「市佔已官宣」。\n- **置信度**：高（「本拍相对昨拍的方向与量级，及多口径并存」）；低（「回升是否代表协议热度结构性回暖」）。"
+  },
+  {
+   "num": 4,
+   "title": "Share 上线 NFL 盘；Pear / TradeXYZ / Coinbase Morpho 等生态二手簇",
+   "conclusion": "生态产品本窗一手以 Share NFL 预测盘为主；其余多条经 HypedLaunches 二手转述，项目方原帖或 CMS 交叉不足。",
+   "why": "@sharexyz 宣布 Ravens vs Cowboys 里约马拉卡纳胜负盘经 Hyperliquid 在 Share 交易。HypedLaunches 另称：Coinbase App 可用 HYPE/ZEC 作 Morpho 借贷抵押；TradeXYZ HIP-3 第 11 ticker、市场累计费用 >$1M 同额进 Assistance Fund；Pear Protocol 代币拟迁至 Hyperliquid；Nest HyperEVM TVL≈$26.84M（Nest 本窗静默）。Liquid、Elysium/Kinetiq 为轻互动。S 三官号与官站无新公告。",
+   "basis": "A 事实 — https://x.com/sharexyz/status/2104262221031256517 ；二手 https://x.com/HypedLaunches/status/2104329534200000912 ；https://x.com/HypedLaunches/status/2104271138675397040 ；https://x.com/HypedLaunches/status/2104210749732094168 ；https://x.com/HypedLaunches/status/2104196488561651853",
+   "risk": "二手条目任一缺一手确认即可能口径错；自报省费与 TVL 不等于成交或用户增长。",
+   "confidence": "高（「Share 原帖窗内存在」）；低（「Coinbase Morpho / Pear / TradeXYZ 精确口径」）。",
+   "links": [
+    {
+     "text": "A 事实",
+     "url": "https://x.com/sharexyz/status/2104262221031256517",
+     "field": "依据"
+    },
+    {
+     "text": "二手",
+     "url": "https://x.com/HypedLaunches/status/2104329534200000912",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://x.com/HypedLaunches/status/2104271138675397040",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://x.com/HypedLaunches/status/2104210749732094168",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://x.com/HypedLaunches/status/2104196488561651853",
+     "field": "依据"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [
+    "A"
+   ],
+   "fields": {
+    "结论": "生态产品本窗一手以 Share NFL 预测盘为主；其余多条经 HypedLaunches 二手转述，项目方原帖或 CMS 交叉不足。",
+    "为什么": "@sharexyz 宣布 Ravens vs Cowboys 里约马拉卡纳胜负盘经 Hyperliquid 在 Share 交易。HypedLaunches 另称：Coinbase App 可用 HYPE/ZEC 作 Morpho 借贷抵押；TradeXYZ HIP-3 第 11 ticker、市场累计费用 >$1M 同额进 Assistance Fund；Pear Protocol 代币拟迁至 Hyperliquid；Nest HyperEVM TVL≈$26.84M（Nest 本窗静默）。Liquid、Elysium/Kinetiq 为轻互动。S 三官号与官站无新公告。",
+    "依据": "A 事实 — https://x.com/sharexyz/status/2104262221031256517 ；二手 https://x.com/HypedLaunches/status/2104329534200000912 ；https://x.com/HypedLaunches/status/2104271138675397040 ；https://x.com/HypedLaunches/status/2104210749732094168 ；https://x.com/HypedLaunches/status/2104196488561651853",
+    "风险/反证": "二手条目任一缺一手确认即可能口径错；自报省费与 TVL 不等于成交或用户增长。",
+    "置信度": "高（「Share 原帖窗内存在」）；低（「Coinbase Morpho / Pear / TradeXYZ 精确口径」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：生态产品本窗一手以 Share NFL 预测盘为主；其余多条经 HypedLaunches 二手转述，项目方原帖或 CMS 交叉不足。\n- **为什么**：@sharexyz 宣布 Ravens vs Cowboys 里约马拉卡纳胜负盘经 Hyperliquid 在 Share 交易。HypedLaunches 另称：Coinbase App 可用 HYPE/ZEC 作 Morpho 借贷抵押；TradeXYZ HIP-3 第 11 ticker、市场累计费用 >$1M 同额进 Assistance Fund；Pear Protocol 代币拟迁至 Hyperliquid；Nest HyperEVM TVL≈$26.84M（Nest 本窗静默）。Liquid、Elysium/Kinetiq 为轻互动。S 三官号与官站无新公告。\n- **依据**：A 事实 — https://x.com/sharexyz/status/2104262221031256517 ；二手 https://x.com/HypedLaunches/status/2104329534200000912 ；https://x.com/HypedLaunches/status/2104271138675397040 ；https://x.com/HypedLaunches/status/2104210749732094168 ；https://x.com/HypedLaunches/status/2104196488561651853\n- **风险/反证**：二手条目任一缺一手确认即可能口径错；自报省费与 TVL 不等于成交或用户增长。\n- **置信度**：高（「Share 原帖窗内存在」）；低（「Coinbase Morpho / Pear / TradeXYZ 精确口径」）。"
+  },
+  {
+   "num": 5,
+   "title": "NEAR：mk4 浮盈媒体续写；Strict List 仍无官站 day-N；OI/spot 成交回升",
+   "conclusion": "NEAR 入口与持仓故事本窗仍无正式闭环；媒体与中文继续写 mk4 大户浮盈，非正式数字显示 perp OI 与 ONEAR dayNtl 较昨回升。",
+   "why": "非正式 API：NEAR perp OI≈$414.1M、mark≈5.3568、dayNtl≈$305.2M；spot ONEAR dayNtl≈$7.35M（较昨≈$3.3M 回升）。TechFlow、KuCoin 称 mk4 持约 583.8 万 NEAR 多（约 $31M，浮盈约 $17.4–17.55M，占 NEAR OI~7.68%）。官站/官号仍无 Strict List day-N。中文 sol_jingou 等围观巨鲸仓位。",
+   "basis": "非正式 API；媒体 https://www.techflowpost.com/en-US/newsletter/137946 ；https://www.kucoin.com/news/flash/hyperliquid-near-top-long-position-floats-profit-rises-to-17-42m ；中文 C https://x.com/sol_jingou/status/2104251360770494555",
+   "risk": "Strict List 一旦官宣入列会改写「已部署未列表」观感；浮盈可逆，仓位意图未证实。",
+   "confidence": "高（「本窗无 Strict List 官站 day-N，及 API 方向回升」）；低（「mk4 浮盈精确值与后续是否平仓」）。",
+   "links": [
+    {
+     "text": "媒体",
+     "url": "https://www.techflowpost.com/en-US/newsletter/137946",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://www.kucoin.com/news/flash/hyperliquid-near-top-long-position-floats-profit-rises-to-17-42m",
+     "field": "依据"
+    },
+    {
+     "text": "中文 C",
+     "url": "https://x.com/sol_jingou/status/2104251360770494555",
+     "field": "依据"
+    }
+   ],
+   "uncertain": true,
+   "markers": [
+    "未证实"
+   ],
+   "markers_by_field": {
+    "风险/反证": [
+     "未证实"
+    ]
+   },
+   "basis_layers": [
+    "C"
+   ],
+   "fields": {
+    "结论": "NEAR 入口与持仓故事本窗仍无正式闭环；媒体与中文继续写 mk4 大户浮盈，非正式数字显示 perp OI 与 ONEAR dayNtl 较昨回升。",
+    "为什么": "非正式 API：NEAR perp OI≈$414.1M、mark≈5.3568、dayNtl≈$305.2M；spot ONEAR dayNtl≈$7.35M（较昨≈$3.3M 回升）。TechFlow、KuCoin 称 mk4 持约 583.8 万 NEAR 多（约 $31M，浮盈约 $17.4–17.55M，占 NEAR OI~7.68%）。官站/官号仍无 Strict List day-N。中文 sol_jingou 等围观巨鲸仓位。",
+    "依据": "非正式 API；媒体 https://www.techflowpost.com/en-US/newsletter/137946 ；https://www.kucoin.com/news/flash/hyperliquid-near-top-long-position-floats-profit-rises-to-17-42m ；中文 C https://x.com/sol_jingou/status/2104251360770494555",
+    "风险/反证": "Strict List 一旦官宣入列会改写「已部署未列表」观感；浮盈可逆，仓位意图未证实。",
+    "置信度": "高（「本窗无 Strict List 官站 day-N，及 API 方向回升」）；低（「mk4 浮盈精确值与后续是否平仓」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：NEAR 入口与持仓故事本窗仍无正式闭环；媒体与中文继续写 mk4 大户浮盈，非正式数字显示 perp OI 与 ONEAR dayNtl 较昨回升。\n- **为什么**：非正式 API：NEAR perp OI≈$414.1M、mark≈5.3568、dayNtl≈$305.2M；spot ONEAR dayNtl≈$7.35M（较昨≈$3.3M 回升）。TechFlow、KuCoin 称 mk4 持约 583.8 万 NEAR 多（约 $31M，浮盈约 $17.4–17.55M，占 NEAR OI~7.68%）。官站/官号仍无 Strict List day-N。中文 sol_jingou 等围观巨鲸仓位。\n- **依据**：非正式 API；媒体 https://www.techflowpost.com/en-US/newsletter/137946 ；https://www.kucoin.com/news/flash/hyperliquid-near-top-long-position-floats-profit-rises-to-17-42m ；中文 C https://x.com/sol_jingou/status/2104251360770494555\n- **风险/反证**：Strict List 一旦官宣入列会改写「已部署未列表」观感；浮盈可逆，仓位意图未证实。\n- **置信度**：高（「本窗无 Strict List 官站 day-N，及 API 方向回升」）；低（「mk4 浮盈精确值与后续是否平仓」）。"
+  },
+  {
+   "num": 6,
+   "title": "销毁/回购二手续写；hl.eco 失败；ETF 本窗无新 SoSoValue 日度",
+   "conclusion": "销毁与回购本窗仍无正式 live；仅有第三方 tracker 口径，ETF 也没有新的日度净流入一手。",
+   "why": "HypedLaunches 称 09-26 单日回购销毁约 $891,610，Assistance Fund 累计约 47.46M HYPE。hl.eco 本窗遇 Turnstile，数字不采信。ChainCatcher 销毁稿时间早于窗起，仅作窗外对照。ETF：本窗未见美东新 SoSoValue 日度；昨窗 HYPG 净流入约 $324 万仅对照。中文另有对「平台收入绑币价飞轮/量缩双杀」的质疑（单帖）。",
+   "basis": "A 二手 — https://x.com/HypedLaunches/status/2104272055877165268 ；飞轮质疑 C https://x.com/mkTRQE0jBPxXACO/status/2104277821925556464 ；ETF 对照 https://www.chaincatcher.com/article/2292366",
+   "risk": "二手累计可重复计数或口径漂移；飞轮质疑样本薄。不得升正式里程碑。",
+   "confidence": "高（「本窗无正式销毁里程碑，且 hl.eco 不可采」）；低（「任一媒体单日/累计精确值」）；低（「飞轮双杀已成共识」）。",
+   "links": [
+    {
+     "text": "A 二手",
+     "url": "https://x.com/HypedLaunches/status/2104272055877165268",
+     "field": "依据"
+    },
+    {
+     "text": "飞轮质疑 C",
+     "url": "https://x.com/mkTRQE0jBPxXACO/status/2104277821925556464",
+     "field": "依据"
+    },
+    {
+     "text": "ETF 对照",
+     "url": "https://www.chaincatcher.com/article/2292366",
+     "field": "依据"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [
+    "A",
+    "C"
+   ],
+   "fields": {
+    "结论": "销毁与回购本窗仍无正式 live；仅有第三方 tracker 口径，ETF 也没有新的日度净流入一手。",
+    "为什么": "HypedLaunches 称 09-26 单日回购销毁约 $891,610，Assistance Fund 累计约 47.46M HYPE。hl.eco 本窗遇 Turnstile，数字不采信。ChainCatcher 销毁稿时间早于窗起，仅作窗外对照。ETF：本窗未见美东新 SoSoValue 日度；昨窗 HYPG 净流入约 $324 万仅对照。中文另有对「平台收入绑币价飞轮/量缩双杀」的质疑（单帖）。",
+    "依据": "A 二手 — https://x.com/HypedLaunches/status/2104272055877165268 ；飞轮质疑 C https://x.com/mkTRQE0jBPxXACO/status/2104277821925556464 ；ETF 对照 https://www.chaincatcher.com/article/2292366",
+    "风险/反证": "二手累计可重复计数或口径漂移；飞轮质疑样本薄。不得升正式里程碑。",
+    "置信度": "高（「本窗无正式销毁里程碑，且 hl.eco 不可采」）；低（「任一媒体单日/累计精确值」）；低（「飞轮双杀已成共识」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：销毁与回购本窗仍无正式 live；仅有第三方 tracker 口径，ETF 也没有新的日度净流入一手。\n- **为什么**：HypedLaunches 称 09-26 单日回购销毁约 $891,610，Assistance Fund 累计约 47.46M HYPE。hl.eco 本窗遇 Turnstile，数字不采信。ChainCatcher 销毁稿时间早于窗起，仅作窗外对照。ETF：本窗未见美东新 SoSoValue 日度；昨窗 HYPG 净流入约 $324 万仅对照。中文另有对「平台收入绑币价飞轮/量缩双杀」的质疑（单帖）。\n- **依据**：A 二手 — https://x.com/HypedLaunches/status/2104272055877165268 ；飞轮质疑 C https://x.com/mkTRQE0jBPxXACO/status/2104277821925556464 ；ETF 对照 https://www.chaincatcher.com/article/2292366\n- **风险/反证**：二手累计可重复计数或口径漂移；飞轮质疑样本薄。不得升正式里程碑。\n- **置信度**：高（「本窗无正式销毁里程碑，且 hl.eco 不可采」）；低（「任一媒体单日/累计精确值」）；低（「飞轮双杀已成共识」）。"
+  }
+ ],
+ "sections": [
+  {
+   "title": "今天怎么看",
+   "subsections": [],
+   "body_md": "本窗最大新信号是媒体与 Outcome 同口径转述的「下次升级」：资金费率上限从每小时 4% 调到 0.5%，HIP-4 单部署者活跃结果上限 100→200、每日部署 500→1000。联创 Jeff 在 Discord 的说法被多家媒体引用，但本窗 S 层三官号静默、官站与 Docs 无对应 lastmod，不能写成已生效的正式参数。币安 HYPE 提现预计时点（09-25 11:00 UTC）过去多日，本窗仍没有「提现已开放」的新 CMS。非正式拍点上，OI 约 $13.13B 微升，dayNtl 从昨拍约 $2.98B 回到约 $4.08B（约 +37%），HYPE mark≈91.52 微降。生态侧 Share 上线 NFL 盘；其余 Pear 到 TradeXYZ、Coinbase Morpho 等多条为二手。NEAR Strict List 仍无官站 day-N；正式里程碑空。"
+  },
+  {
+   "title": "观点",
+   "subsections": [
+    {
+     "title": "1. 下次升级叙事：费率上限 4%→0.5%/小时，HIP-4 部署上限上调",
+     "body_md": "- **结论**：本窗最大新信号是「下次网络升级」将压低资金费率上限，并抬高 HIP-4 部署容量。证据停在媒体转述与 Outcome 自报，没有 S 官号与 Docs 交叉。\n- **为什么**：Odaily 与 ChainCatcher、TechFlow 与 TokenPost 均称联创 Jeff（Discord）预告：资金费率上限从每小时 4% 调至 0.5%（极少触及）；HIP-4 单部署者活跃结果上限 100→200、每日部署 500→1000。@Outcomexyz 发 BREAKING 同口径。本窗 `from:chameleon_jeff`=0，官站/foundation/Docs 窗内无 lastmod，Discord widget 不可采。中文多条与 HIP-4 同框热议，但引用的是旧线程或二手摘要。\n- **依据**：A 叙事/待验证 — https://www.odaily.news/zh-CN/newsflash/520692 ；https://www.chaincatcher.com/article/2292520 ；https://techflowpost.com/en-US/newsletter/137947 ；https://www.tokenpost.com/news/technology/24579 ；Outcome https://x.com/Outcomexyz/status/2104207361598775632 ；中文 C https://x.com/Maddere7/status/2104197001344950323\n- **风险/反证**：若后续官号/Docs 参数与媒体不一致，或升级长期不到，叙事会回落。禁止写成「已生效」或买卖建议。\n- **置信度**：高（「本窗存在媒体+Outcome 同口径转述，且 S/Docs 无交叉」）；低（「参数已写入协议并生效」）。"
+    },
+    {
+     "title": "2. 币安 HYPE 提现预计时点已过多日，本窗仍无「已开放」新 CMS",
+     "body_md": "- **结论**：提现时点仍停在 CMS「预计」口径；本窗没有新的开放确认公告。\n- **为什么**：昨窗及更早 CMS 写明提现预计 09-25 11:00 UTC。本窗检索 Binance catalog48，未见新的「提现已开放」帖；Bitcoinist 更新仍写 expected。HL 三官号本窗静默。\n- **依据**：A 事实（一手 CMS）— https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d ；https://www.binance.com/en/support/announcement/detail/1718842b00ee41479c763ef27b6312f0 ；媒体续写 https://bitcoinist.com/binance-lists-hyperliquid-hype-for-spot-trading/\n- **风险/反证**：提现页实态未在本采集直接核到；若已静默开放或延误未开，都会改写「入口扩容」的短期读感。禁止写成买卖建议。\n- **置信度**：高（「CMS 仍写预计、本窗无新开放 CMS」）；低（「提现已实际开放且无二次冲击」）。"
+    },
+    {
+     "title": "3. 非正式 dayNtl 约 $4.08B（↑约 37%），OI 约 $13.13B 微升；勿与媒体市佔/巨鲸混读",
+     "body_md": "- **结论**：本拍日名义成交较昨拍回升约 37%，未平仓兴趣微升；热度读法要标非正式，且不能拿媒体市佔或巨鲸持仓直接对照。\n- **为什么**：info API 自加总（拍点 UTC 2026-09-28T00:18:10Z）：OI≈$13.13B（较昨拍≈$13.00B，↑约 1.01%），dayNtl≈$4.08B（较昨≈$2.98B，↑约 36.82%）。HYPE mark≈91.519，HYPE 单币 OI≈$1.88B。前端 24H 仍见 7.2B（疑占位）。媒体另有永续 OI 市佔 11.4%、Coinglass 巨鲸持仓≈$96.95 亿，资产集合与脚注不明，**禁止与 API 自加总混用**。正式里程碑本窗无。\n- **依据**：非正式 API（见同目录 info_api_raw_summary.json）；媒体市佔 https://www.odaily.news/zh-CN/newsflash/520678 ；巨鲸 https://www.chaincatcher.com/article/2292534\n- **风险/反证**：单点拍点差可能含周末过后恢复，缺官方连续序列。禁止写成「成交爆发」或「市佔已官宣」。\n- **置信度**：高（「本拍相对昨拍的方向与量级，及多口径并存」）；低（「回升是否代表协议热度结构性回暖」）。"
+    },
+    {
+     "title": "4. Share 上线 NFL 盘；Pear / TradeXYZ / Coinbase Morpho 等生态二手簇",
+     "body_md": "- **结论**：生态产品本窗一手以 Share NFL 预测盘为主；其余多条经 HypedLaunches 二手转述，项目方原帖或 CMS 交叉不足。\n- **为什么**：@sharexyz 宣布 Ravens vs Cowboys 里约马拉卡纳胜负盘经 Hyperliquid 在 Share 交易。HypedLaunches 另称：Coinbase App 可用 HYPE/ZEC 作 Morpho 借贷抵押；TradeXYZ HIP-3 第 11 ticker、市场累计费用 >$1M 同额进 Assistance Fund；Pear Protocol 代币拟迁至 Hyperliquid；Nest HyperEVM TVL≈$26.84M（Nest 本窗静默）。Liquid、Elysium/Kinetiq 为轻互动。S 三官号与官站无新公告。\n- **依据**：A 事实 — https://x.com/sharexyz/status/2104262221031256517 ；二手 https://x.com/HypedLaunches/status/2104329534200000912 ；https://x.com/HypedLaunches/status/2104271138675397040 ；https://x.com/HypedLaunches/status/2104210749732094168 ；https://x.com/HypedLaunches/status/2104196488561651853\n- **风险/反证**：二手条目任一缺一手确认即可能口径错；自报省费与 TVL 不等于成交或用户增长。\n- **置信度**：高（「Share 原帖窗内存在」）；低（「Coinbase Morpho / Pear / TradeXYZ 精确口径」）。"
+    },
+    {
+     "title": "5. NEAR：mk4 浮盈媒体续写；Strict List 仍无官站 day-N；OI/spot 成交回升",
+     "body_md": "- **结论**：NEAR 入口与持仓故事本窗仍无正式闭环；媒体与中文继续写 mk4 大户浮盈，非正式数字显示 perp OI 与 ONEAR dayNtl 较昨回升。\n- **为什么**：非正式 API：NEAR perp OI≈$414.1M、mark≈5.3568、dayNtl≈$305.2M；spot ONEAR dayNtl≈$7.35M（较昨≈$3.3M 回升）。TechFlow、KuCoin 称 mk4 持约 583.8 万 NEAR 多（约 $31M，浮盈约 $17.4–17.55M，占 NEAR OI~7.68%）。官站/官号仍无 Strict List day-N。中文 sol_jingou 等围观巨鲸仓位。\n- **依据**：非正式 API；媒体 https://www.techflowpost.com/en-US/newsletter/137946 ；https://www.kucoin.com/news/flash/hyperliquid-near-top-long-position-floats-profit-rises-to-17-42m ；中文 C https://x.com/sol_jingou/status/2104251360770494555\n- **风险/反证**：Strict List 一旦官宣入列会改写「已部署未列表」观感；浮盈可逆，仓位意图未证实。\n- **置信度**：高（「本窗无 Strict List 官站 day-N，及 API 方向回升」）；低（「mk4 浮盈精确值与后续是否平仓」）。"
+    },
+    {
+     "title": "6. 销毁/回购二手续写；hl.eco 失败；ETF 本窗无新 SoSoValue 日度",
+     "body_md": "- **结论**：销毁与回购本窗仍无正式 live；仅有第三方 tracker 口径，ETF 也没有新的日度净流入一手。\n- **为什么**：HypedLaunches 称 09-26 单日回购销毁约 $891,610，Assistance Fund 累计约 47.46M HYPE。hl.eco 本窗遇 Turnstile，数字不采信。ChainCatcher 销毁稿时间早于窗起，仅作窗外对照。ETF：本窗未见美东新 SoSoValue 日度；昨窗 HYPG 净流入约 $324 万仅对照。中文另有对「平台收入绑币价飞轮/量缩双杀」的质疑（单帖）。\n- **依据**：A 二手 — https://x.com/HypedLaunches/status/2104272055877165268 ；飞轮质疑 C https://x.com/mkTRQE0jBPxXACO/status/2104277821925556464 ；ETF 对照 https://www.chaincatcher.com/article/2292366\n- **风险/反证**：二手累计可重复计数或口径漂移；飞轮质疑样本薄。不得升正式里程碑。\n- **置信度**：高（「本窗无正式销毁里程碑，且 hl.eco 不可采」）；低（「任一媒体单日/累计精确值」）；低（「飞轮双杀已成共识」）。"
+    }
+   ],
+   "body_md": ""
+  },
+  {
+   "title": "社区共鸣点",
+   "subsections": [
+    {
+     "title": "可核情绪线索",
+     "body_md": "1. **最希望听到：费率 0.5%/h 与 HIP-4 上限何时生效、口径是否与媒体一致**  \n   - **证据**：多家媒体←Jeff Discord；Outcome BREAKING；中文 Maddere7 / UdpTon / even366 等同框热议；本窗 S Jeff=0、Docs 无 lastmod。  \n   - **推断**（非编造情绪）：读者要的是官方确认生效时点与参数表。样本薄。  \n   - **层级**：A + C（弱）  \n   - **代表链接**：https://www.odaily.news/zh-CN/newsflash/520692 ；https://x.com/Outcomexyz/status/2104207361598775632 ；https://x.com/Maddere7/status/2104197001344950323\n\n2. **注意力落点：Entropy 抢小币永续；HL 原生上币边界会不会松**  \n   - **证据**：kylewmi 指 HL 原生/其他 HIP-3 暂不上小币、Entropy 抢先；fomonazlim 推交易量/活跃天数前置。  \n   - **推断**：竞争注意力从「入口利好」部分转向「谁吃小市值盘」。样本不足。  \n   - **层级**：C（弱）  \n   - **代表链接**：https://x.com/kylewmi/status/2104197381952807179 ；https://x.com/fomonazlim/status/2104352351658049723\n\n3. **用法层：Arcus「趁早刷」vs 刷 HL 耗损；Sekai 先练产品不赌空投**  \n   - **证据**：Maddere7 写 Arcus 积分预期与曾刷 HL 的耗损记忆；cloudi66 写 Sekai 测试网可练、官方未确认积分/代币。  \n   - **推断**：新平台积分叙事与耗损疲劳并存；HyperEVM 早期更偏「先跑通」话术。样本不足。  \n   - **层级**：C（弱）  \n   - **代表链接**：https://x.com/Maddere7/status/2104232544774549729 ；https://x.com/cloudi66/status/2104278059893584185  \n   - **样本说明**：有效中文 X 样本不足。跟单、Axiom 刷屏禁止当情绪。\n\n4. **相对近几日的转移：从「落地回落 / 激励时间表」到「参数升级确认 + 机制可信度」**  \n   - **证据**：主簇换成费率/HIP-4；中文出现回购飞轮双杀质疑；币安提现仍未闭环但讨论热度让位给参数。  \n   - **推断**：媒体与有机帖都在等官方参数表；飞轮质疑是弱信号，勿升主线。  \n   - **层级**：弱信号 + 污染说明  \n   - **代表链接**：https://x.com/mkTRQE0jBPxXACO/status/2104277821925556464 ；https://www.tokenpost.com/news/technology/24579"
+    }
+   ],
+   "body_md": "总判断：中文 X 首查约 50 条，污染中等偏重（免费合约跟单模板、Axiom/「Hype 链」同构刷屏十余条）。过滤后再取约 50 条，有机可用点集中在 HIP-4 扩容与费率上限同框、Entropy 抢小市值加密永续，也有 Arcus 积分预期与刷 HL 耗损记忆、Sekai HyperEVM 测试网，以及回购飞轮在量缩时是否双杀。**样本仍偏薄**，禁止写成全社区共识。中文媒体注意力在费率/HIP-4 与永续 OI 市佔 11.4%，也覆盖 mk4 NEAR 浮盈。相对昨日「落地回落 + 激励时间表」，本窗有效帖更常碰到「参数升级何时官宣生效」和「机制/竞争边界」。"
+  },
+  {
+   "title": "少数派",
+   "subsections": [],
+   "body_md": "- **费率/HIP-4 已接近落地**：少数看法会把媒体+Outcome 当成「板上钉钉」。本台只认到 A 层转述，S/Docs 交叉前不抬成正式参数。\n- **回购飞轮双杀**：mkTRQE0jBPxXACO 单帖质疑量缩时收入与币价互相拖累。若扩散会压过销毁/回购利好叙事，但样本薄，且无官号口径。\n- **Entropy 倒逼上币边界**：若小币永续持续吸量，可能倒逼「HL 原生是否该上小市值」讨论。目前只是中文竞争注意力信号。"
+  },
+  {
+   "title": "附录 · Phase1 素材摘要",
+   "subsections": [],
+   "body_md": "见同目录 `phase1-merged.md`（事件簇 / 主题分布 / 冲突草稿 / 待验证假设 / 关键数字 / 分层计数 / 失败源）。\n\n**本拍非正式**（UTC 2026-09-28T00:18:10Z / CST 08:18:10，234 资产）：OI≈$13.13B；dayNtl≈$4.08B；HYPE mark≈91.519；HYPE OI≈$1.88B；前端 7.2B 疑占位；NEAR perp OI≈$414.1M；ONEAR dayNtl≈$7.35M；正式里程碑无。\n\n**采集失败摘要**：S 三官号静默（中文 @jeff 非本窗新帖）；hl.eco Turnstile（销毁不采信）；Discord widget 404；foresight DNS；docs.hyperliquid.xyz DNS（改用 gitbook）；FOCUS list 假阴性；中文跟单/Axiom 污染；info API 429（backoff 后成功）；ECO/Outcome/C 未翻页；B 跳过；Nest/Bounce/PC/Skew/Paragon 静默。**未用旧快照。** X 花费约 $0.70。窗外：销毁 ChainCatcher 稿早于窗起；ETF 无新 SoSoValue 日度；Strategies/提取簇无新一手。"
+  }
+ ],
+ "source": {
+  "type": "hl-intel-daily",
+  "label": "HL 情报台日报",
+  "file": "/workspace/hl-daily-2026-09-28/daily-final.md",
+  "file_mtime": "2026-10-07T15:24:49+08:00"
+ },
+ "parse": {
+  "format": "v2-list-fields",
+  "warnings": []
+ }
+}

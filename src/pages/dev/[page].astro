@@ -1,0 +1,83 @@
+---
+// /dev/data/：数据自检页，只在预览构建生成（正式构建 getStaticPaths 返回空），始终 noindex
+import Base from '../../layouts/Base.astro';
+import { morning, morningIssues, announcements } from '../../data';
+export function getStaticPaths() {
+  return __PREVIEW__ ? [{ params: { page: 'data' } }] : [];
+}
+const parsedFiles = import.meta.glob('../../data/morning/parsed/*.json', { eager: true, import: 'default' });
+const parsed: Record<string, any> = Object.fromEntries(Object.entries(parsedFiles).map(([k, v]) => [k.match(/(\d{4}-\d{2}-\d{2})\.json$/)![1], v]));
+const tot = morning.items.reduce((a: any, x: any) => ({ items: a.items + x.items, skipped: a.skipped + x.skipped, long: a.long + x.long_titles }), { items: 0, skipped: 0, long: 0 });
+---
+<Base title="数据自检 · 预览" noindex>
+  <main class="wrap devdata">
+    <h1>数据自检</h1>
+    <p class="muted">只在预览站。晨报生成于 {morning.generated_at}，官宣生成于 {announcements.generated_at}。</p>
+
+    <h2>晨报 · {morning.items.length} 期（缺文件：{morning.missing.length ? morning.missing.join('、') : '无'}）</h2>
+    <p class="muted">网站条目共 {tot.items} 条；因不确定标记去掉 {tot.skipped} 条；标题超 28 字 {tot.long} 条（没截断）。</p>
+    <table>
+      <thead><tr><th>日期</th><th>期</th><th>来源</th><th>格式</th><th>今天怎么看</th><th>观点</th><th>带标记</th><th>上站</th><th>超 28 字</th><th>更新时间</th><th>警告</th></tr></thead>
+      <tbody>
+        {morning.items.map((x: any) => (
+          <tr><td><a href={`#m-${x.date}`}>{x.date}</a></td><td>{x.issue_no}</td><td>{x.origin}</td><td>{x.parsed?.format}</td><td>{x.parsed?.today_paragraphs} 段</td><td>{x.parsed?.views}</td><td>{x.parsed?.uncertain_views}</td><td>{x.items}</td><td>{x.long_titles}</td><td>{x.updated_at?.slice(5, 16).replace('T', ' ') || '—'}</td><td>{x.parsed?.warnings?.length ? x.parsed.warnings.join('；') : ''}</td></tr>
+        ))}
+      </tbody>
+    </table>
+
+    {morning.dates.map((d: string) => {
+      const s = morningIssues[d], p = parsed[d], r = s._report || {};
+      return (
+        <section id={`m-${d}`} class="dd-issue">
+          <h3>{d} · {p?.title}</h3>
+          <p class="muted">窗口：{s.window ? `${s.window.start} → ${s.window.end}` : '—'}</p>
+          {p && <details><summary>今天怎么看（{p.today.length} 段）</summary>{p.today.map((t: string) => <p>{t}</p>)}</details>}
+          <ol>
+            {s.items.map((it: any) => (
+              <li>
+                <b>{it.title}</b> <span class:list={['len', { bad: it.title.length > 28 }]}>{it.title.length} 字</span>
+                {(it.flags || []).map((f: string) => <span class="flag">{f}</span>)}
+                <div>{it.summary || <em class="bad">（没有说明）</em>}</div>
+                <div class="muted">出处（{it.ref?.source_field}）：{it.sources.map((x: any) => <a href={x.url} target="_blank" rel="noopener">{x.name}</a>)}</div>
+              </li>
+            ))}
+          </ol>
+          {r.skipped?.length > 0 && <ul class="skipped">{r.skipped.map((x: any) => <li>没放：观点 {x.num}「{x.title}」—— {x.reason}</li>)}</ul>}
+        </section>
+      );
+    })}
+
+    <h2>官宣 · {announcements.items.length} 条（近 {announcements.window_days} 天）</h2>
+    <table>
+      <thead><tr><th>账号</th><th>抓到</th><th>保留</th><th>去掉（回复/转推）</th></tr></thead>
+      <tbody>{announcements.stats.map((s: any) => <tr><td>{s.account || s.channel}</td><td>{s.fetched ?? '—'}</td><td>{s.kept ?? 0}</td><td>{s.dropped ? `${s.dropped.reply} / ${s.dropped.retweet}` : s.status}</td></tr>)}</tbody>
+    </table>
+    <ol>
+      {announcements.items.map((a: any) => (
+        <li class="dd-ann">
+          <div class="muted">{a.date} · {a.source.type} {a.source.account || a.source.channel} · {a.kind} · <a href={a.url} target="_blank" rel="noopener">原文</a></div>
+          <b>{a.title}</b>
+          <details><summary>完整原文</summary><pre>{a.text}</pre></details>
+        </li>
+      ))}
+    </ol>
+  </main>
+</Base>
+<style>
+  .devdata { padding: 32px 24px 80px; font-size: 14px; line-height: 1.6; }
+  .devdata h1 { font-size: 28px; font-weight: 800; }
+  .devdata h2 { font-size: 20px; font-weight: 800; margin: 32px 0 8px; }
+  .devdata h3 { font-size: 16px; font-weight: 700; margin: 24px 0 4px; }
+  .devdata table { border-collapse: collapse; width: 100%; font-size: 12.5px; background: #fff; }
+  .devdata th, .devdata td { border: 1px solid var(--c-divider); padding: 4px 6px; text-align: left; vertical-align: top; }
+  .devdata td:nth-child(-n+4) { white-space: nowrap; }
+  .devdata ol { padding-left: 22px; }
+  .devdata li { margin: 8px 0; }
+  .devdata .muted { color: var(--c-text-2); font-size: 12.5px; }
+  .devdata .muted a { margin-right: 8px; }
+  .devdata .len { font-size: 11px; color: var(--c-text-3); }
+  .devdata .bad { color: #C2410C; }
+  .devdata .skipped { color: var(--c-text-3); font-size: 12.5px; padding-left: 18px; }
+  .devdata pre { white-space: pre-wrap; font: inherit; background: #fff; padding: 8px; border-radius: 8px; }
+  .devdata .dd-issue { border-top: 1px solid var(--c-divider); margin-top: 16px; }
+</style>

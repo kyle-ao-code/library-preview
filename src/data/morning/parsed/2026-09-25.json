@@ -1,0 +1,395 @@
+{
+ "date": "2026-09-25",
+ "title": "过去24h Hyperliquid 情报日报（2026-09-25）",
+ "window": {
+  "raw": "窗：Asia/Shanghai 2026-09-24 08:09 → 2026-09-25 08:09",
+  "start": "2026-09-24 08:09",
+  "end": "2026-09-25 08:09",
+  "tz": "Asia/Shanghai"
+ },
+ "notes": [],
+ "today": [
+  "本窗主戏在链外入口，币安宣布 HYPE 现货交易（Seed Tag），开放 HYPE/USDT、HYPE/USDC、HYPE/TRY，提现预计 09-25 11:00 UTC，同日接通 Earn、Margin 等。三官号与官站均无新用户公告；正式里程碑仍空。价格侧，媒体写上线后回落到约 $90–$92，本拍非正式 mark≈92.22。基础设施有两条可核一手。DoubleZero 面向 HL 交易者的光纤全订单簿行情，Docs peering 列表窗内列入；Paragon 上线 $2Y/$30Y 美债收益率永续（20x）。生态自述里 Nest epoch43 用 HYPE Engine Vault 回购近 $80k NEST 并发 HYPE 奖励，Bounce 称杠杆代币累计成交破 $400M。OI 仍是多口径。昨窗官宣 $18B（双边）继续被引用，本拍 API 自加总约 $12.83B，前端仍 7.2B。NEAR Spot 本窗仍无「已进 Strict List」官站 day-N。"
+ ],
+ "views": [
+  {
+   "num": 1,
+   "title": "币安现货上线 HYPE（Seed Tag），提现约在 09-25 11:00 UTC",
+   "conclusion": "本窗最硬的一手是币安 CMS 公告；HL 官号本窗无对应原帖。",
+   "why": "Binance 公告写明 2026-09-24 11:00 UTC 开放三对现货，充值约提前 1 小时，提现预计次日 11:00 UTC；Listing Fee 0 BNB，挂 Seed Tag；同日 Earn / Buy Crypto / Convert / VIP Loan / Margin。ChainCatcher、TechFlow 跟进。HL 三官号本窗静默，故「上线」事实锚在 CEX 一手；协议方本窗无原帖。",
+   "basis": "A 事实（一手 CMS）— https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d ；配套产品 https://www.binance.com/en/support/announcement/detail/1718842b00ee41479c763ef27b6312f0 ；中文跟进 https://www.chaincatcher.com/article/2291998 ；https://www.techflowpost.com/article/34240",
+   "risk": "Seed Tag 自带风险提示；提现时点若延误或开放后抛压放大，会改写「入口扩容」的短期读感。禁止把上线写成买卖建议。",
+   "confidence": "高（「币安窗内宣布现货上线」）；中（「提现准时且无二次冲击」）。",
+   "links": [
+    {
+     "text": "A 事实（一手 CMS）",
+     "url": "https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d",
+     "field": "依据"
+    },
+    {
+     "text": "配套产品",
+     "url": "https://www.binance.com/en/support/announcement/detail/1718842b00ee41479c763ef27b6312f0",
+     "field": "依据"
+    },
+    {
+     "text": "中文跟进",
+     "url": "https://www.chaincatcher.com/article/2291998",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://www.techflowpost.com/article/34240",
+     "field": "依据"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [
+    "A"
+   ],
+   "fields": {
+    "结论": "本窗最硬的一手是币安 CMS 公告；HL 官号本窗无对应原帖。",
+    "为什么": "Binance 公告写明 2026-09-24 11:00 UTC 开放三对现货，充值约提前 1 小时，提现预计次日 11:00 UTC；Listing Fee 0 BNB，挂 Seed Tag；同日 Earn / Buy Crypto / Convert / VIP Loan / Margin。ChainCatcher、TechFlow 跟进。HL 三官号本窗静默，故「上线」事实锚在 CEX 一手；协议方本窗无原帖。",
+    "依据": "A 事实（一手 CMS）— https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d ；配套产品 https://www.binance.com/en/support/announcement/detail/1718842b00ee41479c763ef27b6312f0 ；中文跟进 https://www.chaincatcher.com/article/2291998 ；https://www.techflowpost.com/article/34240",
+    "风险/反证": "Seed Tag 自带风险提示；提现时点若延误或开放后抛压放大，会改写「入口扩容」的短期读感。禁止把上线写成买卖建议。",
+    "置信度": "高（「币安窗内宣布现货上线」）；中（「提现准时且无二次冲击」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：本窗最硬的一手是币安 CMS 公告；HL 官号本窗无对应原帖。\n- **为什么**：Binance 公告写明 2026-09-24 11:00 UTC 开放三对现货，充值约提前 1 小时，提现预计次日 11:00 UTC；Listing Fee 0 BNB，挂 Seed Tag；同日 Earn / Buy Crypto / Convert / VIP Loan / Margin。ChainCatcher、TechFlow 跟进。HL 三官号本窗静默，故「上线」事实锚在 CEX 一手；协议方本窗无原帖。\n- **依据**：A 事实（一手 CMS）— https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d ；配套产品 https://www.binance.com/en/support/announcement/detail/1718842b00ee41479c763ef27b6312f0 ；中文跟进 https://www.chaincatcher.com/article/2291998 ；https://www.techflowpost.com/article/34240\n- **风险/反证**：Seed Tag 自带风险提示；提现时点若延误或开放后抛压放大，会改写「入口扩容」的短期读感。禁止把上线写成买卖建议。\n- **置信度**：高（「币安窗内宣布现货上线」）；中（「提现准时且无二次冲击」）。"
+  },
+  {
+   "num": 2,
+   "title": "上线后价格回到约 $90–$92；「卖出兑现」叙事升温但证据不全",
+   "conclusion": "上新与即时涨价脱钩；本拍 mark 低于昨拍，媒体主写回落。",
+   "why": "非正式 API 本拍 HYPE mark≈92.2184（昨拍≈94.14）。CryptoTimes 等写上线后跌破约 $90 一带；AltcoinBuzz 等跟进 Multicoin 向 Coinbase Prime 转入约 130k HYPE（Lookonchain），**未确认卖出**。$100 叙事在英文媒体明显退潮。",
+   "basis": "非正式 API；A 叙事 — https://www.cryptotimes.io/2026/09/24/hype-price-slips-below-90-after-binance-opens-spot-trading/ ；https://www.altcoinbuzz.io/hype-drops-binance-listing-whale-transfers",
+   "risk": "拍点噪声大；转入托管≠卖出。把单一拍点差写成「趋势拐头」过满。",
+   "confidence": "高（「本拍价格低于昨拍约 $94」）；中（「媒体同写上线后回落」）；低（「巨鲸已在卖」）。",
+   "links": [
+    {
+     "text": "A 叙事",
+     "url": "https://www.cryptotimes.io/2026/09/24/hype-price-slips-below-90-after-binance-opens-spot-trading/",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://www.altcoinbuzz.io/hype-drops-binance-listing-whale-transfers",
+     "field": "依据"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [
+    "A"
+   ],
+   "fields": {
+    "结论": "上新与即时涨价脱钩；本拍 mark 低于昨拍，媒体主写回落。",
+    "为什么": "非正式 API 本拍 HYPE mark≈92.2184（昨拍≈94.14）。CryptoTimes 等写上线后跌破约 $90 一带；AltcoinBuzz 等跟进 Multicoin 向 Coinbase Prime 转入约 130k HYPE（Lookonchain），**未确认卖出**。$100 叙事在英文媒体明显退潮。",
+    "依据": "非正式 API；A 叙事 — https://www.cryptotimes.io/2026/09/24/hype-price-slips-below-90-after-binance-opens-spot-trading/ ；https://www.altcoinbuzz.io/hype-drops-binance-listing-whale-transfers",
+    "风险/反证": "拍点噪声大；转入托管≠卖出。把单一拍点差写成「趋势拐头」过满。",
+    "置信度": "高（「本拍价格低于昨拍约 $94」）；中（「媒体同写上线后回落」）；低（「巨鲸已在卖」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：上新与即时涨价脱钩；本拍 mark 低于昨拍，媒体主写回落。\n- **为什么**：非正式 API 本拍 HYPE mark≈92.2184（昨拍≈94.14）。CryptoTimes 等写上线后跌破约 $90 一带；AltcoinBuzz 等跟进 Multicoin 向 Coinbase Prime 转入约 130k HYPE（Lookonchain），**未确认卖出**。$100 叙事在英文媒体明显退潮。\n- **依据**：非正式 API；A 叙事 — https://www.cryptotimes.io/2026/09/24/hype-price-slips-below-90-after-binance-opens-spot-trading/ ；https://www.altcoinbuzz.io/hype-drops-binance-listing-whale-transfers\n- **风险/反证**：拍点噪声大；转入托管≠卖出。把单一拍点差写成「趋势拐头」过满。\n- **置信度**：高（「本拍价格低于昨拍约 $94」）；中（「媒体同写上线后回落」）；低（「巨鲸已在卖」）。"
+  },
+  {
+   "num": 3,
+   "title": "DoubleZero 光纤行情上线；Docs peering 列表窗内交叉列入",
+   "conclusion": "做市/量化侧基础设施有一条可核的媒体+文档交叉。",
+   "why": "Cointelegraph 09-24 报道 DoubleZero 为 HL 交易者提供全订单簿光纤 feed（含 trade[XYZ]）。同窗 Docs「foundation non-validating node」页 lastmod 更新，peering 列表出现 DoubleZero。这是延迟与接入叙事；本窗没有新交易功能官宣。",
+   "basis": "A 事实 — https://cointelegraph.com/news/doublezero-brings-dedicated-fiber-market-data-hyperliquid-traders ；https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/nodes/foundation-non-validating-node-for-infra-providers",
+   "risk": "媒体稿≠普遍接入率；延迟优势需独立测速才能升格。",
+   "confidence": "高（「稿与 Docs 窗内交叉存在」）；低（「已改变做市竞争格局」）。",
+   "links": [
+    {
+     "text": "A 事实",
+     "url": "https://cointelegraph.com/news/doublezero-brings-dedicated-fiber-market-data-hyperliquid-traders",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/nodes/foundation-non-validating-node-for-infra-providers",
+     "field": "依据"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [
+    "A"
+   ],
+   "fields": {
+    "结论": "做市/量化侧基础设施有一条可核的媒体+文档交叉。",
+    "为什么": "Cointelegraph 09-24 报道 DoubleZero 为 HL 交易者提供全订单簿光纤 feed（含 trade[XYZ]）。同窗 Docs「foundation non-validating node」页 lastmod 更新，peering 列表出现 DoubleZero。这是延迟与接入叙事；本窗没有新交易功能官宣。",
+    "依据": "A 事实 — https://cointelegraph.com/news/doublezero-brings-dedicated-fiber-market-data-hyperliquid-traders ；https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/nodes/foundation-non-validating-node-for-infra-providers",
+    "风险/反证": "媒体稿≠普遍接入率；延迟优势需独立测速才能升格。",
+    "置信度": "高（「稿与 Docs 窗内交叉存在」）；低（「已改变做市竞争格局」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：做市/量化侧基础设施有一条可核的媒体+文档交叉。\n- **为什么**：Cointelegraph 09-24 报道 DoubleZero 为 HL 交易者提供全订单簿光纤 feed（含 trade[XYZ]）。同窗 Docs「foundation non-validating node」页 lastmod 更新，peering 列表出现 DoubleZero。这是延迟与接入叙事；本窗没有新交易功能官宣。\n- **依据**：A 事实 — https://cointelegraph.com/news/doublezero-brings-dedicated-fiber-market-data-hyperliquid-traders ；https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/nodes/foundation-non-validating-node-for-infra-providers\n- **风险/反证**：媒体稿≠普遍接入率；延迟优势需独立测速才能升格。\n- **置信度**：高（「稿与 Docs 窗内交叉存在」）；低（「已改变做市竞争格局」）。"
+  },
+  {
+   "num": 4,
+   "title": "Paragon 上线 $2Y/$30Y 美债收益率永续；Nest epoch43 回购并发奖",
+   "conclusion": "HIP-3 / 生态产品继续用「TradFi 收益与回购发奖」讲故事，均非 HL 官号背书。",
+   "why": "tradeparagon 宣布 $2Y 与 $30Y 收益率永续上线，与既有 $10Y 并列，20x、24/7。NestExchange 称 epoch43 经 HYPE Engine Vault 回购近 $80k NEST；3151 veNEST 分得 360 HYPE，本 epoch 锁仓再奖 500 HYPE。BounceTech 另报杠杆代币累计成交破 $400M。",
+   "basis": "A 事实自述 — https://x.com/tradeparagon/status/2103126961874928066 ；https://x.com/NestExchange/status/2103120246697504899 ；https://x.com/BounceTech/status/2103241284890550386",
+   "risk": "项目自报成交与回购口径可变；收益率永续定价噪声大。",
+   "confidence": "中（「窗内自述存在」）；低（「规模可持续」）。",
+   "links": [
+    {
+     "text": "A 事实自述",
+     "url": "https://x.com/tradeparagon/status/2103126961874928066",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://x.com/NestExchange/status/2103120246697504899",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://x.com/BounceTech/status/2103241284890550386",
+     "field": "依据"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [
+    "A"
+   ],
+   "fields": {
+    "结论": "HIP-3 / 生态产品继续用「TradFi 收益与回购发奖」讲故事，均非 HL 官号背书。",
+    "为什么": "tradeparagon 宣布 $2Y 与 $30Y 收益率永续上线，与既有 $10Y 并列，20x、24/7。NestExchange 称 epoch43 经 HYPE Engine Vault 回购近 $80k NEST；3151 veNEST 分得 360 HYPE，本 epoch 锁仓再奖 500 HYPE。BounceTech 另报杠杆代币累计成交破 $400M。",
+    "依据": "A 事实自述 — https://x.com/tradeparagon/status/2103126961874928066 ；https://x.com/NestExchange/status/2103120246697504899 ；https://x.com/BounceTech/status/2103241284890550386",
+    "风险/反证": "项目自报成交与回购口径可变；收益率永续定价噪声大。",
+    "置信度": "中（「窗内自述存在」）；低（「规模可持续」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：HIP-3 / 生态产品继续用「TradFi 收益与回购发奖」讲故事，均非 HL 官号背书。\n- **为什么**：tradeparagon 宣布 $2Y 与 $30Y 收益率永续上线，与既有 $10Y 并列，20x、24/7。NestExchange 称 epoch43 经 HYPE Engine Vault 回购近 $80k NEST；3151 veNEST 分得 360 HYPE，本 epoch 锁仓再奖 500 HYPE。BounceTech 另报杠杆代币累计成交破 $400M。\n- **依据**：A 事实自述 — https://x.com/tradeparagon/status/2103126961874928066 ；https://x.com/NestExchange/status/2103120246697504899 ；https://x.com/BounceTech/status/2103241284890550386\n- **风险/反证**：项目自报成交与回购口径可变；收益率永续定价噪声大。\n- **置信度**：中（「窗内自述存在」）；低（「规模可持续」）。"
+  },
+  {
+   "num": 5,
+   "title": "HyperliquidPC：CFTC 口径下 mandatory records 可留公链",
+   "conclusion": "监管叙事本窗有一条可点原帖；另有一则评论信报道落在窗边。",
+   "why": "@HyperliquidPC 称 CFTC 允许 mandatory records 留在公链、无需另存链下副本，并澄清客户资金投资口径。Skew 等二传「链上收据即有效收据」。Odaily 另报 Hyperliquid×Phantom 向 CFTC 提交评论信（主张协议开发者不应视为金融中介），时间戳约 **08:11 CST**，相对窗末 08:09 **略超约 2 分钟**，仅作窗边备忘。",
+   "basis": "A 事实 — https://x.com/HyperliquidPC/status/2103239348804293099 ；窗边 https://www.odaily.news/zh-CN/newsflash/520206",
+   "risk": "Policy Center / 媒体转述≠最终规则文本；窗边稿勿升窗内主簇。",
+   "confidence": "中（「PC 原帖窗内存在」）；低（「监管已定调」）；窗边评论信不计入高置信。",
+   "links": [
+    {
+     "text": "A 事实",
+     "url": "https://x.com/HyperliquidPC/status/2103239348804293099",
+     "field": "依据"
+    },
+    {
+     "text": "窗边",
+     "url": "https://www.odaily.news/zh-CN/newsflash/520206",
+     "field": "依据"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [
+    "A"
+   ],
+   "fields": {
+    "结论": "监管叙事本窗有一条可点原帖；另有一则评论信报道落在窗边。",
+    "为什么": "@HyperliquidPC 称 CFTC 允许 mandatory records 留在公链、无需另存链下副本，并澄清客户资金投资口径。Skew 等二传「链上收据即有效收据」。Odaily 另报 Hyperliquid×Phantom 向 CFTC 提交评论信（主张协议开发者不应视为金融中介），时间戳约 **08:11 CST**，相对窗末 08:09 **略超约 2 分钟**，仅作窗边备忘。",
+    "依据": "A 事实 — https://x.com/HyperliquidPC/status/2103239348804293099 ；窗边 https://www.odaily.news/zh-CN/newsflash/520206",
+    "风险/反证": "Policy Center / 媒体转述≠最终规则文本；窗边稿勿升窗内主簇。",
+    "置信度": "中（「PC 原帖窗内存在」）；低（「监管已定调」）；窗边评论信不计入高置信。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：监管叙事本窗有一条可点原帖；另有一则评论信报道落在窗边。\n- **为什么**：@HyperliquidPC 称 CFTC 允许 mandatory records 留在公链、无需另存链下副本，并澄清客户资金投资口径。Skew 等二传「链上收据即有效收据」。Odaily 另报 Hyperliquid×Phantom 向 CFTC 提交评论信（主张协议开发者不应视为金融中介），时间戳约 **08:11 CST**，相对窗末 08:09 **略超约 2 分钟**，仅作窗边备忘。\n- **依据**：A 事实 — https://x.com/HyperliquidPC/status/2103239348804293099 ；窗边 https://www.odaily.news/zh-CN/newsflash/520206\n- **风险/反证**：Policy Center / 媒体转述≠最终规则文本；窗边稿勿升窗内主簇。\n- **置信度**：中（「PC 原帖窗内存在」）；低（「监管已定调」）；窗边评论信不计入高置信。"
+  },
+  {
+   "num": 6,
+   "title": "OI 多口径续：昨官宣 $18B 仍被引，本拍 API≈$12.83B",
+   "conclusion": "口径冲突没有因上线新闻消失；本窗无新的官方 OI 里程碑。",
+   "why": "昨窗 @HyperliquidX 宣布 OI ATH $18B 并注明双边加总，本窗媒体与讨论仍引用该数。本拍 info API 对 234 个永续自加总 OI≈$12.83B、dayNtl≈$8.58B（非正式，拍点 2026-09-25T00:11:08Z）。前端 24H 仍 7.2B（疑占位）。hl.eco Turnstile，无法用看板仲裁。",
+   "basis": "冲突 — 非正式 API；昨 S 官宣见 09-24 日报链接 https://x.com/HyperliquidX/status/2102643437896110439",
+   "risk": "禁止把拍点差写成「OI 一夜蒸发」；双边与第三方单边不可直接比。",
+   "confidence": "高（「多口径并存」）；低（「哪一口径最接近某类真值」）。",
+   "links": [
+    {
+     "text": "昨 S 官宣见 09-24 日报链接",
+     "url": "https://x.com/HyperliquidX/status/2102643437896110439",
+     "field": "依据"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [
+    "S"
+   ],
+   "fields": {
+    "结论": "口径冲突没有因上线新闻消失；本窗无新的官方 OI 里程碑。",
+    "为什么": "昨窗 @HyperliquidX 宣布 OI ATH $18B 并注明双边加总，本窗媒体与讨论仍引用该数。本拍 info API 对 234 个永续自加总 OI≈$12.83B、dayNtl≈$8.58B（非正式，拍点 2026-09-25T00:11:08Z）。前端 24H 仍 7.2B（疑占位）。hl.eco Turnstile，无法用看板仲裁。",
+    "依据": "冲突 — 非正式 API；昨 S 官宣见 09-24 日报链接 https://x.com/HyperliquidX/status/2102643437896110439",
+    "风险/反证": "禁止把拍点差写成「OI 一夜蒸发」；双边与第三方单边不可直接比。",
+    "置信度": "高（「多口径并存」）；低（「哪一口径最接近某类真值」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：口径冲突没有因上线新闻消失；本窗无新的官方 OI 里程碑。\n- **为什么**：昨窗 @HyperliquidX 宣布 OI ATH $18B 并注明双边加总，本窗媒体与讨论仍引用该数。本拍 info API 对 234 个永续自加总 OI≈$12.83B、dayNtl≈$8.58B（非正式，拍点 2026-09-25T00:11:08Z）。前端 24H 仍 7.2B（疑占位）。hl.eco Turnstile，无法用看板仲裁。\n- **依据**：冲突 — 非正式 API；昨 S 官宣见 09-24 日报链接 https://x.com/HyperliquidX/status/2102643437896110439\n- **风险/反证**：禁止把拍点差写成「OI 一夜蒸发」；双边与第三方单边不可直接比。\n- **置信度**：高（「多口径并存」）；低（「哪一口径最接近某类真值」）。"
+  },
+  {
+   "num": 7,
+   "title": "NEAR Spot 仍无 Strict List 官站 day-N；销毁主稿在窗外",
+   "conclusion": "昨窗「已部署」叙事本窗没有入口闭环；销毁数字勿当今日 live。",
+   "why": "本窗官站/官号无「已进 Strict List」更新。非正式 spot（@496）dayNtl≈$1.92M、mark≈4.67。回购销毁约 $3.26M/24h 的 Odaily 主稿时间戳为 09-24 **01:14 CST**（早于本窗 08:09），本窗无更新 live 读数，hl.eco 失败。",
+   "basis": "待验证 — 对照昨媒 https://www.chaincatcher.com/article/2291702 ；窗外销毁稿 https://www.odaily.news/zh-CN/newsflash/519898",
+   "risk": "把窗外销毁写成「今日新台阶」会误导；Strict List 拖延会削弱「已上线」观感。",
+   "confidence": "高（「本窗无 Strict List 官站 day-N」）；高（「$3.26M 主稿在窗外」）；低（「销毁趋势」）。",
+   "links": [
+    {
+     "text": "待验证 — 对照昨媒",
+     "url": "https://www.chaincatcher.com/article/2291702",
+     "field": "依据"
+    },
+    {
+     "text": "窗外销毁稿",
+     "url": "https://www.odaily.news/zh-CN/newsflash/519898",
+     "field": "依据"
+    }
+   ],
+   "uncertain": true,
+   "markers": [
+    "待验证"
+   ],
+   "markers_by_field": {
+    "依据": [
+     "待验证"
+    ]
+   },
+   "basis_layers": [],
+   "fields": {
+    "结论": "昨窗「已部署」叙事本窗没有入口闭环；销毁数字勿当今日 live。",
+    "为什么": "本窗官站/官号无「已进 Strict List」更新。非正式 spot（@496）dayNtl≈$1.92M、mark≈4.67。回购销毁约 $3.26M/24h 的 Odaily 主稿时间戳为 09-24 **01:14 CST**（早于本窗 08:09），本窗无更新 live 读数，hl.eco 失败。",
+    "依据": "待验证 — 对照昨媒 https://www.chaincatcher.com/article/2291702 ；窗外销毁稿 https://www.odaily.news/zh-CN/newsflash/519898",
+    "风险/反证": "把窗外销毁写成「今日新台阶」会误导；Strict List 拖延会削弱「已上线」观感。",
+    "置信度": "高（「本窗无 Strict List 官站 day-N」）；高（「$3.26M 主稿在窗外」）；低（「销毁趋势」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：昨窗「已部署」叙事本窗没有入口闭环；销毁数字勿当今日 live。\n- **为什么**：本窗官站/官号无「已进 Strict List」更新。非正式 spot（@496）dayNtl≈$1.92M、mark≈4.67。回购销毁约 $3.26M/24h 的 Odaily 主稿时间戳为 09-24 **01:14 CST**（早于本窗 08:09），本窗无更新 live 读数，hl.eco 失败。\n- **依据**：待验证 — 对照昨媒 https://www.chaincatcher.com/article/2291702 ；窗外销毁稿 https://www.odaily.news/zh-CN/newsflash/519898\n- **风险/反证**：把窗外销毁写成「今日新台阶」会误导；Strict List 拖延会削弱「已上线」观感。\n- **置信度**：高（「本窗无 Strict List 官站 day-N」）；高（「$3.26M 主稿在窗外」）；低（「销毁趋势」）。"
+  }
+ ],
+ "sections": [
+  {
+   "title": "今天怎么看",
+   "subsections": [],
+   "body_md": "本窗主戏在链外入口，币安宣布 HYPE 现货交易（Seed Tag），开放 HYPE/USDT、HYPE/USDC、HYPE/TRY，提现预计 09-25 11:00 UTC，同日接通 Earn、Margin 等。三官号与官站均无新用户公告；正式里程碑仍空。价格侧，媒体写上线后回落到约 $90–$92，本拍非正式 mark≈92.22。基础设施有两条可核一手。DoubleZero 面向 HL 交易者的光纤全订单簿行情，Docs peering 列表窗内列入；Paragon 上线 $2Y/$30Y 美债收益率永续（20x）。生态自述里 Nest epoch43 用 HYPE Engine Vault 回购近 $80k NEST 并发 HYPE 奖励，Bounce 称杠杆代币累计成交破 $400M。OI 仍是多口径。昨窗官宣 $18B（双边）继续被引用，本拍 API 自加总约 $12.83B，前端仍 7.2B。NEAR Spot 本窗仍无「已进 Strict List」官站 day-N。"
+  },
+  {
+   "title": "观点",
+   "subsections": [
+    {
+     "title": "1. 币安现货上线 HYPE（Seed Tag），提现约在 09-25 11:00 UTC",
+     "body_md": "- **结论**：本窗最硬的一手是币安 CMS 公告；HL 官号本窗无对应原帖。\n- **为什么**：Binance 公告写明 2026-09-24 11:00 UTC 开放三对现货，充值约提前 1 小时，提现预计次日 11:00 UTC；Listing Fee 0 BNB，挂 Seed Tag；同日 Earn / Buy Crypto / Convert / VIP Loan / Margin。ChainCatcher、TechFlow 跟进。HL 三官号本窗静默，故「上线」事实锚在 CEX 一手；协议方本窗无原帖。\n- **依据**：A 事实（一手 CMS）— https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d ；配套产品 https://www.binance.com/en/support/announcement/detail/1718842b00ee41479c763ef27b6312f0 ；中文跟进 https://www.chaincatcher.com/article/2291998 ；https://www.techflowpost.com/article/34240\n- **风险/反证**：Seed Tag 自带风险提示；提现时点若延误或开放后抛压放大，会改写「入口扩容」的短期读感。禁止把上线写成买卖建议。\n- **置信度**：高（「币安窗内宣布现货上线」）；中（「提现准时且无二次冲击」）。"
+    },
+    {
+     "title": "2. 上线后价格回到约 $90–$92；「卖出兑现」叙事升温但证据不全",
+     "body_md": "- **结论**：上新与即时涨价脱钩；本拍 mark 低于昨拍，媒体主写回落。\n- **为什么**：非正式 API 本拍 HYPE mark≈92.2184（昨拍≈94.14）。CryptoTimes 等写上线后跌破约 $90 一带；AltcoinBuzz 等跟进 Multicoin 向 Coinbase Prime 转入约 130k HYPE（Lookonchain），**未确认卖出**。$100 叙事在英文媒体明显退潮。\n- **依据**：非正式 API；A 叙事 — https://www.cryptotimes.io/2026/09/24/hype-price-slips-below-90-after-binance-opens-spot-trading/ ；https://www.altcoinbuzz.io/hype-drops-binance-listing-whale-transfers\n- **风险/反证**：拍点噪声大；转入托管≠卖出。把单一拍点差写成「趋势拐头」过满。\n- **置信度**：高（「本拍价格低于昨拍约 $94」）；中（「媒体同写上线后回落」）；低（「巨鲸已在卖」）。"
+    },
+    {
+     "title": "3. DoubleZero 光纤行情上线；Docs peering 列表窗内交叉列入",
+     "body_md": "- **结论**：做市/量化侧基础设施有一条可核的媒体+文档交叉。\n- **为什么**：Cointelegraph 09-24 报道 DoubleZero 为 HL 交易者提供全订单簿光纤 feed（含 trade[XYZ]）。同窗 Docs「foundation non-validating node」页 lastmod 更新，peering 列表出现 DoubleZero。这是延迟与接入叙事；本窗没有新交易功能官宣。\n- **依据**：A 事实 — https://cointelegraph.com/news/doublezero-brings-dedicated-fiber-market-data-hyperliquid-traders ；https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/nodes/foundation-non-validating-node-for-infra-providers\n- **风险/反证**：媒体稿≠普遍接入率；延迟优势需独立测速才能升格。\n- **置信度**：高（「稿与 Docs 窗内交叉存在」）；低（「已改变做市竞争格局」）。"
+    },
+    {
+     "title": "4. Paragon 上线 $2Y/$30Y 美债收益率永续；Nest epoch43 回购并发奖",
+     "body_md": "- **结论**：HIP-3 / 生态产品继续用「TradFi 收益与回购发奖」讲故事，均非 HL 官号背书。\n- **为什么**：tradeparagon 宣布 $2Y 与 $30Y 收益率永续上线，与既有 $10Y 并列，20x、24/7。NestExchange 称 epoch43 经 HYPE Engine Vault 回购近 $80k NEST；3151 veNEST 分得 360 HYPE，本 epoch 锁仓再奖 500 HYPE。BounceTech 另报杠杆代币累计成交破 $400M。\n- **依据**：A 事实自述 — https://x.com/tradeparagon/status/2103126961874928066 ；https://x.com/NestExchange/status/2103120246697504899 ；https://x.com/BounceTech/status/2103241284890550386\n- **风险/反证**：项目自报成交与回购口径可变；收益率永续定价噪声大。\n- **置信度**：中（「窗内自述存在」）；低（「规模可持续」）。"
+    },
+    {
+     "title": "5. HyperliquidPC：CFTC 口径下 mandatory records 可留公链",
+     "body_md": "- **结论**：监管叙事本窗有一条可点原帖；另有一则评论信报道落在窗边。\n- **为什么**：@HyperliquidPC 称 CFTC 允许 mandatory records 留在公链、无需另存链下副本，并澄清客户资金投资口径。Skew 等二传「链上收据即有效收据」。Odaily 另报 Hyperliquid×Phantom 向 CFTC 提交评论信（主张协议开发者不应视为金融中介），时间戳约 **08:11 CST**，相对窗末 08:09 **略超约 2 分钟**，仅作窗边备忘。\n- **依据**：A 事实 — https://x.com/HyperliquidPC/status/2103239348804293099 ；窗边 https://www.odaily.news/zh-CN/newsflash/520206\n- **风险/反证**：Policy Center / 媒体转述≠最终规则文本；窗边稿勿升窗内主簇。\n- **置信度**：中（「PC 原帖窗内存在」）；低（「监管已定调」）；窗边评论信不计入高置信。"
+    },
+    {
+     "title": "6. OI 多口径续：昨官宣 $18B 仍被引，本拍 API≈$12.83B",
+     "body_md": "- **结论**：口径冲突没有因上线新闻消失；本窗无新的官方 OI 里程碑。\n- **为什么**：昨窗 @HyperliquidX 宣布 OI ATH $18B 并注明双边加总，本窗媒体与讨论仍引用该数。本拍 info API 对 234 个永续自加总 OI≈$12.83B、dayNtl≈$8.58B（非正式，拍点 2026-09-25T00:11:08Z）。前端 24H 仍 7.2B（疑占位）。hl.eco Turnstile，无法用看板仲裁。\n- **依据**：冲突 — 非正式 API；昨 S 官宣见 09-24 日报链接 https://x.com/HyperliquidX/status/2102643437896110439\n- **风险/反证**：禁止把拍点差写成「OI 一夜蒸发」；双边与第三方单边不可直接比。\n- **置信度**：高（「多口径并存」）；低（「哪一口径最接近某类真值」）。"
+    },
+    {
+     "title": "7. NEAR Spot 仍无 Strict List 官站 day-N；销毁主稿在窗外",
+     "body_md": "- **结论**：昨窗「已部署」叙事本窗没有入口闭环；销毁数字勿当今日 live。\n- **为什么**：本窗官站/官号无「已进 Strict List」更新。非正式 spot（@496）dayNtl≈$1.92M、mark≈4.67。回购销毁约 $3.26M/24h 的 Odaily 主稿时间戳为 09-24 **01:14 CST**（早于本窗 08:09），本窗无更新 live 读数，hl.eco 失败。\n- **依据**：待验证 — 对照昨媒 https://www.chaincatcher.com/article/2291702 ；窗外销毁稿 https://www.odaily.news/zh-CN/newsflash/519898\n- **风险/反证**：把窗外销毁写成「今日新台阶」会误导；Strict List 拖延会削弱「已上线」观感。\n- **置信度**：高（「本窗无 Strict List 官站 day-N」）；高（「$3.26M 主稿在窗外」）；低（「销毁趋势」）。"
+    }
+   ],
+   "body_md": ""
+  },
+  {
+   "title": "社区共鸣点",
+   "subsections": [
+    {
+     "title": "可核情绪线索",
+     "body_md": "1. **最希望听到：币安提现是否按时开、上线后抛压怎么读**  \n   - **证据**：CMS 写提现预计 09-25 11:00 UTC；多媒写价格回落至约 $90–$92；巨鲸转入未确认卖出。  \n   - **推断**（非编造情绪）：读者要的是提现时点与资金流向。  \n   - **层级**：A  \n   - **代表链接**：https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d ；https://www.cryptotimes.io/2026/09/24/hype-price-slips-below-90-after-binance-opens-spot-trading/\n\n2. **共鸣点：CEX 安全事件对比下的「链上更安全」**  \n   - **证据**：Outcome 推 Bitget「潜在被盗超 $100M」事件盘（传闻层）；中文可用帖 skyguoCypherium 挂 CEX 被盗对比 HL/Uniswap。  \n   - **推断**：安全对比话术升温，但样本薄，且事件金额待主网确认。  \n   - **层级**：A 传闻 + C（弱）  \n   - **代表链接**：https://x.com/Outcomexyz/status/2103218584369689058 ；https://x.com/skyguoCypherium/status/2103247148645077323\n\n3. **注意力落点：Elysium / Ascend 参与预期；「币安+HL 够了」**  \n   - **证据**：过滤后中文帖谈 AscendLaunch / Elysium L2 与免费 NFT 预期；另有「币安+HL 够了」类表述。  \n   - **推断**：参与型叙事仍在，但有效讨论稀，勿升「主线共识」。  \n   - **层级**：C（弱）  \n   - **代表链接**：https://x.com/yaoyaogm/status/2103222422300401807  \n   - **样本说明**：有效中文 X 样本不足。RiverdotInc / 返佣模板禁止当情绪。\n\n4. **相对近几日的转移：从「OI/NEAR/销毁」转到「CEX 入口与兑现」**  \n   - **证据**：主簇换成币安上线与回落；OI $18B、NEAR Strict List、销毁 live 本窗无新一手。  \n   - **推断**：媒体议程已切；社区有机帖能否跟上尚不确定。  \n   - **层级**：弱信号 + 污染说明  \n   - **代表链接**：https://www.techflowpost.com/article/34240"
+    }
+   ],
+   "body_md": "总判断：中文 X 首查 20 条污染极重（RiverdotInc 同构模板、返佣跟单、时尚「Hype²」误匹配）。过滤后再取 15 条，有机略好但**样本仍偏薄**，禁止写成「全社区共识」。中文媒体注意力明确转向：币安现货上线 HYPE，以及上线后回落至约 $90–$92。相对近几日「OI 怎么算 / NEAR 列表入口 / 销毁下台阶」，本窗更常问提现是否准时，上线后谁在卖，以及链上是不是比 CEX 更安全。信息缺口仍在，包括提现到账与 Strict List、今日销毁 live，以及官推 $18B 对照和 9/29 解锁官方确认。Foresight 源本窗失败。"
+  },
+  {
+   "title": "少数派",
+   "subsections": [],
+   "body_md": "- **dayNtl 从昨拍约 $9.80B 落到约 $8.58B**：上线新闻日名义成交拍点下行，少数看法会读成「热度未跟上入口叙事」。缺连续官方序列，本台不抬成结论。\n- **Outcome Bitget 事件盘**：若金额被主网确认，会强化「CEX→链上」情绪；若证伪或大幅缩水，则只是刷屏。目前停在传闻层。\n- **窗边 CFTC 评论信**：时间略超窗末，可能只是监管长线材料的一次露出；也可能预示本周监管讨论升温。证据仍薄，且略出窗。"
+  },
+  {
+   "title": "附录 · Phase1 素材摘要",
+   "subsections": [],
+   "body_md": "见同目录 `phase1-merged.md`（事件簇 / 主题分布 / 冲突草稿 / 待验证假设 / 关键数字 / 分层计数 / 失败源）。\n\n**本拍非正式**（UTC 2026-09-25T00:11:08Z，234 资产）：OI≈$12.83B；dayNtl≈$8.58B；HYPE mark≈92.22；HYPE OI≈$1.94B；前端 7.2B 疑占位；正式里程碑无。\n\n**采集失败摘要**：S 三官号静默；hl.eco Turnstile；Discord 不可采；foresight 567/DNS；FOCUS list 假阴性；中文 X 污染严重；foundation 空壳。**未用旧快照。** X 花费约 $0.45。窗边：CFTC 评论信 Odaily 08:11 CST（约超窗末 2 分钟）。窗外：销毁 $3.26M 主稿 01:14 CST。"
+  }
+ ],
+ "source": {
+  "type": "hl-intel-daily",
+  "label": "HL 情报台日报",
+  "file": "/workspace/hl-daily-2026-09-25/daily-final.md",
+  "file_mtime": "2026-10-07T15:25:09+08:00"
+ },
+ "parse": {
+  "format": "v2-list-fields",
+  "warnings": []
+ }
+}

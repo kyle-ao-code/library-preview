@@ -1,0 +1,470 @@
+{
+ "date": "2026-09-21",
+ "title": "过去24h Hyperliquid 情报日报（2026-09-21）",
+ "window": {
+  "raw": "窗：Asia/Shanghai 2026-09-20 08:13 → 2026-09-21 08:13",
+  "start": "2026-09-20 08:13",
+  "end": "2026-09-21 08:13",
+  "tz": "Asia/Shanghai"
+ },
+ "notes": [],
+ "today": [
+  "官号继续静默：HyperliquidX 与 jeff、HyperFND 窗内均为 0 帖；官站与 Foundation 无新公告正文，正式里程碑仍无。主传播从「ATH + 利好汇总」挪到借贷的余波解读。深潮等窗内深度文在谈 Manual Borrow 把 HYPE 变成抵押品后的反身性与清算风险；首日 $269M 仍被复述，官站没有 day-2/day-3 借入余额。价格侧 info API 本拍 HYPE mark≈$94.22，ECO 二传喊冲 $100。OI 仍多口径并存：窗内媒体多写破 $8B，窗外曾报 $16.36B ATH，本拍 API 自加总≈$12.80B，前端 24H 仍显示 7.2B（疑占位）。ECO 侧 Nest 高 APR、回购营收排行、二次空投与 PURR 猜想热闹，Outcome/Liquid 本窗一手不足。"
+ ],
+ "views": [
+  {
+   "num": 1,
+   "title": "官号与官网静默，借贷深度复盘在替「新进展」占版面",
+   "conclusion": null,
+   "why": "S 层三官号窗内 0 帖。hyperliquid.xyz 与 app 公告页无可读新正文，Foundation 仍是空壳。窗内中文主稿变成 TechFlow/MarsBit/TokenPost 对 Manual Borrow 的机制与风险复述，容易让读者误以为「今天又有官方更新」。",
+   "basis": "S 静默（事实）— https://hyperliquid.xyz ；窗内深度复盘 A 叙事 — https://www.techflowpost.com/zh-TW/article/34099 ；辅 https://tw.tokenpost.com/news/blockchain/47286",
+   "risk": "静默不等于产品停摆；Discord 公告不可采，可能有渠道漏采。",
+   "confidence": "高（「本窗无官站/官号新公告正文」）；低（对「借贷热度是否降温」）。",
+   "links": [
+    {
+     "text": "S 静默（事实）",
+     "url": "https://hyperliquid.xyz",
+     "field": "依据"
+    },
+    {
+     "text": "窗内深度复盘 A 叙事",
+     "url": "https://www.techflowpost.com/zh-TW/article/34099",
+     "field": "依据"
+    },
+    {
+     "text": "辅",
+     "url": "https://tw.tokenpost.com/news/blockchain/47286",
+     "field": "依据"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [
+    "A",
+    "S"
+   ],
+   "fields": {
+    "为什么": "S 层三官号窗内 0 帖。hyperliquid.xyz 与 app 公告页无可读新正文，Foundation 仍是空壳。窗内中文主稿变成 TechFlow/MarsBit/TokenPost 对 Manual Borrow 的机制与风险复述，容易让读者误以为「今天又有官方更新」。",
+    "依据": "S 静默（事实）— https://hyperliquid.xyz ；窗内深度复盘 A 叙事 — https://www.techflowpost.com/zh-TW/article/34099 ；辅 https://tw.tokenpost.com/news/blockchain/47286",
+    "风险/反证": "静默不等于产品停摆；Discord 公告不可采，可能有渠道漏采。",
+    "置信度": "高（「本窗无官站/官号新公告正文」）；低（对「借贷热度是否降温」）。"
+   },
+   "field_order": [
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "**为什么**：S 层三官号窗内 0 帖。hyperliquid.xyz 与 app 公告页无可读新正文，Foundation 仍是空壳。窗内中文主稿变成 TechFlow/MarsBit/TokenPost 对 Manual Borrow 的机制与风险复述，容易让读者误以为「今天又有官方更新」。\n**依据**：S 静默（事实）— https://hyperliquid.xyz ；窗内深度复盘 A 叙事 — https://www.techflowpost.com/zh-TW/article/34099 ；辅 https://tw.tokenpost.com/news/blockchain/47286\n**风险/反证**：静默不等于产品停摆；Discord 公告不可采，可能有渠道漏采。\n**置信度**：高（「本窗无官站/官号新公告正文」）；低（对「借贷热度是否降温」）。"
+  },
+  {
+   "num": 2,
+   "title": "Manual Borrow：一手仍在 9/18，$269M 被窗内复述，官站无 day-2 余额",
+   "conclusion": null,
+   "why": "Docs FAQ 仍可读（HYPE LTV 65%/清算 82.5%，BTC 50%/75%），无日戳 changelog 证明本窗更新。唯一带官方自述出处的借入合计仍是 9/18 当日约 $269M；窗内中英文继续复读该数，未见官站给出新余额。深度文重心转到「抵押品身份 → 价格与清算反身性」。",
+   "basis": "S 文档事实（无窗内日戳）— https://hyperliquid.gitbook.io/hyperliquid-docs/support/faq/manual-borrows ；窗外一手（降权引用）— https://cointelegraph.com/markets/hype-ath-above-90-hyperliquid-manual-borrowing-lending ；窗内复述 A 叙事/待验证 — https://www.techflowpost.com/zh-TW/article/34099 ；https://news.marsbit.co/20260920105014078692.html",
+   "risk": "$269M 是否含 PM、是否仍接近当前余额，均无法用官站交叉；禁止把复述当新里程碑。",
+   "confidence": "高（「本窗无正式借入余额更新」）；中（对反身性讨论在中文媒体升温）。",
+   "links": [
+    {
+     "text": "S 文档事实（无窗内日戳）",
+     "url": "https://hyperliquid.gitbook.io/hyperliquid-docs/support/faq/manual-borrows",
+     "field": "依据"
+    },
+    {
+     "text": "窗外一手（降权引用）",
+     "url": "https://cointelegraph.com/markets/hype-ath-above-90-hyperliquid-manual-borrowing-lending",
+     "field": "依据"
+    },
+    {
+     "text": "窗内复述 A 叙事/待验证",
+     "url": "https://www.techflowpost.com/zh-TW/article/34099",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://news.marsbit.co/20260920105014078692.html",
+     "field": "依据"
+    }
+   ],
+   "uncertain": true,
+   "markers": [
+    "待验证"
+   ],
+   "markers_by_field": {
+    "依据": [
+     "待验证"
+    ]
+   },
+   "basis_layers": [
+    "A",
+    "S"
+   ],
+   "fields": {
+    "为什么": "Docs FAQ 仍可读（HYPE LTV 65%/清算 82.5%，BTC 50%/75%），无日戳 changelog 证明本窗更新。唯一带官方自述出处的借入合计仍是 9/18 当日约 $269M；窗内中英文继续复读该数，未见官站给出新余额。深度文重心转到「抵押品身份 → 价格与清算反身性」。",
+    "依据": "S 文档事实（无窗内日戳）— https://hyperliquid.gitbook.io/hyperliquid-docs/support/faq/manual-borrows ；窗外一手（降权引用）— https://cointelegraph.com/markets/hype-ath-above-90-hyperliquid-manual-borrowing-lending ；窗内复述 A 叙事/待验证 — https://www.techflowpost.com/zh-TW/article/34099 ；https://news.marsbit.co/20260920105014078692.html",
+    "风险/反证": "$269M 是否含 PM、是否仍接近当前余额，均无法用官站交叉；禁止把复述当新里程碑。",
+    "置信度": "高（「本窗无正式借入余额更新」）；中（对反身性讨论在中文媒体升温）。"
+   },
+   "field_order": [
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "**为什么**：Docs FAQ 仍可读（HYPE LTV 65%/清算 82.5%，BTC 50%/75%），无日戳 changelog 证明本窗更新。唯一带官方自述出处的借入合计仍是 9/18 当日约 $269M；窗内中英文继续复读该数，未见官站给出新余额。深度文重心转到「抵押品身份 → 价格与清算反身性」。\n**依据**：S 文档事实（无窗内日戳）— https://hyperliquid.gitbook.io/hyperliquid-docs/support/faq/manual-borrows ；窗外一手（降权引用）— https://cointelegraph.com/markets/hype-ath-above-90-hyperliquid-manual-borrowing-lending ；窗内复述 A 叙事/待验证 — https://www.techflowpost.com/zh-TW/article/34099 ；https://news.marsbit.co/20260920105014078692.html\n**风险/反证**：$269M 是否含 PM、是否仍接近当前余额，均无法用官站交叉；禁止把复述当新里程碑。\n**置信度**：高（「本窗无正式借入余额更新」）；中（对反身性讨论在中文媒体升温）。"
+  },
+  {
+   "num": 3,
+   "title": "HYPE mark≈$94.22，冲 $100 叙事在 ECO/中文喊单，缺官号背书",
+   "conclusion": null,
+   "why": "本拍 info API 抽检 HYPE mark≈$94.22（非正式）。ECO @HypedLaunches 称约 $91、24h +16.9%、冲 $100；中文有「极有可能大阳线、已入场」喊单。价格数字来自行情源与二传，非 S 层确认；与借贷、回购故事同框不等于因果。",
+   "basis": "非正式 API 拍点（事实，非正式里程碑）+ A/C 叙事 — https://x.com/HypedLaunches/status/2101782628424900899 ；中文喊单例 https://x.com/Gabby0o0/status/2101824645682913299 ；媒体窗内价位例 https://www.coingabbar.com/en/hyperliquid-news-today-hype-burn-open-interest-record",
+   "risk": "不同源 mark/现货价差；喊单样本薄，且中文时间线有水军污染。",
+   "confidence": "中（对「本拍 mark 约 $94」）；低（对「将冲 $100 / 由借贷驱动」）。",
+   "links": [
+    {
+     "text": "非正式 API 拍点（事实，非正式里程碑）+ A/C 叙事",
+     "url": "https://x.com/HypedLaunches/status/2101782628424900899",
+     "field": "依据"
+    },
+    {
+     "text": "中文喊单例",
+     "url": "https://x.com/Gabby0o0/status/2101824645682913299",
+     "field": "依据"
+    },
+    {
+     "text": "媒体窗内价位例",
+     "url": "https://www.coingabbar.com/en/hyperliquid-news-today-hype-burn-open-interest-record",
+     "field": "依据"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [
+    "A",
+    "C"
+   ],
+   "fields": {
+    "为什么": "本拍 info API 抽检 HYPE mark≈$94.22（非正式）。ECO @HypedLaunches 称约 $91、24h +16.9%、冲 $100；中文有「极有可能大阳线、已入场」喊单。价格数字来自行情源与二传，非 S 层确认；与借贷、回购故事同框不等于因果。",
+    "依据": "非正式 API 拍点（事实，非正式里程碑）+ A/C 叙事 — https://x.com/HypedLaunches/status/2101782628424900899 ；中文喊单例 https://x.com/Gabby0o0/status/2101824645682913299 ；媒体窗内价位例 https://www.coingabbar.com/en/hyperliquid-news-today-hype-burn-open-interest-record",
+    "风险/反证": "不同源 mark/现货价差；喊单样本薄，且中文时间线有水军污染。",
+    "置信度": "中（对「本拍 mark 约 $94」）；低（对「将冲 $100 / 由借贷驱动」）。"
+   },
+   "field_order": [
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "**为什么**：本拍 info API 抽检 HYPE mark≈$94.22（非正式）。ECO @HypedLaunches 称约 $91、24h +16.9%、冲 $100；中文有「极有可能大阳线、已入场」喊单。价格数字来自行情源与二传，非 S 层确认；与借贷、回购故事同框不等于因果。\n**依据**：非正式 API 拍点（事实，非正式里程碑）+ A/C 叙事 — https://x.com/HypedLaunches/status/2101782628424900899 ；中文喊单例 https://x.com/Gabby0o0/status/2101824645682913299 ；媒体窗内价位例 https://www.coingabbar.com/en/hyperliquid-news-today-hype-burn-open-interest-record\n**风险/反证**：不同源 mark/现货价差；喊单样本薄，且中文时间线有水军污染。\n**置信度**：中（对「本拍 mark 约 $94」）；低（对「将冲 $100 / 由借贷驱动」）。"
+  },
+  {
+   "num": 4,
+   "title": "OI 多口径冲突未解：媒体 $8B / 窗外 $16.36B / API≈$12.80B / 前端 7.2B",
+   "conclusion": null,
+   "why": "窗内 CoinGabbar、WalletInvestor 等写 OI 破 $8B「纪录」；窗外 Gate/Lookonchain 等曾报约 $16.36B ATH；本拍 info API 对 234 个 perp 自加总 OI≈$12.80B、dayNtl≈$5.36B。官前端 24H volume 仍显示 7.2B，与 API 与常见媒体口径都不一致，按规则标疑占位。正式里程碑页仍无。",
+   "basis": "A 待验证（媒体）— https://walletinvestor.com/news/crypto-news/hyperliquid-open-interest-clears-8b-as-revenue-and-new-lending-feature-drive-hype-toward-record/ ；窗外 ATH 例 https://www.gate.com/news/detail/hyperliquid-open-interest-hits-record-1636-billion-up-from-2025-peak-24396358 ；非正式 API 自加总（采集侧）；前端 https://hyperliquid.xyz",
+   "risk": "各口径资产范围、mark 时点、是否含某类合约均不明；hl.eco Turnstile 未取得，无法用官方看板仲裁。B/C 不单撑高置信。",
+   "confidence": "高（「冲突存在」）；低（对「哪边接近真值」）。",
+   "links": [
+    {
+     "text": "A 待验证（媒体）",
+     "url": "https://walletinvestor.com/news/crypto-news/hyperliquid-open-interest-clears-8b-as-revenue-and-new-lending-feature-drive-hype-toward-record/",
+     "field": "依据"
+    },
+    {
+     "text": "窗外 ATH 例",
+     "url": "https://www.gate.com/news/detail/hyperliquid-open-interest-hits-record-1636-billion-up-from-2025-peak-24396358",
+     "field": "依据"
+    },
+    {
+     "text": "前端",
+     "url": "https://hyperliquid.xyz",
+     "field": "依据"
+    }
+   ],
+   "uncertain": true,
+   "markers": [
+    "待验证"
+   ],
+   "markers_by_field": {
+    "依据": [
+     "待验证"
+    ]
+   },
+   "basis_layers": [
+    "A"
+   ],
+   "fields": {
+    "为什么": "窗内 CoinGabbar、WalletInvestor 等写 OI 破 $8B「纪录」；窗外 Gate/Lookonchain 等曾报约 $16.36B ATH；本拍 info API 对 234 个 perp 自加总 OI≈$12.80B、dayNtl≈$5.36B。官前端 24H volume 仍显示 7.2B，与 API 与常见媒体口径都不一致，按规则标疑占位。正式里程碑页仍无。",
+    "依据": "A 待验证（媒体）— https://walletinvestor.com/news/crypto-news/hyperliquid-open-interest-clears-8b-as-revenue-and-new-lending-feature-drive-hype-toward-record/ ；窗外 ATH 例 https://www.gate.com/news/detail/hyperliquid-open-interest-hits-record-1636-billion-up-from-2025-peak-24396358 ；非正式 API 自加总（采集侧）；前端 https://hyperliquid.xyz",
+    "风险/反证": "各口径资产范围、mark 时点、是否含某类合约均不明；hl.eco Turnstile 未取得，无法用官方看板仲裁。B/C 不单撑高置信。",
+    "置信度": "高（「冲突存在」）；低（对「哪边接近真值」）。"
+   },
+   "field_order": [
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "**为什么**：窗内 CoinGabbar、WalletInvestor 等写 OI 破 $8B「纪录」；窗外 Gate/Lookonchain 等曾报约 $16.36B ATH；本拍 info API 对 234 个 perp 自加总 OI≈$12.80B、dayNtl≈$5.36B。官前端 24H volume 仍显示 7.2B，与 API 与常见媒体口径都不一致，按规则标疑占位。正式里程碑页仍无。\n**依据**：A 待验证（媒体）— https://walletinvestor.com/news/crypto-news/hyperliquid-open-interest-clears-8b-as-revenue-and-new-lending-feature-drive-hype-toward-record/ ；窗外 ATH 例 https://www.gate.com/news/detail/hyperliquid-open-interest-hits-record-1636-billion-up-from-2025-peak-24396358 ；非正式 API 自加总（采集侧）；前端 https://hyperliquid.xyz\n**风险/反证**：各口径资产范围、mark 时点、是否含某类合约均不明；hl.eco Turnstile 未取得，无法用官方看板仲裁。B/C 不单撑高置信。\n**置信度**：高（「冲突存在」）；低（对「哪边接近真值」）。"
+  },
+  {
+   "num": 5,
+   "title": "Nest 报 HyperEVM 高 APR，$NEST 上涨与目标价经二传放大",
+   "conclusion": null,
+   "why": "FOCUS list 本窗 0（假阴性）；`from:NestExchange` 抽中 1 帖，喊 LP 部分 HyperEVM 币。ECO 二传给出多池 APR（如 $NEST/$USDC 411%、$HPL/$HYPE 629% 等）并自述高风险；另有 $NEST≈$0.0144(+23%) 与 chromatique 目标价叙事。属生态产品自述加聚合号营销，非 HL 官宣。",
+   "basis": "A 产品自述事实/叙事 — https://x.com/NestExchange/status/2101671790749585533 ；二传 APR https://x.com/HypedLaunches/status/2101782976887726249 ；价格叙事 https://x.com/HypedLaunches/status/2101783195138371856",
+   "risk": "APR 随排放与 TVL 快变；聚合号有发射营销倾向；须对 Nest/池子面板核验。",
+   "confidence": "中（对「Nest 窗内有原创产品帖」）；低（对具体 APR/目标价数字）。",
+   "links": [
+    {
+     "text": "A 产品自述事实/叙事",
+     "url": "https://x.com/NestExchange/status/2101671790749585533",
+     "field": "依据"
+    },
+    {
+     "text": "二传 APR",
+     "url": "https://x.com/HypedLaunches/status/2101782976887726249",
+     "field": "依据"
+    },
+    {
+     "text": "价格叙事",
+     "url": "https://x.com/HypedLaunches/status/2101783195138371856",
+     "field": "依据"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [
+    "A"
+   ],
+   "fields": {
+    "为什么": "FOCUS list 本窗 0（假阴性）；`from:NestExchange` 抽中 1 帖，喊 LP 部分 HyperEVM 币。ECO 二传给出多池 APR（如 $NEST/$USDC 411%、$HPL/$HYPE 629% 等）并自述高风险；另有 $NEST≈$0.0144(+23%) 与 chromatique 目标价叙事。属生态产品自述加聚合号营销，非 HL 官宣。",
+    "依据": "A 产品自述事实/叙事 — https://x.com/NestExchange/status/2101671790749585533 ；二传 APR https://x.com/HypedLaunches/status/2101782976887726249 ；价格叙事 https://x.com/HypedLaunches/status/2101783195138371856",
+    "风险/反证": "APR 随排放与 TVL 快变；聚合号有发射营销倾向；须对 Nest/池子面板核验。",
+    "置信度": "中（对「Nest 窗内有原创产品帖」）；低（对具体 APR/目标价数字）。"
+   },
+   "field_order": [
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "**为什么**：FOCUS list 本窗 0（假阴性）；`from:NestExchange` 抽中 1 帖，喊 LP 部分 HyperEVM 币。ECO 二传给出多池 APR（如 $NEST/$USDC 411%、$HPL/$HYPE 629% 等）并自述高风险；另有 $NEST≈$0.0144(+23%) 与 chromatique 目标价叙事。属生态产品自述加聚合号营销，非 HL 官宣。\n**依据**：A 产品自述事实/叙事 — https://x.com/NestExchange/status/2101671790749585533 ；二传 APR https://x.com/HypedLaunches/status/2101782976887726249 ；价格叙事 https://x.com/HypedLaunches/status/2101783195138371856\n**风险/反证**：APR 随排放与 TVL 快变；聚合号有发射营销倾向；须对 Nest/池子面板核验。\n**置信度**：中（对「Nest 窗内有原创产品帖」）；低（对具体 APR/目标价数字）。"
+  },
+  {
+   "num": 6,
+   "title": "ECO 回购营收排行、二次空投与 PURR→赚 HYPE：待验证/传闻居多",
+   "conclusion": null,
+   "why": "同一聚合号连续发：YTD 营收≈$429M（CoinGecko 归因）、日均回购≈$1.47M、质押约 4.4 亿@APR≈2.2%；另推「二次空投」供给结构猜想，以及「买 PURR 赚 HYPE？」并自述等官确。hl.eco 未取得，无法交叉销毁/回购看板。",
+   "basis": "A/C 待验证/传闻 — https://x.com/HypedLaunches/status/2101760102697193829 ；回购表 https://x.com/HypedLaunches/status/2101763865159614917 ；二次空投 https://x.com/HypedLaunches/status/2101764418405372262 ；PURR https://x.com/HypedLaunches/status/2101783548864692433",
+   "risk": "单一二传源反复发；数字归因非官宣；禁止写入正式里程碑。",
+   "confidence": "低。",
+   "links": [
+    {
+     "text": "A/C 待验证/传闻",
+     "url": "https://x.com/HypedLaunches/status/2101760102697193829",
+     "field": "依据"
+    },
+    {
+     "text": "回购表",
+     "url": "https://x.com/HypedLaunches/status/2101763865159614917",
+     "field": "依据"
+    },
+    {
+     "text": "二次空投",
+     "url": "https://x.com/HypedLaunches/status/2101764418405372262",
+     "field": "依据"
+    },
+    {
+     "text": "PURR",
+     "url": "https://x.com/HypedLaunches/status/2101783548864692433",
+     "field": "依据"
+    }
+   ],
+   "uncertain": true,
+   "markers": [
+    "待验证",
+    "传闻"
+   ],
+   "markers_by_field": {
+    "依据": [
+     "待验证",
+     "传闻"
+    ],
+    "标题": [
+     "待验证",
+     "传闻"
+    ]
+   },
+   "basis_layers": [
+    "A",
+    "C"
+   ],
+   "fields": {
+    "为什么": "同一聚合号连续发：YTD 营收≈$429M（CoinGecko 归因）、日均回购≈$1.47M、质押约 4.4 亿@APR≈2.2%；另推「二次空投」供给结构猜想，以及「买 PURR 赚 HYPE？」并自述等官确。hl.eco 未取得，无法交叉销毁/回购看板。",
+    "依据": "A/C 待验证/传闻 — https://x.com/HypedLaunches/status/2101760102697193829 ；回购表 https://x.com/HypedLaunches/status/2101763865159614917 ；二次空投 https://x.com/HypedLaunches/status/2101764418405372262 ；PURR https://x.com/HypedLaunches/status/2101783548864692433",
+    "风险/反证": "单一二传源反复发；数字归因非官宣；禁止写入正式里程碑。",
+    "置信度": "低。"
+   },
+   "field_order": [
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "**为什么**：同一聚合号连续发：YTD 营收≈$429M（CoinGecko 归因）、日均回购≈$1.47M、质押约 4.4 亿@APR≈2.2%；另推「二次空投」供给结构猜想，以及「买 PURR 赚 HYPE？」并自述等官确。hl.eco 未取得，无法交叉销毁/回购看板。\n**依据**：A/C 待验证/传闻 — https://x.com/HypedLaunches/status/2101760102697193829 ；回购表 https://x.com/HypedLaunches/status/2101763865159614917 ；二次空投 https://x.com/HypedLaunches/status/2101764418405372262 ；PURR https://x.com/HypedLaunches/status/2101783548864692433\n**风险/反证**：单一二传源反复发；数字归因非官宣；禁止写入正式里程碑。\n**置信度**：低。"
+  },
+  {
+   "num": 7,
+   "title": "鲸鱼约 $89.45 亿 L/S≈0.91、销毁≈$2.42M：第三方待核；Outcome/Liquid 窗内一手不足",
+   "conclusion": null,
+   "why": "ChainCatcher 窗内据 Coinglass 报鲸鱼持仓约 $89.45 亿、多 $42.67 亿/空 $46.79 亿、多空比约 0.91。销毁约 26.31k HYPE≈$2.42M 一手监测多在窗外，窗内多为英文聚合复述；hl.eco 未取得。Outcome/Liquid/Share 预测市场激励：web 无稳定窗内一手；X 侧 from 抽检 Outcomexyz/OutcomeMarkets=0，Liquid 准确 handle 本轮未知。",
+   "basis": "A 待验证 — https://www.chaincatcher.com/article/2291021 ；销毁窗外一手例 https://www.cryptotimes.io/2026/09/19/hyperliquid-burns-26-31k-hype-worth-2-42m-in-24-hours/ ；Outcome/Liquid 窗内一手：**暂无稳定链接**",
+   "risk": "持仓榜标签与时效、销毁 VWAP 口径均可改读法；不可单独撑方向或「基本面验证」。",
+   "confidence": "低。",
+   "links": [
+    {
+     "text": "A 待验证",
+     "url": "https://www.chaincatcher.com/article/2291021",
+     "field": "依据"
+    },
+    {
+     "text": "销毁窗外一手例",
+     "url": "https://www.cryptotimes.io/2026/09/19/hyperliquid-burns-26-31k-hype-worth-2-42m-in-24-hours/",
+     "field": "依据"
+    }
+   ],
+   "uncertain": true,
+   "markers": [
+    "待验证"
+   ],
+   "markers_by_field": {
+    "依据": [
+     "待验证"
+    ]
+   },
+   "basis_layers": [
+    "A"
+   ],
+   "fields": {
+    "为什么": "ChainCatcher 窗内据 Coinglass 报鲸鱼持仓约 $89.45 亿、多 $42.67 亿/空 $46.79 亿、多空比约 0.91。销毁约 26.31k HYPE≈$2.42M 一手监测多在窗外，窗内多为英文聚合复述；hl.eco 未取得。Outcome/Liquid/Share 预测市场激励：web 无稳定窗内一手；X 侧 from 抽检 Outcomexyz/OutcomeMarkets=0，Liquid 准确 handle 本轮未知。",
+    "依据": "A 待验证 — https://www.chaincatcher.com/article/2291021 ；销毁窗外一手例 https://www.cryptotimes.io/2026/09/19/hyperliquid-burns-26-31k-hype-worth-2-42m-in-24-hours/ ；Outcome/Liquid 窗内一手：**暂无稳定链接**",
+    "风险/反证": "持仓榜标签与时效、销毁 VWAP 口径均可改读法；不可单独撑方向或「基本面验证」。",
+    "置信度": "低。"
+   },
+   "field_order": [
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "**为什么**：ChainCatcher 窗内据 Coinglass 报鲸鱼持仓约 $89.45 亿、多 $42.67 亿/空 $46.79 亿、多空比约 0.91。销毁约 26.31k HYPE≈$2.42M 一手监测多在窗外，窗内多为英文聚合复述；hl.eco 未取得。Outcome/Liquid/Share 预测市场激励：web 无稳定窗内一手；X 侧 from 抽检 Outcomexyz/OutcomeMarkets=0，Liquid 准确 handle 本轮未知。\n**依据**：A 待验证 — https://www.chaincatcher.com/article/2291021 ；销毁窗外一手例 https://www.cryptotimes.io/2026/09/19/hyperliquid-burns-26-31k-hype-worth-2-42m-in-24-hours/ ；Outcome/Liquid 窗内一手：**暂无稳定链接**\n**风险/反证**：持仓榜标签与时效、销毁 VWAP 口径均可改读法；不可单独撑方向或「基本面验证」。\n**置信度**：低。"
+  }
+ ],
+ "sections": [
+  {
+   "title": "今天怎么看",
+   "subsections": [],
+   "body_md": "官号继续静默：HyperliquidX 与 jeff、HyperFND 窗内均为 0 帖；官站与 Foundation 无新公告正文，正式里程碑仍无。主传播从「ATH + 利好汇总」挪到借贷的余波解读。深潮等窗内深度文在谈 Manual Borrow 把 HYPE 变成抵押品后的反身性与清算风险；首日 $269M 仍被复述，官站没有 day-2/day-3 借入余额。价格侧 info API 本拍 HYPE mark≈$94.22，ECO 二传喊冲 $100。OI 仍多口径并存：窗内媒体多写破 $8B，窗外曾报 $16.36B ATH，本拍 API 自加总≈$12.80B，前端 24H 仍显示 7.2B（疑占位）。ECO 侧 Nest 高 APR、回购营收排行、二次空投与 PURR 猜想热闹，Outcome/Liquid 本窗一手不足。"
+  },
+  {
+   "title": "观点",
+   "subsections": [
+    {
+     "title": "1. 官号与官网静默，借贷深度复盘在替「新进展」占版面",
+     "body_md": "**为什么**：S 层三官号窗内 0 帖。hyperliquid.xyz 与 app 公告页无可读新正文，Foundation 仍是空壳。窗内中文主稿变成 TechFlow/MarsBit/TokenPost 对 Manual Borrow 的机制与风险复述，容易让读者误以为「今天又有官方更新」。\n**依据**：S 静默（事实）— https://hyperliquid.xyz ；窗内深度复盘 A 叙事 — https://www.techflowpost.com/zh-TW/article/34099 ；辅 https://tw.tokenpost.com/news/blockchain/47286\n**风险/反证**：静默不等于产品停摆；Discord 公告不可采，可能有渠道漏采。\n**置信度**：高（「本窗无官站/官号新公告正文」）；低（对「借贷热度是否降温」）。"
+    },
+    {
+     "title": "2. Manual Borrow：一手仍在 9/18，$269M 被窗内复述，官站无 day-2 余额",
+     "body_md": "**为什么**：Docs FAQ 仍可读（HYPE LTV 65%/清算 82.5%，BTC 50%/75%），无日戳 changelog 证明本窗更新。唯一带官方自述出处的借入合计仍是 9/18 当日约 $269M；窗内中英文继续复读该数，未见官站给出新余额。深度文重心转到「抵押品身份 → 价格与清算反身性」。\n**依据**：S 文档事实（无窗内日戳）— https://hyperliquid.gitbook.io/hyperliquid-docs/support/faq/manual-borrows ；窗外一手（降权引用）— https://cointelegraph.com/markets/hype-ath-above-90-hyperliquid-manual-borrowing-lending ；窗内复述 A 叙事/待验证 — https://www.techflowpost.com/zh-TW/article/34099 ；https://news.marsbit.co/20260920105014078692.html\n**风险/反证**：$269M 是否含 PM、是否仍接近当前余额，均无法用官站交叉；禁止把复述当新里程碑。\n**置信度**：高（「本窗无正式借入余额更新」）；中（对反身性讨论在中文媒体升温）。"
+    },
+    {
+     "title": "3. HYPE mark≈$94.22，冲 $100 叙事在 ECO/中文喊单，缺官号背书",
+     "body_md": "**为什么**：本拍 info API 抽检 HYPE mark≈$94.22（非正式）。ECO @HypedLaunches 称约 $91、24h +16.9%、冲 $100；中文有「极有可能大阳线、已入场」喊单。价格数字来自行情源与二传，非 S 层确认；与借贷、回购故事同框不等于因果。\n**依据**：非正式 API 拍点（事实，非正式里程碑）+ A/C 叙事 — https://x.com/HypedLaunches/status/2101782628424900899 ；中文喊单例 https://x.com/Gabby0o0/status/2101824645682913299 ；媒体窗内价位例 https://www.coingabbar.com/en/hyperliquid-news-today-hype-burn-open-interest-record\n**风险/反证**：不同源 mark/现货价差；喊单样本薄，且中文时间线有水军污染。\n**置信度**：中（对「本拍 mark 约 $94」）；低（对「将冲 $100 / 由借贷驱动」）。"
+    },
+    {
+     "title": "4. OI 多口径冲突未解：媒体 $8B / 窗外 $16.36B / API≈$12.80B / 前端 7.2B",
+     "body_md": "**为什么**：窗内 CoinGabbar、WalletInvestor 等写 OI 破 $8B「纪录」；窗外 Gate/Lookonchain 等曾报约 $16.36B ATH；本拍 info API 对 234 个 perp 自加总 OI≈$12.80B、dayNtl≈$5.36B。官前端 24H volume 仍显示 7.2B，与 API 与常见媒体口径都不一致，按规则标疑占位。正式里程碑页仍无。\n**依据**：A 待验证（媒体）— https://walletinvestor.com/news/crypto-news/hyperliquid-open-interest-clears-8b-as-revenue-and-new-lending-feature-drive-hype-toward-record/ ；窗外 ATH 例 https://www.gate.com/news/detail/hyperliquid-open-interest-hits-record-1636-billion-up-from-2025-peak-24396358 ；非正式 API 自加总（采集侧）；前端 https://hyperliquid.xyz\n**风险/反证**：各口径资产范围、mark 时点、是否含某类合约均不明；hl.eco Turnstile 未取得，无法用官方看板仲裁。B/C 不单撑高置信。\n**置信度**：高（「冲突存在」）；低（对「哪边接近真值」）。"
+    },
+    {
+     "title": "5. Nest 报 HyperEVM 高 APR，$NEST 上涨与目标价经二传放大",
+     "body_md": "**为什么**：FOCUS list 本窗 0（假阴性）；`from:NestExchange` 抽中 1 帖，喊 LP 部分 HyperEVM 币。ECO 二传给出多池 APR（如 $NEST/$USDC 411%、$HPL/$HYPE 629% 等）并自述高风险；另有 $NEST≈$0.0144(+23%) 与 chromatique 目标价叙事。属生态产品自述加聚合号营销，非 HL 官宣。\n**依据**：A 产品自述事实/叙事 — https://x.com/NestExchange/status/2101671790749585533 ；二传 APR https://x.com/HypedLaunches/status/2101782976887726249 ；价格叙事 https://x.com/HypedLaunches/status/2101783195138371856\n**风险/反证**：APR 随排放与 TVL 快变；聚合号有发射营销倾向；须对 Nest/池子面板核验。\n**置信度**：中（对「Nest 窗内有原创产品帖」）；低（对具体 APR/目标价数字）。"
+    },
+    {
+     "title": "6. ECO 回购营收排行、二次空投与 PURR→赚 HYPE：待验证/传闻居多",
+     "body_md": "**为什么**：同一聚合号连续发：YTD 营收≈$429M（CoinGecko 归因）、日均回购≈$1.47M、质押约 4.4 亿@APR≈2.2%；另推「二次空投」供给结构猜想，以及「买 PURR 赚 HYPE？」并自述等官确。hl.eco 未取得，无法交叉销毁/回购看板。\n**依据**：A/C 待验证/传闻 — https://x.com/HypedLaunches/status/2101760102697193829 ；回购表 https://x.com/HypedLaunches/status/2101763865159614917 ；二次空投 https://x.com/HypedLaunches/status/2101764418405372262 ；PURR https://x.com/HypedLaunches/status/2101783548864692433\n**风险/反证**：单一二传源反复发；数字归因非官宣；禁止写入正式里程碑。\n**置信度**：低。"
+    },
+    {
+     "title": "7. 鲸鱼约 $89.45 亿 L/S≈0.91、销毁≈$2.42M：第三方待核；Outcome/Liquid 窗内一手不足",
+     "body_md": "**为什么**：ChainCatcher 窗内据 Coinglass 报鲸鱼持仓约 $89.45 亿、多 $42.67 亿/空 $46.79 亿、多空比约 0.91。销毁约 26.31k HYPE≈$2.42M 一手监测多在窗外，窗内多为英文聚合复述；hl.eco 未取得。Outcome/Liquid/Share 预测市场激励：web 无稳定窗内一手；X 侧 from 抽检 Outcomexyz/OutcomeMarkets=0，Liquid 准确 handle 本轮未知。\n**依据**：A 待验证 — https://www.chaincatcher.com/article/2291021 ；销毁窗外一手例 https://www.cryptotimes.io/2026/09/19/hyperliquid-burns-26-31k-hype-worth-2-42m-in-24-hours/ ；Outcome/Liquid 窗内一手：**暂无稳定链接**\n**风险/反证**：持仓榜标签与时效、销毁 VWAP 口径均可改读法；不可单独撑方向或「基本面验证」。\n**置信度**：低。"
+    }
+   ],
+   "body_md": ""
+  },
+  {
+   "title": "社区共鸣点",
+   "subsections": [
+    {
+     "title": "可核情绪线索",
+     "body_md": "1. **借贷反身性成了中文深度稿主轴**  \n   - **证据**：深潮 TechFlow / MarsBit 窗内转载谈抵押品身份、循环杠杆与清算风险；TokenPost 仍复述 $269M。  \n   - **推断**（非编造情绪）：相对纯「怎么用」问答，读者更可能想听「这会不会反噬价格」。  \n   - **层级**：A（媒体）  \n   - **代表链接**：https://www.techflowpost.com/zh-TW/article/34099\n\n2. **价格冲高与入场喊单并存，机制耐心变薄**  \n   - **证据**：中文帖有「大阳线已入场」；ECO 二传冲 $100；另有对照贴称 HYPE「现实交易量没多高」偏空。  \n   - **推断**：注意力带宽被行情占；看空对照存在但声量未系统计量。  \n   - **层级**：C（样本薄）+ A 二传  \n   - **代表链接**：https://x.com/Gabby0o0/status/2101824645682913299 ；对照 https://x.com/caidagetouzi/status/2101822952471982373\n\n3. **Manual Borrow 模板刷屏 ≠ 独立社区共识**  \n   - **证据**：第二次中文检索大量同句式复读「抵押 HYPE/BTC 借 USDC/USDT + 创新高」，聚类像营销号。  \n   - **推断**：温度计可读「传播在刷」，不能当「大家真这么想」。  \n   - **层级**：C（污染样本）  \n   - **代表链接**：例 https://x.com/ykgt423271/status/2101819714410262786\n\n4. **鲸鱼多空比快讯有曝光；预测市场中文热议不足**  \n   - **证据**：ChainCatcher 窗内鲸鱼稿；本轮 2 次中文查询未命中 Outcome/Liquid NFL 密集原帖。  \n   - **推断**：中文主轴仍是借贷风险 + 价格，预测市场线可能被低估或尚未过墙。  \n   - **层级**：A + 样本缺口  \n   - **代表链接**：https://www.chaincatcher.com/article/2291021\n\n**样本与缺口**：中文 X 两次查询各 15 条，噪声与水军占比高；S 层三官号=0；Outcome/Liquid 窗内一手不足；hl.eco 未取得；Foresight 主站 567 失败。"
+    }
+   ],
+   "body_md": "总判断：窗内中文注意力从「上线官宣 / ATH 利好堆叠」转到借贷把 HYPE 当抵押品的反身性与清算风险，以及价格冲高与入场喊单。鲸鱼多空比快讯有曝光。销毁、ETF、预测市场在本轮中文检索里偏弱或窗外。中文 X 大量同构模板刷「Manual Borrow + 创新高」（@RiverdotInc / TermMax 特征），**水军污染重，有效样本偏少，样本不足，禁止写成全社区共识**。"
+  },
+  {
+   "title": "少数派",
+   "subsections": [],
+   "body_md": "一派会说：今天真正该盯的是借贷把 HYPE 做成抵押品之后的清算与循环杠杆；冲 $100 口号可以往后排。官站若迟迟不给借入余额更新，「$269M 验证基本面」故事会越来越虚。另一派更冷：OI 从 $16.36B、$8B 到 API≈$12.80B 各说各话，说明媒体数字正在服务行情叙事，别跟任何一口径绑死；ECO 上的回购排行、二次空投、PURR 猜想同一账号连发，这更像情绪弹药。两种异议都保留，不作买卖建议。"
+  },
+  {
+   "title": "附录 · Phase1 素材包",
+   "subsections": [
+    {
+     "title": "① 事件簇（去重）",
+     "body_md": "1. **S 层三官号 + 官站静默** — 事实（未发声）— S — https://hyperliquid.xyz\n2. **Manual Borrow 余波：FAQ 仍在，$269M 窗内复述，无 day-2 官站余额；深度谈反身性** — 事实（9/18 一手+FAQ）+ 叙事/待验证 — S/A — https://hyperliquid.gitbook.io/hyperliquid-docs/support/faq/manual-borrows ；https://www.techflowpost.com/zh-TW/article/34099 ；https://news.marsbit.co/20260920105014078692.html\n3. **HYPE mark≈$94.22（API 拍）+ 冲 $100 / 入场喊单** — 非正式事实 + 叙事 — A/C — https://x.com/HypedLaunches/status/2101782628424900899 ；https://x.com/Gabby0o0/status/2101824645682913299\n4. **OI 多口径：媒体破 $8B / 窗外 $16.36B / API≈$12.80B / 前端 7.2B 疑占位；dayNtl≈$5.36B** — 待验证 / 冲突 — A — https://walletinvestor.com/news/crypto-news/hyperliquid-open-interest-clears-8b-as-revenue-and-new-lending-feature-drive-hype-toward-record/ ；https://www.gate.com/news/detail/hyperliquid-open-interest-hits-record-1636-billion-up-from-2025-peak-24396358\n5. **Nest / HyperEVM 高 APR LP + $NEST 上涨叙事** — 产品自述事实 + 叙事/待验证 — A — https://x.com/NestExchange/status/2101671790749585533 ；https://x.com/HypedLaunches/status/2101782976887726249\n6. **营收/回购/质押排行（YTD≈$429M、日均回购≈$1.47M 等）** — 待验证 — A — https://x.com/HypedLaunches/status/2101760102697193829 ；https://x.com/HypedLaunches/status/2101763865159614917\n7. **「二次空投」供给猜想；PURR→赚 HYPE 猜想** — 传闻/待验证 — C — https://x.com/HypedLaunches/status/2101764418405372262 ；https://x.com/HypedLaunches/status/2101783548864692433\n8. **鲸鱼持仓≈$89.45 亿、L/S≈0.91** — 待验证 — A — https://www.chaincatcher.com/article/2291021\n9. **销毁≈$2.42M / 26.31k HYPE（多窗外一手，窗内复述）** — 待验证 — A — https://www.cryptotimes.io/2026/09/19/hyperliquid-burns-26-31k-hype-worth-2-42m-in-24-hours/ ；https://www.chaincatcher.com/article/2290965\n10. **中文 Manual Borrow 模板刷屏（样本污染）** — 叙事 + 污染 — C — https://x.com/ykgt423271/status/2101819714410262786\n11. **ZEC 大空单平仓 + 高资金费率转述** — 待验证 — C — https://x.com/yumikonbini/status/2101821401804243449\n12. **生态周边：Buoy TVL ATH、Rysk、Borsa；Aster 上 HYPE 300x（非 HL 官宣）** — 产品自述 / 叙事 — A — https://x.com/BuoyFinance/status/2101749537186463747 ；https://x.com/HypedLaunches/status/2101763705394356563\n13. **Outcome / Liquid / Bounce / HyperLink 窗内一手** — 样本不足 — — **暂无稳定窗内一手链接**\n14. **HYPE 现货 ETF 流入（美东 9/18 口径，窗外一手）** — 待验证（窗外）— A — https://www.chaincatcher.com/article/2290881"
+    },
+    {
+     "title": "② 主题分布",
+     "body_md": "- **主战场**：Manual Borrow 余波（反身性深度 + $269M 复述）与价格冲高叙事\n- **硬冲突**：OI 多口径（$8B / $16.36B / API≈$12.80B）+ 前端 7.2B 疑占位 vs dayNtl≈$5.36B\n- **生态二传**：Nest 高 APR、回购营收排行、二次空投/PURR 传闻（聚合号主导）\n- **微观噪声**：鲸鱼 L/S、销毁、ZEC 费率、ETF（均待核）\n- **真空**：官号/官站静默；正式里程碑无；Outcome/Liquid 窗内一手不足"
+    },
+    {
+     "title": "③ 冲突草稿",
+     "body_md": "1. 媒体 OI 破 $8B（窗内）vs 窗外 $16.36B ATH vs info API 自加总 ≈$12.80B（禁止混用）\n2. 前端 24H vol 7.2B（疑占位）vs API dayNtl≈$5.36B；部分深度稿另有「日均约 $55 亿」说法待核\n3. Manual Borrow「基本面验证」话术 vs 官站无 day-2/day-3 借入余额（仍复述 9/18 $269M）\n4. 官号/官站静默 vs 媒体/ECO 替官方讲故事\n5. HYPE FAQ LTV 65% vs 部分旧摘要仍写 PM 下 50%（以当前 FAQ 为准）\n6. 涨价/冲 $100 情绪 vs 鲸鱼略偏空（L/S≈0.91）转述\n7. ECO 回购/销毁数字热闹 vs hl.eco 本窗未取得"
+    },
+    {
+     "title": "④ 待验证假设池",
+     "body_md": "1. 若官站迟迟不更新借入余额，$269M 叙事会从「验证」退化成「过期口号」。（证伪：官站/Docs 给出新余额或官方口径说明）\n2. OI 媒体数与 API 自加总差距若持续，公开讨论会更多追问口径而非只喊「新高」。（证伪：出现可复现的官方 OI 里程碑页或 hl.eco 可读交叉）\n3. Nest 高 APR 若伴随 TVL/排放快速衰减，二传目标价叙事会降温。（证伪：池子面板 APR/TVL 维持或官方/项目方给可持续说明）\n4. 二次空投 / PURR→HYPE 若无官号交叉，将停留在传闻层。（证伪：@HyperliquidX / HyperFND 或 Docs 明确机制）\n5. 中文注意力若继续被行情与模板刷屏占满，预测市场（Outcome/Liquid）线可能继续低估。（证伪：窗内出现稳定中文一手热议或产品通稿）\n\n**置信说明**：以上均为可证伪观察假设，非投资建议；B/C 证据不单撑高置信。"
+    },
+    {
+     "title": "采集元数据",
+     "body_md": "| 项 | 值 |\n|----|-----|\n| 窗 | Asia/Shanghai 2026-09-20 08:13 → 2026-09-21 08:13（UTC 09-20T00:13Z → 09-21T00:13Z） |\n| S 层 X | HyperliquidX=0 / chameleon_jeff=0 / HyperFND=0 |\n| S 层 web | 官站/app 无新公告正文；Docs Manual borrows FAQ 在线无窗内日戳；Foundation 空壳；Discord 公告不可采 |\n| FOCUS | list=0 假阴性（首次 429 后重试 0；`from:NestExchange`=1 证伪） |\n| ECO | 采 25（有 next_token，未翻页） |\n| X 花费 | ≈$0.30（余额 $13.57 → $13.27） |\n| B 层 | 跳过（控预算；ECO+中文查询已覆盖） |\n| info API 非正式（UTC 2026-09-21T00:13:56Z / 上海 08:13:56） | OI≈$12.797B（约 $12.80B）；dayNtl≈$5.364B；HYPE mark≈$94.22；234 perps |\n| 前端 24H vol | 7.2B（疑占位） |\n| 正式里程碑 | 无 |\n| hl.eco | Turnstile → **未取得** |\n| 失败源 | FOCUS 假阴性/429；Liquid handle 未知；Outcome 合并查询曾 429；Foresight 主站 567；CoinDesk/Reuters/The Block/Blockworks 本窗定向无稳定命中；Docs /changelog·/updates 404 |\n| 未用旧快照 | 是 |"
+    }
+   ],
+   "body_md": ""
+  }
+ ],
+ "source": {
+  "type": "hl-intel-daily",
+  "label": "HL 情报台日报",
+  "file": "/workspace/hl-daily-2026-09-21/daily-final.md",
+  "file_mtime": "2026-10-07T15:25:32+08:00"
+ },
+ "parse": {
+  "format": "v1-paragraph-fields",
+  "warnings": [
+   "观点 1 缺字段 结论",
+   "观点 2 缺字段 结论",
+   "观点 3 缺字段 结论",
+   "观点 4 缺字段 结论",
+   "观点 5 缺字段 结论",
+   "观点 6 缺字段 结论",
+   "观点 7 缺字段 结论"
+  ]
+ }
+}

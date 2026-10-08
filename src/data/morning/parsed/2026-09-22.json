@@ -1,0 +1,394 @@
+{
+ "date": "2026-09-22",
+ "title": "过去24h Hyperliquid 情报日报（2026-09-22）",
+ "window": {
+  "raw": "窗：Asia/Shanghai 2026-09-21 08:26 → 2026-09-22 08:26",
+  "start": "2026-09-21 08:26",
+  "end": "2026-09-22 08:26",
+  "tz": "Asia/Shanghai"
+ },
+ "notes": [],
+ "today": [
+  "官号今天破了静默：@HyperliquidX 窗内确认永续 Trailing Stops 上线，并挂了文档帖。生态侧 Nest 自报 TVL 破 $25M ATH。注意力从借贷首日狂欢挪到高位筹码与托管流向：中文媒体同时出现 FalconX「约 $936 万买入」与「约 $50M 自有钱包间划转」两套读法，互相打架。OI/成交额仍多口径并存。ECO 二传喊 $8.1B 纪录；本拍 info API 非正式自加总 OI≈$13.67B、dayNtl≈$10.77B（相对前一日拍点约 $5.36B 抬升，仅作非正式观察）；前端 24H 仍显示 7.2B（疑占位）。Bounce Week2 与 Outcome 的 $100 HYPE 叙事在热，但都不是 HL 官宣。"
+ ],
+ "views": [
+  {
+   "num": 1,
+   "title": "官号确认永续 Trailing Stops 上线",
+   "conclusion": "本窗最硬的产品进展来自 S 层：永续市场可用追踪止损。",
+   "why": "@HyperliquidX 于 UTC 2026-09-21T05:58:18Z（上海 13:58）发帖确认 Trailing stops available for perp markets，并跟帖指向文档。早间媒体二传时间戳可能窗外，已被官宣覆盖，以 S 为准。jeff 与 HyperFND 本窗仍为 0 帖；官站无另发 changelog。",
+   "basis": "S 事实 — https://x.com/HyperliquidX/status/2101913891681055056 ；Docs 帖 https://x.com/HyperliquidX/status/2101913893744660739 ；订单类型文档 https://hyperliquid.gitbook.io/hyperliquid-docs/trading/order-types",
+   "risk": "官宣不等于用量数据；实际挂单占比与误触风险本窗无官方统计。",
+   "confidence": "高（「功能已官宣上线」）；低（「将显著改变交易行为」）。",
+   "links": [
+    {
+     "text": "S 事实",
+     "url": "https://x.com/HyperliquidX/status/2101913891681055056",
+     "field": "依据"
+    },
+    {
+     "text": "Docs 帖",
+     "url": "https://x.com/HyperliquidX/status/2101913893744660739",
+     "field": "依据"
+    },
+    {
+     "text": "订单类型文档",
+     "url": "https://hyperliquid.gitbook.io/hyperliquid-docs/trading/order-types",
+     "field": "依据"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [
+    "S"
+   ],
+   "fields": {
+    "结论": "本窗最硬的产品进展来自 S 层：永续市场可用追踪止损。",
+    "为什么": "@HyperliquidX 于 UTC 2026-09-21T05:58:18Z（上海 13:58）发帖确认 Trailing stops available for perp markets，并跟帖指向文档。早间媒体二传时间戳可能窗外，已被官宣覆盖，以 S 为准。jeff 与 HyperFND 本窗仍为 0 帖；官站无另发 changelog。",
+    "依据": "S 事实 — https://x.com/HyperliquidX/status/2101913891681055056 ；Docs 帖 https://x.com/HyperliquidX/status/2101913893744660739 ；订单类型文档 https://hyperliquid.gitbook.io/hyperliquid-docs/trading/order-types",
+    "风险/反证": "官宣不等于用量数据；实际挂单占比与误触风险本窗无官方统计。",
+    "置信度": "高（「功能已官宣上线」）；低（「将显著改变交易行为」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：本窗最硬的产品进展来自 S 层：永续市场可用追踪止损。\n- **为什么**：@HyperliquidX 于 UTC 2026-09-21T05:58:18Z（上海 13:58）发帖确认 Trailing stops available for perp markets，并跟帖指向文档。早间媒体二传时间戳可能窗外，已被官宣覆盖，以 S 为准。jeff 与 HyperFND 本窗仍为 0 帖；官站无另发 changelog。\n- **依据**：S 事实 — https://x.com/HyperliquidX/status/2101913891681055056 ；Docs 帖 https://x.com/HyperliquidX/status/2101913893744660739 ；订单类型文档 https://hyperliquid.gitbook.io/hyperliquid-docs/trading/order-types\n- **风险/反证**：官宣不等于用量数据；实际挂单占比与误触风险本窗无官方统计。\n- **置信度**：高（「功能已官宣上线」）；低（「将显著改变交易行为」）。"
+  },
+  {
+   "num": 2,
+   "title": "Nest 自报 TVL 破 $25M ATH，费用归 veNEST",
+   "conclusion": "Nest 窗内主叙事是 TVL 创新高，并强调费用回流与 HYPE Engine Vault。",
+   "why": "FOCUS list 本窗仍为 0（假阴性）；`from:NestExchange` 抽检证实：TVL 越过 $25M ATH；近两月约 $1M 费用 100% 归 veNEST；另推 HYPE Engine Vault。属生态产品自述，非 HL 官号背书。",
+   "basis": "A 事实/叙事 — https://x.com/NestExchange/status/2102163583110946952 ；https://x.com/NestExchange/status/2102047818726686936",
+   "risk": "TVL/费用口径须对 Nest 面板核验；APR 与 Vault 叙事会随排放快变。",
+   "confidence": "中（对「Nest 窗内自称 ATH」）；低（对可持续与 Vault 落地）。",
+   "links": [
+    {
+     "text": "A 事实/叙事",
+     "url": "https://x.com/NestExchange/status/2102163583110946952",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://x.com/NestExchange/status/2102047818726686936",
+     "field": "依据"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [
+    "A"
+   ],
+   "fields": {
+    "结论": "Nest 窗内主叙事是 TVL 创新高，并强调费用回流与 HYPE Engine Vault。",
+    "为什么": "FOCUS list 本窗仍为 0（假阴性）；`from:NestExchange` 抽检证实：TVL 越过 $25M ATH；近两月约 $1M 费用 100% 归 veNEST；另推 HYPE Engine Vault。属生态产品自述，非 HL 官号背书。",
+    "依据": "A 事实/叙事 — https://x.com/NestExchange/status/2102163583110946952 ；https://x.com/NestExchange/status/2102047818726686936",
+    "风险/反证": "TVL/费用口径须对 Nest 面板核验；APR 与 Vault 叙事会随排放快变。",
+    "置信度": "中（对「Nest 窗内自称 ATH」）；低（对可持续与 Vault 落地）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：Nest 窗内主叙事是 TVL 创新高，并强调费用回流与 HYPE Engine Vault。\n- **为什么**：FOCUS list 本窗仍为 0（假阴性）；`from:NestExchange` 抽检证实：TVL 越过 $25M ATH；近两月约 $1M 费用 100% 归 veNEST；另推 HYPE Engine Vault。属生态产品自述，非 HL 官号背书。\n- **依据**：A 事实/叙事 — https://x.com/NestExchange/status/2102163583110946952 ；https://x.com/NestExchange/status/2102047818726686936\n- **风险/反证**：TVL/费用口径须对 Nest 面板核验；APR 与 Vault 叙事会随排放快变。\n- **置信度**：中（对「Nest 窗内自称 ATH」）；低（对可持续与 Vault 落地）。"
+  },
+  {
+   "num": 3,
+   "title": "FalconX / 巨鲸 HYPE：买入叙事与内部划转互相打架",
+   "conclusion": "同主题下至少两套数字与读法并存，不能合成「单边吸筹」故事。",
+   "why": "TechFlow 与 ChainCatcher 窗内写约 99.6k HYPE / $9.36M 买入；Gate 另稿称 FalconX 在自有钱包间划转 533,250 HYPE≈$50M。金额、方向（外部流入 vs 托管内部）都不一致。属 B 层媒体，待链上交叉。",
+   "basis": "B 待验证 / 口径冲突 — https://techflowpost.com/newsletter/137111 ；https://www.chaincatcher.com/article/2291228 ；https://www.gate.com/zh-tw/news/detail/falconx-transfers-533250-hype-tokens-worth-50m-between-own-wallets-24459531",
+   "risk": "若证实仅为托管内部划转，对流通盘无实质吸筹；若证实外部净买入，读法才反向。B 层不单撑高置信。",
+   "confidence": "高（「冲突存在」）；低（对「哪边接近真值 / 是否吸筹」）。",
+   "links": [
+    {
+     "text": "B 待验证 / 口径冲突",
+     "url": "https://techflowpost.com/newsletter/137111",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://www.chaincatcher.com/article/2291228",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://www.gate.com/zh-tw/news/detail/falconx-transfers-533250-hype-tokens-worth-50m-between-own-wallets-24459531",
+     "field": "依据"
+    }
+   ],
+   "uncertain": true,
+   "markers": [
+    "待验证"
+   ],
+   "markers_by_field": {
+    "依据": [
+     "待验证"
+    ]
+   },
+   "basis_layers": [
+    "B"
+   ],
+   "fields": {
+    "结论": "同主题下至少两套数字与读法并存，不能合成「单边吸筹」故事。",
+    "为什么": "TechFlow 与 ChainCatcher 窗内写约 99.6k HYPE / $9.36M 买入；Gate 另稿称 FalconX 在自有钱包间划转 533,250 HYPE≈$50M。金额、方向（外部流入 vs 托管内部）都不一致。属 B 层媒体，待链上交叉。",
+    "依据": "B 待验证 / 口径冲突 — https://techflowpost.com/newsletter/137111 ；https://www.chaincatcher.com/article/2291228 ；https://www.gate.com/zh-tw/news/detail/falconx-transfers-533250-hype-tokens-worth-50m-between-own-wallets-24459531",
+    "风险/反证": "若证实仅为托管内部划转，对流通盘无实质吸筹；若证实外部净买入，读法才反向。B 层不单撑高置信。",
+    "置信度": "高（「冲突存在」）；低（对「哪边接近真值 / 是否吸筹」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：同主题下至少两套数字与读法并存，不能合成「单边吸筹」故事。\n- **为什么**：TechFlow 与 ChainCatcher 窗内写约 99.6k HYPE / $9.36M 买入；Gate 另稿称 FalconX 在自有钱包间划转 533,250 HYPE≈$50M。金额、方向（外部流入 vs 托管内部）都不一致。属 B 层媒体，待链上交叉。\n- **依据**：B 待验证 / 口径冲突 — https://techflowpost.com/newsletter/137111 ；https://www.chaincatcher.com/article/2291228 ；https://www.gate.com/zh-tw/news/detail/falconx-transfers-533250-hype-tokens-worth-50m-between-own-wallets-24459531\n- **风险/反证**：若证实仅为托管内部划转，对流通盘无实质吸筹；若证实外部净买入，读法才反向。B 层不单撑高置信。\n- **置信度**：高（「冲突存在」）；低（对「哪边接近真值 / 是否吸筹」）。"
+  },
+  {
+   "num": 4,
+   "title": "OI 与成交额多口径：媒体 $8.1B vs API≈$13.67B vs 前端 7.2B",
+   "conclusion": "本窗仍无法用单一数字写「OI/成交额纪录」，冲突本身才是稳定事实。",
+   "why": "ECO @HypedLaunches 转述 OI 纪录约 $8.1B（via @randgroup）。本拍 info API 对 234 个 perp 自加总 OI≈$13.67B、dayNtl≈$10.77B（相对前一日系列拍点约 $5.36B 抬升，仅非正式观察）。官前端 24H volume 仍显示 7.2B，疑占位。正式里程碑页无。hl.eco Turnstile 未取得，无法用官方看板仲裁。",
+   "basis": "A 待验证 — https://x.com/HypedLaunches/status/2102144086610415785 ；非正式 API 自加总（采集侧，标签：非正式）；前端 https://hyperliquid.xyz",
+   "risk": "资产范围与 mark 时点不同，是否含某类合约也可改读法；dayNtl 跳升也可能是窗口统计噪声。B/C 不单撑高置信。",
+   "confidence": "高（「口径冲突存在」）；低（对「哪一口径接近真值」及「成交额实质翻倍」）。",
+   "links": [
+    {
+     "text": "A 待验证",
+     "url": "https://x.com/HypedLaunches/status/2102144086610415785",
+     "field": "依据"
+    },
+    {
+     "text": "前端",
+     "url": "https://hyperliquid.xyz",
+     "field": "依据"
+    }
+   ],
+   "uncertain": true,
+   "markers": [
+    "待验证"
+   ],
+   "markers_by_field": {
+    "依据": [
+     "待验证"
+    ]
+   },
+   "basis_layers": [
+    "A"
+   ],
+   "fields": {
+    "结论": "本窗仍无法用单一数字写「OI/成交额纪录」，冲突本身才是稳定事实。",
+    "为什么": "ECO @HypedLaunches 转述 OI 纪录约 $8.1B（via @randgroup）。本拍 info API 对 234 个 perp 自加总 OI≈$13.67B、dayNtl≈$10.77B（相对前一日系列拍点约 $5.36B 抬升，仅非正式观察）。官前端 24H volume 仍显示 7.2B，疑占位。正式里程碑页无。hl.eco Turnstile 未取得，无法用官方看板仲裁。",
+    "依据": "A 待验证 — https://x.com/HypedLaunches/status/2102144086610415785 ；非正式 API 自加总（采集侧，标签：非正式）；前端 https://hyperliquid.xyz",
+    "风险/反证": "资产范围与 mark 时点不同，是否含某类合约也可改读法；dayNtl 跳升也可能是窗口统计噪声。B/C 不单撑高置信。",
+    "置信度": "高（「口径冲突存在」）；低（对「哪一口径接近真值」及「成交额实质翻倍」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：本窗仍无法用单一数字写「OI/成交额纪录」，冲突本身才是稳定事实。\n- **为什么**：ECO @HypedLaunches 转述 OI 纪录约 $8.1B（via @randgroup）。本拍 info API 对 234 个 perp 自加总 OI≈$13.67B、dayNtl≈$10.77B（相对前一日系列拍点约 $5.36B 抬升，仅非正式观察）。官前端 24H volume 仍显示 7.2B，疑占位。正式里程碑页无。hl.eco Turnstile 未取得，无法用官方看板仲裁。\n- **依据**：A 待验证 — https://x.com/HypedLaunches/status/2102144086610415785 ；非正式 API 自加总（采集侧，标签：非正式）；前端 https://hyperliquid.xyz\n- **风险/反证**：资产范围与 mark 时点不同，是否含某类合约也可改读法；dayNtl 跳升也可能是窗口统计噪声。B/C 不单撑高置信。\n- **置信度**：高（「口径冲突存在」）；低（对「哪一口径接近真值」及「成交额实质翻倍」）。"
+  },
+  {
+   "num": 5,
+   "title": "Bounce Week2 开工；Outcome 推九月 $100 HYPE 叙事",
+   "conclusion": "生态激励与预测盘口号在热，但都停留在产品自述/叙事层。",
+   "why": "BounceTech 称 Week1 USDC 已空投至 88 个账户，Week2 开始。Outcomexyz 窗内推「九月 $100 HYPE 约 70% 概率」，并转述市值对比 Nasdaq/LSE（引 Infinityhedge，待核）。同主题 Gate←Solid Intel 亦有 FDV 超传统交易所叙事，HYPE 触及约 $95.77；本拍 API mark≈$94.085（非正式）。均非 HL 官宣。",
+   "basis": "A 事实自述 — https://x.com/BounceTech/status/2102073937613946906 ；A 叙事/待验证 — https://x.com/Outcomexyz/status/2102052997203370105 ；https://x.com/Outcomexyz/status/2101998650213765439 ；B 叙事辅证 https://www.gate.com/zh-tw/news/detail/hyperliquids-fully-diluted-valuation-surpasses-nasdaq-and-london-stock-24448096",
+   "risk": "空投账户数与资格规则以 Bounce 公告为准；预测概率与估值对比易被营销放大；Infinityhedge 源未独立核验。",
+   "confidence": "中（对「Bounce 自述 Week2」）；低（对「$100 / 估值超交易所」）。",
+   "links": [
+    {
+     "text": "A 事实自述",
+     "url": "https://x.com/BounceTech/status/2102073937613946906",
+     "field": "依据"
+    },
+    {
+     "text": "A 叙事/待验证",
+     "url": "https://x.com/Outcomexyz/status/2102052997203370105",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://x.com/Outcomexyz/status/2101998650213765439",
+     "field": "依据"
+    },
+    {
+     "text": "B 叙事辅证",
+     "url": "https://www.gate.com/zh-tw/news/detail/hyperliquids-fully-diluted-valuation-surpasses-nasdaq-and-london-stock-24448096",
+     "field": "依据"
+    }
+   ],
+   "uncertain": true,
+   "markers": [
+    "待验证"
+   ],
+   "markers_by_field": {
+    "依据": [
+     "待验证"
+    ]
+   },
+   "basis_layers": [
+    "A",
+    "B"
+   ],
+   "fields": {
+    "结论": "生态激励与预测盘口号在热，但都停留在产品自述/叙事层。",
+    "为什么": "BounceTech 称 Week1 USDC 已空投至 88 个账户，Week2 开始。Outcomexyz 窗内推「九月 $100 HYPE 约 70% 概率」，并转述市值对比 Nasdaq/LSE（引 Infinityhedge，待核）。同主题 Gate←Solid Intel 亦有 FDV 超传统交易所叙事，HYPE 触及约 $95.77；本拍 API mark≈$94.085（非正式）。均非 HL 官宣。",
+    "依据": "A 事实自述 — https://x.com/BounceTech/status/2102073937613946906 ；A 叙事/待验证 — https://x.com/Outcomexyz/status/2102052997203370105 ；https://x.com/Outcomexyz/status/2101998650213765439 ；B 叙事辅证 https://www.gate.com/zh-tw/news/detail/hyperliquids-fully-diluted-valuation-surpasses-nasdaq-and-london-stock-24448096",
+    "风险/反证": "空投账户数与资格规则以 Bounce 公告为准；预测概率与估值对比易被营销放大；Infinityhedge 源未独立核验。",
+    "置信度": "中（对「Bounce 自述 Week2」）；低（对「$100 / 估值超交易所」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：生态激励与预测盘口号在热，但都停留在产品自述/叙事层。\n- **为什么**：BounceTech 称 Week1 USDC 已空投至 88 个账户，Week2 开始。Outcomexyz 窗内推「九月 $100 HYPE 约 70% 概率」，并转述市值对比 Nasdaq/LSE（引 Infinityhedge，待核）。同主题 Gate←Solid Intel 亦有 FDV 超传统交易所叙事，HYPE 触及约 $95.77；本拍 API mark≈$94.085（非正式）。均非 HL 官宣。\n- **依据**：A 事实自述 — https://x.com/BounceTech/status/2102073937613946906 ；A 叙事/待验证 — https://x.com/Outcomexyz/status/2102052997203370105 ；https://x.com/Outcomexyz/status/2101998650213765439 ；B 叙事辅证 https://www.gate.com/zh-tw/news/detail/hyperliquids-fully-diluted-valuation-surpasses-nasdaq-and-london-stock-24448096\n- **风险/反证**：空投账户数与资格规则以 Bounce 公告为准；预测概率与估值对比易被营销放大；Infinityhedge 源未独立核验。\n- **置信度**：中（对「Bounce 自述 Week2」）；低（对「$100 / 估值超交易所」）。"
+  },
+  {
+   "num": 6,
+   "title": "Manual Borrow 余波仍在刷 $269M，官站无 day-N 余额",
+   "conclusion": "借贷首日数字还在被复述，一手余额更新仍缺席。",
+   "why": "窗内媒体与中文模板继续复读 9/18 约 $269M 借入；官站/Docs 无带日戳的 day-N 余额更新。相对「怎么借」，传播更常拿旧数证明「已经很大」。",
+   "basis": "复述/待验证（无新一手官站余额）— Docs FAQ 仍可读 https://hyperliquid.gitbook.io/hyperliquid-docs/support/faq/manual-borrows ；窗内一手借入余额：**暂无稳定链接**",
+   "risk": "$269M 是否含 PM、是否接近当前余额，均无法用官站交叉；禁止把复述当新里程碑。",
+   "confidence": "高（「本窗无正式借入余额更新」）；低（对当前真实余额）。",
+   "links": [
+    {
+     "text": "复述/待验证（无新一手官站余额）— Docs FAQ 仍可读",
+     "url": "https://hyperliquid.gitbook.io/hyperliquid-docs/support/faq/manual-borrows",
+     "field": "依据"
+    }
+   ],
+   "uncertain": true,
+   "markers": [
+    "待验证"
+   ],
+   "markers_by_field": {
+    "依据": [
+     "待验证"
+    ]
+   },
+   "basis_layers": [],
+   "fields": {
+    "结论": "借贷首日数字还在被复述，一手余额更新仍缺席。",
+    "为什么": "窗内媒体与中文模板继续复读 9/18 约 $269M 借入；官站/Docs 无带日戳的 day-N 余额更新。相对「怎么借」，传播更常拿旧数证明「已经很大」。",
+    "依据": "复述/待验证（无新一手官站余额）— Docs FAQ 仍可读 https://hyperliquid.gitbook.io/hyperliquid-docs/support/faq/manual-borrows ；窗内一手借入余额：**暂无稳定链接**",
+    "风险/反证": "$269M 是否含 PM、是否接近当前余额，均无法用官站交叉；禁止把复述当新里程碑。",
+    "置信度": "高（「本窗无正式借入余额更新」）；低（对当前真实余额）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：借贷首日数字还在被复述，一手余额更新仍缺席。\n- **为什么**：窗内媒体与中文模板继续复读 9/18 约 $269M 借入；官站/Docs 无带日戳的 day-N 余额更新。相对「怎么借」，传播更常拿旧数证明「已经很大」。\n- **依据**：复述/待验证（无新一手官站余额）— Docs FAQ 仍可读 https://hyperliquid.gitbook.io/hyperliquid-docs/support/faq/manual-borrows ；窗内一手借入余额：**暂无稳定链接**\n- **风险/反证**：$269M 是否含 PM、是否接近当前余额，均无法用官站交叉；禁止把复述当新里程碑。\n- **置信度**：高（「本窗无正式借入余额更新」）；低（对当前真实余额）。"
+  }
+ ],
+ "sections": [
+  {
+   "title": "今天怎么看",
+   "subsections": [],
+   "body_md": "官号今天破了静默：@HyperliquidX 窗内确认永续 Trailing Stops 上线，并挂了文档帖。生态侧 Nest 自报 TVL 破 $25M ATH。注意力从借贷首日狂欢挪到高位筹码与托管流向：中文媒体同时出现 FalconX「约 $936 万买入」与「约 $50M 自有钱包间划转」两套读法，互相打架。OI/成交额仍多口径并存。ECO 二传喊 $8.1B 纪录；本拍 info API 非正式自加总 OI≈$13.67B、dayNtl≈$10.77B（相对前一日拍点约 $5.36B 抬升，仅作非正式观察）；前端 24H 仍显示 7.2B（疑占位）。Bounce Week2 与 Outcome 的 $100 HYPE 叙事在热，但都不是 HL 官宣。"
+  },
+  {
+   "title": "观点",
+   "subsections": [
+    {
+     "title": "1. 官号确认永续 Trailing Stops 上线",
+     "body_md": "- **结论**：本窗最硬的产品进展来自 S 层：永续市场可用追踪止损。\n- **为什么**：@HyperliquidX 于 UTC 2026-09-21T05:58:18Z（上海 13:58）发帖确认 Trailing stops available for perp markets，并跟帖指向文档。早间媒体二传时间戳可能窗外，已被官宣覆盖，以 S 为准。jeff 与 HyperFND 本窗仍为 0 帖；官站无另发 changelog。\n- **依据**：S 事实 — https://x.com/HyperliquidX/status/2101913891681055056 ；Docs 帖 https://x.com/HyperliquidX/status/2101913893744660739 ；订单类型文档 https://hyperliquid.gitbook.io/hyperliquid-docs/trading/order-types\n- **风险/反证**：官宣不等于用量数据；实际挂单占比与误触风险本窗无官方统计。\n- **置信度**：高（「功能已官宣上线」）；低（「将显著改变交易行为」）。"
+    },
+    {
+     "title": "2. Nest 自报 TVL 破 $25M ATH，费用归 veNEST",
+     "body_md": "- **结论**：Nest 窗内主叙事是 TVL 创新高，并强调费用回流与 HYPE Engine Vault。\n- **为什么**：FOCUS list 本窗仍为 0（假阴性）；`from:NestExchange` 抽检证实：TVL 越过 $25M ATH；近两月约 $1M 费用 100% 归 veNEST；另推 HYPE Engine Vault。属生态产品自述，非 HL 官号背书。\n- **依据**：A 事实/叙事 — https://x.com/NestExchange/status/2102163583110946952 ；https://x.com/NestExchange/status/2102047818726686936\n- **风险/反证**：TVL/费用口径须对 Nest 面板核验；APR 与 Vault 叙事会随排放快变。\n- **置信度**：中（对「Nest 窗内自称 ATH」）；低（对可持续与 Vault 落地）。"
+    },
+    {
+     "title": "3. FalconX / 巨鲸 HYPE：买入叙事与内部划转互相打架",
+     "body_md": "- **结论**：同主题下至少两套数字与读法并存，不能合成「单边吸筹」故事。\n- **为什么**：TechFlow 与 ChainCatcher 窗内写约 99.6k HYPE / $9.36M 买入；Gate 另稿称 FalconX 在自有钱包间划转 533,250 HYPE≈$50M。金额、方向（外部流入 vs 托管内部）都不一致。属 B 层媒体，待链上交叉。\n- **依据**：B 待验证 / 口径冲突 — https://techflowpost.com/newsletter/137111 ；https://www.chaincatcher.com/article/2291228 ；https://www.gate.com/zh-tw/news/detail/falconx-transfers-533250-hype-tokens-worth-50m-between-own-wallets-24459531\n- **风险/反证**：若证实仅为托管内部划转，对流通盘无实质吸筹；若证实外部净买入，读法才反向。B 层不单撑高置信。\n- **置信度**：高（「冲突存在」）；低（对「哪边接近真值 / 是否吸筹」）。"
+    },
+    {
+     "title": "4. OI 与成交额多口径：媒体 $8.1B vs API≈$13.67B vs 前端 7.2B",
+     "body_md": "- **结论**：本窗仍无法用单一数字写「OI/成交额纪录」，冲突本身才是稳定事实。\n- **为什么**：ECO @HypedLaunches 转述 OI 纪录约 $8.1B（via @randgroup）。本拍 info API 对 234 个 perp 自加总 OI≈$13.67B、dayNtl≈$10.77B（相对前一日系列拍点约 $5.36B 抬升，仅非正式观察）。官前端 24H volume 仍显示 7.2B，疑占位。正式里程碑页无。hl.eco Turnstile 未取得，无法用官方看板仲裁。\n- **依据**：A 待验证 — https://x.com/HypedLaunches/status/2102144086610415785 ；非正式 API 自加总（采集侧，标签：非正式）；前端 https://hyperliquid.xyz\n- **风险/反证**：资产范围与 mark 时点不同，是否含某类合约也可改读法；dayNtl 跳升也可能是窗口统计噪声。B/C 不单撑高置信。\n- **置信度**：高（「口径冲突存在」）；低（对「哪一口径接近真值」及「成交额实质翻倍」）。"
+    },
+    {
+     "title": "5. Bounce Week2 开工；Outcome 推九月 $100 HYPE 叙事",
+     "body_md": "- **结论**：生态激励与预测盘口号在热，但都停留在产品自述/叙事层。\n- **为什么**：BounceTech 称 Week1 USDC 已空投至 88 个账户，Week2 开始。Outcomexyz 窗内推「九月 $100 HYPE 约 70% 概率」，并转述市值对比 Nasdaq/LSE（引 Infinityhedge，待核）。同主题 Gate←Solid Intel 亦有 FDV 超传统交易所叙事，HYPE 触及约 $95.77；本拍 API mark≈$94.085（非正式）。均非 HL 官宣。\n- **依据**：A 事实自述 — https://x.com/BounceTech/status/2102073937613946906 ；A 叙事/待验证 — https://x.com/Outcomexyz/status/2102052997203370105 ；https://x.com/Outcomexyz/status/2101998650213765439 ；B 叙事辅证 https://www.gate.com/zh-tw/news/detail/hyperliquids-fully-diluted-valuation-surpasses-nasdaq-and-london-stock-24448096\n- **风险/反证**：空投账户数与资格规则以 Bounce 公告为准；预测概率与估值对比易被营销放大；Infinityhedge 源未独立核验。\n- **置信度**：中（对「Bounce 自述 Week2」）；低（对「$100 / 估值超交易所」）。"
+    },
+    {
+     "title": "6. Manual Borrow 余波仍在刷 $269M，官站无 day-N 余额",
+     "body_md": "- **结论**：借贷首日数字还在被复述，一手余额更新仍缺席。\n- **为什么**：窗内媒体与中文模板继续复读 9/18 约 $269M 借入；官站/Docs 无带日戳的 day-N 余额更新。相对「怎么借」，传播更常拿旧数证明「已经很大」。\n- **依据**：复述/待验证（无新一手官站余额）— Docs FAQ 仍可读 https://hyperliquid.gitbook.io/hyperliquid-docs/support/faq/manual-borrows ；窗内一手借入余额：**暂无稳定链接**\n- **风险/反证**：$269M 是否含 PM、是否接近当前余额，均无法用官站交叉；禁止把复述当新里程碑。\n- **置信度**：高（「本窗无正式借入余额更新」）；低（对当前真实余额）。"
+    }
+   ],
+   "body_md": ""
+  },
+  {
+   "title": "社区共鸣点",
+   "subsections": [
+    {
+     "title": "可核情绪线索",
+     "body_md": "1. **最希望听到：划转到底是吸筹还是托管搬家**  \n   - **证据**：TechFlow/ChainCatcher 写买入；Gate 写自有钱包间 $50M 划转。同一 FalconX 主题两套读法并排。  \n   - **推断**（非编造情绪）：读者缺口是「净流入有没有发生」，不是再多一条口号。  \n   - **层级**：B  \n   - **代表链接**：https://www.gate.com/zh-tw/news/detail/falconx-transfers-533250-hype-tokens-worth-50m-between-own-wallets-24459531 ；https://www.chaincatcher.com/article/2291228\n\n2. **信息缺口：Trailing Stop 要不要等官号一锤定音（本窗已补上）**  \n   - **证据**：早间媒体二传后，@HyperliquidX 窗内官宣 + Docs，升格为 S 事实。中文侧此前对「是否官方」更敏感。  \n   - **推断**：工具升级话题的共鸣点从「传闻」转到「怎么用 / 有没有坑」。  \n   - **层级**：S 覆盖原 B  \n   - **代表链接**：https://x.com/HyperliquidX/status/2101913891681055056\n\n3. **注意力落点：高位估值叙事 + 大户浮盈快讯**  \n   - **证据**：Gate 转 Solid Intel 的 FDV 对比 Nasdaq/LSE；另稿称最大 HYPE 多浮盈约 $75.27M。与 Outcome「$100 HYPE」预测盘同框。  \n   - **推断**：价格与估值对照在占版面；机制耐心相对变薄。  \n   - **层级**：B + A 叙事  \n   - **代表链接**：https://www.gate.com/zh-tw/news/detail/hyperliquids-fully-diluted-valuation-surpasses-nasdaq-and-london-stock-24448096 ；https://www.gate.com/news/detail/hyperliquids-largest-hype-long-position-records-7527m-unrealized-gains-paid-24455061\n\n4. **相对近几日的转移：借贷模板还在刷，但有效讨论已稀**  \n   - **证据**：中文 X 仍大量 Manual Borrow 模板；半有机例仅见有人拿 HYPE 对比问「回购销毁细则」（非 HL 核心帖）。媒体侧主轴已是流向与工具。  \n   - **推断**：模板热度不等于真实关切；真实关切更靠媒体簇。  \n   - **层级**：C（污染）+ 弱信号  \n   - **代表链接**：暂无稳定有机中文 X 链接（样本污染过重）；情绪判断以媒体簇为准，禁止写成全社区共识。"
+    }
+   ],
+   "body_md": "总判断：中文 X 本窗抽 15 条，**样本严重水军污染**。大量 @RiverdotInc 类同构模板把 Manual Borrow + HYPE ATH 当填料刷屏，几乎读不出独立情绪。有效共鸣主要依中文媒体 B 层温度计，不能从污染样本发明「社区共识」。相对近几日「借贷狂欢」，注意力落点已挪到高位筹码与托管流向，以及 Trailing Stop 这类工具升级是否官宣落地。"
+  },
+  {
+   "title": "少数派",
+   "subsections": [],
+   "body_md": "一派会说：Gate 那笔约 $50M 只是托管内部划转，对流通盘没有实质吸筹，别把「巨鲸进场」写进主叙事。另一派更冷：info API 非正式 dayNtl 从约 $5.36B 跳到约 $10.77B，更像窗口或统计噪声，不宜当「成交额翻倍」证据；ECO 的 $8.1B OI「纪录」与 API≈$13.67B、前端 7.2B 三套数并排，说明数字正在服务传播。两种异议都保留，不作买卖建议。"
+  },
+  {
+   "title": "附录 · Phase1 素材",
+   "subsections": [
+    {
+     "title": "分层计数",
+     "body_md": "- S：HyperliquidX=2（Trailing Stops）；jeff=0；HyperFND=0\n- A：FOCUS=0（假阴性）；Nest/Bounce/Outcome from: 有货；ECO list=25（补采完成）\n- 中文 X：15（补采完成，严重水军污染）\n- B 关键词：跳过\n- 正式里程碑：无"
+    },
+    {
+     "title": "主簇（压缩）",
+     "body_md": "1. Trailing Stops 官宣（S）\n2. Nest TVL $25M ATH（A）\n3. FalconX 买入 vs 内部划转冲突（B）\n4. OI/dayNtl 多口径（A + 非正式 API + 前端 7.2B）\n5. Bounce Week2 + Outcome $100/估值叙事（A）\n6. Manual Borrow $269M 复述无 day-N（余波）\n7. HYPE 高位/FDV/大户浮盈媒体簇（B）"
+    },
+    {
+     "title": "非正式 API（2026-09-22T00:29:21Z）",
+     "body_md": "OI≈$13.67B；dayNtl≈$10.77B；HYPE mark≈$94.085 — **非正式自加总**。前端 7.2B 疑占位。"
+    },
+    {
+     "title": "失败源",
+     "body_md": "hl.eco Turnstile；Discord 不可采；foresight 567；marsbit 根域 TLS；FOCUS 假阴性；中文 X 水军污染；SPA app 空；foundation 空壳。"
+    },
+    {
+     "title": "花费与声明",
+     "body_md": "X：credits $13.26→$12.98，合计约 **$0.28**（含 ECO/中文补采）。**未使用旧快照。** 完整四段见 `/workspace/hl-daily-2026-09-22/phase1-merged.md`。"
+    }
+   ],
+   "body_md": ""
+  }
+ ],
+ "source": {
+  "type": "hl-intel-daily",
+  "label": "HL 情报台日报",
+  "file": "/workspace/hl-daily-2026-09-22/daily-final.md",
+  "file_mtime": "2026-10-07T15:25:01+08:00"
+ },
+ "parse": {
+  "format": "v2-list-fields",
+  "warnings": []
+ }
+}

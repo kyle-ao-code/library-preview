@@ -1,0 +1,239 @@
+{
+ "schema": "hl-morning/v1",
+ "date": "2026-09-30",
+ "updated_at": null,
+ "window": {
+  "start": "2026-09-29T08:11:00+08:00",
+  "end": "2026-09-30T08:11:00+08:00"
+ },
+ "items": [
+  {
+   "title": "众议院监督委员会把预测市场内幕调查扩到 Hyperliquid Labs（一手公函，未认定有罪）",
+   "summary": "本窗监管主信号来自 House Oversight 一手材料。委员会要求 HL Labs 在 2026-10-13 前答复身份验证与异常交易相关材料；这是扩大调查范围，不是有罪认定。",
+   "sources": [
+    {
+     "name": "oversight.house.gov",
+     "url": "https://oversight.house.gov/release/comer-continues-investigation-into-insider-trading-on-online-prediction-market-platforms/"
+    },
+    {
+     "name": "oversight.house.gov",
+     "url": "https://oversight.house.gov/wp-content/uploads/2026/09/Hyperliquid-Letter-9.29.26.pdf"
+    },
+    {
+     "name": "cnbc.com",
+     "url": "https://www.cnbc.com/2026/09/29/comer-house-prediction-market-insider-trading.html"
+    },
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/regulation/2026-09-29-comer-presses-crypto-com-hyperliquid-predictit-identity-checks-suspicious-trades-417192"
+    },
+    {
+     "name": "odaily.news",
+     "url": "https://www.odaily.news/zh-CN/newsflash/521332"
+    },
+    {
+     "name": "@wublockchain12",
+     "url": "https://x.com/wublockchain12/status/2104939847945523543"
+    }
+   ],
+   "flags": [],
+   "ref": {
+    "view": 1,
+    "source_field": "依据"
+   }
+  },
+  {
+   "title": "非正式 OI 约 $12.50B 微升，dayNtl 约 $6.67B 回落约 14%；媒体 OI≈$180 亿勿混读",
+   "summary": "相对昨拍，日名义成交从尖峰回落，未平仓兴趣微升，HYPE 续软。媒体「总 OI≈$180 亿」与 API 自加总不是同一口径，不能对表。",
+   "sources": [
+    {
+     "name": "odaily.news",
+     "url": "https://www.odaily.news/zh-CN/newsflash/521201"
+    },
+    {
+     "name": "hyperliquid.xyz",
+     "url": "https://hyperliquid.xyz"
+    }
+   ],
+   "flags": [],
+   "ref": {
+    "view": 2,
+    "source_field": "依据"
+   }
+  },
+  {
+   "title": "Outcome 转述 SEC FAQ×AF 回购；Share 称 HIP-4 成交达 $100M，WTIOIL 成交逾 $1.1M",
+   "summary": "预测市场侧本窗有产品成交自报，也有 SEC FAQ 叙事升温；FAQ 叙事与众议院调查同窗并存，不能读成「监管已放行」。",
+   "sources": [
+    {
+     "name": "@Outcomexyz",
+     "url": "https://x.com/Outcomexyz/status/2104994687530742152"
+    },
+    {
+     "name": "@Outcomexyz",
+     "url": "https://x.com/Outcomexyz/status/2104979271232188881"
+    },
+    {
+     "name": "@sharexyz",
+     "url": "https://x.com/sharexyz/status/2104943630456590481"
+    }
+   ],
+   "flags": [],
+   "ref": {
+    "view": 3,
+    "source_field": "依据"
+   }
+  },
+  {
+   "title": "生态产品日：BVIV 最高 5x、Legend 破 $1B、Entropy 接 Trust Wallet、Nest 分 500 HYPE、Liquid 称 Oura 推迟但 pre-IPO 涨近 10%",
+   "summary": "本窗生态一手仍以项目方原帖为主，覆盖波动率合约与社交终端成交，也有钱包接入、Vault 奖励和 pre-IPO 永续；S 官号与官站无对应公告。$BVIV 在同次 meta universe 未见同名资产，交叉未闭环。",
+   "sources": [
+    {
+     "name": "@Kinetiq_xyz",
+     "url": "https://x.com/Kinetiq_xyz/status/2104904880611840499"
+    },
+    {
+     "name": "@legendtrade",
+     "url": "https://x.com/legendtrade/status/2105040189345415209"
+    },
+    {
+     "name": "@entropyIO",
+     "url": "https://x.com/entropyIO/status/2104992584968146964"
+    },
+    {
+     "name": "@NestExchange",
+     "url": "https://x.com/NestExchange/status/2104932868023861251"
+    },
+    {
+     "name": "@liquidtrading",
+     "url": "https://x.com/liquidtrading/status/2104919786631139829"
+    },
+    {
+     "name": "odaily.news",
+     "url": "https://www.odaily.news/zh-CN/newsflash/521294"
+    },
+    {
+     "name": "odaily.news",
+     "url": "https://www.odaily.news/zh-CN/post/5213190"
+    }
+   ],
+   "flags": [],
+   "ref": {
+    "view": 4,
+    "source_field": "依据"
+   }
+  },
+  {
+   "title": "中文注意力转向回购复盘与监管两轨；昨日 CZ×HL、销毁、费率/HIP-4 本窗消退",
+   "summary": "过滤后的中文有机帖，主线换成远山「46 天回购复盘」与 SEC FAQ / 众议院调查同框；昨日 CZ 谈 HL 竞争与 UNI vs HYPE 销毁热议本窗基本消退，费率上限与 HIP-4 扩容亦然。",
+   "sources": [
+    {
+     "name": "@Yuanshan0626",
+     "url": "https://x.com/Yuanshan0626/status/2104961102887157951"
+    },
+    {
+     "name": "@0xMaxs",
+     "url": "https://x.com/0xMaxs/status/2105087307221246203"
+    },
+    {
+     "name": "@david1989_zhu",
+     "url": "https://x.com/david1989_zhu/status/2104903920682467659"
+    },
+    {
+     "name": "@wublockchain12",
+     "url": "https://x.com/wublockchain12/status/2104939847945523543"
+    },
+    {
+     "name": "@Outcomexyz",
+     "url": "https://x.com/Outcomexyz/status/2104994687530742152"
+    }
+   ],
+   "flags": [],
+   "ref": {
+    "view": 5,
+    "source_field": "依据"
+   }
+  },
+  {
+   "title": "币安 HYPE 提现预计时点已过多日，本窗仍无「已开放」新 CMS",
+   "summary": "提现时点仍停在 CMS「预计」口径；本窗没有新的开放确认公告。",
+   "sources": [
+    {
+     "name": "binance.com",
+     "url": "https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d"
+    },
+    {
+     "name": "binance.com",
+     "url": "https://www.binance.com/en/support/announcement/detail/1718842b00ee41479c763ef27b6312f0"
+    }
+   ],
+   "flags": [],
+   "ref": {
+    "view": 6,
+    "source_field": "依据"
+   }
+  },
+  {
+   "title": "NEAR：OI 与 dayNtl 回落，mark 升；Strict List 仍无官站 day-N；S 静默，正式里程碑无",
+   "summary": "NEAR 入口故事本窗仍无正式闭环；非正式数字显示 perp OI 与日名义回落，mark 小升。S 三官号与 Docs 窗内静默，无正式里程碑。",
+   "sources": [
+    {
+     "name": "hyperliquid.xyz",
+     "url": "https://hyperliquid.xyz"
+    }
+   ],
+   "flags": [],
+   "ref": {
+    "view": 7,
+    "source_field": "依据"
+   }
+  }
+ ],
+ "disclaimer": "AI 整理，非投资建议",
+ "provenance": {
+  "generator": "build_morning.py 过渡数据（从 daily-final.md 转出）",
+  "file": "/workspace/hl-daily-2026-09-30/daily-final.md"
+ },
+ "_report": {
+  "skipped": [],
+  "long_titles": [
+   {
+    "num": 1,
+    "length": 48,
+    "title": "众议院监督委员会把预测市场内幕调查扩到 Hyperliquid Labs（一手公函，未认定有罪）"
+   },
+   {
+    "num": 2,
+    "length": 59,
+    "title": "非正式 OI 约 $12.50B 微升，dayNtl 约 $6.67B 回落约 14%；媒体 OI≈$180 亿勿混读"
+   },
+   {
+    "num": 3,
+    "length": 65,
+    "title": "Outcome 转述 SEC FAQ×AF 回购；Share 称 HIP-4 成交达 $100M，WTIOIL 成交逾 $1.1M"
+   },
+   {
+    "num": 4,
+    "length": 101,
+    "title": "生态产品日：BVIV 最高 5x、Legend 破 $1B、Entropy 接 Trust Wallet、Nest 分 500 HYPE、Liquid 称 Oura 推迟但 pre-IPO 涨近 10%"
+   },
+   {
+    "num": 5,
+    "length": 42,
+    "title": "中文注意力转向回购复盘与监管两轨；昨日 CZ×HL、销毁、费率/HIP-4 本窗消退"
+   },
+   {
+    "num": 6,
+    "length": 33,
+    "title": "币安 HYPE 提现预计时点已过多日，本窗仍无「已开放」新 CMS"
+   },
+   {
+    "num": 7,
+    "length": 61,
+    "title": "NEAR：OI 与 dayNtl 回落，mark 升；Strict List 仍无官站 day-N；S 静默，正式里程碑无"
+   }
+  ],
+  "no_summary": [],
+  "no_sources": []
+ }
+}

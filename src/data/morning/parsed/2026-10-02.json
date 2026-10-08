@@ -1,0 +1,401 @@
+{
+ "date": "2026-10-02",
+ "title": "过去24h Hyperliquid 情报日报（2026-10-02）",
+ "window": {
+  "raw": "窗：Asia/Shanghai 2026-10-01 08:16 → 2026-10-02 08:16",
+  "start": "2026-10-01 08:16",
+  "end": "2026-10-02 08:16",
+  "tz": "Asia/Shanghai"
+ },
+ "notes": [],
+ "today": [
+  "本窗最大的新信号是 Kinetiq 最终 kPoints 兑现。项目方称可按 $0.26/KNTQ 认购 5000 万枚，窗 10 天；本窗发 3680 万 kPoints。Ascend 同步澄清长期对齐 Kinetiq，并称净协议收入 50% 用于购买 kinetiq:native。中文有「付费买空投」、kHYPE 持有人吃亏的质疑，有机样本偏薄，勿把情绪帖当分配条款。数字侧由昨升转降：非正式 OI 约 $12.53B（↓约 1.83%），dayNtl 约 $5.63B（↓约 20.20%），HYPE mark≈87.775（↓约 2.85%），HYPE 单币 OI 约 $1.81B（↓约 5.90%）。Hyperliquid Policy Center 向欧盟提交 MiCA 咨询反馈，主张链上永续按经济实质归入 MiFID II；一手为 HPC 博客与 PDF，The Block 有覆盖，非 S 层产品公告。Copper 以公关稿宣布上线 HL 永续机构交易界面。解锁叙事由昨「Discord OTC 转述」推进为媒体称链上赎回申请约 3.75M HYPE、到账后常转 Flowdesk；Discord 一手仍不可采，S 官站无交叉，一律标待验证。BVIV 有媒体再传播，同次 API universe 仍不见同名。众议院调查本窗无新公函，答复期限仍 10-13。币安提现仍无「已开放」新 CMS。S 三官号静默。正式里程碑空。"
+ ],
+ "views": [
+  {
+   "num": 1,
+   "title": "Kinetiq 最终 kPoints 已分发：可按 $0.26/KNTQ 认购 5000 万枚，窗 10 天；Ascend 澄清长期对齐并称净收入 50% 购 kinetiq:native",
+   "conclusion": "本窗最抢注意力的一手来自 Kinetiq 积分兑现与 Ascend 对齐澄清。认购价、额度与窗口写在项目方原帖里；公平性质疑仍属中文薄样本。",
+   "why": "@Kinetiq_xyz 宣布最终 kPoints 已分发，可按 $0.26/KNTQ 认购 5000 万枚，窗 10 天，本窗另发 3680 万 kPoints。@AscendLaunch 发帖回应 KNTQ 讨论，澄清与 Kinetiq 长期对齐，并称净协议收入 50% 用于购买 kinetiq:native。相对昨窗 Ascend「回购 50/50 HYPE/KNTQ」声明，本窗语境换成对齐与购 native。中文孤鹤等批「付费买空投」、kHYPE 持有人自认吃亏，互动相对最高，但有机可用约 14 条，样本仍偏薄。S 三官号本窗无对应产品公告。",
+   "basis": "A 事实 — https://x.com/Kinetiq_xyz/status/2105629210048078216 ；https://x.com/AscendLaunch/status/2105751119037391125 ；C 叙事（薄）— https://x.com/GuHype/status/2105770180689420754",
+   "risk": "未领完如何处置、对 kHYPE 是否另有补偿，原帖未在本采集闭环。勿把情绪帖写成已确认的分配条款。禁止买卖建议。",
+   "confidence": "高（「项目方原帖窗内存在」）；低（「公平性质疑是否代表更大持有人群体，及未领完处置」）。",
+   "links": [
+    {
+     "text": "A 事实",
+     "url": "https://x.com/Kinetiq_xyz/status/2105629210048078216",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://x.com/AscendLaunch/status/2105751119037391125",
+     "field": "依据"
+    },
+    {
+     "text": "C 叙事（薄）",
+     "url": "https://x.com/GuHype/status/2105770180689420754",
+     "field": "依据"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [
+    "A",
+    "C"
+   ],
+   "fields": {
+    "结论": "本窗最抢注意力的一手来自 Kinetiq 积分兑现与 Ascend 对齐澄清。认购价、额度与窗口写在项目方原帖里；公平性质疑仍属中文薄样本。",
+    "为什么": "@Kinetiq_xyz 宣布最终 kPoints 已分发，可按 $0.26/KNTQ 认购 5000 万枚，窗 10 天，本窗另发 3680 万 kPoints。@AscendLaunch 发帖回应 KNTQ 讨论，澄清与 Kinetiq 长期对齐，并称净协议收入 50% 用于购买 kinetiq:native。相对昨窗 Ascend「回购 50/50 HYPE/KNTQ」声明，本窗语境换成对齐与购 native。中文孤鹤等批「付费买空投」、kHYPE 持有人自认吃亏，互动相对最高，但有机可用约 14 条，样本仍偏薄。S 三官号本窗无对应产品公告。",
+    "依据": "A 事实 — https://x.com/Kinetiq_xyz/status/2105629210048078216 ；https://x.com/AscendLaunch/status/2105751119037391125 ；C 叙事（薄）— https://x.com/GuHype/status/2105770180689420754",
+    "风险/反证": "未领完如何处置、对 kHYPE 是否另有补偿，原帖未在本采集闭环。勿把情绪帖写成已确认的分配条款。禁止买卖建议。",
+    "置信度": "高（「项目方原帖窗内存在」）；低（「公平性质疑是否代表更大持有人群体，及未领完处置」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：本窗最抢注意力的一手来自 Kinetiq 积分兑现与 Ascend 对齐澄清。认购价、额度与窗口写在项目方原帖里；公平性质疑仍属中文薄样本。\n- **为什么**：@Kinetiq_xyz 宣布最终 kPoints 已分发，可按 $0.26/KNTQ 认购 5000 万枚，窗 10 天，本窗另发 3680 万 kPoints。@AscendLaunch 发帖回应 KNTQ 讨论，澄清与 Kinetiq 长期对齐，并称净协议收入 50% 用于购买 kinetiq:native。相对昨窗 Ascend「回购 50/50 HYPE/KNTQ」声明，本窗语境换成对齐与购 native。中文孤鹤等批「付费买空投」、kHYPE 持有人自认吃亏，互动相对最高，但有机可用约 14 条，样本仍偏薄。S 三官号本窗无对应产品公告。\n- **依据**：A 事实 — https://x.com/Kinetiq_xyz/status/2105629210048078216 ；https://x.com/AscendLaunch/status/2105751119037391125 ；C 叙事（薄）— https://x.com/GuHype/status/2105770180689420754\n- **风险/反证**：未领完如何处置、对 kHYPE 是否另有补偿，原帖未在本采集闭环。勿把情绪帖写成已确认的分配条款。禁止买卖建议。\n- **置信度**：高（「项目方原帖窗内存在」）；低（「公平性质疑是否代表更大持有人群体，及未领完处置」）。"
+  },
+  {
+   "num": 2,
+   "title": "非正式 OI 约 $12.53B、dayNtl 约 $5.63B、HYPE≈87.78 同降；正式里程碑仍无",
+   "conclusion": "相对昨拍，未平仓、日名义成交与 HYPE 价格一并转降。这是非正式 API 拍点对照，不是正式里程碑。",
+   "why": "info API 自加总（拍点 UTC 2026-10-02T00:19:03Z / CST 08:19:03）：OI≈$12.53B（较昨≈$12.76B，↓约 1.83%），dayNtl≈$5.63B（较昨≈$7.06B，↓约 20.20%）。HYPE mark≈87.775（↓约 2.85%），HYPE 单币 OI≈$1.81B（↓约 5.90%）。资产数 234。前端 24H 仍见 7.2B（疑占位）。NEAR perp OI≈$344.8M、mark≈4.824；ONEAR dayNtl≈$8.7M（↑约 29%）。正式里程碑本窗无。降势与 KNTQ/解锁临近同窗，单点拍点禁止写成因果。",
+   "basis": "非正式 API（见同目录 info_api_raw_summary.json）；前端 https://hyperliquid.xyz",
+   "risk": "单日拍点差可能含波动；连续回升或 OI 同步大涨会改写「由升转降」读感。禁止写成「全面熄火」或买卖建议。",
+   "confidence": "高（「本拍相对昨拍的方向与量级」）；低（「降势是否由解锁临近或 KNTQ 叙事驱动」）。",
+   "links": [
+    {
+     "text": "前端",
+     "url": "https://hyperliquid.xyz",
+     "field": "依据"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [],
+   "fields": {
+    "结论": "相对昨拍，未平仓、日名义成交与 HYPE 价格一并转降。这是非正式 API 拍点对照，不是正式里程碑。",
+    "为什么": "info API 自加总（拍点 UTC 2026-10-02T00:19:03Z / CST 08:19:03）：OI≈$12.53B（较昨≈$12.76B，↓约 1.83%），dayNtl≈$5.63B（较昨≈$7.06B，↓约 20.20%）。HYPE mark≈87.775（↓约 2.85%），HYPE 单币 OI≈$1.81B（↓约 5.90%）。资产数 234。前端 24H 仍见 7.2B（疑占位）。NEAR perp OI≈$344.8M、mark≈4.824；ONEAR dayNtl≈$8.7M（↑约 29%）。正式里程碑本窗无。降势与 KNTQ/解锁临近同窗，单点拍点禁止写成因果。",
+    "依据": "非正式 API（见同目录 info_api_raw_summary.json）；前端 https://hyperliquid.xyz",
+    "风险/反证": "单日拍点差可能含波动；连续回升或 OI 同步大涨会改写「由升转降」读感。禁止写成「全面熄火」或买卖建议。",
+    "置信度": "高（「本拍相对昨拍的方向与量级」）；低（「降势是否由解锁临近或 KNTQ 叙事驱动」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：相对昨拍，未平仓、日名义成交与 HYPE 价格一并转降。这是非正式 API 拍点对照，不是正式里程碑。\n- **为什么**：info API 自加总（拍点 UTC 2026-10-02T00:19:03Z / CST 08:19:03）：OI≈$12.53B（较昨≈$12.76B，↓约 1.83%），dayNtl≈$5.63B（较昨≈$7.06B，↓约 20.20%）。HYPE mark≈87.775（↓约 2.85%），HYPE 单币 OI≈$1.81B（↓约 5.90%）。资产数 234。前端 24H 仍见 7.2B（疑占位）。NEAR perp OI≈$344.8M、mark≈4.824；ONEAR dayNtl≈$8.7M（↑约 29%）。正式里程碑本窗无。降势与 KNTQ/解锁临近同窗，单点拍点禁止写成因果。\n- **依据**：非正式 API（见同目录 info_api_raw_summary.json）；前端 https://hyperliquid.xyz\n- **风险/反证**：单日拍点差可能含波动；连续回升或 OI 同步大涨会改写「由升转降」读感。禁止写成「全面熄火」或买卖建议。\n- **置信度**：高（「本拍相对昨拍的方向与量级」）；低（「降势是否由解锁临近或 KNTQ 叙事驱动」）。"
+  },
+  {
+   "num": 3,
+   "title": "HPC 向欧盟提交 MiCA 反馈：主张链上永续归入 MiFID II（一手博客+PDF）",
+   "conclusion": "政策侧本窗有可核一手。Hyperliquid Policy Center 称此为首次美国境外政策呈递，主张按经济实质将永续归入 MiFID II，勿机械套用 CFD 散户限制。咨询反馈不等于已获欧盟分类。",
+   "why": "HPC 博客署 2026-09-30，并附 PDF 回复全文；咨询截止约 09-30。The Block 2026-10-01 长文覆盖，Odaily / CryptoBriefing 有中文与英文转述。口径包括认可公链可验证性以减免重复报告、保障欧盟投资者接入全球流动性。非 S 层产品公告；与众议院监督委员会调查为不同监管轨。众议院一手仍停在 09-29 公函，本窗无新日期材料，答复期限仍 2026-10-13，委员会未认定有罪。",
+   "basis": "A 事实 — https://hyperliquidpolicy.org/blog/hpc-urges-the-european-commission-to-build-on-the-eu%E2%80%99s-existing-rules-for-onchain-markets ；https://hyperliquidpolicy.org/micaresponse/2026-09-30_hpc_mica_review_consultation_response.pdf ；https://www.theblock.co/news/regulation/2026-10-01-hyperliquid-circle-mica-review-417452 ；https://www.odaily.news/zh-CN/newsflash/521907 ；弱续写一手 https://oversight.house.gov/release/comer-continues-investigation-into-insider-trading-on-online-prediction-market-platforms/",
+   "risk": "欧盟若长期无可见回应，叙事会停在「已呈递」层。勿写成「已获 MiFID 分类」。禁止外推成正式合规落地。",
+   "confidence": "高（「HPC 博客、PDF 与 The Block 稿窗内存在」）；低（「是否获实质分类进展」）。",
+   "links": [
+    {
+     "text": "A 事实",
+     "url": "https://hyperliquidpolicy.org/blog/hpc-urges-the-european-commission-to-build-on-the-eu%E2%80%99s-existing-rules-for-onchain-markets",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://hyperliquidpolicy.org/micaresponse/2026-09-30_hpc_mica_review_consultation_response.pdf",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://www.theblock.co/news/regulation/2026-10-01-hyperliquid-circle-mica-review-417452",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://www.odaily.news/zh-CN/newsflash/521907",
+     "field": "依据"
+    },
+    {
+     "text": "弱续写一手",
+     "url": "https://oversight.house.gov/release/comer-continues-investigation-into-insider-trading-on-online-prediction-market-platforms/",
+     "field": "依据"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [
+    "A"
+   ],
+   "fields": {
+    "结论": "政策侧本窗有可核一手。Hyperliquid Policy Center 称此为首次美国境外政策呈递，主张按经济实质将永续归入 MiFID II，勿机械套用 CFD 散户限制。咨询反馈不等于已获欧盟分类。",
+    "为什么": "HPC 博客署 2026-09-30，并附 PDF 回复全文；咨询截止约 09-30。The Block 2026-10-01 长文覆盖，Odaily / CryptoBriefing 有中文与英文转述。口径包括认可公链可验证性以减免重复报告、保障欧盟投资者接入全球流动性。非 S 层产品公告；与众议院监督委员会调查为不同监管轨。众议院一手仍停在 09-29 公函，本窗无新日期材料，答复期限仍 2026-10-13，委员会未认定有罪。",
+    "依据": "A 事实 — https://hyperliquidpolicy.org/blog/hpc-urges-the-european-commission-to-build-on-the-eu%E2%80%99s-existing-rules-for-onchain-markets ；https://hyperliquidpolicy.org/micaresponse/2026-09-30_hpc_mica_review_consultation_response.pdf ；https://www.theblock.co/news/regulation/2026-10-01-hyperliquid-circle-mica-review-417452 ；https://www.odaily.news/zh-CN/newsflash/521907 ；弱续写一手 https://oversight.house.gov/release/comer-continues-investigation-into-insider-trading-on-online-prediction-market-platforms/",
+    "风险/反证": "欧盟若长期无可见回应，叙事会停在「已呈递」层。勿写成「已获 MiFID 分类」。禁止外推成正式合规落地。",
+    "置信度": "高（「HPC 博客、PDF 与 The Block 稿窗内存在」）；低（「是否获实质分类进展」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：政策侧本窗有可核一手。Hyperliquid Policy Center 称此为首次美国境外政策呈递，主张按经济实质将永续归入 MiFID II，勿机械套用 CFD 散户限制。咨询反馈不等于已获欧盟分类。\n- **为什么**：HPC 博客署 2026-09-30，并附 PDF 回复全文；咨询截止约 09-30。The Block 2026-10-01 长文覆盖，Odaily / CryptoBriefing 有中文与英文转述。口径包括认可公链可验证性以减免重复报告、保障欧盟投资者接入全球流动性。非 S 层产品公告；与众议院监督委员会调查为不同监管轨。众议院一手仍停在 09-29 公函，本窗无新日期材料，答复期限仍 2026-10-13，委员会未认定有罪。\n- **依据**：A 事实 — https://hyperliquidpolicy.org/blog/hpc-urges-the-european-commission-to-build-on-the-eu%E2%80%99s-existing-rules-for-onchain-markets ；https://hyperliquidpolicy.org/micaresponse/2026-09-30_hpc_mica_review_consultation_response.pdf ；https://www.theblock.co/news/regulation/2026-10-01-hyperliquid-circle-mica-review-417452 ；https://www.odaily.news/zh-CN/newsflash/521907 ；弱续写一手 https://oversight.house.gov/release/comer-continues-investigation-into-insider-trading-on-online-prediction-market-platforms/\n- **风险/反证**：欧盟若长期无可见回应，叙事会停在「已呈递」层。勿写成「已获 MiFID 分类」。禁止外推成正式合规落地。\n- **置信度**：高（「HPC 博客、PDF 与 The Block 稿窗内存在」）；低（「是否获实质分类进展」）。"
+  },
+  {
+   "num": 4,
+   "title": "Copper 宣布上线 HL 永续机构交易界面；媒体续写 Labs 约 3.75M HYPE 链上赎回、常转 Flowdesk（待验证）",
+   "conclusion": "机构入口有公关一手。解锁叙事相对昨窗推进为「链上赎回申请」口径，并称到账后常转做市商 Flowdesk；Discord 一手仍不可采，S 无交叉，只能标待验证。",
+   "why": "2026-10-01 PR Newswire：Copper 称机构可通过其 API/平台 UI 交易 HL 永续，资产留在非托管 MPC + Policy Engine，并可触达 tradeXYZ（HIP-3）部分标的；一手为 Copper 公关，非 HL 官站公告。Odaily / BlockBeats / BeInCrypto 等续写约 3.75M HYPE（媒体约 $337.5M）申请赎回，预计约 10/7 晚到账；链上监测口径称按历史月度模式到账后常转 Flowdesk。买方、价格与锁仓仍未披露。OTC「不入公开盘」仍依赖此前 Discord 媒体转述；本采集 Discord widget 不可用，官站/Docs/foundation 无对应公告。禁止写成「已确认转 Flowdesk 且无公开盘冲击」。",
+   "basis": "A 公关 — https://www.prnewswire.com/news-releases/copper-launches-hyperliquid-trading-interface-302896102.html ；A 媒体/待验证 — https://www.odaily.news/zh-CN/newsflash/521758 ；https://en.theblockbeats.news/flash/369840 ；https://beincrypto.com/hyperliquid-token-unlock-320-million-price-impact/",
+   "risk": "若链上公开盘出现同源抛压，或赎回/Flowdesk 路径无法核到，叙事会翻转。Copper 公关不等于实际机构用量。禁止买卖建议。",
+   "confidence": "高（「Copper 公关稿与上述媒体续写窗内存在」）；低（「Flowdesk 路径、OTC 不入公开盘是否成立，及机构实际接入量」）。",
+   "links": [
+    {
+     "text": "A 公关",
+     "url": "https://www.prnewswire.com/news-releases/copper-launches-hyperliquid-trading-interface-302896102.html",
+     "field": "依据"
+    },
+    {
+     "text": "A 媒体/待验证",
+     "url": "https://www.odaily.news/zh-CN/newsflash/521758",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://en.theblockbeats.news/flash/369840",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://beincrypto.com/hyperliquid-token-unlock-320-million-price-impact/",
+     "field": "依据"
+    }
+   ],
+   "uncertain": true,
+   "markers": [
+    "待验证"
+   ],
+   "markers_by_field": {
+    "结论": [
+     "待验证"
+    ],
+    "依据": [
+     "待验证"
+    ],
+    "标题": [
+     "待验证"
+    ]
+   },
+   "basis_layers": [
+    "A"
+   ],
+   "fields": {
+    "结论": "机构入口有公关一手。解锁叙事相对昨窗推进为「链上赎回申请」口径，并称到账后常转做市商 Flowdesk；Discord 一手仍不可采，S 无交叉，只能标待验证。",
+    "为什么": "2026-10-01 PR Newswire：Copper 称机构可通过其 API/平台 UI 交易 HL 永续，资产留在非托管 MPC + Policy Engine，并可触达 tradeXYZ（HIP-3）部分标的；一手为 Copper 公关，非 HL 官站公告。Odaily / BlockBeats / BeInCrypto 等续写约 3.75M HYPE（媒体约 $337.5M）申请赎回，预计约 10/7 晚到账；链上监测口径称按历史月度模式到账后常转 Flowdesk。买方、价格与锁仓仍未披露。OTC「不入公开盘」仍依赖此前 Discord 媒体转述；本采集 Discord widget 不可用，官站/Docs/foundation 无对应公告。禁止写成「已确认转 Flowdesk 且无公开盘冲击」。",
+    "依据": "A 公关 — https://www.prnewswire.com/news-releases/copper-launches-hyperliquid-trading-interface-302896102.html ；A 媒体/待验证 — https://www.odaily.news/zh-CN/newsflash/521758 ；https://en.theblockbeats.news/flash/369840 ；https://beincrypto.com/hyperliquid-token-unlock-320-million-price-impact/",
+    "风险/反证": "若链上公开盘出现同源抛压，或赎回/Flowdesk 路径无法核到，叙事会翻转。Copper 公关不等于实际机构用量。禁止买卖建议。",
+    "置信度": "高（「Copper 公关稿与上述媒体续写窗内存在」）；低（「Flowdesk 路径、OTC 不入公开盘是否成立，及机构实际接入量」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：机构入口有公关一手。解锁叙事相对昨窗推进为「链上赎回申请」口径，并称到账后常转做市商 Flowdesk；Discord 一手仍不可采，S 无交叉，只能标待验证。\n- **为什么**：2026-10-01 PR Newswire：Copper 称机构可通过其 API/平台 UI 交易 HL 永续，资产留在非托管 MPC + Policy Engine，并可触达 tradeXYZ（HIP-3）部分标的；一手为 Copper 公关，非 HL 官站公告。Odaily / BlockBeats / BeInCrypto 等续写约 3.75M HYPE（媒体约 $337.5M）申请赎回，预计约 10/7 晚到账；链上监测口径称按历史月度模式到账后常转 Flowdesk。买方、价格与锁仓仍未披露。OTC「不入公开盘」仍依赖此前 Discord 媒体转述；本采集 Discord widget 不可用，官站/Docs/foundation 无对应公告。禁止写成「已确认转 Flowdesk 且无公开盘冲击」。\n- **依据**：A 公关 — https://www.prnewswire.com/news-releases/copper-launches-hyperliquid-trading-interface-302896102.html ；A 媒体/待验证 — https://www.odaily.news/zh-CN/newsflash/521758 ；https://en.theblockbeats.news/flash/369840 ；https://beincrypto.com/hyperliquid-token-unlock-320-million-price-impact/\n- **风险/反证**：若链上公开盘出现同源抛压，或赎回/Flowdesk 路径无法核到，叙事会翻转。Copper 公关不等于实际机构用量。禁止买卖建议。\n- **置信度**：高（「Copper 公关稿与上述媒体续写窗内存在」）；低（「Flowdesk 路径、OTC 不入公开盘是否成立，及机构实际接入量」）。"
+  },
+  {
+   "num": 5,
+   "title": "Nest 发 Q3 报告并开 Epoch 45、推 KNTQ LP→NEST；BVIV 媒体再传播但 universe 仍无名；Onchain Lens 称 24h 销毁约 2.02 万 HYPE（待验证）",
+   "conclusion": "生态产品侧本窗仍有项目方一手；波动率永续与销毁数字停留在媒体/二手层，协议层交叉未闭环。",
+   "why": "@NestExchange 称 Q3 报告上线并指向 Q4/nest 2.0，Epoch 45 开局自称超 $225k NEST 给 LP，并推 KNTQ LP→NEST。HypedLaunches 二手转述 Nest Q3：$25.9M TVL ATH、3886 holders、$1.43M 分给持有人。Nest 原帖未给同等明细，标待验证。Odaily 2026-10-02 再传播 Volmex BVIV 永续上线口径；同次 `metaAndAssetCtxs` universe（234）仍未见 `BVIV`/`xyz:BVIV`。Odaily / Blockchain.News 据 Onchain Lens 称 24h 回购销毁约 2.02 万枚 HYPE / ~$1.8M；hl.eco Turnstile 不可采，未交叉官站销毁面板。昨日 Outcome OI≈93%+AQAV2 倒计时、Share HIP-4 拆单、Multicoin→Coinbase Prime 本窗无同等一手重复。",
+   "basis": "A 事实 — https://x.com/NestExchange/status/2105721141662990751 ；A 二手/待验证 — https://x.com/HypedLaunches/status/2105724269246202354 ；https://www.odaily.news/zh-CN/newsflash/522006 ；https://www.odaily.news/zh-CN/newsflash/521980 ；https://blockchain.news/flashnews/hyperliquid-burns-1-8m-hype-24-hours",
+   "risk": "Nest Q3 明细缺一手报告页交叉前勿升正式。BVIV 在 HIP-3/builder 另口径待核；universe 无名前勿进「已上线主市场」。销毁二手勿作正式里程碑。",
+   "confidence": "高（「Nest 原帖存在，且 universe 未见 BVIV」）；低（「Nest Q3 二手数字精确性、BVIV 主 meta 可交易性、销毁口径」）。",
+   "links": [
+    {
+     "text": "A 事实",
+     "url": "https://x.com/NestExchange/status/2105721141662990751",
+     "field": "依据"
+    },
+    {
+     "text": "A 二手/待验证",
+     "url": "https://x.com/HypedLaunches/status/2105724269246202354",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://www.odaily.news/zh-CN/newsflash/522006",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://www.odaily.news/zh-CN/newsflash/521980",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://blockchain.news/flashnews/hyperliquid-burns-1-8m-hype-24-hours",
+     "field": "依据"
+    }
+   ],
+   "uncertain": true,
+   "markers": [
+    "待验证"
+   ],
+   "markers_by_field": {
+    "为什么": [
+     "待验证"
+    ],
+    "依据": [
+     "待验证"
+    ],
+    "标题": [
+     "待验证"
+    ]
+   },
+   "basis_layers": [
+    "A"
+   ],
+   "fields": {
+    "结论": "生态产品侧本窗仍有项目方一手；波动率永续与销毁数字停留在媒体/二手层，协议层交叉未闭环。",
+    "为什么": "@NestExchange 称 Q3 报告上线并指向 Q4/nest 2.0，Epoch 45 开局自称超 $225k NEST 给 LP，并推 KNTQ LP→NEST。HypedLaunches 二手转述 Nest Q3：$25.9M TVL ATH、3886 holders、$1.43M 分给持有人。Nest 原帖未给同等明细，标待验证。Odaily 2026-10-02 再传播 Volmex BVIV 永续上线口径；同次 `metaAndAssetCtxs` universe（234）仍未见 `BVIV`/`xyz:BVIV`。Odaily / Blockchain.News 据 Onchain Lens 称 24h 回购销毁约 2.02 万枚 HYPE / ~$1.8M；hl.eco Turnstile 不可采，未交叉官站销毁面板。昨日 Outcome OI≈93%+AQAV2 倒计时、Share HIP-4 拆单、Multicoin→Coinbase Prime 本窗无同等一手重复。",
+    "依据": "A 事实 — https://x.com/NestExchange/status/2105721141662990751 ；A 二手/待验证 — https://x.com/HypedLaunches/status/2105724269246202354 ；https://www.odaily.news/zh-CN/newsflash/522006 ；https://www.odaily.news/zh-CN/newsflash/521980 ；https://blockchain.news/flashnews/hyperliquid-burns-1-8m-hype-24-hours",
+    "风险/反证": "Nest Q3 明细缺一手报告页交叉前勿升正式。BVIV 在 HIP-3/builder 另口径待核；universe 无名前勿进「已上线主市场」。销毁二手勿作正式里程碑。",
+    "置信度": "高（「Nest 原帖存在，且 universe 未见 BVIV」）；低（「Nest Q3 二手数字精确性、BVIV 主 meta 可交易性、销毁口径」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：生态产品侧本窗仍有项目方一手；波动率永续与销毁数字停留在媒体/二手层，协议层交叉未闭环。\n- **为什么**：@NestExchange 称 Q3 报告上线并指向 Q4/nest 2.0，Epoch 45 开局自称超 $225k NEST 给 LP，并推 KNTQ LP→NEST。HypedLaunches 二手转述 Nest Q3：$25.9M TVL ATH、3886 holders、$1.43M 分给持有人。Nest 原帖未给同等明细，标待验证。Odaily 2026-10-02 再传播 Volmex BVIV 永续上线口径；同次 `metaAndAssetCtxs` universe（234）仍未见 `BVIV`/`xyz:BVIV`。Odaily / Blockchain.News 据 Onchain Lens 称 24h 回购销毁约 2.02 万枚 HYPE / ~$1.8M；hl.eco Turnstile 不可采，未交叉官站销毁面板。昨日 Outcome OI≈93%+AQAV2 倒计时、Share HIP-4 拆单、Multicoin→Coinbase Prime 本窗无同等一手重复。\n- **依据**：A 事实 — https://x.com/NestExchange/status/2105721141662990751 ；A 二手/待验证 — https://x.com/HypedLaunches/status/2105724269246202354 ；https://www.odaily.news/zh-CN/newsflash/522006 ；https://www.odaily.news/zh-CN/newsflash/521980 ；https://blockchain.news/flashnews/hyperliquid-burns-1-8m-hype-24-hours\n- **风险/反证**：Nest Q3 明细缺一手报告页交叉前勿升正式。BVIV 在 HIP-3/builder 另口径待核；universe 无名前勿进「已上线主市场」。销毁二手勿作正式里程碑。\n- **置信度**：高（「Nest 原帖存在，且 universe 未见 BVIV」）；低（「Nest Q3 二手数字精确性、BVIV 主 meta 可交易性、销毁口径」）。"
+  },
+  {
+   "num": 6,
+   "title": "众议院调查弱续写，答复仍 10-13；币安提现仍无「已开放」新 CMS；S 三官号本窗静默",
+   "conclusion": "监管美线本窗无新公函。币安提现时点仍停在「预计」口径。S 层三官号无新帖。",
+   "why": "众议院监督委员会一手仍为 2026-09-29 新闻稿与公函，本窗 oversight 搜索无新日期材料；回复期限仍 2026-10-13，委员会未认定有罪。Binance catalog48 本窗未见「Withdrawals are now open / 提现已开放」新帖；上线帖仍写提现预计 2026-09-25 11:00 UTC。@HyperliquidX / @chameleon_jeff / @HyperFND 窗内均为真零；昨新加坡 10/5 community event 帖本窗无新。",
+   "basis": "弱续写一手 — https://oversight.house.gov/release/comer-continues-investigation-into-insider-trading-on-online-prediction-market-platforms/ ；https://oversight.house.gov/wp-content/uploads/2026/09/Hyperliquid-Letter-9.29.26.pdf ；CMS — https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d",
+   "risk": "Labs 若公开回应公函，或提现页显示已开，叙事会改写。提现页实态未在本采集直接核到。禁止买卖建议。",
+   "confidence": "高（「无新公函、无新开放 CMS、S 三官号静默这三件事实」）；低（「调查叙事演化、提现已实际开放」）。",
+   "links": [
+    {
+     "text": "弱续写一手",
+     "url": "https://oversight.house.gov/release/comer-continues-investigation-into-insider-trading-on-online-prediction-market-platforms/",
+     "field": "依据"
+    },
+    {
+     "text": null,
+     "url": "https://oversight.house.gov/wp-content/uploads/2026/09/Hyperliquid-Letter-9.29.26.pdf",
+     "field": "依据"
+    },
+    {
+     "text": "CMS",
+     "url": "https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d",
+     "field": "依据"
+    }
+   ],
+   "uncertain": false,
+   "markers": [],
+   "markers_by_field": {},
+   "basis_layers": [],
+   "fields": {
+    "结论": "监管美线本窗无新公函。币安提现时点仍停在「预计」口径。S 层三官号无新帖。",
+    "为什么": "众议院监督委员会一手仍为 2026-09-29 新闻稿与公函，本窗 oversight 搜索无新日期材料；回复期限仍 2026-10-13，委员会未认定有罪。Binance catalog48 本窗未见「Withdrawals are now open / 提现已开放」新帖；上线帖仍写提现预计 2026-09-25 11:00 UTC。@HyperliquidX / @chameleon_jeff / @HyperFND 窗内均为真零；昨新加坡 10/5 community event 帖本窗无新。",
+    "依据": "弱续写一手 — https://oversight.house.gov/release/comer-continues-investigation-into-insider-trading-on-online-prediction-market-platforms/ ；https://oversight.house.gov/wp-content/uploads/2026/09/Hyperliquid-Letter-9.29.26.pdf ；CMS — https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d",
+    "风险/反证": "Labs 若公开回应公函，或提现页显示已开，叙事会改写。提现页实态未在本采集直接核到。禁止买卖建议。",
+    "置信度": "高（「无新公函、无新开放 CMS、S 三官号静默这三件事实」）；低（「调查叙事演化、提现已实际开放」）。"
+   },
+   "field_order": [
+    "结论",
+    "为什么",
+    "依据",
+    "风险/反证",
+    "置信度"
+   ],
+   "body_md": "- **结论**：监管美线本窗无新公函。币安提现时点仍停在「预计」口径。S 层三官号无新帖。\n- **为什么**：众议院监督委员会一手仍为 2026-09-29 新闻稿与公函，本窗 oversight 搜索无新日期材料；回复期限仍 2026-10-13，委员会未认定有罪。Binance catalog48 本窗未见「Withdrawals are now open / 提现已开放」新帖；上线帖仍写提现预计 2026-09-25 11:00 UTC。@HyperliquidX / @chameleon_jeff / @HyperFND 窗内均为真零；昨新加坡 10/5 community event 帖本窗无新。\n- **依据**：弱续写一手 — https://oversight.house.gov/release/comer-continues-investigation-into-insider-trading-on-online-prediction-market-platforms/ ；https://oversight.house.gov/wp-content/uploads/2026/09/Hyperliquid-Letter-9.29.26.pdf ；CMS — https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d\n- **风险/反证**：Labs 若公开回应公函，或提现页显示已开，叙事会改写。提现页实态未在本采集直接核到。禁止买卖建议。\n- **置信度**：高（「无新公函、无新开放 CMS、S 三官号静默这三件事实」）；低（「调查叙事演化、提现已实际开放」）。"
+  }
+ ],
+ "sections": [
+  {
+   "title": "今天怎么看",
+   "subsections": [],
+   "body_md": "本窗最大的新信号是 Kinetiq 最终 kPoints 兑现。项目方称可按 $0.26/KNTQ 认购 5000 万枚，窗 10 天；本窗发 3680 万 kPoints。Ascend 同步澄清长期对齐 Kinetiq，并称净协议收入 50% 用于购买 kinetiq:native。中文有「付费买空投」、kHYPE 持有人吃亏的质疑，有机样本偏薄，勿把情绪帖当分配条款。数字侧由昨升转降：非正式 OI 约 $12.53B（↓约 1.83%），dayNtl 约 $5.63B（↓约 20.20%），HYPE mark≈87.775（↓约 2.85%），HYPE 单币 OI 约 $1.81B（↓约 5.90%）。Hyperliquid Policy Center 向欧盟提交 MiCA 咨询反馈，主张链上永续按经济实质归入 MiFID II；一手为 HPC 博客与 PDF，The Block 有覆盖，非 S 层产品公告。Copper 以公关稿宣布上线 HL 永续机构交易界面。解锁叙事由昨「Discord OTC 转述」推进为媒体称链上赎回申请约 3.75M HYPE、到账后常转 Flowdesk；Discord 一手仍不可采，S 官站无交叉，一律标待验证。BVIV 有媒体再传播，同次 API universe 仍不见同名。众议院调查本窗无新公函，答复期限仍 10-13。币安提现仍无「已开放」新 CMS。S 三官号静默。正式里程碑空。"
+  },
+  {
+   "title": "观点",
+   "subsections": [
+    {
+     "title": "1. Kinetiq 最终 kPoints 已分发：可按 $0.26/KNTQ 认购 5000 万枚，窗 10 天；Ascend 澄清长期对齐并称净收入 50% 购 kinetiq:native",
+     "body_md": "- **结论**：本窗最抢注意力的一手来自 Kinetiq 积分兑现与 Ascend 对齐澄清。认购价、额度与窗口写在项目方原帖里；公平性质疑仍属中文薄样本。\n- **为什么**：@Kinetiq_xyz 宣布最终 kPoints 已分发，可按 $0.26/KNTQ 认购 5000 万枚，窗 10 天，本窗另发 3680 万 kPoints。@AscendLaunch 发帖回应 KNTQ 讨论，澄清与 Kinetiq 长期对齐，并称净协议收入 50% 用于购买 kinetiq:native。相对昨窗 Ascend「回购 50/50 HYPE/KNTQ」声明，本窗语境换成对齐与购 native。中文孤鹤等批「付费买空投」、kHYPE 持有人自认吃亏，互动相对最高，但有机可用约 14 条，样本仍偏薄。S 三官号本窗无对应产品公告。\n- **依据**：A 事实 — https://x.com/Kinetiq_xyz/status/2105629210048078216 ；https://x.com/AscendLaunch/status/2105751119037391125 ；C 叙事（薄）— https://x.com/GuHype/status/2105770180689420754\n- **风险/反证**：未领完如何处置、对 kHYPE 是否另有补偿，原帖未在本采集闭环。勿把情绪帖写成已确认的分配条款。禁止买卖建议。\n- **置信度**：高（「项目方原帖窗内存在」）；低（「公平性质疑是否代表更大持有人群体，及未领完处置」）。"
+    },
+    {
+     "title": "2. 非正式 OI 约 $12.53B、dayNtl 约 $5.63B、HYPE≈87.78 同降；正式里程碑仍无",
+     "body_md": "- **结论**：相对昨拍，未平仓、日名义成交与 HYPE 价格一并转降。这是非正式 API 拍点对照，不是正式里程碑。\n- **为什么**：info API 自加总（拍点 UTC 2026-10-02T00:19:03Z / CST 08:19:03）：OI≈$12.53B（较昨≈$12.76B，↓约 1.83%），dayNtl≈$5.63B（较昨≈$7.06B，↓约 20.20%）。HYPE mark≈87.775（↓约 2.85%），HYPE 单币 OI≈$1.81B（↓约 5.90%）。资产数 234。前端 24H 仍见 7.2B（疑占位）。NEAR perp OI≈$344.8M、mark≈4.824；ONEAR dayNtl≈$8.7M（↑约 29%）。正式里程碑本窗无。降势与 KNTQ/解锁临近同窗，单点拍点禁止写成因果。\n- **依据**：非正式 API（见同目录 info_api_raw_summary.json）；前端 https://hyperliquid.xyz\n- **风险/反证**：单日拍点差可能含波动；连续回升或 OI 同步大涨会改写「由升转降」读感。禁止写成「全面熄火」或买卖建议。\n- **置信度**：高（「本拍相对昨拍的方向与量级」）；低（「降势是否由解锁临近或 KNTQ 叙事驱动」）。"
+    },
+    {
+     "title": "3. HPC 向欧盟提交 MiCA 反馈：主张链上永续归入 MiFID II（一手博客+PDF）",
+     "body_md": "- **结论**：政策侧本窗有可核一手。Hyperliquid Policy Center 称此为首次美国境外政策呈递，主张按经济实质将永续归入 MiFID II，勿机械套用 CFD 散户限制。咨询反馈不等于已获欧盟分类。\n- **为什么**：HPC 博客署 2026-09-30，并附 PDF 回复全文；咨询截止约 09-30。The Block 2026-10-01 长文覆盖，Odaily / CryptoBriefing 有中文与英文转述。口径包括认可公链可验证性以减免重复报告、保障欧盟投资者接入全球流动性。非 S 层产品公告；与众议院监督委员会调查为不同监管轨。众议院一手仍停在 09-29 公函，本窗无新日期材料，答复期限仍 2026-10-13，委员会未认定有罪。\n- **依据**：A 事实 — https://hyperliquidpolicy.org/blog/hpc-urges-the-european-commission-to-build-on-the-eu%E2%80%99s-existing-rules-for-onchain-markets ；https://hyperliquidpolicy.org/micaresponse/2026-09-30_hpc_mica_review_consultation_response.pdf ；https://www.theblock.co/news/regulation/2026-10-01-hyperliquid-circle-mica-review-417452 ；https://www.odaily.news/zh-CN/newsflash/521907 ；弱续写一手 https://oversight.house.gov/release/comer-continues-investigation-into-insider-trading-on-online-prediction-market-platforms/\n- **风险/反证**：欧盟若长期无可见回应，叙事会停在「已呈递」层。勿写成「已获 MiFID 分类」。禁止外推成正式合规落地。\n- **置信度**：高（「HPC 博客、PDF 与 The Block 稿窗内存在」）；低（「是否获实质分类进展」）。"
+    },
+    {
+     "title": "4. Copper 宣布上线 HL 永续机构交易界面；媒体续写 Labs 约 3.75M HYPE 链上赎回、常转 Flowdesk（待验证）",
+     "body_md": "- **结论**：机构入口有公关一手。解锁叙事相对昨窗推进为「链上赎回申请」口径，并称到账后常转做市商 Flowdesk；Discord 一手仍不可采，S 无交叉，只能标待验证。\n- **为什么**：2026-10-01 PR Newswire：Copper 称机构可通过其 API/平台 UI 交易 HL 永续，资产留在非托管 MPC + Policy Engine，并可触达 tradeXYZ（HIP-3）部分标的；一手为 Copper 公关，非 HL 官站公告。Odaily / BlockBeats / BeInCrypto 等续写约 3.75M HYPE（媒体约 $337.5M）申请赎回，预计约 10/7 晚到账；链上监测口径称按历史月度模式到账后常转 Flowdesk。买方、价格与锁仓仍未披露。OTC「不入公开盘」仍依赖此前 Discord 媒体转述；本采集 Discord widget 不可用，官站/Docs/foundation 无对应公告。禁止写成「已确认转 Flowdesk 且无公开盘冲击」。\n- **依据**：A 公关 — https://www.prnewswire.com/news-releases/copper-launches-hyperliquid-trading-interface-302896102.html ；A 媒体/待验证 — https://www.odaily.news/zh-CN/newsflash/521758 ；https://en.theblockbeats.news/flash/369840 ；https://beincrypto.com/hyperliquid-token-unlock-320-million-price-impact/\n- **风险/反证**：若链上公开盘出现同源抛压，或赎回/Flowdesk 路径无法核到，叙事会翻转。Copper 公关不等于实际机构用量。禁止买卖建议。\n- **置信度**：高（「Copper 公关稿与上述媒体续写窗内存在」）；低（「Flowdesk 路径、OTC 不入公开盘是否成立，及机构实际接入量」）。"
+    },
+    {
+     "title": "5. Nest 发 Q3 报告并开 Epoch 45、推 KNTQ LP→NEST；BVIV 媒体再传播但 universe 仍无名；Onchain Lens 称 24h 销毁约 2.02 万 HYPE（待验证）",
+     "body_md": "- **结论**：生态产品侧本窗仍有项目方一手；波动率永续与销毁数字停留在媒体/二手层，协议层交叉未闭环。\n- **为什么**：@NestExchange 称 Q3 报告上线并指向 Q4/nest 2.0，Epoch 45 开局自称超 $225k NEST 给 LP，并推 KNTQ LP→NEST。HypedLaunches 二手转述 Nest Q3：$25.9M TVL ATH、3886 holders、$1.43M 分给持有人。Nest 原帖未给同等明细，标待验证。Odaily 2026-10-02 再传播 Volmex BVIV 永续上线口径；同次 `metaAndAssetCtxs` universe（234）仍未见 `BVIV`/`xyz:BVIV`。Odaily / Blockchain.News 据 Onchain Lens 称 24h 回购销毁约 2.02 万枚 HYPE / ~$1.8M；hl.eco Turnstile 不可采，未交叉官站销毁面板。昨日 Outcome OI≈93%+AQAV2 倒计时、Share HIP-4 拆单、Multicoin→Coinbase Prime 本窗无同等一手重复。\n- **依据**：A 事实 — https://x.com/NestExchange/status/2105721141662990751 ；A 二手/待验证 — https://x.com/HypedLaunches/status/2105724269246202354 ；https://www.odaily.news/zh-CN/newsflash/522006 ；https://www.odaily.news/zh-CN/newsflash/521980 ；https://blockchain.news/flashnews/hyperliquid-burns-1-8m-hype-24-hours\n- **风险/反证**：Nest Q3 明细缺一手报告页交叉前勿升正式。BVIV 在 HIP-3/builder 另口径待核；universe 无名前勿进「已上线主市场」。销毁二手勿作正式里程碑。\n- **置信度**：高（「Nest 原帖存在，且 universe 未见 BVIV」）；低（「Nest Q3 二手数字精确性、BVIV 主 meta 可交易性、销毁口径」）。"
+    },
+    {
+     "title": "6. 众议院调查弱续写，答复仍 10-13；币安提现仍无「已开放」新 CMS；S 三官号本窗静默",
+     "body_md": "- **结论**：监管美线本窗无新公函。币安提现时点仍停在「预计」口径。S 层三官号无新帖。\n- **为什么**：众议院监督委员会一手仍为 2026-09-29 新闻稿与公函，本窗 oversight 搜索无新日期材料；回复期限仍 2026-10-13，委员会未认定有罪。Binance catalog48 本窗未见「Withdrawals are now open / 提现已开放」新帖；上线帖仍写提现预计 2026-09-25 11:00 UTC。@HyperliquidX / @chameleon_jeff / @HyperFND 窗内均为真零；昨新加坡 10/5 community event 帖本窗无新。\n- **依据**：弱续写一手 — https://oversight.house.gov/release/comer-continues-investigation-into-insider-trading-on-online-prediction-market-platforms/ ；https://oversight.house.gov/wp-content/uploads/2026/09/Hyperliquid-Letter-9.29.26.pdf ；CMS — https://www.binance.com/en/support/announcement/detail/d49de208bb6d4a26b02677d7c3d89b5d\n- **风险/反证**：Labs 若公开回应公函，或提现页显示已开，叙事会改写。提现页实态未在本采集直接核到。禁止买卖建议。\n- **置信度**：高（「无新公函、无新开放 CMS、S 三官号静默这三件事实」）；低（「调查叙事演化、提现已实际开放」）。"
+    }
+   ],
+   "body_md": ""
+  },
+  {
+   "title": "社区共鸣点",
+   "subsections": [
+    {
+     "title": "可核情绪线索",
+     "body_md": "1. **最希望核清：KNTQ $0.26 认购规则、未领完如何处置、对 kHYPE 持有人是否公平**  \n   - **证据**：孤鹤等批「付费买空投」；Kinetiq / Ascend 项目方原帖给出认购价与对齐口径；过滤后有机约 14，该线互动相对最高。  \n   - **推断**（非编造情绪）：读者要的是可核 FAQ 与处置规则，未核前不能把「系统性不公」当事实。样本薄。  \n   - **层级**：C（弱）+ A 项目方  \n   - **代表链接**：https://x.com/GuHype/status/2105770180689420754 ；https://x.com/Kinetiq_xyz/status/2105629210048078216\n\n2. **产品注意力从解锁/监管函转向 kPoints 兑现与 Ascend 回购对齐**  \n   - **证据**：Kinetiq claim 与 Ascend 对齐帖为窗内高互动一手；Nest 推 KNTQ LP→NEST；昨日解锁 OTC / 众议院续写本窗基本消退。  \n   - **推断**：有效注意力更集中在可验证的认购与对齐动作，但中文有机深度仍少。样本不足。  \n   - **层级**：A 项目方 + C 弱  \n   - **代表链接**：https://x.com/AscendLaunch/status/2105751119037391125 ；https://x.com/NestExchange/status/2105721141662990751\n\n3. **竞争与监管分类薄样本：Lighter 量、MiFID II 欧盟分类**  \n   - **证据**：Jasonz 等转述 Lighter 量一度反超 HL、HL 寻欧盟 MiFID II 分类；HPC 一手 MiCA 反馈可核，但中文帖多为二手。  \n   - **推断**：竞争叙事与欧盟分类出现，证据薄，不足证伪「已反超」或「已获分类」。**有效中文 X 样本不足。**  \n   - **层级**：C（极弱）+ A 政策一手可交叉  \n   - **代表链接**：https://x.com/Jasonz0830/status/2105805447068590402 ；https://www.theblock.co/news/regulation/2026-10-01-hyperliquid-circle-mica-review-417452\n\n4. **Hayes「最好 DEX≠最好风险回报」二次传播，样本偏薄**  \n   - **证据**：吴说转 KBW 访谈口径；同窗另有薄价格讨论（HYPE 87.7 看跌等）。  \n   - **推断**：估值怀疑论在量能转降窗口被再次翻出，未形成可核主线。**有效中文 X 样本不足。**  \n   - **层级**：C（极弱）  \n   - **代表链接**：https://x.com/wublockchain12/status/2105809997204795478  \n   - **样本说明**：lifestyle hype bot、BTSE 复读、liquid247 流水简报禁止当情绪。"
+    }
+   ],
+   "body_md": "总判断：中文 X 首查约 50 条，污染中等偏重。英文用户名生活方式 bot 把 slang「hype」塞进「好好生活」模板，BTSE「本信息由…小编」销毁复读，liquid247 流水简报仍刷。过滤后有机可用约 14 条，**样本仍偏薄**，禁止写成全社区共识。主有机线落在 KNTQ 认购/「付费空投」争议（孤鹤等，互动相对最高），其次是 Hayes「最好 DEX 但风险回报不如早期」二次传播，以及 Lighter 量 vs HL、MiFID II 欧盟分类的薄二手。昨日解锁 OTC、众议院续写、远山回购本窗基本消退。中文媒体注意力覆盖 HPC MiCA/MiFID 与 Labs 赎回/Flowdesk，也覆盖 Copper 机构界面和销毁二手。相对昨日「解锁/OTC 一手在哪」，本窗有效帖更常碰到「KNTQ $0.26 认购规则清不清、对 kHYPE 公不公平」。"
+  },
+  {
+   "title": "少数派",
+   "subsections": [],
+   "body_md": "- **KNTQ「已确认是付费空投且对 kHYPE 系统性不公」**：情绪帖外推。缺未领完处置与补偿条款交叉前不抬成事实。\n- **解锁「已确认转 Flowdesk 且无公开盘冲击」**：媒体链上监测外推。Discord 一手不可采、赎回/转账地址未核前不抬。\n- **BVIV 已在主 meta 可交易**：媒体再传播有，同次 universe 未见同名；HIP-3/builder 另口径待核前不进「已上线主市场」。\n- **HPC 反馈等于「已获欧盟 MiFID 分类」**：一手是咨询反馈与政策呈递，不等于分类落地。\n- **Onchain Lens 销毁 ~$1.8M / Nest Q3 TVL $25.9M 已是正式里程碑**：二手或项目方自报，hl.eco 不可采、Nest 明细缺一手报告页交叉前不进正式。\n- **前端 7.2B 反映真实 24H 量**：与 API dayNtl≈$5.63B 量级接近，但前端展示长期疑占位，勿单独当量能证据。\n- **Lighter 量已反超 HL**：薄样本二手，缺连续可核成交对照前不进主观点。"
+  },
+  {
+   "title": "附录 · Phase1 素材摘要",
+   "subsections": [],
+   "body_md": "见同目录 `phase1-merged.md`（事件簇 / 主题分布 / 冲突草稿 / 待验证假设 / 关键数字 / 分层计数 / 失败源）。\n\n**本拍非正式**（UTC 2026-10-02T00:19:03Z / CST 08:19:03，234 资产）：OI≈$12.53B；dayNtl≈$5.63B；HYPE mark≈87.775；HYPE OI≈$1.81B；前端 7.2B 疑占位；NEAR perp OI≈$344.8M；ONEAR dayNtl≈$8.7M；universe 未见 BVIV；正式里程碑无。\n\n**采集失败摘要**：Discord widget 不可采（解锁/OTC 无法一手核 DC）；hl.eco Turnstile（销毁不采信）；docs.hyperliquid.xyz DNS（改用 gitbook）；FOCUS list 假阴性；info API perp 429×5+退避后再 429 后 200、spot 429×2 后 200；中文 lifestyle-hype bot / BTSE / liquid247 污染；ECO/C/C+/liquid/Kinetiq 未翻页；B 跳过；S 三官号窗内静默。**未用旧快照。** X 花费约 $0.66。窗外：昨日新加坡 10/5 活动 S 帖 / Outcome OI≈93%·AQAV2 倒计时 / Multicoin→Coinbase Prime / Share HIP-4 拆单 / Ascend 50/50 回购声明语境本窗被 KNTQ 对齐帖取代；众议院一手仍 09-29，答复 10-13。"
+  }
+ ],
+ "source": {
+  "type": "hl-intel-daily",
+  "label": "HL 情报台日报",
+  "file": "/workspace/hl-daily-2026-10-02/daily-final.md",
+  "file_mtime": "2026-10-07T15:25:09+08:00"
+ },
+ "parse": {
+  "format": "v2-list-fields",
+  "warnings": []
+ }
+}
