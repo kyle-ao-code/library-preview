@@ -59,7 +59,7 @@ const href = (d: string) => `${base}morning/${d}/`;
         {issue.tracking?.length > 0 && <p class="tracking">持续跟踪，暂无新进展：{issue.tracking.join('、')}</p>}
         <div class="pager">
           {older ? <a href={href(older)}>← {md(older)}</a> : <span></span>}
-          {newer ? <a href={href(newer)}>{md(newer)} →</a> : <span>下一期明早 8:45 前更新</span>}
+          {newer ? <a href={href(newer)}>{md(newer)} →</a> : <span>下一期明早 8:00 前更新</span>}
         </div>
         {__PREVIEW__ && meta.origin !== 'site.json' && (
           <p class="dev-note">过渡数据：标题是情报台日报观点的原标题，说明是「结论」，出处是「代表链接」；标了待验证、传闻等的 {meta.skipped} 条没放。情报台出 site.json 后自动换成正式数据。</p>
