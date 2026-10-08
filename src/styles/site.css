@@ -165,6 +165,14 @@ a.art:hover{transform:var(--lift-hover);box-shadow:var(--shadow-card-hover)}
 .live:before{content:"";width:6px;height:6px;border-radius:50%;background:#2BB673}
 .items{list-style:none;margin:0;padding:6px 22px}
 .items-empty{padding:18px 22px;font-size:14px;color:var(--c-text-2)}
+/* 晨报空日：撑满栏高、居中（首页和右栏等高，不塌） */
+.m-empty{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:48px 22px;gap:6px}
+.m-empty-t{margin:0;font-size:15px;font-weight:600;color:var(--c-text-2)}
+.m-empty-s{margin:0;font-size:12px;color:var(--c-text-3)}
+.m-empty-a{margin-top:6px;font-size:13px;color:var(--c-text-2)}
+.m-empty-a:hover{color:var(--c-text)}
+.dpage .panel .m-empty{min-height:220px}
+.none-tag{font-size:11px;font-weight:600;color:var(--c-text-3);background:#F0F0EE;border-radius:4px;padding:0 5px;margin-left:6px;vertical-align:1px}
 .it{display:grid;grid-template-columns:22px 1fr;gap:4px 10px;padding:14px 0;border-bottom:1px solid var(--c-divider)}
 .it:last-child{border-bottom:0}
 .it .n{font-size:13px;font-weight:750;color:var(--c-text-3);padding-top:2px;font-variant-numeric:tabular-nums}

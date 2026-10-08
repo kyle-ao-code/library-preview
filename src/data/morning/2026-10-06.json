@@ -31,7 +31,8 @@
     }
    ],
    "flags": [],
-   "title_width": 21
+   "title_width": 21,
+   "file_order": 1
   },
   {
    "title": "「24 小时销毁 1015 万美元」多是援助基金买入",
@@ -51,7 +52,8 @@
     }
    ],
    "flags": [],
-   "title_width": 22
+   "title_width": 22,
+   "file_order": 2
   },
   {
    "title": "375 万枚今天解除质押，10/7 分给团队成员",
@@ -73,7 +75,8 @@
    "flags": [
     "媒体转述"
    ],
-   "title_width": 20
+   "title_width": 20,
+   "file_order": 3
   },
   {
    "title": "Bloomberg Terminal 可看 Hyperliquid 行情",
@@ -91,7 +94,8 @@
    "flags": [
     "媒体转述"
    ],
-   "title_width": 20
+   "title_width": 20,
+   "file_order": 4
   },
   {
    "title": "Polymarket 拿周末收入对比 HYPE 估值",
@@ -109,7 +113,8 @@
    "flags": [
     "项目自述"
    ],
-   "title_width": 18
+   "title_width": 18,
+   "file_order": 5
   },
   {
    "title": "今天有机构论坛和黑客松，Jeff 明天上主舞台",
@@ -121,7 +126,8 @@
     }
    ],
    "flags": [],
-   "title_width": 21
+   "title_width": 21,
+   "file_order": 6
   }
  ],
  "disclaimer": "AI 整理，非投资建议",
@@ -136,6 +142,10 @@
    {
     "level": "info",
     "msg": "往期没有 updated_at，只显示日期"
+   },
+   {
+    "level": "info",
+    "msg": "往期没有 score，按文件顺序"
    }
   ]
  }

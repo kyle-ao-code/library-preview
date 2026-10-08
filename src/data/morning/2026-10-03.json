@@ -25,7 +25,8 @@
    "flags": [
     "项目自述"
    ],
-   "title_width": 22
+   "title_width": 22,
+   "file_order": 1
   },
   {
    "title": "Nest 开 Epoch 45，奖励 400 HYPE",
@@ -47,7 +48,8 @@
    "flags": [
     "项目自述"
    ],
-   "title_width": 16
+   "title_width": 16,
+   "file_order": 2
   }
  ],
  "disclaimer": "AI 整理，非投资建议",
@@ -62,6 +64,10 @@
    {
     "level": "info",
     "msg": "往期没有 updated_at，只显示日期"
+   },
+   {
+    "level": "info",
+    "msg": "往期没有 score，按文件顺序"
    }
   ]
  }

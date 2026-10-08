@@ -14,6 +14,8 @@ const issueFiles = import.meta.glob('./data/morning/[0-9][0-9][0-9][0-9]-[0-9][0
 export const morningIssues: Record<string, any> = Object.fromEntries(Object.entries(issueFiles).map(([k, v]) => [k.match(/(\d{4}-\d{2}-\d{2})\.json$/)![1], v]));
 export const morning = morningIndex as any; // {latest, dates(新→旧), items:[{date, issue_no, ...}]}
 export const morningMeta = (date: string) => morning.items.find((x: any) => x.date === date);
+// 比 date 早、且有条目的最近一期（空日的「看上一期 →」用）；morning.items 是新 → 旧
+export const morningPrevWithItems = (date: string) => morning.items.find((x: any) => x.date < date && x.items > 0)?.date || null;
 export const announcements = announce as any;
 
 const WD = ['周日', '周一', '周二', '周三', '周四', '周五', '周六'];

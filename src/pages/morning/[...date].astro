@@ -4,6 +4,7 @@ import Base from '../../layouts/Base.astro';
 import SiteNav from '../../components/sections/SiteNav.astro';
 import SiteFooter from '../../components/sections/SiteFooter.astro';
 import MorningList from '../../components/MorningList.astro';
+import MorningEmpty from '../../components/MorningEmpty.astro';
 import { morning, morningIssues, morningMeta, navLinks, md, weekday, hm, shortDT } from '../../data';
 import site from '../../site.json';
 
@@ -36,7 +37,7 @@ const href = (d: string) => `${base}morning/${d}/`;
           <>
             <h5 class:list={{ older: g.ds[0].idx >= SHOW }}>{g.label}</h5>
             {g.ds.map(({ d, idx }) => (
-              <a class:list={{ on: d === date, older: idx >= SHOW }} href={href(d)} aria-current={d === date ? 'page' : undefined}>{md(d)}<i>{weekday(d)}</i></a>
+              <a class:list={{ on: d === date, older: idx >= SHOW }} href={href(d)} aria-current={d === date ? 'page' : undefined}><span>{md(d)}{morningMeta(d)?.items === 0 && <b class="none-tag">无</b>}</span><i>{weekday(d)}</i></a>
             ))}
           </>
         ))}
@@ -54,7 +55,7 @@ const href = (d: string) => `${base}morning/${d}/`;
             <span><b>{issue.disclaimer || 'AI 整理，非投资建议'}</b> · 每条附原始出处</span>
           </div>
         </div>
-        <div class="panel"><MorningList items={issue.items} /></div>
+        <div class="panel">{issue.items.length ? <MorningList items={issue.items} /> : <MorningEmpty date={date} />}</div>
         {issue.tracking?.length > 0 && <p class="tracking">持续跟踪，暂无新进展：{issue.tracking.join('、')}</p>}
         <div class="pager">
           {older ? <a href={href(older)}>← {md(older)}</a> : <span></span>}

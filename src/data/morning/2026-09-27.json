@@ -27,7 +27,8 @@
    "flags": [
     "项目自述"
    ],
-   "title_width": 17
+   "title_width": 17,
+   "file_order": 1
   }
  ],
  "disclaimer": "AI 整理，非投资建议",
@@ -42,6 +43,10 @@
    {
     "level": "info",
     "msg": "往期没有 updated_at，只显示日期"
+   },
+   {
+    "level": "info",
+    "msg": "往期没有 score，按文件顺序"
    }
   ]
  }

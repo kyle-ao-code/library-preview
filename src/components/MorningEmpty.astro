@@ -1,0 +1,12 @@
+---
+// 晨报空日（items: []，情报台按 80 分标准没有达标条目）：首页晨报栏和详情页共用。居中三行：主句、灰色说明、「看上一期 →」（最近一期有条目的）
+import { morningPrevWithItems } from '../data';
+const { date } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+const prev = morningPrevWithItems(date);
+---
+<div class="m-empty">
+  <p class="m-empty-t">今日无达标消息</p>
+  <p class="m-empty-s">按 80 分标准筛选，宁缺毋滥</p>
+  {prev && <a class="m-empty-a" href={`${base}morning/${prev}/`}>看上一期 →</a>}
+</div>

@@ -27,7 +27,8 @@
     }
    ],
    "flags": [],
-   "title_width": 15
+   "title_width": 15,
+   "file_order": 1
   },
   {
    "title": "DoubleZero 上线 Hyperliquid 专线光纤行情",
@@ -43,7 +44,8 @@
     }
    ],
    "flags": [],
-   "title_width": 20
+   "title_width": 20,
+   "file_order": 2
   },
   {
    "title": "Paragon 上线美债收益率永续合约",
@@ -61,7 +63,8 @@
    "flags": [
     "项目自述"
    ],
-   "title_width": 15
+   "title_width": 15,
+   "file_order": 3
   },
   {
    "title": "HPC：mandatory records 可留在公链上",
@@ -73,7 +76,8 @@
     }
    ],
    "flags": [],
-   "title_width": 18
+   "title_width": 18,
+   "file_order": 4
   }
  ],
  "disclaimer": "AI 整理，非投资建议",
@@ -88,6 +92,10 @@
    {
     "level": "info",
     "msg": "往期没有 updated_at，只显示日期"
+   },
+   {
+    "level": "info",
+    "msg": "往期没有 score，按文件顺序"
    }
   ]
  }

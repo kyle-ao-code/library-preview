@@ -23,7 +23,8 @@
    "flags": [
     "项目自述"
    ],
-   "title_width": 18
+   "title_width": 18,
+   "file_order": 1
   },
   {
    "title": "Bounce 上线 ENA 杠杆代币",
@@ -45,7 +46,8 @@
    "flags": [
     "项目自述"
    ],
-   "title_width": 12
+   "title_width": 12,
+   "file_order": 2
   },
   {
    "title": "HPC 与 Phantom 向 CFTC 提交评论信",
@@ -61,7 +63,8 @@
     }
    ],
    "flags": [],
-   "title_width": 17
+   "title_width": 17,
+   "file_order": 3
   }
  ],
  "disclaimer": "AI 整理，非投资建议",
@@ -76,6 +79,10 @@
    {
     "level": "info",
     "msg": "往期没有 updated_at，只显示日期"
+   },
+   {
+    "level": "info",
+    "msg": "往期没有 score，按文件顺序"
    }
   ]
  }

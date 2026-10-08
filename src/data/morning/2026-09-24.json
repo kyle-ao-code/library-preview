@@ -23,7 +23,8 @@
     }
    ],
    "flags": [],
-   "title_width": 17
+   "title_width": 17,
+   "file_order": 1
   },
   {
    "title": "NEAR 现货已在 Hyperliquid 部署",
@@ -41,7 +42,8 @@
    "flags": [
     "项目自述"
    ],
-   "title_width": 15
+   "title_width": 15,
+   "file_order": 2
   },
   {
    "title": "Liquid 上线 OURA Pre-IPO 永续合约",
@@ -59,7 +61,8 @@
    "flags": [
     "项目自述"
    ],
-   "title_width": 17
+   "title_width": 17,
+   "file_order": 3
   }
  ],
  "disclaimer": "AI 整理，非投资建议",
@@ -74,6 +77,10 @@
    {
     "level": "info",
     "msg": "往期没有 updated_at，只显示日期"
+   },
+   {
+    "level": "info",
+    "msg": "往期没有 score，按文件顺序"
    }
   ]
  }

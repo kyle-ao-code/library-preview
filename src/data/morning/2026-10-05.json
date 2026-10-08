@@ -29,7 +29,8 @@
    "flags": [
     "媒体转述"
    ],
-   "title_width": 18
+   "title_width": 18,
+   "file_order": 1
   },
   {
    "title": "priority fees 成 HYPE 新销毁来源",
@@ -45,7 +46,8 @@
     }
    ],
    "flags": [],
-   "title_width": 16
+   "title_width": 16,
+   "file_order": 2
   },
   {
    "title": "HyperLink 融资 250 万美元",
@@ -63,7 +65,8 @@
    "flags": [
     "项目自述"
    ],
-   "title_width": 13
+   "title_width": 13,
+   "file_order": 3
   },
   {
    "title": "新加坡社区活动今天开场，Jeff 10/7 上台",
@@ -75,7 +78,8 @@
     }
    ],
    "flags": [],
-   "title_width": 19
+   "title_width": 19,
+   "file_order": 4
   }
  ],
  "disclaimer": "AI 整理，非投资建议",
@@ -90,6 +94,10 @@
    {
     "level": "info",
     "msg": "往期没有 updated_at，只显示日期"
+   },
+   {
+    "level": "info",
+    "msg": "往期没有 score，按文件顺序"
    }
   ]
  }
