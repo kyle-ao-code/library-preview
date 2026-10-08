@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T17:00:55+08:00",
+ "generated_at": "2026-10-08T17:05:18+08:00",
  "window_days": 60,
  "discord_ok": true,
  "discord_problem": null,
@@ -113,7 +113,7 @@
      "channel_id": "1208476333089497189"
     }
    ],
-   "title_zh": "节点运营方需在一周内升级 hl-visor，之后将不兼容新版 hl-node",
+   "title_zh": "节点运营方须一周内升级 hl-visor，否则不兼容新版 hl-node",
    "testnet_only": false,
    "flags": [],
    "title_en": "For node operators running hl-visor: It is important to update to the latest version within the next week."
@@ -177,7 +177,7 @@
      "channel_id": "1030197017655394447"
     }
    ],
-   "title_zh": "Labs 3.75M 枚代币解除质押，10月7日分给团队，场外成交不入公开市场",
+   "title_zh": "Labs 3.75M 代币解除质押，10月7日分给团队，场外成交不入公开市场",
    "testnet_only": false,
    "flags": [],
    "title_en": "3.75M tokens from Hyperliquid Labs will be unstaked today to be distributed to team members on October 7."
@@ -203,7 +203,7 @@
      "name": "Hyperliquid"
     }
    ],
-   "title_zh": "Hyperliquid 社区活动10月5日晚在新加坡举行，仅限报名已通过者",
+   "title_zh": "社区活动10月5日晚在新加坡举行，仅限报名通过者",
    "testnet_only": false,
    "flags": [],
    "title_en": "The Hyperliquid community event will take place on the evening of October 5 in Singapore"
@@ -299,7 +299,7 @@
      "channel_id": "1208476333089497189"
     }
    ],
-   "title_zh": "下次网络升级起，资金费率上限从每小时 4% 降至 0.5%，实际很少触及",
+   "title_zh": "下次升级起资金费率上限每小时 4% 降至 0.5%，实际很少触及",
    "testnet_only": false,
    "flags": [],
    "title_en": "Based on user feedback, on the next network upgrade, funding rate will be capped at 0.5% per hour instead of 4% per hour."
@@ -477,7 +477,7 @@
      "name": "Hyperliquid"
     }
    ],
-   "title_zh": "Hyperliquid 手动借贷已上线，可抵押 HYPE、BTC 借 USDC、USDT",
+   "title_zh": "手动借贷上线，可抵押 HYPE、BTC 借 USDC、USDT",
    "testnet_only": false,
    "flags": [],
    "title_en": "Manual borrows are live on Hyperliquid"
@@ -663,7 +663,7 @@
      "channel_id": "1208476333089497189"
     }
    ],
-   "title_zh": "未来网络升级中 HIP-3 将支持可选许可制市场，现有市场不变，测试网已上线",
+   "title_zh": "HIP-3 将支持可选许可制市场，现有市场不变，已上测试网",
    "testnet_only": false,
    "flags": [],
    "title_en": "In a future network upgrade, HIP-3 will support optional deployer configuration for permissioned markets."
@@ -785,7 +785,7 @@
      "channel_id": "1208476333089497189"
     }
    ],
-   "title_zh": "下次网络升级起开放 HIP-4 无许可部署，模板需验证者投票逐步上线",
+   "title_zh": "下次升级开放 HIP-4 无许可部署，模板由验证者投票陆续上线",
    "testnet_only": false,
    "flags": [],
    "title_en": "HIP-4 permissionless deployments will be enabled on the next network upgrade."
@@ -817,7 +817,7 @@
      "channel_id": "1208476333089497189"
     }
    ],
-   "title_zh": "HIP-4 更新：outcomeDeploy 新增必填顶层 venue 字段，为不兼容变更",
+   "title_zh": "HIP-4 不兼容变更：outcomeDeploy 新增必填顶层 venue 字段",
    "testnet_only": true,
    "flags": [
     "仅测试网"
